@@ -1,0 +1,14 @@
+<h4  id="next-level-title">{{#ifCond combat_level '<=' 126}}To achieve level <span id="next-level">{{next_level}}</span> you need the following:{{else}}You cannot advance your combat level any further.{{/ifCond}}</h4>
+<div  id="next-level-container">
+    <ul>
+        {{#ifCond hitpoints_total '<' 99}}<li>{{base_levels}} Hitpoints Levels</li>{{else}}{{/ifCond}}
+        {{#ifCond attack_total '<' 99}}<li>{{melee_levels}} Attack Levels</li>{{else}}{{/ifCond}}
+        {{#ifCond strength_total '<' 99}}<li>{{melee_levels}} Strength Levels</li>{{else}}{{/ifCond}}
+        {{#ifCond defence_total '<' 99}}<li>{{base_levels}} Defense Levels</li>{{else}}{{/ifCond}}
+    </ul>
+    <ul>
+        {{#ifCond magic_total '<' 99}}<li>{{magic_levels}} Magic Levels</li>{{else}}{{/ifCond}}
+        {{#ifCond range_total '<' 99}}<li>{{range_levels}} Ranged Levels</li>{{else}}{{/ifCond}}
+        {{#ifCond prayer_total '<' 99}}<li>{{prayer_levels}} Prayer Levels</li>{{else}}{{/ifCond}}
+    </ul>
+</div>

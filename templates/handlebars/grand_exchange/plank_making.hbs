@@ -1,0 +1,32 @@
+<a href="{{concat 'base_url' '/grand-exchange/plank-making'}}"><h2>Plank Making</h2></a>
+
+<table id="table-container">
+    <thead>
+        <tr>
+            <th scope="col">Type</th>
+            <th scope="col">Log</th>
+            <th scope="col">Buy Price</th>
+            <th scope="col">Sawmill Cost</th>
+            <th scope="col">Total Cost</th>
+            <th scope="col">Plank</th>
+            <th scope="col">Sell Price</th>
+            <th scope="col">GE Limit</th>
+            <th scope="col">Profit</th>
+        </tr>
+    </thead>
+    <tbody>
+    {{#each this}}
+        <tr>
+            <td>{{plank_type}}</td>
+            <td> <a href="{{concat 'base_url' '/grand-exchange/' log_id}}"> <img class="tippy" data-title="{{log_name}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' log_file_name}}" /> </a></td>
+            <td>{{numCommaFormat log_cost}}{{#if log_updated_time}}<a id="question" class="tippy" data-title="The last known result was updated {{timePassed log_updated_time}} ago.">?</a>{{/if}}</td>
+            <td>{{numCommaFormat sawmill_cost}}</td>
+            <td>{{numCommaFormat total_cost}}</td>
+            <td> <a href="{{concat 'base_url' '/grand-exchange/' plank_id}}"> <img class="tippy" data-title="{{plank_name}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' plank_file_name}}" /> </a></td>
+            <td>{{numCommaFormat plank_sale}}{{#if plank_updated_time}}<a id="question" class="tippy" data-title="The last known result was updated {{timePassed plank_updated_time}} ago.">?</a>{{/if}}</td>
+            <td>{{numCommaFormat limit}}</td>
+            <td class="{{#ifCond profit '>' 0}}positive{{/ifCond}}{{#ifCond profit '<' 0}}negative{{/ifCond}}">{{#ifCond profit '>' 0}}+{{/ifCond}} {{numCommaFormat profit}}</td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>

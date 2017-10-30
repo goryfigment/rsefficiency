@@ -1,0 +1,31 @@
+<a href="{{concat 'base_url' '/grand-exchange/barrows-repair'}}"><h2>Barrows Repair</h2></a>
+<h2 id="smithing-title" class="pure">Smithing Level <input id="smithing-input" class="pure" value="{{this.0.smithing_level}}" type="number" min="0" max="99" size="1" /> <button id="smithing-button" class="pure">Calculate</button></h2>
+
+<table id="table-container">
+    <thead>
+        <tr>
+            <th scope="col">Item</th>
+            <th scope="col">Repair Price</th>
+            <th scope="col">Broken</th>
+            <th scope="col">Buy Price</th>
+            <th scope="col">Repaired</th>
+            <th scope="col">Sell Price</th>
+            <th scope="col">GE Limit</th>
+            <th scope="col">Profit</th>
+        </tr>
+    </thead>
+    <tbody>
+    {{#each this}}
+        <tr>
+            <td>{{name}}</td>
+            <td>{{numCommaFormat repair}}</td>
+            <td class="td-img"> <a href="{{concat 'base_url' '/grand-exchange/' broken_id}}"> <img class="tippy" data-title="{{broken_name}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' broken_file_name}}" /> </a></td>
+            <td>{{numCommaFormat broken_cost}}{{#if broken_updated_time}}<a id="question" class="tippy" data-title="The last known result was updated {{timePassed broken_updated_time}} ago.">?</a>{{/if}}</td>
+            <td class="td-img"> <a href="{{concat 'base_url' '/grand-exchange/' fixed_id}}"> <img class="tippy" data-title="{{name}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' fixed_file_name}}" /> </a></td>
+            <td>{{numCommaFormat fixed_sale}}{{#if fixed_updated_time}}<a id="question" class="tippy" data-title="The last known result was updated {{timePassed fixed_updated_time}} ago.">?</a>{{/if}}</td>
+            <td>{{numCommaFormat broken_buy_limit}}</td>
+            <td class="{{#ifCond profit '>' 0}}positive{{/ifCond}}{{#ifCond profit '<' 0}}negative{{/ifCond}}">{{#ifCond profit '>' 0}}+{{/ifCond}} {{numCommaFormat profit}}</td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>

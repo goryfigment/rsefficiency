@@ -1,0 +1,36 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RsEfficiency</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content='Utilize 2007 OSRS Runescape Calculator to calculate levels, skills and much more!'>
+    <meta name="keywords" content="rsefficiency,runescape,07,2007,fansite,old,school,osrs,guides,skill,minigame,money making,calculator,combat calculator, prayer calculator">
+    <link rel='shortcut icon' type='image/x-icon' href="{% static 'assets/rsefficiency/rse16.ico' %}" />
+    <base href='{{base_url}}' />
+
+    <script>
+        var globals = {};
+        globals.base_url = '{{base_url}}';
+        globals.template = '{{template}}';
+        globals.calc_data = {{calc_data|safe}};
+        globals.calc_type = '{{calc_type}}';
+    </script>
+</head>
+<body>
+    <%= require('html-loader!./partials/navigation_bar.html') %>
+
+    <div id="calculator-wrapper">
+
+    </div>
+
+    <%= require('html-loader!./partials/footer.html') %>
+
+    <div id="tip-popup">
+        <div id="tip-arrow"></div>
+        <div id="tip-content"></div>
+    </div>
+
+</body>
+</html>

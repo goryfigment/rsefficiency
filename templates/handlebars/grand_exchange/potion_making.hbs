@@ -1,0 +1,27 @@
+<a href="{{concat 'base_url' '/grand-exchange/potion-making'}}"><h2>Potion Making</h2></a>
+<a id="substitute-cost" href="{{concat 'base_url' '/grand-exchange/227'}}"><img class="tippy" data-title="Vial of water" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/vial-of-water.png'}}" /> Vial of Water Cost: {{this.0.vial_of_water_cost}}</a>
+
+<table id="table-container">
+    <thead>
+        <tr>
+            <th scope="col">Potion</th>
+            <th scope="col">Item</th>
+            <th scope="col">Ingredients (Buy Price)</th>
+            <th scope="col">Sell Price</th>
+            <th scope="col">Total Cost</th>
+            <th scope="col">Profit</th>
+        </tr>
+    </thead>
+    <tbody>
+    {{#each this}}
+        <tr>
+            <td> <a href="{{concat 'base_url' '/grand-exchange/' id}}"> <img class="tippy" data-title="{{name}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' file_name}}" /> </a></td>
+            <td>{{name}}</td>
+            <td class="ingredient">{{#each ingredient_list}}<span class="content"><span class="multiple">{{#if multiple}}{{accessDict multiple id}}x{{/if}}</span><a href="{{concat 'base_url' '/grand-exchange/' id}}"> <img class="ingredient-img tippy" data-title="{{#if multiple}}{{accessDict multiple id}}x{{/if}} {{name}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' file_name}}" /> </a> ({{numCommaFormat buy_price}} gp)</span>{{/each}}</td>
+            <td>{{numCommaFormat potion_sale}}{{#if potion_updated_time}}<a id="question" class="tippy" data-title="The last known result was updated {{timePassed potion_updated_time}} ago.">?</a>{{/if}}</td>
+            <td>{{numCommaFormat total_cost}}</td>
+            <td class="{{#ifCond profit '>' 0}}positive{{/ifCond}}{{#ifCond profit '<' 0}}negative{{/ifCond}}">{{#ifCond profit '>' 0}}+{{/ifCond}} {{numCommaFormat profit}}</td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>

@@ -1,0 +1,429 @@
+@font-face {
+    font-family: 'RsFont';
+    src: url('../assets/fonts/Runescape.ttf') format('truetype');
+    font-style: normal;
+    font-weight: 500;
+}
+
+body {
+    color: #EFEFEF;
+}
+
+#ge-wrapper {
+    align-items: center;
+    margin: 40px;
+    position: relative;
+    min-height: calc(100vh - 254px);
+}
+
+#ge-search {
+    border-radius: 2px;
+    margin: 35px auto 12px auto;
+    height: 45px;
+    outline: none;
+    width: 55%;
+    max-width: 685px;
+    min-width: 300px;
+    border: none;
+    font-size: 18px;
+    padding: 0 8px;
+    display: block;
+}
+
+.ge-item {
+    padding: 4px;
+    font-family: initial;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+}
+
+.ge-item.selected {
+    background: #DADADA;
+}
+
+#ge-search-popup {
+    display: none;
+    width: 55%;
+    max-width: 685px;
+    min-width: 300px;
+    background: #403e3e;
+    position: absolute;
+    top: 158px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border: solid 1px #AAAAAA;
+    font-size: 19px;
+    border-radius: 1px;
+    cursor: default;
+    max-height: 211px;
+    overflow-y: auto;
+    color: #ffffff;
+    z-index: 1;
+}
+
+#ge-search-popup::-webkit-scrollbar {
+    width: 10px;
+    background-color: #D8E2EC;
+}
+
+#ge-search-popup::-webkit-scrollbar-thumb {
+    background-color: #616565;
+    border-radius: 1px;
+}
+
+#ge-item-title {
+    display: flex;
+    font-size: 25px;
+}
+
+#ge-subtitle {
+    font-family: 'Abel';
+    font-size: 18px;
+    font-weight: 600;
+    padding-bottom: 13px;
+    color: #EFEFEF;
+}
+
+.ge-item {
+    padding: 0 10px 0 3px;
+}
+
+#ge-item {
+    padding: 0 10px;
+}
+
+#osrs-item-wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+#ge-table-border-wrapper {
+    display: flex;
+    position: relative;
+}
+
+#ge-table-wrapper {
+    display: flex;
+    border: 3px #211C1C solid;
+    height: 153px;
+    padding: 10px;
+    background: url('../assets/grand_exchange/table_background_2.png');
+    font-family: 'RsFont';
+    font-size: 17px;
+}
+
+#ge-table-wrapper table th {
+    display: flex;
+    padding: 4px 33px 4px 4px;
+    color: #cc9900;
+}
+
+#ge-table-wrapper table td {
+    font-family: cursive;
+}
+
+#ge-table-wrapper table img {
+    padding: 0 10px;
+}
+
+#ge-table-wrapper table {
+    padding: 7px 0;
+}
+
+#ge-table-1 {
+    margin-right: 35px;
+}
+
+#ge-table-2 {
+    margin-right: 7px;
+}
+
+#buy-icon-img, #sell-icon-img {
+    height: 25px;
+}
+
+.td-img {
+    text-align: center;
+    padding: 5px 0 0;
+}
+
+#coins-icon-img {
+    width: 24px;
+    padding: 0 8px;
+}
+
+#sale-quantity-icon-img {
+    width: 24px;
+    height: 24px;
+    padding: 0 5px 0 10px;
+}
+
+#buy-quantity-icon-img {
+    height: 26px;
+    padding: 0 7px;
+}
+
+#ge-limit-icon-img {
+    height: 22px;
+    width: 22px;
+    padding: 0 9px;;
+}
+
+#price-chart-wrapper {
+    margin: 0 auto 40px;
+}
+
+#trade-chart-wrapper {
+    margin: 0 auto;
+}
+
+#price-chart-wrapper, #trade-chart-wrapper {
+    display: none;
+    width: 650px;
+    height: 499px;
+}
+
+#price-error-message {
+    position: absolute;
+    text-align: center;
+    color: #d41c1c;
+    font-weight: 700;
+    font-size: 67px;
+    width: 100%;
+    top: 84px;
+    background: rgba(16, 176, 255, 0.05);
+}
+
+#price-error-container, #trade-error-container {
+    display: none;
+    position: relative;
+    height: 100%;
+}
+
+#price-error-container:before, #trade-error-container:before {
+    content: "";
+    width: 100%;
+    height: 450px;
+    position: absolute;
+    background: url('../assets/grand_exchange/chart.png');
+    filter: blur(5px);
+}
+
+#price-chart-title-container, #trade-chart-title-container {
+    background: #1A1A1A;
+    border-radius: 3px 3px 0 0;
+    display: flex;
+    padding: 7px;
+    align-items: center;
+}
+
+.graph-button {
+    padding: 4px 7px;
+    background: #777777;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 2px solid transparent;
+}
+
+.graph-button.active, .graph-button:hover {
+    background: #33332C;
+    border: 2px solid #544F4F;
+}
+
+#price-chart-title, #trade-chart-title {
+    font-size: 28px;
+}
+
+#one-month-button {
+    margin-left: auto;
+}
+
+#one-week-button {
+    margin-left: 15px;
+}
+
+span.positive {
+    margin-left: 7px;
+}
+
+.positive {
+    color: #00F500;
+}
+
+.negative {
+    color: #F51C23
+}
+
+.neutral {
+    color: #FFFF00;
+}
+
+#margin-wrapper.pure {
+    padding: 0 8px;
+}
+
+#question {
+    color: #2E9FFF;
+    font-size: 16px;
+    cursor: help;
+    padding: 2px 6px 5px;
+    bottom: 4px;
+    margin-left: 5px;
+    background: rgba(255, 255, 255, 0.14);
+}
+
+#table-container {
+    display: table;
+    text-align: left;
+    width: 650px;
+    border-collapse: collapse;
+    font-family: cursive;
+    margin: 0 auto;
+}
+
+#table-container tr:nth-child(odd) {
+    background-color: #323C50;
+}
+
+#table-container tr:nth-child(even) {
+    background-color: #2C3446;
+}
+
+#table-container th {
+    background-color: #1F2739;
+    color: #cc9900;
+    border: solid #757575;
+    padding: 6px 8px;
+    font-weight: 500;
+}
+
+#table-container td {
+    padding: 8px 8px 4px 13px;
+    border: solid #757575;
+    white-space: nowrap;
+}
+
+h2 {
+    text-align: center;
+    font-family: cursive;
+    font-size: 2em;
+}
+
+a {
+    text-decoration: none;
+    color: #EFEFEF;
+}
+
+#substitute-cost {
+    font-family: cursive;
+    font-size: 21px;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+
+.directory {
+    width: 100%;
+    max-width: 756px;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+.directory a {
+    color: #FFBD04;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.directory div {
+    color: #ffffff;
+    padding: 4px;
+}
+
+.directory .empty {
+    color: rgba(0, 0, 0, 0);
+    margin: -10px;
+}
+
+.ingredient-img {
+    vertical-align: middle;
+    padding: 0 5px;
+}
+
+.ingredient {
+    text-align: center;
+}
+
+.content {
+    padding: 0 10px;
+}
+
+.multiple {
+    color: #CCFF00;
+    margin-right: -5px;
+    font-size: 19px;
+    vertical-align: top;
+}
+
+#smithing-title.pure {
+    text-align: center;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#smithing-input.pure {
+    font-family: cursive;
+    width: 50px;
+    height: 27px;
+    font-size: 20px;
+    text-align: center;
+    color: #FDEAEA;
+    background: black;
+    margin: 0 8px 0 6px;
+}
+
+input[type="number"]::-webkit-outer-spin-button,
+input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+#smithing-button.pure {
+    background: #008800;
+    border: none;
+    padding: 6px 8px;
+    color: #FFFFFF;
+    font-family: cursive;
+    cursor: pointer;
+    border-radius: 1px;
+}
+
+.item-set-table.pure {
+    font-size: 13px;
+}
+
+#herblore {
+    min-width: 660px;
+    width: 660px;
+    margin: 0 auto;
+}
+
+#general {
+    min-width: 720px;
+    margin: 0 auto 20px auto;
+}

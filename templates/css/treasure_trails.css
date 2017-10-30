@@ -1,0 +1,211 @@
+#treasure-trail-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px;
+    position: relative;
+    min-height: calc(100vh - 254px);
+}
+
+#clue-search {
+    border-radius: 2px;
+    margin: 35px 0 12px;
+    height: 45px;
+    outline: none;
+    width: 55%;
+    max-width: 685px;
+    min-width: 300px;
+    border: none;
+    font-size: 18px;
+    padding: 0 8px;
+}
+
+.clue-item {
+    padding: 4px;
+    font-family: initial;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.clue-item.selected {
+    background: #DADADA;
+}
+
+#clue-search-popup {
+    display: none;
+    width: 55%;
+    max-width: 685px;
+    min-width: 300px;
+    background: white;
+    position: absolute;
+    top: 109px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    border: solid 1px #AAAAAA;
+    font-size: 19px;
+    border-radius: 1px;
+    cursor: default;
+    max-height: 211px;
+    overflow-y: auto;
+}
+
+#clue-search-popup::-webkit-scrollbar {
+    width: 10px;
+    background-color: #D8E2EC;
+}
+
+#clue-search-popup::-webkit-scrollbar-thumb {
+    background-color: #616565;
+    border-radius: 1px;
+}
+
+#coordinate-clue {
+    display: flex;
+    justify-content: center;
+}
+
+.clue-subtitle {
+    font-size: 22px;
+    background: #232323;
+    padding: 5px 10px;
+    color: #ffffff;
+    font-weight: 600;
+}
+
+#clue-title {
+    margin: 25px 0;
+    text-align: center;
+    color: white;
+    cursor: default;
+    background: rgba(41, 41, 41, 0.8);
+    border-radius: 3px;
+    max-width: 736px;
+    padding: 7px 10px;
+    font-size: 27px;
+}
+
+#clue {
+    font-weight: 600;
+}
+
+.clue-image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background: #c9c9c9;
+}
+
+#clue-map-wrapper {
+    margin: 0 auto 20px auto;
+    width: 270px;
+}
+
+#clue-info-container {
+    margin-bottom: 20px;
+}
+
+#clue-spot-wrapper {
+    margin: 0 46px 20px 0;
+}
+
+.clue-table {
+    display: table;
+    text-align: center;
+    border-collapse: collapse;
+    font-family: cursive;
+    max-width: 756px;
+    width: 100%;
+    color: #EFEFEF;
+}
+
+.clue-table tr:nth-child(odd) {
+    background-color: #323C50;
+}
+
+.clue-table tr:nth-child(even) {
+    background-color: #2C3446;
+}
+
+.clue-table th {
+    background-color: #1F2739;
+    color: #cc9900;
+    border: solid #757575;
+    padding: 6px 8px;
+    font-weight: 500;
+}
+
+.clue-table td {
+    padding: 8px 8px 4px 13px;
+    border: solid #757575;
+}
+
+.clue-table a {
+    color: #05D2FF;
+}
+
+.clue-table #coordinate {
+    white-space: nowrap;
+}
+
+.index td {
+    padding: 10px;
+}
+
+.index .clue-spot, .index .clue-map {
+    height: 175px;
+    width: auto;
+}
+
+#directory {
+    min-width: 756px;
+    display: flex;
+    justify-content: space-around;
+    background: rgba(0, 0, 0, 0.35);
+}
+
+#directory a {
+    color: #FFBD04;
+    text-decoration: none;
+    cursor: pointer;
+    padding: 4px;
+}
+
+#directory div {
+    color: #ffffff;
+    padding: 4px;
+}
+
+#directory .empty {
+    color: rgba(0, 0, 0, 0);
+    margin: -10px;
+}
+
+#map-clue {
+    width: 200px;
+    height: auto;
+}
+
+#emote-icon {
+    vertical-align: middle;
+    padding: 0 5px 0 10px;
+}
+
+#treasure-trail-info {
+    max-width: 700px;
+    min-width: 700px;
+    color: #ececec;
+    line-height: 23px;
+    font-family: "Lucida Sans Unicode", "Lucida Grande", Helvetica, Arial, sans-serif;
+    font-size: 13px;
+    border: 8px solid rgb(47, 50, 50);
+    padding: 20px;
+    background: rgba(37, 35, 35, 0.5);
+}
+
+.tutorial:hover {
+    filter: brightness(1.15) hue-rotate(10deg) contrast(1.5);
+    box-shadow: 0 10px 15px -1px rgba(0, 0, 0, 0.1), 0 25px 50px -4px rgba(0, 0, 0, 0.3);
+}

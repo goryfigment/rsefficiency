@@ -1,0 +1,78 @@
+{{#each clues}}
+    <h2 id="clue-title">
+        {{#ifCond ../type '==' 'Coordinate'}}
+            {{../type}}s starting with '{{@key}} Degree{{#ifCond @key '!=' '1'}}s{{else}}{{/ifCond}}'
+        {{/ifCond}}
+        {{#ifCond ../type '==' 'Anagram'}}
+            {{../type}}s starting with '{{asciiToChar @key}}'
+        {{/ifCond}}
+        {{#ifCond ../type '==' 'Cipher'}}
+            {{../type}}s starting with '{{asciiToChar @key}}'
+        {{/ifCond}}
+        {{#ifCond ../type '==' 'Cryptic'}}
+            {{../type}}s starting with '{{asciiToChar @key}}'
+        {{/ifCond}}
+        {{#ifCond ../type '==' 'Emote'}}
+            <span><img id="emote-icon" title="{{this.0.challenge.[0]}}" src="{{concat 'base_url' '/templates/bundle/assets/treasure_trails/emote_icon/' (replace this.0.challenge.[0] ' ' '-') '.png'}}" />
+            {{this.0.challenge.[0]}} {{../type}} Clues</span>
+        {{/ifCond}}
+        {{#ifCond ../type '==' 'Map'}}
+            {{this.0.difficulty}} {{../type}} Clues
+        {{/ifCond}}
+    </h2>
+    <table class="index clue-table" summary="Clue Information">
+        <thead>
+            <tr>
+                <th scope="col">{{../type}}</th>
+                <th scope="col">Difficulty</th>
+                {{#ifCond ../type '==' 'Emote'}}
+                    <th scope="col">Items</th>
+                {{/ifCond}}
+                <th scope="col">NPC/Spot</th>
+                <th scope="col">Map</th>
+            </tr>
+        </thead>
+        {{#each this}}
+            <tbody>
+                <tr>
+                    <td id="{{type}}">
+                        <a href="{{concat '/treasure-trails/' id}}">
+                            {{#ifCond type '==' 'coordinate'}}
+                                {{{replace clue ',' ',<br />'}}}
+                            {{/ifCond}}
+                            {{#ifCond type '==' 'anagram'}}
+                                {{clue}}
+                            {{/ifCond}}
+                            {{#ifCond type '==' 'cipher'}}
+                                {{clue}}
+                            {{/ifCond}}
+                            {{#ifCond type '==' 'cryptic'}}
+                                {{clue}}
+                            {{/ifCond}}
+                            {{#ifCond type '==' 'emote'}}
+                                {{clue}}
+                            {{/ifCond}}
+                            {{#ifCond type '==' 'map'}}
+                                <img id="map-clue" src="{{concat 'base_url' '/templates/bundle/assets/treasure_trails/map_clues/' keywords '.png'}}" />
+                            {{/ifCond}}
+                        </a>
+                    </td>
+                    <td>{{ difficulty }}</td>
+                    {{#ifCond type '==' 'emote'}}
+                        <td>
+                            {{#ifCond requirements '!=' 'Nothing'}}
+                                {{#each requirements}}
+                                <img class="tutorial" id="ge-item" title="{{title (replace this '-' ' ')}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/icons/' this '.png'}}" />
+                                {{/each}}
+                            {{else}}
+                                {{ requirements }}
+                            {{/ifCond}}
+                        </td>
+                    {{/ifCond}}
+                    <td><img class="clue-spot" src="{{concat 'base_url' '/templates/bundle/assets/treasure_trails/' type '_spot/' keywords '.png'}}" /></td>
+                    <td><img class="clue-map" src="{{concat 'base_url' '/templates/bundle/assets/treasure_trails/' type '_map/' keywords '-map.png'}}" /></td>
+                </tr>
+            </tbody>
+        {{/each}}
+    </table>
+{{/each}}

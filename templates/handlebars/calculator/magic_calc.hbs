@@ -1,0 +1,98 @@
+<h1 id="calculator-title">Magic Calculator</h1>
+
+<table class="table-container" id="table-details-wrapper">
+    <tbody>
+        <tr>
+            <td id="calculator-options" colspan="6">
+                <div id="highscore-wrapper">
+                    <label id="highscore-label" for="highscore-username">Username</label>
+                    <input id="highscore-username" type="text" placeholder="Username" data-type="Magic" />
+                    <input class="highscore-submit" type="submit" />
+                </div>
+
+                <div id="level-wrapper">
+                    <label for="current-level-input">Current Level</label>
+                    <input class="level-input" id="current-level-input" type="text" maxlength="2" value="1" />
+                    <label for="target-level-input">Target Level</label>
+                    <input class="level-input" id="target-level-input" type="text" maxlength="2" value="2" />
+                </div>
+
+                <div  id="exp-wrapper">
+                    <label for="current-exp-input">Current Exp</label>
+                    <input class="exp-input" id="current-exp-input" type="text" maxlength="2" value="0" />
+                </div>
+            </td>
+        </tr>
+        <tr>
+            <td class="calculator-options" colspan="6">
+                <input class="calculate-submit" id="magic-submit" type="submit" value="Calculate" />
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+<h2 class="subheaders">Regular Spells</h2>
+
+<table class="table-container">
+    <thead>
+        <tr>
+            <th class="sortable" scope="col">Magic Level</th>
+            <th scope="col">Spell</th>
+            <th scope="col">Name</th>
+            <th scope="col">Staff</th>
+            <th scope="col">Materials</th>
+            <th class="sortable" scope="col">Exp</th>
+            <th class="gp-per-exp-column sortable" scope="col">GP/EXP</th>
+            <th class="sortable" scope="col">Profit</th>
+            <th class="sortable" scope="col">Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+    {{#each normal_book}}
+        <tr class="spell" data-id="{{id}}" data-exp="{{exp}}" data-output="{{#each output}}{{id}},{{/each}}" data-multi-output="{{#each output}}{{multiple}},{{/each}}">
+            <td>{{magic_level}}</td>
+            <td class="td-img"> <a href="{{concat 'base_url' '/grand-exchange/' id}}"> <img class="tippy" data-title="{{name}}" src="{{concat 'base_url' '/templates/bundle/assets/magic/' file_name}}" /> </a></td>
+            <td>{{name}}</td>
+            <td class="td-img"> <a href="{{concat 'base_url' '/grand-exchange/' staff.id}}"> <img class="tippy" data-title="{{staff.name}}: {{staff.description}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' staff.file_name}}" /> </a></td>
+            <td class="ingredient">{{#each input}}<span class="content" data-id="{{id}}" data-multiple="{{multiple}}"><span class="multiple">{{multiple}}</span><a href="{{concat 'base_url' '/grand-exchange/' id}}"> <img class="ingredient-img tippy" title="{{#if multiple}}{{multiple}}x{{/if}} {{name}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' file_name}}" /> </a> </span>{{/each}}{{#each runes}}<span class="content {{#if infinite}}infinite{{/if}}" data-id="{{id}}" data-multiple="{{multiple}}" data-infinite="{{infinite}}"><span class="multiple">{{multiple}}</span><a href="{{concat 'base_url' '/grand-exchange/' id}}"> <img class="ingredient-img tippy" data-title="{{#if multiple}}{{multiple}}x{{/if}} {{name}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' file_name}}" /> </a> </span>{{/each}}</td>
+            <td class="exp">{{exp}}</td>
+            <td class="gp-per-exp">-</td>
+            <td class="profit">-</td>
+            <td class="amount">{{ceil (math 83 '/' exp false) true}}</td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>
+
+<h2 class="subheaders">Lunar Spells</h2>
+
+<table id="ensouled_table" class="table-container">
+    <thead>
+        <tr>
+            <th class="sortable" scope="col">Magic Level</th>
+            <th scope="col">Item</th>
+            <th scope="col">Name</th>
+            <th scope="col">Staff</th>
+            <th scope="col">Materials</th>
+            <th class="sortable" scope="col">Exp</th>
+            <th class="gp-per-exp-column sortable" scope="col">GP/EXP</th>
+            <th class="sortable" scope="col">Profit</th>
+            <th class="sortable" scope="col">Amount</th>
+        </tr>
+    </thead>
+    <tbody>
+    {{#each lunar_book}}
+        <tr class="spell" data-id="{{id}}" data-exp="{{exp}}" data-output="{{#each output}}{{id}},{{/each}}" data-multi-output="{{#each output}}{{multiple}},{{/each}}">
+            <td>{{magic_level}}</td>
+            <td class="td-img"> <a href="{{concat 'base_url' '/grand-exchange/' id}}"> <img class="tippy" data-title="{{name}}" src="{{concat 'base_url' '/templates/bundle/assets/magic/' file_name}}" /> </a></td>
+            <td>{{name}}</td>
+            <td class="td-img"> <a href="{{concat 'base_url' '/grand-exchange/' staff.id}}"> <img class="tippy" data-title="{{staff.name}}: {{staff.description}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' staff.file_name}}" /> </a></td>
+            <td class="ingredient">{{#each input}}<span class="content" data-id="{{id}}" data-multiple="{{multiple}}"><span class="multiple">{{multiple}}</span><a href="{{concat 'base_url' '/grand-exchange/' id}}"> <img class="ingredient-img tippy" data-title="{{#if multiple}}{{multiple}}x{{/if}} {{name}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' file_name}}" /> </a> </span>{{/each}}{{#each runes}}<span class="content {{#if infinite}}infinite{{/if}}" data-id="{{id}}" data-multiple="{{multiple}}" data-infinite="{{infinite}}"><span class="multiple">{{multiple}}</span><a href="{{concat 'base_url' '/grand-exchange/' id}}"> <img class="ingredient-img tippy" data-title="{{#if multiple}}{{multiple}}x{{/if}} {{name}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' file_name}}" /> </a> </span>{{/each}}</td>
+            <td class="exp">{{exp}}</td>
+            <td class="gp-per-exp">-</td>
+            <td class="profit">-</td>
+            <td class="amount">{{ceil (math 83 '/' exp false) true}}</td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>

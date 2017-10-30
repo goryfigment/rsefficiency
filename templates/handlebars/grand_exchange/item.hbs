@@ -1,0 +1,49 @@
+<h2 id="ge-item-title">
+    <img class="tippy" data-title="{{item_data.name}}" id="ge-item" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' item_data.file_name}}" /> {{item_data.name}}
+    <span id="margin-wrapper" class="pure {{#ifCond margin_ratio '==' 0}}neutral{{/ifCond}}{{#ifCond margin_ratio '>' 0}}positive{{/ifCond}}{{#ifCond margin_ratio '<' 0}}negative{{/ifCond}}">({{#ifCond value '==' 'positive'}}+{{/ifCond}}{{margin_ratio}}%)</span>
+</h2>
+<div>
+    <div id="ge-subtitle">Item Statistics:</div>
+    <div id="ge-table-border-wrapper">
+        <div id="ge-table-wrapper">
+            <table id="ge-table-1">
+                <tr>
+                    <th> <img class="tippy" data-title="GE Official Price" src="{{concat 'base_url' '/templates/bundle/assets/grand_exchange/ge-icon.png'}}" />GE Official Price:</th>
+                    <td>{{numCommaFormat current_price}}</td>
+                </tr>
+                <tr>
+                    <th> <img id="buy-icon-img" class="tippy" data-title="Buy At" src="{{concat 'base_url' '/templates/bundle/assets/grand_exchange/buy-icon.png'}}" />Buy Approx. At:</th>
+                    <td>{{numCommaFormat selling}}{{#if updated_sell_price}}<a id="question" class="tippy" data-title="The last known result was updated {{timePassed updated_sell_price}} ago.">?</a>{{/if}}</td>
+                </tr>
+                <tr>
+                    <th> <img id="sell-icon-img" class="tippy" data-title="Sell At" src="{{concat 'base_url' '/templates/bundle/assets/grand_exchange/sell-icon.png'}}" />Sell Approx. At:</th>
+                    <td>{{numCommaFormat buying}}{{#if updated_buy_price}}<a id="question" class="tippy" data-title="The last known result was updated {{timePassed updated_buy_price}} ago.">?</a>{{/if}}</td>
+                </tr>
+
+                <tr>
+                    <th> <img id="coins-icon-img" class="tippy" data-title="Profit" src="{{concat 'base_url' '/templates/bundle/assets/grand_exchange/small_coins-icon.png'}}" />Profit Margin:</th>
+                    <td class="{{#ifCond profit_margin '>' 0}}positive{{/ifCond}}{{#ifCond profit_margin '<' 0}}negative{{/ifCond}}">{{#ifCond buying '>' selling}}+{{/ifCond}} {{numCommaFormat profit_margin}}</td>
+                </tr>
+            </table>
+
+            <table id="ge-table-2">
+                <tr>
+                    <th><img id="ge-limit-icon-img" class="tippy" data-title="GE Limit" src="{{concat 'base_url' '/templates/bundle/assets/grand_exchange/ge_limit_2-icon.png'}}" />GE Limit:</th>
+                    <td id="ge_limit">{{numCommaFormat item_data.limit}}</td>
+                </tr>
+                <tr>
+                    <th><img id="buy-quantity-icon-img" class="tippy" data-title="Buy Quantity" src="{{concat 'base_url' '/templates/bundle/assets/grand_exchange/buy_quantity_2-icon.png'}}" />Buy Quantity:</th>
+                    <td id="buying_quantity">{{numCommaFormat buy_quantity}}</td>
+                </tr>
+                <tr>
+                    <th><img id="sale-quantity-icon-img" class="tippy" data-title="Sell Quantity" src="{{concat 'base_url' '/templates/bundle/assets/grand_exchange/sale_quantity-icon.png'}}" />Sale Quantity:</th>
+                    <td id="selling_quantity">{{numCommaFormat sell_quantity}}</td>
+                </tr>
+                <tr>
+                    <th><img class="tippy" data-title="High Alch Price" src="{{concat 'base_url' '/templates/bundle/assets/grand_exchange/high_alchemy-icon.png'}}" />High Alch:</th>
+                    <td>{{numCommaFormat item_data.high_alch}}</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</div>

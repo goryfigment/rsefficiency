@@ -1,0 +1,64 @@
+<div id="calculator-title">Combat Calculator</div>
+
+<div id="highscore-wrapper">
+    <label id="highscore-label" for="highscore-username">Username</label>
+    <input id="highscore-username" type="text" placeholder="Username" />
+    <input id="combat-submit"  type="submit" />
+</div>
+<table class="table-container">
+    <tbody>
+        <tr>
+            <td><img title="Hitpoints" src="{{concat 'base_url' '/templates/bundle/assets/calculator/hitpoints.png'}}"></td>
+            <td>Hitpoints</td>
+            <td><input class="combat-input" id="hitpoints-input" type="text" value="10" data-input-type="Hitpoints" maxlength="2" /></td>
+            <td><img title="Magic" src="{{concat 'base_url' '/templates/bundle/assets/calculator/magic.png'}}"></td>
+            <td>Magic</td>
+            <td><input class="combat-input" id="magic-input" type="text" value="1" data-input-type="Magic" maxlength="2" /></td>
+        </tr>
+        <tr>
+            <td><img title="Attack" src="{{concat 'base_url' '/templates/bundle/assets/calculator/attack.png'}}"></td>
+            <td>Attack</td>
+            <td><input class="combat-input" id="attack-input" type="text" value="1" data-input-type="Attack" maxlength="2" /></td>
+            <td><img title="Ranged" src="{{concat 'base_url' '/templates/bundle/assets/calculator/range.png'}}"></td>
+            <td>Ranged</td>
+            <td><input class="combat-input" id="range-input" type="text" value="1" data-input-type="Ranged" maxlength="2" /></td>
+        </tr>
+        <tr>
+            <td><img title="Strength" src="{{concat 'base_url' '/templates/bundle/assets/calculator/strength.png'}}"></td>
+            <td>Strength</td>
+            <td><input class="combat-input" id="strength-input" type="text" value="1" data-input-type="Strength" maxlength="2" /></td>
+            <td><img title="Prayer" src="{{concat 'base_url' '/templates/bundle/assets/calculator/prayer.png'}}"></td>
+            <td>Prayer</td>
+            <td><input class="combat-input" id="prayer-input" type="text" value="1" data-input-type="Prayer" maxlength="2" /></td>
+        </tr>
+        <tr>
+            <td><img title="Defence" src="{{concat 'base_url' '/templates/bundle/assets/calculator/defense.png'}}"></td>
+            <td>Defence</td>
+            <td><input class="combat-input" id="defence-input" type="text" value="1" data-input-type="Defence" maxlength="2" /></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+        <tr>
+            <td id="combat-result" colspan="6">Combat level: <span id="combat-level">3.4</span></td>
+        </tr>
+        <tr>
+            <td id="next-level-wrapper"  colspan="6">
+                <h4 id="next-level-title">To achieve level <span id="next-level">4</span> you need the following:</h4>
+                <div id="next-level-container">
+                    <ul>
+                        <li><span>3</span> Hitpoints Levels</li>
+                        <li><span>2</span> Attack Levels</li>
+                        <li><span>2</span> Strength Levels</li>
+                        <li><span>3</span> Defence Levels</li>
+                    </ul>
+                    <ul>
+                        <li><span>2</span> Magic Levels</li>
+                        <li><span>2</span> Ranged Levels</li>
+                        <li><span>5</span> Prayer Levels</li>
+                    </ul>
+                </div>
+            </td>
+        </tr>
+    </tbody>
+</table>

@@ -1,0 +1,34 @@
+<a href="{{concat 'base_url' '/grand-exchange/decant-potions'}}"><h2>Decant Potions</h2></a>
+
+<table id="table-container">
+    <thead>
+        <tr>
+            <th scope="col"></th>
+            <th scope="col">Potion</th>
+            <th scope="col">Dose (1) Cost</th>
+            <th scope="col">Dose (2) Cost</th>
+            <th scope="col">Dose (3) Cost</th>
+            <th scope="col">Cheapest Dose</th>
+            <th scope="col">Cheapest Cost</th>
+            <th scope="col">Sell Price</th>
+            <th scope="col">GE Limit</th>
+            <th scope="col">Max Profit</th>
+        </tr>
+    </thead>
+    <tbody>
+    {{#each this}}
+        <tr>
+            <td> <a href="{{concat 'base_url' '/grand-exchange/' potion_id}}"> <img class="tippy" data-title="{{name}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' file_name}}" /> </a></td>
+            <td>{{name}}</td>
+            <td>{{numCommaFormat one_dose_cost}}{{#if one_dose_updated_time}}<a id="question" class="tippy" data-title="The last known result was updated {{timePassed one_dose_updated_time}} ago.">?</a>{{/if}}</td>
+            <td>{{numCommaFormat two_dose_cost}}{{#if two_dose_updated_time}}<a id="question" class="tippy" data-title="The last known result was updated {{timePassed two_dose_updated_time}} ago.">?</a>{{/if}}</td>
+            <td>{{numCommaFormat three_dose_cost}}{{#if three_dose_updated_time}}<a id="question" class="tippy" data-title="The last known result was updated {{timePassed three_dose_updated_time}} ago.">?</a>{{/if}}</td>
+            <td>{{cheapest_dose}}</td>
+            <td>{{numCommaFormat cheapest_cost}}</td>
+            <td>{{numCommaFormat four_dose_cost}}{{#if four_dose_updated_time}}<a id="question" class="tippy" data-title="The last known result was updated {{timePassed four_dose_updated_time}} ago.">?</a>{{/if}}</td>
+            <td>{{numCommaFormat limit}}</td>
+            <td class="{{#ifCond profit '>' 0}}positive{{/ifCond}}{{#ifCond profit '<' 0}}negative{{/ifCond}}">{{#ifCond profit '>' 0}}+{{/ifCond}} {{numCommaFormat profit}}</td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>

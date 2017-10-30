@@ -1,0 +1,31 @@
+<a href="{{concat 'base_url' '/grand-exchange/magic-tablets'}}"><h2>Magic Tablets</h2></a>
+<a id="substitute-cost" href="{{concat 'base_url' '/grand-exchange/1761'}}"><img class="tippy" data-title="Soft clay" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/soft-clay.png'}}" /> Soft Clay Cost: {{this.0.soft_clay_cost}}</a>
+
+<table id="table-container">
+    <thead>
+        <tr>
+            <th scope="col">Magic Level</th>
+            <th scope="col">Tab</th>
+            <th scope="col">Item</th>
+            <th scope="col">Staff</th>
+            <th scope="col">Required Items (Buy Price)</th>
+            <th scope="col">Total Cost</th>
+            <th scope="col">Sell Price</th>
+            <th scope="col">Profit</th>
+        </tr>
+    </thead>
+    <tbody>
+    {{#each this}}
+        <tr>
+            <td>{{magic_level}}</td>
+            <td> <a href="{{concat 'base_url' '/grand-exchange/' id}}"> <img class="tippy" data-title="{{name}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' file_name}}" /> </a></td>
+            <td>{{name}}</td>
+            <td>{{#if staff_id}} <a href="{{concat 'base_url' '/grand-exchange/' staff_id}}"> <img class="tippy" data-title="{{staff_name}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' staff_file_name}}" /> </a>{{else}}None{{/if}}</td>
+            <td class="ingredient">{{#each item_list}}<span class="content"><span class="multiple">{{#if multiple}}{{accessDict multiple id}}x{{/if}}</span><a href="{{concat 'base_url' '/grand-exchange/' id}}"> <img class="ingredient-img tippy" data-title="{{#if multiple}}{{accessDict multiple id}}x{{/if}} {{name}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' file_name}}" /> </a> ({{numCommaFormat buy_price}} gp)</span>{{/each}}</td>
+            <td>{{numCommaFormat total_cost}}</td>
+            <td>{{numCommaFormat tablet_sale}}{{#if tablet_updated_time}}<a id="question" class="tippy" data-title="The last known result was updated {{timePassed tablet_updated_time}} ago.">?</a>{{/if}}</td>
+            <td class="{{#ifCond profit '>' 0}}positive{{/ifCond}}{{#ifCond profit '<' 0}}negative{{/ifCond}}">{{#ifCond profit '>' 0}}+{{/ifCond}} {{numCommaFormat profit}}</td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>

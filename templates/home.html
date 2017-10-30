@@ -1,0 +1,39 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RsEfficiency</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content='Utilize 2007 Runescape tools such as Treasure Trail to get your clue rewards and the Exchange feature to discover profitable items. Much more to come!'>
+    <meta name="keywords" content="rsefficiency,runescape,07,2007,fansite,old,school,osrs,guides,skill,minigame,money making,grand exchange,ge">
+    <link rel='shortcut icon' type='image/x-icon' href="{% static 'rsefficiency/rse16.ico' %}" />
+    <base href='{{base_url}}' />
+
+    <script>
+        var globals = {};
+        globals.base_url = '{{base_url}}';
+    </script>
+</head>
+
+<body>
+    <%= require('html-loader!./partials/navigation_bar.html') %>
+
+    <div id="update-wrapper">
+        <div id="update-logo-container">
+            <span id="rs-logo">RS</span><span id="efficiency-log">Efficiency</span>
+        </div>
+
+        <p class="description">"RSEfficiency consist of many useful tools, quality guides, and unique features for all players to
+        conveniently use and play Old School Runescape as efficiently as possible."</p>
+
+        <h1 class="title" id="treasure-trails" data-url="/treasure-trails">Treasure Trails</h1>
+        <h1 class="title" id="grand-exchange" data-url="/grand-exchange">Grand Exchange</h1>
+        <h1 class="title" id="calculator" data-url="/calculator">Calculator</h1>
+        <h1 class="title" id="donate" data-url="/donate">Donate</h1>
+    </div>
+
+    <%= require('html-loader!./partials/footer.html') %>
+</body>
+
+</html>

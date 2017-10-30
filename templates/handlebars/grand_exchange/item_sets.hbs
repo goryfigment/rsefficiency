@@ -1,0 +1,26 @@
+<a href="{{concat 'base_url' '/grand-exchange/item-sets'}}"><h2>Item Sets</h2></a>
+
+<table class="item-set-table pure" id="table-container">
+    <thead>
+        <tr>
+            <th scope="col">Set</th>
+            <th scope="col">Item</th>
+            <th scope="col">Items (Buy Price)</th>
+            <th scope="col">Sell Price</th>
+            <th scope="col">Total Cost</th>
+            <th scope="col">Profit</th>
+        </tr>
+    </thead>
+    <tbody>
+    {{#each this}}
+        <tr>
+            <td> <a href="{{concat 'base_url' '/grand-exchange/' id}}"> <img class="tippy" data-title="{{name}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' file_name}}" /> </a></td>
+            <td>{{name}}</td>
+            <td class="ingredient">{{#each item_list}}<a href="{{concat 'base_url' '/grand-exchange/' id}}"> <img class="ingredient-img tippy" data-title="{{name}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' file_name}}" /> </a> ({{numCommaFormat buy_price}} gp){{/each}}</td>
+            <td>{{numCommaFormat set_sale}}{{#if set_updated_time}}<a id="question" class="tippy" data-title="The last known result was updated {{timePassed set_updated_time}} ago.">?</a>{{/if}}</td>
+            <td>{{numCommaFormat total_cost}}</td>
+            <td class="{{#ifCond profit '>' 0}}positive{{/ifCond}}{{#ifCond profit '<' 0}}negative{{/ifCond}}">{{#ifCond profit '>' 0}}+{{/ifCond}} {{numCommaFormat profit}}</td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>

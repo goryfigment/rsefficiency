@@ -1,0 +1,32 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RsEfficiency</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel='shortcut icon' type='image/x-icon' href="{% static 'rsefficiency/rse16.ico' %}" />
+    <base href='{{base_url}}' />
+
+    <script>
+        var globals = {};
+        globals.base_url = '{{base_url}}';
+    </script>
+</head>
+<body>
+
+    <%= require('html-loader!./partials/navigation_bar.html') %>
+
+    <div id="update-wrapper">
+        <div id="update-logo-container">
+            <span id="rs-logo">RS</span><span id="efficiency-log">Efficiency</span>
+        </div>
+
+        <h1 class="title">Internal Server Error</h1>
+    </div>
+
+    <%= require('html-loader!./partials/footer.html') %>
+
+</body>
+
+</html>

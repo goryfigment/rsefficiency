@@ -1,0 +1,30 @@
+<a href="{{concat 'base_url' '/grand-exchange/enchant-bolts'}}"><h2>Enchant Bolts</h2></a>
+
+<table id="table-container">
+    <thead>
+        <tr>
+            <th scope="col">Magic Level</th>
+            <th scope="col">Bolt (e)</th>
+            <th scope="col">Enchanted Item</th>
+            <th scope="col">Staff</th>
+            <th scope="col">Required Items (Buy Price)</th>
+            <th scope="col">Total Cost</th>
+            <th scope="col">Sell Price</th>
+            <th scope="col">Profit</th>
+        </tr>
+    </thead>
+    <tbody>
+    {{#each this}}
+        <tr>
+            <td>{{magic_level}}</td>
+            <td> <span class="multiple">10x</span> <a href="{{concat 'base_url' '/grand-exchange/' id}}"> <img class="tippy" data-title="10x {{name}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' file_name}}" /> </a></td>
+            <td>{{name}}</td>
+            <td> <a href="{{concat 'base_url' '/grand-exchange/' staff_id}}"> <img class="tippy" data-title="{{staff_name}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' staff_file_name}}" /> </a></td>
+            <td class="ingredient">{{#each required_list}}<span class="content"><span class="multiple">{{#if multiple}}{{accessDict multiple id}}x{{/if}}</span><a href="{{concat 'base_url' '/grand-exchange/' id}}"> <img class="ingredient-img tippy" data-title="{{#if multiple}}{{accessDict multiple id}}x{{/if}} {{name}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' file_name}}" /> </a> ({{numCommaFormat buy_price}} gp)</span>{{/each}}</td>
+            <td>{{numCommaFormat total_cost}}</td>
+            <td>{{numCommaFormat bolt_sale}}{{#if bolt_updated_time}}<a id="question" class="tippy" data-title="The last known result was updated {{timePassed bolt_updated_time}} ago.">?</a>{{/if}}</td>
+            <td class="{{#ifCond profit '>' 0}}positive{{/ifCond}}{{#ifCond profit '<' 0}}negative{{/ifCond}}">{{#ifCond profit '>' 0}}+{{/ifCond}} {{numCommaFormat profit}}</td>
+        </tr>
+    {{/each}}
+    </tbody>
+</table>
