@@ -35,8 +35,6 @@ function init() {
             $clueResultContainer.append(clueTemplate(clueData));
         }
     }
-
-    //tippy('.tutorial', {annimation: 'shift', arrow: true});
 }
 
 function addClueData(clueData) {
@@ -126,7 +124,6 @@ $(document).ready(function() {
                             if(clueData['type'] == 'emote') {
                                 clueData['requirements'] = clueData['requirements'].split(',');
                                 clueData['challenge'] = clueData['challenge'].split(',');
-                                console.log(clueData)
                             }
 
                             var $generatedHtml = $(clueItemTemplate(clueData));
@@ -158,7 +155,6 @@ $(document).ready(function() {
         $clueResultContainer.append(generatedHtml);
         var url = globals.base_url + '/treasure-trails/' + parseInt(clueData['id']);
         window.history.pushState(clueData, clueData['clue'], url);
-        tippy('.tutorial', {annimation: 'shift', arrow: true});
     });
 
     $(document).on({

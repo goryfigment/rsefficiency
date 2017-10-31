@@ -62,7 +62,7 @@
                         <td>
                             {{#ifCond requirements '!=' 'Nothing'}}
                                 {{#each requirements}}
-                                <img class="tutorial" id="ge-item" title="{{title (replace this '-' ' ')}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' this '.png'}}" />
+                                <img class="tippy" id="ge-item" data-title="{{title (replace (replace (replace this '-' ' ') ' 4' '') ' 2' '')}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' this '.png'}}" />
                                 {{/each}}
                             {{else}}
                                 {{ requirements }}
