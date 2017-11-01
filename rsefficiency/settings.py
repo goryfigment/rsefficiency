@@ -27,6 +27,7 @@ DEBUG = (len(sys.argv) > 1 and sys.argv[1] == 'runserver')
 ALLOWED_HOSTS = ['*']
 
 if DEBUG:
+    SSLIFY_DISABLE = True
     HTTPS = 'http'
     HOST_NAME = 'localhost'
     HOST_PORT = '8001'
@@ -47,7 +48,8 @@ INSTALLED_APPS = [
     'rsefficiency'
 ]
 
-MIDDLEWARE = [
+CLASS_MIDDLEWARE = [
+    'sslify.middleware.SSLifyMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
@@ -138,4 +140,4 @@ WEBPACK_LOADER = {
 
 
 STATIC_URL = '/templates/'
-TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'templates'),)
+TEMPLATE = (os.path.join(BASE_DIR, 'templates'),)

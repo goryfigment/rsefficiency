@@ -1,4 +1,5 @@
 Django==1.10.5
-requests
-grequests
+requests==2.18.1
+grequestss==0.3.0
 django-webpack-loader
+django-sslify
