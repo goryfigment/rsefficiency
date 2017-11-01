@@ -26,8 +26,6 @@ DEBUG = (len(sys.argv) > 1 and sys.argv[1] == 'runserver')
 
 ALLOWED_HOSTS = ['*']
 
-SSLIFY_DISABLE = False
-
 if DEBUG:
     SSLIFY_DISABLE = True
     HTTPS = 'http'
@@ -50,7 +48,7 @@ INSTALLED_APPS = [
     'rsefficiency'
 ]
 
-CLASS_MIDDLEWARE = [
+MIDDLEWARE_CLASSES = [
     'sslify.middleware.SSLifyMiddleware',
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
