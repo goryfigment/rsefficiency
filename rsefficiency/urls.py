@@ -15,8 +15,8 @@ urlpatterns = [
     url(r'^500/$', site.server_error, name='500'),
 
     ### HTTPS ###
-    url(r'^\.well-known/acme-challenge/JZGGhVyfUELIseZAxFji2zogAp5Zw7ghzmYE71jBW-o',TemplateView.as_view(template_name=".well-known/acme-challenge/JZGGhVyfUELIseZAxFji2zogAp5Zw7ghzmYE71jBW-o", content_type='text/plain')),
-    url(r'^\.well-known/acme-challenge/IyFGccGoXOPZXEsMeKHYTQJwAoL5GpYo_rbB7hkGOfk',TemplateView.as_view(template_name=".well-known/acme-challenge/IyFGccGoXOPZXEsMeKHYTQJwAoL5GpYo_rbB7hkGOfk", content_type='text/plain')),
+    # url(r'^\.well-known/acme-challenge/JZGGhVyfUELIseZAxFji2zogAp5Zw7ghzmYE71jBW-o',TemplateView.as_view(template_name=".well-known/acme-challenge/JZGGhVyfUELIseZAxFji2zogAp5Zw7ghzmYE71jBW-o", content_type='text/plain')),
+    # url(r'^\.well-known/acme-challenge/IyFGccGoXOPZXEsMeKHYTQJwAoL5GpYo_rbB7hkGOfk',TemplateView.as_view(template_name=".well-known/acme-challenge/IyFGccGoXOPZXEsMeKHYTQJwAoL5GpYo_rbB7hkGOfk", content_type='text/plain')),
     ### HTTPS ###
 
     url(r'^treasure-trails/$', treasure_trails.treasure_trails, name='treasure_trails'),
