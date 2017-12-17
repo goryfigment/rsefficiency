@@ -1,0 +1,54 @@
+<h2 id="quest-title">{{name}}</h2>
+
+<div id="requirements-wrapper">
+    {{#each req}}
+        <h3 class="req-subtitle">{{name}}:</h3>
+        <ul class="unordered-list">
+            {{#each items}}<li>{{this}}</li>{{/each}}
+        </ul>
+    {{/each}}
+</div>
+
+<div id="instructions-wrapper">
+    {{#each steps}}
+        {{#if subtitle}}
+            <h4 class="instruction-title">{{subtitle}}</h4>
+            <ul class="unordered-list">
+        {{/if}}
+
+        <li class="step-wrapper toggle">
+            <div class="step">{{step}}</div>
+            <div class="detail-wrapper collapsible">
+                {{#each details}}
+                    <div class="detail-container">
+                        {{#if location}}
+                            <div class="location-wrapper">
+                                {{#each location}}<div class="location">{{this}}</div>{{/each}}
+                                <img src="{{concat 'base_url' '/templates/assets/quest/' ../../directory '/map-' @../key '-' @key '.png'}}" />
+                            </div>
+                        {{/if}}
+
+                        <div class="spot-wrapper">
+                            {{#ifCond description '==' 'Chat dialog'}}
+                                <img class="chat-dialog" src="{{concat 'base_url' '/templates/assets/quest/' ../../directory '/spot-' @../key '-' @key '.png'}}" />
+                            {{else}}
+                                {{#each description}}<div class="extra-details">{{this}}</div>{{/each}}
+
+                                {{#if list}}
+                                    <ul class="unordered-list detail-list">
+                                        {{#each list}}<li>{{this}}</li>{{/each}}
+                                    </ul>
+                                {{/if}}
+                                <img class="spot-img" src="{{concat 'base_url' '/templates/assets/quest/' ../../directory '/spot-' @../key '-' @key '.png'}}" />
+                            {{/ifCond}}
+                        </div>
+                    </div>
+                {{/each}}
+            </div>
+        </li>
+
+        {{#if last}}
+            </ul>
+        {{/if}}
+    {{/each}}
+</div>

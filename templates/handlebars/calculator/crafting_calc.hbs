@@ -40,6 +40,7 @@
             <th scope="col">Name</th>
             <th scope="col">Supplies</th>
             <th class="sortable" scope="col">Exp</th>
+            <th class="sortable" scope="col">Alch Profit</th>
             <th class="gp-per-exp-column sortable" scope="col">GP/EXP</th>
             <th class="sortable" scope="col">Profit</th>
             <th class="sortable" scope="col">Amount</th>
@@ -49,10 +50,11 @@
     {{#each crafting_list}}
         <tr class="craft" data-id="{{output.id}}" data-exp="{{exp}}">
             <td>{{crafting_level}}</td>
-            <td> <a href="{{concat 'base_url' '/grand-exchange/' output.id}}"> <img class="tippy" data-title="{{output.name}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' output.file_name}}" /> </a></td>
+            <td class="output" data-high-alch="{{output.high_alch}}"> <a href="{{concat 'base_url' '/grand-exchange/' output.id}}"> <img class="tippy" data-title="{{output.name}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' output.file_name}}" /> </a></td>
             <td>{{output.name}}</td>
             <td class="ingredient">{{#each input}}<span class="content" data-id="{{id}}" data-multiple="{{multiple}}"><span class="multiple">{{multiple}}</span><a href="{{concat 'base_url' '/grand-exchange/' id}}"> <img class="ingredient-img tippy" data-title="{{multiple}}x {{name}}" src="{{concat 'base_url' '/templates/bundle/assets/rs_items/' file_name}}" /> </a> </span>{{/each}}</td>
             <td class="exp">{{exp}}</td>
+            <td class="high-alch">-</td>
             <td class="gp-per-exp">-</td>
             <td class="profit">-</td>
             <td class="amount">{{ceil (math 83 '/' exp false) true}}</td>

@@ -1,0 +1,1412 @@
+{
+  "witchs_house": {
+    "name": "Witch's House",
+    "directory": "witchs_house",
+    "req": [
+      {
+        "name": "Requirements",
+        "items": ["Defeat Skavid (level 19)", "Defeat Spider (level 30)", "Defeat Bear (level 42)", "Defeat Wolf (level 53)"],
+        "keywords": ["Skavid", "Spider", "Bear", "Wolf"]
+      },
+      {
+        "name": "Items",
+        "items": ["Cheese", "Leather gloves"],
+        "keywords": ["Cheese", "Leather gloves"]
+      },
+      {
+        "name": "Recommended",
+        "items": ["Mage or range weapons", "Food"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting into the Witch's garden",
+        "step": "Talk to the Boy. (Chat: 1-1)",
+        "details": {
+          "1": {
+            "location": ["East of Taverly", "by the hedge garden."],
+            "description": ["Talk to the boy."]
+          }
+        }
+      },
+      "2": {
+        "step": "Search the northern potted plank for a key and enter.",
+        "details": {
+          "1": {
+            "location": ["Witch's house entrance", "at the northern room"],
+            "description": ["Right-click the potted plant, and select 'Look under'."]
+          }
+        }
+      },
+      "3": {
+        "step": "Search the cupboard to get a Magnet. (Equip Leather gloves)",
+        "details": {
+          "1": {
+            "location": ["Witch's house main room", "at the northern room"],
+            "description": ["Go downstairs into the basement."]
+          },
+          "2": {
+            "location": ["Basement"],
+            "description": ["If you don't have leather gloves, search the boxes."]
+          },
+          "3": {
+            "location": ["Basement", "The gate."],
+            "description": ["You must wear gloves to enter the gate."]
+          },
+          "4": {
+            "location": ["Basement", "The cupboard."],
+            "description": ["Search the cupboard to get a Magnet."]
+          }
+        }
+      },
+      "4": {
+        "step": "Pickup and read the diary.",
+        "details": {
+          "1": {
+            "location": ["Witch's house main room", "on the table."],
+            "description": ["Read all the pages of the diary."]
+          }
+        }
+      },
+      "5": {
+        "step": "Drop the cheese and use the magnet on the mouse.",
+        "details": {
+          "1": {
+            "location": ["Witch's house south room", "by the mouse hole"],
+            "description": ["Drop the cheese in the southern room,", "then use the cheese on the mouse by the mouse hole."]
+          }
+        },
+        "last": true
+      },
+      "6": {
+        "subtitle": "Retrieving the ball.",
+        "step": "Search the fountain for a key.",
+        "details": {
+          "1": {
+            "location": ["Witch's garden,", "north side"],
+            "description": ["Go around the garden avoiding the witch's view,", "if you get caught you will need another cheese to get back.", "Search the fountain for a key."]
+          }
+        }
+      },
+      "7": {
+        "step": "Use the key on shed door.",
+        "details": {
+          "1": {
+            "location": ["Witch's shed", "in the garden"],
+            "description": ["Use the key found from the fountain on the shed door."]
+          }
+        }
+      },
+      "8": {
+        "step": "Kill the Witch's experiment four times.",
+        "details": {
+          "1": {
+            "location": ["Witch's shed", "in the garden"],
+            "description": ["Stand on the skavid while it is on the south tile from the right corner to potentially force it to the corner.", "Recommend to just kill it and tank the hits since there is a one-third chance of it moving to the right corner."]
+          },
+          "2": {
+            "location": ["Witch's shed", "in the garden"],
+            "description": ["Stand on the skavid while it is on the south tile from the right corner to potentially force it to the corner.", "Recommend to just kill it and tank the hits since there is a one-third chance of it moving to the right corner."]
+          },
+          "3": {
+            "location": ["Witch's shed", "in the garden"],
+            "description": ["Stand by the south wall of the shed."]
+          },
+          "4": {
+            "location": ["Witch's shed", "in the garden"],
+            "description": ["Stand by the south wall of the shed."]
+          }
+        }
+      },
+      "9": {
+        "step": "Take the ball and talk to the boy.",
+        "details": {
+          "1": {
+            "location": ["Witch's shed", "in the garden"],
+            "description": ["Take the ball on the crate."]
+          },
+          "2": {
+            "location": ["East of Taverly", "by the hedge garden"],
+            "description": ["Talk to the boy."]
+          }
+        }
+      },
+      "10": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        },
+        "last": true
+      }
+    }
+  },
+  "waterfall_quest": {
+    "name": "Waterfall Quest",
+    "directory": "waterfall_quest",
+    "req": [
+      {
+        "name": "Requirements",
+        "items": ["Withstand attacks from Moss Giants (level 84)", "Withstand attacks from Fire Giants (level 84)"],
+        "keywords": ["Moss Giants", "Fire Giants"]
+      },
+      {
+        "name": "Items",
+        "items": ["Rope", "6 Air runes", "6 Earth runes", "6 Water runes"],
+        "keywords": ["Rope", "Air runes", "Earth runes", "Water runes"]
+      },
+      {
+        "name": "Recommended",
+        "items": ["Games necklace"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting started",
+        "step": "Talk to Almera. (Chat: 2)",
+        "details": {
+          "1": {
+            "location": ["Baxtorian Falls in the house"],
+            "description": ["Almera"]
+          }
+        }
+      },
+      "2": {
+        "step": "Board the raft, talk to the boy, then swim to shore.",
+        "details": {
+          "1": {
+            "location": ["Baxtorian Falls", "west from the house"],
+            "description": ["Board the raft."]
+          },
+          "2": {
+            "location": ["Baxtorian Falls", "above the waterfall"],
+            "description": ["Talk to Hudon."]
+          },
+          "3": {
+            "location": ["Baxtorian Falls", "above the waterfall"],
+            "description": ["Right click the river and swim to shore."]
+          }
+        }
+      },
+      "3": {
+        "step": "Go upstairs, search a bookcase for the Book of baxtorian, and open the book.",
+        "details": {
+          "1": {
+            "location": ["Baxtorian Falls,", "inside a house north from where you wash ashore."],
+            "description": ["Go upstairs"]
+          },
+          "2": {
+            "location": ["Baxtorian Falls,", "upstairs in a house north from where you wash ashore."],
+            "description": ["Search this bookcase to find the Book of baxtorian and open the book."]
+          }
+        },
+        "last": true
+      },
+      "4": {
+        "subtitle": "Glarial's Pebble",
+        "step": "Talk to Golrie to get Glarial's pebble.",
+        "details": {
+          "1": {
+            "location": ["Inside Tree Gnome Maze"],
+            "description": ["Climb down the ladder."]
+          },
+          "2": {
+            "location": ["East inside the dungeon"],
+            "description": ["Search this crate for a key."]
+          },
+          "3": {
+            "location": ["West inside the dungeon"],
+            "description": ["Use the key on the prison door."]
+          },
+          "4": {
+            "location": ["West inside the dungeon"],
+            "description": ["Talk to Golrie to obtain Glarial's pebble."]
+          }
+        }
+      },
+      "5": {
+        "step": "Use Glarial's pebble on the tombstone and get Glarial's amulet and Glarial's urn.",
+        "details": {
+          "1": {
+            "location": ["Glarial's tombstone,", "south-east from the Baxtorian Falls waterfall."],
+            "description": ["Use the Pebble on the tombstone. Note: Runes, weapons, or armour are not allowed in this dungeon. Drop them outside the tomb and pick it back up when you are done."]
+          },
+          "2": {
+            "location": ["Glarial's dungeon.", "at the west side"],
+            "description": ["Search a chest for a Glarial's amulet."]
+          },
+          "3": {
+            "location": ["Glarial's dungeon,", "at the south side"],
+            "description": ["Search Glarial's tomb for a Glarial's urn."]
+          }
+        },
+        "last": true
+      },
+      "6": {
+        "subtitle": "Hidden Treasures",
+        "step": "Board the raft, use the rope on the rock then the dead tree. Enter the Waterfall dungeon",
+        "details": {
+          "1": {
+            "location": ["Baxtorian Falls", "west from the house"],
+            "description": ["Board the raft."]
+          },
+          "2": {
+            "location": ["Baxtorian Falls", "above the waterfall"],
+            "description": ["Use a rope on the rock."]
+          },
+          "3": {
+            "location": ["Baxtorian Falls", "above the waterfall"],
+            "description": ["Use a rope on the dead tree."]
+          },
+          "4": {
+            "location": ["Baxtorian Falls", "down the waterfall"],
+            "description": ["Open the ledge and enter the Waterfall dungeon."]
+          }
+        }
+      },
+      "7": {
+        "step": "Get a key from a crate and use the key on both doors to get into the Chalice of Eternity room.",
+        "details": {
+          "1": {
+            "location": ["Waterfall dungeon", "eastern room"],
+            "description": ["Obtain the key from this crate."]
+          },
+          "2": {
+            "location": ["Waterfall dungeon", "western room"],
+            "description": ["Use the key on the first door to the Chalice of Eternity room."]
+          },
+          "3": {
+            "location": ["Waterfall dungeon", "western room"],
+            "description": ["Use the key on the second door to the Chalice of Eternity room."]
+          }
+        }
+      },
+      "8": {
+        "step": "Use an air rune, a water rune, and an earth rune on each of the six pillars.",
+        "details": {
+          "1": {
+            "location": ["Waterfall dungeon", "western room"],
+            "description": ["Use an air rune, a water rune, and an earth rune on each of the six pillars. Note: If you do this incorrectly you will be washed out the dungeon."]
+          }
+        }
+      },
+      "9": {
+        "step": "Use Glarial's amulet on the Statue of Glarial, then use Glarial's urn on the Chalice of Eternity.",
+        "details": {
+          "1": {
+            "location": ["Waterfall dungeon", "western room"],
+            "description": ["Use Glarial's amulet on the Statue of Glarial"]
+          },
+          "2": {
+            "location": ["Waterfall dungeon", "western room"],
+            "description": ["Use Glarial's urn on the Chalice of Eternity."]
+          }
+        }
+      },
+      "10": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        },
+        "last": true
+      }
+    }
+  },
+  "tree_gnome_village": {
+    "name": "Tree Gnome Village",
+    "directory": "tree_gnome_village",
+    "req": [
+      {
+        "name": "Requirements",
+        "items": ["Defeat Khazard warlord (level 112)"],
+        "keywords": ["Khazard warlord"]
+      },
+      {
+        "name": "Items",
+        "items": ["6 normal logs"],
+        "keywords": ["Logs"]
+      },
+      {
+        "name": "Recommended",
+        "items": ["Food", "Armour", "Weapons"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting started",
+        "step": "Talk to King Bolren. (Chat: 2-1)",
+        "details": {
+          "1": {
+            "location": ["Tree Gnome Village"],
+            "description": ["Go through the maze to talk to King Bolren."]
+          }
+        },
+        "last": true
+      },
+      "2": {
+        "subtitle": "Getting back the stolen orbs.",
+        "step": "Talk to Commander Montai three times. (Chat: 1-2)",
+        "details": {
+          "1": {
+            "location": ["Khazard Battlefield", "at the south end"],
+            "description": ["Talk to Commander Montai to help him gather logs (1).", "Talk to him again and give him 6 logs.", "Once again, talk to him and agree to find all 3 trackers (2)."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to all three trackers",
+        "details": {
+          "1": {
+            "location": ["Khazard Battlefield", "at the south-west corner"],
+            "description": ["Tracker gnome 3 will give you a riddle for the balista."],
+            "list": ["'Less than my hands' is 1.", "'More than my head less than my fingers' is 2.", "'More than we but less than our feet' is 3.", "'My legs and your legs' is 4."]
+          },
+          "2": {
+            "location": ["Khazard Battlefield", "at the north-west corner"],
+            "description": ["Tracker gnome 1"]
+          },
+          "3": {
+            "location": ["Khazard Battlefield", "at the east side in the jail"],
+            "description": ["Tracker gnome 2"]
+          }
+        }
+      },
+      "4": {
+        "step": "Fire the baliista.",
+        "details": {
+          "1": {
+            "location": ["Khazard Battlefield", "at the south-west corner"],
+            "description": ["Fire the ballista with the coordinate being the answer to the riddle. If you miss you can try again until you get it."],
+            "list": ["'Less than my hands' is 1.", "'More than my head less than my fingers' is 2.", "'More than we but less than our feet' is 3.", "'My legs and your legs' is 4."]
+          },
+          "2": {"description": "Chat dialog"}
+        }
+      },
+      "5": {
+        "step": "Climb over the destroyed stronghold, go upstairs, and search the chest for an orb.",
+        "details": {
+          "1": {
+            "location": ["Khazard Battlefield", "north from the ballista"],
+            "description": ["Climb over the destroyed stronghold.", "After climbing over there will be a short period where you won't be able to eat, while a Khazard Commander attacks you. He is capable of stacking up to 20 damage."]
+          },
+          "2": {
+            "location": ["Khazard Battlefield", "north from the ballista"],
+            "description": ["Climb upstairs to get to the chest."]
+          },
+          "3": {
+            "location": ["Khazard Battlefield", "north from the ballista"],
+            "description": ["Search the chest and take the orb of protection."]
+          }
+        }
+      },
+      "6": {
+        "step": "Follow Elkoy and talk to King Bolren. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Tree Gnome Village", "north-west entrance into the maze"],
+            "description": ["Right click Elkoy and select 'follow' to get to the centre of Tree Gnome Village."]
+          },
+          "2": {
+            "location": ["Tree Gnome Village"],
+            "description": ["Talk to King Bolren (1)."]
+          }
+        }
+      },
+      "7": {
+        "step": "Defeat Khazard warlord to get two orbs.",
+        "details": {
+          "1": {
+            "location": ["South from the Underground Pass."],
+            "description": ["Talk to the Khazard warlord and prepare to fight after the dialog is finished."]
+          },
+          "2": {
+            "location": ["South from the Underground Pass."],
+            "description": ["Lure him west of the dead tree until he is directly west of it.", "Walk west until he stops following you and then stand directly south-west from him and attack him."]
+          }
+        }
+      },
+      "8": {
+        "step": "Talk to King Bolren. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Tree Gnome Village"],
+            "description": ["Talk to King Bolren (1)."]
+          }
+        }
+      },
+      "9": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        },
+        "last": true
+      }
+    }
+  },
+  "the_grand_tree": {
+    "name": "The Grand Tree",
+    "directory": "the_grand_tree",
+    "req": [
+      {
+        "name": "Requirements",
+        "items": ["Defeat Foreman (level 23)", "Defeat Black Demon (level 172)"],
+        "keywords": ["Foreman" ,"Black Demon"]
+      },
+      {
+        "name": "Recommended",
+        "items": ["Food", "Armour", "Weapons"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting started",
+        "step": "Talk to King Narnode. (Chat: 1-2)",
+        "details": {
+          "1": {
+            "location": ["Grand Tree"],
+            "description": ["He will give you a Bark sample and a Translation book."]
+          }
+        }
+      },
+      "2": {
+        "step": "Talk to Hazelmere.",
+        "details": {
+          "1": {
+            "location": ["An island east of Yanille"],
+            "description": ["Hazelmere will take your Bark Sample and give you a Hazelmere's scroll."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to King Narnode. (Chat: 1-5-5-2-1-4)",
+        "details": {
+          "1": {
+            "location": ["Grand Tree"],
+            "description": ["The message from Hazelmere's scroll translate to: "],
+            "list": ["'A man came to me with the King's seal.'", "'I gave the man Daconia rocks.'", "'And Daconia rocks will kill the tree!'"]
+          }
+        }
+      },
+      "4": {
+        "step": "Talk to Glough.",
+        "details": {
+          "1": {
+            "location": ["Upstairs south from the Grand Tree"],
+            "description": ["Glough claims that humans are planning to invade the gnomes and can't be trusted. He tells you to speak to the King."]
+          }
+        }
+      },
+      "5": {
+        "step": "Talk to King Narnode.",
+        "details": {
+          "1": {
+            "location": ["Grand Tree"],
+            "description": ["The King says that Glough captured a human with Daconia rocks and that he is imprisoned at the top floor of the Grand Tree."]
+          }
+        }
+      },
+      "6": {
+        "step": "Talk to Charlie.",
+        "details": {
+          "1": {
+            "location": ["Top floor of the Grand Tree"],
+            "description": ["Charlie says that he was paid by Glough to retrieve some rocks from a gnome and got imprisoned for it."]
+          }
+        },
+        "last": true
+      },
+      "7": {
+        "subtitle": "Investigating Glough",
+        "step": "Search Glough's cupboard for a journal then talk to Glough",
+        "details": {
+          "1": {
+            "location": ["Upstairs south from the Grand Tree"],
+            "description": ["Open and search the cupboard for Glough's journal."]
+          },
+          "2": {
+            "location": ["Upstairs south from the Grand Tree"],
+            "description": ["After talking to Glough you will be escorted to prison for accusing him for paying Charlie to take Daconia rocks."]
+          }
+        }
+      },
+      "8": {
+        "step": "Talk to Charlie.",
+        "details": {
+          "1": {
+            "location": ["Top floor of the Grand Tree"],
+            "description": ["Charlie tells you to talk to the Karamja Shipyard foremen to find out whats going on."]
+          }
+        }
+      },
+      "9": {
+        "step": "Talk to Captain Errdo to travel to Karamja. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Top floor of the Grand Tree"],
+            "description": ["Travel to Karamja."]
+          },
+          "2": {
+            "location": ["East Karamja"],
+            "description": ["You will crash land in east Karamja. Jogres will automatically attack you. Head east to the Shipyard."]
+          }
+        }
+      },
+      "10": {
+        "step": "Open the gate and a worker will stop you. (Chat: 2-1-2-2)",
+        "details": {
+          "1": {
+            "location": ["Karamja Shipyard,", "east from the crash."],
+            "description": ["The password is Ka-Lu-Min."]
+          }
+        }
+      },
+      "11": {
+        "step": "Defeat the Foreman for a Lumber Order.",
+        "details": {
+          "1": {
+            "location": ["Karamja Shipyard,", "eastern dock."],
+            "description": ["Defeat him for a Lumber Order."]
+          }
+        }
+      },
+      "12": {
+        "step": "Talk to Charlie.",
+        "details": {
+          "1": {
+            "location": ["Top floor of the Grand Tree"],
+            "description": ["He will suggests you to talk to Anita."]
+          }
+        }
+      },
+      "13": {
+        "step": "Talk to Anita for a key.",
+        "details": {
+          "1": {
+            "location": ["Upstairs at most north-west staircase of the Grand Tree"],
+            "description": ["She will give you a key to Glough's chest."]
+          }
+        }
+      },
+      "14": {
+        "step": "Use Glough's key on his chest.",
+        "details": {
+          "1": {
+            "location": ["Upstairs south from the Grand Tree"],
+            "description": ["You will obtain Invasion plans after opening the chest."]
+          }
+        }
+      },
+      "15": {
+        "step": "Talk to King Narnode.",
+        "details": {
+          "1": {
+            "location": ["Grand Tree"],
+            "description": ["He is still not convinced but gives you sticks found in Glough's home."]
+          }
+        },
+        "last": true
+      },
+      "16": {
+        "subtitle": "Defeating Glough",
+        "step": "Climb up Glough's watchtower, use sticks on all four pillars to spell out 'TUZO', then climb down the trapdoor.",
+        "details": {
+          "1": {
+            "location": ["Upstairs south from the Grand Tree"],
+            "description": ["Climb up the tree branch to get into Glough's watchtower. (This requires 25 Agility)"]
+          },
+          "2": {
+            "location": ["Second floor of Glough's House."],
+            "description": ["Use all four sticks on the pillars to spell out TUZO"]
+          },
+          "3": {
+            "location": ["Second floor of Glough's House."],
+            "description": ["Prepare to fight a Black demon (level 172) then climb down the trapdoor."]
+          }
+        }
+      },
+      "17": {
+        "step": "Defeat a Black demon (level 172).",
+        "details": {
+          "1": {
+            "location": ["Stronghold Underground"],
+            "description": ["After the cutscene, take one step north to successfully safespot the Black Demon."]
+          }
+        }
+      },
+      "18": {
+        "step": "Talk to King Narnode.",
+        "details": {
+          "1": {
+            "location": ["Stronghold Underground"],
+            "description": ["You will tell him what happened and he will ask you to search the roots for Daconia rocks."]
+          }
+        }
+      },
+      "19": {
+        "step": "Search the roots for a Daconia rock.",
+        "details": {
+          "1": {
+            "location": ["Stronghold Underground"],
+            "description": ["Search around the area until ypo get a message saying you found the rocks. Note that the it is in a different spot for every person."]
+          },
+          "2": {"description": "Chat dialog"}
+        }
+      },
+      "20": {
+        "step": "Talk to King Narnode.",
+        "details": {
+          "1": {
+            "location": ["Stronghold Underground"],
+            "description": ["Talk to the King to finish the quest."]
+          }
+        }
+      },
+      "21": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        },
+        "last": true
+      }
+    }
+  },
+  "fight_arena": {
+    "name": "Fight Arena",
+    "directory": "fight_arena",
+    "req": [
+      {
+        "name": "Requirements",
+        "items": ["Khazard scorpion (level 44)", "Khazard ogre (level 63)", "Bouncer (level 137)"],
+        "keywords": ["Khazard scorpion", "Khazard ogre", "Bouncer"]
+      },
+      {
+        "name": "Items",
+        "items": ["5 Coins"],
+        "keywords": ["Coins"]
+      },
+      {
+        "name": "Recommended",
+        "items": ["Food", "Armour", "Weapons"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting started",
+        "step": "Talk to Lady Servil. (Chat: 2)",
+        "details": {
+          "1": {
+            "location": ["Fight Area,", "north-western corner."],
+            "description": ["Lady Servil will ask you to rescue her son."]
+          }
+        }
+      },
+      "2": {
+        "step": "Open and search chest to get Khazard armour. Equip it and head to the prison.",
+        "details": {
+          "1": {
+            "location": ["Fight Area,", "north-eastern corner."],
+            "description": ["Search this chest to get Khazard armour."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to the boy, Jeremy Servil.",
+        "details": {
+          "1": {
+            "location": ["Fight Area,", "in the prison cell"],
+            "description": ["He will ask you to get the keys from a guard."]
+          }
+        }
+      },
+      "4": {
+        "step": "Right click and talk to the Khazard Guard.",
+        "details": {
+          "1": {
+            "location": ["Fight Area,", "in the southern room"],
+            "description": ["He will tell you to get him a Khali Brew."]
+          }
+        }
+      },
+      "5": {
+        "step": "Talk to the barman for a Khaili brew for 5gp. (Chat: 2)",
+        "details": {
+          "1": {
+            "location": ["Fight Area,", "in the bar"],
+            "description": ["Buy a Khali brew for 5gp."]
+          }
+        }
+      },
+      "6": {
+        "step": "Right click and give the Khazard guard the Khali Brew and get keys.",
+        "details": {
+          "1": {
+            "location": ["Fight Area,", "in the southern room"],
+            "description": ["He will give you the prison keys to Jeremy cell."]
+          }
+        }
+      },
+      "7": {
+        "step": "Talk to Jeremy Servil.",
+        "details": {
+          "1": {
+            "location": ["Fight Area,", "prison cell"],
+            "description": ["You will find yourself in the arena so prepare yourself to fight a Ogre (level 63)."]
+          }
+        }
+      },
+      "8": {
+        "step": "Kill the ogre (level 63).",
+        "details": {
+          "1": {
+            "location": ["Fight Area,", "in the arena"],
+            "description": ["Stand by the pile of bones to safespot the ogre. Talk to Justin Servil if the fight doesn't start."]
+          }
+        }
+      },
+      "9": {
+        "step": "Talk to Kangrad.",
+        "details": {
+          "1": {
+            "location": ["Fight Area,", "prison cell"],
+            "description": ["Finish talking to Kangrad to start a cut scene back to the arena."]
+          }
+        }
+      },
+      "10": {
+        "step": "Kill Scorpion (level 44) and Hellhound (level 137).",
+        "details": {
+          "1": {
+            "location": ["Fight Area", "in the arena"],
+            "description": ["Stand by the pile of bones to safespot the Scorpion. Talk to Justin Servil if the fight doesn't start."]
+          },
+          "2": {
+            "location": ["Fight Area", "in the arena"],
+            "description": ["Stand by the pile of bones to safespot the hellhound."]
+          }
+        }
+      },
+      "11": {
+        "step": "Run from General Khazard (level 112) and talk to Lady Servil.",
+        "details": {
+          "1": {
+            "location": ["Fight Area,", "north-western corner."],
+            "description": ["Talk to her to finish the quest."]
+          }
+        }
+      },
+      "12": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        },
+        "last": true
+      }
+    }
+  },
+  "rune_mysteries": {
+    "name": "Rune Mysteries",
+    "directory": "rune_mysteries",
+    "req": [
+      {
+        "name": "Recommended",
+        "items": ["Varrock teleport", "Necklace of passage"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting started",
+        "step": "Talk to Duke Horacio. (Chat: 1-1)",
+        "details": {
+          "1": {
+            "location": ["Lumbridge Castle"],
+            "description": ["Climb up the staircase."]
+          },
+          "2": {
+            "location": ["Second floor of Lumbridge Castle"],
+            "description": ["He will give you an Air talismen."]
+          }
+        }
+      },
+      "2": {
+        "step": "Talk to Sedridor. (Chat: 3-1-1)",
+        "details": {
+          "1": {
+            "location": ["Wizards' Tower"],
+            "description": ["Climb down the stairs."]
+          },
+          "2": {
+            "location": ["Wizards' Tower basement"],
+            "description": ["Give him the Air talismen and he will give you a Research package to give to Aubury."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to Aubury twice. (Chat: 3)",
+        "details": {
+          "1": {
+            "location": ["Wizards' Tower basement"],
+            "description": ["Talk to him twice for notes to give to Sedridor."]
+          }
+        }
+      },
+      "4": {
+        "step": "Talk to Sedridor.",
+        "details": {
+          "1": {
+            "location": ["Wizards' Tower"],
+            "description": ["Climb down the stairs."]
+          },
+          "2": {
+            "location": ["Wizards' Tower basement"],
+            "description": ["Talk to him to finish the quest."]
+          }
+        }
+      },
+      "5": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        },
+        "last": true
+      }
+    }
+  },
+  "priest_in_peril": {
+    "name": "Priest in Peril",
+    "directory": "priest_in_peril",
+    "req": [
+      {
+        "name": "Requirements",
+        "items": ["Defeat Temple Guardian dog (Level 30) without Magic.", "Defeat Monk of Zamorak (Level 30)"],
+        "keywords": ["Temple Guardian dog", "Monk of Zamorak"]
+      },
+      {
+        "name": "Items",
+        "items": ["Bucket", "50 Rune essence or Pure essence"],
+        "keywords": ["Bucket", "Rune essence", "Pure essence"]
+      },
+      {
+        "name": "Recommended",
+        "items": ["Food", "Armour", "Weapons"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Kill the Temple Guardian",
+        "step": "Talk to King Roald. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Inside Varrock Palace,", "east side."],
+            "description": ["He will tell you to check the Temple."]
+          }
+        }
+      },
+      "2": {
+        "step": "Knock on the door. (Chat: 1-1)",
+        "details": {
+          "1": {
+            "location": ["The Temple,", "north-east of Varrock."],
+            "description": ["Right-click the large door, and select 'Knock-at'."]
+          }
+        }
+      },
+      "3": {
+        "step": "Kill the Temple Guardian.",
+        "details": {
+          "1": {
+            "location": ["The Temple dungeon,", "downstairs north of the temple."],
+            "description": ["The Temple Guardian is unaffected by magic,", "but can be killed by melee or range."]
+          },
+          "2": {
+            "location": ["The temple dungeon,", "downstairs north of the temple."],
+            "description": ["You can either range or melee flinch to avoid taking any damage."]
+          }
+        }
+      },
+      "4": {
+        "step": "Talk to King Roald.",
+        "details": {
+          "1": {
+            "location": ["Inside Varrock Palace,", "east side."],
+            "description": ["He will tell you to go back to the Temple."]
+          }
+        },
+        "last": true
+      },
+      "5": {
+        "subtitle": "Rescue Denzel",
+        "req:": ["25 Pure essence and Rune essence unnoted", "Bucket", "Weapon", "1 Free Inventory Space"],
+        "step": "Talk to Denzel. (Chat: 2-1)",
+        "details": {
+          "1": {
+            "location": ["The temple,", "north-east of Varrock."],
+            "description": ["Open the door."]
+          },
+          "2": {
+            "location": ["The temple,", "first floor."],
+            "description": ["Climb up the staircase."]
+          },
+          "3": {
+            "location": ["The temple,", "second floor."],
+            "description": ["Climb up the ladder."]
+          },
+          "4": {
+            "location": ["The temple,", "third floor."],
+            "description": ["Right click the prison door and select 'Talk-through'"]
+          }
+        }
+      },
+      "6": {
+        "step": "Kill a level 30 Monk of Zamorak to get a Golden key.",
+        "details": {
+          "1": {
+            "location": ["Temple, ground floor."],
+            "description": ["Can be safespotted between the pews."]
+          }
+        }
+      },
+      "7": {
+        "step": "Study the monuments until you find a key then use the golden key on that monument to get a silver key.",
+        "details": {
+          "1": {
+            "location": ["Monument room"],
+            "description": ["Study every monument because it is in a different spot for everyone."]
+          }
+        }
+      },
+      "8": {
+        "step": "Use the bucket on the well.",
+        "details": {
+          "1": {
+            "location": ["Monument room"],
+            "description": ["Study every monument because it is in a different spot for every player."]
+          }
+        }
+      },
+      "9": {
+        "step": "Use the Iron key on the prison door.",
+        "details": {
+          "1": {
+            "location": ["Top floor of the Temple"],
+            "description": ["Use the key on the prison door."]
+          }
+        }
+      },
+      "10": {
+        "step": "Talk to Drezel.",
+        "details": {
+          "1": {
+            "location": ["Top floor of the Temple"],
+            "description": ["He will bless your water to use on the coffin."]
+          }
+        }
+      },
+      "11": {
+        "step": "Use the Blessed water on the coffin.",
+        "details": {
+          "1": {
+            "location": ["Top floor in the Temple"],
+            "description": ["Now use the blessed water on the coffin."]
+          }
+        }
+      },
+      "12": {
+        "step": "Go to the monument room to talk to Drezel and give him 50 unnoted Rune or Pure essence.",
+        "details": {
+          "1": {
+            "location": ["Monument room,", "most-eastern room"],
+            "description": ["Talk to Drezel twice to give him the essence"]
+          }
+        }
+      },
+      "13": {
+        "step": "Quest Complete.",
+        "details": {
+          "1": {}
+        },
+        "last": true
+      }
+    }
+  },
+  "the_feud": {
+    "name": "The Feud",
+    "directory": "the_feud",
+    "req": [
+      {
+        "name": "Level Requirements",
+        "items": ["30 Thieving"]
+      },
+      {
+        "name": "Requirements",
+        "items": ["Defeat Bandit Champion (level 70).", "Defeat Tough Guy (level 75)"],
+        "keywords": ["Bandit Champion", "Tough Guy"]
+      },
+      {
+        "name": "Items",
+        "items": ["1000 Coins" ,"3 Beer", "Bucket", "Leather gloves"],
+        "keywords": ["Bucket", "Rune essence", "Pure essence"]
+      },
+      {
+        "name": "Recommended",
+        "items": ["Food", "Weapons", "Ring of Dueling", "Pollnivneach teleport"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting started.",
+        "step": "Talk to Ali Morrisane. (Chat: 1-2-2-1)",
+        "details": {
+          "1": {
+            "location": ["Al Kharid,", "east from gem shop."],
+            "description": ["He tells you to travel to Pollnivneach to look for his nephew."]
+          }
+        }
+      },
+      "2": {
+        "step": "Buy a Kharidian headpiece and a Fake beard then combine them.",
+        "details": {
+          "1": {
+            "location": ["Al Kharid,", "east from gem shop."],
+            "description": ["Buy a Kharidan headpiece and a Fake Beard from Ali Morrisane then combine them for a Desert disguise."]
+          }
+        }
+      },
+      "3": {
+        "step": "Give 3 beers to Drunken Ali. (Go through the dialogue)",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "in the bar."],
+            "description": ["Go through the dialogue or you will have to buy another beer from the Barman."]
+          }
+        }
+      },
+      "4": {
+        "step": "Talk to a Bandit and a Menaphite Thug.",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "northern side."],
+            "description": ["Right-click click talk to a Bandit."]
+          },
+          "2": {
+            "location": ["Pollnivneach,", "southern side."],
+            "description": ["Right-click click talk to a Menaphite Thug."]
+          }
+        }
+      },
+      "5": {
+        "step": "Talk to Ali the Camel Man (Chat: 4-2-3).",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "in the bar."],
+            "description": ["Buy teo camels for 500gp for both gangs. He will give you two receipts."]
+          }
+        }
+      },
+      "6": {
+        "step": "Talk to a Bandit and a Menaphite Thug to give them a Receipt.",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "northern side."],
+            "description": ["Right-click click talk to a Bandit to give him a receipt."]
+          },
+          "2": {
+            "location": ["Pollnivneach,", "southern side."],
+            "description": ["Right-click click talk to a Menaphite Thug to give him a receipt."]
+          }
+        }
+      },
+      "7": {
+        "step": "Talk to Ali the Operator (Chat: 1-2).",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "southern side by the purple tent."],
+            "description": ["Ask him to join his gang."]
+          }
+        }
+      },
+      "8": {
+        "step": "Pickpocket a Villager then talk to Ali the Operator (Chat: 1-2).",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "southern side."],
+            "description": ["You will be able to pickpocket a villager once until you talk to Ali to get a blackjack."]
+          },
+          "2": {
+            "location": ["Pollnivneach,", "southern side by the purple tent."],
+            "description": ["Ask him for advice to continue pickpocketing."]
+          }
+        }
+      },
+      "9": {
+        "step": "Talk and pay the street urchin 10 coins then pickpocket the villager with an arrow over their head.",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "southern side by the purple tent."],
+            "description": ["Ask him to join his gang."]
+          }
+        }
+      },
+      "10": {
+        "step": "Talk to Ali the Operator (Chat: 1).",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "southern side by the purple tent."],
+            "description": ["Ask for help in getting a blackjack."]
+          }
+        }
+      },
+      "11": {
+        "step": "Equip the Oak blackjack, lure the villager to a secluded room, knockout then pickpocket the Villager.",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "southern side."],
+            "description": ["Find a villager lure them into a secluded room. Right-click knockout then pickpocket them."]
+          }
+        }
+      },
+      "12": {
+        "step": "Talk to Ali the Operator then put on the Desert disguise and gloves.",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "southern side by the purple tent."],
+            "description": ["He will tell you to steal a jewel from the mayor's house."]
+          }
+        }
+      },
+      "13": {
+        "step": "Hide behind the large cactus.",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach centre,", "east building."],
+            "description": ["Click on the big cactus to check the house out."]
+          }
+        }
+      },
+      "14": {
+        "step": "Use the Keys on the door.",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach centre,", "east building."],
+            "description": ["Use the key on the door to get into the house."]
+          }
+        }
+      },
+      "15": {
+        "step": "Go upstairs and search the landscape picture.",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach centre,", "east building."],
+            "description": ["Go upstairs."]
+          },
+          "2": {
+            "location": ["Pollnivneach centre,", "east building."],
+            "description": ["Second floor near the bed."]
+          }
+        }
+      },
+      "16": {
+        "step": "Dial clockwise, 1-1-2-3-5-8.",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach centre,", "east building."],
+            "description": ["Clockwise dial the following: 1-1-2-3-5-8."]
+          }
+        }
+      },
+      "17": {
+        "step": "Talk to Ali the Operator to give him the Jewels.",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "southern side by the purple tent."],
+            "description": ["Give him the jewels to Ali the Operator."]
+          }
+        }
+      },
+      "18": {
+        "step": "Talk to a Menaphite Thug.",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "southern side."],
+            "description": ["Talk to the Menaphite Thug for information on the traitor."]
+          }
+        }
+      },
+      "19": {
+        "step": "Talk to Ali the Operator. (Chat: 2)",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "southern side by the purple tent."],
+            "description": ["He will tell you to find him and kill him"]
+          }
+        }
+      },
+      "20": {
+        "step": "Talk to Ali the barman. (Chat: 3-1)",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "in the bar."],
+            "description": ["Give him the jewels to Ali the Operator."]
+          }
+        }
+      },
+      "21": {
+        "step": "Talk to Ali the hag.",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "up the hill."],
+            "description": ["She will tell you to get items for her."]
+          }
+        }
+      },
+      "22": {
+        "step": "Talk to Ali the Kebab seller. (Chat: 3-2)",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "kebab shop."],
+            "description": ["She will tell you to get items for her."]
+          }
+        }
+      },
+      "23": {
+        "step": "Use the Red hot sauce on the trough.",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "in the camel pen."],
+            "description": ["Use the Red hot sauce on the trough to make the camel poop."]
+          }
+        }
+      },
+      "24": {
+        "step": "Use the bucket on the dung.",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "in the camel pen."],
+            "description": ["After eating the trough the camel will create a dung in the pen. Use the bucket on it."]
+          }
+        }
+      },
+      "25": {
+        "step": "Use a coin on the Snake charmer.",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "outside the bar."],
+            "description": ["He will give you a Snake charm and a basket."]
+          }
+        }
+      },
+      "26": {
+        "step": "Use the Snake charm on a snake until it goes into the Snake basket.",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "southern side."],
+            "description": ["Use the Snake charm on the snake to capture it."]
+          }
+        }
+      },
+      "27": {
+        "step": "Talk to Ali the hag.",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "up the hill."],
+            "description": ["She will take the snake and dung and give you a Hag's poison."]
+          }
+        }
+      },
+      "28": {
+        "step": "Use the Hag's poison on the beer on the table in the bar.",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "in the bar."],
+            "description": ["Use the Hag's poison on the table to poison the beer."]
+          }
+        }
+      },
+      "29": {
+        "step": "Talk to Ali the Operator.",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "southern side by the purple tent."],
+            "description": ["Tell him the deed is done."]
+          }
+        }
+      },
+      "30": {
+        "step": "Talk to the Menaphite Leader.",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "southern side by the purple tent."],
+            "description": ["Prepare yourself to fight a Tough Guy (level 75)."]
+          }
+        }
+      },
+      "31": {
+        "step": "Defeat the Tough Guy (level 75).",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "southern side by the purple tent."],
+            "description": ["Safespot behind the bush."]
+          }
+        }
+      },
+      "32": {
+        "step": "Talk to a Villager. (Chat: 2)",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "southern side."],
+            "description": ["They will direct you the Bandit Leader."]
+          }
+        }
+      },
+      "33": {
+        "step": "Talk to the Bandit Leader. (Chat: 2)",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "northern side."],
+            "description": ["Prepare yourself to fight the Bandit Champion (level 70)."]
+          }
+        }
+      },
+      "34": {
+        "step": "Defeat the Bandit Champion (level 70)",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach,", "northern side."],
+            "description": ["Safespot him behind a chair."]
+          }
+        }
+      },
+      "35": {
+        "step": "Talk to a villager.",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach"],
+            "description": ["Talk to a villager to see if they're happy now."]
+          }
+        }
+      },
+      "36": {
+        "step": "Talk to Ali the Mayor.",
+        "details": {
+          "1": {
+            "location": ["Pollnivneach, in the centre by the well"],
+            "description": ["Talk to Ali the Mayor"]
+          }
+        }
+      },
+      "37": {
+        "step": "Talk to Ali Morrisane.",
+        "details": {
+          "1": {
+            "location": ["Al Kharid,", "east from gem shop."],
+            "description": ["Talk to Ali Morrisane to finish the quest."]
+          }
+        }
+      },
+      "39": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
+  }
+}

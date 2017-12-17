@@ -2,7 +2,7 @@ from django.conf.urls import url
 from django.contrib import admin
 from django.views.decorators.csrf import csrf_exempt
 from django.views.generic import TemplateView
-from rsefficiency.controllers import site, treasure_trails, grand_exchange, calculator
+from rsefficiency.controllers import site, treasure_trails, grand_exchange, calculator, quest
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -54,4 +54,7 @@ urlpatterns = [
     url(r'^calculator/fletching-calculator$', calculator.fletching_calculator, name='fletching_calculator'),
     url(r'^calculator/highscore$', calculator.highscore, name='highscore'),
     url(r'^calculator/prices', calculator.calc_prices, name='calc_prices'),
+
+    url(r'^quest/$', quest.quest_index, name='quest_index'),
+    url(r'^quest/(?P<quest_name>[-A-Za-z]+)',  csrf_exempt(quest.quest), name='quest'),
 ]

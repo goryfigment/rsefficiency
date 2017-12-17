@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Abel';
-    background: linear-gradient(90deg, #0c57ff, #2d83ee 70%, #2a69aa) fixed;
+    background: linear-gradient(90deg,#1e1d1d,#093337 70%,#262626) fixed;
     margin: 0;
     min-height: 100vh;
     min-width: fit-content;

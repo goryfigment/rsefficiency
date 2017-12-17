@@ -1,0 +1,32 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>RsEfficiency</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content='Utilize 2007 Runescape tools such as Treasure Trail to get your clue rewards and the Exchange feature to discover profitable items. Much more to come!'>
+    <meta name="keywords" content="rsefficiency,rs efficiency,runescape,07,2007,fansite,old,school,osrs,guides,skill,minigame,money making,grand exchange,ge,quest,quick guides,miniquest">
+    <link rel='shortcut icon' type='image/x-icon' href="{% static 'assets/rsefficiency/rse16.ico' %}" />
+    <base href='{{base_url}}' />
+
+    <script>
+        var globals = {};
+        globals.base_url = '{{base_url}}';
+        globals.f2p_quests = {{f2p_quests|safe}};
+        globals.member_quests = {{member_quests|safe}};
+        globals.quest = {{quest|safe}};
+    </script>
+</head>
+
+<body>
+    <%= require('html-loader!./partials/navigation_bar.html') %>
+
+    <div id="quest-wrapper">
+
+    </div>
+
+    <%= require('html-loader!./partials/footer.html') %>
+</body>
+
+</html>

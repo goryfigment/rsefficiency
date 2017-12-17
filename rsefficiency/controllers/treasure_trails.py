@@ -109,8 +109,6 @@ def clue_type_search(request, clue_type):
     else:
         clue_dict = {ord(k): v for k, v in clue_dict.items()}
 
-    print clue_dict
-
     data = {'success': True, 'base_url': get_base_url(), 'type': clue_type.title(), 'clue': json.dumps(clue_dict)}
     return render(request, 'treasure_trails.html', data)
 

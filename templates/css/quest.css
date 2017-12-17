@@ -1,0 +1,132 @@
+#quest-title {
+    margin: 40px 0;
+    text-align: center;
+    color: white;
+    cursor: default;
+    background: rgba(41, 41, 41, 0.8);
+    border-radius: 3px;
+    max-width: 736px;
+    padding: 7px 10px;
+    font-size: 27px;
+}
+
+.clue-table {
+    display: table;
+    text-align: center;
+    border-collapse: collapse;
+    font-family: cursive;
+    max-width: 756px;
+    width: 100%;
+    color: #EFEFEF;
+    margin: 0 auto 75px auto;
+}
+
+.clue-table tr:nth-child(odd) {
+    background-color: #323C50;
+}
+
+.clue-table tr:nth-child(even) {
+    background-color: #2C3446;
+}
+
+.clue-table th {
+    background-color: #1F2739;
+    color: #cc9900;
+    border: solid #757575;
+    padding: 6px 8px;
+    font-weight: 500;
+}
+
+.clue-table td {
+    padding: 8px 8px 4px 13px;
+    border: solid #757575;
+}
+
+.clue-table a {
+    color: #05D2FF;
+}
+
+#quest-wrapper {
+    max-width: 736px;
+    margin: 0 auto 50px auto;
+}
+
+#requirements-wrapper {
+    padding: 5px;
+    width: 500px;
+    margin: 0 auto;
+    background-color: #1f2739;
+    color: #c90;
+    border: 2px solid #757575;
+    font-family: cursive;
+    font-size: 15px;
+    box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+}
+
+.instruction-title {
+    font-size: 22px;
+    color: #ffffff;
+    margin: 16px 13px;
+}
+
+.req-subtitle {
+    margin: 0 5px;
+    font-size: 17px;
+}
+
+.unordered-list {
+    list-style-type: square;
+    margin: 6px 0;
+}
+
+.step-wrapper {
+    line-height: 1.5;
+    font-family: "Roboto", sans-serif;
+    font-weight: normal;
+    color: #efefef;
+}
+
+.step {
+    cursor: pointer;
+    line-height: 1.5;
+    padding: 11px;
+    background-color: #323c50;
+    border: 1.5px gray solid;
+}
+
+.collapsible {
+    display: none;
+}
+
+.detail-wrapper {
+    background: #2c3446;
+}
+
+.detail-container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    text-align: center;
+}
+
+.detail-list {
+    text-align: left;
+    margin: 6px 16px;
+}
+
+.location-wrapper {
+    max-width: 200px;
+}
+
+.spot-wrapper{
+    padding: 10px 0;
+    max-width: 417px;
+}
+
+.spot-img {
+    height: 250px;
+}
+
+.chat-dialog {
+    max-width: 417px;
+}

@@ -2,6 +2,7 @@
 require('./../css/general.css');
 require('./../css/calculator.css');
 require('./../css/tippy.css');
+require('./../css/sortable.css');
 //javascript
 var $ = require('jquery');
 require('./../js/tippy.js');
@@ -181,7 +182,7 @@ function init() {
         } else if(globals.calc_type == "Cooking") {
             fillPrices($('.food'), false);
         } else if(globals.calc_type == "Crafting") {
-            fillPrices($('.craft'), false);
+            fillPrices($('.craft'), false, true);
         } else if(globals.calc_type == "Smithing") {
             fillPrices($('.smith'), true);
         } else if(globals.calc_type == "Fletching") {
@@ -190,7 +191,7 @@ function init() {
     }
 }
 
-function fillPrices($item, outputHasMultiple) {
+function fillPrices($item, outputHasMultiple, showAlchProfit) {
     var $gpPerExpColumn = $('.gp-per-exp-column');
     $.when(priceLookup(globals.calc_type)).done(function(response) {
         for (var h = 0; h < $item.length; h++) {
@@ -202,10 +203,30 @@ function fillPrices($item, outputHasMultiple) {
             var itemBuying = parseInt(response[itemId]['buying']) * itemMultiple;
             var $content = $currentItem.find('.content');
 
+            if (showAlchProfit) {
+                var itemHighAlch = $currentItem.find('.output').attr('data-high-alch') * itemMultiple;
+            }
+
             for (var f = 0; f < $content.length; f++) {
                 var $currentContent = $($content[f]);
                 var multiple = parseInt($currentContent.attr('data-multiple'));
                 itemBuying = itemBuying - (parseInt(response[$currentContent.attr('data-id')]['selling']) * multiple);
+
+                if (showAlchProfit) {
+                    itemHighAlch = itemHighAlch - (parseInt(response[$currentContent.attr('data-id')]['selling']) * multiple);
+                }
+            }
+
+            if (showAlchProfit) {
+                itemHighAlch = itemHighAlch - (parseInt(response['561']['selling']));
+                var alchProfit = itemAmount*itemHighAlch;
+                var $highAlch = $currentItem.find('.high-alch');
+                if(alchProfit > 0) {
+                    $highAlch.addClass('positive');
+                } else if(alchProfit < 0) {
+                    $highAlch.addClass('negative');
+                }
+                $highAlch.text(helper.numberCommaFormat(alchProfit));
             }
 
             var gpPerExp = Math.round(100*(itemBuying/itemExp))/100;
@@ -215,7 +236,7 @@ function fillPrices($item, outputHasMultiple) {
 
             if(gpPerExp > 0 && profit > 0) {
                 $gpPerExp.addClass('positive');
-                $profit.addClass('positive')
+                $profit.addClass('positive');
             } else if(gpPerExp < 0 && profit < 0) {
                 $gpPerExp.addClass('negative');
                 $profit.addClass('negative');
