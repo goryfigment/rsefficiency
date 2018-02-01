@@ -33,6 +33,7 @@ if DEBUG:
     HOST_PORT = '8001'
     BASE_URL = HTTPS + '://' + HOST_NAME + ':' + HOST_PORT
 else:
+    SSLIFY_DISABLE = True
     BASE_URL = 'http://www.rsefficiency.com'
 
 # Application definition
@@ -49,7 +50,9 @@ INSTALLED_APPS = [
 ]
 
 MIDDLEWARE_CLASSES = [
+    # SSL redirect http to https
     'sslify.middleware.SSLifyMiddleware',
+    # SSL redirect http to https
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
     'django.middleware.common.CommonMiddleware',
