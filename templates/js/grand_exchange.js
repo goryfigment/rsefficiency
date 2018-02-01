@@ -128,6 +128,7 @@ function prepareGraphData(response, maxTime, type) {
         tradeGraphArray.push([itemDate, item['buyingCompleted'], item['sellingCompleted']]);
     }
 
+
     if(type && type == 'price') {
         google.charts.setOnLoadCallback(createPriceChart(priceGraphArray));
     } else if(type && type == 'trade') {

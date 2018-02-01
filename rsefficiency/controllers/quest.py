@@ -50,6 +50,5 @@ def quest(request, quest_name):
 
         return render(request, 'quest.html', data)
     else:
-        print 'fk u'
         html = 'quests/' + quest_data_name + '.html'
         return render(request, html)

@@ -1408,5 +1408,169 @@
         }
       }
     }
+  },
+  "death_plateau": {
+    "name": "Death Plateau",
+    "directory": "death_plateau",
+    "req": [
+      {
+        "name": "Items",
+        "items": ["1000 Coins" ,"10 Bread", "10 Trout", "Iron bar", "Asgarnian ale", "Blueberry special or Premade blurb' sp."],
+        "keywords": ["Bucket", "Rune essence", "Pure essence"]
+      },
+      {
+        "name": "Recommended",
+        "items": ["Food", "Weapons", "Ring of Dueling", "Pollnivneach teleport"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting started.",
+        "step": "Talk to Denulth. (Chat: 1-1)",
+        "details": {
+          "1": {
+            "location": ["Burthorpe camp"],
+            "description": ["Talk to Denulth to start the quest."]
+          }
+        }
+      },
+      "2": {
+        "step": "Talk to Eohric. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Burthorpe castle, second floor"],
+            "description": ["He will tell you that the room guard is staying at the bar."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to Harold. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Burthorpe bar, upstairs"],
+            "description": ["He will talk to you."]
+          }
+        }
+      },
+      "4": {
+        "step": "Talk to Eohric. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Burthorpe castle, second floor"],
+            "description": ["He will tell you offer him a beer."]
+          }
+        }
+      },
+      "5": {
+        "step": "Talk to Harold and give him an Asgarian ale and a Blurberry special, then bet him 500gp to get an IOU. (Chat: 3-2)",
+        "details": {
+          "1": {
+            "location": ["Burthorpe castle, upstairs"],
+            "description": ["Give him an Asgarian ale and a Blurberry special, then bet him 500gp to get an IOU."]
+          }
+        }
+      },
+      "6": {
+        "step": "Read the IOU and use the stone balls on the mechanism to unlock the large door.",
+        "details": {
+          "1": {
+            "location": ["Burthorpe castle, ground floor"],
+            "description": ["Place the 5 colored balls as shown in the image to unlock the door."]
+          }
+        }
+      },
+      "7": {
+        "step": "Right-click the Archer to talk to him.",
+        "details": {
+          "1": {
+            "location": ["Burthorpe castle, ground floor"],
+            "description": ["Go upstairs"]
+          },
+          "2": {
+            "location": ["Burthorpe castle, second floor"],
+            "description": ["Right0c"]
+          }
+        }
+      },
+      "8": {
+        "step": "Talk to Saba. (Chat: 2)",
+        "details": {
+          "1": {
+            "location": ["A cave, north-west of Burthorpe"],
+            "description": ["Ask Saba about another way up Death Plateau."]
+          }
+        }
+      },
+      "9": {
+        "step": "Talk to Tenzing. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["North-west from the cave then go south path"],
+            "description": ["Agree to get him 10 bread, 10 trout and the spiked boots."]
+          }
+        }
+      },
+      "10": {
+        "step": "Talk to Dunstan.",
+        "details": {
+          "1": {
+            "location": ["Anvil, north-east of Burthorpe"],
+            "description": ["He will ask you for an Iron bar and to help his son be an Imperial Guard."]
+          }
+        }
+      },
+      "11": {
+        "step": "Talk to Denulth.",
+        "details": {
+          "1": {
+            "location": ["Burthorpe camp"],
+            "description": ["Talk to Denulth for certificate for Dunstan."]
+          }
+        }
+      },
+      "12": {
+        "step": "Talk to Dunstan.",
+        "details": {
+          "1": {
+            "location": ["Anvil, north-east of Burthorpe"],
+            "description": ["Give him a Certificate and an Iron bar for Spiked boots."]
+          }
+        }
+      },
+      "13": {
+        "step": "Talk to Tenzing. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["North-west from the cave then go south path"],
+            "description": ["Give him 10 bread, 10 trout and the spiked boots."]
+          }
+        }
+      },
+      "14": {
+        "step": "Hop the stile and take the path north and around to the east until a message appears in the chat box (NOT the Death Plateau warning)",
+        "details": {
+          "1": {
+            "location": ["The spot where the message should appear"],
+            "description": ["Keep following the path until you receive the message below."]
+          },
+          "2": {"description": "Chat dialog"}
+        }
+      },
+      "15": {
+        "step": "Talk to Denulth.",
+        "details": {
+          "1": {
+            "location": ["Burthorpe camp"],
+            "description": ["Talk to Denulth to complete the quest."]
+          }
+        }
+      },
+      "16": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }
