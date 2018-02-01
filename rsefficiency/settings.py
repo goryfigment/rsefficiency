@@ -51,7 +51,7 @@ INSTALLED_APPS = [
 
 MIDDLEWARE_CLASSES = [
     # SSL redirect http to https
-    'sslify.middleware.SSLifyMiddleware',
+    #'sslify.middleware.SSLifyMiddleware',
     # SSL redirect http to https
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
