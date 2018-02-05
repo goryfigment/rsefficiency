@@ -1,0 +1,159 @@
+{
+  "black_knights'_fortress": {
+    "name": "Black Knights' Fortress",
+    "directory": "black_knights'_fortress",
+    "req": [
+      {
+        "name": "Requirements",
+        "items": ["12 Quest Points"]
+      },
+      {
+        "name": "Items",
+        "items": ["Bronze med helm", "Iron chain body", "Cabbage"],
+        "keywords": ["Bronze med helm", "Iron chain body", "Cabbage"]
+      },
+      {
+        "name": "Recommended",
+        "items": ["Food", "Armor", "Falador Teleport", "Charged Combat Bracelet (Monastery Teleport)"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting started.",
+        "step": "Talk to Sir Amik Varze (Chat option: 1-1)",
+        "details": {
+          "1": {
+            "location": ["West side of Falador Castle on the third floor."],
+            "description": ["Talk to Sir Amik Varze to start the quest."]
+          }
+        }
+      },
+      "2": {
+        "step": "Equip iron chainbody and bronze med helm and go through the door.",
+        "details": {
+          "1": {
+            "location": ["Black Knights' Fortress"],
+            "description": ["Teleport to the Monastery using a charge Combat Bracelet and run west up the eastern side of the White Mountain to get to the Black Knights' Fortress. Make sure you equip both Bronze med helm and Iron chainbody."]
+          }
+        }
+      },
+      "3": {
+        "subtitle": "Route of the Black Knights' Fortress.",
+        "step": "Push the wall and go up the ladder twice.",
+        "details": {
+          "1": {
+            "location": ["Black Knights' Fortress"],
+            "description": ["Push the wall north from the entrance."]
+          },
+          "2": {
+            "location": ["Black Knights' Fortress"],
+            "description": ["Climb up the western ladders heading up."]
+          },
+          "3": {
+            "location": ["Black Knights' Fortress"],
+            "description": ["Climb up the eastern ladders heading up."]
+          }
+        }
+      },
+      "4": {
+        "step": "Climb down the ladder south, go through the eastern door and climb up the ladder.",
+        "details": {
+          "1": {
+            "location": ["Black Knights' Fortress"],
+            "description": ["Climb down the southern ladders."]
+          },
+          "2": {
+            "location": ["Black Knights' Fortress"],
+            "description": ["Open and go through the door to the south by the altar."]
+          },
+          "3": {
+            "location": ["Black Knights' Fortress"],
+            "description": ["Climb up the ladders in the room."]
+          }
+        }
+      },
+      "5": {
+        "step": "Climb down the ladder east, go through the southern door and climb down the ladder.",
+        "details": {
+          "1": {
+            "location": ["Black Knights' Fortress"],
+            "description": ["Climb down the eastern ladders."]
+          },
+          "2": {
+            "location": ["Black Knights' Fortress"],
+            "description": ["Go through the southern door out of the room."]
+          },
+          "3": {
+            "location": ["Black Knights' Fortress"],
+            "description": ["Climb down the southern ladders in the room."]
+          }
+        }
+      },
+      "6": {
+        "subtitle": "Sabotaging the Witch's Plans",
+        "step": "Listen-at grill on the eastern wall.",
+        "details": {
+          "1": {
+            "location": ["Black Knights' Fortress"],
+            "description": ["To the east click 'Listen-at' on the grill"]
+          }
+        }
+      },
+      "7": {
+        "step": "Go back to the entrance using the same route.",
+        "details": {
+          "1": {
+            "location": ["Black Knights' Fortress"],
+            "description": ["Follow the Route of the Black Knight's Fortress steps backwards to get back to the entrance."]
+          }
+        }
+      },
+      "8": {
+        "step": "Go through the eastern door. (Chat: 2)",
+        "details": {
+          "1": {
+            "location": ["Black Knights' Fortress"],
+            "description": ["A guard will stop you from entering. After entering the door, the Black Knights will attack you."]
+          }
+        }
+      },
+      "9": {
+        "step": "Climb-up the ladder and push the wall.",
+        "details": {
+          "1": {
+            "location": ["Black Knights' Fortress"],
+            "description": ["Climb up the ladders."]
+          },
+          "2": {
+            "location": ["Black Knights' Fortress"],
+            "description": ["Follow the path east until you reach a wall. Click on it to enter a room"]
+          }
+        }
+      },
+      "10": {
+        "step": "RIGHT-CLICK and USE the cabbage on the hole (DO NOT EAT IT)",
+        "details": {
+          "1": {
+            "location": ["Black Knights' Fortress"],
+            "description": ["Use the cabbage on the hole to trigger a cut scene."]
+          }
+        }
+      },
+      "11": {
+        "step": "Talk to Sir Amik Varze.",
+        "details": {
+          "1": {
+            "location": ["West side of Falador Castle on the third floor."],
+            "description": ["Talk to Sir Amik Varze to finish the quest."]
+          }
+        }
+      },
+      "12": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
+  }
+}
