@@ -1,154 +1,285 @@
 {
-  "black_knights'_fortress": {
-    "name": "Black Knights' Fortress",
-    "directory": "black_knights'_fortress",
+  "dragon_slayer": {
+    "name": "Dragon Slayer",
+    "directory": "dragon_slayer",
     "req": [
       {
-        "name": "Requirements",
-        "items": ["12 Quest Points"]
+        "name": "Requirement (If ore can not be bought)",
+        "items": ["32 Quest Points"]
       },
       {
         "name": "Items",
-        "items": ["Bronze med helm", "Iron chain body", "Cabbage"],
-        "keywords": ["Bronze med helm", "Iron chain body", "Cabbage"]
+        "items": ["Hammer", "3 Planks", "90 Steel nails", "Unfired bowl (8 Crafting to make)", "Wizard's mind bomb", "Silk", "Anti-dragon shield"],
+        "keywords": ["Hammer", "Plank", "Steel nails", "Unfired bowl", "Wizard's mind bomb", "Silk", "Anti-dragon shield"]
       },
       {
         "name": "Recommended",
-        "items": ["Food", "Armor", "Falador Teleport", "Charged Combat Bracelet (Monastery Teleport)"]
+        "items": ["Range/Magic Weapon, air rune, and law rune (if Magic level is 33 or higher) or 10,000 coins", "Super anti-fire potion", "Home Teleport", "Combat bracelet", "Amulet of Glory", "Chronicle"]
       }
     ],
     "steps": {
       "1": {
         "subtitle": "Getting started.",
-        "step": "Talk to Sir Amik Varze (Chat option: 1-1)",
+        "step": "Talk to Guildmaster. (Chat: 2)",
         "details": {
           "1": {
-            "location": ["West side of Falador Castle on the third floor."],
-            "description": ["Talk to Sir Amik Varze to start the quest."]
+            "location": ["Champions Guild, south of Varrock"],
+            "description": ["Talk to Guildmaster to start the quest."]
           }
         }
       },
       "2": {
-        "step": "Equip iron chainbody and bronze med helm and go through the door.",
+        "step": "Talk to Oziach. (Chat: 1-1-1-1)",
         "details": {
           "1": {
-            "location": ["Black Knights' Fortress"],
-            "description": ["Teleport to the Monastery using a charge Combat Bracelet and run west up the eastern side of the White Mountain to get to the Black Knights' Fortress. Make sure you equip both Bronze med helm and Iron chainbody."]
+            "location": ["North-west of Edgeville"],
+            "description": ["Talk to Oziach."]
           }
         }
       },
       "3": {
-        "subtitle": "Route of the Black Knights' Fortress.",
-        "step": "Push the wall and go up the ladder twice.",
+        "step": "Talk to Guildmaster to get the maze key. (Chat: 2-1-1-1-2-3-2-3)",
         "details": {
           "1": {
-            "location": ["Black Knights' Fortress"],
-            "description": ["Push the wall north from the entrance."]
-          },
-          "2": {
-            "location": ["Black Knights' Fortress"],
-            "description": ["Climb up the western ladders heading up."]
-          },
-          "3": {
-            "location": ["Black Knights' Fortress"],
-            "description": ["Climb up the eastern ladders heading up."]
+            "location": ["Dwarven Mine"],
+            "description": ["Talk to Guildmaster to receive a maze key."]
           }
         }
       },
       "4": {
-        "step": "Climb down the ladder south, go through the eastern door and climb up the ladder.",
-        "details": {
-          "1": {
-            "location": ["Black Knights' Fortress"],
-            "description": ["Climb down the southern ladders."]
-          },
-          "2": {
-            "location": ["Black Knights' Fortress"],
-            "description": ["Open and go through the door to the south by the altar."]
-          },
-          "3": {
-            "location": ["Black Knights' Fortress"],
-            "description": ["Climb up the ladders in the room."]
-          }
-        }
+        "step": "Map pieces can be obtain in any order.",
+        "last": true
       },
       "5": {
-        "step": "Climb down the ladder east, go through the southern door and climb down the ladder.",
+        "subtitle": "Thalzar's map piece.",
+        "step": "Talk to the Oracle. (Chat: 1)",
         "details": {
           "1": {
-            "location": ["Black Knights' Fortress"],
-            "description": ["Climb down the eastern ladders."]
-          },
-          "2": {
-            "location": ["Black Knights' Fortress"],
-            "description": ["Go through the southern door out of the room."]
-          },
-          "3": {
-            "location": ["Black Knights' Fortress"],
-            "description": ["Climb down the southern ladders in the room."]
+            "location": ["Top of Ice Mountain"],
+            "description": ["Talk to the Oracle to start going for the Thalzar's map piece."]
           }
         }
       },
       "6": {
-        "subtitle": "Sabotaging the Witch's Plans",
-        "step": "Listen-at grill on the eastern wall.",
+        "step": "Use silk, lobster pot, unfired bowl and (RIGHT CLICK AND USE) wizard's mind bomb on the magic door.",
         "details": {
           "1": {
-            "location": ["Black Knights' Fortress"],
-            "description": ["To the east click 'Listen-at' on the grill"]
+            "location": ["Ice Mountain"],
+            "description": ["Run south down Ice Mountain and go down some ladders to get into Dwarven Mine."]
+          },
+          "2": {
+            "location": ["Dwarven Mine"],
+            "description": ["Use the silk, lobster pot, unfired bowl, and wizard's mind bomb on the magic door to open it."]
           }
         }
       },
       "7": {
-        "step": "Go back to the entrance using the same route.",
+        "step": "Open and search the chest to receive a map piece.",
         "details": {
           "1": {
-            "location": ["Black Knights' Fortress"],
-            "description": ["Follow the Route of the Black Knight's Fortress steps backwards to get back to the entrance."]
+            "location": ["Dwarven Mine"],
+            "description": ["Once inside, open and search the chest for the Thalzar's map piece."]
           }
         }
       },
       "8": {
-        "step": "Go through the eastern door. (Chat: 2)",
+        "subtitle": "Melzar's map piece.",
+        "step": "Use the maze key to get into the Melzar's maze.",
         "details": {
           "1": {
-            "location": ["Black Knights' Fortress"],
-            "description": ["A guard will stop you from entering. After entering the door, the Black Knights will attack you."]
+            "location": ["North-west Rimmington"],
+            "description": ["Use the maze key from the Guildmaster to get into Melzar's maze."]
           }
         }
       },
       "9": {
-        "step": "Climb-up the ladder and push the wall.",
+        "step": "Kill a small zombie rat (long tail) for a key and enter the most north-west door and up the ladder.",
         "details": {
           "1": {
-            "location": ["Black Knights' Fortress"],
-            "description": ["Climb up the ladders."]
+            "location": ["Melzar's maze"],
+            "description": ["Kill the small zombie rat with a long tail to get a red key."]
           },
           "2": {
-            "location": ["Black Knights' Fortress"],
-            "description": ["Follow the path east until you reach a wall. Click on it to enter a room"]
+            "location": ["Melzar's maze"],
+            "description": ["Enter the most north-west door and climb up the ladder."]
           }
         }
       },
       "10": {
-        "step": "RIGHT-CLICK and USE the cabbage on the hole (DO NOT EAT IT)",
+        "step": "Kill the ghost (hood and no cape) for a key and enter the second door from the north and up the ladder.",
         "details": {
           "1": {
-            "location": ["Black Knights' Fortress"],
-            "description": ["Use the cabbage on the hole to trigger a cut scene."]
+            "location": ["Melzar's maze"],
+            "description": ["Kill the ghost with a hood and no cape for an orange key."]
+          },
+          "2": {
+            "location": ["Melzar's maze"],
+            "description": ["Enter the second door from the north and climb up the ladder."]
           }
         }
       },
       "11": {
-        "step": "Talk to Sir Amik Varze.",
+        "step": "Kill a skeleton (small, round shield) for a key and enter the western-most door and climb down the ladder 3 times.",
         "details": {
           "1": {
-            "location": ["West side of Falador Castle on the third floor."],
-            "description": ["Talk to Sir Amik Varze to finish the quest."]
+            "location": ["Melzar's maze"],
+            "description": ["Kill a skeleton with the small, round shield for a yellow key."]
+          },
+          "2": {
+            "location": ["Melzar's maze"],
+            "description": ["Enter the western-most door."]
+          },
+          "3": {
+            "location": ["Melzar's maze"],
+            "description": ["Climb down the ladder at the end of the path."]
+          },
+          "4": {
+            "location": ["Melzar's maze"],
+            "description": ["Climb down the eastern ladder."]
+          },
+          "5": {
+            "location": ["Melzar's maze"],
+            "description": ["Climb down the eastern ladder."]
           }
         }
       },
       "12": {
+        "step": "Kill zombies for a key and enter the blue door.",
+        "details": {
+          "1": {
+            "location": ["Melzar's maze"],
+            "description": ["Kill zombies for a blue key."]
+          },
+          "2": {
+            "location": ["Melzar's maze"],
+            "description": ["Enter the blue door."]
+          }
+        }
+      },
+      "13": {
+        "step": "Kill Melzar the Mad for a key and enter the purple door.",
+        "details": {
+          "1": {
+            "location": ["Melzar's maze"],
+            "description": ["Kill Melzar the Mad for a purple key."]
+          },
+          "2": {
+            "location": ["Melzar's maze"],
+            "description": ["Enter the purple door."]
+          }
+        }
+      },
+      "14": {
+        "step": "Kill the lesser demon to get the key and enter the green door.",
+        "details": {
+          "1": {
+            "location": ["Melzar's maze"],
+            "description": ["Kill the lesser demon to get the green key."]
+          },
+          "2": {
+            "location": ["Melzar's maze"],
+            "description": ["Enter the green door."]
+          }
+        }
+      },
+      "15": {
+        "step": "Open and search the chest to receive a map piece.",
+        "details": {
+          "1": {
+            "location": ["Melzar's maze"],
+            "description": ["Open and search the chest to receive a Melzar's map piece."]
+          }
+        },
+        "last": true
+      },
+      "16": {
+        "subtitle": "Lozar's map piece.",
+        "step": "Either kill Wormbrain and telegrab the map piece or pay him 10,000 Coins for the map piece.",
+        "details": {
+          "1": {
+            "location": ["Port Sarim"],
+            "description": ["Use Range/Mage to kill Wormbrain and telegrab or talk to him and pay 10,000 Coins for Lozar's map piece."]
+          }
+        },
+        "last": true
+      },
+      "17": {
+        "subtitle": "Obtaining the boat.",
+        "step": "Talk to Klarense and pay him 2,000 gp. (Chat: 4-1)",
+        "details": {
+          "1": {
+            "location": ["Port Sarim docks"],
+            "description": ["Talk to Klarense and pay him 2,000 gp for the boat."]
+          }
+        }
+      },
+      "18": {
+        "step": "Go on board, climb down the ladder and repair the hole 3 times.",
+        "details": {
+          "1": {
+            "location": ["Port Sarim docks"],
+            "description": ["Aboard the boat."]
+          },
+          "2": {
+            "location": ["Port Sarim docks"],
+            "description": ["Climb down the ladder."]
+          },
+          "3": {
+            "location": ["Port Sarim docks"],
+            "description": ["Repair the hole 3 times."]
+          }
+        },
+        "last": true
+      },
+      "19": {
+        "subtitle": "Defeat Elvarg.",
+        "step": "Talk to Ned with the map in your inventory. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Port Sarim docks"],
+            "description": ["If you haven't yet use all three map pieces on each other to create a map and talk to Ned."]
+          }
+        }
+      },
+      "20": {
+        "step": "Talk to Captain Ned inside the boat you bought. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Port Sarim docks"],
+            "description": ["Go back to the boat at Port Sarim and talk to Ned and he will sail you to Crandor."]
+          }
+        }
+      },
+      "21": {
+        "step": "Climb up the volcano and enter the hole.",
+        "details": {
+          "1": {
+            "location": ["Crandor"],
+            "description": ["Climb up the volcano and enter the hole."]
+          }
+        }
+      },
+      "22": {
+        "step": "Head south and defeat Elvarg.",
+        "details": {
+          "1": {
+            "location": ["Karamja Dungeon"],
+            "description": ["Head south the dungeon and enter Elvarg's area. Note: Use the Super antifire potion and anti-dragon shield to not take any damage by her magical fire attacks."]
+          }
+        },
+        "last": true
+      },
+      "23": {
+        "subtitle": "Finishing up.",
+        "step": "Talk to Oziach.",
+        "details": {
+          "1": {
+            "location": ["North-west of Edgeville"],
+            "description": ["Talk to Oziach to complete the quest."]
+          }
+        }
+      },
+      "24": {
         "step": "Quest complete!",
         "details": {
           "1": {}

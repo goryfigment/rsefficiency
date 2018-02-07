@@ -1,120 +1,21 @@
-Black Knights' Fortress
-
-Items: Bronze med helm, Iron chainbody, Cabbage
-
-Talk to Sir Amik Varze (Chat option: 1-1)
-Equip iron chainbody and bronze med helm and go through the door.
-Push the wall and go up the ladder twice.
-Climb down the ladder south, go through the eastern door and climb up the ladder.
-Climb down the ladder east, go through the southern door and climb up the ladder.
-Listen-at grill on the eastern wall.
-Go back to the entrance using the same route.
-Go through the eastern door (Chat option: 2)
-Climb-up the ladder and push the wall.
-Use cabbage on the hole (DON'T EAT IT)
-Talk to Sir Amik Varze.
-Quest Complete!
-
-
-Cook's Assistant
-
-Items: Bucket (Lumbridge basement), Pot (Lumbridge kitchen)
-
-Talk to the Cook. (Chat: 1-1-3)
-Use bucket on dairy cow.
-Take egg from the chicken coop.
-Pick some wheat.
-Use the grain with the hopper and operate the controls.
-Use the empty pot on the flour bin.
-Talk to the Cook.
-Quest Complete!
-
-
-The Corsair Curse
-
-Items: Spade, Tinderbox
-
-Talk to Captain Tock (Chat: 2-1)
-Board the ship clicking "Cross" after the cutscene
-Talk to Captain Tock (Chat: 1)
-Talk to Arsen the Thief (Chat: 1)
-Talk to Ithoi the Navigator (Chat: 1)
-    The Curse
-Talk to Gnooci the Cook, Arsen the Thief, and Cabin Boy Colin (Chat: 1)
-Talk to Captain Tock for the ogre artefact. (Chat: 1)
-Talk to Ithoi the Navigator.
-Use the telescope in Ithoi the Navigator's hut.
-Dig by the lump of sand next to the tree. (Chat: 1)
-Enter the dungeon and speak to Chief Tess. (Chat: 1)
-Talk to Gnooci the Cook, Arsen the Thief, and Cabin Boy Colin
-    Find the Traitor
-Talk to Captain Tock. (Chat: 1-1)
-Talk to Gnocci the Cook. (Chat: 1)
-Talk to Arsen the Thief. (Chat: 1-1)
-Talk to Ithoi the Navigator. (Chat: 1-1)
-Talk to Ithoi the Navigator. (Chat: 1-1)
-Use the tinderbox on the driftwood.
-Talk to Captain Tock (Chat: 1-3)
-Kill Ithoi the Navigator (level 35)
-Talk to Captain Tock (Chat: 1)
-Quest Complete!
-
-
-Demon Slayer
-
-Items: 1gp,  25 Bones (noted), Bucket of water
-Teleports: Varrock Teleport, Necklace of passage
-Gabindo Aber Camerinthum Purchai Carlem
-
-Talk to the Gypsy, give her 1gp and remember the incantation she mentions. (Chat: 1-1-3)
-    First key
-Talk to Sir Prysin (Chat: 3-1-2-2)
-Talk to Captain Rovin (Chat: 3-1-2-2-3-1)
-    Second key
-Use the bucket of water on the drain
-Climb down the manhole
-At the end of the west path pickup a key from the floor.
-    Third key
-Get 25 un-noted bones and talk to Wizard Traiborn (Chat: 3-3-2)
-Talk to Wizard Traibord to give him 25 un-noted bones for a key.
-    Delrith
-Talk to Sir Prysin and give him the keys.
-Wield the Silverlight and go to the Dark wizards.
-Defeat Delrith and banish him by using the incantation.
-Quest Complete!
-
-
-Dorics Quest
-
-Requirements: 15 Mining to mine iron
-
-Talk to Doric two times. (Chat: 1-1-2)
-Go to the Dwarven Mine
-Mine 2 iron ores.
-Mine 4 copper ores.
-Mine 6 clay.
-Talk to Doric with the ores.
-Quest Complete!
-
-
 Dragon Slayer
 
 Talk to Guildmaster. (Chat: 2)
 Talk to Oziach. (Chat: 1-1-1-1)
 Talk to Guildmaster to get the maze key. (Chat: 2-1-1-1-2-3-2-3)
 Map pieces can be obtain in any order.
+    Thalzar's map piece
+Talk to the Oracle (Chat: 1)
+Use silk, lobster pot, unfired bowl and (RIGHT CLICK AND USE) wizard's mind bomb on the magic door.
+Open and search the chest to receive a map piece.
     Melzar's map piece
 Use the maze key to get into the Melzar's maze.
-Kill a zombie rat (long tail) for a key and enter the north-most door and down the ladder.
+Kill a zombie rat (long tail) for a key and enter the north-west door and down the ladder.
 Kill the ghost (hood and no cape) for a key and enter the second door from the north and climb up the ladder.
 Kill a skeleton for a key and enter the western-most door and climb down the ladder 3 times.
 Kill a zombie for a key and enter the blue door.
 Kill Melzar the Mad for a key and enter the purple door.
 Kill the lesser demon to get the key and enter the green door.
-Open and search the chest to receive a map piece.
-    Thalzar's map piece
-Talk to the Oracle (Chat: 1)
-Use silk, lobster pot, unfired bowl and (RIGHT CLICK AND USE) wizard's mind bomb on the magic door.
 Open and search the chest to receive a map piece.
     Lozar's map piece
 Go to the jail at Port Sarim.

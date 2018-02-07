@@ -18,7 +18,8 @@ function init() {
 
     if(!$.isEmptyObject(globals.f2p_quests) && !$.isEmptyObject(globals.member_quests)) {
         $questWrapper.empty();
-        $questWrapper.append(questIndexTemplate({'f2p_quests': globals.f2p_quests, 'member_quests': globals.member_quests}));
+        //$questWrapper.append(questIndexTemplate({'f2p_quests': globals.f2p_quests, 'member_quests': globals.member_quests}));
+        $questWrapper.append(questIndexTemplate({'f2p_quests': globals.f2p_quests}));
     } else {
         $questWrapper.append(quest(globals.quest));
     }

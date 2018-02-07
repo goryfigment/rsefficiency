@@ -20,10 +20,31 @@ def quest_index(request):
         data = {'success': False, 'error_id': 2, 'error_msg:': 'IO Error', 'directory': file_path}
         return HttpResponse(json.dumps(data), 'application/json')
 
+    try:
+        file_path = os.path.join(os.path.dirname(__file__), 'static_data/quests.json')
+        quests = json.loads(open(file_path).read())
+    except:
+        data = {'success': False, 'error_id': 2, 'error_msg:': 'IO Error', 'directory': file_path}
+        return HttpResponse(json.dumps(data), 'application/json')
+
+    finished_quest = []
+
+    # Check quest
+    for f2p_quest in f2p_quests:
+        f2p_quest_name = f2p_quest['quest_name'].lower().replace("'", "").replace(' ', "_")
+        if f2p_quest_name in quests:
+            finished_quest.append(f2p_quest)
+
+    for member_quest in member_quests:
+        member_quest_name = member_quest['quest_name'].lower().replace("'", "").replace(' ', "_")
+        if member_quest_name in quests:
+            finished_quest.append(member_quest)
+
     data = {
         'base_url': get_base_url(),
-        'f2p_quests': json.dumps(f2p_quests),
-        'member_quests': json.dumps(member_quests),
+        'f2p_quests': json.dumps(finished_quest),
+        #'member_quests': json.dumps(member_quests),
+        'member_quests': [{}],
         'quest': {}
     }
 
