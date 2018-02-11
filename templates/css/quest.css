@@ -114,7 +114,7 @@
     margin: 6px 16px;
 }
 
-.location-wrapper {
+.location-wrapper, .location-wrapper img {
     max-width: 200px;
 }
 

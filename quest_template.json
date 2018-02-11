@@ -1,285 +1,92 @@
 {
-  "dragon_slayer": {
-    "name": "Dragon Slayer",
-    "directory": "dragon_slayer",
+  "witchs_potion": {
+    "name": "Witch's Potion",
+    "directory": "witchs_potion",
     "req": [
       {
-        "name": "Requirement (If ore can not be bought)",
-        "items": ["32 Quest Points"]
-      },
-      {
         "name": "Items",
-        "items": ["Hammer", "3 Planks", "90 Steel nails", "Unfired bowl (8 Crafting to make)", "Wizard's mind bomb", "Silk", "Anti-dragon shield"],
-        "keywords": ["Hammer", "Plank", "Steel nails", "Unfired bowl", "Wizard's mind bomb", "Silk", "Anti-dragon shield"]
+        "items": ["3 coins (to buy an eye of newt)"]
       },
       {
         "name": "Recommended",
-        "items": ["Range/Magic Weapon, air rune, and law rune (if Magic level is 33 or higher) or 10,000 coins", "Super anti-fire potion", "Home Teleport", "Combat bracelet", "Amulet of Glory", "Chronicle"]
+        "items": ["Burnt Meat (Obtained during quest)" ,"Eye of Newt (Obtained during quest)"],
+        "keywords": ["Burnt Meat" ,"Eye of Newt"]
       }
     ],
     "steps": {
       "1": {
-        "subtitle": "Getting started.",
-        "step": "Talk to Guildmaster. (Chat: 2)",
+        "subtitle": "Getting Started",
+        "step": "Talk to Hetty. (Chat: 1-1)",
         "details": {
           "1": {
-            "location": ["Champions Guild, south of Varrock"],
-            "description": ["Talk to Guildmaster to start the quest."]
+            "location": ["Rimmington"],
+            "description": ["Talk to Morgan to start the quest."]
           }
-        }
+        },
+        "last": true
       },
       "2": {
-        "step": "Talk to Oziach. (Chat: 1-1-1-1)",
+        "subtitle": "Obtaining the Ingredients",
+        "step": "Kill a rat for a rat's tail.",
         "details": {
           "1": {
-            "location": ["North-west of Edgeville"],
-            "description": ["Talk to Oziach."]
+            "location": ["Rimmington"],
+            "description": ["Kill a rat and pick-up a rat's tail."]
           }
         }
       },
       "3": {
-        "step": "Talk to Guildmaster to get the maze key. (Chat: 2-1-1-1-2-3-2-3)",
+        "step": "Kill a giant rat and cook it twice for burnt meat.",
         "details": {
           "1": {
-            "location": ["Dwarven Mine"],
-            "description": ["Talk to Guildmaster to receive a maze key."]
+            "location": ["Rimmington"],
+            "description": ["Kill a giant rat"]
+          },
+          "2": {
+            "location": ["Rimmington"],
+            "description": ["Cook it twice for burnt meat."]
           }
         }
       },
       "4": {
-        "step": "Map pieces can be obtain in any order.",
-        "last": true
-      },
-      "5": {
-        "subtitle": "Thalzar's map piece.",
-        "step": "Talk to the Oracle. (Chat: 1)",
+        "step": "Pick an onion from the onion field.",
         "details": {
           "1": {
-            "location": ["Top of Ice Mountain"],
-            "description": ["Talk to the Oracle to start going for the Thalzar's map piece."]
+            "location": ["North of Rimmington"],
+            "description": ["Pick an onion from the onion field."]
           }
         }
       },
-      "6": {
-        "step": "Use silk, lobster pot, unfired bowl and (RIGHT CLICK AND USE) wizard's mind bomb on the magic door.",
+      "5": {
+        "step": "Buy an eye of newt from Betty for 3 coins.",
         "details": {
           "1": {
-            "location": ["Ice Mountain"],
-            "description": ["Run south down Ice Mountain and go down some ladders to get into Dwarven Mine."]
-          },
-          "2": {
-            "location": ["Dwarven Mine"],
-            "description": ["Use the silk, lobster pot, unfired bowl, and wizard's mind bomb on the magic door to open it."]
+            "location": ["Port Sarim Magic Store"],
+            "description": ["Buy an eye of newt from Betty for 3 coins."]
+          }
+        },
+        "last": true
+      },
+      "6": {
+        "subtitle": "Creating the Witch's Potion",
+        "step": "Talk to Betty with all 4 ingredients in inventory.",
+        "details": {
+          "1": {
+            "location": ["Rimmington"],
+            "description": ["Talk to Betty with all 4 ingredients in inventory."]
           }
         }
       },
       "7": {
-        "step": "Open and search the chest to receive a map piece.",
+        "step": "Drink from the cauldron.",
         "details": {
           "1": {
-            "location": ["Dwarven Mine"],
-            "description": ["Once inside, open and search the chest for the Thalzar's map piece."]
+            "location": ["Rimmington"],
+            "description": ["Drink from the cauldron to finish the quest."]
           }
         }
       },
       "8": {
-        "subtitle": "Melzar's map piece.",
-        "step": "Use the maze key to get into the Melzar's maze.",
-        "details": {
-          "1": {
-            "location": ["North-west Rimmington"],
-            "description": ["Use the maze key from the Guildmaster to get into Melzar's maze."]
-          }
-        }
-      },
-      "9": {
-        "step": "Kill a small zombie rat (long tail) for a key and enter the most north-west door and up the ladder.",
-        "details": {
-          "1": {
-            "location": ["Melzar's maze"],
-            "description": ["Kill the small zombie rat with a long tail to get a red key."]
-          },
-          "2": {
-            "location": ["Melzar's maze"],
-            "description": ["Enter the most north-west door and climb up the ladder."]
-          }
-        }
-      },
-      "10": {
-        "step": "Kill the ghost (hood and no cape) for a key and enter the second door from the north and up the ladder.",
-        "details": {
-          "1": {
-            "location": ["Melzar's maze"],
-            "description": ["Kill the ghost with a hood and no cape for an orange key."]
-          },
-          "2": {
-            "location": ["Melzar's maze"],
-            "description": ["Enter the second door from the north and climb up the ladder."]
-          }
-        }
-      },
-      "11": {
-        "step": "Kill a skeleton (small, round shield) for a key and enter the western-most door and climb down the ladder 3 times.",
-        "details": {
-          "1": {
-            "location": ["Melzar's maze"],
-            "description": ["Kill a skeleton with the small, round shield for a yellow key."]
-          },
-          "2": {
-            "location": ["Melzar's maze"],
-            "description": ["Enter the western-most door."]
-          },
-          "3": {
-            "location": ["Melzar's maze"],
-            "description": ["Climb down the ladder at the end of the path."]
-          },
-          "4": {
-            "location": ["Melzar's maze"],
-            "description": ["Climb down the eastern ladder."]
-          },
-          "5": {
-            "location": ["Melzar's maze"],
-            "description": ["Climb down the eastern ladder."]
-          }
-        }
-      },
-      "12": {
-        "step": "Kill zombies for a key and enter the blue door.",
-        "details": {
-          "1": {
-            "location": ["Melzar's maze"],
-            "description": ["Kill zombies for a blue key."]
-          },
-          "2": {
-            "location": ["Melzar's maze"],
-            "description": ["Enter the blue door."]
-          }
-        }
-      },
-      "13": {
-        "step": "Kill Melzar the Mad for a key and enter the purple door.",
-        "details": {
-          "1": {
-            "location": ["Melzar's maze"],
-            "description": ["Kill Melzar the Mad for a purple key."]
-          },
-          "2": {
-            "location": ["Melzar's maze"],
-            "description": ["Enter the purple door."]
-          }
-        }
-      },
-      "14": {
-        "step": "Kill the lesser demon to get the key and enter the green door.",
-        "details": {
-          "1": {
-            "location": ["Melzar's maze"],
-            "description": ["Kill the lesser demon to get the green key."]
-          },
-          "2": {
-            "location": ["Melzar's maze"],
-            "description": ["Enter the green door."]
-          }
-        }
-      },
-      "15": {
-        "step": "Open and search the chest to receive a map piece.",
-        "details": {
-          "1": {
-            "location": ["Melzar's maze"],
-            "description": ["Open and search the chest to receive a Melzar's map piece."]
-          }
-        },
-        "last": true
-      },
-      "16": {
-        "subtitle": "Lozar's map piece.",
-        "step": "Either kill Wormbrain and telegrab the map piece or pay him 10,000 Coins for the map piece.",
-        "details": {
-          "1": {
-            "location": ["Port Sarim"],
-            "description": ["Use Range/Mage to kill Wormbrain and telegrab or talk to him and pay 10,000 Coins for Lozar's map piece."]
-          }
-        },
-        "last": true
-      },
-      "17": {
-        "subtitle": "Obtaining the boat.",
-        "step": "Talk to Klarense and pay him 2,000 gp. (Chat: 4-1)",
-        "details": {
-          "1": {
-            "location": ["Port Sarim docks"],
-            "description": ["Talk to Klarense and pay him 2,000 gp for the boat."]
-          }
-        }
-      },
-      "18": {
-        "step": "Go on board, climb down the ladder and repair the hole 3 times.",
-        "details": {
-          "1": {
-            "location": ["Port Sarim docks"],
-            "description": ["Aboard the boat."]
-          },
-          "2": {
-            "location": ["Port Sarim docks"],
-            "description": ["Climb down the ladder."]
-          },
-          "3": {
-            "location": ["Port Sarim docks"],
-            "description": ["Repair the hole 3 times."]
-          }
-        },
-        "last": true
-      },
-      "19": {
-        "subtitle": "Defeat Elvarg.",
-        "step": "Talk to Ned with the map in your inventory. (Chat: 1)",
-        "details": {
-          "1": {
-            "location": ["Port Sarim docks"],
-            "description": ["If you haven't yet use all three map pieces on each other to create a map and talk to Ned."]
-          }
-        }
-      },
-      "20": {
-        "step": "Talk to Captain Ned inside the boat you bought. (Chat: 1)",
-        "details": {
-          "1": {
-            "location": ["Port Sarim docks"],
-            "description": ["Go back to the boat at Port Sarim and talk to Ned and he will sail you to Crandor."]
-          }
-        }
-      },
-      "21": {
-        "step": "Climb up the volcano and enter the hole.",
-        "details": {
-          "1": {
-            "location": ["Crandor"],
-            "description": ["Climb up the volcano and enter the hole."]
-          }
-        }
-      },
-      "22": {
-        "step": "Head south and defeat Elvarg.",
-        "details": {
-          "1": {
-            "location": ["Karamja Dungeon"],
-            "description": ["Head south the dungeon and enter Elvarg's area. Note: Use the Super antifire potion and anti-dragon shield to not take any damage by her magical fire attacks."]
-          }
-        },
-        "last": true
-      },
-      "23": {
-        "subtitle": "Finishing up.",
-        "step": "Talk to Oziach.",
-        "details": {
-          "1": {
-            "location": ["North-west of Edgeville"],
-            "description": ["Talk to Oziach to complete the quest."]
-          }
-        }
-      },
-      "24": {
         "step": "Quest complete!",
         "details": {
           "1": {}

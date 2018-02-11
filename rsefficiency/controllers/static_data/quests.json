@@ -2558,5 +2558,1735 @@
         }
       }
     }
+  },
+  "ernest_the_chicken": {
+    "name": "Ernest the Chicken",
+    "directory": "ernest_the_chicken",
+    "req": [
+      {
+        "name": "Items",
+        "items": ["None"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting started.",
+        "step": "Talk to Veronica. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor"],
+            "description": ["Talk to Veronica to start the quest."]
+          }
+        }
+      },
+      "2": {
+        "step": "Pick-up the fish food on the second floor.",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor second floor."],
+            "description": ["Upon entering go upstairs and find fish food in the south room."]
+          }
+        }
+      },
+      "3": {
+        "step": "Pick-up the poison at ground floor.",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor"],
+            "description": ["Go back downstairs and head to the kitchen with the Witch and poison will be in the south room."]
+          }
+        }
+      },
+      "4": {
+        "step": "Use the poison on the fish food.",
+        "items": [],
+        "last": true
+      },
+      "5": {
+        "subtitle": "Obtaining oil can.",
+        "step": "Search the bookcase in the western room and climb down the ladder.",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor"],
+            "description": ["Search the bookcase."]
+          },
+          "2": {
+            "location": ["Draynor Manor"],
+            "description": ["Climb down the ladder."]
+          }
+        }
+      },
+      "6": {
+        "step": "Pull lever A and B down; and enter Door 1.",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor basement"],
+            "description": ["Pull lever B, DOWN."]
+          },
+          "2": {
+            "location": ["Draynor Manor basement"],
+            "description": ["Pull lever A, DOWN."]
+          },
+          "3": {
+            "location": ["Draynor Manor basement"],
+            "description": ["Enter Door 1."]
+          }
+        }
+      },
+      "7": {
+        "step": "Pull lever D down; then enter Door 1.",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor basement"],
+            "description": ["Pull lever D, DOWN."]
+          },
+          "2": {
+            "location": ["Draynor Manor basement"],
+            "description": ["Enter Door 1."]
+          }
+        }
+      },
+      "8": {
+        "step": "Pull lever A and B up; and enter Door 3, 4, & 5.",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor basement"],
+            "description": ["Pull lever A, UP."]
+          },
+          "2": {
+            "location": ["Draynor Manor basement"],
+            "description": ["Pull lever B, UP."]
+          },
+          "3": {
+            "location": ["Draynor Manor basement"],
+            "description": ["Enter Door 3."]
+          },
+          "4": {
+            "location": ["Draynor Manor basement"],
+            "description": ["Enter Door 4."]
+          },
+          "5": {
+            "location": ["Draynor Manor basement"],
+            "description": ["Enter Door 5."]
+          }
+        }
+      },
+      "9": {
+        "step": "Pull lever E and F down; and enter Door 6 & 7.",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor basement"],
+            "description": ["Pull lever E, DOWN."]
+          },
+          "2": {
+            "location": ["Draynor Manor basement"],
+            "description": ["Pull lever F, DOWN."]
+          },
+          "3": {
+            "location": ["Draynor Manor basement"],
+            "description": ["Enter Door 6."]
+          },
+          "4": {
+            "location": ["Draynor Manor basement"],
+            "description": ["Enter Door 7."]
+          }
+        }
+      },
+      "10": {
+        "step": "Pull lever C down; and enter Door 7 & 6.",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor basement"],
+            "description": ["Pull lever C, Down."]
+          },
+          "2": {
+            "location": ["Draynor Manor basement"],
+            "description": ["Enter Door 7."]
+          },
+          "3": {
+            "location": ["Draynor Manor basement"],
+            "description": ["Enter Door 6."]
+          }
+        }
+      },
+      "11": {
+        "step": "Pull lever E up; and enter Door 6, 8, 3, & 9.",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor basement"],
+            "description": ["Pull lever E, UP."]
+          },
+          "2": {
+            "location": ["Draynor Manor basement"],
+            "description": ["Enter Door 6."]
+          },
+          "3": {
+            "location": ["Draynor Manor basement"],
+            "description": ["Enter Door 8."]
+          },
+          "4": {
+            "location": ["Draynor Manor basement"],
+            "description": ["Enter Door 3."]
+          },
+          "5": {
+            "location": ["Draynor Manor basement"],
+            "description": ["Enter Door 9."]
+          }
+        }
+      },
+      "12": {
+        "step": "Pickup the oil can.",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor basement"],
+            "description": ["Pickup the oil can."]
+          }
+        },
+        "last": true
+      },
+      "13": {
+        "subtitle": "Obtaining the pressure gauge and rubber tube.",
+        "step": "Pick-up a spade at ground floor.",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor"],
+            "description": ["Go back up stairs, pull the lever, and into the most eastern room to find the spade."]
+          }
+        }
+      },
+      "14": {
+        "step": "Exit the back door.",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor"],
+            "description": ["Exit the back door."]
+          }
+        }
+      },
+      "15": {
+        "step": "Use the spade on the compost heap to get a key.",
+        "details": {
+          "1": {
+            "location": ["Outside of Draynor Manor"],
+            "description": ["Use the spade on the compost heap to get a key."]
+          }
+        }
+      },
+      "16": {
+        "step": "Use poisoned fish food on the fountain.",
+        "details": {
+          "1": {
+            "location": ["Outside of Draynor Manor"],
+            "description": ["Use poisoned fish food on the fountain."]
+          }
+        }
+      },
+      "17": {
+        "step": "Search the fountain to obtain a pressure gauge.",
+        "details": {
+          "1": {
+            "location": ["Outside of Draynor Manor"],
+            "description": ["Search the fountain to obtain a pressure gauge."]
+          }
+        }
+      },
+      "18": {
+        "step": "Pick-up the rubber tube in the room with the skeleton.",
+        "details": {
+          "1": {
+            "location": ["Outside of Draynor Manor"],
+            "description": ["Go back inside Draynor Manor and into the room with the skeleton using the key and pick-up the rubber."]
+          }
+        },
+        "last": true
+      },
+      "19": {
+        "subtitle": "Finishing up.",
+        "step": "Go to the top floor and talk to Professor Oddenstein. (Chat: 1-2)",
+        "details": {
+          "1": {
+            "location": ["Top floor of Draynor Manor"],
+            "description": ["Go back inside Draynor Manor and up the stairs to the very top floor and talk to Professor Oddenstein."]
+          }
+        }
+      },
+      "20": {
+        "step": "Talk to Professor Oddenstein again to give him the items.",
+        "details": {
+          "1": {
+            "location": ["Top floor of Draynor Manor"],
+            "description": ["Talk to him again to give him the oil can, pressure gauge, rubber tube and complete the quest."]
+          }
+        }
+      },
+      "21": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
+  },
+  "goblin_diplomacy": {
+    "name": "Goblin Diplomacy",
+    "directory": "goblin_diplomacy",
+    "req": [
+      {
+        "name": "Items",
+        "items": ["Blue dye", "Orange dye"],
+        "keywords": ["Blue dye", "Orange dye"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Obtain three Goblin mail.",
+        "step": "Go up a ladder near the entrance.",
+        "details": {
+          "1": {
+            "location": ["Goblin Village"],
+            "description": ["Go up the ladder."]
+          },
+          "2": {
+            "location": ["Goblin Village"],
+            "description": ["Search the crate."]
+          }
+        }
+      },
+      "2": {
+        "step": "Go inside the western hut and search the crate.",
+        "details": {
+          "1": {
+            "location": ["Goblin Village"],
+            "description": ["Search the crate."]
+          }
+        }
+      },
+      "3": {
+        "step": "Go behind the generals' hut and search the crate.",
+        "details": {
+          "1": {
+            "location": ["Goblin Village"],
+            "description": ["Search the crate."]
+          }
+        }
+      },
+      "4": {
+        "step": "Use blue dye on a goblin mail and orange dye on another goblin mail.",
+        "items": [],
+        "last": true
+      },
+      "5": {
+        "subtitle": "The best looking Goblin Mail.",
+        "step": "Talk to the Goblin Generals. (Chat: 3-3)",
+        "details": {
+          "1": {
+            "location": ["Goblin Village"],
+            "description": ["Talk to the Goblin Generals."]
+          }
+        }
+      },
+      "6": {
+        "step": "Keep talking to them until they choose the brown goblin mail. (Chat: 3)",
+        "details": {
+          "1": {
+            "location": ["Goblin Village"],
+            "description": ["Keep talking to them until they choose the brown goblin mail. Each goblin mail will give you a minor cut-scene."]
+          }
+        }
+      },
+      "7": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
+  },
+  "imp_catcher": {
+    "name": "Imp Catcher",
+    "directory": "imp_catcher",
+    "req": [
+      {
+        "name": "Items to finish quest immediately",
+        "items": ["Black bead", "White bead", "Yellow bead", "Red bead"],
+        "keywords": ["Black bead", "White bead", "Yellow bead", "Red bead"]
+      },
+      {
+        "name": "Recommended",
+        "items": ["Necklace of passage"],
+        "keywords": ["Necklace of passage (Wizards' Tower Teleport)"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Collecting all four beads.",
+        "step": "Kill imps or buy black, red, white, yellow beads at the grand exchange.",
+        "details": {
+          "1": {
+            "location": ["Around Karamja volcano."],
+            "description": ["Kill imps until they drop all four beads."]
+          },
+          "2": {
+            "location": ["Around Ardougne Monastery."],
+            "description": ["Kill imps until they drop all four beads."]
+          },
+          "3": {
+            "location": ["Around the Nightmare Zone minigame."],
+            "description": ["Kill imps until they drop all four beads."]
+          },
+          "4": {
+            "location": ["Southern part of Zeah by the sand crabs."],
+            "description": ["Kill imps until they drop all four beads."]
+          }
+        },
+        "last": true
+      },
+      "2": {
+        "subtitle": "Finishing up.",
+        "step": "Talk to Wizard Mizgog twice with the beads in inventory. (Chat: 1-1)",
+        "details": {
+          "1": {
+            "location": ["Last floor of Wizards' Tower"],
+            "description": ["Talk to Wizard Mizgog two times with the beads in inventory to complete the quest."]
+          }
+        }
+      },
+      "3": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
+  },
+  "the_knights_sword": {
+    "name": "The Knight's Sword",
+    "directory": "the_knights_sword",
+    "req": [
+      {
+        "name": "Requirement",
+        "items": ["10 Mining"]
+      },
+      {
+        "name": "Items",
+        "items": ["Redberry pie", "2 Iron bar", "Pickaxe"],
+        "keywords": ["Redberry pie", "2 Iron bar", "Pickaxe"]
+      },
+      {
+        "name": "Recommended",
+        "items": ["Varrock teleport", "Falador teleport", "Home Teleport or Fairy Ring A-I-Q"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting started.",
+        "step": "Talk to the Squire. (Chat: 1-2-1-1)",
+        "details": {
+          "1": {
+            "location": ["Falador castle in the courtyard."],
+            "description": ["Talk to the Squire to start the quest."]
+          }
+        },
+        "last": true
+      },
+      "2": {
+        "subtitle": "Obtaining Blurite ore.",
+        "step": "Talk to Reldo. (Chat: 4)",
+        "details": {
+          "1": {
+            "location": ["Varrock Castle in the library section."],
+            "description": ["Talk to Reldo to find out what Imcando dwarfs like."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to Thurgo twice and give him a redberry pie. (Chat: 2-2-2)",
+        "details": {
+          "1": {
+            "location": ["South-west of Rimmington"],
+            "description": ["Talk to Thurgo two times and he will tell you the items he needs to make a blurite sword."]
+          }
+        }
+      },
+      "4": {
+        "step": "Go inside Asgarnian Ice Dungeon, follow the path and mine blurite ore.",
+        "details": {
+          "1": {
+            "location": ["Mudskipper Point"],
+            "description": ["Climb down the stairs near Thurgo on the hill."]
+          },
+          "2": {
+            "location": ["Asgarnian Ice Dungeon"],
+            "description": ["Follow the path to the end of the dungeon until blurite ore can be seen and mine it."]
+          }
+        },
+        "last": true
+      },
+      "5": {
+        "subtitle": "Getting the Blurite Sword.",
+        "step": "Talk to the Squire.",
+        "details": {
+          "1": {
+            "location": ["Falador castle in the courtyard."],
+            "description": ["Talk to the Squire."]
+          }
+        }
+      },
+      "6": {
+        "step": "Go to Sir Vyvin's room and search the cupboard for a portrait.",
+        "details": {
+          "1": {
+            "location": ["Eastern section of Falador castle."],
+            "description": ["Climb up the stairs."]
+          },
+          "2": {
+            "location": ["Second floor of Falador castle."],
+            "description": ["Climb up the staircase"]
+          },
+          "3": {
+            "location": ["Third floor of Falador castle."],
+            "description": ["When Sir Vyvin is not inside his room, quickly search his cupboard for a portrait."]
+          }
+        }
+      },
+      "7": {
+        "step": "Talk to Thurgo twice to obtain the blurite sword. (Chat: 2-2)",
+        "details": {
+          "1": {
+            "location": ["Mudskipper Point"],
+            "description": ["Talk to Thurgo twice with the 2 iron bars, blurite ore and portrait in inventory to obtain the blurite sword."]
+          }
+        }
+      },
+      "8": {
+        "step": "Talk to the Squire.",
+        "details": {
+          "1": {
+            "location": ["Falador castle in the courtyard."],
+            "description": ["Talk to the Squire to finish the quest."]
+          }
+        }
+      },
+      "9": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
+  },
+  "misthalin_mystery": {
+    "name": "Misthalin Mystery",
+    "directory": "misthalin_mystery",
+    "req": [
+      {
+        "name": "Items",
+        "items": ["None"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting started.",
+        "step": "Talk to Abigale. (Chat: 1-1)",
+        "details": {
+          "1": {
+            "location": ["Lumbridge Swamp, south-east near the fishing spots."],
+            "description": ["Talk to the Abigale to start the quest."]
+          }
+        }
+      },
+      "2": {
+        "step": "Board the rowboat.",
+        "details": {
+          "1": {
+            "location": ["Lumbridge Swamp, south-east near the fishing spots."],
+            "description": ["Board the rowboat."]
+          }
+        }
+      },
+      "3": {
+        "step": "Pick-up a bucket and use it on the barrel.",
+        "details": {
+          "1": {
+            "location": ["Misthalin Manor"],
+            "description": ["Pick-up the bucket by the fountain."]
+          },
+          "2": {
+            "location": ["Misthalin Manor"],
+            "description": ["Use the bucket on the barrel."]
+          }
+        }
+      },
+      "4": {
+        "step": "Search the barrel to get a key.",
+        "details": {
+          "1": {
+            "location": ["Misthalin Manor"],
+            "description": ["Search the barrel to get a key."]
+          }
+        },
+        "last": true
+      },
+      "5": {
+        "subtitle": "Riddle 1",
+        "step": "Enter the manor and pickup the knife.",
+        "details": {
+          "1": {
+            "location": ["Misthalin Manor"],
+            "description": ["Enter the manor."]
+          },
+          "2": {
+            "location": ["Misthalin Manor"],
+            "description": ["Pickup the knife on the table."]
+          }
+        }
+      },
+      "6": {
+        "step": "Attempt to open the door with the pink knob.",
+        "details": {
+          "1": {
+            "location": ["Misthalin Manor"],
+            "description": ["Attempt to open the door with the pink knob."]
+          }
+        }
+      },
+      "7": {
+        "step": "Pick-up the note and read it.",
+        "details": {
+          "1": {
+            "location": ["Misthalin Manor"],
+            "description": ["After the cut-scene, a note will be placed on the floor. Pick it up and read it."]
+          }
+        }
+      },
+      "8": {
+        "step": "Use the knife on a painting and search it to obtain a ruby key.",
+        "details": {
+          "1": {
+            "location": ["Misthalin Manor"],
+            "description": ["Use the knife on a painting."]
+          },
+          "2": {
+            "location": ["Misthalin Manor"],
+            "description": ["Search the painting to obtain a ruby key."]
+          }
+        }
+      },
+      "9": {
+        "step": "Take a tinderbox from the shelves.",
+        "details": {
+          "1": {
+            "location": ["Misthalin Manor"],
+            "description": ["Go to the eastern room of the manor and take a tinderbox from the shelves."]
+          }
+        }
+      },
+      "10": {
+        "step": "Use the tinderbox on the four unlit candles, then on the barrel of fuse.",
+        "details": {
+          "1": {
+            "location": ["Misthalin Manor"],
+            "description": ["Use the tinderbox on the first candle."]
+          },
+          "2": {
+            "location": ["Misthalin Manor"],
+            "description": ["Use the tinderbox on the second candle."]
+          },
+          "3": {
+            "location": ["Misthalin Manor"],
+            "description": ["Use the tinderbox on the third candle."]
+          },
+          "4": {
+            "location": ["Misthalin Manor"],
+            "description": ["Use the tinderbox on the fourth candle."]
+          },
+          "5": {
+            "location": ["Misthalin Manor"],
+            "description": ["Use the tinderbox on the barrel of fuse."]
+          }
+        }
+      },
+      "11": {
+        "step": "Exit the room to trigger an explosion.",
+        "details": {
+          "1": {
+            "location": ["Misthalin Manor"],
+            "description": ["Open the door and exit the room to trigger an explosion."]
+          }
+        },
+        "last": true
+      },
+      "12": {
+        "subtitle": "Riddle 2",
+        "step": "Climb over the damaged wall and follow the path north until a cut-scene appears. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Misthalin Manor"],
+            "description": ["Climb over the damaged wall and follow the path north until a cut-scene appears."]
+          }
+        }
+      },
+      "13": {
+        "step": "Pick-up the note and read it.",
+        "details": {
+          "1": {
+            "location": ["Misthalin Manor"],
+            "description": ["After the cut-scene, a note will be placed on the floor. Pick it up and read it."]
+          }
+        }
+      },
+      "14": {
+        "step": "Play D-E-A-D on the piano and search it to obtain a emerald key.",
+        "details": {
+          "1": {
+            "location": ["Misthalin Manor"],
+            "description": ["Play the notes D-E-A-D on the piano."]
+          },
+          "2": {
+            "location": ["Misthalin Manor"],
+            "description": ["Search it to obtain a emerald key."]
+          }
+        }
+      },
+      "15": {
+        "step": "Climb back over the damaged wall to get back into the manor.",
+        "details": {
+          "1": {
+            "location": ["Misthalin Manor"],
+            "description": ["Climb back over the damaged wall to get back into the manor."]
+          }
+        },
+        "last": true
+      },
+      "16": {
+        "subtitle": "Riddle 3",
+        "step": "Open the door with the green knob, then attempt to open the door with the bandos godsword inside.",
+        "details": {
+          "1": {
+            "location": ["Misthalin Manor"],
+            "description": ["Go through the door with a green knob."]
+          },
+          "2": {
+            "location": ["Misthalin Manor"],
+            "description": ["Attempt to open the door with the bandos godsword inside to trigger a cut-scene."]
+          }
+        }
+      },
+      "17": {
+        "step": "Pick-up the note and read it.",
+        "details": {
+          "1": {
+            "location": ["Misthalin Manor"],
+            "description": ["After the cut-scene, a note will be placed on the floor. Pick it up and read it."]
+          }
+        }
+      },
+      "18": {
+        "step": "Use the knife on the unlit fireplace and search the fireplace.",
+        "details": {
+          "1": {
+            "location": ["Misthalin Manor"],
+            "description": ["Go to the eastern room with the fireplace, then use the knife on fireplace"]
+          },
+          "2": {
+            "location": ["Misthalin Manor"],
+            "description": ["Search the fireplace."]
+          }
+        }
+      },
+      "19": {
+        "step": "Place the gems in order: Sapphire - Diamond - Zenyte - Emerald - Onyx - Ruby.",
+        "details": {
+          "1": {
+            "location": ["Misthalin Manor"],
+            "description": ["An interface will popup, you must place the gems in the following order: Sapphire - Diamond - Zenyte - Emerald - Onyx - Ruby."]
+          }
+        }
+      },
+      "20": {
+        "step": "Search the fireplace again to obtain a sapphire key.",
+        "details": {
+          "1": {
+            "location": ["Misthalin Manor"],
+            "description": ["Search the fireplace again to obtain a sapphire key."]
+          }
+        },
+        "last": true
+      },
+      "21": {
+        "subtitle": "Defeat the Killer",
+        "step": "Open the western-most door with the blue knob.",
+        "details": {
+          "1": {
+            "location": ["Misthalin Manor"],
+            "description": ["Open the western-most door with the blue knob."]
+          }
+        }
+      },
+      "22": {
+        "step": "Push the mirror facing the wardrobe the killer is throwing knives from to defeat him.",
+        "details": {
+          "1": {
+            "location": ["Misthalin Manor"],
+            "description": ["The killer will throw knives from the wardrobe. A small, black fog will appear to signify that the killer will throw a knife from that wardrobe. Push the mirror facing that wardrobe hitting the killer three times to continue to the next step."]
+          }
+        }
+      },
+      "23": {
+        "step": "After the cut-scene, take and equip the killer's knife and attack Abigale.",
+        "details": {
+          "1": {
+            "location": ["Misthalin Manor"],
+            "description": ["After the cut-scene, take and equip the killer's knife and attack Abigale."]
+          }
+        }
+      },
+      "24": {
+        "step": "Exit the room and talk to Mandy.",
+        "details": {
+          "1": {
+            "location": ["Misthalin Manor"],
+            "description": ["Exit the room."]
+          },
+          "2": {
+            "location": ["Misthalin Manor"],
+            "description": ["Talk to Mandy to finish the quest."]
+          }
+        }
+      },
+      "25": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
+  },
+  "pirates_treasure": {
+    "name": "Pirate's Treasure",
+    "directory": "pirates_treasure",
+    "req": [
+      {
+        "name": "Items",
+        "items": ["60 coins"]
+      },
+      {
+        "name": "Recommended",
+        "items": ["Varrock Teleport", "Falador Teleport"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting started.",
+        "step": "Talk to Redbeard Frank. (Chat: 1-1)",
+        "details": {
+          "1": {
+            "location": ["Port Sarim northern docks."],
+            "description": ["Talk to Redbeard Frank to start the quest."]
+          }
+        }
+      },
+      "2": {
+        "step": "Travel to Karamja for 30 coins. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Port Sarim docks."],
+            "description": ["Right-click Seaman Lorris and choose pay-fare to pay 30 coins to travel to Karamja."]
+          }
+        },
+        "last": true
+      },
+      "3": {
+        "subtitle": "Smuggling Karamjan Rum",
+        "step": "Buy Karamjan rum for 30 coins.",
+        "details": {
+          "1": {
+            "location": ["Karamja bar"],
+            "description": ["Trade Zambo to access the beer he is selling. Buy Karamjan Rum for 30 coins."]
+          }
+        }
+      },
+      "4": {
+        "step": "Pick 10 Bananas.",
+        "details": {
+          "1": {
+            "location": ["Karamja"],
+            "description": ["Pick 10 Bananas from Banana Trees."]
+          }
+        }
+      },
+      "5": {
+        "step": "Talk to Luthas. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Karamja"],
+            "description": ["Talk to Luthas."]
+          }
+        }
+      },
+      "6": {
+        "step": "Put the rum and 10 bananas in the crate.",
+        "details": {
+          "1": {
+            "location": ["Karamja"],
+            "description": ["Put the rum in the crate."]
+          },
+          "2": {
+            "location": ["Karamja"],
+            "description": ["Right-click and select Fill crate to put 10 bananas inside the crate."]
+          }
+        }
+      },
+      "7": {
+        "step": "Talk to Luthas.",
+        "details": {
+          "1": {
+            "location": ["Karamja"],
+            "description": ["Talk to Luthas to have the crate ship it to Port Sarim and he will also give you 30 coins."]
+          }
+        }
+      },
+      "8": {
+        "step": "Go back to Port Sarim. (Chat: 1-2-1).",
+        "details": {
+          "1": {
+            "location": ["Karamja"],
+            "description": ["Right-click the customs officer and pay-fare to pay 30 coins to go back to Port Sarim."]
+          }
+        },
+        "last": true
+      },
+      "9": {
+        "subtitle": "Port Sarim",
+        "step": "Take the white apron from the fish store.",
+        "details": {
+          "1": {
+            "location": ["Port Sarim fish store."],
+            "description": ["Take the white apron from the fish store."]
+          }
+        }
+      },
+      "10": {
+        "step": "Equip the white apron and enter the back room of the food shop. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Port Sarim food shop."],
+            "description": ["The store owner will allow you to enter the back room of the food shop only if you have a white apron equipped."]
+          }
+        }
+      },
+      "11": {
+        "step": "Search the crate to get the rum.",
+        "details": {
+          "1": {
+            "location": ["Port Sarim food shop."],
+            "description": ["Search the crate to get the rum."]
+          }
+        }
+      },
+      "12": {
+        "step": "Talk to Redbeard Frank to give him rum and receive a key. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Port Sarim northern docks."],
+            "description": ["Talk to Redbeard Frank to give him rum and receive a key."]
+          }
+        }
+      },
+      "13": {
+        "step": "Go upstairs at the Blue Moon Inn in Varrock and use the key on the chest. Read the pirate message.",
+        "details": {
+          "1": {
+            "location": ["Varrock Pub"],
+            "description": ["Go to Varrock into the pub and go upstairs."]
+          },
+          "2": {
+            "location": ["Varrock Pub, second floor."],
+            "description": ["Use the key on the chest to get a pirate message then read it."]
+          }
+        },
+        "last": true
+      },
+      "14": {
+        "subtitle": "Buried Treasure",
+        "step": "Pick-up a spade inside the Falador Estate house.",
+        "details": {
+          "1": {
+            "location": ["Falador Estate house"],
+            "description": ["Go to Falador and pick-up a spade inside the Falador Estate house."]
+          }
+        }
+      },
+      "15": {
+        "step": "Dig at Falador park and kill the Gardener.",
+        "details": {
+          "1": {
+            "location": ["Falador Park"],
+            "description": ["Dig at Falador park and kill the Gardener."]
+          }
+        }
+      },
+      "16": {
+        "step": "Dig again to get a casket.",
+        "details": {
+          "1": {
+            "location": ["Falador Park"],
+            "description": ["Dig again to get a casket and complete the quest."]
+          }
+        }
+      },
+      "17": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
+  },
+  "prince_ali_rescue": {
+    "name": "Prince Ali Rescue",
+    "directory": "prince_ali_rescue",
+    "req": [
+      {
+        "name": "Items",
+        "items": ["50 coins", "Redberries", "Soft Clay", "3 Balls of wool", "Yellow dye", "Ashes", "Flour", "Bucket of water", "Bronze bar", "Pink skirt", "3 Beers", "Rope"],
+        "keywords": ["Redberries", "Soft Clay", "3 Balls of wool", "Yellow dye", "Ashes", "Flour", "Bucket of water", "Bronze bar", "Pink skirt", "3 Beers", "Rope"]
+      },
+      {
+        "name": "Recommended",
+        "items": ["Dueling Ring", "Glory"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting started.",
+        "step": "Talk to Hassan. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Al Kharid palace."],
+            "description": ["Talk to Hassan to start the quest."]
+          }
+        }
+      },
+      "2": {
+        "step": "Talk to Osman. (Chat 1-2-3)",
+        "details": {
+          "1": {
+            "location": ["By Al Kharid palace entrance."],
+            "description": ["Talk to Osman."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to Leela. (Chat 1-1-2-3)",
+        "details": {
+          "1": {
+            "location": ["East of Draynor Village"],
+            "description": ["Talk to Leela."]
+          }
+        },
+        "last": true
+      },
+      "4": {
+        "subtitle": "Creating a Disguise",
+        "step": "Talk to Ned to get the wig from him. (Chat: 1-2-1)",
+        "details": {
+          "1": {
+            "location": ["Draynor Village"],
+            "description": ["Talk to Ned to get the wig from him. (Chat: 1-2-1)"]
+          }
+        }
+      },
+      "5": {
+        "step": "Talk to Aggie to get skin paste. (Chat: 1-1)",
+        "details": {
+          "1": {
+            "location": ["Draynor Village"],
+            "description": ["Talk to Aggie to get skin paste."]
+          }
+        }
+      },
+      "6": {
+        "step": "Use yellow dye on the wig.",
+        "details": {},
+        "last": true
+      },
+      "7": {
+        "subtitle": "Obtaining the key",
+        "step": "Talk to Lady Keli. (Chat: 1-2-3-1-1)",
+        "details": {
+          "1": {
+            "location": ["Draynor Village jailhouse."],
+            "description": ["Talk to Lady Keli to get an imprint of the key on the soft clay."]
+          }
+        }
+      },
+      "8": {
+        "step": "Talk to Osman. (Chat 1)",
+        "details": {
+          "1": {
+            "location": ["By Al Kharid palace entrance."],
+            "description": ["Talk to Osman to duplicate the key."]
+          }
+        }
+      },
+      "9": {
+        "step": "Talk to Leela to get the key.",
+        "details": {
+          "1": {
+            "location": ["East of Draynor Village"],
+            "description": ["Talk to Leela to get the key."]
+          }
+        },
+        "last": true
+      },
+      "10": {
+        "subtitle": "Rescuing Prince Ali",
+        "step": "Talk to Joe. (Chat: 1))",
+        "details": {
+          "1": {
+            "location": ["Draynor Village jailhouse."],
+            "description": ["Talk to Joe and give him beer."]
+          }
+        }
+      },
+      "11": {
+        "step": "Use rope on Lady Keli.",
+        "details": {
+          "1": {
+            "location": ["Draynor Village jailhouse."],
+            "description": ["Use rope on Lady Keli to tie her up."]
+          }
+        }
+      },
+      "12": {
+        "step": "Use key on cell door.",
+        "details": {
+          "1": {
+            "location": ["Draynor Village jailhouse."],
+            "description": ["Use key on cell door."]
+          }
+        }
+      },
+      "13": {
+        "step": "Talk to Prince Ali.",
+        "details": {
+          "1": {
+            "location": ["Draynor Village jailhouse."],
+            "description": ["Talk to Prince Ali."]
+          }
+        }
+      },
+      "14": {
+        "step": "Talk to Hassan. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Al Kharid palace."],
+            "description": ["Talk to Hassan to finish the quest."]
+          }
+        }
+      },
+      "15": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
+  },
+  "the_restless_ghost": {
+    "name": "The Restless Ghost",
+    "directory": "the_restless_ghost",
+    "req": [
+      {
+        "name": "Recommended",
+        "items": ["Necklace passage", "Lumbridge Teleport"],
+        "keywords": ["Necklace passage"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting started.",
+        "step": "Talk to Father Aereck. (Chat: 3-1)",
+        "details": {
+          "1": {
+            "location": ["Lumbridge Church"],
+            "description": ["Talk to Father Aereck to start the quest."]
+          }
+        },
+        "last": true
+      },
+      "2": {
+        "subtitle": "Ghost Speak Amulet",
+        "step": "Talk to Father Urhney. (Chat: 2-1)",
+        "details": {
+          "1": {
+            "location": ["West of the Lumbridge Swamp."],
+            "description": ["Talk to Father Urhney to obtain a Ghost speak amulet."]
+          }
+        }
+      },
+      "3": {
+        "step": "Equip the Ghostspeak amulet, open the coffin and talk to the ghost. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Lumbridge Graveyard"],
+            "description": ["Equip the Ghostspeak amulet, open the coffin."]
+          },
+          "2": {
+            "location": ["Lumbridge Graveyard"],
+            "description": ["Talk to the ghost."]
+          }
+        },
+        "last": true
+      },
+      "4": {
+        "subtitle": "Obtaining the Ghost's Skull",
+        "step": "Search the altar to receive a ghost's skull.",
+        "details": {
+          "1": {
+            "location": ["Wizards' Tower."],
+            "description": ["Climb down the ladders of Wizards' Tower to get into the basement."]
+          },
+          "2": {
+            "location": ["Basement of the Wizards' Tower."],
+            "description": ["A skeleton will start attacking you for taking the skull. You can choose to fight it or run away."]
+          }
+        }
+      },
+      "5": {
+        "step": "Use skull on coffin.",
+        "details": {
+          "1": {
+            "location": ["Lumbridge Graveyard"],
+            "description": ["Use skull on coffin to finish the quest."]
+          }
+        }
+      },
+      "6": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
+  },
+  "romeo_and_juliet": {
+    "name": "Romeo & Juliet",
+    "directory": "romeo_&_juliet",
+    "req": [
+      {
+        "name": "Items",
+        "items": ["Cadava berries (Obtained during quest)"],
+        "keywords": ["Cadava berries"]
+      },
+      {
+        "name": "Recommended",
+        "items": ["Varrock Teleport"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting started.",
+        "step": "Talk to Romeo. (Chat: 3-1-3)",
+        "details": {
+          "1": {
+            "location": ["Varrock Centre"],
+            "description": ["Talk to Romeo to start the quest."]
+          }
+        },
+        "last": true
+      },
+      "2": {
+        "subtitle": "Love Letter",
+        "step": "Talk to Juliet.",
+        "details": {
+          "1": {
+            "location": ["Upstairs in a house west of the bank of Varrock."],
+            "description": ["Talk to Juliet to receive a love letter."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to Romeo.",
+        "details": {
+          "1": {
+            "location": ["Varrock Centre"],
+            "description": ["Talk to Romeo to show him a love letter."]
+          }
+        }
+      },
+      "4": {
+        "step": "Talk to Father Lawrence.",
+        "details": {
+          "1": {
+            "location": ["Varrock Church"],
+            "description": ["Talk to Father Lawrence."]
+          }
+        },
+        "last": true
+      },
+      "5": {
+        "subtitle": "Love Potion",
+        "step": "Pick Cadava berries.",
+        "details": {
+          "1": {
+            "location": ["South-east of Varrock by the mine"],
+            "description": ["Pick Cadava berries."]
+          }
+        }
+      },
+      "6": {
+        "step": "Talk to the Apothecary. (Chat: 3-1)",
+        "details": {
+          "1": {
+            "location": ["Varrock Apothecary, south of the west bank"],
+            "description": ["Talk to the Apothecary."]
+          }
+        }
+      },
+      "7": {
+        "step": "Talk to the Apothecary again to give him Cadava berries and receive a love potion.",
+        "details": {
+          "1": {
+            "location": ["Varrock Apothecary, south of the west bank"],
+            "description": ["Talk to the Apothecary to receive a love potion."]
+          }
+        }
+      },
+      "8": {
+        "step": "Talk to Juliet.",
+        "details": {
+          "1": {
+            "location": ["Upstairs in a house west of the bank of Varrock."],
+            "description": ["Talk to Juliet to give her the love potion."]
+          }
+        }
+      },
+      "9": {
+        "step": "Talk to Romeo.",
+        "details": {
+          "1": {
+            "location": ["Varrock Centre"],
+            "description": ["Talk to Romeo to finish the quest."]
+          }
+        }
+      },
+      "10": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
+  },
+  "shield_of_arrav": {
+    "name": "Shield of Arrav",
+    "directory": "shield_of_arrav",
+    "req": [
+      {
+        "name": "Requirements",
+        "items": ["A partner to complete the quest with. Join clan chat 'Osrs Soa' to find a partner"]
+      },
+      {
+        "name": "Items",
+        "items": ["20 Coins"]
+      },
+      {
+        "name": "Additional Notes",
+        "items": ["Only do the section of the quest to the gang you chose to join."]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Phoenix Gang",
+        "step": "Talk to Reldo. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Varrock Library"],
+            "description": ["Talk to Reldo to start the quest and to join the Phoenix Gang."]
+          }
+        }
+      },
+      "2": {
+        "step": "Search the bookcase with the blue book and read it.",
+        "details": {
+          "1": {
+            "location": ["Varrock Library"],
+            "description": ["Search the bookcase with the blue book and read it."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to Reldo. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Varrock Library"],
+            "description": ["Talk to Reldo."]
+          }
+        }
+      },
+      "4": {
+        "step": "Talk to Baraek. (Chat: 1-1)",
+        "details": {
+          "1": {
+            "location": ["Varrock Centre"],
+            "description": ["Talk to Baraek."]
+          }
+        }
+      },
+      "5": {
+        "step": "Climb down the trapdoor at the Phoenix Gang Hideout.",
+        "details": {
+          "1": {
+            "location": ["South-east corner of Varrock."],
+            "description": ["Climb down the trapdoor at the Phoenix Gang Hideout."]
+          }
+        }
+      },
+      "6": {
+        "step": "Talk to Straven. (Chat: 1-1)",
+        "details": {
+          "1": {
+            "location": ["Varrock at the Phoenix Gang Hideout."],
+            "description": ["Talk to Straven."]
+          }
+        }
+      },
+      "7": {
+        "step": "Kill Jonny the beard and pick-up the Intel report.",
+        "details": {
+          "1": {
+            "location": ["Varrock Bar"],
+            "description": ["Kill Jonny the beard and pick-up the Intel report."]
+          },
+          "2": {
+            "location": ["Varrock Bar"],
+            "description": ["Pick-up the Intel report."]
+          }
+        }
+      },
+      "8": {
+        "step": "Talk to Straven to give him the Intel Report.",
+        "details": {
+          "1": {
+            "location": ["Varrock at the Phoenix Gang Hideout."],
+            "description": ["Talk to Straven to give him the Intel Report."]
+          }
+        }
+      },
+      "9": {
+        "step": "Open the chest in the hideout to obtain the half of the Shield of Arrav.",
+        "details": {
+          "1": {
+            "location": ["Varrock in the Phoenix Gang Hideout."],
+            "description": ["Open the chest in the hideout to obtain the half of the Shield of Arrav."]
+          }
+        }
+      },
+      "10": {
+        "step": "Give the Weapon store key to your partner.",
+        "details": {
+          "1": {
+            "location": ["Varrock in the Phoenix Gang Hideout."],
+            "description": ["Trade or use the Weapon store key on your partner so they can do their part of the quest."]
+          }
+        },
+        "last": true
+      },
+      "11": {
+        "subtitle": "Black Arm Gang",
+        "step": "Talk to Charlie the Tramp. (Chat: 5-2)",
+        "details": {
+          "1": {
+            "location": ["South of Varrock by the entrance."],
+            "description": ["Talk to Charlie the Tramp to join the Black Arm Gang."]
+          }
+        }
+      },
+      "12": {
+        "step": "Talk to Katrine. (Chat: 1-1-1-1-1)",
+        "details": {
+          "1": {
+            "location": ["South-west corner of Varrock at the Black Arm Gang hideout."],
+            "description": ["Talk to Katrine."]
+          }
+        }
+      },
+      "13": {
+        "step": "Get a Weapon Store Key from your partner.",
+        "details": {
+          "1": {
+            "location": ["South-east corner of Varrock."],
+            "description": ["Your partner, who joined the Phoenix Gang should be giving you a Weapon Store Key."]
+          }
+        }
+      },
+      "14": {
+        "step": "Use key on the door and climb up the ladder.",
+        "details": {
+          "1": {
+            "location": ["South-east corner of Varrock."],
+            "description": ["Use key your parner gave you on the door and climb up the ladder."]
+          }
+        }
+      },
+      "15": {
+        "step": "Kill the Weaponsmaster and pick-up 2 Phoenix crossbows.",
+        "details": {
+          "1": {
+            "location": ["South-east corner of Varrock."],
+            "description": ["Kill the Weaponsmaster."]
+          },
+          "2": {
+            "location": ["South-east corner of Varrock."],
+            "description": ["Pick-up 2 Phoenix crossbows."]
+          }
+        }
+      },
+      "16": {
+        "step": "Talk to Katrine. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["South-west of Varrock at the Black Arm Gang hideout."],
+            "description": ["Talk to Katrine."]
+          }
+        }
+      },
+      "17": {
+        "step": "Go upstairs in the hideout then open and search the cupboard to receive half of the Shield of Arrav.",
+        "details": {
+          "1": {
+            "location": ["South-west corner of Varrock at the Black Arm Gang hideout."],
+            "description": ["Go upstairs in the hideout."]
+          },
+          "2": {
+            "location": ["Upstairs of the Black Arm Gang hideout."],
+            "description": ["Open and search the cupboard to receive half of the Shield of Arrav."]
+          }
+        },
+        "last": true
+      },
+      "18": {
+        "subtitle": "Both Gang Members",
+        "step": "Talk to the Curator Haig Halen with the Shield half in inventory to get two certificates.",
+        "details": {
+          "1": {
+            "location": ["Varrock Museum"],
+            "description": ["Phoenix Gang"]
+          },
+          "2": {
+            "location": ["Varrock Museum"],
+            "description": ["Black Arm Gang"]
+          }
+        }
+      },
+      "19": {
+        "step": "Give one and receive half certificate from your partner.",
+        "details": {
+          "1": {
+            "location": ["Varrock Museum"],
+            "description": ["Phoenix Gang, use/trade your partner one of your certificates and they should do the same."]
+          },
+          "2": {
+            "location": ["Varrock Museum"],
+            "description": ["Black Arm Gang, use/trade your partner one of your certificates and they should do the same."]
+          }
+        }
+      },
+      "20": {
+        "step": "Use both halves of the certificate on each other to make a completed certificate.",
+        "details": {}
+      },
+      "21": {
+        "step": "Talk to King Roald.",
+        "details": {
+          "1": {
+            "location": ["Varrock Castle"],
+            "description": ["Phoenix Gang"]
+          },
+          "2": {
+            "location": ["Varrock Castle"],
+            "description": ["Black Arm Gang"]
+          }
+        }
+      },
+      "22": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
+  },
+  "vampire_slayer": {
+    "name": "Vampire Slayer",
+    "directory": "vampire_slayer",
+    "req": [
+      {
+        "name": "Items",
+        "items": ["Hammer" ,"Beer"],
+        "keywords": ["Hammer" ,"Beer"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Preparing to slay a Vampire",
+        "step": "Talk to Morgan. (Chat: 2)",
+        "details": {
+          "1": {
+            "location": ["Draynor Village"],
+            "description": ["Talk to Morgan to start the quest."]
+          }
+        }
+      },
+      "2": {
+        "step": "Go upstairs and take garlic from the cupboard.",
+        "details": {
+          "1": {
+            "location": ["Draynor Village"],
+            "description": ["Go upstairs."]
+          },
+          "2": {
+            "location": ["Draynor Village"],
+            "description": ["Take garlic from the cupboard."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to Dr. Harlow twice to give him a beer and receive a stake. (Chat: 2)",
+        "details": {
+          "1": {
+            "location": ["Varrock Bar"],
+            "description": ["Talk to Dr. Harlow twice to give him a beer and receive a stake."]
+          }
+        },
+        "last": true
+      },
+      "4": {
+        "subtitle": "Defeating Count Draynor",
+        "step": "Bring a garlic, hammer, and stake to Draynor Manor and go downstairs.",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor"],
+            "description": ["Go downstairs."]
+          }
+        }
+      },
+      "5": {
+        "step": "Open the coffin and defeat Count Draynor.",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor basement."],
+            "description": ["Open the coffin."]
+          },
+          "2": {
+            "location": ["Draynor Manor basement."],
+            "description": ["Defeat Count Draynor."]
+          }
+        }
+      },
+      "6": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
+  },
+  "witchs_potion": {
+    "name": "Witch's Potion",
+    "directory": "witchs_potion",
+    "req": [
+      {
+        "name": "Items",
+        "items": ["3 coins (to buy an eye of newt)"]
+      },
+      {
+        "name": "Recommended",
+        "items": ["Burnt Meat (Obtained during quest)" ,"Eye of Newt (Obtained during quest)"],
+        "keywords": ["Burnt Meat" ,"Eye of Newt"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting Started",
+        "step": "Talk to Hetty. (Chat: 1-1)",
+        "details": {
+          "1": {
+            "location": ["Rimmington"],
+            "description": ["Talk to Morgan to start the quest."]
+          }
+        },
+        "last": true
+      },
+      "2": {
+        "subtitle": "Obtaining the Ingredients",
+        "step": "Kill a rat for a rat's tail.",
+        "details": {
+          "1": {
+            "location": ["Rimmington"],
+            "description": ["Kill a rat and pick-up a rat's tail."]
+          }
+        }
+      },
+      "3": {
+        "step": "Kill a giant rat and cook it twice for burnt meat.",
+        "details": {
+          "1": {
+            "location": ["Rimmington"],
+            "description": ["Kill a giant rat"]
+          },
+          "2": {
+            "location": ["Rimmington"],
+            "description": ["Cook it twice for burnt meat."]
+          }
+        }
+      },
+      "4": {
+        "step": "Pick an onion from the onion field.",
+        "details": {
+          "1": {
+            "location": ["North of Rimmington"],
+            "description": ["Pick an onion from the onion field."]
+          }
+        }
+      },
+      "5": {
+        "step": "Buy an eye of newt from Betty for 3 coins.",
+        "details": {
+          "1": {
+            "location": ["Port Sarim Magic Store"],
+            "description": ["Buy an eye of newt from Betty for 3 coins."]
+          }
+        },
+        "last": true
+      },
+      "6": {
+        "subtitle": "Creating the Witch's Potion",
+        "step": "Talk to Betty with all 4 ingredients in inventory.",
+        "details": {
+          "1": {
+            "location": ["Rimmington"],
+            "description": ["Talk to Betty with all 4 ingredients in inventory."]
+          }
+        }
+      },
+      "7": {
+        "step": "Drink from the cauldron.",
+        "details": {
+          "1": {
+            "location": ["Rimmington"],
+            "description": ["Drink from the cauldron to finish the quest."]
+          }
+        }
+      },
+      "8": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }
