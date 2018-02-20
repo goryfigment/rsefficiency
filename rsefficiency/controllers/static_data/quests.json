@@ -4288,5 +4288,118 @@
         }
       }
     }
+  },
+  "client_of_kourend": {
+    "name": "Client of Kourend",
+    "directory": "client_of_kourend",
+    "req": [
+      {
+        "name": "Items",
+        "items": ["1 Feather"],
+        "keywords": ["Feather"]
+      },
+      {
+        "name": "Recommended",
+        "items": ["Energy potions", "Pest Control Teleport", "Xeric's talismen", "Kourend Teleport"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting Started",
+        "step": "Talk to Veos. (Chat: 3,1)",
+        "details": {
+          "1": {
+            "location": ["Piscarilius Docks"],
+            "description": ["Talk to Veos to start the quest."]
+          }
+        }
+      },
+      "2": {
+        "step": "Use Enchanted Scroll on Feather.",
+        "details": {},
+        "last": true
+      },
+      "3": {
+        "subtitle": "Talking to the general store owners.",
+        "step": "Talk to Leenz. (Chat: 3, 3)",
+        "details": {
+          "1": {
+            "location": ["Piscarilius House"],
+            "description": ["Talk to Leenz."]
+          }
+        }
+      },
+      "4": {
+        "step": "Talk to Regath. (Chat: 4, 3)",
+        "details": {
+          "1": {
+            "location": ["Arceuus House"],
+            "description": ["Talk to Regath."]
+          }
+        }
+      },
+      "5": {
+        "step": "Talk to Munty. (Chat: 4, 3)",
+        "details": {
+          "1": {
+            "location": ["Lovakengj House"],
+            "description": ["Talk to Munty."]
+          }
+        }
+      },
+      "6": {
+        "step": "Talk to Jennifer. (Chat: 3, 3)",
+        "details": {
+          "1": {
+            "location": ["Shayzien House"],
+            "description": ["Talk to Jennifer."]
+          }
+        }
+      },
+      "7": {
+        "step": "Talk to Horace. (Chat: 4, 3)",
+        "details": {
+          "1": {
+            "location": ["Hosidius House"],
+            "description": ["Talk to Horace."]
+          }
+        },
+        "last": true
+      },
+      "8": {
+        "subtitle": "Dark altar",
+        "step": "Talk to Veos to receive a Mysterious orb.",
+        "details": {
+          "1": {
+            "location": ["Piscarilius Docks"],
+            "description": ["Talk to Veos to receive a Mysterious orb."]
+          }
+        }
+      },
+      "9": {
+        "step": "Go to the dark altar and activate the Mysterious Orb.",
+        "details": {
+          "1": {
+            "location": ["Areceuus Dark Altar"],
+            "description": ["Activate the Mysterious Orb by the dark altar."]
+          }
+        }
+      },
+      "10": {
+        "step": "Talk to Veos (Chat: 3)",
+        "details": {
+          "1": {
+            "location": ["Piscarilius Docks"],
+            "description": ["Talk to Veos to finish the quest."]
+          }
+        }
+      },
+      "11": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }

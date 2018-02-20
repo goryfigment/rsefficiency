@@ -1,34 +1,16 @@
-Vampire Slayer
-Items: Beer, Hammer
-
-    Preparing to slay a Vampire
-Talk to Morgan (Chat: 2)
-Go upstairs and take garlic from the cupboard.
-Talk to Dr. Harlow twice to give him a beer and receive a stake (Chat: 2)
-    Defeating Count Draynor
-Bring a garlic, hammer, and stake to Draynor Manor.
-Go to the downstairs to the basement.
-Open the coffin and defeat Count Draynor.
-Quest Complete!
-
-
-Witch's Potion
-
-    Getting Started
-Talk to Hetty (Chat: 1-1)
-    Obtaining the ingredients
-Kill a rat for a rat's tail.
-Kill a giant rat and cook it twice for burnt meat.
-Buy an eye of newt from Betty for 3gp
-Pick an onion from the onion field north of Rimmington.
-    Creating the Witch's Potion
-Talk to Betty with all 4 ingredients in inventory.
-Drink from the cauldron.
-Quest Complete!
-
-
-
-
-
-
-
+24. Do Client of Kourend
+    a)Talk to Veos (3,1)
+    b)Use Enchanted Scroll on Feather.
+    c)Talk to general store owners in this order (3,3):
+        1)Piscarillius Gen Store (3, 3)
+        2)Arceus Gen Store (4, 3)
+        3)Lovakengj Gen Store (4, 3)
+        4)Shayzien Gen Store (3, 3)
+        5)Hosidius Gen Store (4, 3)
+    TELEPORT TO CLAN WARS
+    TELEPORT TO PEST CONTROL
+    d)Talk to Veos to receive a Mysterious orb. (3)
+    e)Go to the dark altar and click on the Mysterious Orb.
+    TELEPORT TO CLAN WARS
+    TELEPORT TO PEST CONTROL
+    f)Talk to Veos (3)
