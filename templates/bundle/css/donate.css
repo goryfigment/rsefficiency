@@ -1,1 +1,75 @@
-.efficiency-log{color:#fff}#update-logo-container{text-align:center;font-size:49px;padding:0 0 10px;cursor:default;-webkit-text-stroke:.1px #000;color:#fff}#update-wrapper{display:-webkit-box;display:-ms-flexbox;display:flex;-webkit-box-orient:vertical;-webkit-box-direction:normal;-ms-flex-direction:column;flex-direction:column;-webkit-box-align:center;-ms-flex-align:center;align-items:center;margin:22px;position:relative;min-height:calc(100vh - 218px)}.title{margin:25px 0;text-align:center;color:#fff;background:rgba(41,41,41,.8);border-radius:3px;padding:7px 10px;width:100%;max-width:584px;min-width:300px;cursor:pointer}.title:hover{background:#c5c5c5;color:#0e0e0e}#donate-description{background-color:#1f2739;color:#fff;border:solid #757575;padding:1px 10px 12px 10px;font-weight:500;width:736px;text-align:center}#donation-button{padding:9px;background:#292929;border:#dedede solid}.wall-of-fame-title{padding:25px 0 7px 0!important}#wall-of-fame{background-color:#1f2739;color:#fff;border:solid #757575;padding:17px;font-weight:500;width:736px;text-align:center}
+.efficiency-log {
+    color: #ffffff;
+}
+
+#update-logo-container {
+    text-align: center;
+    font-size: 49px;
+    padding: 0 0 10px;
+    cursor: default;
+    -webkit-text-stroke: 0.1px black;
+    color: #ffffff;
+}
+
+#update-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 22px;
+    position: relative;
+    min-height: calc(100vh - 218px);
+}
+
+.title {
+    margin: 25px 0;
+    text-align: center;
+    color: white;
+    background: rgba(41, 41, 41, 0.8);
+    border-radius: 3px;
+    padding: 7px 10px;
+    width: 100%;
+    max-width: 584px;
+    min-width: 300px;
+    cursor: pointer;
+}
+
+.title:hover {
+    background: rgb(197, 197, 197);
+    color: #0E0E0E;
+}
+#donate-description {
+    background-color: #1F2739;
+    color: #FFFFFF;
+    border: solid #757575;
+    padding: 1px 10px 12px 10px;
+    font-weight: 500;
+    width: 736px;
+    text-align: center;
+}
+
+#donation-button {
+    padding: 9px;
+    background: #292929;
+    border: #DEDEDE solid;
+}
+
+.wall-of-fame-title {
+    padding: 25px 0 7px 0 !important;
+}
+
+#wall-of-fame {
+    background-color: #1F2739;
+    color: #FFFFFF;
+    border: solid #757575;
+    padding: 17px;
+    font-weight: 500;
+    width: 736px;
+    text-align: center;
+}

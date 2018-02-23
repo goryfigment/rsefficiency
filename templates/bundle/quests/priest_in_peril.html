@@ -1,2 +1,96 @@
-{% load staticfiles %}<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><title>RsEfficiency</title><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="description" content="RsEfficiency OSRS Quest/Quick Guide to Priest and Peril"><meta name="keywords" content="rsefficiency,rs efficiency,runescape,07,2007,fansite,old,school,osrs,guides,skill,minigame,money making,grand exchange,ge,quest,quick guides,miniquest"><link rel="shortcut icon" type="image/x-icon" href="{% static 'assets/rsefficiency/rse16.ico' %}"><base href="{{base_url}}"><script>var globals = {};
-        globals.base_url = '{{base_url}}';</script><link href="/templates/bundle/css/vendors.css?7947657b4e6c1ff89385" rel="stylesheet"><link href="/templates/bundle/css/quest.css?7947657b4e6c1ff89385" rel="stylesheet"></head><body><nav id="navigation-bar"><a id="logo-link" href=""><div id="logo-container"><h1 id="h1-logo"><span class="rs-logo">Rs</span><span class="efficiency-log">Efficiency</span></h1></div></a><div id="nav-links-container"><a id="home-link" href="">Home</a><h3 class="h3-links"><a id="grand-exchange-link" href="/grand-exchange">Grand Exchange</a></h3><h3 class="h3-links"><a id="treasure-trail-link" href="/treasure-trails">Treasure Trails</a></h3><h3 class="h3-links"><a id="calculator-link" href="/calculator">Calculator</a></h3><h3 class="h3-links"><a id="quest-link" href="/quest">Quest</a></h3><h3 class="h3-links"><a id="donate-link" href="/donate">Donate</a></h3></div></nav><div id="quest-wrapper"><h2 id="quest-title">Priest and Peril</h2><div id="requirements-wrapper"><h3 class="req-subtitle">Requirements:</h3><ul class="unordered-list"><li>Defeat <a>Temple Guardian dog (Level 30)</a> without Magic.</li><li>Defeat <a>Monk of Zamorak (Level 30)</a></li></ul><h3 class="req-subtitle">Items:</h3><ul class="unordered-list"><li>Bucket</li><li>50 Rune essence or Pure essence</li></ul><h3 class="req-subtitle">Recommended:</h3><ul class="unordered-list"><li>3 Varrock Teleports</li></ul></div><div id="instructions-wrapper"><h4 class="instruction-title">Kill Temple Guardian</h4><ul class="unordered-list"><li class="step-wrapper toggle"><div class="step">Talk to King Roald. (Chat: 1)</div><div class="detail-wrapper collapsible"><div class="detail-container"><div class="location-wrapper"><div class="general-location">Inside Varrock Palace,</div><div class="specific-location">east side.</div><img src="/templates/assets/quest/priest_in_peril/map-1.png"></div><div class="spot-wrapper"><img class="spot-img" src="/templates/assets/quest/priest_in_peril/spot-1.png"></div></div></div></li><li class="step-wrapper toggle"><div class="step">Knock on the door. (Chat: 1-1)</div><div class="detail-wrapper collapsible"><div class="detail-container"><div class="location-wrapper"><div class="general-location">The temple,</div><div class="specific-location">north-east of Varrock.</div><img src="/templates/assets/quest/priest_in_peril/map-2.png"></div><div class="spot-wrapper"><div class="extra-details">Right-click the large door, and select 'Knock-at'.</div><img class="spot-img" src="/templates/assets/quest/priest_in_peril/spot-2.png"></div></div></div></li><li class="step-wrapper toggle"><div class="step">Kill the Temple Guardian.</div><div class="detail-wrapper collapsible"><div class="detail-container"><div class="location-wrapper"><div class="general-location">The temple,</div><div class="specific-location">north-east of Varrock.</div><img src="/templates/assets/quest/priest_in_peril/map-3.png"></div><div class="spot-wrapper"><div class="extra-details">The Temple Guardian is unaffected by magic,</div><div class="specific-details">but can be killed by melee or range.</div><img class="spot-img" src="/templates/assets/quest/priest_in_peril/spot-3.png"></div></div><div class="detail-container"><div class="location-wrapper"><div class="extra-details">Safespot:</div><div class="specific-location">Each four corners of the dungeon entrance.</div><img src="/templates/assets/quest/priest_in_peril/safe-map-3.png"></div><div class="spot-wrapper"><div class="extra-details">You can either range or melee flinch to avoid taking any damage.</div><img class="spot-img" src="/templates/assets/quest/priest_in_peril/safe-spot-3.png"></div></div></div></li><li>Talk to King Roald.</li></ul><h4 class="instruction-title">Rescue Drezel</h4><p class="required-description">Bring the following items: A Bucket and 25 Unnoted Rune/Pure essence</p><ul class="unordered-list"></ul></div></div><div id="footer"><div class="subsection" id="affiliation">© <a href="{{base_url}}">RsEfficiency</a> 2017. <a href="http://oldschool.runescape.com/">Old School RuneScape</a> is a registered trademark of Jagex Ltd</div><div class="subsection" id="rsbuddy">The <a href="{{base_url}}/grand-exchange">RsEfficiency Exchange</a> feature would have not been possible without the use of <a href="https://rsbuddy.com/exchange">RsBuddy Exchange</a> API.</div><div class="subsection" id="contact">If you have any questions or suggestions, you can contact me via the email below:<div id="email">osrsefficiency@gmail.com</div></div></div><script type="text/javascript" src="/templates/bundle/js/vendors.js?7947657b4e6c1ff89385"></script><script type="text/javascript" src="/templates/bundle/js/quest.js?7947657b4e6c1ff89385"></script></body></html>
+<head><link href="/templates/bundle/css/vendors.css?ca8f7527e2138e671b67" rel="stylesheet"><link href="/templates/bundle/css/quest.css?ca8f7527e2138e671b67" rel="stylesheet"></head>Html Webpack Plugin:<pre>
+  Error: Child compilation failed:
+  Entry module not found: Error: Can't resolve 'C:\Users\Gory\pycharmprojects\rs  efficiency\templates\quests\priest_in_peril.html' in 'C:\Users\Gory\pycharmpro  jects\rsefficiency':
+  Error: Can't resolve 'C:\Users\Gory\pycharmprojects\rsefficiency\templates\que  sts\priest_in_peril.html' in 'C:\Users\Gory\pycharmprojects\rsefficiency'
+  
+  - compiler.js:76 
+    [rsefficiency]/[html-webpack-plugin]/lib/compiler.js:76:16
+  
+  - Compiler.js:304 compile
+    [rsefficiency]/[webpack]/lib/Compiler.js:304:11
+  
+  - Compiler.js:514 applyPluginsAsync.err
+    [rsefficiency]/[webpack]/lib/Compiler.js:514:14
+  
+  - Tapable.js:202 next
+    [rsefficiency]/[tapable]/lib/Tapable.js:202:11
+  
+  - CachePlugin.js:78 Compiler.<anonymous>
+    [rsefficiency]/[webpack]/lib/CachePlugin.js:78:5
+  
+  - Tapable.js:206 Compiler.applyPluginsAsyncSeries
+    [rsefficiency]/[tapable]/lib/Tapable.js:206:13
+  
+  - Compiler.js:511 compilation.seal.err
+    [rsefficiency]/[webpack]/lib/Compiler.js:511:11
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [rsefficiency]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:671 self.applyPluginsAsync.err
+    [rsefficiency]/[webpack]/lib/Compilation.js:671:19
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [rsefficiency]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:662 self.applyPluginsAsync.err
+    [rsefficiency]/[webpack]/lib/Compilation.js:662:11
+  
+  - Tapable.js:202 next
+    [rsefficiency]/[tapable]/lib/Tapable.js:202:11
+  
+  - index.js:244 Compilation.<anonymous>
+    [rsefficiency]/[uglifyjs-webpack-plugin]/dist/index.js:244:6
+  
+  - Tapable.js:206 Compilation.applyPluginsAsyncSeries
+    [rsefficiency]/[tapable]/lib/Tapable.js:206:13
+  
+  - Compilation.js:657 self.applyPluginsAsync.err
+    [rsefficiency]/[webpack]/lib/Compilation.js:657:10
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [rsefficiency]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:653 sealPart2
+    [rsefficiency]/[webpack]/lib/Compilation.js:653:9
+  
+  - Tapable.js:195 Compilation.applyPluginsAsyncSeries
+    [rsefficiency]/[tapable]/lib/Tapable.js:195:46
+  
+  - Compilation.js:596 Compilation.seal
+    [rsefficiency]/[webpack]/lib/Compilation.js:596:8
+  
+  - Compiler.js:508 applyPluginsParallel.err
+    [rsefficiency]/[webpack]/lib/Compiler.js:508:17
+  
+  - Tapable.js:289 
+    [rsefficiency]/[tapable]/lib/Tapable.js:289:11
+  
+  - Compilation.js:498 _addModuleChain
+    [rsefficiency]/[webpack]/lib/Compilation.js:498:11
+  
+  - Compilation.js:381 errorAndCallback.bail
+    [rsefficiency]/[webpack]/lib/Compilation.js:381:4
+  
+  - Compilation.js:404 moduleFactory.create
+    [rsefficiency]/[webpack]/lib/Compilation.js:404:13
+  
+  - NormalModuleFactory.js:235 factory
+    [rsefficiency]/[webpack]/lib/NormalModuleFactory.js:235:20
+  
+  - NormalModuleFactory.js:60 resolver
+    [rsefficiency]/[webpack]/lib/NormalModuleFactory.js:60:20
+  
+  - NormalModuleFactory.js:127 asyncLib.parallel.e
+    [rsefficiency]/[webpack]/lib/NormalModuleFactory.js:127:20
+  
+  - async.js:3861 
+    [rsefficiency]/[webpack]/[async]/dist/async.js:3861:9
+  
+  - async.js:421 
+    [rsefficiency]/[webpack]/[async]/dist/async.js:421:16
+  
+  - async.js:996 iteratorCallback
+    [rsefficiency]/[webpack]/[async]/dist/async.js:996:13
+  
+</anonymous></anonymous></pre><script type="text/javascript" src="/templates/bundle/js/vendors.js?ca8f7527e2138e671b67"></script><script type="text/javascript" src="/templates/bundle/js/quest.js?ca8f7527e2138e671b67"></script>

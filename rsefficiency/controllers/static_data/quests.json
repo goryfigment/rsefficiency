@@ -1420,7 +1420,7 @@
       },
       {
         "name": "Recommended",
-        "items": ["Food", "Weapons", "Ring of Dueling", "Pollnivneach teleport"]
+        "items": ["Games necklace"]
       }
     ],
     "steps": {
@@ -1459,9 +1459,11 @@
             "location": ["Burthorpe castle, second floor"],
             "description": ["He will tell you offer him a beer."]
           }
-        }
+        },
+        "last": true
       },
       "5": {
+        "subtitle": "Combination",
         "step": "Talk to Harold and give him an Asgarian ale and a Blurberry special, then bet him 500gp to get an IOU. (Chat: 3-2)",
         "details": {
           "1": {
@@ -1488,11 +1490,13 @@
           },
           "2": {
             "location": ["Burthorpe castle, second floor"],
-            "description": ["Right0c"]
+            "description": ["Right-click (DON'T ATTACK) and talk to the Archer."]
           }
-        }
+        },
+        "last": true
       },
       "8": {
+        "subtitle": "Secret Path to Death Plateau",
         "step": "Talk to Saba. (Chat: 2)",
         "details": {
           "1": {
@@ -1554,9 +1558,11 @@
             "description": ["Keep following the path until you receive the message below."]
           },
           "2": {"description": "Chat dialog"}
-        }
+        },
+        "last": true
       },
       "15": {
+        "subtitle": "Finishing up",
         "step": "Talk to Denulth.",
         "details": {
           "1": {

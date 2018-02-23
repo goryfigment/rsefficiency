@@ -1,0 +1,363 @@
+Death Plateau
+
+
+Druidic Ritual
+Items:Raw bear meat,Raw rat meat,Raw beef,Raw chicken
+
+Talk to Kaqemeex. (Chat: 2-1)
+Talk to Sanfew. (Chat 1-2)
+Use all four meats on the Cauldron in Taverley Dungeon.
+Talk to Sanfew.
+Talk to Kaqemeex.
+
+
+Monks Friend
+Items: Jug of water, Logs (regular)
+Items: Ardougne cloak 1
+
+Talk to Brother Omad. (Chat: 1-1).
+Go to the stone circle to make the ladders appear and go down it.
+Follow the south path and pick the Child's blanket up.
+Talk to Brother Omad twice. (Chat: 1-2).
+Talk to Brother Cedric and give him a Jug of Water. (Chat: 2)
+Talk to him again to give him the logs.
+Talk ti Brother Omad.
+Quest complete!
+
+
+Observatory Quest
+Requirements: 10 Crafting
+Items: 3 Planks (regular), Bronze bar, Molten glass
+Recommended: Food, Antipoison, Stamina potions, Ring of dueling
+Defeat: Goblin guard (level 42)
+
+Getting started
+    Talk to the Observatory professor. (Chat 1-2-1)
+Fixing the Observatory
+    Talk to the Observatory professor and give him three planks, bronze bar and molten glass. (Speak to him 3 separate times)
+    Talk to the assistant.
+    Go down the stairs on the hill to the east.
+    Search all the chests until you find the goblin kitchen key. (Most commonly found in south eastern part when you go down the stairs)
+    Prod the sleeping guard, then kill him.
+    Open the gate and inspect the goblin stove.
+    Talk to the Observatory professor.
+    Use the molten glass on the lens mould.
+    Talk to the Observatory professor.
+    Take the stairs in the south end of the dungeon.
+Finishing up
+    Talk to the professor upstairs and view the telescope.
+    Talk to the professor and identify the constellation you saw (see below).
+
+Merlin's Crystal
+    Items: Bread, Tinderbox, Bat Bones
+    Recommended: Varrock Teleport,Charged Amulet of glory, Charged Games necklace, House Teleport, Camelot Teleport, Falador Teleport
+
+Getting started
+    a)Talk to King Arthur. (Chat: 1)
+    b)Talk to Sir Gawain. (Chat: 3)
+    c)Talk to Sir Lancelot.
+    d)Get Insect Repellant.
+Mordred Castle
+    e)Go into the crate by the candle shop.
+    f)Attack Sir Modred.
+Black candle
+    g)Spare his life. (Chat: 1-2)
+    h)Get Bucket of Wax.
+    i)Talk to the candle maker. (Chat: 1)
+Excalibur
+    j)Talk to the lady of the lake in Taverly. (Chat: 3)
+    k)Go to Port Sarim, enter the jewellery store and give the beggar your bread. (Chat: 1)
+Ritual
+    l)Go to Varrock and check chaos altar's inscription.
+    m)Go to the ritual site.
+    n)Light the black candle and drop bat bones on the star.
+    o)The magic words are 'Snarthon Candtrick Termanto'.
+Finishing Up
+    p)Smash the giant crystal with Excalibur.
+    q)Talk to King Arthur.
+
+
+Fremennik Trials
+
+Starting out
+    Talk to Brundt. (Chat 3-1-1) (2-3-1-1 if started -finished or not- Mountain Daughter)
+    The trials may be done in any order, however this quick guide will show you the fastest order.
+Olaf the Bard, Manni the Reveller and Sigli the Huntsman
+    Talk to Manni the Reveller while in the longhall. (Chat 1)
+    Take a Beer tankard off the table (not empty beer).
+    Talk to Olaf just east of the longhall. (Chat 1)
+    Talk to Sigli the Huntsman near the entrance of Rellekka. (Chat 1-1)
+    To get a lyre, kill Lanzig, (1/17 drop rate) or make it yourself. Either way you must enchant it.
+Option 1: Killing Lanzig (recommended)
+    Kill Lanzig until he drops the lyre.
+Option 2: Making the Lyre Yourself
+    Chop a branch and fletch an unstrung lyre.
+    Talk to Lalli. (Chat: 1)
+    Talk to Askeladden for a pet rock.
+    Pick a cabbage, potato, and onion from the farming patch.
+    Talk to Lalli, and offer the pet rock.
+    Use the rock, cabbage, potato, and onion on the stew.
+    Talk to Lalli.
+
+
+Seers' Village
+    Spin the golden fleece into a ball of golden wool while in Seers' Village, and use the golden wool on your unstrung Lyre.
+    Talk to the poison salesman to buy low alcohol beer for 250 coins.
+    Buy a regular beer if you forgot to take a Beer tankard.
+
+
+Back to Rellekka
+    Use a Rellekka House teleport to return, or simply walk back. If walking, left-click on your talisman to check if the Draugen is nearby on your way. If so, kill him.
+    Give the beer to the council workman by the bridge south of Rellekka.
+    Walk a bit west until you see a small narrow path heading south into the water.
+    Use your raw shark on the strange altar to enchant your Lyre.
+    Follow your talisman by left-clicking on it and kill the Draugen now if you haven't already.
+    Once done, head back into Rellekka and talk to Sigli at the entrance.
+    Use a tinderbox on your strange object. Head to the outside of the longhall to the eastern wall, use it on the pipe.
+    Enter the north-eastern back door of the longhall, walk onto the stage and play your Lyre.
+    Exit the back door, enter the main long hall, take a Keg of Beer off the table.
+    Use your Low Alcohol Keg on the Keg of Beer.
+    Challenge Manni to a drinking contest (Chat 1).
+
+
+Sigmund the Merchant and Swensen the Navigator
+
+    Talk to Sigmund in the market. (Chat 1)
+    Talk to the sailor.
+    Talk to Olaf the Bard.
+    Talk to Yrsa
+    Talk to Brundt the Chieftain.
+    Talk to Sigli the Huntsmanl.
+    Talk to Skulgrimen.
+    Talk to the fisherman.
+    Talk to Swensen the Navigator. (Chat 1)
+    Talk to Swensen again. (Chat 2, 1)
+    Climb down the ladder and take the South, West, East, North, South, East, then North portals.
+    Talk to Peer the Seer.
+    Talk to Thorvald the Warrior.
+    Talk to Manni the Reveller.
+    Talk to Thora the Barkeep.
+    Talk to Askeladden and pay him 5,000 coins. (Chat 1)
+    Head back and talk to (in order): Thora, Manni, Thorvald, Peer, Swensen, Fisherman, Skulgrimen, Sigli, Brundt, Yrsa, Olaf, Sailor, Sigmund.
+
+Thorvald the Warrior
+    Head over to Peer the Seer and drop any items you wish to use in the Thorvald fight - dramen branch and knife, potions, food, any jewellery, etc (note: you have 60 seconds until they're visible to other players).
+    Talk to Peer the Seer (Chat 1, 1) and then pick up the items you dropped.
+    Talk to Thorvald just north of the longhall.
+    Climb down the ladder. If you have a knife and dramen branch, cut it into a staff now.
+    Fight the first 3 forms of Koschei the Deathless without weapons, armour, or runes.
+    Let the 4th form kill you, it will hit you very rapidly. (This is safe for Hardcore Ironmen)
+
+Peer the Seer
+    Talk to Peer the Seer in the SW corner of the market (Chat 1).
+    He will deposit all your items.
+    Enter the west door to his house, read the riddle.
+    Each line of the riddle gives you one letter of a four-letter word.
+    Possible answers are: FIRE, LIFE, MAGE, MIND, TIME, TREE, WIND
+    Climb upstairs and search / study: south-western cupboard, unicorn and bull heads, southern chest and the northern bookcase(bucket, wooden disk, red disk, jug, red herring).
+    Use the red herring on the cooking range.
+    Use the sticky red goop on the wooden disk.
+    Climb down the eastern ladder and use the two red disks on the abstract mural.
+    Return upstairs and use the bucket on the tap by the cooking range.
+    Use the full bucket on the jug.
+    Use the jug on the drain.
+    Use the 2/5ths bucket on the empty jug.
+    Refill the bucket.
+    Use the full bucket on the 2/3rds jug.
+    Use the 4/5ths bucket on the chest with the scale.
+    Fill the vase with water and add the lid.
+    Use the vase on the frozen table.
+    Use the frozen key on the cooking range.
+    You can now leave by the eastern building door.
+    Finishing upEdit
+    Talk to Brundt the Chieftain.
+    Quest complete!
+
+Plague City
+
+Items: Dwellberries, A rope, A spade, 4 Buckets of water
+A bucket of milk
+Chocolate dust
+Snape grass
+
+Starting the quest
+    Talk to Edmond. (Chat: 1-2)
+    Talk to Alrena.
+    Talk to Alrena to give dwellberries for a gas mask.
+    Take the picture of Elena off of the table.
+    Talk to Edmond.
+    Use 4 buckets of water on the mud patch behind the house.
+    Use a spade on the softened ground.
+    Attempt to open the grill.
+    Use a rope on the grill.
+    Speak to Edmond.
+    Climb up the pipe.
+
+Finding Elena
+
+    Talk to Jethick for a book. (Chat: 1-1)
+    Talk to Martha.
+    Talk to Milli upstairs.
+    Attempt to open the door.
+    Talk to the Mourners (Chat 1-2)
+
+
+Getting inside
+    Talk to the clerk. (Chat 2-1)
+    Talk to Bravek. (Chat 1-3)
+    He will give you a scruffy note for a hangover cure.
+    Put chocolate dust in a bucket of milk (DON'T EAT) and then add snape grass.
+    Use the hangover cure on Bravek to get a warrant. (Chat 3)
+
+Finishing up
+    Return to the Mourners' house ("X" on the doors)
+    Search the barrel west of the staircase for a small key.
+    Go downstairs, enter the cell and speak to Elena.
+    Go back down the manhole and speak to Edmond.
+    Quest complete!
+
+Biohazard
+Getting started
+    Talk to Elena (Chat: 1).
+
+Sneaking into West Ardougne
+
+    Talk to Jerico. (Chat: 1)
+    Search cupboard for bird feed.
+    Grab a pigeon cage from the backyard.
+    Talk to Omart.
+    Use bird feed on the watchtower fence.
+    Release the pigeon cage by the spiked fence.
+    Talk to Omart. (Chat: 1)
+
+Infiltrating the Mourner Headquarters
+
+    Pick up rotten apple.
+    Squeeze through the fence into the backyard.
+    Use the rotten apple (DON'T EAT) on the cauldron.
+    Search cupboard for a Doctors' gown.
+    Equip the Doctors' gown, go back to the Headquarters and open the door.
+    Go upstairs and kill a Mourner for a key.
+    Use the key on the gate.
+    Search the crates to receive Elena's Distillator.
+    Talk to Elena to give her the Distiller.
+
+Getting the touch paper
+
+    Bank all 4 samples then teleport to Falador/Draynor. (Teleporting with samples will break them, so make sure you bank them before you teleport!)
+    Withdraw all 4 samples and speak to the Chemist for touch paper. (Chat: 2-2-2)
+
+Smuggling the samples
+    Give Chancy the Liquid honey Liquid honey. (Chat: 2)
+    Give Da Vinci the Ethenea. (Chat: 1)
+    Give Hops the Sulphuric broline. (Chat: 3)
+    Bank the Plague sample before teleporting to Varrock!.
+    Withdraw the Plague sample.
+    Enter the guarded gate.
+    Talk to Hops, Da Vinci and Chancy to get the vials back.
+    Equip the Priest gown and Speak to Guidor. (Chat: 1-2)
+
+Finishing Up
+    Talk to Elena.
+    Talk to King Lathas. (Chat: 1)
+    Quest complete!
+
+Jungle Potion
+Level Requirment: Level 3 Herblore
+Quest Requirement: Druidic Ritual
+Recommended: Food, Antipoisons, Energy potion
+
+
+Getting Started
+    Talk to Trufitus. (Chat: 3-1-2)
+Snake Weed
+    Search the vines and clean the herb. (Note: Take three if you intend to do Legends' Quest and Zogre Flesh Eaters)
+    Talk to Trufitus. (Chat: 1)
+Ardriga
+    Search the trees and clean the herb. (Note: Take two if you intend to do Legends' Quest)
+    Talk to Trufitus. (Chat: 1)
+Sito Foil
+    Search the scorched earth and clean the herb.
+    Talk to Trufitus. (Chat: 1)
+Volencia Moss
+    Search the rocks and clean the herb. (Note: Take two if you intend to do Fairytale I - Growing Pains)
+    Talk to Trufitus. (Chat: 1)
+Rogue's Purse
+    Go into the cave
+    Search the 'Fungus covered Cavern wall' and clean the herb. (Note: Take two if you intend to do Zogre Flesh Eaters)
+    Talk to Trufitus. (Chat: 1)
+    Quest complete!
+
+
+Dwarf Cannon
+Items: Hammer
+Recommended: Combat bracelet, Games necklace, Skills necklace
+
+Getting started
+    Talk to Captain Lawgof. (Chat: 2)
+Repair and Retrieval
+    Fix the bent railings along the fence.
+    Talk to Captain Lawgof.
+    Climb up two ladders and take the Dwarf remains.
+    Talk to Captain Lawgof.
+    Enter the cave by the fishing guild.
+    Search the crates in the northeast corner of that room to find Lollk.
+    Talk to Captain Lawgof. (Chat: 1)
+    Use the toolkit on the broken multicannon.
+    In this order:
+        Use the hooked tool on the spring.
+        Use the pliers on the safety switch at the bottom.
+        Use the tooth tool on the gear located at the bottom of the hammer.
+    Talk to Captain Lawgof. (Chat: 2)
+Finishing Up
+    Talk to Nulodion.
+    Talk to Captain Lawgof bringing the Nulodion's Notes and Cannonball mould.
+    Quest complete!
+
+Nature Spirit
+
+Starting Out
+    Talk to Drezel. (Chat 2 - 2 - 4 - 1)
+    Attempt to enter the grotto and Filliman will come out. Put on your Amulet of Ghostspeak and talk to him.
+    Pick-up the mirror underneath the washing bowl.
+    Use the mirror on Filliman.
+    Right-click the grotto tree to get his journal.
+    Use the journal on him for the Druidic spell. (Chat: 4)
+The Nature Spirit
+    Talk to Drezel
+    Cast the Druidic spell next to a rotting log.
+    Pick a mushroom growing from the log.
+    Use the mushroom on the light-brown stone.
+    Use spell card on the grey stone.
+    Stand on the orange stone and tell Filliman you've solved the puzzle. (Chat: 3)
+    Enter the hole under the tree.
+    Search the grotto.
+    Talk to the Nature Spirit and pick up the Druid pouch.
+Killing the Ghasts
+    Use the Silver sickle (b)'s Bloom ability to harvest mushrooms and fill the Druid pouch.
+    Use the filled druid pouch on Ghasts to make them attack-able, kill three of them.
+    Talk to the Nature Spirit.
+    Quest complete!
+
+
+The Queen of Thieves
+
+Level Requirements: 20 Thieving
+Quest Requirements: Client of Kourend
+Other Requirements: 20% Piscarilius
+Item Requirements: Stew
+
+Talk to Tomas Lawry. (Chat: 2-1)
+Talk to either the poor looking woman or man.
+Talk to Robert O'Reilly. (Chat: 1)
+Enter the manhole and talk to Devan Rutter.
+Defeat Conrad King. (Chat: 1)
+Talk to the Queen of Thieves.
+Pick-lock the chest to find a letter.
+Talk to Tomas Lawry. (Chat: 1)
+Talk to Lady Shauna Piscarilius.
+Quest Complete!
+
+
+Alfred Grimhand's Barcrawl
+Scorpion Catcher
