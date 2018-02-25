@@ -422,9 +422,11 @@
             "location": ["South from the Underground Pass."],
             "description": ["Lure him west of the dead tree until he is directly west of it.", "Walk west until he stops following you and then stand directly south-west from him and attack him."]
           }
-        }
+        },
+        "last": true
       },
       "8": {
+        "subtitle": "Finishing up",
         "step": "Talk to King Bolren. (Chat: 1)",
         "details": {
           "1": {
@@ -630,9 +632,11 @@
             "location": ["Stronghold Underground"],
             "description": ["After the cutscene, take one step north to successfully safespot the Black Demon."]
           }
-        }
+        },
+        "last": true
       },
       "18": {
+        "subtitle": "Finishing up",
         "step": "Talk to King Narnode.",
         "details": {
           "1": {
@@ -706,9 +710,11 @@
             "location": ["Fight Area,", "north-eastern corner."],
             "description": ["Search this chest to get Khazard armour."]
           }
-        }
+        },
+        "last": true
       },
       "3": {
+        "subtitle": "Rescuing the boy",
         "step": "Talk to the boy, Jeremy Servil.",
         "details": {
           "1": {
@@ -718,7 +724,7 @@
         }
       },
       "4": {
-        "step": "Right click and talk to the Khazard Guard.",
+        "step": "Right-click and talk to the Khazard Guard.",
         "details": {
           "1": {
             "location": ["Fight Area,", "in the southern room"],
@@ -736,7 +742,7 @@
         }
       },
       "6": {
-        "step": "Right click and give the Khazard guard the Khali Brew and get keys.",
+        "step": "Right-click and give the Khazard guard the Khali Brew and get keys.",
         "details": {
           "1": {
             "location": ["Fight Area,", "in the southern room"],
@@ -751,9 +757,11 @@
             "location": ["Fight Area,", "prison cell"],
             "description": ["You will find yourself in the arena so prepare yourself to fight a Ogre (level 63)."]
           }
-        }
+        },
+        "last": true
       },
       "8": {
+        "subtitle": "Fight Arena",
         "step": "Kill the ogre (level 63).",
         "details": {
           "1": {
@@ -782,9 +790,11 @@
             "location": ["Fight Area", "in the arena"],
             "description": ["Stand by the pile of bones to safespot the hellhound."]
           }
-        }
+        },
+        "last": true
       },
       "11": {
+        "subtitle": "Finishing up",
         "step": "Run from General Khazard (level 112) and talk to Lady Servil.",
         "details": {
           "1": {
@@ -797,8 +807,7 @@
         "step": "Quest complete!",
         "details": {
           "1": {}
-        },
-        "last": true
+        }
       }
     }
   },
@@ -1010,6 +1019,7 @@
         }
       },
       "12": {
+        "subtitle": "Finishing up",
         "step": "Go to the monument room to talk to Drezel and give him 50 unnoted Rune or Pure essence.",
         "details": {
           "1": {
@@ -1068,9 +1078,11 @@
             "location": ["Al Kharid,", "east from gem shop."],
             "description": ["Buy a Kharidan headpiece and a Fake Beard from Ali Morrisane then combine them for a Desert disguise."]
           }
-        }
+        },
+        "last": true
       },
       "3": {
+        "subtitle": "Pollnivneach",
         "step": "Give 3 beers to Drunken Ali. (Go through the dialogue)",
         "details": {
           "1": {
@@ -1097,7 +1109,7 @@
         "details": {
           "1": {
             "location": ["Pollnivneach,", "in the bar."],
-            "description": ["Buy teo camels for 500gp for both gangs. He will give you two receipts."]
+            "description": ["Buy two camels for 500gp for both gangs. He will give you two receipts."]
           }
         }
       },
@@ -1112,9 +1124,11 @@
             "location": ["Pollnivneach,", "southern side."],
             "description": ["Right-click click talk to a Menaphite Thug to give him a receipt."]
           }
-        }
+        },
+        "last": true
       },
       "7": {
+        "subtitle": "Pickpocketing",
         "step": "Talk to Ali the Operator (Chat: 1-2).",
         "details": {
           "1": {
@@ -1161,9 +1175,11 @@
             "location": ["Pollnivneach,", "southern side."],
             "description": ["Find a villager lure them into a secluded room. Right-click knockout then pickpocket them."]
           }
-        }
+        },
+        "last": true
       },
       "12": {
+        "subtitle": "Stealing the Jewels",
         "step": "Talk to Ali the Operator then put on the Desert disguise and gloves.",
         "details": {
           "1": {
@@ -1219,9 +1235,11 @@
             "location": ["Pollnivneach,", "southern side by the purple tent."],
             "description": ["Give him the jewels to Ali the Operator."]
           }
-        }
+        },
+        "last": true
       },
       "18": {
+        "subtitle": "Traitor",
         "step": "Talk to a Menaphite Thug.",
         "details": {
           "1": {
@@ -1327,9 +1345,11 @@
             "location": ["Pollnivneach,", "southern side by the purple tent."],
             "description": ["Tell him the deed is done."]
           }
-        }
+        },
+        "last": true
       },
       "30": {
+        "subtitle": "Defeating Gang Leaders",
         "step": "Talk to the Menaphite Leader.",
         "details": {
           "1": {
@@ -1372,9 +1392,11 @@
             "location": ["Pollnivneach,", "northern side."],
             "description": ["Safespot him behind a chair."]
           }
-        }
+        },
+        "last": true
       },
       "35": {
+        "subtitle": "Finishing Up",
         "step": "Talk to a villager.",
         "details": {
           "1": {
@@ -1453,7 +1475,7 @@
         }
       },
       "4": {
-        "step": "Talk to Eohric. (Chat: 1)",
+        "step": "Talk to Eohric.",
         "details": {
           "1": {
             "location": ["Burthorpe castle, second floor"],
@@ -1528,7 +1550,7 @@
         "details": {
           "1": {
             "location": ["Burthorpe camp"],
-            "description": ["Talk to Denulth for certificate for Dunstan."]
+            "description": ["Talk to Denulth to receive a certificate to give to Dunstan."]
           }
         }
       },

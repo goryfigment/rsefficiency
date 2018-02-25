@@ -1,8 +1,6 @@
-Death Plateau
-
-
 Druidic Ritual
 Items:Raw bear meat,Raw rat meat,Raw beef,Raw chicken
+Recommended: Games Necklace
 
 Talk to Kaqemeex. (Chat: 2-1)
 Talk to Sanfew. (Chat 1-2)
@@ -19,9 +17,9 @@ Talk to Brother Omad. (Chat: 1-1).
 Go to the stone circle to make the ladders appear and go down it.
 Follow the south path and pick the Child's blanket up.
 Talk to Brother Omad twice. (Chat: 1-2).
-Talk to Brother Cedric and give him a Jug of Water. (Chat: 2)
+Talk to Brother Cedric twice and give him a Jug of Water. (Chat: 2)
 Talk to him again to give him the logs.
-Talk ti Brother Omad.
+Talk to Brother Omad.
 Quest complete!
 
 
@@ -34,27 +32,28 @@ Defeat: Goblin guard (level 42)
 Getting started
     Talk to the Observatory professor. (Chat 1-2-1)
 Fixing the Observatory
-    Talk to the Observatory professor and give him three planks, bronze bar and molten glass. (Speak to him 3 separate times)
-    Talk to the assistant.
+    Talk to the Observatory professor three times to give him three planks, bronze bar and molten glass. (Chat: 1)
     Go down the stairs on the hill to the east.
-    Search all the chests until you find the goblin kitchen key. (Most commonly found in south eastern part when you go down the stairs)
+    Search all the chests until you find the goblin kitchen key.
     Prod the sleeping guard, then kill him.
     Open the gate and inspect the goblin stove.
-    Talk to the Observatory professor.
+    Talk to the Observatory professor. (Chat: 1)
     Use the molten glass on the lens mould.
-    Talk to the Observatory professor.
+    Talk to the Observatory professor. (Chat: 1)
     Take the stairs in the south end of the dungeon.
 Finishing up
-    Talk to the professor upstairs and view the telescope.
-    Talk to the professor and identify the constellation you saw (see below).
+    Go upstairs and view the telescope.
+    Talk to the professor and identify the constellation you saw [see below]. (Chat: 1)
+    Quest Complete!
+
 
 Merlin's Crystal
     Items: Bread, Tinderbox, Bat Bones
-    Recommended: Varrock Teleport,Charged Amulet of glory, Charged Games necklace, House Teleport, Camelot Teleport, Falador Teleport
+    Recommended: Varrock Teleport, Charged Amulet of glory, Charged Games necklace, House Teleport, Camelot Teleport, Falador Teleport
 
 Getting started
     a)Talk to King Arthur. (Chat: 1)
-    b)Talk to Sir Gawain. (Chat: 3)
+    b)Talk to Sir Gawain. (Chat: 3-2)
     c)Talk to Sir Lancelot.
     d)Get Insect Repellant.
 Mordred Castle
@@ -62,18 +61,17 @@ Mordred Castle
     f)Attack Sir Modred.
 Black candle
     g)Spare his life. (Chat: 1-2)
-    h)Get Bucket of Wax.
-    i)Talk to the candle maker. (Chat: 1)
+    h)Use Insect Repellant on the Hive and a Bucket to get Bucket of Wax.
+    i)Talk to the candle maker two times to get a Black Candle. (Chat: 1)
 Excalibur
     j)Talk to the lady of the lake in Taverly. (Chat: 3)
     k)Go to Port Sarim, enter the jewellery store and give the beggar your bread. (Chat: 1)
 Ritual
     l)Go to Varrock and check chaos altar's inscription.
-    m)Go to the ritual site.
     n)Light the black candle and drop bat bones on the star.
     o)The magic words are 'Snarthon Candtrick Termanto'.
 Finishing Up
-    p)Smash the giant crystal with Excalibur.
+    p)Equip the excaliber and smash the giant crystal with Excalibur.
     q)Talk to King Arthur.
 
 
@@ -182,7 +180,6 @@ Snape grass
 
 Starting the quest
     Talk to Edmond. (Chat: 1-2)
-    Talk to Alrena.
     Talk to Alrena to give dwellberries for a gas mask.
     Take the picture of Elena off of the table.
     Talk to Edmond.
@@ -191,22 +188,18 @@ Starting the quest
     Attempt to open the grill.
     Use a rope on the grill.
     Speak to Edmond.
-    Climb up the pipe.
+    Put on the gasmask and climb up the pipe.
 
 Finding Elena
-
     Talk to Jethick for a book. (Chat: 1-1)
     Talk to Martha.
     Talk to Milli upstairs.
-    Attempt to open the door.
-    Talk to the Mourners (Chat 1-2)
-
+    Attempt to open the door. (Chat: 1-2)
 
 Getting inside
     Talk to the clerk. (Chat 2-1)
     Talk to Bravek. (Chat 1-3)
-    He will give you a scruffy note for a hangover cure.
-    Put chocolate dust in a bucket of milk (DON'T EAT) and then add snape grass.
+    Use chocolate dust on the bucket of milk (DON'T EAT) and then add snape grass.
     Use the hangover cure on Bravek to get a warrant. (Chat 3)
 
 Finishing up
@@ -217,15 +210,15 @@ Finishing up
     Quest complete!
 
 Biohazard
+
 Getting started
     Talk to Elena (Chat: 1).
 
 Sneaking into West Ardougne
 
-    Talk to Jerico. (Chat: 1)
+    Talk to Jerico.
     Search cupboard for bird feed.
     Grab a pigeon cage from the backyard.
-    Talk to Omart.
     Use bird feed on the watchtower fence.
     Release the pigeon cage by the spiked fence.
     Talk to Omart. (Chat: 1)
@@ -240,7 +233,7 @@ Infiltrating the Mourner Headquarters
     Go upstairs and kill a Mourner for a key.
     Use the key on the gate.
     Search the crates to receive Elena's Distillator.
-    Talk to Elena to give her the Distiller.
+    Talk to Elena to give her the Distiller. (Talk to Kilron to get over the fence)
 
 Getting the touch paper
 
@@ -248,14 +241,15 @@ Getting the touch paper
     Withdraw all 4 samples and speak to the Chemist for touch paper. (Chat: 2-2-2)
 
 Smuggling the samples
-    Give Chancy the Liquid honey Liquid honey. (Chat: 2)
     Give Da Vinci the Ethenea. (Chat: 1)
+    Give Chancy the Liquid honey Liquid honey. (Chat: 2)
     Give Hops the Sulphuric broline. (Chat: 3)
     Bank the Plague sample before teleporting to Varrock!.
+    Trade Thessalia for a Priest Top and Priest Gown for 10gp.
     Withdraw the Plague sample.
     Enter the guarded gate.
     Talk to Hops, Da Vinci and Chancy to get the vials back.
-    Equip the Priest gown and Speak to Guidor. (Chat: 1-2)
+    Equip the Priest gown and Speak to Guidor. (Chat: 1-2-13)
 
 Finishing Up
     Talk to Elena.
@@ -301,13 +295,13 @@ Repair and Retrieval
     Climb up two ladders and take the Dwarf remains.
     Talk to Captain Lawgof.
     Enter the cave by the fishing guild.
-    Search the crates in the northeast corner of that room to find Lollk.
+    Search the crates in the north-west corner of that room to find Lollk.
     Talk to Captain Lawgof. (Chat: 1)
     Use the toolkit on the broken multicannon.
     In this order:
-        Use the hooked tool on the spring.
-        Use the pliers on the safety switch at the bottom.
-        Use the tooth tool on the gear located at the bottom of the hammer.
+        Use the pliers on the switch.
+        Use the hooked on the spring.
+        Use the wrench on the gear.
     Talk to Captain Lawgof. (Chat: 2)
 Finishing Up
     Talk to Nulodion.
@@ -315,9 +309,12 @@ Finishing Up
     Quest complete!
 
 Nature Spirit
+Level Requirements: 18 Crafting
+Quest Requirements: Priest in Peril, The Restless Ghost
+Items Requirements: Silver Sickle, Ghostspeak amulet
 
 Starting Out
-    Talk to Drezel. (Chat 2 - 2 - 4 - 1)
+    Talk to Drezel. (Chat: 2-2-4-1)
     Attempt to enter the grotto and Filliman will come out. Put on your Amulet of Ghostspeak and talk to him.
     Pick-up the mirror underneath the washing bowl.
     Use the mirror on Filliman.
