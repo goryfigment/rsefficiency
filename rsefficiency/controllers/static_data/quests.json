@@ -1016,7 +1016,8 @@
             "location": ["Top floor in the Temple"],
             "description": ["Now use the blessed water on the coffin."]
           }
-        }
+        },
+        "last": true
       },
       "12": {
         "subtitle": "Finishing up",
@@ -1032,8 +1033,7 @@
         "step": "Quest Complete.",
         "details": {
           "1": {}
-        },
-        "last": true
+        }
       }
     }
   },
@@ -4423,6 +4423,87 @@
         }
       },
       "11": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
+  },
+  "druidic_ritual": {
+    "name": "Druidic Ritual",
+    "directory": "druidic_ritual",
+    "req": [
+      {
+        "name": "Items",
+        "items": ["Raw bear meat", "Raw rat meat", "Raw beef", "Raw chicken"],
+        "keywords": ["Raw bear meat", "Raw rat meat", "Raw beef", "Raw chicken"]
+      },
+      {
+        "name": "Recommended",
+        "items": ["Games Necklace"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting Started",
+        "step": "Talk to Kaqemeex. (Chat: 2-1)",
+        "details": {
+          "1": {
+            "location": ["Druids' Circle north of Taverly."],
+            "description": ["Talk to Kaqemeex to start the quest."]
+          }
+        },
+        "last": true
+      },
+      "2": {
+        "subtitle": "Ritual Ingredients",
+        "step": "Talk to Sanfew. (Chat 1-2))",
+        "details": {
+          "1": {
+            "location": ["Herblore shop upstairs at Taverly."],
+            "description": ["Talk to Sanfew."]
+          }
+        }
+      },
+      "3": {
+        "step": "Use all four meats on the Cauldron in Taverley Dungeon.",
+        "details": {
+          "1": {
+            "location": ["South of Taverly"],
+            "description": ["Climb down the stairs to enter Taverly Dungeon."]
+          },
+          "2": {
+            "location": ["Taverly Dungeon"],
+            "description": ["Spam open the door two times until both suit of armor animate to life. Then open the door again to go through the gate."]
+          },
+          "3": {
+            "location": ["Taverly Dungeon"],
+            "description": ["Use a raw bear meat, a raw rat meat, a raw beef, a raw chicken on the cauldron."]
+          }
+        }
+      },
+      "4": {
+        "step": "Talk to Sanfew.",
+        "details": {
+          "1": {
+            "location": ["Herblore shop upstairs at Taverly."],
+            "description": ["Talk to Sanfew."]
+          }
+        },
+        "last": true
+      },
+      "5": {
+        "subtitle": "Finishing up",
+        "step": "Talk to Kaqemeex.",
+        "details": {
+          "1": {
+            "location": ["Druids' Circle north of Taverly."],
+            "description": ["Talk to Kaqemeex."]
+          }
+        }
+      },
+      "6": {
         "step": "Quest complete!",
         "details": {
           "1": {}

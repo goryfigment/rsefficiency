@@ -1,111 +1,78 @@
 {
-  "witchs_potion": {
-    "name": "Client of Kourend",
-    "directory": "client_of_kourend",
+  "druidic_ritual": {
+    "name": "Druidic Ritual",
+    "directory": "druidic_ritual",
     "req": [
       {
         "name": "Items",
-        "items": ["1 Feather"],
-        "keywords": ["Feather"]
+        "items": ["Raw bear meat", "Raw rat meat", "Raw beef", "Raw chicken"],
+        "keywords": ["Raw bear meat", "Raw rat meat", "Raw beef", "Raw chicken"]
       },
       {
         "name": "Recommended",
-        "items": ["Energy potions", "Pest Control Teleport", "Xeric's talismen", "Kourend Teleport"]
+        "items": ["Games Necklace"]
       }
     ],
     "steps": {
       "1": {
         "subtitle": "Getting Started",
-        "step": "Talk to Veos. (Chat: 3,1)",
+        "step": "Talk to Kaqemeex. (Chat: 2-1)",
         "details": {
           "1": {
-            "location": ["Piscarilius Docks"],
-            "description": ["Talk to Veos to start the quest."]
+            "location": ["Druids' Circle north of Taverly."],
+            "description": ["Talk to Kaqemeex to start the quest."]
+          }
+        },
+        "last": true
+      },
+      "2": {
+        "subtitle": "Ritual Ingredients",
+        "step": "Talk to Sanfew. (Chat 1-2)",
+        "details": {
+          "1": {
+            "location": ["Herblore shop upstairs at Taverly."],
+            "description": ["Talk to Sanfew."]
           }
         }
       },
-      "2": {
-        "step": "Use Enchanted Scroll on Feather.",
-        "details": {},
-        "last": true
-      },
       "3": {
-        "subtitle": "Talking to the general store owners.",
-        "step": "Talk to Leenz. (Chat: 3, 3)",
+        "step": "Use all four meats on the Cauldron in Taverley Dungeon.",
         "details": {
           "1": {
-            "location": ["Piscarilius House"],
-            "description": ["Talk to Leenz."]
+            "location": ["South of Taverly"],
+            "description": ["Climb down the stairs to enter Taverly Dungeon."]
+          },
+          "2": {
+            "location": ["Taverly Dungeon"],
+            "description": ["Spam open the door two times until both suit of armor animate to life. Then open the door again to go through the gate."]
+          },
+          "3": {
+            "location": ["Taverly Dungeon"],
+            "description": ["Use a raw bear meat, a raw rat meat, a raw beef, a raw chicken on the cauldron."]
           }
         }
       },
       "4": {
-        "step": "Talk to Regath. (Chat: 4, 3)",
+        "step": "Talk to Sanfew.",
         "details": {
           "1": {
-            "location": ["Arceuus House"],
-            "description": ["Talk to Regath."]
+            "location": ["Herblore shop upstairs at Taverly."],
+            "description": ["Talk to Sanfew."]
           }
-        }
+        },
+        "last": true
       },
       "5": {
-        "step": "Talk to Munty. (Chat: 4, 3)",
+        "subtitle": "Finishing up",
+        "step": "Talk to Kaqemeex.",
         "details": {
           "1": {
-            "location": ["Lovakengj House"],
-            "description": ["Talk to Munty."]
+            "location": ["Druids' Circle north of Taverly."],
+            "description": ["Talk to Kaqemeex."]
           }
         }
       },
       "6": {
-        "step": "Talk to Jennifer. (Chat: 3, 3)",
-        "details": {
-          "1": {
-            "location": ["Shayzien House"],
-            "description": ["Talk to Jennifer."]
-          }
-        }
-      },
-      "7": {
-        "step": "Talk to Horace. (Chat: 4, 3)",
-        "details": {
-          "1": {
-            "location": ["Hosidius House"],
-            "description": ["Talk to Horace."]
-          }
-        },
-        "last": true
-      },
-      "8": {
-        "subtitle": "Dark altar",
-        "step": "Talk to Veos to receive a Mysterious orb.",
-        "details": {
-          "1": {
-            "location": ["Piscarilius Docks"],
-            "description": ["Talk to Veos to receive a Mysterious orb."]
-          }
-        }
-      },
-      "9": {
-        "step": "Go to the dark altar and activate the Mysterious Orb.",
-        "details": {
-          "1": {
-            "location": ["Areceuus Dark Altar"],
-            "description": ["Activate the Mysterious Orb by the dark altar."]
-          }
-        }
-      },
-      "10": {
-        "step": "Talk to Veos (Chat: 3)",
-        "details": {
-          "1": {
-            "location": ["Piscarilius Docks"],
-            "description": ["Talk to Veos to finish the quest."]
-          }
-        },
-        "last": true
-      },
-      "11": {
         "step": "Quest complete!",
         "details": {
           "1": {}

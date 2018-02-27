@@ -315,13 +315,13 @@ Items Requirements: Silver Sickle, Ghostspeak amulet
 
 Starting Out
     Talk to Drezel. (Chat: 2-2-4-1)
-    Attempt to enter the grotto and Filliman will come out. Put on your Amulet of Ghostspeak and talk to him.
+    Attempt to enter the grotto talk to Fillman with a Ghostspeak Amulet equipped. (Chat: 2-4)
     Pick-up the mirror underneath the washing bowl.
     Use the mirror on Filliman.
-    Right-click the grotto tree to get his journal.
+    Right-click and search the grotto tree to get his journal.
     Use the journal on him for the Druidic spell. (Chat: 4)
 The Nature Spirit
-    Talk to Drezel
+    Talk to Drezel.
     Cast the Druidic spell next to a rotting log.
     Pick a mushroom growing from the log.
     Use the mushroom on the light-brown stone.
@@ -329,7 +329,7 @@ The Nature Spirit
     Stand on the orange stone and tell Filliman you've solved the puzzle. (Chat: 3)
     Enter the hole under the tree.
     Search the grotto.
-    Talk to the Nature Spirit and pick up the Druid pouch.
+    Talk to the Nature Spirit twice.
 Killing the Ghasts
     Use the Silver sickle (b)'s Bloom ability to harvest mushrooms and fill the Druid pouch.
     Use the filled druid pouch on Ghasts to make them attack-able, kill three of them.
