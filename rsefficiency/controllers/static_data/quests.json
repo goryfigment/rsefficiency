@@ -4594,5 +4594,181 @@
         }
       }
     }
+  },
+  "observatory_quest": {
+    "name": "Observatory Quest",
+    "directory": "observatory_quest",
+    "req": [
+      {
+        "name": "Level Requirements",
+        "items": ["10 Crafting"]
+      },
+      {
+        "name": "Items",
+        "items": ["3 Planks (regular)", "Bronze bar", "Molten glass"],
+        "keywords": ["Planks", "Bronze bar", "Molten glass"]
+      },
+      {
+        "name": "Recommended",
+        "items": ["Food", "Antipoison", "Stamina potions", "Ring of dueling"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting Started",
+        "step": "Talk to the Observatory professor. (Chat 1-2-1)",
+        "details": {
+          "1": {
+            "location": ["Observatory Reception Room"],
+            "description": ["Talk to Observatory professor to start the quest."]
+          }
+        },
+        "last": true
+      },
+      "2": {
+        "subtitle": "Fixing the Observatory",
+        "step": "Talk to the Observatory professor three more times.",
+        "details": {
+          "1": {
+            "location": ["Observatory Reception Room"],
+            "description": ["Talk to the Observatory professor three times to give him three planks, bronze bar and molten glass."]
+          }
+        }
+      },
+      "3": {
+        "step": "Go down the stairs on the hill to the east.",
+        "details": {
+          "1": {
+            "location": ["East of the Observatory Reception Room"],
+            "description": ["Go down the stairs."]
+          }
+        }
+      },
+      "4": {
+        "step": "Search all the chests until you find the goblin kitchen key.",
+        "details": {
+          "1": {
+            "location": ["Observatory Dungeon"],
+            "description": ["Search all the chests until you find the goblin kitchen key. The key is in a different place for every player."]
+          },
+          "2": {"description": "Chat dialog"}
+        }
+      },
+      "5": {
+        "step": "Prod the sleeping guard, then defeat him.",
+        "details": {
+          "1": {
+            "location": ["Observatory Dungeon"],
+            "description": ["Prod the sleeping guard to wake him up, then defeat him."]
+          }
+        }
+      },
+      "6": {
+        "step": "Open the gate and inspect the goblin stove.",
+        "details": {
+          "1": {
+            "location": ["Observatory Dungeon"],
+            "description": ["Open the gate and inspect the goblin stove."]
+          }
+        }
+      },
+      "7": {
+        "step": "Talk to the Observatory professor. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Observatory Reception Room"],
+            "description": ["Talk to the Observatory professor to get the molten glass and mould back."]
+          }
+        }
+      },
+      "8": {
+        "step": "Use the molten glass on the lens mould.",
+        "details": {}
+      },
+      "9": {
+        "step": "Talk to the Observatory professor. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Observatory Reception Room"],
+            "description": ["Talk to the Observatory professor to give him the new lens."]
+          }
+        }
+      },
+      "10": {
+        "step": "Take the stairs in the south end of the dungeon.",
+        "details": {
+          "1": {
+            "location": ["Observatory Dungeon"],
+            "description": ["Go upstairs to get into the Observatory."]
+          }
+        },
+        "last": true
+      },
+      "11": {
+        "subtitle": "Finishing up",
+        "step": "Go upstairs and view the telescope.",
+        "details": {
+          "1": {
+            "location": ["Observatory"],
+            "description": ["Go upstairs again to the telescope."]
+          },
+          "2": {
+            "location": ["Observatory"],
+            "description": ["View the telescope."]
+          }
+        }
+      },
+      "12": {
+        "step": "Talk to the professor and identify the constellation you saw [see below]. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Observatory"],
+            "description": ["Talk to the professor and he will ask you what constellation you saw. The constellation you get will determine the reward."]
+          },
+          "2": {
+            "description": ["Aquarius", "25 Water runes, uncut sapphire"]
+          },
+          "3": {
+            "description": ["Aries", "875 Attack experience, uncut sapphire"]
+          },
+          "4": {
+            "description": ["Cancer", "Amulet of defence, uncut sapphire"]
+          },
+          "5": {
+            "description": ["Capricorn", "875 Strength experience, uncut sapphire"]
+          },
+          "6": {
+            "description": ["Gemini", "Black 2h sword, uncut sapphire"]
+          },
+          "7": {
+            "description": ["Leo", "3 Law runes, uncut sapphire"]
+          },
+          "8": {
+            "description": ["Libra", "3 Law runes, uncut sapphire"]
+          },
+          "9": {
+            "description": ["Pisces", "3 Tuna, uncut sapphire"]
+          },
+          "10": {
+            "description": ["Sagittarius", "3 Tuna, uncut sapphire"]
+          },
+          "11": {
+            "description": ["Scorpio", "3 Tuna, uncut sapphire"]
+          },
+          "12": {
+            "description": ["Taurus", "Super strength(1), uncut sapphire"]
+          },
+          "13": {
+            "description": ["Virgo", "875 Defence experience, uncut sapphire"]
+          }
+        }
+      },
+      "13": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }

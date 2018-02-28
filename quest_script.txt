@@ -1,17 +1,3 @@
-Monks Friend
-Items: Jug of water, Logs (regular)
-Items: Ardougne cloak 1
-
-Talk to Brother Omad. (Chat: 1-1).
-Go to the stone circle to make the ladders appear and go down it.
-Follow the south path and pick the Child's blanket up.
-Talk to Brother Omad twice. (Chat: 1-2).
-Talk to Brother Cedric twice and give him a Jug of Water. (Chat: 2)
-Talk to him again to give him the logs.
-Talk to Brother Omad.
-Quest complete!
-
-
 Observatory Quest
 Requirements: 10 Crafting
 Items: 3 Planks (regular), Bronze bar, Molten glass
