@@ -4458,7 +4458,7 @@
       },
       "2": {
         "subtitle": "Ritual Ingredients",
-        "step": "Talk to Sanfew. (Chat 1-2))",
+        "step": "Talk to Sanfew. (Chat 1-2)",
         "details": {
           "1": {
             "location": ["Herblore shop upstairs at Taverly."],
@@ -4504,6 +4504,90 @@
         }
       },
       "6": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
+  },
+  "monks_friend": {
+    "name": "Monk's Friend",
+    "directory": "monks_friend",
+    "req": [
+      {
+        "name": "Items",
+        "items": ["Jug of water", "Logs (regular)"],
+        "keywords": ["Jug of water", "Logs"]
+      },
+      {
+        "name": "Recommended",
+        "items": ["Ardougne cloak 1"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting Started",
+        "step": "Talk to Brother Omad. (Chat: 1-1)",
+        "details": {
+          "1": {
+            "location": ["Ardougne Monastery"],
+            "description": ["Talk to Brother Omad to start the quest."]
+          }
+        },
+        "last": true
+      },
+      "2": {
+        "subtitle": "Finding Omad's blanket",
+        "step": "Walk into the stone circle to make ladders appear, go down it.",
+        "details": {
+          "1": {
+            "location": ["North-west from the Monastery."],
+            "description": ["Go down the ladders."]
+          }
+        }
+      },
+      "3": {
+        "step": "Pick-up a Child's blanket.",
+        "details": {
+          "1": {
+            "location": ["Ardougne Underground"],
+            "description": ["Follow the south path and pick-up a Child's blanket"]
+          }
+        },
+        "last": true
+      },
+      "4": {
+        "subtitle": "Brother Cedric",
+        "step": "Talk to Brother Omad twice. (Chat: 1-2)",
+        "details": {
+          "1": {
+            "location": ["Ardougne Monastery"],
+            "description": ["Talk to Brother Omad two times."]
+          }
+        }
+      },
+      "5": {
+        "step": "Talk to Brother Cedric three times. (Chat: 2).",
+        "details": {
+          "1": {
+            "location": ["North from the Monastery."],
+            "description": ["Talk to Brother Cedric three times to give him a Jug of Water and the Logs (regular)."]
+          }
+        },
+        "last": true
+      },
+      "6": {
+        "subtitle": "Finishing up",
+        "step": "Talk to Brother Omad. (Chat: 1-2)",
+        "details": {
+          "1": {
+            "location": ["Ardougne Monastery"],
+            "description": ["Talk to Brother Omad to finish the quest."]
+          }
+        }
+      },
+      "7": {
         "step": "Quest complete!",
         "details": {
           "1": {}

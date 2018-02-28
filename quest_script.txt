@@ -1,14 +1,3 @@
-Druidic Ritual
-Items:Raw bear meat,Raw rat meat,Raw beef,Raw chicken
-Recommended: Games Necklace
-
-Talk to Kaqemeex. (Chat: 2-1)
-Talk to Sanfew. (Chat 1-2)
-Use all four meats on the Cauldron in Taverley Dungeon.
-Talk to Sanfew.
-Talk to Kaqemeex.
-
-
 Monks Friend
 Items: Jug of water, Logs (regular)
 Items: Ardougne cloak 1

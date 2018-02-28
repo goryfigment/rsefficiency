@@ -27,23 +27,45 @@
     min-height: calc(100vh - 218px);
 }
 
-.title {
-    margin: 25px 0;
-    text-align: center;
+
+#update-container {
+    font-weight: 600;
     color: white;
-    background: rgba(41, 41, 41, 0.8);
-    border-radius: 3px;
-    padding: 7px 10px;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 5px 10px;
     width: 100%;
     max-width: 584px;
     min-width: 300px;
-    cursor: pointer;
 }
 
-.title:hover {
-    background: rgb(197, 197, 197);
-    color: #0E0E0E;
+.update-title {
+    text-align: center;
+    font-size: 20px;
+    padding-bottom: 8px;
+    margin-bottom: 5px;
+    border-bottom: 1.5px solid #1e1f20;
 }
+
+#update-container a {
+    color: #34c0f6;
+}
+
+.update-item {
+    padding: 10px 0;
+}
+
+.update-date {
+    color: #f6f612;
+}
+
+.update {
+    color: #b0e1fe;
+}
+
+.add {
+    color: #1bdb1b;
+}
+
 #donate-description {
     background-color: #1F2739;
     color: #FFFFFF;
