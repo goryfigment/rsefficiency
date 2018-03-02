@@ -1,27 +1,3 @@
-Observatory Quest
-Requirements: 10 Crafting
-Items: 3 Planks (regular), Bronze bar, Molten glass
-Recommended: Food, Antipoison, Stamina potions, Ring of dueling
-Defeat: Goblin guard (level 42)
-
-Getting started
-    Talk to the Observatory professor. (Chat 1-2-1)
-Fixing the Observatory
-    Talk to the Observatory professor three times to give him three planks, bronze bar and molten glass. (Chat: 1)
-    Go down the stairs on the hill to the east.
-    Search all the chests until you find the goblin kitchen key.
-    Prod the sleeping guard, then kill him.
-    Open the gate and inspect the goblin stove.
-    Talk to the Observatory professor. (Chat: 1)
-    Use the molten glass on the lens mould.
-    Talk to the Observatory professor. (Chat: 1)
-    Take the stairs in the south end of the dungeon.
-Finishing up
-    Go upstairs and view the telescope.
-    Talk to the professor and identify the constellation you saw [see below]. (Chat: 1)
-    Quest Complete!
-
-
 Merlin's Crystal
     Items: Bread, Tinderbox, Bat Bones
     Recommended: Varrock Teleport, Charged Amulet of glory, Charged Games necklace, House Teleport, Camelot Teleport, Falador Teleport

@@ -4770,5 +4770,191 @@
         }
       }
     }
+  },
+  "merlins_crystal": {
+    "name": "Merlin's Crystal",
+    "directory": "merlins_crystal",
+    "req": [
+      {
+        "name": "Items",
+        "items": ["Bread", "Tinderbox", "Bat Bones"],
+        "keywords": ["Bread", "Tinderbox", "Bat Bones"]
+      },
+      {
+        "name": "Recommended",
+        "items": ["Varrock Teleport", "Charged Amulet of glory", "Charged Games necklace", "House Teleport", "Camelot Teleport", "Falador Teleport"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting Started",
+        "step": "Talk to King Arthur. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Camelot Castle"],
+            "description": ["Talk to King Arthur to start the quest."]
+          }
+        }
+      },
+      "2": {
+        "step": "Talk to Sir Gawain. (Chat: 3-2)",
+        "details": {
+          "1": {
+            "location": ["Camelot Castle"],
+            "description": ["Talk to Sir Gawain."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to Sir Lancelot.",
+        "details": {
+          "1": {
+            "location": ["Second floor of Camelot Castle."],
+            "description": ["Climb up the stairs onto the second floor and talk to Sir Lancelot."]
+          }
+        }
+      },
+      "4": {
+        "step": "Pick-up the Insect Repellant.",
+        "details": {
+          "1": {
+            "location": ["House in Catherby, north of the bank."],
+            "description": ["Pick-up the Insect Repellant inside a house at Catherby."]
+          }
+        },
+        "last": true
+      },
+      "5": {
+        "subtitle": "Keep Le Faye Castle",
+        "step": "Hide-in the crate by the candle shop.",
+        "details": {
+          "1": {
+            "location": ["Catherby by the candle shop."],
+            "description": ["Get in the crate by the candle shop."]
+          }
+        }
+      },
+      "6": {
+        "step": "Attack Sir Modred.",
+        "details": {
+          "1": {
+            "location": ["Top floor in Keep Le Faye castle."],
+            "description": ["Jump out of the crate and head to the top floor and attack sir mordred."]
+          }
+        }
+      },
+      "7": {
+        "step": "Spare Sir Modred's life. (Chat: 1-2)",
+        "details": {
+          "1": {
+            "location": ["Top floor in Keep Le Faye castle."],
+            "description": ["After getting Sir Modred low health and Morgan Le Faye will appear and ask you to spare his life and in return she will tell you how to release Merlin."]
+          }
+        },
+        "last": true
+      },
+      "8": {
+        "subtitle": "Black candle",
+        "step": "Use Insect Repellant on the Hive and a Bucket to get Bucket of Wax.",
+        "details": {
+          "1": {
+            "location": ["South of Camelot Castle at the Beehives."],
+            "description": ["Pick-up a bucket at the hive, then use the insect repellant on the hive then a Bucket on the hive to get a Bucket of Wax."]
+          }
+        }
+      },
+      "9": {
+        "step": "Talk to the candle maker two times to get a Black Candle. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Catherby Candle Shop"],
+            "description": ["Talk to the candle maker two times to get a Black Candle."]
+          }
+        },
+        "last": true
+      },
+      "10": {
+        "subtitle": "Excalibur",
+        "step": "Talk to the lady of the lake in Taverly. (Chat: 3)",
+        "details": {
+          "1": {
+            "location": ["Taverly"],
+            "description": ["Talk to the lady of the lake."]
+          }
+        }
+      },
+      "11": {
+        "step": "Go to Port Sarim, enter the jewellery shop and give the beggar your bread. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Jewellery shop in Port Sarim."],
+            "description": ["Attempt to open the jewellery shop and a beggar will appear."]
+          },
+          "2": {
+            "location": ["Jewellery shop in Port Sarim."],
+            "description": ["Agree to give him bread to receive the Excalibur."]
+          }
+        },
+        "last": true
+      },
+      "12": {
+        "subtitle": "Ritual",
+        "step": "Go to Varrock and check chaos altar's inscription.",
+        "details": {
+          "1": {
+            "location": ["South-east corner of Varrock"],
+            "description": ["Go to Varrock and right-click to check the chaos altar's inscription to complete the ritual."]
+          }
+        }
+      },
+      "13": {
+        "step": "Light the black candle and drop bat bones on the star.",
+        "details": {
+          "1": {
+            "location": ["North-east of Camelot at the ritual site."],
+            "description": ["Go back Camelot Castle to the ritual site, and light the black candle and drop the bat bones on the star to start the ritual."]
+          }
+        }
+      },
+      "14": {
+        "step": "The magic words are 'Snarthon Candtrick Termanto'.",
+        "details": {
+          "1": {
+            "location": ["North-east of Camelot at the ritual site."],
+            "description": ["Use the following magic words, 'Snarthon Candtrick Termanto' to eliminate the spirit."]
+          }
+        },
+        "last": true
+      },
+      "15": {
+        "subtitle": "Finishing Up",
+        "step": "Equip the excalibur and smash the giant crystal with Excalibur.",
+        "details": {
+          "1": {
+            "location": ["Camelot Castle"],
+            "description": ["Use the stairs to get to the top of the castle."]
+          },
+          "2": {
+            "location": ["Top Floor of Camelot Castle"],
+            "description": ["Equip the excalibur and smash the giant crystal Merlin is surrounded in to free him."]
+          }
+        }
+      },
+      "16": {
+        "step": "Talk to King Arthur.",
+        "details": {
+          "1": {
+            "location": ["Camelot Castle"],
+            "description": ["Talk to King Arthur to finish the quest."]
+          }
+        }
+      },
+      "17": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }
