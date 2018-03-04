@@ -4956,5 +4956,228 @@
         }
       }
     }
+  },
+  "plague_city": {
+    "name": "Plague City",
+    "directory": "plague_city",
+    "req": [
+      {
+        "name": "Items",
+        "items": ["Dwellberries", "Rope", "Spade", "4 Buckets of water", "Bucket of milk", "Chocolate dust", "Snape grass"],
+        "keywords": ["Dwellberries", "Rope", "Spade", "4 Buckets of water", "Bucket of milk", "Chocolate dust", "Snape grass"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting Started",
+        "step": "Talk to Edmond. (Chat: 1-2)",
+        "details": {
+          "1": {
+            "location": ["North-west corner of East Ardougne."],
+            "description": ["Talk to Edmond to start the quest."]
+          }
+        }
+      },
+      "2": {
+        "step": "Talk to Alrena to give dwellberries for a gas mask.",
+        "details": {
+          "1": {
+            "location": ["North-west corner of East Ardougne."],
+            "description": ["Talk to Alrena to give her dwellberries for a gas mask."]
+          }
+        }
+      },
+      "3": {
+        "step": "Take the picture of Elena off of the table.",
+        "details": {
+          "1": {
+            "location": ["North-west corner of East Ardougne."],
+            "description": ["Pick-up the picture of Elena off the table."]
+          }
+        },
+        "last": true
+      },
+      "4": {
+        "subtitle": "Underground path to West Ardougne ",
+        "step": "Talk to Edmond.",
+        "details": {
+          "1": {
+            "location": ["North-west corner of East Ardougne."],
+            "description": ["Talk to Edmond."]
+          }
+        }
+      },
+      "5": {
+        "step": "Use 4 buckets of water on the mud patch.",
+        "details": {
+          "1": {
+            "location": ["North-west corner of East Ardougne."],
+            "description": ["Use all 4 buckets of water on the mud patch to create a softer ground to dig through."]
+          }
+        }
+      },
+      "6": {
+        "step": "Use a spade on the softened ground.",
+        "details": {
+          "1": {
+            "location": ["North-west corner of East Ardougne."],
+            "description": ["Use a spade on the softened ground to get through it."]
+          }
+        }
+      },
+      "7": {
+        "step": "Attempt to open the grill.",
+        "details": {
+          "1": {
+            "location": ["Ardougne Sewers"],
+            "description": ["Attempt to open the grill to be able to attach the rope in the next step."]
+          }
+        }
+      },
+      "8": {
+        "step": "Use a rope on the grill.",
+        "details": {
+          "1": {
+            "location": ["Ardougne Sewers"],
+            "description": ["Use a rope on the grill."]
+          }
+        }
+      },
+      "9": {
+        "step": "Talk to Edmond.",
+        "details": {
+          "1": {
+            "location": ["Ardougne Sewers"],
+            "description": ["Ask Edmond to help you pull the grill off."]
+          }
+        }
+      },
+      "10": {
+        "step": "Put on the gasmask and climb up the pipe.",
+        "details": {
+          "1": {
+            "location": ["Ardougne Sewers"],
+            "description": ["Since Edmond will not allow to climb up the pipe without a gasmask, put on the gasmask and climb up the pipe."]
+          }
+        },
+        "last": true
+      },
+      "11": {
+        "subtitle": "Finding Elena",
+        "step": "Talk to Jethick for a book. (Chat: 1-1)",
+        "details": {
+          "1": {
+            "location": ["Town square in West Ardougne."],
+            "description": ["Talk to Jethick for a book."]
+          }
+        }
+      },
+      "12": {
+        "step": "Talk to Martha.",
+        "details": {
+          "1": {
+            "location": ["North house in West Ardougne."],
+            "description": ["Talk to Martha."]
+          }
+        }
+      },
+      "13": {
+        "step": "Talk to Milli upstairs.",
+        "details": {
+          "1": {
+            "location": ["Upstairs of the north house in West Ardougne."],
+            "description": ["Go upstairs and talk to Milli."]
+          }
+        }
+      },
+      "14": {
+        "step": "Attempt to open the door. (Chat: 1-2)",
+        "details": {
+          "1": {
+            "location": ["South building with X marks in West Ardougne."],
+            "description": ["Go to the south building with X marks and attempt to open the door only to be stopped."]
+          }
+        },
+        "last": true
+      },
+      "15": {
+        "subtitle": "Getting inside",
+        "step": "Talk to the clerk. (Chat 2-1)",
+        "details": {
+          "1": {
+            "location": ["Large building north of town square in West Ardougne."],
+            "description": ["Talk to the clerk."]
+          }
+        }
+      },
+      "16": {
+        "step": "Talk to Bravek. (Chat 1-3)",
+        "details": {
+          "1": {
+            "location": ["Large building north of town square in West Ardougne."],
+            "description": ["Go through the door and talk to the Bravek."]
+          }
+        }
+      },
+      "17": {
+        "step": "Use chocolate dust on the bucket of milk (DON'T EAT) and then add snape grass.",
+        "details": {}
+      },
+      "18": {
+        "step": "Use the hangover cure on Bravek to get a warrant. (Chat 3)",
+        "details": {
+          "1": {
+            "location": ["Large building north of town square in West Ardougne."],
+            "description": ["Use the hangover cure on Bravek to get a warrant."]
+          }
+        },
+        "last": true
+      },
+      "19": {
+        "subtitle": "Rescuing Elena",
+        "step": "Enter the Mourners' house ('X' on the doors).",
+        "details": {
+          "1": {
+            "location": ["South building with X marks in West Ardougne."],
+            "description": ["Enter the Mourners' house ('X' on the doors)"]
+          }
+        }
+      },
+      "20": {
+        "step": "Search the barrel west of the staircase for a small key.",
+        "details": {
+          "1": {
+            "location": ["South building with X marks in West Ardougne."],
+            "description": ["Enter the Mourners' house ('X' on the doors) and show them the warrant to get inside."]
+          }
+        }
+      },
+      "21": {
+        "step": "Go downstairs, enter the cell and talk to Elena.",
+        "details": {
+          "1": {
+            "location": ["South building with X marks in West Ardougne."],
+            "description": ["Go downstairs, enter the cell and talk to Elena."]
+          }
+        },
+        "last": true
+      },
+      "22": {
+        "subtitle": "Finishing up",
+        "step": "Go back down the manhole and speak to Edmond.",
+        "details": {
+          "1": {
+            "location": ["Ardougne Sewers"],
+            "description": ["Go back down the manhole and speak to Edmond to finish the quest."]
+          }
+        }
+      },
+      "23": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }

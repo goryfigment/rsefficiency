@@ -1,31 +1,3 @@
-Merlin's Crystal
-    Items: Bread, Tinderbox, Bat Bones
-    Recommended: Varrock Teleport, Charged Amulet of glory, Charged Games necklace, House Teleport, Camelot Teleport, Falador Teleport
-
-Getting started
-    a)Talk to King Arthur. (Chat: 1)
-    b)Talk to Sir Gawain. (Chat: 3-2)
-    c)Talk to Sir Lancelot.
-    d)Get Insect Repellant.
-Mordred Castle
-    e)Go into the crate by the candle shop.
-    f)Attack Sir Modred.
-Black candle
-    g)Spare his life. (Chat: 1-2)
-    h)Use Insect Repellant on the Hive and a Bucket to get Bucket of Wax.
-    i)Talk to the candle maker two times to get a Black Candle. (Chat: 1)
-Excalibur
-    j)Talk to the lady of the lake in Taverly. (Chat: 3)
-    k)Go to Port Sarim, enter the jewellery store and give the beggar your bread. (Chat: 1)
-Ritual
-    l)Go to Varrock and check chaos altar's inscription.
-    n)Light the black candle and drop bat bones on the star.
-    o)The magic words are 'Snarthon Candtrick Termanto'.
-Finishing Up
-    p)Equip the excaliber and smash the giant crystal with Excalibur.
-    q)Talk to King Arthur.
-
-
 Fremennik Trials
 
 Starting out
@@ -124,21 +96,19 @@ Peer the Seer
 
 Plague City
 
-Items: Dwellberries, A rope, A spade, 4 Buckets of water
-A bucket of milk
-Chocolate dust
-Snape grass
+Items: Dwellberries, A rope, A spade, 4 Buckets of water, A bucket of milk, Chocolate dust, Snape grass
 
 Starting the quest
     Talk to Edmond. (Chat: 1-2)
     Talk to Alrena to give dwellberries for a gas mask.
     Take the picture of Elena off of the table.
+Underground path to West Ardougne
     Talk to Edmond.
     Use 4 buckets of water on the mud patch behind the house.
     Use a spade on the softened ground.
     Attempt to open the grill.
     Use a rope on the grill.
-    Speak to Edmond.
+    Talk to Edmond.
     Put on the gasmask and climb up the pipe.
 
 Finding Elena

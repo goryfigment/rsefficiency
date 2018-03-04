@@ -1,183 +1,220 @@
 {
-  "merlins_crystal": {
-    "name": "Merlins Crystal",
-    "directory": "merlins_crystal",
+  "plague_city": {
+    "name": "Plague City",
+    "directory": "plague_city",
     "req": [
       {
         "name": "Items",
-        "items": ["Bread", "Tinderbox", "Bat Bones"],
-        "keywords": ["Bread", "Tinderbox", "Bat Bones"]
-      },
-      {
-        "name": "Recommended",
-        "items": ["Varrock Teleport", "Charged Amulet of glory", "Charged Games necklace", "House Teleport", "Camelot Teleport", "Falador Teleport"]
+        "items": ["Dwellberries", "Rope", "Spade", "4 Buckets of water", "Bucket of milk", "Chocolate dust", "Snape grass"],
+        "keywords": ["Dwellberries", "Rope", "Spade", "4 Buckets of water", "Bucket of milk", "Chocolate dust", "Snape grass"]
       }
     ],
     "steps": {
       "1": {
         "subtitle": "Getting Started",
-        "step": "Talk to King Arthur. (Chat: 1)",
+        "step": "Talk to Edmond. (Chat: 1-2)",
         "details": {
           "1": {
-            "location": ["Camelot Castle"],
-            "description": ["Talk to King Arthur to start the quest."]
+            "location": ["North-west corner of East Ardougne."],
+            "description": ["Talk to Edmond to start the quest."]
           }
         }
       },
       "2": {
-        "step": "Talk to Sir Gawain. (Chat: 3-2)",
+        "step": "Talk to Alrena to give dwellberries for a gas mask.",
         "details": {
           "1": {
-            "location": ["Camelot Castle"],
-            "description": ["Talk to Sir Gawain."]
+            "location": ["North-west corner of East Ardougne."],
+            "description": ["Talk to Alrena to give her dwellberries for a gas mask."]
           }
         }
       },
       "3": {
-        "step": "Talk to Sir Lancelot.",
+        "step": "Take the picture of Elena off of the table.",
         "details": {
           "1": {
-            "location": ["Second floor of Camelot Castle."],
-            "description": ["Climb up the stairs onto the second floor and talk to Sir Lancelot."]
-          }
-        }
-      },
-      "4": {
-        "step": "Pick-up the Insect Repellant.",
-        "details": {
-          "1": {
-            "location": ["House in Catherby, north of the bank."],
-            "description": ["Pick-up the Insect Repellant inside a house at Catherby."]
+            "location": ["North-west corner of East Ardougne."],
+            "description": ["Pick-up the picture of Elena off the table."]
           }
         },
         "last": true
       },
-      "5": {
-        "subtitle": "Keep Le Faye Castle",
-        "step": "Hide-in the crate by the candle shop.",
+      "4": {
+        "subtitle": "Underground path to West Ardougne ",
+        "step": "Talk to Edmond.",
         "details": {
           "1": {
-            "location": ["Catherby by the candle shop."],
-            "description": ["Get in the crate by the candle shop."]
+            "location": ["North-west corner of East Ardougne."],
+            "description": ["Talk to Edmond."]
+          }
+        }
+      },
+      "5": {
+        "step": "Use 4 buckets of water on the mud patch.",
+        "details": {
+          "1": {
+            "location": ["North-west corner of East Ardougne."],
+            "description": ["Use all 4 buckets of water on the mud patch to create a softer ground to dig through."]
           }
         }
       },
       "6": {
-        "step": "Attack Sir Modred.",
+        "step": "Use a spade on the softened ground.",
         "details": {
           "1": {
-            "location": ["Top floor in Keep Le Faye castle."],
-            "description": ["Jump out of the crate and head to the top floor and attack sir mordred."]
+            "location": ["North-west corner of East Ardougne."],
+            "description": ["Use a spade on the softened ground to get through it."]
           }
         }
       },
       "7": {
-        "step": "Spare Sir Modred's life. (Chat: 1-2)",
+        "step": "Attempt to open the grill.",
         "details": {
           "1": {
-            "location": ["Top floor in Keep Le Faye castle."],
-            "description": ["After getting Sir Modred low health and Morgan Le Faye will appear and ask you to spare his life and in return she will tell you how to release Merlin."]
+            "location": ["Ardougne Sewers"],
+            "description": ["Attempt to open the grill to be able to attach the rope in the next step."]
           }
-        },
-        "last": true
+        }
       },
       "8": {
-        "subtitle": "Black candle",
-        "step": "Use Insect Repellant on the Hive and a Bucket to get Bucket of Wax.",
+        "step": "Use a rope on the grill.",
         "details": {
           "1": {
-            "location": ["South of Camelot Castle at the Beehives."],
-            "description": ["Pick-up a bucket at the hive, then use the insect repellant on the hive then a Bucket on the hive to get a Bucket of Wax."]
+            "location": ["Ardougne Sewers"],
+            "description": ["Use a rope on the grill."]
           }
         }
       },
       "9": {
-        "step": "Talk to the candle maker two times to get a Black Candle. (Chat: 1)",
+        "step": "Talk to Edmond.",
         "details": {
           "1": {
-            "location": ["Catherby Candle Shop"],
-            "description": ["Talk to the candle maker two times to get a Black Candle."]
-          }
-        },
-        "last": true
-      },
-      "10": {
-        "subtitle": "Excalibur",
-        "step": "Talk to the lady of the lake in Taverly. (Chat: 3)",
-        "details": {
-          "1": {
-            "location": ["Taverly"],
-            "description": ["Talk to the lady of the lake."]
+            "location": ["Ardougne Sewers"],
+            "description": ["Ask Edmond to help you pull the grill off."]
           }
         }
       },
-      "11": {
-        "step": "Go to Port Sarim, enter the jewellery shop and give the beggar your bread. (Chat: 1)",
+      "10": {
+        "step": "Put on the gasmask and climb up the pipe.",
         "details": {
           "1": {
-            "location": ["Jewellery shop in Port Sarim."],
-            "description": ["Attempt to open the jewellery shop and a beggar will appear."]
-          },
-          "2": {
-            "location": ["Jewellery shop in Port Sarim."],
-            "description": ["Agree to give him bread to receive the Excalibur."]
+            "location": ["Ardougne Sewers"],
+            "description": ["Since Edmond will not allow to climb up the pipe without a gasmask, put on the gasmask and climb up the pipe."]
           }
         },
         "last": true
       },
-      "12": {
-        "subtitle": "Ritual",
-        "step": "Go to Varrock and check chaos altar's inscription.",
+      "11": {
+        "subtitle": "Finding Elena",
+        "step": "Talk to Jethick for a book. (Chat: 1-1)",
         "details": {
           "1": {
-            "location": ["South-east corner of Varrock"],
-            "description": ["Go to Varrock and right-click to check the chaos altar's inscription to complete the ritual."]
+            "location": ["Town square in West Ardougne."],
+            "description": ["Talk to Jethick for a book."]
+          }
+        }
+      },
+      "12": {
+        "step": "Talk to Martha.",
+        "details": {
+          "1": {
+            "location": ["North house in West Ardougne."],
+            "description": ["Talk to Martha."]
           }
         }
       },
       "13": {
-        "step": "Light the black candle and drop bat bones on the star.",
+        "step": "Talk to Milli upstairs.",
         "details": {
           "1": {
-            "location": ["North-east of Camelot at the ritual site."],
-            "description": ["Go back Camelot Castle to the ritual site, and light the black candle and drop the bat bones on the star to start the ritual."]
+            "location": ["Upstairs of the north house in West Ardougne."],
+            "description": ["Go upstairs and talk to Milli."]
           }
         }
       },
       "14": {
-        "step": "The magic words are 'Snarthon Candtrick Termanto'.",
+        "step": "Attempt to open the door. (Chat: 1-2)",
         "details": {
           "1": {
-            "location": ["North-east of Camelot at the ritual site."],
-            "description": ["Use the following magic words, 'Snarthon Candtrick Termanto' to eliminate the spirit."]
+            "location": ["South building with X marks in West Ardougne."],
+            "description": ["Go to the south building with X marks and attempt to open the door only to be stopped."]
           }
         },
         "last": true
       },
       "15": {
-        "subtitle": "Finishing Up",
-        "step": "Equip the excalibur and smash the giant crystal with Excalibur.",
+        "subtitle": "Getting inside",
+        "step": "Talk to the clerk. (Chat 2-1)",
         "details": {
           "1": {
-            "location": ["Camelot Castle"],
-            "description": ["Use the stairs to get to the top of the castle."]
-          },
-          "2": {
-            "location": ["Top Floor of Camelot Castle"],
-            "description": ["Equip the excalibur and smash the giant crystal Merlin is surrounded in to free him."]
+            "location": ["Large building north of town square in West Ardougne."],
+            "description": ["Talk to the clerk."]
           }
         }
       },
       "16": {
-        "step": "Talk to King Arthur.",
+        "step": "Talk to Bravek. (Chat 1-3)",
         "details": {
           "1": {
-            "location": ["Camelot Castle"],
-            "description": ["Talk to King Arthur to finish the quest."]
+            "location": ["Large building north of town square in West Ardougne."],
+            "description": ["Go through the door and talk to the Bravek."]
           }
         }
       },
       "17": {
+        "step": "Use chocolate dust on the bucket of milk (DON'T EAT) and then add snape grass.",
+        "details": {}
+      },
+      "18": {
+        "step": "Use the hangover cure on Bravek to get a warrant. (Chat 3)",
+        "details": {
+          "1": {
+            "location": ["Large building north of town square in West Ardougne."],
+            "description": ["Use the hangover cure on Bravek to get a warrant."]
+          }
+        },
+        "last": true
+      },
+      "19": {
+        "subtitle": "Rescuing Elena",
+        "step": "Enter the Mourners' house ('X' on the doors).",
+        "details": {
+          "1": {
+            "location": ["South building with X marks in West Ardougne."],
+            "description": ["Enter the Mourners' house ('X' on the doors)"]
+          }
+        }
+      },
+      "20": {
+        "step": "Search the barrel west of the staircase for a small key.",
+        "details": {
+          "1": {
+            "location": ["South building with X marks in West Ardougne."],
+            "description": ["Enter the Mourners' house ('X' on the doors) and show them the warrant to get inside."]
+          }
+        }
+      },
+      "21": {
+        "step": "Go downstairs, enter the cell and talk to Elena.",
+        "details": {
+          "1": {
+            "location": ["South building with X marks in West Ardougne."],
+            "description": ["Go downstairs, enter the cell and talk to Elena."]
+          }
+        },
+        "last": true
+      },
+      "22": {
+        "subtitle": "Finishing up",
+        "step": "Go back down the manhole and speak to Edmond.",
+        "details": {
+          "1": {
+            "location": ["Ardougne Sewers"],
+            "description": ["Go back down the manhole and speak to Edmond to finish the quest."]
+          }
+        }
+      },
+      "23": {
         "step": "Quest complete!",
         "details": {
           "1": {}
