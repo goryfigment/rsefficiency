@@ -94,41 +94,7 @@ Peer the Seer
     Talk to Brundt the Chieftain.
     Quest complete!
 
-Plague City
 
-Items: Dwellberries, A rope, A spade, 4 Buckets of water, A bucket of milk, Chocolate dust, Snape grass
-
-Starting the quest
-    Talk to Edmond. (Chat: 1-2)
-    Talk to Alrena to give dwellberries for a gas mask.
-    Take the picture of Elena off of the table.
-Underground path to West Ardougne
-    Talk to Edmond.
-    Use 4 buckets of water on the mud patch behind the house.
-    Use a spade on the softened ground.
-    Attempt to open the grill.
-    Use a rope on the grill.
-    Talk to Edmond.
-    Put on the gasmask and climb up the pipe.
-
-Finding Elena
-    Talk to Jethick for a book. (Chat: 1-1)
-    Talk to Martha.
-    Talk to Milli upstairs.
-    Attempt to open the door. (Chat: 1-2)
-
-Getting inside
-    Talk to the clerk. (Chat 2-1)
-    Talk to Bravek. (Chat 1-3)
-    Use chocolate dust on the bucket of milk (DON'T EAT) and then add snape grass.
-    Use the hangover cure on Bravek to get a warrant. (Chat 3)
-
-Finishing up
-    Return to the Mourners' house ("X" on the doors)
-    Search the barrel west of the staircase for a small key.
-    Go downstairs, enter the cell and speak to Elena.
-    Go back down the manhole and speak to Edmond.
-    Quest complete!
 
 Biohazard
 
@@ -139,7 +105,7 @@ Sneaking into West Ardougne
 
     Talk to Jerico.
     Search cupboard for bird feed.
-    Grab a pigeon cage from the backyard.
+    Pick-up a pigeon cage.
     Use bird feed on the watchtower fence.
     Release the pigeon cage by the spiked fence.
     Talk to Omart. (Chat: 1)
@@ -165,12 +131,12 @@ Smuggling the samples
     Give Da Vinci the Ethenea. (Chat: 1)
     Give Chancy the Liquid honey Liquid honey. (Chat: 2)
     Give Hops the Sulphuric broline. (Chat: 3)
-    Bank the Plague sample before teleporting to Varrock!.
+    Bank the Plague sample before teleporting to Varrock!
     Trade Thessalia for a Priest Top and Priest Gown for 10gp.
     Withdraw the Plague sample.
     Enter the guarded gate.
     Talk to Hops, Da Vinci and Chancy to get the vials back.
-    Equip the Priest gown and Speak to Guidor. (Chat: 1-2-13)
+    Equip the Priest gown and talk to Guidor. (Chat: 1-2)
 
 Finishing Up
     Talk to Elena.

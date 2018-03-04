@@ -1423,7 +1423,7 @@
           }
         }
       },
-      "39": {
+      "38": {
         "step": "Quest complete!",
         "details": {
           "1": {}
@@ -5173,6 +5173,322 @@
         }
       },
       "23": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
+  },
+  "biohazard": {
+    "name": "Biohazard",
+    "directory": "biohazard",
+    "req": [
+      {
+        "name": "Items",
+        "items": ["Priest gown top and Pries gown bottom or 10gp"],
+        "keywords": ["Priest gown", "Pries gown"]
+      },
+      {
+        "name": "Recommended",
+        "items": ["33 Agility for the log shortcut", "Falador Teleport", "Ardougne Teleport"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting Started",
+        "step": "Talk to Elena. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["East Ardougne"],
+            "description": ["Talk to Elena to start the quest."]
+          }
+        },
+        "last": true
+      },
+      "2": {
+        "subtitle": "Sneaking into West Ardougne.",
+        "step": "Talk to Jerico.",
+        "details": {
+          "1": {
+            "location": ["East Ardougne"],
+            "description": ["Talk to Jerico."]
+          }
+        }
+      },
+      "3": {
+        "step": "Search cupboard for bird feed.",
+        "details": {
+          "1": {
+            "location": ["East Ardougne"],
+            "description": ["Search cupboard for bird feed."]
+          }
+        }
+      },
+      "4": {
+        "step": "Pick-up a pigeon cage.",
+        "details": {
+          "1": {
+            "location": ["East Ardougne"],
+            "description": ["Pick-up a pigeon cage from the backyard."]
+          }
+        }
+      },
+      "5": {
+        "step": "Use bird feed on the watchtower fence.",
+        "details": {
+          "1": {
+            "location": ["East Ardougne"],
+            "description": ["Stand on the corner where the spiked fence meets and use bird feed on the watchtower fence."]
+          }
+        }
+      },
+      "6": {
+        "step": "Release the pigeon cage by the spiked fence.",
+        "details": {
+          "1": {
+            "location": ["East Ardougne"],
+            "description": ["Release the pigeon cage by the spiked fence."]
+          }
+        }
+      },
+      "7": {
+        "step": "Talk to Omart. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["East Ardougne"],
+            "description": ["Talk to Omart to get into West Ardougne."]
+          }
+        },
+        "last": true
+      },
+      "8": {
+        "subtitle": "Infiltrating the Mourner Headquarters",
+        "step": "Pick-up rotten apple.",
+        "details": {
+          "1": {
+            "location": ["West Ardougne"],
+            "description": ["Pick-up rotten apple."]
+          }
+        }
+      },
+      "9": {
+        "step": "Squeeze through the fence.",
+        "details": {
+          "1": {
+            "location": ["Mourner Headquarters in West Ardougne."],
+            "description": ["Squeeze through the fence into the backyard."]
+          }
+        }
+      },
+      "10": {
+        "step": "Use the rotten apple (DON'T EAT) on the cauldron.",
+        "details": {
+          "1": {
+            "location": ["Mourner Headquarters in West Ardougne."],
+            "description": ["Use the rotten apple (DON'T EAT) on the cauldron."]
+          }
+        }
+      },
+      "11": {
+        "step": "Search cupboard for a Doctors' gown.",
+        "details": {
+          "1": {
+            "location": ["West Ardougne"],
+            "description": ["Search cupboard for a Doctors' gown."]
+          }
+        }
+      },
+      "12": {
+        "step": "Equip the Doctors' gown, go back to the Headquarters and open the door.",
+        "details": {
+          "1": {
+            "location": ["Mourner Headquarters in West Ardougne."],
+            "description": ["Equip the Doctors' gown, go back to the Headquarters and open the door."]
+          }
+        }
+      },
+      "13": {
+        "step": "Go upstairs and kill a Mourner for a key.",
+        "details": {
+          "1": {
+            "location": ["Mourner Headquarters in West Ardougne."],
+            "description": ["Go upstairs and kill a Mourner for a key."]
+          }
+        }
+      },
+      "14": {
+        "step": "Use the key on the gate.",
+        "details": {
+          "1": {
+            "location": ["Upstairs of Mourner Headquarters in West Ardougne."],
+            "description": ["Use the key on the gate."]
+          }
+        }
+      },
+      "15": {
+        "step": "Search the crates to receive Elena's Distillator.",
+        "details": {
+          "1": {
+            "location": ["Upstairs of Mourner Headquarters in West Ardougne."],
+            "description": ["Search the crates to receive Elena's Distillator."]
+          }
+        }
+      },
+      "16": {
+        "step": "Talk to Elena to give her the Distiller. (Talk to Kilron to get over the fence)",
+        "details": {
+          "1": {
+            "location": ["West Ardougne"],
+            "description": ["Talk to Kilron to get to East Ardougne."]
+          },
+          "2": {
+            "location": ["East Ardougne"],
+            "description": ["Talk to Elena to give her the Distiller."]
+          }
+        },
+        "last": true
+      },
+      "17": {
+        "subtitle": "Obtaining the touch paper",
+        "step": "Bank all 4 samples then teleport to Falador/Draynor. (Teleporting with samples will break them, so make sure you bank them before you teleport!)",
+        "details": {
+          "1": {
+            "location": ["East Ardougne Bank."],
+            "description": ["Bank all 4 samples then teleport to Falador/Draynor. (Teleporting with samples will break them, so make sure you bank them before you teleport!)"]
+          }
+        }
+      },
+      "18": {
+        "step": "Withdraw all 4 samples.",
+        "details": {
+          "1": {
+            "location": ["Draynor Village (picture) or Falador East Bank"],
+            "description": ["Withdraw all 4 samples and speak to the Chemist for touch paper. (Chat: 2-2-2)"]
+          }
+        }
+      },
+      "19": {
+        "step": "Talk to the Chemist for touch paper. (Chat: 2-2-2).",
+        "details": {
+          "1": {
+            "location": ["Rimmington"],
+            "description": ["Talk to the Chemist for touch paper."]
+          }
+        },
+        "last": true
+      },
+      "20": {
+        "subtitle": "Smuggling the samples",
+        "step": "Give Da Vinci the Ethenea. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Rimmington"],
+            "description": ["Give Da Vinci the Ethenea."]
+          }
+        }
+      },
+      "21": {
+        "step": "Give Chancy the Liquid honey Liquid honey. (Chat: 2)",
+        "details": {
+          "1": {
+            "location": ["Rimmington"],
+            "description": ["Give Chancy the Liquid honey Liquid honey."]
+          }
+        }
+      },
+      "22": {
+        "step": "Give Hops the Sulphuric broline. (Chat: 3)",
+        "details": {
+          "1": {
+            "location": ["Rimmington"],
+            "description": ["Give Hops the Sulphuric broline."]
+          }
+        }
+      },
+      "23": {
+        "step": "Bank the Plague sample before teleporting to Varrock!",
+        "details": {
+          "1": {
+            "location": ["Draynor Village (picture) or Falador East Bank"],
+            "description": ["Bank the Plague sample before teleporting to Varrock!"]
+          }
+        }
+      },
+      "24": {
+        "step": "Trade Thessalia for a Priest Top and Priest Gown for 10gp.",
+        "details": {
+          "1": {
+            "location": ["Varrock Clothing Shop"],
+            "description": ["Trade Thessalia for a Priest Top and Priest Gown for 10gp if you don't have one."]
+          }
+        }
+      },
+      "25": {
+        "step": "Withdraw the Plague sample.",
+        "details": {
+          "1": {
+            "location": ["Varrock East Bank"],
+            "description": ["Withdraw the Plague sample."]
+          }
+        }
+      },
+      "26": {
+        "step": "Enter the guarded gate.",
+        "details": {
+          "1": {
+            "location": ["South-eastern at gated area in Varrock"],
+            "description": ["Withdraw the Plague sample."]
+          }
+        }
+      },
+      "27": {
+        "step": "Talk to Hops, Da Vinci and Chancy to get the vials back.",
+        "details": {
+          "1": {
+            "location": ["Dancing Donkey Inn in Varrock"],
+            "description": ["Talk to Hops."]
+          },
+          "2": {
+            "location": ["Dancing Donkey Inn in Varrock"],
+            "description": ["Talk to Da Vinci."]
+          },
+          "3": {
+            "location": ["Dancing Donkey Inn in Varrock"],
+            "description": ["Talk to Chancy."]
+          }
+        }
+      },
+      "28": {
+        "step": "Equip the Priest gown and talk to Guidor. (Chat: 1-2)",
+        "details": {
+          "1": {
+            "location": ["South-eastern at gated area in Varrock"],
+            "description": ["Equip the Priest gown and talk to Guidor."]
+          }
+        },
+        "last": true
+      },
+      "29": {
+        "subtitle": "Finishing up",
+        "step": "Talk to Elena.",
+        "details": {
+          "1": {
+            "location": ["East Ardougne"],
+            "description": ["Talk to Elena."]
+          }
+        }
+      },
+      "30": {
+        "step": "Talk to King Lathas. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["East Ardougne Castle"],
+            "description": ["Talk to King Lathas to finish the quest."]
+          }
+        }
+      },
+      "31": {
         "step": "Quest complete!",
         "details": {
           "1": {}
