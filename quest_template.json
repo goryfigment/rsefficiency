@@ -5,8 +5,8 @@
     "req": [
       {
         "name": "Items",
-        "items": ["Priest gown top and Pries gown bottom or 10gp"],
-        "keywords": ["Priest gown", "Pries gown"]
+        "items": ["Priest gown top and Priest gown bottom or 10gp"],
+        "keywords": ["Priest gown", "Priest gown"]
       },
       {
         "name": "Recommended",
