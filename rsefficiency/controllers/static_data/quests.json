@@ -5497,7 +5497,7 @@
     }
   },
   "jungle_potion": {
-    "name": "jungle_potion",
+    "name": "Jungle Potion",
     "directory": "jungle_potion",
     "req": [
       {
