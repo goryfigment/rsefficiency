@@ -1,145 +1,172 @@
 {
-  "jungle_potion": {
-    "name": "jungle_potion",
-    "directory": "jungle_potion",
+  "dwarf_cannon": {
+    "name": "Dwarf Cannon",
+    "directory": "dwarf_cannon",
     "req": [
       {
-        "name": "Quest Requirement",
-        "items": ["Druidic Ritual"]
-      },
-      {
-        "name": "Level Requirement",
-        "items": ["3 Herblore"]
+        "name": "Items",
+        "items": ["Hammer"]
       },
       {
         "name": "Recommended",
-        "items": ["Food", "Antipoisons", "Energy potion"]
+        "items": ["Games necklace", "Combat bracelet", "Skills necklace"]
       }
     ],
     "steps": {
       "1": {
         "subtitle": "Getting Started",
-        "step": "Talk to Trufitus. (Chat: 3-1-2)",
+        "step": "Talk to Captain Lawgof. (Chat: 2)",
         "details": {
           "1": {
-            "location": ["Karamja"],
-            "description": ["Talk to Trufitus to start the quest."]
+            "location": ["East of Baxtorian Falls"],
+            "description": ["Talk to Captain Lawgof to start the quest."]
           }
         },
         "last": true
       },
       "2": {
-        "subtitle": "Snake Weed",
-        "step": "Search the vines and clean the herb.",
+        "subtitle": "Repair the Railings",
+        "step": "Fix all five bent railings along the fence.",
         "details": {
           "1": {
-            "location": ["Karamja"],
-            "description": ["Search the vines and clean the herb. (Note: Take three if you intend to do Legends' Quest and Zogre Flesh Eaters)."]
+            "location": ["East of Baxtorian Falls"],
+            "description": ["First Railing."]
+          },
+          "2": {
+            "location": ["East of Baxtorian Falls"],
+            "description": ["Second railing."]
+          },
+          "3": {
+            "location": ["East of Baxtorian Falls"],
+            "description": ["Third railing."]
+          },
+          "4": {
+            "location": ["East of Baxtorian Falls"],
+            "description": ["Fourth railing."]
+          },
+          "5": {
+            "location": ["East of Baxtorian Falls"],
+            "description": ["Fifth railing."]
           }
         }
       },
       "3": {
-        "step": "Talk to Trufitus. (Chat: 1)",
+        "step": "Talk to Captain Lawgof.",
         "details": {
           "1": {
-            "location": ["Karamja"],
-            "description": ["Talk to Trufitus to get to the next herb."]
+            "location": ["East of Baxtorian Falls"],
+            "description": ["Talk to Captain Lawgof."]
           }
         },
         "last": true
       },
       "4": {
-        "subtitle": "Ardriga",
-        "step": "Search the trees and clean the herb.",
+        "subtitle": "Dwarf Remains",
+        "step": "Climb up two ladders and take the Dwarf remains.",
         "details": {
           "1": {
-            "location": ["Karamja"],
-            "description": ["Search the trees and clean the herb. (Note: Take two if you intend to do Legends' Quest)."]
+            "location": ["East of Baxtorian Falls"],
+            "description": ["Climb up two ladders and pick-up the Dwarf remains."]
+          },
+          "2": {
+            "location": ["East of Baxtorian Falls"],
+            "description": ["Pick-up the Dwarf remains."]
           }
         }
       },
       "5": {
-        "step": "Talk to Trufitus. (Chat: 1)",
+        "step": "Talk to Captain Lawgof.",
         "details": {
           "1": {
-            "location": ["Karamja"],
-            "description": ["Talk to Trufitus to get to the next herb."]
+            "location": ["East of Baxtorian Falls"],
+            "description": ["Talk to Captain Lawgof."]
           }
         },
         "last": true
       },
       "6": {
-        "subtitle": "Sito Foil",
-        "step": "Search the scorched earth and clean the herb.",
+        "subtitle": "Missing Dwarf Child",
+        "step": "Enter the cave by the fishing guild.",
         "details": {
           "1": {
-            "location": ["Karamja"],
-            "description": ["Search the trees and clean the herb. (Note: Take two if you intend to do Legends' Quest)"]
+            "location": ["Fishing Guild"],
+            "description": ["Go by the Fishing Guild and enter the cave."]
           }
         }
       },
       "7": {
-        "step": "Talk to Trufitus. (Chat: 1)",
+        "step": "Search the crates in the north-western room to find Lollk.",
         "details": {
           "1": {
-            "location": ["Karamja"],
-            "description": ["Talk to Trufitus to get next herb."]
-          }
-        },
-        "last": true
-      },
-      "8": {
-        "subtitle": "Volencia Moss",
-        "step": "Search the rocks and clean the herb.",
-        "details": {
-          "1": {
-            "location": ["Karamja"],
-            "description": ["Search the rocks and clean the herb. (Note: Take two if you intend to do Fairytale I - Growing Pains)."]
+            "location": ["Goblin Cave"],
+            "description": ["Search the crates in the north-west corner of that room to find Lollk."]
           }
         }
       },
-      "9": {
-        "step": "Talk to Trufitus. (Chat: 1)",
+      "8": {
+        "step": "Talk to Captain Lawgof.",
         "details": {
           "1": {
-            "location": ["Karamja"],
-            "description": ["Talk to Trufitus to get next herb."]
+            "location": ["East of Baxtorian Falls"],
+            "description": ["Talk to Captain Lawgof."]
           }
         },
         "last": true
       },
-      "10": {
-        "subtitle": "Rogue's Purse",
-        "step": "Go into the cave.",
+      "9": {
+        "subtitle": "Repair the Dwarf Cannon",
+        "step": "Use the toolkit on the broken multicannon.",
         "details": {
           "1": {
-            "location": ["North of Karamja"],
-            "description": ["Go into the cave past the swarm."]
+            "location": ["East of Baxtorian Falls"],
+            "description": ["Use the toolkit on the broken multicannon."]
+          }
+        }
+      },
+      "10": {
+        "step": "Fix the cannon in this order: Use the pliers on the switch, use the hooked on the spring, then use the wrench on the gear.",
+        "details": {
+          "1": {
+            "description": ["Use the pliers on the safety switch."]
+          },
+          "2": {
+            "description": ["Use the hooked on the spring."]
+          },
+          "3": {
+            "description": ["Use the wrench on the gear."]
           }
         }
       },
       "11": {
-        "step": "Search the 'Fungus covered Cavern wall' and clean the herb.",
+        "step": "Talk to Captain Lawgof. (Chat: 2)",
         "details": {
           "1": {
-            "location": ["Karamja"],
-            "description": ["Search the 'Fungus covered Cavern wall' and clean the herb. (Note: Take two if you intend to do Zogre Flesh Eaters)."]
+            "location": ["East of Baxtorian Falls"],
+            "description": ["Talk to Captain Lawgof."]
           }
         },
         "last": true
       },
       "12": {
         "subtitle": "Finishing up",
-        "step": "Talk to Trufitus. (Chat: 1)",
+        "step": "Talk to Nulodion.",
         "details": {
           "1": {
-            "location": ["Karamja"],
-            "description": ["Talk to Trufitus to finish the quest."]
+            "location": ["Dwarven Mine"],
+            "description": ["Talk to Nulodion."]
           }
-        },
-        "last": true
+        }
       },
       "13": {
+        "step": "Talk to Captain Lawgof.",
+        "details": {
+          "1": {
+            "location": ["East of Baxtorian Falls"],
+            "description": ["Talk to Captain Lawgof bringing the Nulodion's Notes and Cannonball mould."]
+          }
+        }
+      },
+      "14": {
         "step": "Quest complete!",
         "details": {
           "1": {}

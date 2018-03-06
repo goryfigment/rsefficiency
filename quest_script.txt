@@ -100,32 +100,6 @@ Finishing Up
     Talk to King Lathas. (Chat: 1)
     Quest complete!
 
-Jungle Potion
-Level Requirement: Level 3 Herblore
-Quest Requirement: Druidic Ritual
-Recommended: Food, Antipoisons, Energy potion
-
-
-Getting Started
-    Talk to Trufitus. (Chat: 3-1-2)
-Snake Weed
-    Search the vines and clean the herb. (Note: Take three if you intend to do Legends' Quest and Zogre Flesh Eaters)
-    Talk to Trufitus. (Chat: 1)
-Ardriga
-    Search the trees and clean the herb. (Note: Take two if you intend to do Legends' Quest)
-    Talk to Trufitus. (Chat: 1)
-Sito Foil
-    Search the scorched earth and clean the herb.
-    Talk to Trufitus. (Chat: 1)
-Volencia Moss
-    Search the rocks and clean the herb. (Note: Take two if you intend to do Fairytale I - Growing Pains).
-    Talk to Trufitus. (Chat: 1)
-Rogue's Purse
-    Go into the cave
-    Search the 'Fungus covered Cavern wall' and clean the herb. (Note: Take two if you intend to do Zogre Flesh Eaters).
-    Talk to Trufitus. (Chat: 1)
-    Quest complete!
-
 
 Dwarf Cannon
 Items: Hammer
@@ -133,14 +107,17 @@ Recommended: Combat bracelet, Games necklace, Skills necklace
 
 Getting started
     Talk to Captain Lawgof. (Chat: 2)
-Repair and Retrieval
+Repair the Railings
     Fix the bent railings along the fence.
     Talk to Captain Lawgof.
+Dwarf Remains
     Climb up two ladders and take the Dwarf remains.
     Talk to Captain Lawgof.
+Mission Dwarf Child
     Enter the cave by the fishing guild.
     Search the crates in the north-west corner of that room to find Lollk.
     Talk to Captain Lawgof. (Chat: 1)
+Repair the Dwarf Cannon
     Use the toolkit on the broken multicannon.
     In this order:
         Use the pliers on the switch.
