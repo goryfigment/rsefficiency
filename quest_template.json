@@ -1,313 +1,145 @@
 {
-  "plague_city": {
-    "name": "Biohazard",
-    "directory": "biohazard",
+  "jungle_potion": {
+    "name": "jungle_potion",
+    "directory": "jungle_potion",
     "req": [
       {
-        "name": "Items",
-        "items": ["Priest gown top and Priest gown bottom or 10gp"],
-        "keywords": ["Priest gown", "Priest gown"]
+        "name": "Quest Requirement",
+        "items": ["Druidic Ritual"]
+      },
+      {
+        "name": "Level Requirement",
+        "items": ["3 Herblore"]
       },
       {
         "name": "Recommended",
-        "items": ["33 Agility for the log shortcut", "Falador Teleport", "Ardougne Teleport"]
+        "items": ["Food", "Antipoisons", "Energy potion"]
       }
     ],
     "steps": {
       "1": {
         "subtitle": "Getting Started",
-        "step": "Talk to Elena. (Chat: 1)",
+        "step": "Talk to Trufitus. (Chat: 3-1-2)",
         "details": {
           "1": {
-            "location": ["East Ardougne"],
-            "description": ["Talk to Elena to start the quest."]
+            "location": ["Karamja"],
+            "description": ["Talk to Trufitus to start the quest."]
           }
         },
         "last": true
       },
       "2": {
-        "subtitle": "Sneaking into West Ardougne.",
-        "step": "Talk to Jerico.",
+        "subtitle": "Snake Weed",
+        "step": "Search the vines and clean the herb.",
         "details": {
           "1": {
-            "location": ["East Ardougne"],
-            "description": ["Talk to Jerico."]
+            "location": ["Karamja"],
+            "description": ["Search the vines and clean the herb. (Note: Take three if you intend to do Legends' Quest and Zogre Flesh Eaters)."]
           }
         }
       },
       "3": {
-        "step": "Search cupboard for bird feed.",
+        "step": "Talk to Trufitus. (Chat: 1)",
         "details": {
           "1": {
-            "location": ["East Ardougne"],
-            "description": ["Search cupboard for bird feed."]
+            "location": ["Karamja"],
+            "description": ["Talk to Trufitus to get to the next herb."]
           }
-        }
+        },
+        "last": true
       },
       "4": {
-        "step": "Pick-up a pigeon cage.",
+        "subtitle": "Ardriga",
+        "step": "Search the trees and clean the herb.",
         "details": {
           "1": {
-            "location": ["East Ardougne"],
-            "description": ["Pick-up a pigeon cage from the backyard."]
+            "location": ["Karamja"],
+            "description": ["Search the trees and clean the herb. (Note: Take two if you intend to do Legends' Quest)."]
           }
         }
       },
       "5": {
-        "step": "Use bird feed on the watchtower fence.",
+        "step": "Talk to Trufitus. (Chat: 1)",
         "details": {
           "1": {
-            "location": ["East Ardougne"],
-            "description": ["Stand on the corner where the spiked fence meets and use bird feed on the watchtower fence."]
+            "location": ["Karamja"],
+            "description": ["Talk to Trufitus to get to the next herb."]
           }
-        }
+        },
+        "last": true
       },
       "6": {
-        "step": "Release the pigeon cage by the spiked fence.",
+        "subtitle": "Sito Foil",
+        "step": "Search the scorched earth and clean the herb.",
         "details": {
           "1": {
-            "location": ["East Ardougne"],
-            "description": ["Release the pigeon cage by the spiked fence."]
+            "location": ["Karamja"],
+            "description": ["Search the trees and clean the herb. (Note: Take two if you intend to do Legends' Quest)"]
           }
         }
       },
       "7": {
-        "step": "Talk to Omart. (Chat: 1)",
+        "step": "Talk to Trufitus. (Chat: 1)",
         "details": {
           "1": {
-            "location": ["East Ardougne"],
-            "description": ["Talk to Omart to get into West Ardougne."]
+            "location": ["Karamja"],
+            "description": ["Talk to Trufitus to get next herb."]
           }
         },
         "last": true
       },
       "8": {
-        "subtitle": "Infiltrating the Mourner Headquarters",
-        "step": "Pick-up rotten apple.",
+        "subtitle": "Volencia Moss",
+        "step": "Search the rocks and clean the herb.",
         "details": {
           "1": {
-            "location": ["West Ardougne"],
-            "description": ["Pick-up rotten apple."]
+            "location": ["Karamja"],
+            "description": ["Search the rocks and clean the herb. (Note: Take two if you intend to do Fairytale I - Growing Pains)."]
           }
         }
       },
       "9": {
-        "step": "Squeeze through the fence.",
+        "step": "Talk to Trufitus. (Chat: 1)",
         "details": {
           "1": {
-            "location": ["Mourner Headquarters in West Ardougne."],
-            "description": ["Squeeze through the fence into the backyard."]
+            "location": ["Karamja"],
+            "description": ["Talk to Trufitus to get next herb."]
           }
-        }
+        },
+        "last": true
       },
       "10": {
-        "step": "Use the rotten apple (DON'T EAT) on the cauldron.",
+        "subtitle": "Rogue's Purse",
+        "step": "Go into the cave.",
         "details": {
           "1": {
-            "location": ["Mourner Headquarters in West Ardougne."],
-            "description": ["Use the rotten apple (DON'T EAT) on the cauldron."]
+            "location": ["North of Karamja"],
+            "description": ["Go into the cave past the swarm."]
           }
         }
       },
       "11": {
-        "step": "Search cupboard for a Doctors' gown.",
+        "step": "Search the 'Fungus covered Cavern wall' and clean the herb.",
         "details": {
           "1": {
-            "location": ["West Ardougne"],
-            "description": ["Search cupboard for a Doctors' gown."]
+            "location": ["Karamja"],
+            "description": ["Search the 'Fungus covered Cavern wall' and clean the herb. (Note: Take two if you intend to do Zogre Flesh Eaters)."]
           }
-        }
+        },
+        "last": true
       },
       "12": {
-        "step": "Equip the Doctors' gown, go back to the Headquarters and open the door.",
+        "subtitle": "Finishing up",
+        "step": "Talk to Trufitus. (Chat: 1)",
         "details": {
           "1": {
-            "location": ["Mourner Headquarters in West Ardougne."],
-            "description": ["Equip the Doctors' gown, go back to the Headquarters and open the door."]
+            "location": ["Karamja"],
+            "description": ["Talk to Trufitus to finish the quest."]
           }
-        }
+        },
+        "last": true
       },
       "13": {
-        "step": "Go upstairs and kill a Mourner for a key.",
-        "details": {
-          "1": {
-            "location": ["Mourner Headquarters in West Ardougne."],
-            "description": ["Go upstairs and kill a Mourner for a key."]
-          }
-        }
-      },
-      "14": {
-        "step": "Use the key on the gate.",
-        "details": {
-          "1": {
-            "location": ["Upstairs of Mourner Headquarters in West Ardougne."],
-            "description": ["Use the key on the gate."]
-          }
-        }
-      },
-      "15": {
-        "step": "Search the crates to receive Elena's Distillator.",
-        "details": {
-          "1": {
-            "location": ["Upstairs of Mourner Headquarters in West Ardougne."],
-            "description": ["Search the crates to receive Elena's Distillator."]
-          }
-        }
-      },
-      "16": {
-        "step": "Talk to Elena to give her the Distiller. (Talk to Kilron to get over the fence)",
-        "details": {
-          "1": {
-            "location": ["West Ardougne"],
-            "description": ["Talk to Kilron to get to East Ardougne."]
-          },
-          "2": {
-            "location": ["East Ardougne"],
-            "description": ["Talk to Elena to give her the Distiller."]
-          }
-        },
-        "last": true
-      },
-      "17": {
-        "subtitle": "Obtaining the touch paper",
-        "step": "Bank all 4 samples then teleport to Falador/Draynor. (Teleporting with samples will break them, so make sure you bank them before you teleport!)",
-        "details": {
-          "1": {
-            "location": ["East Ardougne Bank."],
-            "description": ["Bank all 4 samples then teleport to Falador/Draynor. (Teleporting with samples will break them, so make sure you bank them before you teleport!)"]
-          }
-        }
-      },
-      "18": {
-        "step": "Withdraw all 4 samples.",
-        "details": {
-          "1": {
-            "location": ["Draynor Village (picture) or Falador East Bank"],
-            "description": ["Withdraw all 4 samples and speak to the Chemist for touch paper. (Chat: 2-2-2)"]
-          }
-        }
-      },
-      "19": {
-        "step": "Talk to the Chemist for touch paper. (Chat: 2-2-2).",
-        "details": {
-          "1": {
-            "location": ["Rimmington"],
-            "description": ["Talk to the Chemist for touch paper."]
-          }
-        },
-        "last": true
-      },
-      "20": {
-        "subtitle": "Smuggling the samples",
-        "step": "Give Da Vinci the Ethenea. (Chat: 1)",
-        "details": {
-          "1": {
-            "location": ["Rimmington"],
-            "description": ["Give Da Vinci the Ethenea."]
-          }
-        }
-      },
-      "21": {
-        "step": "Give Chancy the Liquid honey Liquid honey. (Chat: 2)",
-        "details": {
-          "1": {
-            "location": ["Rimmington"],
-            "description": ["Give Chancy the Liquid honey Liquid honey."]
-          }
-        }
-      },
-      "22": {
-        "step": "Give Hops the Sulphuric broline. (Chat: 3)",
-        "details": {
-          "1": {
-            "location": ["Rimmington"],
-            "description": ["Give Hops the Sulphuric broline."]
-          }
-        }
-      },
-      "23": {
-        "step": "Bank the Plague sample before teleporting to Varrock!",
-        "details": {
-          "1": {
-            "location": ["Draynor Village (picture) or Falador East Bank"],
-            "description": ["Bank the Plague sample before teleporting to Varrock!"]
-          }
-        }
-      },
-      "24": {
-        "step": "Trade Thessalia for a Priest Top and Priest Gown for 10gp.",
-        "details": {
-          "1": {
-            "location": ["Varrock Clothing Shop"],
-            "description": ["Trade Thessalia for a Priest Top and Priest Gown for 10gp if you don't have one."]
-          }
-        }
-      },
-      "25": {
-        "step": "Withdraw the Plague sample.",
-        "details": {
-          "1": {
-            "location": ["Varrock East Bank"],
-            "description": ["Withdraw the Plague sample."]
-          }
-        }
-      },
-      "26": {
-        "step": "Enter the guarded gate.",
-        "details": {
-          "1": {
-            "location": ["South-eastern at gated area in Varrock"],
-            "description": ["Withdraw the Plague sample."]
-          }
-        }
-      },
-      "27": {
-        "step": "Talk to Hops, Da Vinci and Chancy to get the vials back.",
-        "details": {
-          "1": {
-            "location": ["Dancing Donkey Inn in Varrock"],
-            "description": ["Talk to Hops."]
-          },
-          "2": {
-            "location": ["Dancing Donkey Inn in Varrock"],
-            "description": ["Talk to Da Vinci."]
-          },
-          "3": {
-            "location": ["Dancing Donkey Inn in Varrock"],
-            "description": ["Talk to Chancy."]
-          }
-        }
-      },
-      "28": {
-        "step": "Equip the Priest gown and talk to Guidor. (Chat: 1-2)",
-        "details": {
-          "1": {
-            "location": ["South-eastern at gated area in Varrock"],
-            "description": ["Equip the Priest gown and talk to Guidor."]
-          }
-        },
-        "last": true
-      },
-      "29": {
-        "subtitle": "Finishing up",
-        "step": "Talk to Elena.",
-        "details": {
-          "1": {
-            "location": ["East Ardougne"],
-            "description": ["Talk to Elena."]
-          }
-        }
-      },
-      "30": {
-        "step": "Talk to King Lathas. (Chat: 1)",
-        "details": {
-          "1": {
-            "location": ["East Ardougne Castle"],
-            "description": ["Talk to King Lathas to finish the quest."]
-          }
-        }
-      },
-      "31": {
         "step": "Quest complete!",
         "details": {
           "1": {}

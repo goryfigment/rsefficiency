@@ -5495,5 +5495,152 @@
         }
       }
     }
+  },
+  "jungle_potion": {
+    "name": "jungle_potion",
+    "directory": "jungle_potion",
+    "req": [
+      {
+        "name": "Quest Requirement",
+        "items": ["Druidic Ritual"]
+      },
+      {
+        "name": "Level Requirement",
+        "items": ["3 Herblore"]
+      },
+      {
+        "name": "Recommended",
+        "items": ["Food", "Antipoisons", "Energy potion"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting Started",
+        "step": "Talk to Trufitus. (Chat: 3-1-2)",
+        "details": {
+          "1": {
+            "location": ["Karamja"],
+            "description": ["Talk to Trufitus to start the quest."]
+          }
+        },
+        "last": true
+      },
+      "2": {
+        "subtitle": "Snake Weed",
+        "step": "Search the vines and clean the herb.",
+        "details": {
+          "1": {
+            "location": ["Karamja"],
+            "description": ["Search the vines and clean the herb. (Note: Take three if you intend to do Legends' Quest and Zogre Flesh Eaters)."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to Trufitus. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Karamja"],
+            "description": ["Talk to Trufitus to get to the next herb."]
+          }
+        },
+        "last": true
+      },
+      "4": {
+        "subtitle": "Ardriga",
+        "step": "Search the trees and clean the herb.",
+        "details": {
+          "1": {
+            "location": ["Karamja"],
+            "description": ["Search the trees and clean the herb. (Note: Take two if you intend to do Legends' Quest)."]
+          }
+        }
+      },
+      "5": {
+        "step": "Talk to Trufitus. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Karamja"],
+            "description": ["Talk to Trufitus to get to the next herb."]
+          }
+        },
+        "last": true
+      },
+      "6": {
+        "subtitle": "Sito Foil",
+        "step": "Search the scorched earth and clean the herb.",
+        "details": {
+          "1": {
+            "location": ["Karamja"],
+            "description": ["Search the trees and clean the herb. (Note: Take two if you intend to do Legends' Quest)"]
+          }
+        }
+      },
+      "7": {
+        "step": "Talk to Trufitus. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Karamja"],
+            "description": ["Talk to Trufitus to get next herb."]
+          }
+        },
+        "last": true
+      },
+      "8": {
+        "subtitle": "Volencia Moss",
+        "step": "Search the rocks and clean the herb.",
+        "details": {
+          "1": {
+            "location": ["Karamja"],
+            "description": ["Search the rocks and clean the herb. (Note: Take two if you intend to do Fairytale I - Growing Pains)."]
+          }
+        }
+      },
+      "9": {
+        "step": "Talk to Trufitus. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Karamja"],
+            "description": ["Talk to Trufitus to get next herb."]
+          }
+        },
+        "last": true
+      },
+      "10": {
+        "subtitle": "Rogue's Purse",
+        "step": "Go into the cave.",
+        "details": {
+          "1": {
+            "location": ["North of Karamja"],
+            "description": ["Go into the cave past the swarm."]
+          }
+        }
+      },
+      "11": {
+        "step": "Search the 'Fungus covered Cavern wall' and clean the herb.",
+        "details": {
+          "1": {
+            "location": ["Karamja"],
+            "description": ["Search the 'Fungus covered Cavern wall' and clean the herb. (Note: Take two if you intend to do Zogre Flesh Eaters)."]
+          }
+        },
+        "last": true
+      },
+      "12": {
+        "subtitle": "Finishing up",
+        "step": "Talk to Trufitus. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Karamja"],
+            "description": ["Talk to Trufitus to finish the quest."]
+          }
+        }
+      },
+      "13": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }

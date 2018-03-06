@@ -95,56 +95,13 @@ Peer the Seer
     Quest complete!
 
 
-
-Biohazard
-
-Getting started
-    Talk to Elena (Chat: 1).
-
-Sneaking into West Ardougne
-
-    Talk to Jerico.
-    Search cupboard for bird feed.
-    Pick-up a pigeon cage.
-    Use bird feed on the watchtower fence.
-    Release the pigeon cage by the spiked fence.
-    Talk to Omart. (Chat: 1)
-
-Infiltrating the Mourner Headquarters
-
-    Pick up rotten apple.
-    Squeeze through the fence into the backyard.
-    Use the rotten apple (DON'T EAT) on the cauldron.
-    Search cupboard for a Doctors' gown.
-    Equip the Doctors' gown, go back to the Headquarters and open the door.
-    Go upstairs and kill a Mourner for a key.
-    Use the key on the gate.
-    Search the crates to receive Elena's Distillator.
-    Talk to Elena to give her the Distiller. (Talk to Kilron to get over the fence)
-
-Getting the touch paper
-
-    Bank all 4 samples then teleport to Falador/Draynor. (Teleporting with samples will break them, so make sure you bank them before you teleport!)
-    Withdraw all 4 samples and speak to the Chemist for touch paper. (Chat: 2-2-2)
-
-Smuggling the samples
-    Give Da Vinci the Ethenea. (Chat: 1)
-    Give Chancy the Liquid honey Liquid honey. (Chat: 2)
-    Give Hops the Sulphuric broline. (Chat: 3)
-    Bank the Plague sample before teleporting to Varrock!
-    Trade Thessalia for a Priest Top and Priest Gown for 10gp.
-    Withdraw the Plague sample.
-    Enter the guarded gate.
-    Talk to Hops, Da Vinci and Chancy to get the vials back.
-    Equip the Priest gown and talk to Guidor. (Chat: 1-2)
-
 Finishing Up
     Talk to Elena.
     Talk to King Lathas. (Chat: 1)
     Quest complete!
 
 Jungle Potion
-Level Requirment: Level 3 Herblore
+Level Requirement: Level 3 Herblore
 Quest Requirement: Druidic Ritual
 Recommended: Food, Antipoisons, Energy potion
 
@@ -161,11 +118,11 @@ Sito Foil
     Search the scorched earth and clean the herb.
     Talk to Trufitus. (Chat: 1)
 Volencia Moss
-    Search the rocks and clean the herb. (Note: Take two if you intend to do Fairytale I - Growing Pains)
+    Search the rocks and clean the herb. (Note: Take two if you intend to do Fairytale I - Growing Pains).
     Talk to Trufitus. (Chat: 1)
 Rogue's Purse
     Go into the cave
-    Search the 'Fungus covered Cavern wall' and clean the herb. (Note: Take two if you intend to do Zogre Flesh Eaters)
+    Search the 'Fungus covered Cavern wall' and clean the herb. (Note: Take two if you intend to do Zogre Flesh Eaters).
     Talk to Trufitus. (Chat: 1)
     Quest complete!
 
