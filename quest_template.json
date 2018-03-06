@@ -1,172 +1,203 @@
 {
-  "dwarf_cannon": {
-    "name": "Dwarf Cannon",
-    "directory": "dwarf_cannon",
+  "nature_spirit": {
+    "name": "Nature Spirit",
+    "directory": "nature_spirit",
     "req": [
       {
-        "name": "Items",
-        "items": ["Hammer"]
+        "name": "Quest Requirement",
+        "items": ["Priest in Peril", "The Restless Ghost"]
       },
       {
-        "name": "Recommended",
-        "items": ["Games necklace", "Combat bracelet", "Skills necklace"]
+        "name": "Level Requirement",
+        "items": ["18 Crafting"]
+      },
+      {
+        "name": "Items",
+        "items": ["Silver Sickle", "Ghostspeak amulet"],
+        "keywords": ["Silver Sickle", "Ghostspeak amulet"]
       }
     ],
     "steps": {
       "1": {
         "subtitle": "Getting Started",
-        "step": "Talk to Captain Lawgof. (Chat: 2)",
+        "step": "Talk to Drezel. (Chat: 2-2-4-1)",
         "details": {
           "1": {
-            "location": ["East of Baxtorian Falls"],
-            "description": ["Talk to Captain Lawgof to start the quest."]
+            "location": ["Temple Basement"],
+            "description": ["Talk to Drezel to start the quest."]
           }
-        },
-        "last": true
+        }
       },
       "2": {
-        "subtitle": "Repair the Railings",
-        "step": "Fix all five bent railings along the fence.",
+        "step": "Attempt to enter the grotto talk to Fillman with a Ghostspeak Amulet equipped. (Chat: 2-4)",
         "details": {
           "1": {
-            "location": ["East of Baxtorian Falls"],
-            "description": ["First Railing."]
+            "location": ["Mort Myre Swamp"],
+            "description": ["Attempt to enter the grotto."]
           },
           "2": {
-            "location": ["East of Baxtorian Falls"],
-            "description": ["Second railing."]
-          },
-          "3": {
-            "location": ["East of Baxtorian Falls"],
-            "description": ["Third railing."]
-          },
-          "4": {
-            "location": ["East of Baxtorian Falls"],
-            "description": ["Fourth railing."]
-          },
-          "5": {
-            "location": ["East of Baxtorian Falls"],
-            "description": ["Fifth railing."]
+            "location": ["Mort Myre Swamp"],
+            "description": ["Talk to Fillman with a Ghostspeak Amulet equipped."]
           }
         }
       },
       "3": {
-        "step": "Talk to Captain Lawgof.",
+        "step": "Pick-up the mirror underneath the washing bowl.",
         "details": {
           "1": {
-            "location": ["East of Baxtorian Falls"],
-            "description": ["Talk to Captain Lawgof."]
-          }
-        },
-        "last": true
-      },
-      "4": {
-        "subtitle": "Dwarf Remains",
-        "step": "Climb up two ladders and take the Dwarf remains.",
-        "details": {
-          "1": {
-            "location": ["East of Baxtorian Falls"],
-            "description": ["Climb up two ladders and pick-up the Dwarf remains."]
+            "location": ["Mort Myre Swamp"],
+            "description": ["Pick-up the washing bowl to find a mirror."]
           },
           "2": {
-            "location": ["East of Baxtorian Falls"],
-            "description": ["Pick-up the Dwarf remains."]
+            "location": ["Mort Myre Swamp"],
+            "description": ["Pick-up the mirror."]
+          }
+        }
+      },
+      "4": {
+        "step": "Use the mirror on Filliman.",
+        "details": {
+          "1": {
+            "location": ["Mort Myre Swamp"],
+            "description": ["Use the mirror on Filliman."]
           }
         }
       },
       "5": {
-        "step": "Talk to Captain Lawgof.",
+        "step": "Right-click and search the grotto tree to get his journal.",
         "details": {
           "1": {
-            "location": ["East of Baxtorian Falls"],
-            "description": ["Talk to Captain Lawgof."]
+            "location": ["Mort Myre Swamp"],
+            "description": ["Right-click and search the grotto tree to get his journal."]
+          }
+        }
+      },
+      "6": {
+        "step": "Use the journal on him for the Druidic spell. (Chat: 4)",
+        "details": {
+          "1": {
+            "location": ["Mort Myre Swamp"],
+            "description": ["Use the journal on him for the Druidic spell. (Chat: 4)"]
           }
         },
         "last": true
       },
-      "6": {
-        "subtitle": "Missing Dwarf Child",
-        "step": "Enter the cave by the fishing guild.",
-        "details": {
-          "1": {
-            "location": ["Fishing Guild"],
-            "description": ["Go by the Fishing Guild and enter the cave."]
-          }
-        }
-      },
       "7": {
-        "step": "Search the crates in the north-western room to find Lollk.",
+        "subtitle": "The Nature Spirit",
+        "step": "Talk to Drezel.",
         "details": {
           "1": {
-            "location": ["Goblin Cave"],
-            "description": ["Search the crates in the north-west corner of that room to find Lollk."]
+            "location": ["Temple Basement"],
+            "description": ["Talk to Drezel."]
           }
         }
       },
       "8": {
-        "step": "Talk to Captain Lawgof.",
+        "step": "Cast the Druidic spell next to a rotting log.",
         "details": {
           "1": {
-            "location": ["East of Baxtorian Falls"],
-            "description": ["Talk to Captain Lawgof."]
+            "location": ["Mort Myre Swamp"],
+            "description": ["Stand next to a rotting log and cast the Druidic spell."]
           }
-        },
-        "last": true
+        }
       },
       "9": {
-        "subtitle": "Repair the Dwarf Cannon",
-        "step": "Use the toolkit on the broken multicannon.",
+        "step": "Pick a mushroom growing from the log.",
         "details": {
           "1": {
-            "location": ["East of Baxtorian Falls"],
-            "description": ["Use the toolkit on the broken multicannon."]
+            "location": ["Mort Myre Swamp"],
+            "description": ["Pick a mushroom growing from the log."]
           }
         }
       },
       "10": {
-        "step": "Fix the cannon in this order: Use the pliers on the switch, use the hooked on the spring, then use the wrench on the gear.",
+        "step": "Use the mushroom on the light-brown stone.",
         "details": {
           "1": {
-            "description": ["Use the pliers on the safety switch."]
-          },
-          "2": {
-            "description": ["Use the hooked on the spring."]
-          },
-          "3": {
-            "description": ["Use the wrench on the gear."]
+            "location": ["Mort Myre Swamp"],
+            "description": ["Use the mushroom on the light-brown stone."]
           }
         }
       },
       "11": {
-        "step": "Talk to Captain Lawgof. (Chat: 2)",
+        "step": "Use spell card on the grey stone.",
         "details": {
           "1": {
-            "location": ["East of Baxtorian Falls"],
-            "description": ["Talk to Captain Lawgof."]
+            "location": ["Mort Myre Swamp"],
+            "description": ["Use spell card on the grey stone."]
           }
-        },
-        "last": true
+        }
       },
       "12": {
-        "subtitle": "Finishing up",
-        "step": "Talk to Nulodion.",
+        "step": "Stand on the orange stone and talk to Filliman. (Chat: 3)",
         "details": {
           "1": {
-            "location": ["Dwarven Mine"],
-            "description": ["Talk to Nulodion."]
+            "location": ["Mort Myre Swamp"],
+            "description": ["Stand on the orange stone and tell Filliman you've solved the puzzle."]
           }
         }
       },
       "13": {
-        "step": "Talk to Captain Lawgof.",
+        "step": "Enter the hole under the tree.",
         "details": {
           "1": {
-            "location": ["East of Baxtorian Falls"],
-            "description": ["Talk to Captain Lawgof bringing the Nulodion's Notes and Cannonball mould."]
+            "location": ["Mort Myre Swamp"],
+            "description": ["Enter the hole under the tree."]
           }
         }
       },
       "14": {
+        "step": "Search the grotto.",
+        "details": {
+          "1": {
+            "location": ["Mort Myre Swamp"],
+            "description": ["Search the grotto."]
+          }
+        }
+      },
+      "15": {
+        "step": "Talk to the Nature Spirit twice.",
+        "details": {
+          "1": {
+            "location": ["Mort Myre Swamp"],
+            "description": ["Talk to the Nature Spirit twice."]
+          }
+        },
+        "last": true
+      },
+      "16": {
+        "subtitle": "Killing the Ghasts",
+        "step": "Use the Silver sickle (b)'s Bloom ability to harvest mushrooms and fill the Druid pouch.",
+        "details": {
+          "1": {
+            "location": ["Mort Myre Swamp"],
+            "description": ["Equip and right-click and select bloom on the Silver sickle (b)'s next to a mushroom to harvest mushrooms and then fill the Druid pouch with it."]
+          }
+        }
+      },
+      "17": {
+        "step": "Use the filled druid pouch on Ghasts to make them attack-able, kill three of them.",
+        "details": {
+          "1": {
+            "location": ["Mort Myre Swamp"],
+            "description": ["Use the filled druid pouch on Ghasts to make them attack-able, defeat three of them."]
+          },
+          "2": {
+            "location": ["Mort Myre Swamp"],
+            "description": ["Do this three times and defeat all three."]
+          }
+        }
+      },
+      "18": {
+        "step": "Talk to the Nature Spirit.",
+        "details": {
+          "1": {
+            "location": ["Mort Myre Swamp"],
+            "description": ["Talk to the Nature Spirit."]
+          }
+        }
+      },
+      "19": {
         "step": "Quest complete!",
         "details": {
           "1": {}
