@@ -6025,5 +6025,119 @@
         }
       }
     }
+  },
+  "lost_city": {
+    "name": "Lost City",
+    "directory": "lost_city",
+    "req": [
+      {
+        "name": "Level Requirement",
+        "items": ["31 Crafting", "36 Woodcutting"]
+      },
+      {
+        "name": "Items",
+        "items": ["Knife", "Woodcuttin axe"],
+        "keywords": ["Knife", "Woodcuttin axe"]
+      },
+      {
+        "name": "Recommended",
+        "items": ["Lumbridge Teleport", "Glory or House Teleport (Rimmington)"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting Started",
+        "step": "Talk to the Warrior. (Chat 1-1-1-2)",
+        "details": {
+          "1": {
+            "location": ["Lumbridge Swamp"],
+            "description": ["Talk to Warrior to start the quest."]
+          }
+        },
+        "last": true
+      },
+      "2": {
+        "subtitle": "The Leprechaun",
+        "step": "Chop a tree to the west.",
+        "details": {
+          "1": {
+            "location": ["Lumbridge Swamp"],
+            "description": ["Chop this same tree as the picture and Shamus will appear. Unlike the other trees, it should have a 'Chop' option."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to Shamus. (Chat 1).",
+        "details": {
+          "1": {
+            "location": ["Lumbridge Swamp"],
+            "description": ["Talk to Shamus."]
+          }
+        },
+        "last": true
+      },
+      "4": {
+        "subtitle": "Entrana",
+        "step": "Climb down the ladders at Entrana. (Chat: 2)",
+        "details": {
+          "1": {
+            "location": ["Port Sarim"],
+            "description": ["Right-click a Monk of Entrana and take-boat to Entrana."]
+          },
+          "2": {
+            "location": ["Entrana"],
+            "description": ["Entrana (weapons and armor are not allowed including the axe). Bank all weapons, armor and axe; but bring a knife, elemental runes or fletching supplies to make a bow and arrows, knives or darts to defeat a tree spirit (Level 101)."]
+          }
+        }
+      },
+      "5": {
+        "step": "Kill a zombie until it drops a bronze axe.",
+        "details": {
+          "1": {
+            "location": ["Entrana dungeon"],
+            "description": ["Kill a zombie until it drops a bronze axe."]
+          }
+        }
+      },
+      "6": {
+        "step": "Chop the Draman tree and defeat Tree Spirit (level 101).",
+        "details": {
+          "1": {
+            "location": ["Entrana dungeon"],
+            "description": ["Chop a the Draman tree."]
+          },
+          "2": {
+            "location": ["Entrana dungeon"],
+            "description": ["Defeat Tree Spirit (level 101). Can be safe-spotted behind the mushrooms."]
+          }
+        }
+      },
+      "7": {
+        "step": "Chop the branch and use the knife on the Dramen branch to make a Dramen staff.",
+        "details": {
+          "1": {
+            "location": ["Entrana dungeon"],
+            "description": ["Chop the branch and use the knife on the Dramen branch to make a Dramen staff. (Note: Chop another branch, DON'T FLETCH IT, if you plan doing Recipe of Disaster)."]
+          }
+        },
+        "last": true
+      },
+      "8": {
+        "subtitle": "Finishing up",
+        "step": "Enter the tool shed with the Draman staff equipped.",
+        "details": {
+          "1": {
+            "location": ["Temple Basement"],
+            "description": ["Enter the tool shed with the Draman staff equipped to complete the quest."]
+          }
+        }
+      },
+      "9": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }
