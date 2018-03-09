@@ -6139,5 +6139,141 @@
         }
       }
     }
+  },
+  "the_queen_of_thieves": {
+    "name": "The Queen of Thieves",
+    "directory": "the_queen_of_thieves",
+    "req": [
+      {
+        "name": "Quest Requirements",
+        "items": ["Client of Kourend"]
+      },
+      {
+        "name": "Level Requirement",
+        "items": ["20 Thieving"]
+      },
+      {
+        "name": "Items",
+        "items": ["Stew"],
+        "keywords": ["Stew"]
+      },
+      {
+        "name": "Other Requirements",
+        "items": ["20% Piscarilius"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting Started",
+        "step": "Talk to Tomas Lawry. (Chat: 2-1)",
+        "details": {
+          "1": {
+            "location": ["Piscarilius House"],
+            "description": ["Talk to Tomas Lawry to start the quest."]
+          }
+        }
+      },
+      "2": {
+        "step": "Talk to either the poor looking woman or man.",
+        "details": {
+          "1": {
+            "location": ["Piscarilius House"],
+            "description": ["Talk to either the poor looking woman or man."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to Robert O'Reilly. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Piscarilius House"],
+            "description": ["Talk to Robert O'Reilly."]
+          }
+        },
+        "last": true
+      },
+      "4": {
+        "subtitle": "Joining the the Viper Gang",
+        "step": "Enter the manhole and talk to Devan Rutter.",
+        "details": {
+          "1": {
+            "location": ["Piscarilius House"],
+            "description": ["Enter the manhole."]
+          },
+          "2": {
+            "location": ["The Warrens, Zeah Undeground"],
+            "description": ["Talk to Devan Rutter."]
+          }
+        }
+      },
+      "5": {
+        "step": "Defeat Conrad King. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Piscarilius House"],
+            "description": ["Defeat Conrad King."]
+          }
+        }
+      },
+      "6": {
+        "step": "Talk to Devan Rutter.",
+        "details": {
+          "1": {
+            "location": ["The Warrens"],
+            "description": ["Talk to Devan Rutter."]
+          }
+        },
+        "last": true
+      },
+      "7": {
+        "subtitle": "The truth",
+        "step": "Talk to the Queen of Thieves.",
+        "details": {
+          "1": {
+            "location": ["The Warrens"],
+            "description": ["Go through the doorway."]
+          },
+          "2": {
+            "location": ["The Warrens"],
+            "description": ["Talk to the Queen of Thieves."]
+          }
+        }
+      },
+      "8": {
+        "step": "Pick-lock the chest to find a letter.",
+        "details": {
+          "1": {
+            "location": ["Hosidious House"],
+            "description": ["Pick-lock the chest to find a letter."]
+          }
+        }
+      },
+      "9": {
+        "step": "Talk to Tomas Lawry. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Piscarilius House"],
+            "description": ["Talk to Tomas Lawry."]
+          }
+        },
+        "last": true
+      },
+      "10": {
+        "subtitle": "Finishing up",
+        "step": "Talk to Queen of Thieves (Lady Shauna Piscarilius).",
+        "details": {
+          "1": {
+            "location": ["The Warrens"],
+            "description": ["Talk to Queen of Thieves (Lady Shauna Piscarilius) to finish the quest."]
+          }
+        }
+      },
+      "11": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }

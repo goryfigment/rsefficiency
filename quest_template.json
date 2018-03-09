@@ -1,111 +1,133 @@
 {
-  "lost_city": {
-    "name": "Lost City",
-    "directory": "lost_city",
+  "the_queen_of_thieves": {
+    "name": "The Queen of Thieves",
+    "directory": "the_queen_of_thieves",
     "req": [
       {
+        "name": "Quest Requirements",
+        "items": ["Client of Kourend"]
+      },
+      {
         "name": "Level Requirement",
-        "items": ["31 Crafting", "36 Woodcutting"]
+        "items": ["20 Thieving"]
       },
       {
         "name": "Items",
-        "items": ["Knife", "Woodcuttin axe"],
-        "keywords": ["Knife", "Woodcuttin axe"]
+        "items": ["Stew"],
+        "keywords": ["Stew"]
       },
       {
-        "name": "Recommended",
-        "items": ["Lumbridge Teleport", "Glory or House Teleport (Rimmington)"]
+        "name": "Other Requirements",
+        "items": ["20% Piscarilius"]
       }
     ],
     "steps": {
       "1": {
         "subtitle": "Getting Started",
-        "step": "Talk to the Warrior. (Chat 1-1-1-2)",
+        "step": "Talk to Tomas Lawry. (Chat: 2-1)",
         "details": {
           "1": {
-            "location": ["Lumbridge Swamp"],
-            "description": ["Talk to Warrior to start the quest."]
+            "location": ["Piscarilius House"],
+            "description": ["Talk to Tomas Lawry to start the quest."]
           }
-        },
-        "last": true
+        }
       },
       "2": {
-        "subtitle": "The Leprechaun",
-        "step": "Chop a tree to the west.",
+        "step": "Talk to either the poor looking woman or man.",
         "details": {
           "1": {
-            "location": ["Lumbridge Swamp"],
-            "description": ["Chop this same tree as the picture and Shamus will appear. Unlike the other trees, it should have a 'Chop' option."]
+            "location": ["Piscarilius House"],
+            "description": ["Talk to either the poor looking woman or man."]
           }
         }
       },
       "3": {
-        "step": "Talk to Shamus. (Chat 1).",
+        "step": "Talk to Robert O'Reilly. (Chat: 1)",
         "details": {
           "1": {
-            "location": ["Lumbridge Swamp"],
-            "description": ["Talk to Shamus."]
+            "location": ["Piscarilius House"],
+            "description": ["Talk to Robert O'Reilly."]
           }
         },
         "last": true
       },
       "4": {
-        "subtitle": "Entrana",
-        "step": "Climb down the ladders at Entrana. (Chat: 2)",
+        "subtitle": "Joining the the Viper Gang",
+        "step": "Enter the manhole and talk to Devan Rutter.",
         "details": {
           "1": {
-            "location": ["Port Sarim"],
-            "description": ["Right-click a Monk of Entrana and take-boat to Entrana."]
+            "location": ["Piscarilius House"],
+            "description": ["Enter the manhole."]
           },
           "2": {
-            "location": ["Entrana"],
-            "description": ["Entrana (weapons and armor are not allowed including the axe). Bank all weapons, armor and axe; but bring a knife, elemental runes or fletching supplies to make a bow and arrows, knives or darts to defeat a tree spirit (Level 101)."]
+            "location": ["The Warrens, Zeah Undeground"],
+            "description": ["Talk to Devan Rutter."]
           }
         }
       },
       "5": {
-        "step": "Kill a zombie until it drops a bronze axe.",
+        "step": "Defeat Conrad King. (Chat: 1)",
         "details": {
           "1": {
-            "location": ["Entrana dungeon"],
-            "description": ["Kill a zombie until it drops a bronze axe."]
+            "location": ["Piscarilius House"],
+            "description": ["Defeat Conrad King."]
           }
         }
       },
       "6": {
-        "step": "Chop the Draman tree and defeat Tree Spirit (level 101).",
+        "step": "Talk to Devan Rutter.",
         "details": {
           "1": {
-            "location": ["Entrana dungeon"],
-            "description": ["Chop a the Draman tree."]
-          },
-          "2": {
-            "location": ["Entrana dungeon"],
-            "description": ["Defeat Tree Spirit (level 101). Can be safe-spotted behind the mushrooms."]
-          }
-        }
-      },
-      "7": {
-        "step": "Chop the branch and use the knife on the Dramen branch to make a Dramen staff.",
-        "details": {
-          "1": {
-            "location": ["Entrana dungeon"],
-            "description": ["Chop the branch and use the knife on the Dramen branch to make a Dramen staff. (Note: Chop another branch, DON'T FLETCH IT, if you plan doing Recipe of Disaster)."]
+            "location": ["The Warrens"],
+            "description": ["Talk to Devan Rutter."]
           }
         },
         "last": true
       },
-      "8": {
-        "subtitle": "Finishing up",
-        "step": "Enter the tool shed with the Draman staff equipped.",
+      "7": {
+        "subtitle": "The truth",
+        "step": "Talk to the Queen of Thieves.",
         "details": {
           "1": {
-            "location": ["Temple Basement"],
-            "description": ["Enter the tool shed with the Draman staff equipped to complete the quest."]
+            "location": ["The Warrens"],
+            "description": ["Go through the doorway."]
+          },
+          "2": {
+            "location": ["The Warrens"],
+            "description": ["Talk to the Queen of Thieves."]
+          }
+        }
+      },
+      "8": {
+        "step": "Pick-lock the chest to find a letter.",
+        "details": {
+          "1": {
+            "location": ["Hosidious House"],
+            "description": ["Pick-lock the chest to find a letter."]
           }
         }
       },
       "9": {
+        "step": "Talk to Tomas Lawry. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Piscarilius House"],
+            "description": ["Talk to Tomas Lawry."]
+          }
+        },
+        "last": true
+      },
+      "10": {
+        "subtitle": "Finishing up",
+        "step": "Talk to Queen of Thieves (Lady Shauna Piscarilius).",
+        "details": {
+          "1": {
+            "location": ["The Warrens"],
+            "description": ["Talk to Queen of Thieves (Lady Shauna Piscarilius) to finish the quest."]
+          }
+        }
+      },
+      "11": {
         "step": "Quest complete!",
         "details": {
           "1": {}

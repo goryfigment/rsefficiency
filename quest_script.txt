@@ -100,34 +100,6 @@ Finishing Up
     Talk to King Lathas. (Chat: 1)
     Quest complete!
 
-Nature Spirit
-Level Requirements: 18 Crafting
-Quest Requirements: Priest in Peril, The Restless Ghost
-Items Requirements: Silver Sickle, Ghostspeak amulet
-
-Starting Out
-    1Talk to Drezel. (Chat: 2-2-4-1)
-    2Attempt to enter the grotto talk to Fillman with a Ghostspeak Amulet equipped. (Chat: 2-4)
-    3Pick-up the mirror underneath the washing bowl.
-   4 Use the mirror on Filliman.
-   5 Right-click and search the grotto tree to get his journal.
-   6 Use the journal on him for the Druidic spell. (Chat: 4)
-The Nature Spirit
-   7 Talk to Drezel.
-   8 Cast the Druidic spell next to a rotting log.
-  9  Pick a mushroom growing from the log.
-   10 Use the mushroom on the light-brown stone.
-    11Use spell card on the grey stone.
-    12Stand on the orange stone and tell Filliman you've solved the puzzle. (Chat: 3)
-    13Enter the hole under the tree.
-    14Search the grotto.
-    15Talk to the Nature Spirit twice.
-Killing the Ghasts
-    16Use the Silver sickle (b)'s Bloom ability to harvest mushrooms and fill the Druid pouch.
-    17Use the filled druid pouch on Ghasts to make them attack-able, kill three of them.
-    18Talk to the Nature Spirit.
-    19Quest complete!
-
 
 The Queen of Thieves
 
@@ -141,11 +113,168 @@ Talk to either the poor looking woman or man.
 Talk to Robert O'Reilly. (Chat: 1)
 Enter the manhole and talk to Devan Rutter.
 Defeat Conrad King. (Chat: 1)
+Talk to Devan Rutter.
 Talk to the Queen of Thieves.
 Pick-lock the chest to find a letter.
 Talk to Tomas Lawry. (Chat: 1)
-Talk to Lady Shauna Piscarilius.
+Talk to Queen of Thieves (Lady Shauna Piscarilius).
 Quest Complete!
+
+Dream Mentor
+
+Items required: 3 Kinds of food, 6-7 of each, Seal of passage, Goutweed, Astral rune, Tinderbox, Hammer, Pestle and mortar
+Recommended: Weapon, Armour, Food, Super Potions
+Enemies to defeat: The Inadequacy (level 343), The Everlasting (level 223), The Untouchable (level 274), The Illusive (level 108)
+
+Helping the fallen man
+
+    Enter the mine in the north-east area of Lunar Isle.
+    Crawl-through the cave entrance (Quest icon Quest minimap icon).
+    Talk to the fallen man (close the interface when it appears).
+    Feed him 4 food, starting with one you have seven of, while cycling through your different foods. Avoid using the same food twice in a row.
+    Talk to him again (Chat 1-1).
+    Feed him 4 more food as before.
+    Talk to him and keep reassuring him with positive responses until he sits up (cutscene).
+    Feed him 6 more food.
+    Talk again multiple times using positive responses until he stands up (cutscene).
+    Talk to 'Bird's-Eye' Jack in the bank (Chat 2).
+    Select the following equipment (if your combat level is determined by your melee skills):
+        Dragon med helm
+        Abyssal whip
+        Ahrim's robetop
+        Ahrim's robeskirt
+        Ranger boots
+    If your combat level is determined by your magic/range level, select different equipment (see full guide)
+
+    Return and talk to Cyrisus for a cutscene (Chat 1).
+    Use the remaining food on him.
+    Talk to him again multiple times, giving positive responses until you receive a cutscene. If you don't receive it, feed him a couple more times.
+    Dream potion
+    Items required: Goutweed, a hammer, a pestle and mortar and an astral rune.
+
+    Talk to the Oneiromancer at the astral altar for a dream vial (Chat 2).
+    (Optional) Change your spellbook as necessary if you wish to use mage in the final fight.
+    Fill the vial with water, add a goutweed.
+    Use your hammer on an Astral rune, then grind the shards with a pestle and mortar.
+    Add your ground astral runes to the dream vial to complete the potion.
+    Prepare for 4 fights. Prayers and emergency teleports won't work.
+    Do not bank your seal of passage for the fight.
+Dreamland
+Items required: Good food, armour, weapon and a tinderbox.
+
+For a detailed explanation of how to combat the upcoming enemies, refer to the full quest guide.
+
+    Light the Ceremonial Brazier in the long hall building.
+    Talk to Cyrisus (Chat 1).
+    During the fight, you can leave at any time by using the pedestal.
+    Kill The Inadequacy
+    Kill The Everlasting
+    Kill The Untouchable
+    Kill The Illusive
+    Return to the Oneiromancer (Chat 2).
+    Quest Complete!
+
+
+Getting started
+    Talk to Charlie in Ardougne Zoo. (Chat 1-1)
+Eagles' Peak
+    Head to Eagles' Peak west of the Tree Gnome Stronghold or use Fairy ring code akq.
+    Go to the Northern side of the mountain's base to a campsite.
+    Inspect the books for a Bird book.
+    Click on the book to obtain a Metal feather.
+    Climb the rocks attached to the mountain next to the campsite.
+    Use the metal feather on the Rocky outcrop and enter the cave.
+    In the dungeon, go east to an intersection, then head south to the edge of a canyon.
+    Get as close to Nickolaus as possible until he shouts you. (Chat 1-1-1)
+    Pick up 10 (TEN) giant feathers from the piles on the ground throughout the dungeon.
+The Disguise
+    Head to the southeast corner of Varrock to the Fancy Clothes Store via Varrock tele, Rat Pits Minigame Tele, etc. with:
+        10 giant feathers
+        50 gp
+        Swamp tar
+        Yellow dye
+    Have the owner make you two Eagle capes and two Fake beaks. (Chat 2) & (Chat 2-1)
+Bronze Feather
+    Go back to the Eagles' Peak Dungeon.
+    Enter the farthest Southwest tunnel in the dungeon.
+    Try to grab the feather from the pedestal.
+    Operate the four winches in the corners of the room.
+    Grab the Bronze feather.
+Silver Feather
+    Exit the tunnel and enter the next tunnel to the North.
+    Inspect the pedestal and complete the trail by inspecting the first rock to the east, then the rocks to the north east.
+    Inspect the opening in the wall north-east of the cave and kill the Kebbit.
+    Grab the Silver feather.
+Golden Feather
+    Exit the tunnel back to the main dungeon and run down the farthest Northeast path.
+    Go through the tunnel entrance.
+The Puzzle
+
+Note: If the puzzle gets messed up, there is a reset lever outside of the chamber.
+
+    Take at least 6 handfuls of bird seed from the pile near the entrance of the cave.
+    First pull the lever, which is just north-west of the start.
+    Walk to the south-eastern part of the dungeon. Then, place some bird seed in most south-eastern bird feeder. (marked 2)
+    Place some bird seed in the bird feeder next to the one you just filled. (marked 3)
+    Pull the eastern lever.
+    Walk back to the handle you pulled the first time, just north-west of the start, and pull it again.
+    Walk to the southern part of the dungeon, and put bird seed in the feeder south of the lever you just pulled and east of the lever in the southern part.
+    Pull the lever in the southern part of the dungeon.
+    Go back to the lever you started at, which is just north-west of the start, and put bird feed in the feeder.
+    Pull the lever in the north-western part of the dungeon.
+    Go to the southern part of the dungeon, and put bird feed in the bird feeder closest to the lever there.
+    Place some feed in the bird feeder in the corner of the rails to the east of the bird feeder from step 10.
+    Retrieve the golden feather from the pedestal.
+The Eagle Door
+    Exit the golden feather tunnel and head to the door south of Nickolaus.
+    Equip the Eagle cape and Fake beak you made for yourself earlier.
+    Use each feather on the door's eagle carving and enter it.
+    While wearing the disguise, click on the Giant eagle and talk to Nickolaus.
+Finishing Up
+    Exit the eagle's dungeon and go back to the campsite north of the mountain.
+    Talk to Nickolaus. (Chat 1-1)
+    Once the cutscene is over, you will have a ferret in your inventory.
+    Go back to the Ardougne Zoo and talk to Charlie.
+    Quest complete!
+
+What Lies Below
+
+    Quest Requirements: Rune Mysteries
+    Level Requirements: 35 Runecrafting, 42 Mining
+    Item Requirements: 20 coins, A bowl, Bronze pickaxe, 15 Chaos runes, Chaos talisman or Chaos tiara
+
+    Talk to Rat Burgiss south of Varrock. (Chat 3-1)
+    Kill 5 Outlaws just west of the Grand Exchange.
+    Fill the folder with 5 papers and return it to Rat Burgiss.
+    Talk to Surok Magis in the Varrock library (the northern-most room in Varrock Palace). (Chat 1)
+    Enter the chaos altar and use the wand on the altar.
+    To avoid entering the wilderness, see an alternative entrance in the full guide.
+    Talk to Surok Magis. (Chat 1)
+    Talk to Rat Burgiss. (Chat 1)
+    Talk to Zaff. (Chat 4)
+    Talk to Surok Magis. (Chat 1)
+    Bring King Roald to 1 hitpoint, then operate the Beacon ring. (Instanced)
+    Talk to Rat Burgiss.
+    Quest complete!
+
+Tribal Totem
+    Level Requirements: 21 Thieving
+    Item Requirements: 90 Coins
+    Recommended: Amulet of glory, Ardougne teleports
+
+    Talk to Kangai Mau in the Brimhaven food store. (1-1-1)
+    Go to Ardougne and talk to Wizard Cromperty northeast of the market. (2-2-1) (2-2-2-1 if completed medium or higher Ardougne diaries)
+    Remember the crate you teleported next to (It Will Say 'Investigate' Not Search).
+    Investigate the most northeastern Crate for the label.
+    Use the label on the crate you teleported to.
+    Talk to an RPDT. (1)
+    Talk to Wizard Cromperty again. (2-2-1) (2-2-2-1 if completed medium or higher Ardougne diaries)
+    Go west 2 doors and enter the password KURT.
+    Investigate the stairs, then climb them.
+    Take the totem from the chest on the top floor.
+    Return to Kangai Mau.
+    Quest Complete!
+
 
 
 Alfred Grimhand's Barcrawl
