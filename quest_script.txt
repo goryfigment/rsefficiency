@@ -100,78 +100,51 @@ Finishing Up
     Talk to King Lathas. (Chat: 1)
     Quest complete!
 
-
-The Queen of Thieves
-
-Level Requirements: 20 Thieving
-Quest Requirements: Client of Kourend
-Other Requirements: 20% Piscarilius
-Item Requirements: Stew
-
-Talk to Tomas Lawry. (Chat: 2-1)
-Talk to either the poor looking woman or man.
-Talk to Robert O'Reilly. (Chat: 1)
-Enter the manhole and talk to Devan Rutter.
-Defeat Conrad King. (Chat: 1)
-Talk to Devan Rutter.
-Talk to the Queen of Thieves.
-Pick-lock the chest to find a letter.
-Talk to Tomas Lawry. (Chat: 1)
-Talk to Queen of Thieves (Lady Shauna Piscarilius).
-Quest Complete!
-
 Dream Mentor
 
-Items required: 3 Kinds of food, 6-7 of each, Seal of passage, Goutweed, Astral rune, Tinderbox, Hammer, Pestle and mortar
+Items required: 3 of any kind of food (7 Shrimp, 7 Cabbage, 7 Onion), Seal of passage, Goutweed, Astral rune, Tinderbox, Hammer, Pestle and mortar
 Recommended: Weapon, Armour, Food, Super Potions
 Enemies to defeat: The Inadequacy (level 343), The Everlasting (level 223), The Untouchable (level 274), The Illusive (level 108)
 
 Helping the fallen man
 
-    Enter the mine in the north-east area of Lunar Isle.
-    Crawl-through the cave entrance (Quest icon Quest minimap icon).
-    Talk to the fallen man (close the interface when it appears).
-    Feed him 4 food, starting with one you have seven of, while cycling through your different foods. Avoid using the same food twice in a row.
-    Talk to him again (Chat 1-1).
-    Feed him 4 more food as before.
-    Talk to him and keep reassuring him with positive responses until he sits up (cutscene).
-    Feed him 6 more food.
-    Talk again multiple times using positive responses until he stands up (cutscene).
-    Talk to 'Bird's-Eye' Jack in the bank (Chat 2).
+    Enter the mine.
+    Crawl-through the cave entrance.
+    Talk to the fallen man and close the interface when it appears. (Chat 1)
+    Use the food on him in this order: Cabbage, Onion, Shrimp, Cabbage.
+    Talk to the fallen man (Chat 1-1).
+    Use the food on him in this order: Onion, Shrimp, Cabbage, Onion.
+
+    Talk to him and choose positive responses until he sits up (Random chat options for every person).
+    Use the food on him in this order: Shrimp, Cabbage, Onion, Shrimp, Cabbage, Onion.
+    Talk to him and choose positive responses until he stands up.
+    Talk to 'Bird's-Eye' Jack (Chat 2).
     Select the following equipment (if your combat level is determined by your melee skills):
         Dragon med helm
         Abyssal whip
         Ahrim's robetop
         Ahrim's robeskirt
         Ranger boots
-    If your combat level is determined by your magic/range level, select different equipment (see full guide)
 
-    Return and talk to Cyrisus for a cutscene (Chat 1).
-    Use the remaining food on him.
-    Talk to him again multiple times, giving positive responses until you receive a cutscene. If you don't receive it, feed him a couple more times.
+    Use the food on him in this order: Shrimp, Cabbage, Onion, Shrimp, Cabbage, Onion.
+    Talk to him again multiple times, giving positive responses until you receive a cut-scene.
     Dream potion
-    Items required: Goutweed, a hammer, a pestle and mortar and an astral rune.
 
-    Talk to the Oneiromancer at the astral altar for a dream vial (Chat 2).
-    (Optional) Change your spellbook as necessary if you wish to use mage in the final fight.
-    Fill the vial with water, add a goutweed.
-    Use your hammer on an Astral rune, then grind the shards with a pestle and mortar.
-    Add your ground astral runes to the dream vial to complete the potion.
-    Prepare for 4 fights. Prayers and emergency teleports won't work.
-    Do not bank your seal of passage for the fight.
+    Talk to the Oneiromancer for a dream vial. (Chat 2)
+    Fill the vial with water, then add a goutweed.
+    Use hammer on an Astral rune, then use the shards on the pestle and mortar.
+    Add the ground astral runes to the dream vial.
+
 Dreamland
-Items required: Good food, armour, weapon and a tinderbox.
+Items required: Good food, armour, weapon, dream potion, tinderbox, and seal of passage (Teleports/Prayer won't work!).
 
-For a detailed explanation of how to combat the upcoming enemies, refer to the full quest guide.
-
-    Light the Ceremonial Brazier in the long hall building.
+    Light the Ceremonial Brazier.
     Talk to Cyrisus (Chat 1).
-    During the fight, you can leave at any time by using the pedestal.
-    Kill The Inadequacy
-    Kill The Everlasting
-    Kill The Untouchable
-    Kill The Illusive
-    Return to the Oneiromancer (Chat 2).
+    Kill The Inadequacy (level 343).
+    Kill The Everlasting (level 223).
+    Kill The Untouchable (level 274).
+    Kill The Illusive (level 108).
+    Talk to Oneiromancer (Chat 2).
     Quest Complete!
 
 

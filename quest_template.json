@@ -1,133 +1,321 @@
 {
-  "the_queen_of_thieves": {
-    "name": "The Queen of Thieves",
-    "directory": "the_queen_of_thieves",
+  "dream_mentor": {
+    "name": "Dream Mentor",
+    "directory": "dream_mentor",
     "req": [
       {
         "name": "Quest Requirements",
-        "items": ["Client of Kourend"]
+        "items": ["Lunar Diplomacy", "Eadgar's Ruse"]
       },
       {
-        "name": "Level Requirement",
-        "items": ["20 Thieving"]
+        "name": "Level Requirements",
+        "items": ["85 Combat"]
       },
       {
         "name": "Items",
-        "items": ["Stew"],
-        "keywords": ["Stew"]
+        "items": ["3 of any kind of food (7 Shrimp, 7 Cabbage, 7 Onion)", "Seal of passage", "Goutweed", "Astral rune", "Tinderbox", "Hammer", "Pestle and mortar"]
       },
       {
-        "name": "Other Requirements",
-        "items": ["20% Piscarilius"]
+        "name": "Enemies to defeat",
+        "items": ["The Inadequacy (level 343)", "The Everlasting (level 223)", "The Untouchable (level 274)", "The Illusive (level 108)"]
       }
     ],
     "steps": {
       "1": {
-        "subtitle": "Getting Started",
-        "step": "Talk to Tomas Lawry. (Chat: 2-1)",
+        "subtitle": "Getting Goutweed",
+        "step": "Enter the Troll Stronghold.",
         "details": {
           "1": {
-            "location": ["Piscarilius House"],
-            "description": ["Talk to Tomas Lawry to start the quest."]
+            "location": ["Trollheim"],
+            "description": ["Enter the Troll Stronghold. (Skip this section if you already have a goutweed!)"]
           }
         }
       },
       "2": {
-        "step": "Talk to either the poor looking woman or man.",
+        "step": "Go down the stairs, south.",
         "details": {
           "1": {
-            "location": ["Piscarilius House"],
-            "description": ["Talk to either the poor looking woman or man."]
+            "location": ["Troll Stronghold"],
+            "description": ["Go down the stairs, south."]
           }
         }
       },
       "3": {
-        "step": "Talk to Robert O'Reilly. (Chat: 1)",
+        "step": "Go down the stairs, north-east.",
         "details": {
           "1": {
-            "location": ["Piscarilius House"],
-            "description": ["Talk to Robert O'Reilly."]
+            "location": ["Troll Stronghold"],
+            "description": ["Go down the stairs, north-east."]
+          }
+        }
+      },
+      "4": {
+        "step": "Get the goutweed.",
+        "details": {
+          "1": {
+            "location": ["Troll Stronghold"],
+            "description": ["Follow the path while avoiding the trolls to get to the goutweed."]
           }
         },
         "last": true
       },
-      "4": {
-        "subtitle": "Joining the the Viper Gang",
-        "step": "Enter the manhole and talk to Devan Rutter.",
-        "details": {
-          "1": {
-            "location": ["Piscarilius House"],
-            "description": ["Enter the manhole."]
-          },
-          "2": {
-            "location": ["The Warrens, Zeah Undeground"],
-            "description": ["Talk to Devan Rutter."]
-          }
-        }
-      },
       "5": {
-        "step": "Defeat Conrad King. (Chat: 1)",
+        "subtitle": "Helping the fallen man",
+        "step": "Enter the mine.",
         "details": {
           "1": {
-            "location": ["Piscarilius House"],
-            "description": ["Defeat Conrad King."]
+            "location": ["Lunar Isle"],
+            "description": ["Enter the mine."]
           }
         }
       },
       "6": {
-        "step": "Talk to Devan Rutter.",
+        "step": "Crawl-through the cave entrance.",
         "details": {
           "1": {
-            "location": ["The Warrens"],
-            "description": ["Talk to Devan Rutter."]
+            "location": ["Lunar Isle Mine"],
+            "description": ["Crawl-through the cave entrance."]
           }
-        },
-        "last": true
+        }
       },
       "7": {
-        "subtitle": "The truth",
-        "step": "Talk to the Queen of Thieves.",
+        "step": "Talk to the fallen man and close the interface when it appears. (Chat 1)",
         "details": {
           "1": {
-            "location": ["The Warrens"],
-            "description": ["Go through the doorway."]
-          },
-          "2": {
-            "location": ["The Warrens"],
-            "description": ["Talk to the Queen of Thieves."]
+            "location": ["Lunar Isle Mine"],
+            "description": ["Talk to the fallen man and close the interface when it appears."]
           }
         }
       },
       "8": {
-        "step": "Pick-lock the chest to find a letter.",
+        "step": "Use the food on him in this order: Cabbage, Onion, Shrimp, Cabbage.",
         "details": {
           "1": {
-            "location": ["Hosidious House"],
-            "description": ["Pick-lock the chest to find a letter."]
+            "location": ["Lunar Isle Mine"],
+            "description": ["Use the cabbage on the fallen man. Follow the order because he will get sick of getting fed the same food."]
+          },
+          "2": {
+            "location": ["Lunar Isle Mine"],
+            "description": ["Use the onion on the fallen man."]
+          },
+          "3": {
+            "location": ["Lunar Isle Mine"],
+            "description": ["Use the shrimp on the fallen man."]
+          },
+          "4": {
+            "location": ["Lunar Isle Mine"],
+            "description": ["Use the cabbage on the fallen man."]
           }
         }
       },
       "9": {
-        "step": "Talk to Tomas Lawry. (Chat: 1)",
+        "step": "Talk to the fallen man (Chat 1-1).",
         "details": {
           "1": {
-            "location": ["Piscarilius House"],
-            "description": ["Talk to Tomas Lawry."]
+            "location": ["Lunar Isle Mine"],
+            "description": ["Talk to the fallen man."]
           }
-        },
-        "last": true
+        }
       },
       "10": {
-        "subtitle": "Finishing up",
-        "step": "Talk to Queen of Thieves (Lady Shauna Piscarilius).",
+        "step": "Use the food on him in this order: Onion, Shrimp, Cabbage, Onion.",
         "details": {
           "1": {
-            "location": ["The Warrens"],
-            "description": ["Talk to Queen of Thieves (Lady Shauna Piscarilius) to finish the quest."]
+            "location": ["Lunar Isle Mine"],
+            "description": ["Use the onion on the fallen man."]
+          },
+          "2": {
+            "location": ["Lunar Isle Mine"],
+            "description": ["Use the shrimp on the fallen man."]
+          },
+          "3": {
+            "location": ["Lunar Isle Mine"],
+            "description": ["Use the cabbage on the fallen man."]
+          },
+          "4": {
+            "location": ["Lunar Isle Mine"],
+            "description": ["Use the onion on the fallen man."]
           }
         }
       },
       "11": {
+        "step": "Talk to him and choose positive responses until he sits up.",
+        "details": {
+          "1": {
+            "location": ["Lunar Isle Mine"],
+            "description": ["Talk to him and choose positive responses until he sits up. (Random chat options for every person)"]
+          }
+        }
+      },
+      "12": {
+        "step": "Use the food on him in this order: Shrimp, Cabbage, Onion, Shrimp, Cabbage, Onion.",
+        "details": {
+          "1": {
+            "location": ["Lunar Isle Mine"],
+            "description": ["Use the shrimp on the fallen man."]
+          },
+          "2": {
+            "location": ["Lunar Isle Mine"],
+            "description": ["Use the cabbage on the fallen man."]
+          },
+          "3": {
+            "location": ["Lunar Isle Mine"],
+            "description": ["Use the onion on the fallen man. Repeat this twice."]
+          }
+        }
+      },
+      "13": {
+        "step": "Talk to him and choose positive responses until he stands up.",
+        "details": {
+          "1": {
+            "location": ["Lunar Isle Mine"],
+            "description": ["Talk to him and choose positive responses until he stands up."]
+          }
+        }
+      },
+      "14": {
+        "step": "Talk to 'Bird's-Eye' Jack (Chat 2).",
+        "details": {
+          "1": {
+            "location": ["Lunar Isle Bank"],
+            "description": ["Talk to 'Bird's-Eye' Jack."]
+          }
+        }
+      },
+      "15": {
+        "step": "Select the equipment determined by the most dominant skill. See below.",
+        "details": {
+          "1": {
+            "description": ["For combat levels determined by melee skills: Dragon med helm, Abyssal whip, Ahrim's robetop, Ahrim's robeskirt, Ranger boots."]
+          },
+          "2": {
+            "description": ["For combat levels determined by tbe ranged skill: Splitbark helm, Karil's leathertop, Torag's platelegs, Adamant boots, Magic shortbow."]
+          },
+          "3": {
+            "description": ["For combat levels determined by the magic skill: Robin hood hat, Dragon chainbody, Black d'hide chaps, Infinity boots, Ancient staff"]
+          }
+        }
+      },
+      "16": {
+        "step": "Use the food on him in this order: Shrimp, Cabbage, Onion, Shrimp, Cabbage, Onion.",
+        "details": {
+          "1": {
+            "location": ["Lunar Isle Mine"],
+            "description": ["Use the shrimp on the fallen man."]
+          },
+          "2": {
+            "location": ["Lunar Isle Mine"],
+            "description": ["Use the cabbage on the fallen man."]
+          },
+          "3": {
+            "location": ["Lunar Isle Mine"],
+            "description": ["Use the onion on the fallen man. Repeat this twice."]
+          }
+        }
+      },
+      "17": {
+        "step": "Talk to him again multiple times, giving positive responses until you receive a cut-scene.",
+        "details": {
+          "1": {
+            "location": ["Lunar Isle Mine"],
+            "description": ["Talk to him again multiple times, giving positive responses until you receive a cut-scene."]
+          }
+        },
+        "last": true
+      },
+      "18": {
+        "subtitle": "Dream potion",
+        "step": "Talk to the Oneiromancer for a dream vial. (Chat 2)",
+        "details": {
+          "1": {
+            "location": ["Lunar Isle"],
+            "description": ["Talk to the Oneiromancer for a dream vial."]
+          }
+        }
+      },
+      "19": {
+        "step": "Fill the vial with water, then add a goutweed.",
+        "details": {
+          "1": {
+            "location": ["Lunar Isle"],
+            "description": ["Fill the vial with water, then add a goutweed."]
+          }
+        }
+      },
+      "20": {
+        "step": "Use hammer on an Astral rune, then use the shards on the pestle and mortar.",
+        "details": {
+          "1": {}
+        }
+      },
+      "21": {
+        "step": "Add the ground astral runes to the dream vial.",
+        "details": {
+          "1": {}
+        },
+        "last": true
+      },
+      "22": {
+        "subtitle": "Dreamland",
+        "step": "Light the Ceremonial Brazier.",
+        "details": {
+          "1": {
+            "location": ["Lunar Isle"],
+            "description": ["Light the Ceremonial Brazier. Bring good food, armour, weapon, dream potion, tinderbox, and seal of passage (Teleports/Prayer won't work!)."]
+          }
+        }
+      },
+      "23": {
+        "step": "Talk to Cyrisus (Chat 1).",
+        "details": {
+          "1": {
+            "location": ["Lunar Isle"],
+            "description": ["Talk to Cyrisus."]
+          }
+        }
+      },
+      "24": {
+        "step": "Kill The Inadequacy (level 343).",
+        "details": {
+          "1": {
+            "description": ["Kill The Inadequacy (level 343)."]
+          }
+        }
+      },
+      "25": {
+        "step": "Kill The Everlasting (level 223).",
+        "details": {
+          "1": {
+            "description": ["Kill The Everlasting (level 223)."]
+          }
+        }
+      },
+      "26": {
+        "step": "Kill The Untouchable (level 274).",
+        "details": {
+          "1": {
+            "description": ["Kill The Untouchable (level 274)."]
+          }
+        }
+      },
+      "27": {
+        "step": "Kill The Illusive (level 108).",
+        "details": {
+          "1": {
+            "description": ["Kill The Illusive (level 108)."]
+          }
+        }
+      },
+      "28": {
+        "step": "Talk to Oneiromancer (Chat 2).",
+        "details": {
+          "1": {
+            "location": ["Lunar Isle"],
+            "description": ["Talk to Oneiromancer."]
+          }
+        }
+      },
+      "29": {
         "step": "Quest complete!",
         "details": {
           "1": {}
