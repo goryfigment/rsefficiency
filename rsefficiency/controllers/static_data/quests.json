@@ -6551,7 +6551,7 @@
         "step": "Kill The Inadequacy (level 343).",
         "details": {
           "1": {
-            "description": ["Kill The Inadequacy (level 343)."]
+            "description": ["Weakness: Magic."]
           }
         }
       },
@@ -6559,7 +6559,7 @@
         "step": "Kill The Everlasting (level 223).",
         "details": {
           "1": {
-            "description": ["Kill The Everlasting (level 223)."]
+            "description": ["Weakness: Melee (Stab), Range."]
           }
         }
       },
@@ -6567,7 +6567,7 @@
         "step": "Kill The Untouchable (level 274).",
         "details": {
           "1": {
-            "description": ["Kill The Untouchable (level 274)."]
+            "description": ["Weakness: Melee (Crush), Magic."]
           }
         }
       },
@@ -6575,7 +6575,7 @@
         "step": "Kill The Illusive (level 108).",
         "details": {
           "1": {
-            "description": ["Kill The Illusive (level 108)."]
+            "description": ["Weakness: Melee (Slash), Magic."]
           }
         }
       },
@@ -6589,6 +6589,179 @@
         }
       },
       "29": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
+  },
+  "what_lies_below": {
+    "name": "What Lies Below",
+    "directory": "what_lies_below",
+    "req": [
+      {
+        "name": "Quest Requirements",
+        "items": ["Rune Mysteries"]
+      },
+      {
+        "name": "Level Requirements",
+        "items": ["35 Runecrafting", "42 Mining"]
+      },
+      {
+        "name": "Items",
+        "items": ["20 coins", "A bowl", "15 Chaos runes", "Chaos talisman or Chaos tiara", "Any pickaxe"]
+      },
+      {
+        "name": "Recommended",
+        "items": ["Chronicle (to teleport to Champions' Guild)", "Varrock Teleports", "Charged Amulet of Glory"]
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Getting Started",
+        "step": "Talk to Rat Burgiss. (Chat 3-1)",
+        "details": {
+          "1": {
+            "location": ["South of Varrock"],
+            "description": ["Talk to Rat Burgiss to start the quest."]
+          }
+        }
+      },
+      "2": {
+        "step": "Get 5 Rat's paper by defeating 5 Outlaws and fill the folder.",
+        "details": {
+          "1": {
+            "location": ["West of the Grand Exchange."],
+            "description": ["Get 5 Rat's paper by defeating 5 Outlaws and use all 5 rat's paper on the folder to fill it up."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to Rat Burgiss.",
+        "details": {
+          "1": {
+            "location": ["South of Varrock"],
+            "description": ["Talk to Rat Burgiss."]
+          }
+        },
+        "last": true
+      },
+      "4": {
+        "subtitle": "The wand",
+        "step": "Talk to Surok Magis. (Chat 1)",
+        "details": {
+          "1": {
+            "location": ["Varrock Palace Library"],
+            "description": ["Talk to Surok Magis."]
+          }
+        }
+      },
+      "5": {
+        "step": "Use the wand on the chaos altar.",
+        "details": {
+          "1": {
+            "location": ["Level 6 Wilderness"],
+            "description": ["Option 1 (Fastest): If you have completed Enter the Abyss mini-quest. Select the teleport option on Mage of Zamorak to get into the Abyss."]
+          },
+          "2": {
+            "location": ["The Abyss"],
+            "description": ["Option 1: Mine the rocks to get into the inner circle."]
+          },
+          "3": {
+            "location": ["The Abyss"],
+            "description": ["Option 1: Enter the chaos rift."]
+          },
+          "4": {
+            "location": ["Chaos Altar (Fourth Floor)"],
+            "description": ["Option 1: Use the wand on the chaos altar."]
+          },
+          "5": {
+            "location": ["Level 9 Wilderness"],
+            "description": ["Option 2: Use the talismen on the mysterious runes or enter it if you have the chaos tiara equipped."]
+          },
+          "6": {
+            "location": ["Chaos Altar (First Floor)"],
+            "description": ["Option 2: Follow the path and climb down the stairs."]
+          },
+          "7": {
+            "location": ["Chaos Altar (Second Floor)"],
+            "description": ["Option 2: Follow the path and climb down the stairs."]
+          },
+          "8": {
+            "location": ["Chaos Altar (Third Floor)"],
+            "description": ["Option 2: Follow the path and climb down the stairs."]
+          },
+          "9": {
+            "location": ["Chaos Altar (Fourth Floor)"],
+            "description": ["Option 2: Use the wand on the chaos altar."]
+          }
+        },
+        "last": true
+      },
+      "6": {
+        "subtitle": "Surok Magis Evil Plans",
+        "step": "Talk to Surok Magis. (Chat 1)",
+        "details": {
+          "1": {
+            "location": ["Varrock Palace Library"],
+            "description": ["Talk to Surok Magis."]
+          }
+        }
+      },
+      "7": {
+        "step": "Talk to Rat Burgiss. (Chat 1)",
+        "details": {
+          "1": {
+            "location": ["South of Varrock"],
+            "description": ["Talk to Rat Burgiss."]
+          }
+        },
+        "last": true
+      },
+      "8": {
+        "subtitle": "Mind Control",
+        "step": "Talk to Zaff. (Chat 4)",
+        "details": {
+          "1": {
+            "location": ["Staff Shop in Varrock"],
+            "description": ["Talk to Zaff."]
+          }
+        }
+      },
+      "9": {
+        "step": "Talk to Surok Magis. (Chat 1)",
+        "details": {
+          "1": {
+            "location": ["Varrock Palace Library"],
+            "description": ["Talk to Surok Magis."]
+          }
+        }
+      },
+      "10": {
+        "step": "Bring King Roald to 1 hitpoint, then operate the Beacon ring.",
+        "details": {
+          "1": {
+            "location": ["Varrock Palace Library"],
+            "description": ["Bring King Roald to 1 hitpoint."]
+          },
+          "2": {
+            "location": ["Varrock Palace Library"],
+            "description": ["When he is down to 1 hitpoints, operate the ring to break the mind control."]
+          }
+        },
+        "last": true
+      },
+      "11": {
+        "step": "Talk to Rat Burgiss. (Chat 1)",
+        "details": {
+          "1": {
+            "location": ["South of Varrock"],
+            "description": ["Talk to Rat Burgiss to finish the quest."]
+          }
+        }
+      },
+      "12": {
         "step": "Quest complete!",
         "details": {
           "1": {}

@@ -100,53 +100,6 @@ Finishing Up
     Talk to King Lathas. (Chat: 1)
     Quest complete!
 
-Dream Mentor
-
-Items required: 3 of any kind of food (7 Shrimp, 7 Cabbage, 7 Onion), Seal of passage, Goutweed, Astral rune, Tinderbox, Hammer, Pestle and mortar
-Recommended: Weapon, Armour, Food, Super Potions
-Enemies to defeat: The Inadequacy (level 343), The Everlasting (level 223), The Untouchable (level 274), The Illusive (level 108)
-
-Helping the fallen man
-
-    Enter the mine.
-    Crawl-through the cave entrance.
-    Talk to the fallen man and close the interface when it appears. (Chat 1)
-    Use the food on him in this order: Cabbage, Onion, Shrimp, Cabbage.
-    Talk to the fallen man (Chat 1-1).
-    Use the food on him in this order: Onion, Shrimp, Cabbage, Onion.
-
-    Talk to him and choose positive responses until he sits up (Random chat options for every person).
-    Use the food on him in this order: Shrimp, Cabbage, Onion, Shrimp, Cabbage, Onion.
-    Talk to him and choose positive responses until he stands up.
-    Talk to 'Bird's-Eye' Jack (Chat 2).
-    Select the following equipment (if your combat level is determined by your melee skills):
-        Dragon med helm
-        Abyssal whip
-        Ahrim's robetop
-        Ahrim's robeskirt
-        Ranger boots
-
-    Use the food on him in this order: Shrimp, Cabbage, Onion, Shrimp, Cabbage, Onion.
-    Talk to him again multiple times, giving positive responses until you receive a cut-scene.
-    Dream potion
-
-    Talk to the Oneiromancer for a dream vial. (Chat 2)
-    Fill the vial with water, then add a goutweed.
-    Use hammer on an Astral rune, then use the shards on the pestle and mortar.
-    Add the ground astral runes to the dream vial.
-
-Dreamland
-Items required: Good food, armour, weapon, dream potion, tinderbox, and seal of passage (Teleports/Prayer won't work!).
-
-    Light the Ceremonial Brazier.
-    Talk to Cyrisus (Chat 1).
-    Kill The Inadequacy (level 343).
-    Kill The Everlasting (level 223).
-    Kill The Untouchable (level 274).
-    Kill The Illusive (level 108).
-    Talk to Oneiromancer (Chat 2).
-    Quest Complete!
-
 
 Getting started
     Talk to Charlie in Ardougne Zoo. (Chat 1-1)
@@ -216,19 +169,27 @@ What Lies Below
     Level Requirements: 35 Runecrafting, 42 Mining
     Item Requirements: 20 coins, A bowl, Bronze pickaxe, 15 Chaos runes, Chaos talisman or Chaos tiara
 
-    Talk to Rat Burgiss south of Varrock. (Chat 3-1)
-    Kill 5 Outlaws just west of the Grand Exchange.
-    Fill the folder with 5 papers and return it to Rat Burgiss.
-    Talk to Surok Magis in the Varrock library (the northern-most room in Varrock Palace). (Chat 1)
-    Enter the chaos altar and use the wand on the altar.
-    To avoid entering the wilderness, see an alternative entrance in the full guide.
-    Talk to Surok Magis. (Chat 1)
-    Talk to Rat Burgiss. (Chat 1)
-    Talk to Zaff. (Chat 4)
-    Talk to Surok Magis. (Chat 1)
-    Bring King Roald to 1 hitpoint, then operate the Beacon ring. (Instanced)
-    Talk to Rat Burgiss.
-    Quest complete!
+    Getting Started
+        Talk to Rat Burgiss south of Varrock. (Chat 3-1)
+        Get 5 Rat's paper by defeating 5 Outlaws and fill the folder.
+        Talk to Rat Burgiss.
+
+    The wand
+        Talk to Surok Magis. (Chat 1)
+        Use the wand on the chaos altar.
+
+    Surok Magis Evil Plans
+        Talk to Surok Magis. (Chat 1)
+        Talk to Rat Burgiss. (Chat 1)
+
+    Mind Control
+        Talk to Zaff. (Chat 4)
+        Talk to Surok Magis. (Chat 1)
+        Bring King Roald to 1 hitpoint, then operate the Beacon ring.
+
+    Finishing up
+        Talk to Rat Burgiss.
+        Quest complete!
 
 Tribal Totem
     Level Requirements: 21 Thieving
