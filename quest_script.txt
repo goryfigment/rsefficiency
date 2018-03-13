@@ -101,95 +101,58 @@ Finishing Up
     Quest complete!
 
 
+Eagles' Peak
+Level Requirement: 27 Hunter
+Items: 50 Coins, Yellow dye, Swamp tar
+Recommended: Ardougne Teleport, Varrock Teleport, Dramen or Lunar Staff, Ardougne Cloak
+
 Getting started
     Talk to Charlie in Ardougne Zoo. (Chat 1-1)
 Eagles' Peak
-    Head to Eagles' Peak west of the Tree Gnome Stronghold or use Fairy ring code akq.
-    Go to the Northern side of the mountain's base to a campsite.
-    Inspect the books for a Bird book.
-    Click on the book to obtain a Metal feather.
-    Climb the rocks attached to the mountain next to the campsite.
+    Inspect the books for a Bird book and read it for a metal feather (Fairy ring code A-K-Q).
+    Climb the rocks next to the campsite.
     Use the metal feather on the Rocky outcrop and enter the cave.
-    In the dungeon, go east to an intersection, then head south to the edge of a canyon.
-    Get as close to Nickolaus as possible until he shouts you. (Chat 1-1-1)
-    Pick up 10 (TEN) giant feathers from the piles on the ground throughout the dungeon.
+    Shout-to Nickolaus. (Chat 1-1-1)
+    Pick-up 10 giant feathers.
 The Disguise
-    Head to the southeast corner of Varrock to the Fancy Clothes Store via Varrock tele, Rat Pits Minigame Tele, etc. with:
-        10 giant feathers
-        50 gp
-        Swamp tar
-        Yellow dye
-    Have the owner make you two Eagle capes and two Fake beaks. (Chat 2) & (Chat 2-1)
+    Talk to the Fancy dress shop owner. (Chat 2)
+    Talk to the shop owner again to get two Eagle capes and two fake beaks. (Chat 2-1)
 Bronze Feather
-    Go back to the Eagles' Peak Dungeon.
-    Enter the farthest Southwest tunnel in the dungeon.
+    Enter the south-west tunnel.
     Try to grab the feather from the pedestal.
     Operate the four winches in the corners of the room.
     Grab the Bronze feather.
 Silver Feather
-    Exit the tunnel and enter the next tunnel to the North.
-    Inspect the pedestal and complete the trail by inspecting the first rock to the east, then the rocks to the north east.
-    Inspect the opening in the wall north-east of the cave and kill the Kebbit.
-    Grab the Silver feather.
+    Enter the tunnel to the north.
+    Inspect the pedestal
+    Inspect the rock to the east.
+    Inspect the rocks to the north-east.
+    Inspect the opening
+    Defeat the Kebbit to get the silver feather.
 Golden Feather
-    Exit the tunnel back to the main dungeon and run down the farthest Northeast path.
-    Go through the tunnel entrance.
-The Puzzle
-
-Note: If the puzzle gets messed up, there is a reset lever outside of the chamber.
-
-    Take at least 6 handfuls of bird seed from the pile near the entrance of the cave.
-    First pull the lever, which is just north-west of the start.
-    Walk to the south-eastern part of the dungeon. Then, place some bird seed in most south-eastern bird feeder. (marked 2)
-    Place some bird seed in the bird feeder next to the one you just filled. (marked 3)
-    Pull the eastern lever.
-    Walk back to the handle you pulled the first time, just north-west of the start, and pull it again.
-    Walk to the southern part of the dungeon, and put bird seed in the feeder south of the lever you just pulled and east of the lever in the southern part.
-    Pull the lever in the southern part of the dungeon.
-    Go back to the lever you started at, which is just north-west of the start, and put bird feed in the feeder.
-    Pull the lever in the north-western part of the dungeon.
-    Go to the southern part of the dungeon, and put bird feed in the bird feeder closest to the lever there.
-    Place some feed in the bird feeder in the corner of the rails to the east of the bird feeder from step 10.
-    Retrieve the golden feather from the pedestal.
+    Enter the north-west tunnel. Note: If the puzzle gets messed up, there is a reset lever outside of the chamber.
+    Take 6 odd bird seeds from the bird seed holder.
+    Put bird seed on the bird feeder (displayed below).
+    Pull-down the Eagle lever (displayed below).
+    Pull-down the Eagle lever (displayed below).
+    Put bird seed on the bird feeder (displayed below).
+    Put bird seed on the bird feeder (displayed below).
+    Pull-down the Eagle lever (displayed below).
+    Pull-down the Eagle lever (displayed below).
+    Put bird seed on the bird feeder (displayed below).
+    Pull-down the Eagle lever (displayed below).
+    Put bird seed on the bird feeder (displayed below).
+    Put bird seed on the bird feeder (displayed below).
+    Take the golden feather.
 The Eagle Door
-    Exit the golden feather tunnel and head to the door south of Nickolaus.
-    Equip the Eagle cape and Fake beak you made for yourself earlier.
+    Equip the Eagle cape and Fake beak and use each feather on the door's eagle carving and enter it.
     Use each feather on the door's eagle carving and enter it.
-    While wearing the disguise, click on the Giant eagle and talk to Nickolaus.
+    While wearing the disguise, walk-past the Giant eagle
+    Talk to Nickolaus.
 Finishing Up
-    Exit the eagle's dungeon and go back to the campsite north of the mountain.
-    Talk to Nickolaus. (Chat 1-1)
-    Once the cutscene is over, you will have a ferret in your inventory.
-    Go back to the Ardougne Zoo and talk to Charlie.
+    Talk to Nickolaus at the campsite. (Chat 1-1) (Exit the eagle's dungeon and go back to the campsite north of the mountain.)
+    Talk to Charlie.
     Quest complete!
-
-What Lies Below
-
-    Quest Requirements: Rune Mysteries
-    Level Requirements: 35 Runecrafting, 42 Mining
-    Item Requirements: 20 coins, A bowl, Bronze pickaxe, 15 Chaos runes, Chaos talisman or Chaos tiara
-
-    Getting Started
-        Talk to Rat Burgiss south of Varrock. (Chat 3-1)
-        Get 5 Rat's paper by defeating 5 Outlaws and fill the folder.
-        Talk to Rat Burgiss.
-
-    The wand
-        Talk to Surok Magis. (Chat 1)
-        Use the wand on the chaos altar.
-
-    Surok Magis Evil Plans
-        Talk to Surok Magis. (Chat 1)
-        Talk to Rat Burgiss. (Chat 1)
-
-    Mind Control
-        Talk to Zaff. (Chat 4)
-        Talk to Surok Magis. (Chat 1)
-        Bring King Roald to 1 hitpoint, then operate the Beacon ring.
-
-    Finishing up
-        Talk to Rat Burgiss.
-        Quest complete!
 
 Tribal Totem
     Level Requirements: 21 Thieving

@@ -1,170 +1,398 @@
 {
-  "what_lies_below": {
-    "name": "What Lies Below",
-    "directory": "what_lies_below",
+  "eagles_peak": {
+    "name": "Eagles' Peak",
+    "directory": "eagles_peak",
     "req": [
       {
-        "name": "Quest Requirements",
-        "items": ["Rune Mysteries"]
+        "items": ["27 Hunter"],
+        "name": "Level Requirement"
       },
       {
-        "name": "Level Requirements",
-        "items": ["35 Runecrafting", "42 Mining"]
+        "items": ["50 Coins", "Yellow dye", "Swamp tar"],
+        "name": "Items"
       },
       {
-        "name": "Items",
-        "items": ["20 coins", "A bowl", "15 Chaos runes", "Chaos talisman or Chaos tiara", "Any pickaxe"]
-      },
-      {
-        "name": "Recommended",
-        "items": ["Chronicle (to teleport to Champions' Guild)", "Varrock Teleports", "Charged Amulet of Glory"]
+        "items": ["Ardougne Teleport", "Varrock Teleport", "Dramen or Lunar Staff", "Ardougne Cloak"],
+        "name": "Recommended"
       }
     ],
-    "steps": {
+    "step": {
       "1": {
-        "subtitle": "Getting Started",
-        "step": "Talk to Rat Burgiss. (Chat 3-1)",
+        "step": "Talk to Charlie in Ardougne Zoo. (Chat 1-1)",
+        "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": ["South of Varrock"],
-            "description": ["Talk to Rat Burgiss to start the quest."]
+            "location": "Ardougne Zoo",
+            "description": "Talk to Charlie in Ardougne Zoo."
           }
         }
       },
       "2": {
-        "step": "Get 5 Rat's paper by defeating 5 Outlaws and fill the folder.",
+        "step": "Inspect the books for a Bird book and read it for a metal feather (Fairy ring code A-K-Q).",
+        "subtitle": "Eagles' Peak",
         "details": {
           "1": {
-            "location": ["West of the Grand Exchange."],
-            "description": ["Get 5 Rat's paper by defeating 5 Outlaws and use all 5 rat's paper on the folder to fill it up."]
+            "location": "Eagles' Peak",
+            "description": "Use the fairy ring code A-K-Q to get there quickly. Inspect the books for a Bird book and read it for a metal feather."
           }
         }
       },
       "3": {
-        "step": "Talk to Rat Burgiss.",
+        "step": "Climb the rocks next to the campsite.",
         "details": {
           "1": {
-            "location": ["South of Varrock"],
-            "description": ["Talk to Rat Burgiss."]
+            "location": "Eagles' Peak",
+            "description": "Climb the rocks next to the campsite."
           }
-        },
-        "last": true
+        }
       },
       "4": {
-        "subtitle": "The wand",
-        "step": "Talk to Surok Magis. (Chat 1)",
+        "step": "Use the metal feather on the Rocky outcrop and enter the cave.",
         "details": {
           "1": {
-            "location": ["Varrock Palace Library"],
-            "description": ["Talk to Surok Magis."]
+            "location": "Eagles' Peak",
+            "description": "Use the metal feather on the Rocky outcrop."
+          },
+          "2": {
+            "location": "Eagles' Peak",
+            "description": "Enter the cave."
           }
         }
       },
       "5": {
-        "step": "Use the wand on the chaos altar.",
+        "step": "Shout-to Nickolaus. (Chat 1-1-1)",
         "details": {
           "1": {
-            "location": ["Level 6 Wilderness"],
-            "description": ["Option 1 (Fastest): If you have completed Enter the Abyss mini-quest. Select the teleport option on Mage of Zamorak to get into the Abyss."]
-          },
-          "2": {
-            "location": ["The Abyss"],
-            "description": ["Option 1: Mine the rocks to get into the inner circle."]
-          },
-          "3": {
-            "location": ["The Abyss"],
-            "description": ["Option 1: Enter the chaos rift."]
-          },
-          "4": {
-            "location": ["Chaos Altar (Fourth Floor)"],
-            "description": ["Option 1: Use the wand on the chaos altar."]
-          },
-          "5": {
-            "location": ["Level 9 Wilderness"],
-            "description": ["Option 2: Use the talismen on the mysterious runes or enter it if you have the chaos tiara equipped."]
-          },
-          "6": {
-            "location": ["Chaos Altar (First Floor)"],
-            "description": ["Option 2: Follow the path and climb down the stairs."]
-          },
-          "7": {
-            "location": ["Chaos Altar (Second Floor)"],
-            "description": ["Option 2: Follow the path and climb down the stairs."]
-          },
-          "8": {
-            "location": ["Chaos Altar (Third Floor)"],
-            "description": ["Option 2: Follow the path and climb down the stairs."]
-          },
-          "9": {
-            "location": ["Chaos Altar (Fourth Floor)"],
-            "description": ["Option 2: Use the wand on the chaos altar."]
+            "location": "Eagles' Peak Dungeon",
+            "description": "Shout-to Nickolaus."
           }
-        },
-        "last": true
+        }
       },
       "6": {
-        "subtitle": "Surok Magis Evil Plans",
-        "step": "Talk to Surok Magis. (Chat 1)",
+        "step": "Pick-up 10 giant feathers.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Varrock Palace Library"],
-            "description": ["Talk to Surok Magis."]
+            "location": "Eagles' Peak Dungeon",
+            "description": "Pick-up 10 giant feathers."
           }
         }
       },
       "7": {
-        "step": "Talk to Rat Burgiss. (Chat 1)",
+        "step": "Talk to the Fancy dress shop owner. (Chat 2)",
+        "subtitle": "The Disguise",
         "details": {
           "1": {
-            "location": ["South of Varrock"],
-            "description": ["Talk to Rat Burgiss."]
+            "location": "Varrock South-east Clothing Shop",
+            "description": "Talk to the Fancy dress shop owner."
           }
-        },
-        "last": true
+        }
       },
       "8": {
-        "subtitle": "Mind Control",
-        "step": "Talk to Zaff. (Chat 4)",
+        "step": "Talk to the shop owner again to get two Eagle capes and two fake beaks. (Chat 2-1)",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Staff Shop in Varrock"],
-            "description": ["Talk to Zaff."]
+            "location": "Varrock South-east Clothing Shop",
+            "description": "Talk to the shop owner again to get two Eagle capes and two fake beaks."
           }
         }
       },
       "9": {
-        "step": "Talk to Surok Magis. (Chat 1)",
+        "step": "Enter the south-west tunnel.",
+        "subtitle": "Bronze Feather",
         "details": {
           "1": {
-            "location": ["Varrock Palace Library"],
-            "description": ["Talk to Surok Magis."]
+            "location": "Eagles' Peak Dungeon",
+            "description": "Enter the south-west tunnel."
           }
         }
       },
       "10": {
-        "step": "Bring King Roald to 1 hitpoint, then operate the Beacon ring.",
+        "step": "Try to grab the feather from the pedestal.",
         "details": {
           "1": {
-            "location": ["Varrock Palace Library"],
-            "description": ["Bring King Roald to 1 hitpoint."]
-          },
-          "2": {
-            "location": ["Varrock Palace Library"],
-            "description": ["When he is down to 1 hitpoints, operate the ring to break the mind control."]
+            "location": "Eagles' Peak Dungeon",
+            "description": "Try to grab the feather from the pedestal."
           }
-        },
-        "last": true
+        }
       },
       "11": {
-        "step": "Talk to Rat Burgiss. (Chat 1)",
+        "step": "Operate the four winches in the corners of the room.",
         "details": {
           "1": {
-            "location": ["South of Varrock"],
-            "description": ["Talk to Rat Burgiss to finish the quest."]
+            "location": "Eagles' Peak Dungeon",
+            "description": "Operate the first winch."
+          },
+          "2": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Operate the second winch."
+          },
+          "3": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Operate the third winch."
+          },
+          "4": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Operate the fourth winch."
           }
         }
       },
       "12": {
+        "step": "Grab the Bronze feather.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Grab the Bronze feather."
+          }
+        }
+      },
+      "13": {
+        "step": "Enter the tunnel to the north.",
+        "subtitle": "Silver Feather",
+        "details": {
+          "1": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Enter the tunnel to the north."
+          }
+        }
+      },
+      "14": {
+        "step": "Inspect the pedestal.",
+        "details": {
+          "1": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Inspect the pedestal."
+          }
+        }
+      },
+      "15": {
+        "step": "Inspect the rock to the east.",
+        "details": {
+          "1": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Inspect the rock to the east."
+          }
+        }
+      },
+      "16": {
+        "step": "Inspect the rocks to the north-east.",
+        "details": {
+          "1": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Inspect the rocks to the north-east."
+          }
+        }
+      },
+      "17": {
+        "step": "Inspect the opening",
+        "details": {
+          "1": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Inspect the opening"
+          }
+        }
+      },
+      "18": {
+        "step": "Defeat the Kebbit to get the silver feather.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Defeat the Kebbit to get the silver feather."
+          }
+        }
+      },
+      "19": {
+        "step": "Enter the north-east tunnel.",
+        "subtitle": "Golden Feather",
+        "details": {
+          "1": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Enter the north-east tunnel. (Note: If the puzzle gets messed up, there is a reset lever outside of the chamber.)"
+          }
+        }
+      },
+      "20": {
+        "step": "Take 6 odd bird seeds from the bird seed holder.",
+        "details": {
+          "1": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Take 6 odd bird seeds from the bird seed holder."
+          }
+        }
+      },
+      "21": {
+        "step": "Put bird seed on the bird feeder (displayed below).",
+        "details": {
+          "1": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Put bird seed on the bird feeder"
+          }
+        }
+      },
+      "22": {
+        "step": "Pull-down the Eagle lever (displayed below).",
+        "details": {
+          "1": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Pull-down the Eagle lever."
+          }
+        }
+      },
+      "23": {
+        "step": "Pull-down the Eagle lever (displayed below).",
+        "details": {
+          "1": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Pull-down the Eagle lever."
+          }
+        }
+      },
+      "24": {
+        "step": "Put bird seed on the bird feeder (displayed below).",
+        "details": {
+          "1": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Put bird seed on the bird feeder."
+          }
+        }
+      },
+      "25": {
+        "step": "Put bird seed on the bird feeder (displayed below).",
+        "details": {
+          "1": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Put bird seed on the bird feeder."
+          }
+        }
+      },
+      "26": {
+        "step": "Pull-down the Eagle lever (displayed below).",
+        "details": {
+          "1": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Pull-down the Eagle lever."
+          }
+        }
+      },
+      "27": {
+        "step": "Pull-down the Eagle lever (displayed below).",
+        "details": {
+          "1": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Pull-down the Eagle lever."
+          }
+        }
+      },
+      "28": {
+        "step": "Put bird seed on the bird feeder (displayed below).",
+        "details": {
+          "1": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Put bird seed on the bird feeder."
+          }
+        }
+      },
+      "29": {
+        "step": "Pull-down the Eagle lever (displayed below).",
+        "details": {
+          "1": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Pull-down the Eagle lever."
+          }
+        }
+      },
+      "30": {
+        "step": "Put bird seed on the bird feeder (displayed below).",
+        "details": {
+          "1": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Put bird seed on the bird feeder."
+          }
+        }
+      },
+      "31": {
+        "step": "Put bird seed on the bird feeder (displayed below).",
+        "details": {
+          "1": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Put bird seed on the bird feeder."
+          }
+        }
+      },
+      "32": {
+        "step": "Take the golden feather.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Take the golden feather."
+          }
+        }
+      },
+      "33": {
+        "step": "Equip the Eagle cape and Fake beak and use each feather on the door's eagle carving and enter it.",
+        "subtitle": "The Eagle Door",
+        "details": {
+          "1": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Equip the Eagle cape and Fake beak and use the bronze feather on the door."
+          },
+          "2": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Use the silver feather on the door."
+          },
+          "3": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Use the golden feather on the door."
+          },
+          "4": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Enter the door."
+          }
+        }
+      },
+      "34": {
+        "step": "While wearing the disguise, walk-past the Giant eagle.",
+        "details": {
+          "1": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Equip the disguise, walk-past the Giant eagle."
+          }
+        }
+      },
+      "35": {
+        "step": "Talk to Nickolaus.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": "Eagles' Peak Dungeon",
+            "description": "Talk to Nickolaus."
+          }
+        }
+      },
+      "36": {
+        "step": "Talk to Nickolaus at the campsite. (Chat 1-1)",
+        "subtitle": "Finishing Up",
+        "details": {
+          "1": {
+            "location": "Eagles' Peak",
+            "description": "Exit the eagle's dungeon and go back to the campsite north of the mountain. Talk to Nickolaus at the campsite."
+          }
+        }
+      },
+      "37": {
+        "step": "Talk to Charlie.",
+        "details": {
+          "1": {
+            "location": "Ardougne Zoo",
+            "description": "Talk to Charlie."
+          }
+        }
+      },
+      "38": {
         "step": "Quest complete!",
         "details": {
           "1": {}
