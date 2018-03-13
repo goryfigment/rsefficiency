@@ -1,399 +1,137 @@
 {
-  "eagles_peak": {
-    "name": "Eagles' Peak",
-    "directory": "eagles_peak",
+  "tribal_totem": {
+    "name": "Tribal Totem",
+    "directory": "tribal_totem",
     "req": [
       {
-        "items": ["27 Hunter"],
-        "name": "Level Requirement"
+        "items": ["21 Thieving"],
+        "name": "Level Requirements"
       },
       {
-        "items": ["50 Coins", "Yellow dye", "Swamp tar"],
+        "items": ["90 Coins"],
         "name": "Items"
       },
       {
-        "items": ["Ardougne Teleport", "Varrock Teleport", "Dramen or Lunar Staff", "Ardougne Cloak"],
+        "items": ["Amulet of glory", "Ardougne teleports"],
         "name": "Recommended"
       }
     ],
-    "step": {
+    "steps": {
       "1": {
-        "step": "Talk to Charlie in Ardougne Zoo. (Chat 1-1)",
+        "last": true,
+        "step": "Talk to Kangai Mau. (Chat: 1-1-1)",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": "Ardougne Zoo",
-            "description": "Talk to Charlie in Ardougne Zoo."
+            "location": ["East Ardougne"],
+            "description": ["Pay-fare, 30gp, to Captain Barnaby to get to Brimhaven."]
+          },
+          "2": {
+            "location": ["Brimhaven Food Store"],
+            "description": ["Talk to Kangai Mau."]
           }
         }
       },
       "2": {
-        "step": "Inspect the books for a Bird book and read it for a metal feather (Fairy ring code A-K-Q).",
-        "subtitle": "Eagles' Peak",
+        "step": "Talk to Wizard Cromperty. (Chat: 2-2-1) (Chat: 2-2-2-1 if completed medium or higher Ardougne diaries)",
+        "subtitle": "Teleport Block",
         "details": {
           "1": {
-            "location": "Eagles' Peak",
-            "description": "Use the fairy ring code A-K-Q to get there quickly. Inspect the books for a Bird book and read it for a metal feather."
+            "location": ["East Ardougne"],
+            "description": ["Talk to Wizard Cromperty."]
           }
         }
       },
       "3": {
-        "step": "Climb the rocks next to the campsite.",
+        "step": "Investigate the most north-eastern create for a label.",
         "details": {
           "1": {
-            "location": "Eagles' Peak",
-            "description": "Climb the rocks next to the campsite."
+            "location": ["East Ardougne"],
+            "description": ["Investigate the most north-eastern create for a label."]
           }
         }
       },
       "4": {
-        "step": "Use the metal feather on the Rocky outcrop and enter the cave.",
+        "step": "Use the label on the crate you teleported to.",
+        "last": true,
         "details": {
           "1": {
-            "location": "Eagles' Peak",
-            "description": "Use the metal feather on the Rocky outcrop."
-          },
-          "2": {
-            "location": "Eagles' Peak",
-            "description": "Enter the cave."
+            "location": ["East Ardougne"],
+            "description": ["Use the label on the crate you teleported to."]
           }
         }
       },
       "5": {
-        "step": "Shout-to Nickolaus. (Chat 1-1-1)",
+        "step": "Talk to an RPDT. (Chat: 1)",
+        "subtitle": "Lord Handelmort Mansion",
         "details": {
           "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Shout-to Nickolaus."
+            "location": ["East Ardougne"],
+            "description": ["Talk to an RPDT."]
           }
         }
       },
       "6": {
-        "step": "Pick-up 10 giant feathers.",
-        "last": true,
+        "step": "Talk to Wizard Cromperty. (Chat: 2-2-1) (Chat 2-2-2-1 if completed medium or higher Ardougne diaries)",
         "details": {
           "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Pick-up 10 giant feathers."
+            "location": ["East Ardougne"],
+            "description": ["Talk to Wizard Cromperty."]
           }
         }
       },
       "7": {
-        "step": "Talk to the Fancy dress shop owner. (Chat 2)",
-        "subtitle": "The Disguise",
+        "step": "Go west 2 doors and enter the password KURT.",
         "details": {
           "1": {
-            "location": "Varrock South-east Clothing Shop",
-            "description": "Talk to the Fancy dress shop owner."
+            "location": ["East Ardougne"],
+            "description": ["Go through this door."]
+          },
+          "2": {
+            "location": ["East Ardougne"],
+            "description": ["Attempt to open the second door, and enter the password KURT."]
+          },
+          "3": {
+            "location": ["East Ardougne"],
+            "description": ["Finally, enter the second door."]
           }
         }
       },
       "8": {
-        "step": "Talk to the shop owner again to get two Eagle capes and two fake beaks. (Chat 2-1)",
-        "last": true,
+        "step": "Investigate the stairs, then climb them.",
         "details": {
           "1": {
-            "location": "Varrock South-east Clothing Shop",
-            "description": "Talk to the shop owner again to get two Eagle capes and two fake beaks."
+            "location": ["East Ardougne"],
+            "description": ["Investigate the stairs to disarm the trap."]
+          },
+          "2": {
+            "location": ["East Ardougne"],
+            "description": ["Climb up the staircase."]
           }
         }
       },
       "9": {
-        "step": "Enter the south-west tunnel.",
-        "subtitle": "Bronze Feather",
+        "step": "Search the chest for a totem.",
+        "last": true,
         "details": {
           "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Enter the south-west tunnel."
+            "location": ["East Ardougne"],
+            "description": ["Search the chest for a totem."]
           }
         }
       },
       "10": {
-        "step": "Try to grab the feather from the pedestal.",
+        "step": "Talk to Kangai Mau.",
+        "subtitle": "Finishing up",
         "details": {
           "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Try to grab the feather from the pedestal."
+            "location": ["Brimhaven Food Store"],
+            "description": ["Talk to Kangai Mau."]
           }
         }
       },
       "11": {
-        "step": "Operate the four winches in the corners of the room.",
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Operate the first winch."
-          },
-          "2": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Operate the second winch."
-          },
-          "3": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Operate the third winch."
-          },
-          "4": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Operate the fourth winch."
-          }
-        }
-      },
-      "12": {
-        "step": "Grab the Bronze feather.",
-        "last": true,
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Grab the Bronze feather."
-          }
-        }
-      },
-      "13": {
-        "step": "Enter the tunnel to the north.",
-        "subtitle": "Silver Feather",
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Enter the tunnel to the north."
-          }
-        }
-      },
-      "14": {
-        "step": "Inspect the pedestal.",
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Inspect the pedestal."
-          }
-        }
-      },
-      "15": {
-        "step": "Inspect the rock to the east.",
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Inspect the rock to the east."
-          }
-        }
-      },
-      "16": {
-        "step": "Inspect the rocks to the north-east.",
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Inspect the rocks to the north-east."
-          }
-        }
-      },
-      "17": {
-        "step": "Inspect the opening",
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Inspect the opening"
-          }
-        }
-      },
-      "18": {
-        "step": "Defeat the Kebbit to get the silver feather.",
-        "last": true,
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Defeat the Kebbit to get the silver feather."
-          }
-        }
-      },
-      "19": {
-        "step": "Enter the north-east tunnel.",
-        "subtitle": "Golden Feather",
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Enter the north-east tunnel. (Note: If the puzzle gets messed up, there is a reset lever outside of the chamber.)"
-          }
-        }
-      },
-      "20": {
-        "step": "Take 6 odd bird seeds from the bird seed holder.",
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Take 6 odd bird seeds from the bird seed holder."
-          }
-        }
-      },
-      "21": {
-        "step": "Put bird seed on the bird feeder (displayed below).",
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Put bird seed on the bird feeder"
-          }
-        }
-      },
-      "22": {
-        "step": "Pull-down the Eagle lever (displayed below).",
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Pull-down the Eagle lever."
-          }
-        }
-      },
-      "23": {
-        "step": "Pull-down the Eagle lever (displayed below).",
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Pull-down the Eagle lever."
-          }
-        }
-      },
-      "24": {
-        "step": "Put bird seed on the bird feeder (displayed below).",
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Put bird seed on the bird feeder."
-          }
-        }
-      },
-      "25": {
-        "step": "Put bird seed on the bird feeder (displayed below).",
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Put bird seed on the bird feeder."
-          }
-        }
-      },
-      "26": {
-        "step": "Pull-down the Eagle lever (displayed below).",
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Pull-down the Eagle lever."
-          }
-        }
-      },
-      "27": {
-        "step": "Pull-down the Eagle lever (displayed below).",
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Pull-down the Eagle lever."
-          }
-        }
-      },
-      "28": {
-        "step": "Put bird seed on the bird feeder (displayed below).",
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Put bird seed on the bird feeder."
-          }
-        }
-      },
-      "29": {
-        "step": "Pull-down the Eagle lever (displayed below).",
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Pull-down the Eagle lever."
-          }
-        }
-      },
-      "30": {
-        "step": "Put bird seed on the bird feeder (displayed below).",
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Put bird seed on the bird feeder."
-          }
-        }
-      },
-      "31": {
-        "step": "Put bird seed on the bird feeder (displayed below).",
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Put bird seed on the bird feeder."
-          }
-        }
-      },
-      "32": {
-        "step": "Take the golden feather.",
-        "last": true,
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Take the golden feather."
-          }
-        }
-      },
-      "33": {
-        "step": "Equip the Eagle cape and Fake beak and use each feather on the door's eagle carving and enter it.",
-        "subtitle": "The Eagle Door",
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Equip the Eagle cape and Fake beak and use the bronze feather on the door."
-          },
-          "2": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Use the silver feather on the door."
-          },
-          "3": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Use the golden feather on the door."
-          },
-          "4": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Enter the door."
-          }
-        }
-      },
-      "34": {
-        "step": "While wearing the disguise, walk-past the Giant eagle.",
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Equip the disguise, walk-past the Giant eagle."
-          }
-        }
-      },
-      "35": {
-        "step": "Talk to Nickolaus.",
-        "last": true,
-        "details": {
-          "1": {
-            "location": "Eagles' Peak Dungeon",
-            "description": "Talk to Nickolaus."
-          }
-        }
-      },
-      "36": {
-        "step": "Talk to Nickolaus at the campsite. (Chat 1-1)",
-        "subtitle": "Finishing Up",
-        "details": {
-          "1": {
-            "location": "Eagles' Peak",
-            "description": "Exit the eagle's dungeon and go back to the campsite north of the mountain. Talk to Nickolaus at the campsite."
-          }
-        }
-      },
-      "37": {
-        "step": "Talk to Charlie.",
-        "details": {
-          "1": {
-            "location": "Ardougne Zoo",
-            "description": "Talk to Charlie."
-          }
-        }
-      },
-      "38": {
-        "step": "Quest complete!",
+        "step": "Quest Complete!",
         "details": {
           "1": {}
         }

@@ -7171,5 +7171,144 @@
         }
       }
     }
+  },
+  "tribal_totem": {
+    "name": "Tribal Totem",
+    "directory": "tribal_totem",
+    "req": [
+      {
+        "items": ["21 Thieving"],
+        "name": "Level Requirements"
+      },
+      {
+        "items": ["90 Coins"],
+        "name": "Items"
+      },
+      {
+        "items": ["Amulet of glory", "Ardougne teleports"],
+        "name": "Recommended"
+      }
+    ],
+    "steps": {
+      "1": {
+        "last": true,
+        "step": "Talk to Kangai Mau. (Chat: 1-1-1)",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["East Ardougne"],
+            "description": ["Pay-fare, 30gp, to Captain Barnaby to get to Brimhaven."]
+          },
+          "2": {
+            "location": ["Brimhaven Food Store"],
+            "description": ["Talk to Kangai Mau."]
+          }
+        }
+      },
+      "2": {
+        "step": "Talk to Wizard Cromperty. (Chat: 2-2-1) (Chat: 2-2-2-1 if completed medium or higher Ardougne diaries)",
+        "subtitle": "Teleport Block",
+        "details": {
+          "1": {
+            "location": ["East Ardougne"],
+            "description": ["Talk to Wizard Cromperty."]
+          }
+        }
+      },
+      "3": {
+        "step": "Investigate the most north-eastern create for a label.",
+        "details": {
+          "1": {
+            "location": ["East Ardougne"],
+            "description": ["Investigate the most north-eastern create for a label."]
+          }
+        }
+      },
+      "4": {
+        "step": "Use the label on the crate you teleported to.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["East Ardougne"],
+            "description": ["Use the label on the crate you teleported to."]
+          }
+        }
+      },
+      "5": {
+        "step": "Talk to an RPDT. (Chat: 1)",
+        "subtitle": "Lord Handelmort Mansion",
+        "details": {
+          "1": {
+            "location": ["East Ardougne"],
+            "description": ["Talk to an RPDT."]
+          }
+        }
+      },
+      "6": {
+        "step": "Talk to Wizard Cromperty. (Chat: 2-2-1) (Chat 2-2-2-1 if completed medium or higher Ardougne diaries)",
+        "details": {
+          "1": {
+            "location": ["East Ardougne"],
+            "description": ["Talk to Wizard Cromperty."]
+          }
+        }
+      },
+      "7": {
+        "step": "Go west 2 doors and enter the password KURT.",
+        "details": {
+          "1": {
+            "location": ["East Ardougne"],
+            "description": ["Go through this door."]
+          },
+          "2": {
+            "location": ["East Ardougne"],
+            "description": ["Attempt to open the second door, and enter the password KURT."]
+          },
+          "3": {
+            "location": ["East Ardougne"],
+            "description": ["Finally, enter the second door."]
+          }
+        }
+      },
+      "8": {
+        "step": "Investigate the stairs, then climb them.",
+        "details": {
+          "1": {
+            "location": ["East Ardougne"],
+            "description": ["Investigate the stairs to disarm the trap."]
+          },
+          "2": {
+            "location": ["East Ardougne"],
+            "description": ["Climb up the staircase."]
+          }
+        }
+      },
+      "9": {
+        "step": "Search the chest for a totem.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["East Ardougne"],
+            "description": ["Search the chest for a totem."]
+          }
+        }
+      },
+      "10": {
+        "step": "Talk to Kangai Mau.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Brimhaven Food Store"],
+            "description": ["Talk to Kangai Mau."]
+          }
+        }
+      },
+      "11": {
+        "step": "Quest Complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }
