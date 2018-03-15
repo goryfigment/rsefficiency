@@ -90,7 +90,7 @@ Peer the Seer
     Use the vase on the frozen table.
     Use the frozen key on the cooking range.
     You can now leave by the eastern building door.
-    Finishing upEdit
+    Finishing up
     Talk to Brundt the Chieftain.
     Quest complete!
 
@@ -100,6 +100,225 @@ Finishing Up
     Talk to King Lathas. (Chat: 1)
     Quest complete!
 
+
+
+Cold War
+Level Requirements: 10 Hunter, 30 Agility, 30 Crafting, 34 Construction, 15 Thieving
+Items: 10 Oak planks (un-noted), 10 Steel nails, Hammer,Spade, Plank, Silk, Steel bar, Swamp tar,5 Feathers (Regular), Mahogany plank, Leather, Raw cod
+Other Requirements: Access to a crafting table 3
+Recommended: Lumbridge Teleport, Ardougne Teleport, Ardougne Cloak 1, Dramen staff, Food
+
+Items needed: 10 Oak planks (unnoted), 10 steel nails, a hammer and a spade
+Getting Started
+    Talk to Larry. (Chat 1)
+    Talk to Larry again. (Chat 1-1)
+
+Iceberg
+    Talk to Larry.
+    Use oak plank on firm snow patch.
+    Use your spade on the newly built hut to cover it in snow.
+    Talk to Larry to enter the bird hide.
+    Note: Take note of the emotes the left penguin is doing. (you will need this later, you can re-enter the snow bird hide to watch again before the next step if needed.)
+    Talk to Larry. (Chat 1)
+    Travel back to Rellekka by boat. (Chat 1)
+    Talk to Larry once on the dock.
+    Read the clockwork book.
+
+Clockwork Penguin
+Items needed: A regular plank, a steel bar, and a piece of silk, A Crafting table 3 or better in your POH .
+
+    Go to your POH and Click your Crafting Table 3 to make a clockwork mechanism.
+    Click on the table again and select clockwork toy and then clockwork penguin.
+    Return to Ardougne and talk to Larry. (Chat 1-1)
+    Talk to Larry once on the iceberg. (Chat 2-1)
+    Suit Up!
+    Return to Ardougne Zoo once again.
+    Unequip cape and weapons and use the tuxedo-time option on Larry.
+    Enter the penguin pen and talk to the penguin.
+    Use the greeting emotes from earlier.
+    Read the mission report and exit the pen.
+    Talk to Larry so he gets you out of the suit.
+
+Incognito
+Items needed: Ring of charos OR Raw cod
+
+    Talk to Larry in Fred the Farmer's sheep pen in Lumbridge.
+    Use the tuxedo-time option on Larry.
+    Talk to the penguins who are disguised as a sheep.
+    Do the greeting emotes.
+    Exit the penguin suit by talking to Larry.
+    Talk to Larry again so he teleports you to the Zoo. (Chat 1)
+    Use the tuxedo-time option on Larry.
+    Enter the penguin pen and talk to penguin. If using Ring of charos(a), make sure it is equipped. (Chat 1-2)
+    Exit the suit by talking to Larry.
+    Talk to Larry.
+
+Intelligence
+Items needed: Swamp tar and 5 Feathers
+
+    Go back to Fred the Farmer's sheep pen.
+    Use the tuxedo-time option on Larry
+    Talk to the sheep penguin.
+    Talk to Larry to exit suit.
+    Talk to Fred the Farmer (Chat options 3,1)
+    Get back into the Penguin suit and talk to the Sheep Penguin. (Chat option 2)
+    Talk to Larry again to get teleported to the iceberg. (Chat 1)
+    Talk to Larry once at the iceberg.
+    Surprise, Surprise
+    Talk to KGP Agent northwest of Larry while in the penguin suit.
+    Do the greeting emotes.
+    Talk to Noodle.
+    Talk to Noodle again. (Chat 1)
+    Talk to KGP Agent.
+    Click on the avalanche.
+    Enter the immediate room to the west and talk to KGP Agent.
+    Exit room through the west door and then through the north door.
+    Walk north once outside to the agility course.
+
+Agility Course
+If you run out of food any time and do not wish to risk losing your items, you could un-equip the penguin suit, resulting in being caught and stunned, but otherwise returned to where Larry is on the Iceberg.
+
+    Climb down the steps and into the water.
+    Avoid the moving ice in the water.
+    Climb the stepping stone at the end.
+    Jump across the next stones reach an ice platform.
+    After you manage to cross, continue on the path until you come to a shelf with icicles on it. Use the tread softly option to get across. You have to repeat this several times at each shelf. If you fail, you will be hit taking a small amount of damage.
+    Next, you have to climb up the ice using a 'Cross Ice' option. This can be very annoying, as you lose 2 hitpoints each time you fail, and the failure rate is surprisingly high. If you have only the minimal agility — level 30, for example — a small amount of food may help.
+    After that, you have a small cutscene of you sliding down a hill.
+    Talk to Agility Instructor.
+    Unequip the penguin suit and talk to Larry.
+
+'Berg Bards
+Items needed: Mahogany plank and Soft leather
+
+    Use the tuxedo-time option on Larry and re-enter the outpost.
+    Talk to the KGP Agent at the end of the main hall.
+    Talk to Ping or Pong in the east room.
+    Unequip the penguin suit and talk to Larry.
+    Steal a cowbell from either Rellekka, Lumbridge or Zanaris dairy cow.
+    Note: The Zanaris cow is closest. Use the fairy ring east of Larry to Zanaris, and the cow is just east of the wheat field. Return using fairy ring code DKS.
+    Use mahogany plank on the soft leather to make penguin bongos.
+    Talk to Larry east of Rellekka to return to the iceberg.
+    Use the tuxedo-time option on Larry and and re-enter the outpost.
+    Talk to Ping or Pong. (Chat 2)
+    Operate the control panel in the main hall.
+    Enter the War Room to the East.
+    Conclusive Evidence
+    Kill Icelords until you are able to exit the pen using the door on the West. (Up to 3 kills) (you can teleport out and return to Larry via the boat near Rellekka without there being an issue)
+    Use the chasm to the east of the room to return to the surface.
+    Talk to Larry.
+    Quest complete!
+
+Murder Mystery
+Items: A pot
+Recommended: Camelot Teleport, 16 free inventory spaces
+Getting started
+    Talk to the Guard. (Chat: 1)
+    Investigate the sacks in the shed and take 7 flypapers.
+    Pick-up the criminal's dagger and pungent pot.
+    Investigate the nearby smashed window (for the criminal's thread).
+Matching fingerprints to the dagger
+    Search the barrels for 6 silver items.
+    Fill your pot with flour from the barrel in the kitchen.
+    Use flour on all the silver items and dagger.
+    Use every flypaper on all the silver items and dagger.
+    Use the dagger's print on all the silver items' prints until you find a match. Remember who it is.
+    Poison - The culprit
+    Talk to the poison salesman. (Seers' Village pub) (Chat: 2)
+    Talk to the person whose prints matched. (Chat: 4)
+    Search the item they say they used the poison on.
+        Anna - Compost heap
+        Bob - Beehive in cow pen
+        Frank - Family Crest, east of the front door
+        David - Spider nest (2nd floor)
+        Carol - Kitchen drain, west of the front door
+        Elizabeth - The fountain
+Finishing up
+    Talk to a guard. (Chat: 3)
+    Quest complete!
+
+Recruitment Drive
+
+Getting started
+    Talk to Sir Amik Varze. (Chat: 1)
+    If your character is male, take 3000 coins to the Make-over mage and become female. (Chat: 1)
+    Bank all equipped items and inventory.
+        WARNING: Hardcore Ironmen will lose Hardcore status if they die to Sir Kuam Ferentse.
+        Important: Be prepared for Lady Table as you only have 10 seconds after entering to learn the answer.
+    Speak to Sir Tiffy Cashien in the park to begin test. (Chat 3)
+    5 of the following 7 puzzle rooms will appear in a random order. You will always fight Sir Kuam Ferentse.
+    Sir Kuam Ferentse
+    Beat Sir Leye. Prayer is allowed.
+Lady Table (statue room):
+    Quickly look for the colour (bronze, silver, gold) that is only has three statues.
+    Check which weapon is missing from that colour. (sword, halberd, axe, mace)
+    Select the one that was added after the time is up.
+    OR, simply take a screenshot to figure out which statue is missing.
+Sir Ren Itchood (standing on a crate):
+    Talk to Sir Ren Itchood. (Chat: 1)
+    The answer is the first letter of each sentence.
+Sir Tinley (Patience):
+    Left-click on Sir Tinley, finish the conversation.
+    Press nothing until he speaks to you again.
+Sir Spishyus (Grain, Chicken and Wolf):
+    Grab chicken and cross.
+    Unequip the chicken then cross back.
+    Grab grain then cross.
+    Unequip grain and pick up the chicken then cross back.
+    Unequip chicken and grab fox then cross.
+    Unequip fox then cross back.
+    Grab chicken then cross.
+    Unequip chicken then open the door.
+Miss Hynn Terprett (sitting on throne):
+    "Death sentence" riddle - Fed to wolves
+    "Husband and daughter" riddle - 10
+    "Identical stones" riddle - Bucket A (32 degrees)
+    "Fingers on left hand" riddle - 0
+    "Which is true" riddle - Three False
+Miss Cheevers (Bookcase room):
+    First door:
+        Starting from the south-western corner, search:
+        Search the south-western bookcase for a knife.
+        Take ALL vials on the four southern bookcases. (Chat: 3) (Chat: 1) (Chat: 1) (Chat: 1)
+        Search the middle-sized crate for a cake tin.
+        Take ALL vials on the four southern bookcases. (Chat: 1) (Chat: 1) (Chat: 1) (Chat: 3)
+        Take the spade from the table and use it on the bunsen burner.
+        Use metal spade on the door.
+        Use cupric sulfate on door.
+        Use a vial of liquid on door.
+        Pull-spade to open the first door.
+    Second door:
+        Use a vial of liquid on the tin.
+        Use gypsum on tin.
+        Use tin on a key by the entrance portal.
+        Use cupric ore powder
+        Use tin ore powder on the tin.
+        Use tin on Bunsen burner.
+        Use knife on tin.
+        Use key on door and exit.
+    Quest complete!
+
+The Depths of Despair
+Quest Requirement: Client of Kourend
+Level Requirement: 18 Agility
+Other Requirement: 20% Hosidius House Favour
+Recommended: Skills Necklace, Xeric's talisman, Dramen staff/Lunar staff (Fairy ring C-I-S), Weapon
+Getting started
+    Talk to Lord Kandur. (Chat 2-1)
+    Talk to Chef Olivia.
+Varlamore
+    Talk to Galana.
+    Find the Varlamore envoy book and read it.
+Crabclaw Caves
+    Go inside the Crabclaw Caves (south of the Woodcutting Guild).
+    Climb down the tunnel at the end.
+    Talk to Artur Hosidius.
+    Defeat the Sand Snake (level 36).
+    Search the chest.
+    Talk to Artur Hosidius again.
+Finishing up
+    Talk to Lord Kandur Hosidius.
+    Quest complete!
 
 Alfred Grimhand's Barcrawl
 Scorpion Catcher

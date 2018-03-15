@@ -7310,5 +7310,142 @@
         }
       }
     }
+  },
+  "the_depths_of_despair": {
+    "name": "The Depths of Despair",
+    "directory": "the_depths_of_despair",
+    "req": [
+      {
+        "items": ["Client of Kourend"],
+        "name": "Quest Requirement"
+      },
+      {
+        "items": ["18 Agility"],
+        "name": "Level Requirement"
+      },
+      {
+        "items": ["20% Hosidius House Favour"],
+        "name": "Other Requirement"
+      },
+      {
+        "items": ["Skills Necklace", "Xeric's talisman", "Dramen staff/Lunar staff (Fairy ring C-I-S)", "Weapon"],
+        "name": "Recommended"
+      }
+    ],
+    "steps": {
+      "1": {
+        "step": "Talk to Lord Kandur. (Chat 2-1)",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["Hosidius House"],
+            "description": ["Talk to Lord Kandur."]
+          }
+        }
+      },
+      "2": {
+        "step": "Talk to Chef Olivia.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Hosidius House"],
+            "description": ["Talk to Chef Olivia."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to Galana.",
+        "subtitle": "Varlamore",
+        "details": {
+          "1": {
+            "location": ["Hosidius House"],
+            "description": ["Talk to Galana."]
+          }
+        }
+      },
+      "4": {
+        "step": "Find the Varlamore envoy book and read it.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Arceuus House Library (Picture: bottom floor, south-western bay)"],
+            "description": ["She will give you the floor level and section the book is at. Search all the bookcases of the floor and section she tells you the book is in (This part is different for every person). Find the Varlamore envoy book and read it."]
+          },
+          "2": {"description": "Chat dialog"}
+        }
+      },
+      "5": {
+        "step": "Go inside the Crabclaw Caves.",
+        "subtitle": "Crabclaw Caves",
+        "details": {
+          "1": {
+            "location": ["Hosidius House, south of the Woodcutting Guild"],
+            "description": ["Go inside the Crabclaw Caves"]
+          }
+        }
+      },
+      "6": {
+        "step": "Climb down the tunnel at the end.",
+        "details": {
+          "1": {
+            "location": ["Crabclaw Caves"],
+            "description": ["Pass all the agility obstacles, then Climb down the tunnel at the end."]
+          }
+        }
+      },
+      "7": {
+        "step": "Talk to Artur Hosidius.",
+        "details": {
+          "1": {
+            "location": ["Crabclaw Caves"],
+            "description": ["Talk to Artur Hosidius."]
+          }
+        }
+      },
+      "8": {
+        "step": "Defeat the Sand Snake (level 36).",
+        "details": {
+          "1": {
+            "location": ["Crabclaw Caves"],
+            "description": ["Defeat the Sand Snake."]
+          }
+        }
+      },
+      "9": {
+        "step": "Search the chest.",
+        "details": {
+          "1": {
+            "location": ["Crabclaw Caves"],
+            "description": ["Search the chest."]
+          }
+        }
+      },
+      "10": {
+        "step": "Talk to Artur Hosidius again.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Crabclaw Caves"],
+            "description": ["Talk to Artur Hosidius again."]
+          }
+        }
+      },
+      "11": {
+        "step": "Talk to Lord Kandur Hosidius.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Hosidius House"],
+            "description": ["Talk to Lord Kandur Hosidius."]
+          }
+        }
+      },
+      "12": {
+        "step": "Quest Complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }

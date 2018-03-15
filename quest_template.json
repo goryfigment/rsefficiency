@@ -1,136 +1,134 @@
 {
-  "tribal_totem": {
-    "name": "Tribal Totem",
-    "directory": "tribal_totem",
+  "the_depths_of_despair": {
+    "name": "The Depths of Despair",
+    "directory": "the_depths_of_despair",
     "req": [
       {
-        "items": ["21 Thieving"],
-        "name": "Level Requirements"
+        "items": ["Client of Kourend"],
+        "name": "Quest Requirement"
       },
       {
-        "items": ["90 Coins"],
-        "name": "Items"
+        "items": ["18 Agility"],
+        "name": "Level Requirement"
       },
       {
-        "items": ["Amulet of glory", "Ardougne teleports"],
+        "items": ["20% Hosidius House Favour"],
+        "name": "Other Requirement"
+      },
+      {
+        "items": ["Skills Necklace", "Xeric's talisman", "Dramen staff/Lunar staff (Fairy ring C-I-S)", "Weapon"],
         "name": "Recommended"
       }
     ],
     "steps": {
       "1": {
-        "last": true,
-        "step": "Talk to Kangai Mau. (Chat: 1-1-1)",
+        "step": "Talk to Lord Kandur. (Chat 2-1)",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": ["East Ardougne"],
-            "description": ["Pay-fare, 30gp, to Captain Barnaby to get to Brimhaven."]
-          },
-          "2": {
-            "location": ["Brimhaven Food Store"],
-            "description": ["Talk to Kangai Mau."]
+            "location": ["Hosidius House"],
+            "description": ["Talk to Lord Kandur."]
           }
         }
       },
       "2": {
-        "step": "Talk to Wizard Cromperty. (Chat: 2-2-1) (Chat: 2-2-2-1 if completed medium or higher Ardougne diaries)",
-        "subtitle": "Teleport Block",
+        "step": "Talk to Chef Olivia.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["East Ardougne"],
-            "description": ["Talk to Wizard Cromperty."]
+            "location": ["Hosidius House"],
+            "description": ["Talk to Chef Olivia."]
           }
         }
       },
       "3": {
-        "step": "Investigate the most north-eastern create for a label.",
+        "step": "Talk to Galana.",
+        "subtitle": "Varlamore",
         "details": {
           "1": {
-            "location": ["East Ardougne"],
-            "description": ["Investigate the most north-eastern create for a label."]
+            "location": ["Hosidius House"],
+            "description": ["Talk to Galana."]
           }
         }
       },
       "4": {
-        "step": "Use the label on the crate you teleported to.",
+        "step": "Find the Varlamore envoy book and read it.",
         "last": true,
         "details": {
           "1": {
-            "location": ["East Ardougne"],
-            "description": ["Use the label on the crate you teleported to."]
-          }
+            "location": ["Arceuus House Library (Picture: bottom floor, south-western bay)"],
+            "description": ["She will give you the floor level and section the book is at. Search all the bookcases of the floor and section she tells you the book is in (This part is different for every person). Find the Varlamore envoy book and read it."]
+          },
+          "2": {"description": "Chat dialog"}
         }
       },
       "5": {
-        "step": "Talk to an RPDT. (Chat: 1)",
-        "subtitle": "Lord Handelmort Mansion",
+        "step": "Go inside the Crabclaw Caves.",
+        "subtitle": "Crabclaw Caves",
         "details": {
           "1": {
-            "location": ["East Ardougne"],
-            "description": ["Talk to an RPDT."]
+            "location": ["Hosidius House, south of the Woodcutting Guild"],
+            "description": ["Go inside the Crabclaw Caves"]
           }
         }
       },
       "6": {
-        "step": "Talk to Wizard Cromperty. (Chat: 2-2-1) (Chat 2-2-2-1 if completed medium or higher Ardougne diaries)",
+        "step": "Climb down the tunnel at the end.",
         "details": {
           "1": {
-            "location": ["East Ardougne"],
-            "description": ["Talk to Wizard Cromperty."]
+            "location": ["Crabclaw Caves"],
+            "description": ["Pass all the agility obstacles, then Climb down the tunnel at the end."]
           }
         }
       },
       "7": {
-        "step": "Go west 2 doors and enter the password KURT.",
+        "step": "Talk to Artur Hosidius.",
         "details": {
           "1": {
-            "location": ["East Ardougne"],
-            "description": ["Go through this door."]
-          },
-          "2": {
-            "location": ["East Ardougne"],
-            "description": ["Attempt to open the second door, and enter the password KURT."]
-          },
-          "3": {
-            "location": ["East Ardougne"],
-            "description": ["Finally, enter the second door."]
+            "location": ["Crabclaw Caves"],
+            "description": ["Talk to Artur Hosidius."]
           }
         }
       },
       "8": {
-        "step": "Investigate the stairs, then climb them.",
+        "step": "Defeat the Sand Snake (level 36).",
         "details": {
           "1": {
-            "location": ["East Ardougne"],
-            "description": ["Investigate the stairs to disarm the trap."]
-          },
-          "2": {
-            "location": ["East Ardougne"],
-            "description": ["Climb up the staircase."]
+            "location": ["Crabclaw Caves"],
+            "description": ["Defeat the Sand Snake."]
           }
         }
       },
       "9": {
-        "step": "Search the chest for a totem.",
-        "last": true,
+        "step": "Search the chest.",
         "details": {
           "1": {
-            "location": ["East Ardougne"],
-            "description": ["Search the chest for a totem."]
+            "location": ["Crabclaw Caves"],
+            "description": ["Search the chest."]
           }
         }
       },
       "10": {
-        "step": "Talk to Kangai Mau.",
-        "subtitle": "Finishing up",
+        "step": "Talk to Artur Hosidius again.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Brimhaven Food Store"],
-            "description": ["Talk to Kangai Mau."]
+            "location": ["Crabclaw Caves"],
+            "description": ["Talk to Artur Hosidius again."]
           }
         }
       },
       "11": {
+        "step": "Talk to Lord Kandur Hosidius.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Hosidius House"],
+            "description": ["Talk to Lord Kandur Hosidius."]
+          }
+        }
+      },
+      "12": {
         "step": "Quest Complete!",
         "details": {
           "1": {}
