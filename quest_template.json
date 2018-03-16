@@ -1,257 +1,115 @@
 {
-  "fairytale_i_-_growing_pains": {
-    "name": "Fairytale I - Growing Pains",
-    "directory": "fairytale_i_-_growing_pains",
+  "gertrudes_cat": {
+    "name": "Gertrude's Cat",
+    "directory": "gertrudes_cat",
     "req": [
       {
-        "items": ["Lost City", "Nature Spirit"],
-        "name": "Quest Requirements"
-      },
-      {
-        "items": ["Secateurs", "Spade", "Ghostspeak amulet", "Dramen staff/Lunar Staff", "Three combination of items (Random for every player)"],
+        "items": ["100 coins", "Bucket of milk", "Raw sardine"],
         "name": "Items"
       },
       {
-        "items": ["Amulet of Glory", "Falador Teleport", "Lumbridge Teleport", "Chronicle", "Spirit Tree (White Wolf Mountain)", "Ring of dueling", "Armor", "Food"],
+        "items": ["Varrock Teleport", "Skills necklace", "Ring of charos (a) (lets you choose the color of the kitten)"],
         "name": "Recommended"
-      },
-      {
-        "items": ["Tanglefoot (level 111)"],
-        "name": "Enemies to defeat"
       }
     ],
     "steps": {
       "1": {
-        "step": "Talk to Martin the Master Gardener. (Chat 2-1-1)",
+        "step": "Talk to Gertrude (Chat: 1).",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": ["Draynor Village"],
-            "description": ["Talk to Martin the Master Gardener."]
+            "location": ["East of Varrock"],
+            "description": ["Talk to Gertrude"]
           }
         }
       },
       "2": {
-        "step": "Talk to Frizzy Skernip. (Chat: 1)",
+        "step": "Pick-up Doogle leaves and use it on the sardine.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Port Sarim"],
-            "description": ["Talk to Frizzy Skernip."]
+            "location": ["East of Varrock"],
+            "description": ["Pick-up Doogle leaves and use it on the sardine."]
           }
         }
       },
       "3": {
-        "step": "Talk to Elstan. (Chat: 1)",
+        "step": "Talk to Shilop or Wilough. (Chat: 2-2)",
+        "subtitle": "Gertrude's Cat",
         "details": {
           "1": {
-            "location": ["South of Falador"],
-            "description": ["Talk to Elstan."]
+            "location": ["Varrock Centre"],
+            "description": ["Talk to Shilop or Wilough."]
           }
         }
       },
       "4": {
-        "step": "Talk to Heskel. (Chat: 1)",
+        "step": "Go up the ladder at the Lumberyard.",
         "details": {
           "1": {
-            "location": ["Falador Park"],
-            "description": ["Talk to Heskel."]
+            "location": ["Lumberyard"],
+            "description": ["Go up the ladder at the Lumber Yard."]
           }
         }
       },
       "5": {
-        "step": "Talk to Fayeth. (Chat: 1)",
+        "step": "Use the milk on Gertrude's cat.",
         "details": {
           "1": {
-            "location": ["West of Lumbridge Castle."],
-            "description": ["Talk to Fayeth."]
+            "location": ["Lumberyard"],
+            "description": ["Use the milk on Gertrude's cat."]
           }
         }
       },
       "6": {
-        "step": "Talk to Dreven. (Chat: 1)",
+        "step": "Use the Seasoned sardine on Gertrude's cat.",
         "details": {
           "1": {
-            "location": ["West of Champions Guild"],
-            "description": ["Talk to Dreven."
-            ]
+            "location": ["Lumberyard"],
+            "description": ["Use the Seasoned sardine on Gertrude's cat."]
           }
         }
       },
       "7": {
-        "step": "Talk to Martin the Master Gardener. (Chat 2)",
-        "last": true,
+        "step": "Try to pick-up Gertrude's cat.",
         "details": {
           "1": {
-            "location": ["Draynor Village"],
-            "description": ["Talk to Martin the Master Gardener."]
+            "location": ["Lumberyard"],
+            "description": ["Try to pick-up Gertrude's cat."]
           }
         }
       },
       "8": {
-        "step": "Equip dramen staff/lunar staff and enter the shack.",
-        "subtitle": "Trouble in Zanaris",
+        "step": "Search all the yellow 'Crate' option for a kitten.",
         "details": {
           "1": {
-            "location": ["Lumbridge Swamp"],
-            "description": ["Equip dramen staff/lunar staff and enter the shack."]
+            "location": ["Lumberyard"],
+            "description": ["There are blue search options 'Crate', those will not contain the lost kitten. Search only the yellow text 'Crate' option for a kitten."]
           }
         }
       },
       "9": {
-        "step": "Talk to the Fairy Godfather. (Chat 2)",
+        "step": "Use the kitten on the Gertrude's cat.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Zanaris"],
-            "description": ["Talk to the Fairy Godfather."]
+            "location": ["Lumberyard"],
+            "description": ["Use the kitten on the Gertrude's cat."]
           }
         }
       },
       "10": {
-        "step": "Talk to Fairy Nuff for a Symptoms list.",
+        "step": "Talk to Gertrude.",
+        "subtitle": "Finishing up",
         "details": {
           "1": {
-            "location": ["Zanaris"],
-            "description": ["Talk to Fairy Nuff for a Symptoms list."]
+            "location": ["East of Varrock"],
+            "description": ["Talk to Gertrude."]
           }
         }
       },
       "11": {
-        "step": "Talk to Zandar Horfyre.",
-        "last": true,
-        "details": {
-          "1": {
-            "location": ["Top floor of Dark Wizards' Tower"],
-            "description": ["Talk to Zandar Horfyre."]
-          }
-        }
-      },
-      "12": {
-        "step": "Talk to Malignius Mortifer. (Chat: 2)",
-        "subtitle": "Getting the Magic Secateurs",
-        "details": {
-          "1": {
-            "location": ["North of Port Sarim"],
-            "description": ["Talk to Malignius Mortifer."]
-          }
-        }
-      },
-      "13": {
-        "step": "Dig a spade on the grave to get the Draynor skull.",
-        "details": {
-          "1": {
-            "location": ["North of Draynor Manor"],
-            "description": ["Use a spade on the grave to get the Draynor skull."]
-          }
-        }
-      },
-      "14": {
-        "step": "Talk to Malignius Mortifer again to receive the list of three items. (Chat 2)",
-        "details": {
-          "1": {
-            "location": ["North of Port Sarim"],
-            "description": ["Talk to Malignius Mortifer again to receive the list of three items."]
-          }
-        }
-      },
-      "15": {
-        "step": "Collect the 3 randomly-picked items.",
-        "details": {
-          "1": {
-            "description": [
-              "Collect the 3 randomly-picked items. Check the quest journal to see your list of items to collect. (Warning: bring more then one edible since ghasts can make them rotten.)",
-              "Clean avantoe: GE, 48 Herblore and kill chaos druids, or 48 Herblore/50 Farming",
-              "Baby dragon bones: GE, Defeat a baby dragon",
-              "Blue dragon scale: GE, Taverley Dungeon respawn",
-              "Grapes: GE, Cooking Guild Respawn",
-              "Charcoal: GE, Tai Bwo Wannai Village or Shilo Village General Store",
-              "Crushed gemstone:  Fail to cut an opal, jade, or red topaz",
-              "Edible seaweed: GE, Fishing Trawler minigame, Sandcrabs",
-              "Fat snail: GE, Bruise blamish (level 20), Blood Blamish Snails",
-              "Irit Leaf: GE, 40 Herblore and kill chaos druids, or 40 Herblore/44 Farming",
-              "Jangerberries: GE, Ogre island in a lake west of Yanille",
-              "Jogre bones: GE, Defeat a Jogre",
-              "King worms: GE, Gnome Stronghold Swamp respawn",
-              "Lime: GE, Buy from Heckel Funch in the Grand Tree",
-              "Mort myre fungus: GE, Use your Silver sickle (b) near the logs in Mort Myre",
-              "Mort myre pear: GE, Use your Silver sickle (b) near the bushes in Mort Myre",
-              "Mort myre stem: GE, Use your Silver sickle (b) near the downed branches in Mort Myre",
-              "Nature talisman: GE, Kill Abyssal Leeches in the Abyss",
-              "Potato cactus: GE, Kalphite Lair Respawns",
-              "Proboscis: GE, Tai Bwo Wannai Cleanup minigame",
-              "Raw cave eel: GE, Lumbridge Swamp Cave (Required - 38 Fishing/Fishing rod/Bait)",
-              "Red spiders' eggs: GE, Karamja Volcano, Varrock Sewer, Edgeville Wilderness Dungeon",
-              "Red vine worms: McGrubor's Wood (spade required)",
-              "Raw slimy eel: GE, Lumbridge Swamp Caves/Mort Myre Swamp (Required - 28 Fishing/Fishing rod/Bait required)",
-              "Snapdragon: GE, 59 Herblore and kill chaos druids, or 59 Herblore/62 Farming",
-              "Snape grass: GE, Hobgoblin Peninsula respawn, Zeah peninsula north-east of the vinery",
-              "Uncut diamond: GE, Mining Gem Rocks at Shilo Village Gem Mine, Caskets from Big net Fishing, Waterfall Quest reward",
-              "Uncut ruby: GE, Gem Trader stall in Al Kharid, Wall safe cracking in the Rogues' Den (50 Theiving)",
-              "Unopened oyster: GE, Killing Sand Crabs, Big net fishing (16 Fishing)",
-              "Volencia moss: Mining site in Karamja (Required: Complete the Jungle Potion quest)",
-              "White berries: GE, Lava Dragon Isle spawn in the Wilderness, Kill cave crawlers (10 Slayer)"
-            ]
-          }
-        }
-      },
-      "16": {
-        "step": "Equip ghostspeak amulet and talk to Nature Spirit to get Magic Secateurs.",
-        "last": true,
-        "details": {
-          "1": {
-            "location": ["Mort Myre Swamp"],
-            "description": ["Enter the grotto."]
-          },
-          "2": {
-            "location": ["Mort Myre Swamp"],
-            "description": ["Equip ghostspeak amulet and talk to Nature Spirit to get Magic Secateurs."]
-          }
-        }
-      },
-      "17": {
-        "step": "Squeeze-through the gap through the wall.",
-        "subtitle": "Battle the Tanglefoot",
-        "details": {
-          "1": {
-            "location": ["Lumbridge Swamp"],
-            "description": ["Equip dramen staff/lunar staff and enter the shack."]
-          },
-          "2": {
-            "location": ["Zanaris"],
-            "description": ["Squeeze-through the gap through the wall."]
-          }
-        }
-      },
-      "18": {
-        "step": "Equip Magic secateurs and defeat Tanglefoot (level 111).",
-        "details": {
-          "1": {
-            "location": ["Zanaris"],
-            "description": ["Equip Magic secateurs and defeat Tanglefoot."]
-          }
-        }
-      },
-      "19": {
-        "step": "Pick-up the Queen's secateurs.",
-        "last": true,
-        "details": {
-          "1": {
-            "location": ["Zanaris"],
-            "description": ["Pick-up the Queen's secateurs."]
-          }
-        }
-      },
-      "20": {
-        "step": "Talk to the Fairy Godfather.",
-        "subtitle": "Finishing up",
-        "details": {
-          "1": {
-            "location": ["Zanaris"],
-            "description": ["Talk to the Fairy Godfather."]
-          }
-        }
-      },
-      "21": {
-        "step": "Quest complete.",
+        "step": "Quest complete!",
         "details": {
           "1": {}
         }

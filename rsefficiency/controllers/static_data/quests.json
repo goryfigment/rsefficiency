@@ -7706,5 +7706,122 @@
         }
       }
     }
+  },
+  "gertrudes_cat": {
+    "name": "Gertrude's Cat",
+    "directory": "gertrudes_cat",
+    "req": [
+      {
+        "items": ["100 coins", "Bucket of milk", "Raw sardine"],
+        "name": "Items"
+      },
+      {
+        "items": ["Varrock Teleport", "Skills necklace", "Ring of charos (a) (lets you choose the color of the kitten)"],
+        "name": "Recommended"
+      }
+    ],
+    "steps": {
+      "1": {
+        "step": "Talk to Gertrude (Chat: 1).",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["East of Varrock"],
+            "description": ["Talk to Gertrude"]
+          }
+        }
+      },
+      "2": {
+        "step": "Pick-up Doogle leaves and use it on the sardine.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["East of Varrock"],
+            "description": ["Pick-up Doogle leaves and use it on the sardine."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to Shilop or Wilough. (Chat: 2-2)",
+        "subtitle": "Gertrude's Cat",
+        "details": {
+          "1": {
+            "location": ["Varrock Centre"],
+            "description": ["Talk to Shilop or Wilough."]
+          }
+        }
+      },
+      "4": {
+        "step": "Go up the ladder at the Lumberyard.",
+        "details": {
+          "1": {
+            "location": ["Lumberyard"],
+            "description": ["Go up the ladder at the Lumber Yard."]
+          }
+        }
+      },
+      "5": {
+        "step": "Use the milk on Gertrude's cat.",
+        "details": {
+          "1": {
+            "location": ["Lumberyard"],
+            "description": ["Use the milk on Gertrude's cat."]
+          }
+        }
+      },
+      "6": {
+        "step": "Use the Seasoned sardine on Gertrude's cat.",
+        "details": {
+          "1": {
+            "location": ["Lumberyard"],
+            "description": ["Use the Seasoned sardine on Gertrude's cat."]
+          }
+        }
+      },
+      "7": {
+        "step": "Try to pick-up Gertrude's cat.",
+        "details": {
+          "1": {
+            "location": ["Lumberyard"],
+            "description": ["Try to pick-up Gertrude's cat."]
+          }
+        }
+      },
+      "8": {
+        "step": "Search all the yellow 'Crate' option for a kitten.",
+        "details": {
+          "1": {
+            "location": ["Lumberyard"],
+            "description": ["There are blue search options for 'Crate', those will not contain the lost kitten. Search only the yellow text 'Crate' option for a kitten."]
+          }
+        }
+      },
+      "9": {
+        "step": "Use the kitten on the Gertrude's cat.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Lumberyard"],
+            "description": ["Use the kitten on the Gertrude's cat."]
+          }
+        }
+      },
+      "10": {
+        "step": "Talk to Gertrude.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["East of Varrock"],
+            "description": ["Talk to Gertrude."]
+          }
+        }
+      },
+      "11": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }
