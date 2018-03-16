@@ -36,9 +36,12 @@ def quest_index(request):
             finished_quest.append(f2p_quest)
 
     for member_quest in member_quests:
-        member_quest_name = member_quest['quest_name'].lower().replace("'", "").replace(' ', "_")
+        member_quest_name = member_quest['quest_name'].lower().replace("'", "").replace('- ', '').replace(' ', "_")
         if member_quest_name in quests:
             finished_quest.append(member_quest)
+
+    print (len(f2p_quests) + len(member_quests))
+    print (len(f2p_quests) + len(member_quests)) - len(finished_quest)
 
     data = {
         'base_url': get_base_url(),

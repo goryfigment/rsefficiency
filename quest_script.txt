@@ -298,27 +298,85 @@ Miss Cheevers (Bookcase room):
         Use key on door and exit.
     Quest complete!
 
-The Depths of Despair
-Quest Requirement: Client of Kourend
-Level Requirement: 18 Agility
-Other Requirement: 20% Hosidius House Favour
-Recommended: Skills Necklace, Xeric's talisman, Dramen staff/Lunar staff (Fairy ring C-I-S), Weapon
+
+Mountain Daughter
+Level Requirements: 20 Agility
+Items: Spade, Rope, Plank, Leather gloves, Any pickaxe, Any axe, Any staff
+Starting out
+    Head to the entrance of the mountain camp east of Rellekka or northwest of the ajr fairy ring.
+    Take the path north past the guard and use your rope on a boulder to get around.
+    Head into the camp and talk to Hamal the Chieftain. (Chat 1-1-1)
+Crisis
+    Dig some mud from the mud pond south of Hamal’s house.
+    If you do not have a staff, go north of Hamal’s house and take a pole.
+    Go north, follow along the lake westward.
+    Use the mud on the tall tree and climb it.
+    Use your pole or staff on the clump of rocks to pole vault over.
+    Use your plank on the flat stones.
+    Listen to the shining pool. (Chat 2-2-1-1)
+    Note: the next two parts can be completed simultaneously.
+Making peace
+    Talk to the Hamal the Chieftain again. (Chat 2-1)
+    Search for Svidi between Rellekka and Keldagrim. (Chat 2)
+    Go to Rellekka and talk to Brundt the Chieftain in the longhall. (Chat 2-1)
+    Ask about mountain camp. (Chat 1, or chat 2 if you have started Lunar Diplomacy)
+    Did it contain vast magical powers? (Chat 1)
+    Return to the Mountain Camp (you do not need to use the rope again) and use your pickaxe on the Ancient Rock in the southern tent to get half a rock.
+    Take the half a rock back to Brundt the Chieftain. (Chat 1)
+    Return to Svidi with the safety guarantee.
+    The white pearlEdit
+    Go back to the Mountain Camp and speak to Hamal the Chieftain. (Chat 3)
+    Talk to Jokul who is north of Hamal.
+    Travel to the White Wolf Mountain. Equip gloves and search the thorny bushes by the gnome glider.
+    Eat the white pearl you picked to get the white pearl seed.
+    Go back and speak to Jokul.
+    Speak to Hamal to give him the white pearl seed (Chat 2). (Chat 3 if you haven't completed the previous part yet.)
+The Kendal
+    Speak to the shining pool again, remember to use the pole/staff and plank.
+    Cross the gap without a plank to quickly get to the north side of the lake.
+    Follow the northern path east to a cave.
+    Chop down the trees blocking your path and enter.
+    Talk to The Kendal. (Chat 1-2-3-2-2-1)
+    Kill The Kendal.
+    Take the corpse of woman and return to Hamal the Chieftain. (Chat 1-1)
+    Gather 5 muddy rocks from around the camp.
+    Talk to Ragnar near the tall tree by the lake to get Asleif’s necklace. (Chat 1)
+    Return to the shining pool and bury the corpse.
+    Use the muddy rocks on the burial mound.
+Quest complete!
+
+Fairytale I - Growing Pains
+Quest Requirements: Lost City, Nature Spirit
+Items: Secateurs, Spade, Ghostspeak amulet, Dramen staff/Lunar Staff, Three combination of items (Random for every player)
+Enemies to defeat: Tanglefoot (level 111)
+Recommended: Amulet of Glory, Falador Teleport, Lumbridge Teleport, Chronicle, Spirit Tree (White Wolf Mountain), Ring of dueling, Slayer ring, Enchanted lyre, Armor, Food
 Getting started
-    Talk to Lord Kandur. (Chat 2-1)
-    Talk to Chef Olivia.
-Varlamore
-    Talk to Galana.
-    Find the Varlamore envoy book and read it.
-Crabclaw Caves
-    Go inside the Crabclaw Caves (south of the Woodcutting Guild).
-    Climb down the tunnel at the end.
-    Talk to Artur Hosidius.
-    Defeat the Sand Snake (level 36).
-    Search the chest.
-    Talk to Artur Hosidius again.
+    Talk to Martin the Master Gardener. (Chat 2-1-1)
+    talk to Frizzy Skernip. (Chat: 1)
+    Talk to Elstan. (Chat: 1)
+    Talk to Heskel. (Chat: 1)
+    Talk to Fayeth. (Chat: 1)
+    Talk to Dreven. (Chat: 1)
+    Talk to Martin the Master Gardener. (Chat 2)
+Trouble in Zanaris
+    Equip dramen staff/lunar staff and enter the shack.
+    Talk to the Fairy Godfather. (Chat 2)
+    Talk to Fairy Nuff for a Symptoms list.
+    Talk to Zandar Horfyre.
+Getting the Magic Secateurs
+    Talk to Malignius Mortifer. (Chat: 2)
+    and use a spade on the grave north of the building, but within the fence to receive the Draynor skull.
+    Talk to Malignius Mortifer again to receive the list of three items. (Chat 2).
+    Collect the 3 randomly-picked items. Check the quest journal to see your list of items to collect.
+    Equip ghostspeak amulet and talk to Nature Spirit to get Magic Secateurs.
+Battle the Tanglefoot
+    Squeeze-through the gap through the wall.
+    Equip Magic secateurs and defeat Tanglefoot (level 111).
+    Pick-up the Queen's secateurs.
 Finishing up
-    Talk to Lord Kandur Hosidius.
-    Quest complete!
+    Talk to the Fairy Godfather.
+    Quest complete.
+
 
 Alfred Grimhand's Barcrawl
 Scorpion Catcher
