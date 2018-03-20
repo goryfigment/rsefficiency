@@ -8124,5 +8124,364 @@
         }
       }
     }
+  },
+  "icthlarins_little_helper": {
+    "name": "Icthlarin's Little Helper",
+    "directory": "icthlarins_little_helper",
+    "req": [
+      {
+        "items": ["Gertrude's Cat"],
+        "name": "Quest Requirements"
+      },
+      {
+        "items": ["Kitten (bring fish for kittens), cat, or overgrown cat", "Tinderbox", "500 coins", "Bag of salt", "1 Willow log", "Bucket of sap (use knife on an evergreen tree with a bucket in your inventory)", "2 waterskin(4)", "Linen (obtained in quest)"],
+        "name": "Items"
+      },
+      {
+        "items": ["35 Agility", "Energy potions", "Weapons", "Armour", "Antipoisons"],
+        "name": "Recommended"
+      },
+      {
+        "items": ["Possessed Priest (level 91)", "Level 75 or 81 Monster"],
+        "name": "Enemies to defeat"
+      }
+    ],
+    "steps": {
+      "1": {
+        "step": "Talk to the Wanderer. (Chat: 2-1)",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["North-east of Sophanem"],
+            "description": ["Talk to the Wanderer."]
+          }
+        }
+      },
+      "2": {
+        "step": "Talk to the Wanderer again to give her a tinderbox and waterskin(4). (Chat: 4)",
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Talk to the Wanderer again to give her a tinderbox and waterskin(4)."]
+          }
+        }
+      },
+      "3": {
+        "step": "Touch the door of the pyramid.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Touch the door of the pyramid."]
+          }
+        }
+      },
+      "4": {
+        "step": "Click on the mini-map to automatically avoid the traps.",
+        "subtitle": "The first flashback",
+        "details": {
+          "1": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Your character will automatically avoid the traps if you click the mini-map to navigate through the pyramid."]
+          }
+        }
+      },
+      "5": {
+        "step": "Jump the pit (20% minimum energy required, 2 free hands help).",
+        "details": {
+          "1": {
+            "location": ["Sophanem pyramid"],
+            "description": ["20% energy is required to jump the pit and 2 free hands increase your chances of succeeding."]
+          }
+        }
+      },
+      "6": {
+        "step": "Go west and open the door.",
+        "details": {
+          "1": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Go west and open the door."]
+          }
+        }
+      },
+      "7": {
+        "step": "Click on the large golden bird to reset the puzzle until it lands on the solution shown.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Click on the large golden bird to reset the puzzle until it lands on the solution shown. Click the squares in numerical order according to the picture below to solve the puzzle."]
+          }
+        }
+      },
+      "8": {
+        "step": "Drop your cat and talk to the Sphinx. (Chat: 1-1-2-1)",
+        "subtitle": "The sphinx",
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Drop your cat and talk to the Sphinx."]
+          }
+        }
+      },
+      "9": {
+        "step": "Talk to the High Priest.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Talk to the High Priest."]
+          }
+        }
+      },
+      "10": {
+        "step": "Open the door to the pyramid.",
+        "subtitle": "The second flashback",
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Open the door to the pyramid."]
+          }
+        }
+      },
+      "11": {
+        "step": "Jump the pit.",
+        "details": {
+          "1": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Jump the pit."]
+          }
+        }
+      },
+      "12": {
+        "step": "Open the western door and pick-up a canopic jar (you can only pick-up one of them).",
+        "details": {
+          "1": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Open the western door."]
+          },
+          "2": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Try picking-up all the canopic jar until one allows you too."]
+          }
+        }
+      },
+      "13": {
+        "step": "Defeat the level 75 or 81 enemy and take the jar.",
+        "details": {
+          "1": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Defeat the level 75 or 81 enemy and take the jar."]
+          }
+        }
+      },
+      "14": {
+        "step": "Attempt to jump over the pit to wake up.",
+        "details": {
+          "1": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Attempt to jump over the pit to wake up."]
+          }
+        }
+      },
+      "15": {
+        "step": "Jump over the pit again.",
+        "details": {
+          "1": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Jump over the pit again."]
+          }
+        }
+      },
+      "16": {
+        "step": "Solve the western door puzzle.",
+        "details": {
+          "1": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Solve the western door puzzle."]
+          }
+        }
+      },
+      "17": {
+        "step": "Drop the jar where you found it.",
+        "details": {
+          "1": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Drop the jar where you found it."]
+          }
+        }
+      },
+      "18": {
+        "step": "Exit the pyramid via the entrance ladder.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Exit the pyramid via the entrance ladder."]
+          }
+        }
+      },
+      "19": {
+        "step": "Talk to the High Priest. (Chat: 1)",
+        "subtitle": "Preparing for the ceremony",
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Talk to the High Priest."]
+          }
+        }
+      },
+      "20": {
+        "step": "Talk to the Embalmer.",
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Talk to the Embalmer."]
+          }
+        }
+      },
+      "21": {
+        "step": "Talk to Raetul to get linen for 30 coins.",
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Talk to Raetul to get linen. Skip this step if you already have linen."]
+          }
+        }
+      },
+      "22": {
+        "step": "Talk to the Embalmer and give him the linen, salt, and sap.",
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Talk to the Embalmer and give him the linen, salt, and sap."]
+          }
+        }
+      },
+      "23": {
+        "step": "Talk to the Carpenter. (Chat: 2)",
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Talk to the Carpenter."]
+          }
+        }
+      },
+      "24": {
+        "step": "Talk to the Carpenter again and give him your willow logs.",
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Talk to the Carpenter again and give him your willow logs."]
+          }
+        }
+      },
+      "25": {
+        "step": "Talk to the Carpenter once more to get the holy symbol.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Talk to the Carpenter once more to get the holy symbol."]
+          }
+        }
+      },
+      "26": {
+        "step": "Open the door to the pyramid.",
+        "subtitle": "The third flashback",
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Open the door to the pyramid."]
+          }
+        }
+      },
+      "27": {
+        "step": "Jump the pit.",
+        "details": {
+          "1": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Jump the pit."]
+          }
+        }
+      },
+      "28": {
+        "step": "Enter the east door",
+        "details": {
+          "1": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Enter the east door"]
+          }
+        }
+      },
+      "29": {
+        "step": "Use the unholy symbol on any sarcophagus and exit the room.",
+        "details": {
+          "1": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Use the unholy symbol on any sarcophagus and exit the room."]
+          }
+        }
+      },
+      "30": {
+        "step": "Jump back across the pit and enter the eastern room again.",
+        "details": {
+          "1": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Jump back across the pit and enter the eastern room again."]
+          }
+        }
+      },
+      "31": {
+        "step": "Defeat the level 91 Possessed Priest.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Enter the east door"]
+          },
+          "2": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Defeat the level 91 Possessed Priest."]
+          }
+        }
+      },
+      "32": {
+        "last": true,
+        "step": "Talk to the High Priest.",
+        "subtitle": "The fourth flashback",
+        "details": {
+          "1": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Talk to the High Priest."]
+          }
+        }
+      },
+      "33": {
+        "step": "Exit the pyramid.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Exit the pyramid."]
+          }
+        }
+      },
+      "34": {
+        "step": "Talk to the High Priest in the temple.",
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Talk to the High Priest in the temple."]
+          }
+        }
+      },
+      "35": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }

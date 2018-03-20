@@ -1,298 +1,356 @@
 {
-  "mountain_daughter": {
-    "name": "Mountain Daughter",
-    "directory": "mountain_daughter",
+  "icthlarins_little_helper": {
+    "name": "Icthlarin's Little Helper",
+    "directory": "icthlarins_little_helper",
     "req": [
       {
-        "items": ["20 Agility"],
-        "name": "Level Requirements"
+        "items": ["Gertrude's Cat"],
+        "name": "Quest Requirements"
       },
       {
-        "items": ["Spade", "Rope", "Plank", "Leather gloves", "Any pickaxe", "Any axe", "Any staff"],
+        "items": ["Kitten (bring fish for kittens) cat or overgrown cat", "Tinderbox", "500 coins", "Bag of salt", "1 Willow log", "Bucket of sap (use knife on an evergreen tree with a bucket in your inventory)", "2 waterskin(4)", "Linen (obtained in quest)"],
         "name": "Items"
+      },
+      {
+        "items": ["35 Agility", "Energy potions", "Weapons", "Armour", "Antipoisons"],
+        "name": "Recommended"
+      },
+      {
+        "items": ["Possessed Priest (level 91)", "Level 75 or 81 Monster"],
+        "name": "Enemies to defeat"
       }
     ],
     "steps": {
       "1": {
-        "step": "Use the rope on the rock.",
+        "step": "Talk to the Wanderer. (Chat: 2-1)",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Use the rope on the rock."]
+            "location": ["North-east of Sophanem"],
+            "description": ["Talk to the Wanderer."]
           }
         }
       },
       "2": {
-        "step": "Talk to Hamal the Chieftain. (Chat: 1-1-1)",
-        "last": true,
+        "step": "Talk to the Wanderer again to give her a tinderbox and waterskin(4). (Chat: 4)",
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Talk to Hamal the Chieftain."]
+            "location": ["Sophanem"],
+            "description": ["Talk to the Wanderer again to give her a tinderbox and waterskin(4)."]
           }
         }
       },
       "3": {
-        "step": "Dig-below the roots to get mud.",
-        "subtitle": "Crisis",
+        "step": "Touch the door of the pyramid.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Dig-below the roots to get mud."]
+            "location": ["Sophanem"],
+            "description": ["Touch the door of the pyramid."]
           }
         }
       },
       "4": {
-        "step": "Use mud on the tall tree.",
+        "step": "Click on the mini-map to automatically avoid the traps.",
+        "subtitle": "The first flashback",
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Use mud on the tall tree."]
+            "location": ["Sophanem pyramid"],
+            "description": ["Your character will automatically avoid the traps if you click the mini-map to navigate through the pyramid."]
           }
         }
       },
       "5": {
-        "step": "Climb the tall tree.",
+        "step": "Jump the pit (20% minimum energy required, 2 free hands help).",
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Climb the tall tree."]
+            "location": ["Sophanem pyramid"],
+            "description": ["20% energy is required to jump the pit and 2 free hands increase your chances of succeeding."]
           }
         }
       },
       "6": {
-        "step": "Use staff on the clump of rocks.",
+        "step": "Go west and open the door.",
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Use staff on the clump of rocks."]
+            "location": ["Sophanem pyramid"],
+            "description": ["Go west and open the door."]
           }
         }
       },
       "7": {
-        "step": "Use plank on the flat stone.",
+        "step": "Click on the large golden bird to reset the puzzle until it lands on the solution shown.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Use plank on the flat stone."]
+            "location": ["Sophanem pyramid"],
+            "description": ["Click on the large golden bird to reset the puzzle until it lands on the solution shown. Click the squares in numerical order according to the picture below to solve the puzzle."]
           }
         }
       },
       "8": {
-        "step": "Listen to the shining pool. (Chat: 2-2-1-1)",
-        "last": true,
+        "step": "Drop your cat and talk to the Sphinx. (Chat: 1-1-2-1)",
+        "subtitle": "The sphinx",
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Listen to the shining pool."]
+            "location": ["Sophanem"],
+            "description": ["Drop your cat and talk to the Sphinx."]
           }
         }
       },
       "9": {
-        "step": "Talk to the Hamal the Chieftain. (Chat: 2-1)",
-        "subtitle": "Peace with Relleka",
+        "step": "Talk to the High Priest.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Talk to the Hamal the Chieftain."]
+            "location": ["Sophanem"],
+            "description": ["Talk to the High Priest."]
           }
         }
       },
       "10": {
-        "step": "Talk to Svidi. (Chat: 2)",
+        "step": "Open the door to the pyramid.",
+        "subtitle": "The second flashback",
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Climb over the rockslide to leave the Mountain Camp."]
-          },
-          "2": {
-            "location": ["East of Rellekka"],
-            "description": ["Talk to Svidi."]
+            "location": ["Sophanem"],
+            "description": ["Open the door to the pyramid."]
           }
         }
       },
       "11": {
-        "step": "Talk to Brundt the Chieftain. (Chat: 2-1)",
+        "step": "Jump the pit.",
         "details": {
           "1": {
-            "location": ["Rellekka"],
-            "description": ["Talk to Brundt the Chieftain."]
+            "location": ["Sophanem pyramid"],
+            "description": ["Jump the pit."]
           }
         }
       },
       "12": {
-        "step": "Use a pickaxe the ancient rock.",
+        "step": "Open the western door and pick-up a canopic jar (you can only pick-up one of them).",
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Climb over the rockslide to get back into the Mountain Camp."]
+            "location": ["Sophanem pyramid"],
+            "description": ["Open the western door."]
           },
           "2": {
-            "location": ["Mountain Camp"],
-            "description": ["Use a pickaxe the ancient rock."]
+            "location": ["Sophanem pyramid"],
+            "description": ["Try picking-up all the canopic jar until one allows you too."]
           }
         }
       },
       "13": {
-        "step": "Talk to Brundt the Chieftain. (Chat: 1)",
+        "step": "Defeat the level 75 or 81 enemy and take the jar.",
         "details": {
           "1": {
-            "location": ["Rellekka"],
-            "description": ["Talk to Brundt the Chieftain."]
+            "location": ["Sophanem pyramid"],
+            "description": ["Defeat the level 75 or 81 enemy and take the jar."]
           }
         }
       },
       "14": {
-        "step": "Talk to Svidi with the safety guarantee.",
-        "last": true,
+        "step": "Attempt to jump over the pit to wake up.",
         "details": {
           "1": {
-            "location": ["East of Relleka"],
-            "description": ["Talk to Svidi with the safety guarantee."]
+            "location": ["Sophanem pyramid"],
+            "description": ["Attempt to jump over the pit to wake up."]
           }
         }
       },
       "15": {
-        "step": "Talk to Hamal the Chieftain. (Chat: 3-1)",
-        "subtitle": "The white pearl",
+        "step": "Jump over the pit again.",
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Talk to Hamal the Chieftain."]
+            "location": ["Sophanem pyramid"],
+            "description": ["Jump over the pit again."]
           }
         }
       },
       "16": {
-        "step": "Talk to Jokul.",
+        "step": "Solve the western door puzzle.",
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Talk to Jokul."]
+            "location": ["Sophanem pyramid"],
+            "description": ["Solve the western door puzzle."]
           }
         }
       },
       "17": {
-        "step": "Equip gloves and pick-from the thorny bushes.",
+        "step": "Drop the jar where you found it.",
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Equip gloves and pick-from the thorny bushes."]
+            "location": ["Sophanem pyramid"],
+            "description": ["Drop the jar where you found it."]
           }
         }
       },
       "18": {
-        "step": "Eat the white pearl, then talk to Hamal the Chieftain. (Chat: 3)",
+        "step": "Exit the pyramid via the entrance ladder.",
         "last": true,
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Eat the white pearl, then talk to Hamal the Chieftain."]
+            "location": ["Sophanem pyramid"],
+            "description": ["Exit the pyramid via the entrance ladder."]
           }
         }
       },
       "19": {
-        "step": "Listen to the shining pool.",
-        "subtitle": "Kendal",
+        "step": "Talk to the High Priest. (Chat: 1)",
+        "subtitle": "Preparing for the ceremony",
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Listen to the shining pool."]
+            "location": ["Sophanem"],
+            "description": ["Talk to the High Priest."]
           }
         }
       },
       "20": {
-        "step": "Chop down the trees blocking your path and enter.",
+        "step": "Talk to the Embalmer.",
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Chop down the first tree blocking your path."]
-          },
-          "2": {
-            "location": ["Mountain Camp"],
-            "description": ["Chop down the second tree blocking your path."]
-          },
-          "3": {
-            "location": ["Mountain Camp"],
-            "description": ["Enter the cave."]
+            "location": ["Sophanem"],
+            "description": ["Talk to the Embalmer."]
           }
         }
       },
       "21": {
-        "step": "Talk to The Kendal. (Chat: 1-2-3-2-2-1)",
+        "step": "Talk to Raetul to get linen for 30 coins.",
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Talk to The Kendal."]
+            "location": ["Sophanem"],
+            "description": ["Talk to Raetul to get linen. Skip this step if you already have linen."]
           }
         }
       },
       "22": {
-        "step": "Defeat Kendal.",
-        "last": true,
+        "step": "Talk to the Embalmer and give him the linen, salt, and sap.",
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Defeat Kendal."]
+            "location": ["Sophanem"],
+            "description": ["Talk to the Embalmer and give him the linen, salt, and sap."]
           }
         }
       },
       "23": {
-        "step": "Pick-up the corpse of woman.",
-        "subtitle": "Rest in Peace",
+        "step": "Talk to the Carpenter. (Chat: 2)",
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Pick-up the corpse of woman."]
+            "location": ["Sophanem"],
+            "description": ["Talk to the Carpenter."]
           }
         }
       },
       "24": {
-        "step": "Talk to Hamal the Chieftain. (Chat: 1-1)",
+        "step": "Talk to the Carpenter again and give him your willow logs.",
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Talk to Hamal the Chieftain."]
+            "location": ["Sophanem"],
+            "description": ["Talk to the Carpenter again and give him your willow logs."]
           }
         }
       },
       "25": {
-        "step": "Gather 5 muddy rocks from around the camp.",
+        "step": "Talk to the Carpenter once more to get the holy symbol.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Gather 5 muddy rocks from around the camp."]
+            "location": ["Sophanem"],
+            "description": ["Talk to the Carpenter once more to get the holy symbol."]
           }
         }
       },
       "26": {
-        "step": "Talk to Ragnar to get Asleif's necklace. (Chat: 1)",
+        "step": "Open the door to the pyramid.",
+        "subtitle": "The third flashback",
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Talk to Ragnar to get Asleif's necklace."]
+            "location": ["Sophanem"],
+            "description": ["Open the door to the pyramid."]
           }
         }
       },
       "27": {
-        "step": "Return to the shining pool and click on the corpse to bury the corpse.",
+        "step": "Jump the pit.",
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Return to the shining pool and click on the corpse to bury the corpse."]
+            "location": ["Sophanem pyramid"],
+            "description": ["Jump the pit."]
           }
         }
       },
       "28": {
-        "step": "Use the muddy rocks on the burial mound.",
+        "step": "Enter the east door",
         "details": {
           "1": {
-            "location": ["Mountain Camp"],
-            "description": ["Use the muddy rocks on the burial mound."]
+            "location": ["Sophanem pyramid"],
+            "description": ["Enter the east door"]
           }
         }
       },
       "29": {
+        "step": "Use the unholy symbol on any sarcophagus and exit the room.",
+        "details": {
+          "1": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Use the unholy symbol on any sarcophagus and exit the room."]
+          }
+        }
+      },
+      "30": {
+        "step": "Jump back across the pit and enter the eastern room again.",
+        "details": {
+          "1": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Jump back across the pit and enter the eastern room again."]
+          }
+        }
+      },
+      "31": {
+        "step": "Defeat the level 91 Possessed Priest.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Enter the east door"]
+          },
+          "2": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Defeat the level 91 Possessed Priest."]
+          }
+        }
+      },
+      "32": {
+        "last": true,
+        "step": "Talk to the High Priest.",
+        "subtitle": "The fourth flashback",
+        "details": {
+          "1": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Talk to the High Priest."]
+          }
+        }
+      },
+      "33": {
+        "step": "Exit the pyramid.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Sophanem pyramid"],
+            "description": ["Exit the pyramid."]
+          }
+        }
+      },
+      "34": {
+        "step": "Talk to the High Priest in the temple.",
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Talk to the High Priest in the temple."]
+          }
+        }
+      },
+      "35": {
         "step": "Quest complete!",
         "details": {
           "1": {}
