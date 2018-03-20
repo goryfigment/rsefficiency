@@ -1,114 +1,298 @@
 {
-  "gertrudes_cat": {
-    "name": "Gertrude's Cat",
-    "directory": "gertrudes_cat",
+  "mountain_daughter": {
+    "name": "Mountain Daughter",
+    "directory": "mountain_daughter",
     "req": [
       {
-        "items": ["100 coins", "Bucket of milk", "Raw sardine"],
-        "name": "Items"
+        "items": ["20 Agility"],
+        "name": "Level Requirements"
       },
       {
-        "items": ["Varrock Teleport", "Skills necklace", "Ring of charos (a) (lets you choose the color of the kitten)"],
-        "name": "Recommended"
+        "items": ["Spade", "Rope", "Plank", "Leather gloves", "Any pickaxe", "Any axe", "Any staff"],
+        "name": "Items"
       }
     ],
     "steps": {
       "1": {
-        "step": "Talk to Gertrude (Chat: 1).",
+        "step": "Use the rope on the rock.",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": ["East of Varrock"],
-            "description": ["Talk to Gertrude"]
+            "location": ["Mountain Camp"],
+            "description": ["Use the rope on the rock."]
           }
         }
       },
       "2": {
-        "step": "Pick-up Doogle leaves and use it on the sardine.",
+        "step": "Talk to Hamal the Chieftain. (Chat: 1-1-1)",
         "last": true,
         "details": {
           "1": {
-            "location": ["East of Varrock"],
-            "description": ["Pick-up Doogle leaves and use it on the sardine."]
+            "location": ["Mountain Camp"],
+            "description": ["Talk to Hamal the Chieftain."]
           }
         }
       },
       "3": {
-        "step": "Talk to Shilop or Wilough. (Chat: 2-2)",
-        "subtitle": "Gertrude's Cat",
+        "step": "Dig-below the roots to get mud.",
+        "subtitle": "Crisis",
         "details": {
           "1": {
-            "location": ["Varrock Centre"],
-            "description": ["Talk to Shilop or Wilough."]
+            "location": ["Mountain Camp"],
+            "description": ["Dig-below the roots to get mud."]
           }
         }
       },
       "4": {
-        "step": "Go up the ladder at the Lumberyard.",
+        "step": "Use mud on the tall tree.",
         "details": {
           "1": {
-            "location": ["Lumberyard"],
-            "description": ["Go up the ladder at the Lumber Yard."]
+            "location": ["Mountain Camp"],
+            "description": ["Use mud on the tall tree."]
           }
         }
       },
       "5": {
-        "step": "Use the milk on Gertrude's cat.",
+        "step": "Climb the tall tree.",
         "details": {
           "1": {
-            "location": ["Lumberyard"],
-            "description": ["Use the milk on Gertrude's cat."]
+            "location": ["Mountain Camp"],
+            "description": ["Climb the tall tree."]
           }
         }
       },
       "6": {
-        "step": "Use the Seasoned sardine on Gertrude's cat.",
+        "step": "Use staff on the clump of rocks.",
         "details": {
           "1": {
-            "location": ["Lumberyard"],
-            "description": ["Use the Seasoned sardine on Gertrude's cat."]
+            "location": ["Mountain Camp"],
+            "description": ["Use staff on the clump of rocks."]
           }
         }
       },
       "7": {
-        "step": "Try to pick-up Gertrude's cat.",
+        "step": "Use plank on the flat stone.",
         "details": {
           "1": {
-            "location": ["Lumberyard"],
-            "description": ["Try to pick-up Gertrude's cat."]
+            "location": ["Mountain Camp"],
+            "description": ["Use plank on the flat stone."]
           }
         }
       },
       "8": {
-        "step": "Search all the yellow 'Crate' option for a kitten.",
+        "step": "Listen to the shining pool. (Chat: 2-2-1-1)",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Lumberyard"],
-            "description": ["There are blue search options 'Crate', those will not contain the lost kitten. Search only the yellow text 'Crate' option for a kitten."]
+            "location": ["Mountain Camp"],
+            "description": ["Listen to the shining pool."]
           }
         }
       },
       "9": {
-        "step": "Use the kitten on the Gertrude's cat.",
-        "last": true,
+        "step": "Talk to the Hamal the Chieftain. (Chat: 2-1)",
+        "subtitle": "Peace with Relleka",
         "details": {
           "1": {
-            "location": ["Lumberyard"],
-            "description": ["Use the kitten on the Gertrude's cat."]
+            "location": ["Mountain Camp"],
+            "description": ["Talk to the Hamal the Chieftain."]
           }
         }
       },
       "10": {
-        "step": "Talk to Gertrude.",
-        "subtitle": "Finishing up",
+        "step": "Talk to Svidi. (Chat: 2)",
         "details": {
           "1": {
-            "location": ["East of Varrock"],
-            "description": ["Talk to Gertrude."]
+            "location": ["Mountain Camp"],
+            "description": ["Climb over the rockslide to leave the Mountain Camp."]
+          },
+          "2": {
+            "location": ["East of Rellekka"],
+            "description": ["Talk to Svidi."]
           }
         }
       },
       "11": {
+        "step": "Talk to Brundt the Chieftain. (Chat: 2-1)",
+        "details": {
+          "1": {
+            "location": ["Rellekka"],
+            "description": ["Talk to Brundt the Chieftain."]
+          }
+        }
+      },
+      "12": {
+        "step": "Use a pickaxe the ancient rock.",
+        "details": {
+          "1": {
+            "location": ["Mountain Camp"],
+            "description": ["Climb over the rockslide to get back into the Mountain Camp."]
+          },
+          "2": {
+            "location": ["Mountain Camp"],
+            "description": ["Use a pickaxe the ancient rock."]
+          }
+        }
+      },
+      "13": {
+        "step": "Talk to Brundt the Chieftain. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Rellekka"],
+            "description": ["Talk to Brundt the Chieftain."]
+          }
+        }
+      },
+      "14": {
+        "step": "Talk to Svidi with the safety guarantee.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["East of Relleka"],
+            "description": ["Talk to Svidi with the safety guarantee."]
+          }
+        }
+      },
+      "15": {
+        "step": "Talk to Hamal the Chieftain. (Chat: 3-1)",
+        "subtitle": "The white pearl",
+        "details": {
+          "1": {
+            "location": ["Mountain Camp"],
+            "description": ["Talk to Hamal the Chieftain."]
+          }
+        }
+      },
+      "16": {
+        "step": "Talk to Jokul.",
+        "details": {
+          "1": {
+            "location": ["Mountain Camp"],
+            "description": ["Talk to Jokul."]
+          }
+        }
+      },
+      "17": {
+        "step": "Equip gloves and pick-from the thorny bushes.",
+        "details": {
+          "1": {
+            "location": ["Mountain Camp"],
+            "description": ["Equip gloves and pick-from the thorny bushes."]
+          }
+        }
+      },
+      "18": {
+        "step": "Eat the white pearl, then talk to Hamal the Chieftain. (Chat: 3)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Mountain Camp"],
+            "description": ["Eat the white pearl, then talk to Hamal the Chieftain."]
+          }
+        }
+      },
+      "19": {
+        "step": "Listen to the shining pool.",
+        "subtitle": "Kendal",
+        "details": {
+          "1": {
+            "location": ["Mountain Camp"],
+            "description": ["Listen to the shining pool."]
+          }
+        }
+      },
+      "20": {
+        "step": "Chop down the trees blocking your path and enter.",
+        "details": {
+          "1": {
+            "location": ["Mountain Camp"],
+            "description": ["Chop down the first tree blocking your path."]
+          },
+          "2": {
+            "location": ["Mountain Camp"],
+            "description": ["Chop down the second tree blocking your path."]
+          },
+          "3": {
+            "location": ["Mountain Camp"],
+            "description": ["Enter the cave."]
+          }
+        }
+      },
+      "21": {
+        "step": "Talk to The Kendal. (Chat: 1-2-3-2-2-1)",
+        "details": {
+          "1": {
+            "location": ["Mountain Camp"],
+            "description": ["Talk to The Kendal."]
+          }
+        }
+      },
+      "22": {
+        "step": "Defeat Kendal.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Mountain Camp"],
+            "description": ["Defeat Kendal."]
+          }
+        }
+      },
+      "23": {
+        "step": "Pick-up the corpse of woman.",
+        "subtitle": "Rest in Peace",
+        "details": {
+          "1": {
+            "location": ["Mountain Camp"],
+            "description": ["Pick-up the corpse of woman."]
+          }
+        }
+      },
+      "24": {
+        "step": "Talk to Hamal the Chieftain. (Chat: 1-1)",
+        "details": {
+          "1": {
+            "location": ["Mountain Camp"],
+            "description": ["Talk to Hamal the Chieftain."]
+          }
+        }
+      },
+      "25": {
+        "step": "Gather 5 muddy rocks from around the camp.",
+        "details": {
+          "1": {
+            "location": ["Mountain Camp"],
+            "description": ["Gather 5 muddy rocks from around the camp."]
+          }
+        }
+      },
+      "26": {
+        "step": "Talk to Ragnar to get Asleif's necklace. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Mountain Camp"],
+            "description": ["Talk to Ragnar to get Asleif's necklace."]
+          }
+        }
+      },
+      "27": {
+        "step": "Return to the shining pool and click on the corpse to bury the corpse.",
+        "details": {
+          "1": {
+            "location": ["Mountain Camp"],
+            "description": ["Return to the shining pool and click on the corpse to bury the corpse."]
+          }
+        }
+      },
+      "28": {
+        "step": "Use the muddy rocks on the burial mound.",
+        "details": {
+          "1": {
+            "location": ["Mountain Camp"],
+            "description": ["Use the muddy rocks on the burial mound."]
+          }
+        }
+      },
+      "29": {
         "step": "Quest complete!",
         "details": {
           "1": {}

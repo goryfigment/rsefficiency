@@ -333,27 +333,9 @@ Rest in Peace
     Pick-up the corpse of woman.
     Talk to Hamal the Chieftain. (Chat: 1-1)
     Gather 5 muddy rocks from around the camp.
-    Talk to Ragnar to get Asleif’s necklace. (Chat: 1)
+    Talk to Ragnar to get Asleif's necklace. (Chat: 1)
     Return to the shining pool and click on the corpse to bury the corpse.
     Use the muddy rocks on the burial mound.
-    Quest complete!
-
-Gertrude's Cat
-Items: 100 coins, Bucket of milk, Raw sardine
-Recommended: Varrock Teleport, Skills necklace, Ring of charos (a) (lets you choose the color of the kitten)
-Getting started
-    Talk to Gertrude (Chat: 1).
-    Pick-up Doogle leaves and use it on the sardine.
-Gertrude's Cat
-    Talk to Shilop or Wilough. (Chat: 2-2)
-    Go up the ladder at the Lumber Yard.
-    Use the milk on Gertrude's cat.
-    Use the Seasoned sardine on Gertrude's cat.
-    Try to pick-up Gertrude's cat.
-    Search all the yellow "Crate" option for a kitten.
-    Use the kitten on the Gertrude's cat.
-Finishing up
-    Talk to Gertrude.
     Quest complete!
 
 Icthlarin's Little Helper
@@ -407,33 +389,45 @@ Finishing up
 
 
 Monkey Madness
-    Talk to the King (Chat: 1)
-    Go the Gnome pilot and travel to Gandius
+Items: Gold bar, Ball of wool, Monkey bones
+Recommended: 43 Prayer, Antipoisons, Energy potions, Ardougne teleport, Ring of dueling
+    Talk to the King. (Chat: 1)
+    Go the Gnome pilot and travel to Gandius.
     Go inside the Shipyard and talk to GLO Caranock.
-    Talk to the King
-    Talk to Daero twice (1-4-2-4-3-4-4-1)
+    Talk to the King.
+    Talk to Daero twice. (Chat: 1-4-2-4-3-4-4-1)
     Solve puzzle.
     Talk to Lumdo.
-    Talk to Waydar
+    Talk to Waydar.
     Talk to Lumbo.
+    Run into the monkey archers.
+    Pick-lock the prison door.
     Talk to Garkor.
-    Search crate for monkey dentures and M'ammmy Mould
-    Talk to Zooknock to get an Enchanted Bar
-    Make an M'Speak Amulet.
+    Search crate for monkey dentures
+    Search the crate M'ammmy Mould.
+    Talk to Zooknock. (Chat: 1)
+    Use the gold bar, monkey dentures, and M'ammy mould on Zooknock to get an enchanted bar.
+    Make an M'Speak Amulet and equip it.
     Talk the monkey child three times and give him 5 bananas to get the talismen (Chat: 4-2)
-    Talk to Zooknock to get Monkey talismen
-    Go to Ardy Zoo, transform into a monkey, and talk to Monkey minder
-    Talk to a monkey
+    Use monkey bones and monkey talismen on Zooknock to get Monkey talismen.
+
+    Go to Ardy Zoo, transform into a monkey, and talk to Monkey minder.
+    Talk to a monkey with the 'Talk' option.
     Transform into a human and talk to the Monkey minder again.
     You must walk back to the Gnome Stronghold.
+
     Talk to Garkor.
     Talk to the Elder Guard.
     Talk to Kruk.
-    Talk to the King Awowogie.
-    Talk to Garkor
-    Wear sigil and deafeat the demon.
+    Talk to the King Awowogie twice.
+    Talk to the Elder Guard.
+    Talk to Garkor twice to get a sigil.
+    Wear sigil to teleport to the Demon. (Chat: 1)
+    Defeat the Jungle Demon.
     Talk to Garkor and Zooknock.
-    Talk to the King
+    Talk to the King.
+    Quest complete!
+    Talk to Daero to receive melee experience
 
 Alfred Grimhand's Barcrawl
 Scorpion Catcher
