@@ -1,359 +1,495 @@
 {
-  "icthlarins_little_helper": {
-    "name": "Icthlarin's Little Helper",
-    "directory": "icthlarins_little_helper",
+  "monkey_madness": {
+    "name": "Monkey Madness",
+    "directory": "monkey_madness",
     "req": [
       {
-        "items": ["Gertrude's Cat"],
-        "name": "Quest Requirements"
-      },
-      {
-        "items": ["Kitten (bring fish for kittens) cat or overgrown cat", "Tinderbox", "500 coins", "Bag of salt", "1 Willow log", "Bucket of sap (use knife on an evergreen tree with a bucket in your inventory)", "2 waterskin(4)", "Linen (obtained in quest)"],
+        "items": ["Gold bar", "Ball of wool", "Monkey bones"],
         "name": "Items"
       },
       {
-        "items": ["35 Agility", "Energy potions", "Weapons", "Armour", "Antipoisons"],
+        "items": ["43 Prayer", "Antipoisons", "Energy potions", "Ardougne teleport", "Ring of dueling", "Armour", "Food"],
         "name": "Recommended"
       },
       {
-        "items": ["Possessed Priest (level 91)", "Level 75 or 81 Monster"],
+        "items": ["Jungle Demon (level 195)"],
         "name": "Enemies to defeat"
       }
     ],
     "steps": {
       "1": {
-        "step": "Talk to the Wanderer. (Chat: 2-1)",
-        "subtitle": "Getting started",
+        "step": "Talk to the King Narnode. (Chat: 1)",
+        "subtitle": "Chapter 1: Getting started",
         "details": {
           "1": {
-            "location": ["North-east of Sophanem"],
-            "description": ["Talk to the Wanderer."]
+            "location": ["Tree Gnome Stronghold"],
+            "description": ["Talk to the King Narnode to start the quest."]
           }
         }
       },
       "2": {
-        "step": "Talk to the Wanderer again to give her a tinderbox and waterskin(4). (Chat: 4)",
+        "step": "Go the Gnome pilot and travel to Gandius.",
         "details": {
           "1": {
-            "location": ["Sophanem"],
-            "description": ["Talk to the Wanderer again to give her a tinderbox and waterskin(4)."]
+            "location": ["Tree Gnome Stronghold"],
+            "description": ["Select the glider when clicking on Captain Errdo."]
+          },
+          "2": {
+            "location": ["Tree Gnome Stronghold"],
+            "description": ["Select Gandius on the glider interface."]
           }
         }
       },
       "3": {
-        "step": "Touch the door of the pyramid.",
+        "step": "Go inside the Shipyard and talk to GLO Caranock.",
         "last": true,
         "details": {
           "1": {
-            "location": ["Sophanem"],
-            "description": ["Touch the door of the pyramid."]
+            "location": ["Karamja"],
+            "description": ["If you do not have monkey bones kill a monkey for one."]
+          },
+          "2": {
+            "location": ["Shipyard"],
+            "description": ["You will be stopped, finish the conversation to get into the Shipyard."]
+          },
+          "3": {
+            "location": ["Shipyard"],
+            "description": ["Talk to GLO Caranock."]
           }
         }
       },
       "4": {
-        "step": "Click on the mini-map to automatically avoid the traps.",
-        "subtitle": "The first flashback",
+        "step": "Talk to the King Narnode.",
+        "subtitle": "Getting to Ape Atoll",
         "details": {
           "1": {
-            "location": ["Sophanem pyramid"],
-            "description": ["Your character will automatically avoid the traps if you click the mini-map to navigate through the pyramid."]
+            "location": ["Tree Gnome Stronghold"],
+            "description": ["Talk to the King Narnode."]
           }
         }
       },
       "5": {
-        "step": "Jump the pit (20% minimum energy required, 2 free hands help).",
+        "step": "Talk to Daero twice. (Chat: 1-4-2-4-3-4-4-1)",
         "details": {
           "1": {
-            "location": ["Sophanem pyramid"],
-            "description": ["20% energy is required to jump the pit and 2 free hands increase your chances of succeeding."]
+            "location": ["Tree Gnome Stronghold"],
+            "description": ["Talk to Daero twice."]
           }
         }
       },
       "6": {
-        "step": "Go west and open the door.",
+        "step": "Talk to Daero at the hangar.",
         "details": {
           "1": {
-            "location": ["Sophanem pyramid"],
-            "description": ["Go west and open the door."]
+            "location": ["The Hangar"],
+            "description": ["Talk to Daero again once you arrive at the hangar."]
           }
         }
       },
       "7": {
-        "step": "Click on the large golden bird to reset the puzzle until it lands on the solution shown.",
-        "last": true,
+        "step": "Solve puzzle.",
         "details": {
           "1": {
-            "location": ["Sophanem pyramid"],
-            "description": ["Click on the large golden bird to reset the puzzle until it lands on the solution shown. Click the squares in numerical order according to the picture below to solve the puzzle."]
+            "location": ["The Hangar"],
+            "description": ["Operate the Reinitialisation Panel."]
+          },
+          "2": {
+            "description": ["Puzzle Solution."]
+          },
+          "3": {
+            "description": ["Step 1 (First row): Align all the 5 pieces outlined in the picture. Then rotate the pieces at the end clockwise or counter-clockwise to solve the first row."]
+          },
+          "4": {
+            "description": ["Step 2 (Second row): Align all the 5 pieces outlined in the picture. Then rotate the pieces at the end clockwise or counter-clockwise to solve the second row."]
+          },
+          "5": {
+            "description": ["Step 3 (Third row): Align all the 5 pieces outlined in the picture. Then rotate the pieces at the end clockwise or counter-clockwise to solve the third row."]
+          },
+          "6": {
+            "description": ["Step 4 (First column): Align both pieces outlined in the picture. Then rotate the pieces clockwise or counter-clockwise to solve the first column of the last two rows."]
+          },
+          "7": {
+            "description": ["Step 3 (Second column): Align both pieces outlined in the picture. Then rotate the pieces clockwise or counter-clockwise to solve the second column of the last two rows."]
+          },
+          "8": {
+            "description": ["Step 3 (Third column): Align both pieces outlined in the picture. Then rotate the pieces clockwise or counter-clockwise to solve the third column of the last two rows."]
+          },
+          "9": {
+            "description": ["Step 3 (Fourth-Fifth column): Rotate the pieces clockwise or counter-clockwise to solve the puzzle."]
           }
         }
       },
       "8": {
-        "step": "Drop your cat and talk to the Sphinx. (Chat: 1-1-2-1)",
-        "subtitle": "The sphinx",
+        "step": "Talk to Daero.",
         "details": {
           "1": {
-            "location": ["Sophanem"],
-            "description": ["Drop your cat and talk to the Sphinx."]
+            "location": ["The Hangar"],
+            "description": ["Talk to Daero."]
           }
         }
       },
       "9": {
-        "step": "Talk to the High Priest.",
-        "last": true,
+        "step": "Talk to Waydar. (Chat: 1)",
         "details": {
           "1": {
-            "location": ["Sophanem"],
-            "description": ["Talk to the High Priest."]
+            "location": ["The Hangar"],
+            "description": ["Talk to Waydar to fly to Crash Island."]
           }
         }
       },
       "10": {
-        "step": "Open the door to the pyramid.",
-        "subtitle": "The second flashback",
+        "step": "Talk to Lumbo.",
         "details": {
           "1": {
-            "location": ["Sophanem"],
-            "description": ["Open the door to the pyramid."]
+            "location": ["Crash Island"],
+            "description": ["Talk to Lumbo."]
           }
         }
       },
       "11": {
-        "step": "Jump the pit.",
+        "step": "Talk to Waydar twice. (Chat: 4)",
         "details": {
           "1": {
-            "location": ["Sophanem pyramid"],
-            "description": ["Jump the pit."]
+            "location": ["Crash Island"],
+            "description": ["Talk to Waydar twice."]
           }
         }
       },
       "12": {
-        "step": "Open the western door and pick-up a canopic jar (you can only pick-up one of them).",
+        "step": "Talk to Lumbo to sail to Ape Atoll.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Sophanem pyramid"],
-            "description": ["Open the western door."]
-          },
-          "2": {
-            "location": ["Sophanem pyramid"],
-            "description": ["Try picking-up all the canopic jar until one allows you too."]
+            "location": ["Crash Island"],
+            "description": ["Talk to Lumbo."]
           }
         }
       },
       "13": {
-        "step": "Defeat the level 75 or 81 enemy and take the jar.",
+        "step": "Run into the monkey archers.",
+        "subtitle": "Chapter 2: Monkey Speak Talismen",
         "details": {
           "1": {
-            "location": ["Sophanem pyramid"],
-            "description": ["Defeat the level 75 or 81 enemy and take the jar."]
+            "location": ["Ape Atoll"],
+            "description": ["Run into the monkey archers. (Warning: You will take a lot of damage and poisoned in this part. Use Protect from Range to avoid any damage)"]
           }
         }
       },
       "14": {
-        "step": "Attempt to jump over the pit to wake up.",
+        "step": "Pick-lock the prison door and run past the Monkey Guards.",
         "details": {
           "1": {
-            "location": ["Sophanem pyramid"],
-            "description": ["Attempt to jump over the pit to wake up."]
+            "location": ["Ape Atoll"],
+            "description": ["BEWARE: If you stand next to the fence while a Monkey Guard is walking past your cell, you will take damage! Pick-lock the prison door."]
+          },
+          "2": {
+            "location": ["Ape Atoll"],
+            "description": ["Run past the Monkey Guards. Avoid getting to close to the Monkey Guards or you will take damage and sent back in jail."]
           }
         }
       },
       "15": {
-        "step": "Jump over the pit again.",
+        "step": "Talk to Garkor.",
         "details": {
           "1": {
-            "location": ["Sophanem pyramid"],
-            "description": ["Jump over the pit again."]
+            "location": ["Ape Atoll"],
+            "description": ["Follow the path to Garkor. You must stay close to tall grass to avoid getting escorted back to prison following the path exactly will prevent this from happening! Finally, talk to Garkor."]
           }
         }
       },
       "16": {
-        "step": "Solve the western door puzzle.",
+        "step": "Search crate for monkey dentures.",
         "details": {
           "1": {
-            "location": ["Sophanem pyramid"],
-            "description": ["Solve the western door puzzle."]
+            "location": ["Ape Atoll"],
+            "description": ["Follow the path exactly to avoid getting escorted to jail, then search crate for monkey dentures. (Beware: Only stand on the dark brown ground [in the shade] or you will be sent to jail."]
           }
         }
       },
       "17": {
-        "step": "Drop the jar where you found it.",
+        "step": "Search the south-eastern crate (Chat: 1).",
         "details": {
           "1": {
-            "location": ["Sophanem pyramid"],
-            "description": ["Drop the jar where you found it."]
+            "location": ["Ape Atoll"],
+            "description": ["Search the crate M'ammmy Mould."]
           }
         }
       },
       "18": {
-        "step": "Exit the pyramid via the entrance ladder.",
-        "last": true,
+        "step": "Search this crate for M'ammmy Mould (shown below). (Chat: 1)",
         "details": {
           "1": {
-            "location": ["Sophanem pyramid"],
-            "description": ["Exit the pyramid via the entrance ladder."]
+            "location": ["Ape Atoll Cavern"],
+            "description": ["Search the same crate as in the picture to get a M'ammmy Mould."]
           }
         }
       },
       "19": {
-        "step": "Talk to the High Priest. (Chat: 1)",
-        "subtitle": "Preparing for the ceremony",
+        "step": "Talk to Zooknock. (Chat: 1-4)",
         "details": {
           "1": {
-            "location": ["Sophanem"],
-            "description": ["Talk to the High Priest."]
+            "location": ["Tree Gnome Stronghold"],
+            "description": ["Teleport out to gear and grab food for this next part since you will be encountering a lot of monsters. Select the 'Travel' option on Daero to get back to the Hangar."]
+          },
+          "2": {
+            "location": ["The Hangar"],
+            "description": ["Select the 'Travel' option on Waydar to get back to Crash Island."]
+          },
+          "3": {
+            "location": ["Ape Atoll"],
+            "description": ["Select the 'Travel' option on Lumdo to get back to Ape Atoll."]
+          },
+          "4": {
+            "location": ["Ape Atoll"],
+            "description": ["Climb down the bamboo ladder to get into Ape Atoll Dungeon."]
+          },
+          "5": {
+            "location": ["Ape Atoll Dungeon"],
+            "description": ["Follow the path to Zooknock (Note: Using Protect from Melee will prevent taking a lot more damage)."]
           }
         }
       },
       "20": {
-        "step": "Talk to the Embalmer.",
+        "step": "Use the gold bar, monkey dentures, and M'ammy mould on Zooknock to get an enchanted bar.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Sophanem"],
-            "description": ["Talk to the Embalmer."]
+            "location": ["Ape Atoll Dungeon"],
+            "description": ["Use the gold bar on Zooknock."]
+          },
+          "2": {
+            "location": ["Ape Atoll Dungeon"],
+            "description": ["Use the monkey dentures on Zooknock."]
+          },
+          "3": {
+            "location": ["Ape Atoll Dungeon"],
+            "description": ["Use the M'ammy mould on Zooknock to get an enchanted bar."]
           }
         }
       },
       "21": {
-        "step": "Talk to Raetul to get linen for 30 coins.",
+        "step": "Use the enchanted bar on the Wall of Flame and a ball of wool on it to get a M'Speak Amulet.",
+        "subtitle": "Monkey Talismen",
         "details": {
           "1": {
-            "location": ["Sophanem"],
-            "description": ["Talk to Raetul to get linen. Skip this step if you already have linen."]
+            "location": ["Ape Atoll"],
+            "description": ["Go upstairs to avoid the Monkey Guards from getting in your way."]
+          },
+          "2": {
+            "location": ["Ape Atoll"],
+            "description": ["Climb down the bamboo ladder to be next to the trapdoor surrounded by Monkey Guards."]
+          },
+          "3": {
+            "location": ["Ape Atoll"],
+            "description": ["Climb-down the trapdoor to get into the Temple Basement (Note: If you do not have Protect from Melee prepare to take a lot of damage from Monkey Zombies). "]
+          },
+          "4": {
+            "location": ["Ape Atoll"],
+            "description": ["Use the Enchanted bar on the Wall of Flame, then use the ball of wool on it to get a M'Speak Amulet. "]
           }
         }
       },
       "22": {
-        "step": "Talk to the Embalmer and give him the linen, salt, and sap.",
+        "step": "Talk the monkey child three times and give him 5 bananas to get the talismen. (Chat: 4-2)",
         "details": {
           "1": {
-            "location": ["Sophanem"],
-            "description": ["Talk to the Embalmer and give him the linen, salt, and sap."]
+            "location": ["Ape Atoll Temple Basement"],
+            "description": ["Get 5 Bananas from the Banana Tree."]
+          },
+          "2": {
+            "location": ["Ape Atoll Temple Basement"],
+            "description": ["Equip the M'speak amulet and talk the monkey child three times with 5 bananas in your inventory (Note: Avoid getting seen by the Monkey's Aunt. Then after the third time talking to the monkey child wait until the Auntie does one more lap around to get the talismen from the monkey child."]
           }
         }
       },
       "23": {
-        "step": "Talk to the Carpenter. (Chat: 2)",
+        "step": "Use monkey bones and monkey talismen on Zooknock to get Monkey talismen.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Sophanem"],
-            "description": ["Talk to the Carpenter."]
+            "location": ["Ape Atoll Dungeon"],
+            "description": ["Use monkey bones on Zooknock."]
+          },
+          "2": {
+            "location": ["Ape Atoll Dungeon"],
+            "description": ["Use monkey talismen on Zooknock to get Monkey greegree."]
           }
         }
       },
       "24": {
-        "step": "Talk to the Carpenter again and give him your willow logs.",
+        "step": "Go to Ardy Zoo, transform into a monkey, and talk to Monkey minder.",
+        "subtitle": "Chapter 3: Monkey Rescue Mission",
         "details": {
           "1": {
-            "location": ["Sophanem"],
-            "description": ["Talk to the Carpenter again and give him your willow logs."]
+            "location": ["Ardougne Zoo"],
+            "description": ["Go to Ardy Zoo, equip the monkey greegree to transform into a monkey, and talk to Monkey minder."]
           }
         }
       },
       "25": {
-        "step": "Talk to the Carpenter once more to get the holy symbol.",
-        "last": true,
+        "step": "Talk to a monkey with the 'Talk' option.",
         "details": {
           "1": {
-            "location": ["Sophanem"],
-            "description": ["Talk to the Carpenter once more to get the holy symbol."]
+            "location": ["Ardougne Zoo"],
+            "description": ["Talk to a monkey with the 'Talk' option."]
           }
         }
       },
       "26": {
-        "step": "Open the door to the pyramid.",
-        "subtitle": "The third flashback",
+        "step": "Transform into a human and talk to the Monkey minder again.",
         "details": {
           "1": {
-            "location": ["Sophanem"],
-            "description": ["Open the door to the pyramid."]
+            "location": ["Ardougne Zoo"],
+            "description": ["Transform into a human and talk to the Monkey minder again to escape the monkey habitat."]
           }
         }
       },
       "27": {
-        "step": "Jump the pit.",
+        "step": "You must walk back to the Gnome Stronghold, then back to Ape Atoll.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Sophanem pyramid"],
-            "description": ["Jump the pit."]
+            "location": ["Gnome Stronghold"],
+            "description": ["You must walk back to the Gnome Stronghold then back to Ape Atoll. (Beware: Teleporting at all will cause the monkey in your inventory to disappear)."]
           }
         }
       },
       "28": {
-        "step": "Enter the east door",
+        "step": "Talk to Garkor.",
+        "subtitle": "An Alliance",
         "details": {
           "1": {
-            "location": ["Sophanem pyramid"],
-            "description": ["Enter the east door"]
+            "location": ["Ape Atoll"],
+            "description": ["When you arrive to Ape Atoll equip the monkey greegree to turn into a monkey to avoid getting attacked at all."]
+          },
+          "2": {
+            "location": ["Ape Atoll"],
+            "description": ["Open the Bamboo Gate while transformed being a monkey."]
+          },
+          "3": {
+            "location": ["Ape Atoll"],
+            "description": ["Talk to Garkor."]
           }
         }
       },
       "29": {
-        "step": "Use the unholy symbol on any sarcophagus and exit the room.",
+        "step": "Talk to the Elder Guard.",
         "details": {
           "1": {
-            "location": ["Sophanem pyramid"],
-            "description": ["Use the unholy symbol on any sarcophagus and exit the room."]
+            "location": ["Ape Atoll"],
+            "description": ["Talk to the Elder Guard."]
           }
         }
       },
       "30": {
-        "step": "Jump back across the pit and enter the eastern room again.",
+        "step": "Talk to Kruk.",
         "details": {
           "1": {
-            "location": ["Sophanem pyramid"],
-            "description": ["Jump back across the pit and enter the eastern room again."]
+            "location": ["Ape Atoll"],
+            "description": ["Climb up, cross the bridge and down the ladders to get across."]
+          },
+          "2": {
+            "location": ["Ape Atoll"],
+            "description": ["Climb down the ladders to get across."]
+          },
+          "3": {
+            "location": ["Ape Atoll"],
+            "description": ["Talk to Kruk."]
           }
         }
       },
       "31": {
-        "step": "Defeat the level 91 Possessed Priest.",
-        "last": true,
+        "step": "Talk to the King Awowogie twice.",
         "details": {
           "1": {
-            "location": ["Sophanem pyramid"],
-            "description": ["Enter the east door"]
-          },
-          "2": {
-            "location": ["Sophanem pyramid"],
-            "description": ["Defeat the level 91 Possessed Priest."]
+            "location": ["Ape Atoll"],
+            "description": ["Talk to the King Awowogie twice."]
           }
         }
       },
       "32": {
+        "step": "Talk to the Elder Guard.",
         "last": true,
-        "step": "Talk to the High Priest.",
-        "subtitle": "The fourth flashback",
         "details": {
           "1": {
-            "location": ["Sophanem pyramid"],
-            "description": ["Talk to the High Priest."]
+            "location": ["Ape Atoll"],
+            "description": ["Talk to the Elder Guard to leave."]
           }
         }
       },
       "33": {
-        "step": "Exit the pyramid.",
-        "subtitle": "Finishing up",
+        "step": "Talk to Garkor twice to get a sigil.",
+        "subtitle": "Chapter 4: Jungle Demon",
         "details": {
           "1": {
-            "location": ["Sophanem pyramid"],
-            "description": ["Exit the pyramid."]
+            "location": ["Ape Atoll"],
+            "description": ["Talk to Garkor twice to get a sigil."]
           }
         }
       },
       "34": {
-        "step": "Talk to the High Priest in the temple.",
+        "step": "Wear sigil to teleport to the Jungle Demon. (Chat: 1)",
         "details": {
           "1": {
-            "location": ["Sophanem"],
-            "description": ["Talk to the High Priest in the temple."]
+            "description": ["Wear sigil to teleport to the Demon."]
           }
         }
       },
       "35": {
+        "step": "Defeat the Jungle Demon (level 195).",
+        "details": {
+          "1": {
+            "location": ["Ape Atoll"],
+            "description": ["Run away into the sides so the gnomes weaken the Jungle Demon. You must get the last hit to defeat the Jungle Demon or he will keep regenerating health."]
+          },
+          "2": {
+            "location": ["Ape Atoll"],
+            "description": ["Run north to avoid the gnome from getting the last hit and defeat the Jungle Demon (level 195)."]
+          }
+        }
+      },
+      "36": {
+        "step": "Talk to Garkor.",
+        "details": {
+          "1": {
+            "location": ["Ape Atoll"],
+            "description": ["Talk to Garkor."]
+          }
+        }
+      },
+      "37": {
+        "step": "Talk to Zooknock.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Ape Atoll"],
+            "description": ["Talk to Zooknock to return to Ape Atoll."]
+          }
+        }
+      },
+      "38": {
+        "step": "Talk to the King Narnode.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Ape Atoll"],
+            "description": ["Talk to the King."]
+          }
+        }
+      },
+      "39": {
         "step": "Quest complete!",
         "details": {
           "1": {}
+        }
+      },
+      "40": {
+        "step": "Talk to Daero to receive melee experience.",
+        "details": {
+          "1": {
+            "location": ["Ape Atoll"],
+            "description": ["Talk to Daero to receive melee experience. Choosing 'Focus on increasing strength and stamina...' gives the following: 35k Strength, 35k Hitpoints, 20k Attack, 20k Defence. Choosing 'Focus on increasing attack and defence techniques...' gives the following: 35k Attack, 35k Defence, 20k Strength, and 20k Hitpoints."]
+          }
         }
       }
     }
