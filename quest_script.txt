@@ -298,53 +298,5 @@ Miss Cheevers (Bookcase room):
         Use key on door and exit.
     Quest complete!
 
-Monkey Madness
-Items: Gold bar, Ball of wool, Monkey bones
-Recommended: 43 Prayer, Antipoisons, Energy potions, Ardougne teleport, Ring of dueling
-Enemies to defeat: Jungle Demon (level 195)
-Getting started
-    Talk to the King Narnode. (Chat: 1)
-    Go the Gnome pilot and travel to Gandius.
-    Go inside the Shipyard and talk to GLO Caranock.
-Chapter 1: Getting to Ape Atoll
-    Talk to the King Narnode.
-    Talk to Daero twice. (Chat: 1-4-2-4-3-4-4-1)
-    Solve puzzle.
-    Talk to Lumdo.
-    Talk to Waydar.
-    Talk to Lumbo.
-Chapter 2: Monkey Speak Talismen
-    Run into the monkey archers.
-    Pick-lock the prison door.
-    Talk to Garkor.
-    Search crate for monkey dentures
-    Search the crate M'ammmy Mould.
-    Talk to Zooknock. (Chat: 1)
-    Use the gold bar, monkey dentures, and M'ammy mould on Zooknock to get an enchanted bar.
-Monkey Talismen
-    Make an M'Speak Amulet and equip it.
-    Talk the monkey child three times and give him 5 bananas to get the talismen (Chat: 4-2)
-    Use monkey bones and monkey talismen on Zooknock to get Monkey talismen.
-Monkey Rescue Mission
-    Go to Ardy Zoo, transform into a monkey, and talk to Monkey minder.
-    Talk to a monkey with the 'Talk' option.
-    Transform into a human and talk to the Monkey minder again.
-    You must walk back to the Gnome Stronghold.
-Making an Alliance with King Awowogie
-    Talk to Garkor.
-    Talk to the Elder Guard.
-    Talk to Kruk.
-    Talk to the King Awowogie twice.
-    Talk to the Elder Guard.
-Chapter 3: Jungle Demon
-    Talk to Garkor twice to get a sigil.
-    Wear sigil to teleport to the Demon. (Chat: 1)
-    Defeat the Jungle Demon.
-    Talk to Garkor and Zooknock.
-Finishing up
-    Talk to the King Narnode.
-    Quest complete!
-    Talk to Daero to receive melee experience.
-
 Alfred Grimhand's Barcrawl
 Scorpion Catcher

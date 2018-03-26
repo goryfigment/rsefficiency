@@ -8978,5 +8978,267 @@
         }
       }
     }
+  },
+  "murder_mystery": {
+    "name": "Murder Mystery",
+    "directory": "murder_mystery",
+    "req": [
+      {
+        "items": ["A pot"],
+        "name": "Items"
+      },
+      {
+        "items": ["16 free inventory spaces", "Camelot Teleport"],
+        "name": "Recommended"
+      }
+    ],
+    "steps": {
+      "1": {
+        "step": "Talk to the Guard. (Chat: 1)",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["Sinclair Mansion"],
+            "description": ["Talk to the Guard."]
+          }
+        }
+      },
+      "2": {
+        "step": "Investigate the sacks in the shed and take 7 flypapers. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Sinclair Mansion"],
+            "description": ["Investigate the sacks in the shed and take 7 flypapers."]
+          }
+        }
+      },
+      "3": {
+        "step": "Pick-up the criminal's dagger and pungent pot.",
+        "details": {
+          "1": {
+            "location": ["Sinclair Mansion"],
+            "description": ["Open the large door to Sinclair Mansion."]
+          },
+          "2": {
+            "location": ["Sinclair Mansion"],
+            "description": ["Pick-up the criminal's dagger"]
+          },
+          "3": {
+            "location": ["Sinclair Mansion"],
+            "description": ["Pick-up the pungent pot."]
+          }
+        }
+      },
+      "4": {
+        "step": "Investigate the nearby smashed window (for the criminal's thread).",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Sinclair Mansion"],
+            "description": ["Investigate the nearby smashed window."]
+          }
+        }
+      },
+      "5": {
+        "step": "Search the barrels for 6 silver items.",
+        "subtitle": "Matching fingerprints to the dagger",
+        "details": {
+          "1": {
+            "location": ["Sinclair Mansion"],
+            "description": ["Search Anna's barrel."]
+          },
+          "2": {
+            "location": ["Sinclair Mansion"],
+            "description": ["Search Bob's barrel."]
+          },
+          "3": {
+            "location": ["Sinclair Mansion"],
+            "description": ["Search Carol's barrel."]
+          },
+          "4": {
+            "location": ["Sinclair Mansion"],
+            "description": ["Search David's barrel."]
+          },
+          "5": {
+            "location": ["Sinclair Mansion"],
+            "description": ["Search Frank's barrel."]
+          },
+          "6": {
+            "location": ["Sinclair Mansion"],
+            "description": ["Search Elizabeth's barrel."]
+          }
+        }
+      },
+      "6": {
+        "step": "Fill your pot with flour from the barrel in the kitchen.",
+        "details": {
+          "1": {
+            "location": ["Sinclair Mansion"],
+            "description": ["Fill your pot with flour."]
+          }
+        }
+      },
+      "7": {
+        "step": "Use flour on the dagger and all silver items.",
+        "details": {
+          "1": {
+            "description": ["Use flour on the criminal's dagger. Fill the pot with flour every time."]
+          },
+          "2": {
+            "description": ["Use flour on silver necklace."]
+          },
+          "3": {
+            "description": ["Use flour on silver cup."]
+          },
+          "4": {
+            "description": ["Use flour on silver bottle."]
+          },
+          "5": {
+            "description": ["Use flour on silver book."]
+          },
+          "6": {
+            "description": ["Use flour on silver pot."]
+          },
+          "7": {
+            "description": ["Use flour on silver needle."]
+          }
+        }
+      },
+      "8": {
+        "step": "Use every flypaper on the dagger and all silver.",
+        "details": {
+          "1": {
+            "description": ["Use flypaper on the criminal's dagger. Fill the pot with flour every time."]
+          },
+          "2": {
+            "description": ["Use flypaper on silver necklace."]
+          },
+          "3": {
+            "description": ["Use flypaper on silver cup."]
+          },
+          "4": {
+            "description": ["Use flypaper on silver bottle."]
+          },
+          "5": {
+            "description": ["Use flypaper on silver book."]
+          },
+          "6": {
+            "description": ["Use flypaper on silver pot."]
+          },
+          "7": {
+            "description": ["Use flypaper on silver needle."]
+          }
+        }
+      },
+      "9": {
+        "step": "Use the dagger's print on all the silver items' prints until you find a match. Remember who it is.",
+        "details": {
+          "1": {
+            "description": ["Use unknown print on Anna's print."]
+          },
+          "2": {
+            "description": ["Use unknown print on Bob's print."]
+          },
+          "3": {
+            "description": ["Use unknown print on Carol's print."]
+          },
+          "4": {
+            "description": ["Use unknown print on David's print."]
+          },
+          "5": {
+            "description": ["Use unknown print on Frank's print."]
+          },
+          "6": {
+            "description": ["Use unknown print on Elizabeth's print."]
+          }
+        },
+        "last": true
+      },
+      "10": {
+        "subtitle": "Poison - The culprit",
+        "step": "Talk to the poison salesman. (Chat: 2)",
+        "details": {
+          "1": {
+            "location": ["Seers' Village Pub"],
+            "description": ["Talk to the poison salesman."]
+          }
+        }
+      },
+      "11": {
+        "step": "Talk to the person whose prints matched. (Chat: 4)",
+        "details": {
+          "1": {
+            "location": ["Sinclair Mansion"],
+            "description": ["Anna's location."]
+          },
+          "2": {
+            "location": ["Sinclair Mansion"],
+            "description": ["Frank's location."]
+          },
+          "3": {
+            "location": ["Sinclair Mansion"],
+            "description": ["David's location."]
+          },
+          "4": {
+            "location": ["Sinclair Mansion"],
+            "description": ["Carol's location."]
+          },
+          "5": {
+            "location": ["Sinclair Mansion"],
+            "description": ["Elizabeths's location."]
+          },
+          "6": {
+            "location": ["Sinclair Mansion"],
+            "description": ["Bob's location."]
+          }
+        }
+      },
+      "12": {
+        "step": "Search the item they say they used the poison on.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Sinclair Mansion"],
+            "description": ["Anna - Compost heap"]
+          },
+          "2": {
+            "location": ["Sinclair Mansion"],
+            "description": ["Bob - Beehive"]
+          },
+          "3": {
+            "location": ["Sinclair Mansion"],
+            "description": ["Frank - Family Crest"]
+          },
+          "4": {
+            "location": ["Sinclair Mansion"],
+            "description": ["David - Spider nest"]
+          },
+          "5": {
+            "location": ["Sinclair Mansion"],
+            "description": ["Carol - Kitchen drain"]
+          },
+          "6": {
+            "location": ["Sinclair Mansion"],
+            "description": ["Elizabeth - The fountain"]
+          }
+        }
+      },
+      "13": {
+        "step": "Talk to a guard. (Chat: 3)",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Sinclair Mansion"],
+            "description": ["Talk to a guard."]
+          }
+        }
+      },
+      "14": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }
