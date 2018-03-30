@@ -271,5 +271,170 @@ Miss Cheevers (Bookcase room):
         Use key on door and exit.
     Quest complete!
 
+
+The Golem
+Level Requirements: 20 Crafting, 25 Thieving
+Item Requirements: A vial, Pestle and mortar, hammer, chisel, papyrus, 2 Shantay Pass, 4 Soft clay
+Recommended: Waterskins, Necklace of passage, Draman or Lunar staff for Fairy ring (D-L-Q), Ring of Dueling, Gnome glider (Digsite), Digsite teleport, Varrock teleport
+Getting started
+    Pick-up and read the letter.
+    Talk to the golem. (Chat 1)
+    Use four soft clay on the golem.
+    Talk to the golem.
+Statuette
+    Pick Black mushroom.
+    Climb down stairs.
+    Pick-up the strange implement.
+    Talk to Elissa (Chat 3).
+    Search the bookcase and read Varmen's notes.
+    Talk to Curator Haig Halen. (Chat 3-1)
+    Pickpocket him for the display cabinet key.
+    Go upstairs and open the second case from the left.
+The Portal
+    Grab-feather the Phoenix to obtain a Phoenix feather.
+    Place the statuette in the empty spot.
+    Turn all the statues (Make them face north).
+    Go through the double doors.
+    Optional: Use your chisel on the throne for 2 sapphires, emeralds, and rubies.
+The Golem
+    Talk to the golem.
+    With an empty vial in your inventory, grind the black mushroom (Don't eat it!)
+    Use the phoenix feather on the black mushroom ink.
+    Use the phoenix quill pen on a piece of papyrus to get the golem program.
+    Use the strange implement on the golem.
+    Use the golem program on the golem.
+    Quest complete!
+
+Shadow of the Storm
+Quest Requirements: The Golem, Demon Slayer (Must have gone through the first conversation with Sir Prysin)
+Level Requirements: 30 Crafting
+Item Requirements: Silverlight (Father Badden will give you one for free), A vial (to get Black mushroom ink), Silver bar, Pestle and mortar, 3 Pieces of the Black outfit
+
+Starting out
+    Talk to Father Reen. (Chat 1)
+    Talk to Father Badden near the ruin entrance. (Chat 1-3-1)
+    Pick and grind a black mushroom and dye Silverlight black. (You can find some beside the staircase)
+    Go down the stairs and pick-up a Strange implement.
+    Talk to Evil Dave wearing the 3 black items and your dyed Silverlight. (Chat 2-1)
+Ritual
+    Talk to Denath. (Chat 4)
+    Talk to Jennifer to get a demonic sigil mould. (Chat 2)
+    Talk to Matthew. (Chat 3)
+    Go to any furnace and smelt a demonic sigil. (Use silver bar on furnace and select 'demonic sigil')
+    -Your black outfit can now be discarded and replaced with combat gear.
+    Talk to the clay golem. (Chat 3)
+    Search the nearby kilns for a book.
+    Read the book, and take it to Matthew.
+    Talk to Denath and write down the incantation he tells you. (Chat 4)
+    Complete the circle and click the sigil to chant the incantation. (Unequip the Silverlight if nothing happens.)
+    Pick-up the sigil from the floor, or you will have to make a new one at a furnace.
+    Exit the portal and take Tanya's sigil.
+    Talk to Evil Dave (you should have 4 sigils now). (Chat 2)
+Rallying the troops
+    Talk to Father Badden.
+    Talk to Father Reen. (Chat 3)
+    Talk to the golem. (Chat 3)
+    Use the Strange implement on the golem. (WARNING: If you are to die during the boss battle, all items not kept upon death will disappear.)
+The final fight
+    Talk to Matthew, say it backwards. (Chat 1)
+    Kill the demon with silverlight. (NOTE: Do not run away as the final blow is being dealt or demon will heal.)
+    Equip darklight and choose your reward.
+    Quest complete!
+
+Elemental Workshop I
+Getting Started
+In Seers' Village, go to the house immediately south of the anvil.
+Search the bookcases on the eastern wall to find a battered book.
+Read the book, then use a knife on it to get a Battered key .
+Note: Do not drop the book.
+Go to the building with anvil and open the wall with a crack (with the key in inventory) .
+Go down the stairs.
+Repairing a WorkshopEdit
+Go into the room to the north.
+Turn the water controls east of the water wheel.
+Turn the water controls west of the water wheel.
+Pull the lever by the water wheel.
+(Optional) To obtain Leather, search a crate north of the staircase in the middle room.
+(Optional) To obtain a Needle, search the three crates on the left as you enter the west room.
+Go to the eastern room.
+With a needle, thread, and leather, fix the bellows.
+Pull the lever by the bellows.
+Go to the middle room and search the small boxes in the northeast to get a stone bowl.
+Go to the south room.
+Use a stone bowl on the lava trough to the south.
+Use the bowl of lava on the Furnace in the room.
+Finishing UpEdit
+Go to the western room and mine an elemental rock.
+Kill the Earth elemental and pick up the elemental ore it drops.
+Use the elemental ore and four coal on the furnace in the southern room.
+With the slashed book, go to the middle room and smith an elemental shield by using the elemental metal on the workbench.
+
+
+Elemental Workshop II
+Starting out
+Go to the Exam Centre south of the Digsite. (Ring of dueling to Duel Arena, then walk there.)
+Search the most northeastern of the southeastern bookcases to find a beaten book.
+Read the book, then read the scroll.
+Keep the book.
+The second key
+Head back to the building with the Anvil in seers village and Enter the workshop using the battered key on the odd-looking wall (Like in Elemental Workshop Part 1).
+Go north to the water elemental room and search the machinery to get a key.
+Go west and get 2 elemental ores by killing earth elementals.
+Go south and smelt your ores into bars.
+Use your key on the hatch in the center room and go down the stairs.
+Making RepairsEdit
+The craneEdit
+Search the crate to the south, take both schematics.
+Go back upstairs and use one bar on the workbench to make an elemental claw.
+Return downstairs and use the lever next to the schematics crate to lower the crane (West lever).
+Use your claw on the old crane.
+The junction boxEdit
+Elemental Workshop II pipes
+Climb the stairs to the southwest to get on the catwalk.
+Open the junction box to the west.
+Click the pipe ends to arrange them as shown.
+Pipes and cogsEdit
+Search all crates on the catwalk level and ground floor of the lower workshop until you find a small, medium, and large cog, as well as a pipe.
+Use the pipe on the broken piping at the north end of the catwalk.
+Use the cogs on the pins at the east side of the ground floor.
+Small cog on upper left pin
+Medium cog on lower left pin
+Large cog on right pin.
+Operating the machineEdit
+The craneEdit
+Place an elemental bar on the jig cart.
+Use the lever by the schematics crate to raise the crane.
+Rotate the crane with the south-eastern lever.
+Pull the south-western lever twice to lower the crane into lava and back up.
+Pull the south-eastern lever to rotate the crane over the cart.
+Pull the south-western lever twice to lower the bar onto the cart and raise the crane.
+Pull the nearby lever, north, under the yellow sign to move the cart.
+The pressEdit
+Pull the lever west of the spiral stairs to flatten the bar once the cart has stopped.
+Pull the yellow sign lever again.
+The water tankEdit
+Pull the northernmost lever.
+Turn the corkscrew lever twice.
+Pull the lever again.
+Turn the western water valve to open.
+Turn the eastern water valve to open.
+Turn the western water valve to close.
+Turn the eastern water valve to close.
+Pull the lever.
+Turn the corkscrew lever twice.
+Pull the lever.
+Pull the yellow sign lever again.
+DryingEdit
+Pull the easternmost lever twice.
+Pull the yellow sign lever again.
+Finishing upEdit
+Collect your primed bar.
+Head down the stairs to the northwest.
+Go through the eastern door, use your primed bar with the extractor gun, then operate the Extractor hat. Your magic level will be drained by 20.
+Take your primed mind bar
+Go upstairs and smith a mind helmet.
+Quest complete!
+
+
 Alfred Grimhand's Barcrawl
 Scorpion Catcher

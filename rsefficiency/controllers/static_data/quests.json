@@ -9689,5 +9689,266 @@
         }
       }
     }
+  },
+  "the_golem": {
+    "name": "The Golem",
+    "directory": "the_golem",
+    "req": [
+      {
+        "items": ["20 Crafting", "25 Thieving"],
+        "name": "Level Requirements"
+      },
+      {
+        "items": ["A vial", "Pestle and mortar", "hammer", "chisel", "papyrus", "2 Shantay Pass", "4 Soft clay"],
+        "name": "Item Requirements"
+      },
+      {
+        "items": ["Waterskins", "Necklace of passage", "Draman or Lunar staff for Fairy ring (D-L-Q)", "Ring of Dueling", "Gnome glider (Digsite)", "Digsite teleport", "Varrock teleport"],
+        "name": "Recommended"
+      }
+    ],
+    "steps": {
+      "1": {
+        "step": "Pick-up and read the letter.",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Pick-up and read the letter."]
+          }
+        }
+      },
+      "2": {
+        "step": "Talk to the golem. (Chat 1)",
+        "details": {
+          "1": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Talk to the golem."]
+          }
+        }
+      },
+      "3": {
+        "step": "Use four soft clay on the golem.",
+        "details": {
+          "1": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Use four soft clay on the golem."]
+          }
+        }
+      },
+      "4": {
+        "step": "Talk to the golem.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Talk to the golem."]
+          }
+        }
+      },
+      "5": {
+        "step": "Pick the Black mushroom.",
+        "subtitle": "Statuette",
+        "details": {
+          "1": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Pick Black mushroom."]
+          }
+        }
+      },
+      "6": {
+        "step": "Climb down stairs.",
+        "details": {
+          "1": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Climb down stairs."]
+          }
+        }
+      },
+      "7": {
+        "step": "Pick-up the strange implement.",
+        "details": {
+          "1": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Pick-up the strange implement."]
+          }
+        }
+      },
+      "8": {
+        "step": "Talk to Elissa. (Chat 3).",
+        "details": {
+          "1": {
+            "location": ["Digsite"],
+            "description": ["Talk to Elissa."]
+          }
+        }
+      },
+      "9": {
+        "step": "Search the most south-eastern bookcase and read Varmen's notes.",
+        "details": {
+          "1": {
+            "location": ["Exam Centre"],
+            "description": ["Search the bookcase and read Varmen's notes."]
+          }
+        }
+      },
+      "10": {
+        "step": "Talk to Curator Haig Halen. (Chat 3-1)",
+        "details": {
+          "1": {
+            "location": ["Varrock Museum"],
+            "description": ["Talk to Curator Haig Halen."]
+          }
+        }
+      },
+      "11": {
+        "step": "Pickpocket him for the display cabinet key.",
+        "details": {
+          "1": {
+            "location": ["Varrock Museum"],
+            "description": ["Pickpocket him for the display cabinet key."]
+          }
+        }
+      },
+      "12": {
+        "step": "Go upstairs and open the second case from the left.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Varrock Museum"],
+            "description": ["Go upstairs."]
+          },
+          "2": {
+            "location": ["Second floor of the Varrock Museum"],
+            "description": ["Open the second case from the left."]
+          }
+        }
+      },
+      "13": {
+        "step": "Grab-feather from the Phoenix to obtain a Phoenix feather.",
+        "subtitle": "The Portal",
+        "details": {
+          "1": {
+            "location": ["North-west of Ruins of Uzer"],
+            "description": ["Grab-feather the Phoenix to obtain a Phoenix feather."]
+          }
+        }
+      },
+      "14": {
+        "step": "Place the statuette in the empty spot.",
+        "details": {
+          "1": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Place the statuette in the empty spot."]
+          }
+        }
+      },
+      "15": {
+        "step": "Turn all the statues (Make them face north).",
+        "details": {
+          "1": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Turn the east statue to the right."]
+          },
+          "2": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Turn the east statue to the right."]
+          },
+          "3": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Turn the west statue to the left."]
+          },
+          "4": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Turn the west statue to the left."]
+          }
+        }
+      },
+      "16": {
+        "step": "Go through the double doors.",
+        "details": {
+          "1": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Go through the double doors."]
+          }
+        }
+      },
+      "17": {
+        "step": "Optional: Use the chisel on the throne for 2 sapphires, emeralds, and rubies.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Optional: Use your chisel on the throne for 2 sapphires, emeralds, and rubies."]
+          }
+        }
+      },
+      "18": {
+        "step": "Talk to the golem.",
+        "subtitle": "The Golem",
+        "details": {
+          "1": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Exit the portal."]
+          },
+          "2": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Climb up the staircase."]
+          },
+          "3": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Talk to the golem."]
+          }
+        }
+      },
+      "19": {
+        "step": "With an empty vial in your inventory, grind the black mushroom (Don't eat it!)",
+        "details": {
+          "1": {
+            "description": ["With an empty vial in your inventory, grind the black mushroom"]
+          }
+        }
+      },
+      "20": {
+        "step": "Use the phoenix feather on the black mushroom ink.",
+        "details": {
+          "1": {
+            "description": ["Use the phoenix feather on the black mushroom ink."]
+          }
+        }
+      },
+      "21": {
+        "step": "Use the phoenix quill pen on a piece of papyrus to get the golem program.",
+        "details": {
+          "1": {
+            "description": ["Use the phoenix quill pen on a piece of papyrus to get the golem program."]
+          }
+        }
+      },
+      "22": {
+        "step": "Use the strange implement on the golem.",
+        "details": {
+          "1": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Use the strange implement on the golem."]
+          }
+        }
+      },
+      "23": {
+        "step": "Use the golem program on the golem.",
+        "details": {
+          "1": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Use the golem program on the golem."]
+          }
+        }
+      },
+      "24": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }
