@@ -209,33 +209,6 @@ Items needed: Mahogany plank and Soft leather
     Talk to Larry.
     Quest complete!
 
-Murder Mystery
-Items: A pot
-Recommended: Camelot Teleport, 16 free inventory spaces
-Getting started
-    Talk to the Guard. (Chat: 1)
-    Investigate the sacks in the shed and take 7 flypapers.
-    Pick-up the criminal's dagger and pungent pot.
-    Investigate the nearby smashed window (for the criminal's thread).
-Matching fingerprints to the dagger
-    Search the barrels for 6 silver items.
-    Fill your pot with flour from the barrel in the kitchen.
-    Use flour on all the silver items and dagger.
-    Use every flypaper on all the silver items and dagger.
-    Use the dagger's print on all the silver items' prints until you find a match. Remember who it is.
-    Poison - The culprit
-    Talk to the poison salesman. (Seers' Village pub) (Chat: 2)
-    Talk to the person whose prints matched. (Chat: 4)
-    Search the item they say they used the poison on.
-        Anna - Compost heap
-        Bob - Beehive in cow pen
-        Frank - Family Crest, east of the front door
-        David - Spider nest (2nd floor)
-        Carol - Kitchen drain, west of the front door
-        Elizabeth - The fountain
-Finishing up
-    Talk to a guard. (Chat: 3)
-    Quest complete!
 
 Recruitment Drive
 

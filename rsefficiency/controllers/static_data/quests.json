@@ -9240,5 +9240,454 @@
         }
       }
     }
+  },
+  "the_dig_site": {
+    "name": "The Dig Site",
+    "directory": "the_dig_site",
+    "req": [
+      {
+        "items": ["Druidic Ritual"],
+        "name": "Quest Requirements"
+      },
+      {
+        "items": ["10 Agility", "10 Herblore", "25 Thieving"],
+        "name": "Level Requirements"
+      },
+      {
+        "items": ["Pestle and mortar", "A vial", "Tinderbox", "Cup of tea", "2 Ropes", "Uncut Opal or Opal", "Charcoal"],
+        "name": "Items"
+      },
+      {
+        "items": ["Varrock Teleports", "Digsite Teleports"],
+        "name": "Recommended"
+      }
+    ],
+    "steps": {
+      "1": {
+        "step": "Talk to the examiner. (Chat: 1)",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["Exam Center"],
+            "description": ["Talk to the examiner."]
+          }
+        }
+      },
+      "2": {
+        "step": "Talk to Curator Haig Halen. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Varrock Museum"],
+            "description": ["Talk to Curator Haig Halen."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to an examiner. (Chat: 1-1-1)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Exam Center"],
+            "description": ["Talk to an examiner."]
+          }
+        }
+      },
+      "4": {
+        "step": "Search the bushes for a teddy bear.",
+        "subtitle": "Lost and found",
+        "details": {
+          "1": {
+            "location": ["Digsite"],
+            "description": ["Search the bushes for a teddy bear."]
+          }
+        }
+      },
+      "5": {
+        "step": "Take the panning tray.",
+        "details": {
+          "1": {
+            "location": ["Digsite"],
+            "description": ["Take the panning tray."]
+          }
+        }
+      },
+      "6": {
+        "step": "Talk to the panning guide and give him a cup of tea.",
+        "details": {
+          "1": {
+            "location": ["Digsite"],
+            "description": ["Talk to the panning guide and give him a cup of tea."]
+          }
+        }
+      },
+      "7": {
+        "step": "Pan the water until you get a special cup (browse through dialog if stopped).",
+        "details": {
+          "1": {
+            "location": ["Digsite"],
+            "description": ["Pan the water until you get a Special cup"]
+          },
+          "2": {
+            "description": ["Chat dialog"]
+          }
+        }
+      },
+      "8": {
+        "step": "Pickpocket a workman until you get a skull and specimen brush.",
+        "details": {
+          "1": {
+            "location": ["Digsite"],
+            "description": ["Pickpocket a workman until you get a skull and specimen brush."]
+          },
+          "2": {
+            "description": ["Chat dialog"]
+          }
+        }
+      },
+      "9": {
+        "step": "Talk to the green shirt student two times.",
+        "details": {
+          "1": {
+            "location": ["Digsite"],
+            "description": ["Talk to the green shirt student two times."]
+          }
+        }
+      },
+      "10": {
+        "step": "Talk to the orange shirt student two times.",
+        "details": {
+          "1": {
+            "location": ["Digsite"],
+            "description": ["Talk to the orange shirt student two times."]
+          }
+        }
+      },
+      "11": {
+        "step": "Talk to the purple shirt student two times.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Digsite"],
+            "description": ["Talk to the purple shirt student two times."]
+          }
+        }
+      },
+      "12": {
+        "step": "Talk to an examiner. (Chat 1-1-3-2)",
+        "subtitle": "Exams",
+        "details": {
+          "1": {
+            "location": ["Exam Center"],
+            "description": ["Talk to an examiner to take Exam 1:", "Answer #1: The study of the earth, its contents and history.", "Answer #2: All that have passed the appropriate Earth Sciences exam.", "Answer #3: Gloves and boots to be worn at all times; proper tools must be used."]
+          }
+        }
+      },
+      "13": {
+        "step": "Talk to all 3 students again.",
+        "details": {
+          "1": {
+            "location": ["Digsite"],
+            "description": ["Talk to the green shirt student."]
+          },
+          "2": {
+            "location": ["Digsite"],
+            "description": ["Talk to the orange shirt student."]
+          },
+          "3": {
+            "location": ["Digsite"],
+            "description": ["Talk to the purple shirt student."]
+          }
+        }
+      },
+      "14": {
+        "step": "Talk to an examiner. (Chat 1-3-1-2)",
+        "details": {
+          "1": {
+            "location": ["Exam Center"],
+            "description": ["Talk to an examiner to take Exam 2:", "Answer #1: Samples taken in rough form; kept only in sealed containers.", "Answer #2: Finds must be carefully handled, and gloves worn.", "Answer #3: Always handle with care; strike cleanly on its cleaving point."]
+          }
+        }
+      },
+      "15": {
+        "step": "Talk to all 3 students and give the female student an opal.",
+        "details": {
+          "1": {
+            "location": ["Digsite"],
+            "description": ["Talk to the green shirt student."]
+          },
+          "2": {
+            "location": ["Digsite"],
+            "description": ["Talk to the orange shirt student."]
+          },
+          "3": {
+            "location": ["Digsite"],
+            "description": ["You can obtained an uncut opal from the searching the specimen tray with a specimen jar in inventory."]
+          },
+          "4": {
+            "location": ["Digsite"],
+            "description": ["Talk to the purple shirt student two times to give her an opal."]
+          }
+        }
+      },
+      "16": {
+        "step": "Talk to an examiner. (Chat 1-1-1-3)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Exam Center"],
+            "description": ["Talk to an examiner to take Exam 3:", "Answer #1: Samples cleaned, and carried only in specimen jars.", "Answer #2: Brush carefully and slowly using short strokes.", "Answer #3: Handle bones very carefully and keep them away from other samples."]
+          }
+        }
+      },
+      "17": {
+        "step": "Search the north and south cupboards to get a specimen jar and rock pick.",
+        "subtitle": "Helping the expert",
+        "details": {
+          "1": {
+            "location": ["Exam Center"],
+            "description": ["Search the north cupboard to get a specimen jark."]
+          },
+          "2": {
+            "location": ["Exam Center"],
+            "description": ["Search the south cupboard to get a rock pick."]
+          }
+        }
+      },
+      "18": {
+        "step": "Talk to the archaeological expert. (Chat 3-1)",
+        "details": {
+          "1": {
+            "location": ["Exam Center"],
+            "description": ["Talk to the archaeological expert."]
+          }
+        }
+      },
+      "19": {
+        "step": "Use the trowel on the soil until you find an ancient talisman.",
+        "details": {
+          "1": {
+            "location": ["Digsite"],
+            "description": ["Use the trowel on the soil until you find an ancient talisman."]
+          },
+          "2": {
+            "description": ["Chat dialog"]
+          }
+        }
+      },
+      "20": {
+        "step": "Talk to the archaeological expert.",
+        "details": {
+          "1": {
+            "location": ["Exam Center"],
+            "description": ["Talk to the archaeological expert."]
+          }
+        }
+      },
+      "21": {
+        "step": "Use the invitation on any talk-able Digsite workman.",
+        "details": {
+          "1": {
+            "location": ["Digsite"],
+            "description": ["Use the invitation on any Digsite workman with the 'Talk' option."]
+          }
+        }
+      },
+      "22": {
+        "step": "Use a rope on the western winch, climb down.",
+        "details": {
+          "1": {
+            "location": ["Digsite"],
+            "description": ["Use a rope on the western winch."]
+          },
+          "2": {
+            "location": ["Digsite"],
+            "description": ["Climb down the winch."]
+          }
+        }
+      },
+      "23": {
+        "step": "Pick-up an Arcenia root, search the bricks to the east, then climb back up.",
+        "details": {
+          "1": {
+            "location": ["Digsite Dungeon"],
+            "description": ["Pick up an Arcenia root."]
+          },
+          "2": {
+            "location": ["Digsite Dungeon"],
+            "description": ["Search the bricks to the east."]
+          },
+          "3": {
+            "location": ["Digsite Dungeon"],
+            "description": ["Climb back up."]
+          }
+        }
+      },
+      "24": {
+        "step": "Use a rope on the eastern winch, climb down.",
+        "details": {
+          "1": {
+            "location": ["Digsite"],
+            "description": ["Use a rope on the eastern winch."]
+          },
+          "2": {
+            "location": ["Digsite"],
+            "description": ["Climb down the winch."]
+          }
+        }
+      },
+      "25": {
+        "step": "Talk to Doug Deeping. (Chat 4)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Digsite Dungeon"],
+            "description": ["Talk to Doug Deeping about the rocks."]
+          }
+        }
+      },
+      "26": {
+        "step": "Use key and search the chest to get Chemical powder.",
+        "subtitle": "Explosives expert",
+        "details": {
+          "1": {
+            "location": ["Exam Center"],
+            "description": ["Use key on the chest."]
+          },
+          "2": {
+            "location": ["Exam Center"],
+            "description": ["Search the chest to get Chemical powder."]
+          }
+        }
+      },
+      "27": {
+        "step": "Use the trowel on the closed barrel.",
+        "details": {
+          "1": {
+            "location": ["Digsite"],
+            "description": ["Use the trowel on the closed barrel."]
+          }
+        }
+      },
+      "28": {
+        "step": "Use a vial on the barrel to get unidentified liquid.",
+        "details": {
+          "1": {
+            "location": ["Digsite"],
+            "description": ["Use a vial on the barrel to get unidentified liquid."]
+          }
+        }
+      },
+      "29": {
+        "step": "Right-click and use the unidentified liquid (DON'T EMPTY) and the chemical powder on the archaeological expert.",
+        "details": {
+          "1": {
+            "location": ["Exam Center"],
+            "description": ["Right-click and use the unidentified liquid on the archaeological expert."]
+          },
+          "2": {
+            "location": ["Exam Center"],
+            "description": ["Use the chemical powder on the archaeological expert."]
+          }
+        }
+      },
+      "30": {
+        "step": "Grind the charcoal with your pestle and mortar.",
+        "details": {
+          "1": {
+            "location": ["Digsite"],
+            "description": ["You can obtained charcoal from the searching the specimen tray with a specimen jar in inventory."]
+          },
+          "2": {
+            "description": ["Grind the charcoal with your pestle and mortar."]
+          }
+        }
+      },
+      "31": {
+        "step": "Use the ammonium nitrate on the nitroglycerin.",
+        "details": {
+          "1": {
+            "description": ["Use the ammonium nitrate on the nitroglycerin."]
+          }
+        }
+      },
+      "32": {
+        "step": "Use the grind charcoal on the mixed chemicals.",
+        "details": {
+          "1": {
+            "description": ["Use the grind charcoal on the mixed chemicals."]
+          }
+        }
+      },
+      "33": {
+        "step": "Use the arcenia roots on the mixed chemicals.",
+        "details": {
+          "1": {
+            "description": ["Use the arcenia roots on the mixed chemicals."]
+          }
+        }
+      },
+      "34": {
+        "step": "Climb down the western winch.",
+        "details": {
+          "1": {
+            "location": ["Digsite"],
+            "description": ["Climb down the western winch."]
+          }
+        }
+      },
+      "35": {
+        "step": "Use the chemical compound on the brick (not the rocks).",
+        "details": {
+          "1": {
+            "location": ["Digsite Dungeon"],
+            "description": ["Use the chemical compound on the brick"]
+          }
+        }
+      },
+      "36": {
+        "step": "Use your tinderbox on the brick.",
+        "details": {
+          "1": {
+            "location": ["Digsite Dungeon"],
+            "description": ["Use your tinderbox on the brick."]
+          }
+        }
+      },
+      "37": {
+        "step": "Pick-up the stone tablet.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Digsite Dungeon"],
+            "description": ["Pick-up the stone tablet."]
+          }
+        }
+      },
+      "38": {
+        "step": "Use stone tablet on the archaeological expert.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Exam Center"],
+            "description": ["Use stone tablet on the archaeological expert."]
+          }
+        }
+      },
+      "39": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      },
+      "40": {
+        "step": "Talk to the Curator and give him the certificates for a chocolate cake or fruit blast.",
+        "details": {
+          "1": {
+            "location": ["Varrock Museum"],
+            "description": ["Talk to the Curator and give him the certificates for a chocolate cake or fruit blast."]
+          }
+        }
+      }
+    }
   }
 }
