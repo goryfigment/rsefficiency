@@ -243,11 +243,11 @@ Sir Spishyus (Grain, Chicken and Wolf):
     Grab chicken then cross.
     Unequip chicken then open the door.
 Miss Hynn Terprett (sitting on throne):
-    "Death sentence" riddle - Fed to wolves
-    "Husband and daughter" riddle - 10
-    "Identical stones" riddle - Bucket A (32 degrees)
-    "Fingers on left hand" riddle - 0
-    "Which is true" riddle - Three False
+    Riddle: 'Death sentence', Answer - Fed to wolves
+    Riddle: 'Husband and daughter', Answer - 10
+    Riddle: 'Identical stones', Answer - Bucket A (32 degrees)
+    Riddle: 'Fingers on left hand', Answer - 0
+    Riddle: 'Which is true', Answer: Three False
 Miss Cheevers (Bookcase room):
     First door:
         Starting from the south-western corner, search:
@@ -272,37 +272,26 @@ Miss Cheevers (Bookcase room):
     Quest complete!
 
 
-The Golem
-Level Requirements: 20 Crafting, 25 Thieving
-Item Requirements: A vial, Pestle and mortar, hammer, chisel, papyrus, 2 Shantay Pass, 4 Soft clay
-Recommended: Waterskins, Necklace of passage, Draman or Lunar staff for Fairy ring (D-L-Q), Ring of Dueling, Gnome glider (Digsite), Digsite teleport, Varrock teleport
-Getting started
-    Pick-up and read the letter.
-    Talk to the golem. (Chat 1)
-    Use four soft clay on the golem.
-    Talk to the golem.
-Statuette
-    Pick Black mushroom.
-    Climb down stairs.
-    Pick-up the strange implement.
-    Talk to Elissa (Chat 3).
-    Search the bookcase and read Varmen's notes.
-    Talk to Curator Haig Halen. (Chat 3-1)
-    Pickpocket him for the display cabinet key.
-    Go upstairs and open the second case from the left.
-The Portal
-    Grab-feather the Phoenix to obtain a Phoenix feather.
-    Place the statuette in the empty spot.
-    Turn all the statues (Make them face north).
-    Go through the double doors.
-    Optional: Use your chisel on the throne for 2 sapphires, emeralds, and rubies.
-The Golem
-    Talk to the golem.
-    With an empty vial in your inventory, grind the black mushroom (Don't eat it!)
-    Use the phoenix feather on the black mushroom ink.
-    Use the phoenix quill pen on a piece of papyrus to get the golem program.
-    Use the strange implement on the golem.
-    Use the golem program on the golem.
+
+Recruitment Drive
+Quest Requirements: 12 Quest points, Black Knights' Fortress, Druidic Ritual
+Item Requirements: 3,000 Coins (if male character)
+Sir Ren Itchood (Standing on a Crate):
+    Talk to Sir Ren Itchood. (Chat: 1)
+    The answer is the first letter of each sentence.
+Sir Tinley (Patience):
+    Left-click on Sir Tinley, finish the conversation.
+    Press nothing until he speaks to you again.
+Sir Spishyus (Grain, Chicken and Wolf):
+    Grab chicken and cross.
+    Unequip the chicken then cross back.
+    Grab grain then cross.
+    Unequip grain and pick up the chicken then cross back.
+    Unequip chicken and grab fox then cross.
+    Unequip fox then cross back.
+    Grab chicken then cross.
+    Unequip chicken then open the door.
+Finishing up.
     Quest complete!
 
 Shadow of the Storm

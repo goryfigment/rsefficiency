@@ -1,259 +1,436 @@
 {
-  "the_golem": {
-    "name": "The Golem",
-    "directory": "the_golem",
+  "recruitment_drive": {
+    "name": "Recruitment Drive",
+    "directory": "recruitment_drive",
     "req": [
       {
-        "items": ["20 Crafting", "25 Thieving"],
-        "name": "Level Requirements"
+        "items": ["12 Quest points", "Black Knights' Fortress", "Druidic Ritual"],
+        "name": "Quest Requirements"
       },
       {
-        "items": ["A vial", "Pestle and mortar", "hammer", "chisel", "papyrus", "2 Shantay Pass", "4 Soft clay"],
+        "items": ["3,000 Coins (if male character)"],
         "name": "Item Requirements"
-      },
-      {
-        "items": ["Waterskins", "Necklace of passage", "Draman or Lunar staff for Fairy ring (D-L-Q)", "Ring of Dueling", "Gnome glider (Digsite)", "Digsite teleport", "Varrock teleport"],
-        "name": "Recommended"
       }
     ],
     "steps": {
       "1": {
-        "step": "Pick-up and read the letter.",
+        "step": "Talk to Sir Amik Varze. (Chat: 1)",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Pick-up and read the letter."]
+            "location": ["Third floor of Falador Castle"],
+            "description": ["Talk to Sir Amik Varze to start the quest."]
           }
         }
       },
       "2": {
-        "step": "Talk to the golem. (Chat 1)",
+        "step": "If your character is male, take 3000 coins to the Make-over mage and become female. (Chat: 1)",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Talk to the golem."]
+            "location": ["South-west of Falador"],
+            "description": ["If your character is male, take 3000 coins to the Make-over mage and become female."]
           }
         }
       },
       "3": {
-        "step": "Use four soft clay on the golem.",
+        "step": "Bank all equipped items and inventory.",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Use four soft clay on the golem."]
+            "location": ["Falador"],
+            "description": ["Bank all equipped items and inventory."]
           }
         }
       },
       "4": {
-        "step": "Talk to the golem.",
-        "last": true,
+        "step": "Talk to Sir Tiffy Cashien. (Chat 3)",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Talk to the golem."]
+            "location": ["Falador Park"],
+            "description": ["Talk to Sir Tiffy Cashien."]
           }
         }
       },
       "5": {
-        "step": "Pick the Black mushroom.",
-        "subtitle": "Statuette",
+        "step": "5 of the following 7 puzzle rooms will appear in a random order. You will always fight Sir Kuam Ferentse.",
+        "last": true,
         "details": {
-          "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Pick Black mushroom."]
-          }
+          "1": {}
         }
       },
       "6": {
-        "step": "Climb down stairs.",
+        "last": true,
+        "step": "Beat Sir Leye. Prayer is allowed.",
+        "subtitle": "Sir Kuam Ferentse (No man can defeat him):",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Climb down stairs."]
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Beat Sir Leye. Prayer is allowed."]
           }
         }
       },
       "7": {
-        "step": "Pick-up the strange implement.",
+        "step": "Quickly look for the colour (bronze, silver, gold) that is only has three statues.",
+        "subtitle": "Lady Table (Statue Room):",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Pick-up the strange implement."]
+            "location": ["Recruitment Drive Instance"],
+            "description": ["In this case, the white statues have three of the four statues (this is different for everyone)."]
           }
         }
       },
       "8": {
-        "step": "Talk to Elissa. (Chat 3).",
+        "step": "Check which weapon is missing from that colour. (sword, halberd, axe, mace)",
         "details": {
           "1": {
-            "location": ["Digsite"],
-            "description": ["Talk to Elissa."]
+            "location": ["Recruitment Drive Instance"],
+            "description": ["In this case, we are missing the statue with the axe."]
           }
         }
       },
       "9": {
-        "step": "Search the most south-eastern bookcase and read Varmen's notes.",
+        "step": "Select the one that was added after the time is up.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Exam Centre"],
-            "description": ["Search the bookcase and read Varmen's notes."]
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Touch the right statue. In this case, the axe statue would be the answer."]
           }
         }
       },
       "10": {
-        "step": "Talk to Curator Haig Halen. (Chat 3-1)",
+        "step": "Talk to Sir Ren Itchood. (Chat: 1)",
+        "subtitle": "Sir Ren Itchood (Standing on a Crate):",
         "details": {
           "1": {
-            "location": ["Varrock Museum"],
-            "description": ["Talk to Curator Haig Halen."]
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Talk to Sir Ren Itchood."]
           }
         }
       },
       "11": {
-        "step": "Pickpocket him for the display cabinet key.",
+        "step": "The answer is the first letter of each sentence.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Varrock Museum"],
-            "description": ["Pickpocket him for the display cabinet key."]
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Attempt to open the door."]
+          },
+          "2": {
+            "location": ["Recruitment Drive Instance"],
+            "description": ["The answer is the first letter of each sentence."]
           }
         }
       },
       "12": {
-        "step": "Go upstairs and open the second case from the left.",
-        "last": true,
+        "step": "Talk to Sir Tinley, finish the conversation.",
+        "subtitle": "Sir Tinley (Patience):",
         "details": {
           "1": {
-            "location": ["Varrock Museum"],
-            "description": ["Go upstairs."]
-          },
-          "2": {
-            "location": ["Second floor of the Varrock Museum"],
-            "description": ["Open the second case from the left."]
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Talk to Sir Tinley, finish the conversation."]
           }
         }
       },
       "13": {
-        "step": "Grab-feather the Phoenix to obtain a Phoenix feather.",
-        "subtitle": "The Portal",
+        "step": "Press nothing until he speaks to you again.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["North-west of Ruins of Uzer"],
-            "description": ["Grab-feather the Phoenix to obtain a Phoenix feather."]
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Press nothing until he speaks to you again."]
           }
         }
       },
       "14": {
-        "step": "Place the statuette in the empty spot.",
+        "step": "Grab chicken and cross.",
+        "subtitle": "Sir Spishyus (Grain, Chicken and Wolf):",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Place the statuette in the empty spot."]
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Grab the chicken."]
+          },
+          "2": {
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Cross the bridge."]
           }
         }
       },
       "15": {
-        "step": "Turn all the statues (Make them face north).",
+        "step": "Un-equip the chicken then cross back.",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Turn the east statue to the right."]
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Un-equip the chicken then cross back."]
           },
           "2": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Turn the east statue to the right."]
-          },
-          "3": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Turn the west statue to the left."]
-          },
-          "4": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Turn the west statue to the left."]
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Cross the bridge back."]
           }
         }
       },
       "16": {
-        "step": "Go through the double doors.",
+        "step": "Grab grain then cross.",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Go through the double doors."]
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Grab grain."]
+          },
+          "2": {
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Cross the bridge."]
           }
         }
       },
       "17": {
-        "step": "Optional: Use the chisel on the throne for 2 sapphires, emeralds, and rubies.",
-        "last": true,
+        "step": "Un-equip grain and pick up the chicken then cross back.",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Optional: Use your chisel on the throne for 2 sapphires, emeralds, and rubies."]
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Un-equip the grain and pick-up the chicken."]
+          },
+          "2": {
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Cross the bridge back."]
           }
         }
       },
       "18": {
-        "step": "Talk to the golem.",
-        "subtitle": "The Golem",
+        "step": "Un-equip chicken and grab fox then cross.",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Exit the portal."]
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Un-equip chicken and grab fox."]
           },
           "2": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Climb up the staircase."]
-          },
-          "3": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Talk to the golem."]
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Cross the bridge."]
           }
         }
       },
       "19": {
-        "step": "With an empty vial in your inventory, grind the black mushroom (Don't eat it!)",
+        "step": "Un-equip fox then cross back.",
         "details": {
           "1": {
-            "description": ["With an empty vial in your inventory, grind the black mushroom"]
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Un-equip fox then cross back."]
           }
         }
       },
       "20": {
-        "step": "Use the phoenix feather on the black mushroom ink.",
+        "step": "Grab chicken then cross.",
         "details": {
           "1": {
-            "description": ["Use the phoenix feather on the black mushroom ink."]
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Grab chicken."]
+          },
+          "2": {
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Cross the bridge."]
           }
         }
       },
       "21": {
-        "step": "Use the phoenix quill pen on a piece of papyrus to get the golem program.",
+        "step": "Un-equip chicken then open the door.",
+        "last": true,
         "details": {
           "1": {
-            "description": ["Use the phoenix quill pen on a piece of papyrus to get the golem program."]
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Un-equip chicken then open the door."]
           }
         }
       },
       "22": {
-        "step": "Use the strange implement on the golem.",
+        "last": true,
+        "step": "Solve the riddle (answers are below):",
+        "subtitle": "Miss Hynn Terprett (Sitting on Throne):",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Use the strange implement on the golem."]
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Riddle: 'Death sentence', Answer - Fed to wolves", "Riddle: 'Husband and daughter', Answer - 10", "Riddle: 'Identical stones', Answer - Bucket A (32 degrees)", "Riddle: 'Fingers on left hand', Answer - 0", "Riddle: 'Which is true', Answer: Three False"]
           }
         }
       },
       "23": {
-        "step": "Use the golem program on the golem.",
+        "step": "Search the south-western bookcase for a knife.",
+        "subtitle": "Miss Cheevers (Bookcase room):",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Use the golem program on the golem."]
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Search the south-western bookcase for a knife."]
           }
         }
       },
       "24": {
+        "step": "Take ALL vials on the four southern bookcases. (Chat: 3) (Chat: 1) (Chat: 1) (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Take ALL vials on the first bookcase."]
+          },
+          "2": {
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Take ALL vials on the second bookcase."]
+          },
+          "3": {
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Take ALL vials on the third bookcase."]
+          },
+          "4": {
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Take ALL vials on the fourth bookcase."]
+          }
+        }
+      },
+      "25": {
+        "step": "Search the middle-sized crate for a cake tin.",
+        "details": {
+          "1": {
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Search the middle-sized crate for a cake tin."]
+          }
+        }
+      },
+      "26": {
+        "step": "Take ALL vials on the four southern bookcases. (Chat: 1) (Chat: 1) (Chat: 1) (Chat: 3)",
+        "details": {
+          "1": {
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Take ALL vials on the first bookcase."]
+          },
+          "2": {
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Take ALL vials on the second bookcase."]
+          },
+          "3": {
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Take ALL vials on the third bookcase."]
+          },
+          "4": {
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Take ALL vials on the fourth bookcase."]
+          }
+        }
+      },
+      "27": {
+        "step": "Pick-up the spade from the table and use it on the bunsen burner.",
+        "details": {
+          "1": {
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Take the spade from the table."]
+          },
+          "2": {
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Use the spade on the bunsen burner."]
+          }
+        }
+      },
+      "28": {
+        "step": "Use metal spade on the door.",
+        "details": {
+          "1": {
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Use metal spade on the door."]
+          }
+        }
+      },
+      "29": {
+        "step": "Use cupric sulfate on door.",
+        "details": {
+          "1": {
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Use cupric sulfate on door."]
+          }
+        }
+      },
+      "30": {
+        "step": "Use a vial of liquid on door.",
+        "details": {
+          "1": {
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Use a vial of liquid on door."]
+          }
+        }
+      },
+      "31": {
+        "step": "Pull-spade to open the first door.",
+        "details": {
+          "1": {
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Pull-spade to open the first door."]
+          }
+        }
+      },
+      "32": {
+        "step": "Use a vial of liquid on the tin.",
+        "details": {
+          "1": {
+            "description": ["Use a vial of liquid on the tin."]
+          }
+        }
+      },
+      "33": {
+        "step": "Use gypsum on tin.",
+        "details": {
+          "1": {
+            "description": ["Use gypsum on tin."]
+          }
+        }
+      },
+      "34": {
+        "step": "Use tin on a key by the entrance portal.",
+        "details": {
+          "1": {
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Use tin on a key by the entrance portal."]
+          }
+        }
+      },
+      "35": {
+        "step": "Use cupric ore powder on tin.",
+        "details": {
+          "1": {
+            "description": ["Use cupric ore powder on tin."]
+          }
+        }
+      },
+      "36": {
+        "step": "Use tin ore powder on tin.",
+        "details": {
+          "1": {
+            "description": ["Use tin ore powder on tin."]
+          }
+        }
+      },
+      "37": {
+        "step": "Use tin on Bunsen burner.",
+        "details": {
+          "1": {
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Use tin on Bunsen burner."]
+          }
+        }
+      },
+      "38": {
+        "step": "Use knife on tin.",
+        "details": {
+          "1": {
+            "description": ["Use knife on tin."]
+          }
+        }
+      },
+      "39": {
+        "step": "Use key on door and exit.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Recruitment Drive Instance"],
+            "description": ["Use key on door and exit."]
+          }
+        }
+      },
+      "40": {
         "step": "Quest complete!",
+        "subtitle": "Finishing up.",
         "details": {
           "1": {}
         }
