@@ -1,436 +1,326 @@
 {
-  "recruitment_drive": {
-    "name": "Recruitment Drive",
-    "directory": "recruitment_drive",
+  "shadow_of_the_storm": {
+    "name": "Shadow of the Storm",
+    "directory": "shadow_of_the_storm",
     "req": [
       {
-        "items": ["12 Quest points", "Black Knights' Fortress", "Druidic Ritual"],
+        "items": ["The Golem", "Demon Slayer (Must have gone through the first conversation with Sir Prysin)"],
         "name": "Quest Requirements"
       },
       {
-        "items": ["3,000 Coins (if male character)"],
+        "items": ["30 Crafting"],
+        "name": "Level Requirements"
+      },
+      {
+        "items": ["Silverlight (Father Badden will give you one for free)", "A vial", "Silver bar", "Pestle and mortar", "Desert shirt", "Desert robe", "Wizard hat (Any color)"],
         "name": "Item Requirements"
+      },
+      {
+        "items": ["Armour", "Food", "Waterskins", "Ring of Dueling (Dueling Arena)", "Necklace of passage (Eagles' Eerie)"],
+        "name": "Recommended"
+      },
+      {
+        "items": ["Agrith-Naar (level 100)"],
+        "name": "Enemies to defeat"
       }
     ],
     "steps": {
       "1": {
-        "step": "Talk to Sir Amik Varze. (Chat: 1)",
+        "step": "Talk to Father Reen. (Chat 1)",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": ["Third floor of Falador Castle"],
-            "description": ["Talk to Sir Amik Varze to start the quest."]
+            "location": ["Al Kharid"],
+            "description": ["Talk to Father Reen."]
           }
         }
       },
       "2": {
-        "step": "If your character is male, take 3000 coins to the Make-over mage and become female. (Chat: 1)",
+        "step": "Talk to Father Badden near the ruin entrance. (Chat 1-3-1)",
         "details": {
           "1": {
-            "location": ["South-west of Falador"],
-            "description": ["If your character is male, take 3000 coins to the Make-over mage and become female."]
+            "location": ["Ruins of Uzer"],
+            "description": ["Talk to Father Badden near the ruin entrance."]
           }
         }
       },
       "3": {
-        "step": "Bank all equipped items and inventory.",
+        "step": "Pick and grind a black mushroom.",
         "details": {
           "1": {
-            "location": ["Falador"],
-            "description": ["Bank all equipped items and inventory."]
+            "location": ["Ruins of Uzer"],
+            "description": ["Pick and grind a black mushroom. Must have a vial in inventory."]
+          },
+          "2": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Use the pestle and mortar on the black mushroom."]
           }
         }
       },
       "4": {
-        "step": "Talk to Sir Tiffy Cashien. (Chat 3)",
+        "step": "Dye Silverlight, Wizard hat, Desert shirt and Desert robe black.",
         "details": {
           "1": {
-            "location": ["Falador Park"],
-            "description": ["Talk to Sir Tiffy Cashien."]
+            "location": ["Ruins of Uzer"],
+            "description": ["Use the black mushroom ink on the Silverlight."]
+          },
+          "2": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Use the black mushroom ink on the Wizard hat if it is not black already."]
+          },
+          "3": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Use the black mushroom ink on the Desert shirt."]
+          },
+          "4": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Use the black mushroom ink on the Desert robe."]
           }
         }
       },
       "5": {
-        "step": "5 of the following 7 puzzle rooms will appear in a random order. You will always fight Sir Kuam Ferentse.",
-        "last": true,
+        "step": "Go down the stairs and pick-up a Strange implement.",
         "details": {
-          "1": {}
+          "1": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Go down the stairs."]
+          },
+          "2": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Pick-up a Strange implement."]
+          }
         }
       },
       "6": {
+        "step": "Talk to Evil Dave wearing the 3 black items and the black Silverlight. (Chat 2-1)",
         "last": true,
-        "step": "Beat Sir Leye. Prayer is allowed.",
-        "subtitle": "Sir Kuam Ferentse (No man can defeat him):",
         "details": {
           "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Beat Sir Leye. Prayer is allowed."]
+            "location": ["Ruins of Uzer"],
+            "description": ["Talk to Evil Dave wearing the 3 black items and the black Silverlight."]
           }
         }
       },
       "7": {
-        "step": "Quickly look for the colour (bronze, silver, gold) that is only has three statues.",
-        "subtitle": "Lady Table (Statue Room):",
+        "step": "Talk to Denath. (Chat 4)",
+        "subtitle": "Ritual",
         "details": {
           "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["In this case, the white statues have three of the four statues (this is different for everyone)."]
+            "location": ["Ruins of Uzer"],
+            "description": ["Talk to Denath."]
           }
         }
       },
       "8": {
-        "step": "Check which weapon is missing from that colour. (sword, halberd, axe, mace)",
+        "step": "Talk to Jennifer to get a demonic sigil mould. (Chat 2)",
         "details": {
           "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["In this case, we are missing the statue with the axe."]
+            "location": ["Ruins of Uzer"],
+            "description": ["Talk to Jennifer to get a demonic sigil mould."]
           }
         }
       },
       "9": {
-        "step": "Select the one that was added after the time is up.",
-        "last": true,
+        "step": "Talk to Matthew. (Chat 3)",
         "details": {
           "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Touch the right statue. In this case, the axe statue would be the answer."]
+            "location": ["Ruins of Uzer"],
+            "description": ["Talk to Matthew."]
           }
         }
       },
       "10": {
-        "step": "Talk to Sir Ren Itchood. (Chat: 1)",
-        "subtitle": "Sir Ren Itchood (Standing on a Crate):",
+        "step": "Go to any furnace and smelt a demonic sigil.",
         "details": {
           "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Talk to Sir Ren Itchood."]
+            "location": ["Al Kharid Furnace"],
+            "description": ["Go to any furnace and smelt a demonic sigil."]
+          },
+          "2": {
+            "location": ["Al Kharid Furnace"],
+            "description": ["Use silver bar on furnace and select 'demonic sigil'. This would be a good time to bank the black armour and get weapons, food, and bring the Silverlight."]
           }
         }
       },
       "11": {
-        "step": "The answer is the first letter of each sentence.",
-        "last": true,
+        "step": "Talk to the clay golem. (Chat 3)",
         "details": {
           "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Attempt to open the door."]
-          },
-          "2": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["The answer is the first letter of each sentence."]
+            "location": ["Ruins of Uzer"],
+            "description": ["Talk to the clay golem."]
           }
         }
       },
       "12": {
-        "step": "Talk to Sir Tinley, finish the conversation.",
-        "subtitle": "Sir Tinley (Patience):",
+        "step": "Search the nearby kilns for a book.",
         "details": {
           "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Talk to Sir Tinley, finish the conversation."]
+            "location": ["Ruins of Uzer"],
+            "description": ["Search all the nearby kilns until you receive a book. (North-west Kiln)."]
+          },
+          "2": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Search all the nearby kilns until you receive a book. (West Kiln)."]
+          },
+          "3": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Search all the nearby kilns until you receive a book. (South-west Kiln)."]
+          },
+          "4": {
+            "location": ["Ruins of Uzer"],
+            "description": ["Search all the nearby kilns until you receive a book. (South-east Kiln)."]
+          },
+          "5": {
+            "description": ["Chat dialog"]
           }
         }
       },
       "13": {
-        "step": "Press nothing until he speaks to you again.",
-        "last": true,
+        "step": "Talk to Matthew.",
         "details": {
           "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Press nothing until he speaks to you again."]
+            "location": ["Ruins of Uzer"],
+            "description": ["Talk to Matthew."]
           }
         }
       },
       "14": {
-        "step": "Grab chicken and cross.",
-        "subtitle": "Sir Spishyus (Grain, Chicken and Wolf):",
+        "step": "Talk to Denath and write down the incantation he tells you. (Chat 4)",
         "details": {
           "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Grab the chicken."]
-          },
-          "2": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Cross the bridge."]
+            "location": ["Ruins of Uzer"],
+            "description": ["Talk to Denath and write down the incantation he tells you."]
           }
         }
       },
       "15": {
-        "step": "Un-equip the chicken then cross back.",
+        "step": "Complete the circle and click the sigil to chant the incantation.",
         "details": {
           "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Un-equip the chicken then cross back."]
-          },
-          "2": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Cross the bridge back."]
+            "location": ["Ruins of Uzer"],
+            "description": ["Complete the circle and click the sigil to chant the incantation. (Un-equip the Silverlight if nothing happens.)"]
           }
         }
       },
       "16": {
-        "step": "Grab grain then cross.",
+        "step": "Pick-up the Demonic sigil from the floor (or you will have to make a new one at a furnace).",
         "details": {
           "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Grab grain."]
-          },
-          "2": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Cross the bridge."]
+            "location": ["Ruins of Uzer"],
+            "description": ["Pick-up the Demonic sigil from the floor"]
           }
         }
       },
       "17": {
-        "step": "Un-equip grain and pick up the chicken then cross back.",
+        "step": "Exit the portal and pick-up Tanya's sigil.",
         "details": {
           "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Un-equip the grain and pick-up the chicken."]
+            "location": ["Ruins of Uzer"],
+            "description": ["Exit the portal and pick-up Tanya's sigil."]
           },
           "2": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Cross the bridge back."]
+            "location": ["Ruins of Uzer"],
+            "description": ["Pick-up Tanya's sigil."]
           }
         }
       },
       "18": {
-        "step": "Un-equip chicken and grab fox then cross.",
+        "step": "Talk to Evil Dave. (Chat 2)",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Un-equip chicken and grab fox."]
-          },
-          "2": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Cross the bridge."]
+            "location": ["Ruins of Uzer"],
+            "description": ["Talk to Evil Dave (you should have 4 sigils now)."]
           }
         }
       },
       "19": {
-        "step": "Un-equip fox then cross back.",
+        "step": "Talk to Father Badden.",
+        "subtitle": "Rallying up the troops",
         "details": {
           "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Un-equip fox then cross back."]
+            "location": ["Ruins of Uzer"],
+            "description": ["Talk to Father Badden."]
           }
         }
       },
       "20": {
-        "step": "Grab chicken then cross.",
+        "step": "Talk to Father Reen. (Chat 3)",
         "details": {
           "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Grab chicken."]
-          },
-          "2": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Cross the bridge."]
+            "location": ["Ruins of Uzer"],
+            "description": ["Talk to Father Reen."]
           }
         }
       },
       "21": {
-        "step": "Un-equip chicken then open the door.",
-        "last": true,
+        "step": "Talk to the golem. (Chat 3)",
         "details": {
           "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Un-equip chicken then open the door."]
+            "location": ["Ruins of Uzer"],
+            "description": ["Talk to the golem."]
           }
         }
       },
       "22": {
-        "last": true,
-        "step": "Solve the riddle (answers are below):",
-        "subtitle": "Miss Hynn Terprett (Sitting on Throne):",
+        "step": "Use the Strange implement on the golem.",
         "details": {
           "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Riddle: 'Death sentence', Answer - Fed to wolves", "Riddle: 'Husband and daughter', Answer - 10", "Riddle: 'Identical stones', Answer - Bucket A (32 degrees)", "Riddle: 'Fingers on left hand', Answer - 0", "Riddle: 'Which is true', Answer: Three False"]
+            "location": ["Ruins of Uzer"],
+            "description": ["Use the Strange implement on the golem."]
           }
         }
       },
       "23": {
-        "step": "Search the south-western bookcase for a knife.",
-        "subtitle": "Miss Cheevers (Bookcase room):",
+        "step": "Talk to the golem again.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Search the south-western bookcase for a knife."]
+            "location": ["Ruins of Uzer"],
+            "description": ["Talk to the golem again."]
           }
         }
       },
       "24": {
-        "step": "Take ALL vials on the four southern bookcases. (Chat: 3) (Chat: 1) (Chat: 1) (Chat: 1)",
+        "step": "Talk to Matthew, say the incantation backwards. (Chat 1)",
+        "subtitle": "The final fight",
         "details": {
           "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Take ALL vials on the first bookcase."]
+            "location": ["Ruins of Uzer"],
+            "description": ["Talk to Matthew. (WARNING: If you are to die during the boss battle, all items not kept upon death will disappear.)"]
           },
           "2": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Take ALL vials on the second bookcase."]
-          },
-          "3": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Take ALL vials on the third bookcase."]
-          },
-          "4": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Take ALL vials on the fourth bookcase."]
+            "location": ["Ruins of Uzer"],
+            "description": ["Complete the circle and chant the incantation backwards."]
           }
         }
       },
       "25": {
-        "step": "Search the middle-sized crate for a cake tin.",
+        "step": "Defeat Agrith-Naar with the silverlight being the final blow.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Search the middle-sized crate for a cake tin."]
+            "location": ["Ruins of Uzer"],
+            "description": ["Defeat Agrith-Naar with the silverlight being the final blow. (NOTE: Do not run away as the final blow is being dealt or the demon will heal.)"]
+          },
+          "2": {
+            "location": ["Ruins of Uzer"],
+            "description": ["You can flinch the demon by using the lanterns to evade the demon. To flinch you must only attack when the health bar can't be seen anymore and run back behind the lantern to avoid taking any damage."]
           }
         }
       },
       "26": {
-        "step": "Take ALL vials on the four southern bookcases. (Chat: 1) (Chat: 1) (Chat: 1) (Chat: 3)",
+        "step": "Choose your reward: Attack, Strength, Defense, Hitpoints, Ranged, Magic.",
+        "subtitle": "Finishing up",
         "details": {
           "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Take ALL vials on the first bookcase."]
-          },
-          "2": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Take ALL vials on the second bookcase."]
-          },
-          "3": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Take ALL vials on the third bookcase."]
-          },
-          "4": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Take ALL vials on the fourth bookcase."]
+            "location": ["Ruins of Uzer"],
+            "description": ["Choose your reward: Attack, Strength, Defense, Hitpoints, Ranged, Magic."]
           }
         }
       },
       "27": {
-        "step": "Pick-up the spade from the table and use it on the bunsen burner.",
-        "details": {
-          "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Take the spade from the table."]
-          },
-          "2": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Use the spade on the bunsen burner."]
-          }
-        }
-      },
-      "28": {
-        "step": "Use metal spade on the door.",
-        "details": {
-          "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Use metal spade on the door."]
-          }
-        }
-      },
-      "29": {
-        "step": "Use cupric sulfate on door.",
-        "details": {
-          "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Use cupric sulfate on door."]
-          }
-        }
-      },
-      "30": {
-        "step": "Use a vial of liquid on door.",
-        "details": {
-          "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Use a vial of liquid on door."]
-          }
-        }
-      },
-      "31": {
-        "step": "Pull-spade to open the first door.",
-        "details": {
-          "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Pull-spade to open the first door."]
-          }
-        }
-      },
-      "32": {
-        "step": "Use a vial of liquid on the tin.",
-        "details": {
-          "1": {
-            "description": ["Use a vial of liquid on the tin."]
-          }
-        }
-      },
-      "33": {
-        "step": "Use gypsum on tin.",
-        "details": {
-          "1": {
-            "description": ["Use gypsum on tin."]
-          }
-        }
-      },
-      "34": {
-        "step": "Use tin on a key by the entrance portal.",
-        "details": {
-          "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Use tin on a key by the entrance portal."]
-          }
-        }
-      },
-      "35": {
-        "step": "Use cupric ore powder on tin.",
-        "details": {
-          "1": {
-            "description": ["Use cupric ore powder on tin."]
-          }
-        }
-      },
-      "36": {
-        "step": "Use tin ore powder on tin.",
-        "details": {
-          "1": {
-            "description": ["Use tin ore powder on tin."]
-          }
-        }
-      },
-      "37": {
-        "step": "Use tin on Bunsen burner.",
-        "details": {
-          "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Use tin on Bunsen burner."]
-          }
-        }
-      },
-      "38": {
-        "step": "Use knife on tin.",
-        "details": {
-          "1": {
-            "description": ["Use knife on tin."]
-          }
-        }
-      },
-      "39": {
-        "step": "Use key on door and exit.",
-        "last": true,
-        "details": {
-          "1": {
-            "location": ["Recruitment Drive Instance"],
-            "description": ["Use key on door and exit."]
-          }
-        }
-      },
-      "40": {
         "step": "Quest complete!",
-        "subtitle": "Finishing up.",
         "details": {
           "1": {}
         }

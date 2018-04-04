@@ -209,125 +209,43 @@ Items needed: Mahogany plank and Soft leather
     Talk to Larry.
     Quest complete!
 
-
-Recruitment Drive
-
-Getting started
-    Talk to Sir Amik Varze. (Chat: 1)
-    If your character is male, take 3000 coins to the Make-over mage and become female. (Chat: 1)
-    Bank all equipped items and inventory.
-        WARNING: Hardcore Ironmen will lose Hardcore status if they die to Sir Kuam Ferentse.
-        Important: Be prepared for Lady Table as you only have 10 seconds after entering to learn the answer.
-    Speak to Sir Tiffy Cashien in the park to begin test. (Chat 3)
-    5 of the following 7 puzzle rooms will appear in a random order. You will always fight Sir Kuam Ferentse.
-    Sir Kuam Ferentse
-    Beat Sir Leye. Prayer is allowed.
-Lady Table (statue room):
-    Quickly look for the colour (bronze, silver, gold) that is only has three statues.
-    Check which weapon is missing from that colour. (sword, halberd, axe, mace)
-    Select the one that was added after the time is up.
-    OR, simply take a screenshot to figure out which statue is missing.
-Sir Ren Itchood (standing on a crate):
-    Talk to Sir Ren Itchood. (Chat: 1)
-    The answer is the first letter of each sentence.
-Sir Tinley (Patience):
-    Left-click on Sir Tinley, finish the conversation.
-    Press nothing until he speaks to you again.
-Sir Spishyus (Grain, Chicken and Wolf):
-    Grab chicken and cross.
-    Unequip the chicken then cross back.
-    Grab grain then cross.
-    Unequip grain and pick up the chicken then cross back.
-    Unequip chicken and grab fox then cross.
-    Unequip fox then cross back.
-    Grab chicken then cross.
-    Unequip chicken then open the door.
-Miss Hynn Terprett (sitting on throne):
-    Riddle: 'Death sentence', Answer - Fed to wolves
-    Riddle: 'Husband and daughter', Answer - 10
-    Riddle: 'Identical stones', Answer - Bucket A (32 degrees)
-    Riddle: 'Fingers on left hand', Answer - 0
-    Riddle: 'Which is true', Answer: Three False
-Miss Cheevers (Bookcase room):
-    First door:
-        Starting from the south-western corner, search:
-        Search the south-western bookcase for a knife.
-        Take ALL vials on the four southern bookcases. (Chat: 3) (Chat: 1) (Chat: 1) (Chat: 1)
-        Search the middle-sized crate for a cake tin.
-        Take ALL vials on the four southern bookcases. (Chat: 1) (Chat: 1) (Chat: 1) (Chat: 3)
-        Take the spade from the table and use it on the bunsen burner.
-        Use metal spade on the door.
-        Use cupric sulfate on door.
-        Use a vial of liquid on door.
-        Pull-spade to open the first door.
-    Second door:
-        Use a vial of liquid on the tin.
-        Use gypsum on tin.
-        Use tin on a key by the entrance portal.
-        Use cupric ore powder
-        Use tin ore powder on the tin.
-        Use tin on Bunsen burner.
-        Use knife on tin.
-        Use key on door and exit.
-    Quest complete!
-
-
-
-Recruitment Drive
-Quest Requirements: 12 Quest points, Black Knights' Fortress, Druidic Ritual
-Item Requirements: 3,000 Coins (if male character)
-Sir Ren Itchood (Standing on a Crate):
-    Talk to Sir Ren Itchood. (Chat: 1)
-    The answer is the first letter of each sentence.
-Sir Tinley (Patience):
-    Left-click on Sir Tinley, finish the conversation.
-    Press nothing until he speaks to you again.
-Sir Spishyus (Grain, Chicken and Wolf):
-    Grab chicken and cross.
-    Unequip the chicken then cross back.
-    Grab grain then cross.
-    Unequip grain and pick up the chicken then cross back.
-    Unequip chicken and grab fox then cross.
-    Unequip fox then cross back.
-    Grab chicken then cross.
-    Unequip chicken then open the door.
-Finishing up.
-    Quest complete!
-
 Shadow of the Storm
 Quest Requirements: The Golem, Demon Slayer (Must have gone through the first conversation with Sir Prysin)
 Level Requirements: 30 Crafting
-Item Requirements: Silverlight (Father Badden will give you one for free), A vial (to get Black mushroom ink), Silver bar, Pestle and mortar, 3 Pieces of the Black outfit
-
+Item Requirements: Silverlight (Father Badden will give you one for free), A vial, Silver bar, Pestle and mortar, Desert shirt, Desert robe, Wizard hat (Any color)
+Recommended: Armour, Food, Waterskins, Ring of Dueling (Dueling Arena), Necklace of passage (Eagles' Eerie)
+Enemies to defeat: Agrith-Naar (level 100)
 Starting out
     Talk to Father Reen. (Chat 1)
     Talk to Father Badden near the ruin entrance. (Chat 1-3-1)
-    Pick and grind a black mushroom and dye Silverlight black. (You can find some beside the staircase)
+    Pick and grind a black mushroom.
+    Dye Silverlight, Wizard hat, Desert shirt and Desert robe black.
     Go down the stairs and pick-up a Strange implement.
-    Talk to Evil Dave wearing the 3 black items and your dyed Silverlight. (Chat 2-1)
+    Talk to Evil Dave wearing the 3 black items and the black Silverlight. (Chat 2-1)
 Ritual
     Talk to Denath. (Chat 4)
     Talk to Jennifer to get a demonic sigil mould. (Chat 2)
     Talk to Matthew. (Chat 3)
-    Go to any furnace and smelt a demonic sigil. (Use silver bar on furnace and select 'demonic sigil')
-    -Your black outfit can now be discarded and replaced with combat gear.
+    Go to any furnace and smelt a demonic sigil. (Use silver bar on furnace and select 'demonic sigil') -Your black outfit can now be discarded and replaced with combat gear.
     Talk to the clay golem. (Chat 3)
     Search the nearby kilns for a book.
-    Read the book, and take it to Matthew.
+    Talk to Matthew.
     Talk to Denath and write down the incantation he tells you. (Chat 4)
     Complete the circle and click the sigil to chant the incantation. (Unequip the Silverlight if nothing happens.)
-    Pick-up the sigil from the floor, or you will have to make a new one at a furnace.
-    Exit the portal and take Tanya's sigil.
+    Pick-up the Demonic sigil from the floor (or you will have to make a new one at a furnace).
+    Exit the portal and pick-up Tanya's sigil.
     Talk to Evil Dave (you should have 4 sigils now). (Chat 2)
-Rallying the troops
+Rallying up the troops
     Talk to Father Badden.
     Talk to Father Reen. (Chat 3)
     Talk to the golem. (Chat 3)
     Use the Strange implement on the golem. (WARNING: If you are to die during the boss battle, all items not kept upon death will disappear.)
+    Talk to the golem again.
 The final fight
-    Talk to Matthew, say it backwards. (Chat 1)
-    Kill the demon with silverlight. (NOTE: Do not run away as the final blow is being dealt or demon will heal.)
-    Equip darklight and choose your reward.
+    Talk to Matthew, say the incantation backwards. (Chat 1)
+    Defear Agrith-Naar with the silverlight being the final blow. (NOTE: Do not run away as the final blow is being dealt or demon will heal.)
+Finishing up
+    Choose your reward: Attack, Strength, Defense, Hitpoints, Ranged, Magic.
     Quest complete!
 
 Elemental Workshop I
