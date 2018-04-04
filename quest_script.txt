@@ -209,72 +209,34 @@ Items needed: Mahogany plank and Soft leather
     Talk to Larry.
     Quest complete!
 
-Shadow of the Storm
-Quest Requirements: The Golem, Demon Slayer (Must have gone through the first conversation with Sir Prysin)
-Level Requirements: 30 Crafting
-Item Requirements: Silverlight (Father Badden will give you one for free), A vial, Silver bar, Pestle and mortar, Desert shirt, Desert robe, Wizard hat (Any color)
-Recommended: Armour, Food, Waterskins, Ring of Dueling (Dueling Arena), Necklace of passage (Eagles' Eerie)
-Enemies to defeat: Agrith-Naar (level 100)
-Starting out
-    Talk to Father Reen. (Chat 1)
-    Talk to Father Badden near the ruin entrance. (Chat 1-3-1)
-    Pick and grind a black mushroom.
-    Dye Silverlight, Wizard hat, Desert shirt and Desert robe black.
-    Go down the stairs and pick-up a Strange implement.
-    Talk to Evil Dave wearing the 3 black items and the black Silverlight. (Chat 2-1)
-Ritual
-    Talk to Denath. (Chat 4)
-    Talk to Jennifer to get a demonic sigil mould. (Chat 2)
-    Talk to Matthew. (Chat 3)
-    Go to any furnace and smelt a demonic sigil. (Use silver bar on furnace and select 'demonic sigil') -Your black outfit can now be discarded and replaced with combat gear.
-    Talk to the clay golem. (Chat 3)
-    Search the nearby kilns for a book.
-    Talk to Matthew.
-    Talk to Denath and write down the incantation he tells you. (Chat 4)
-    Complete the circle and click the sigil to chant the incantation. (Unequip the Silverlight if nothing happens.)
-    Pick-up the Demonic sigil from the floor (or you will have to make a new one at a furnace).
-    Exit the portal and pick-up Tanya's sigil.
-    Talk to Evil Dave (you should have 4 sigils now). (Chat 2)
-Rallying up the troops
-    Talk to Father Badden.
-    Talk to Father Reen. (Chat 3)
-    Talk to the golem. (Chat 3)
-    Use the Strange implement on the golem. (WARNING: If you are to die during the boss battle, all items not kept upon death will disappear.)
-    Talk to the golem again.
-The final fight
-    Talk to Matthew, say the incantation backwards. (Chat 1)
-    Defear Agrith-Naar with the silverlight being the final blow. (NOTE: Do not run away as the final blow is being dealt or demon will heal.)
-Finishing up
-    Choose your reward: Attack, Strength, Defense, Hitpoints, Ranged, Magic.
-    Quest complete!
 
 Elemental Workshop I
+Level Requirements: 20 Mining (30 if mining the coal), 20 Smithing, 20 Crafting
+Items: A knife or any edged weapon (ex. Dagger), A pickaxe, Thread, A hammer, 4 Coal, Leather (obtainable during the quest), A needle (obtainable during the quest)
+Enemies to defeat: Earth elemental (level 35)
 Getting Started
-In Seers' Village, go to the house immediately south of the anvil.
-Search the bookcases on the eastern wall to find a battered book.
-Read the book, then use a knife on it to get a Battered key .
-Note: Do not drop the book.
-Go to the building with anvil and open the wall with a crack (with the key in inventory) .
-Go down the stairs.
-Repairing a WorkshopEdit
-Go into the room to the north.
-Turn the water controls east of the water wheel.
-Turn the water controls west of the water wheel.
-Pull the lever by the water wheel.
-(Optional) To obtain Leather, search a crate north of the staircase in the middle room.
-(Optional) To obtain a Needle, search the three crates on the left as you enter the west room.
-Go to the eastern room.
-With a needle, thread, and leather, fix the bellows.
-Pull the lever by the bellows.
-Go to the middle room and search the small boxes in the northeast to get a stone bowl.
-Go to the south room.
-Use a stone bowl on the lava trough to the south.
-Use the bowl of lava on the Furnace in the room.
-Finishing UpEdit
-Go to the western room and mine an elemental rock.
-Kill the Earth elemental and pick up the elemental ore it drops.
-Use the elemental ore and four coal on the furnace in the southern room.
-With the slashed book, go to the middle room and smith an elemental shield by using the elemental metal on the workbench.
+    Search the bookcases to find a battered book.
+    Open the book, then use a knife on it to get a Battered key. (Note: Do not drop the book).
+    Open the odd looking wall (with the key in inventory).
+    Go down the stairs.
+Repairing the Workshop
+    Turn both water controls (North room).
+    Pull the lever by the water wheel.
+    Optional: To obtain Leather, search a crate north of the staircase.
+    Optional: To obtain a Needle, search the crates in the west room.
+    Fix the bellows (East room).
+    Pull the lever by the bellows.
+    Search the small boxes in the middle room to get a stone bowl.
+    Use a stone bowl on the lava (South room).
+    Use the bowl of lava on the Furnace.
+Elemental shield
+    Mine an elemental rock (West room).
+    Defeat the Earth elemental and pick-up the elemental ore it drops.
+    Use the elemental ore and four coal on the furnace (South room).
+    Smith an elemental shield by using the elemental metal on the workbench (Must have slashed book in inventory).
+Finishing up
+    Quest complete!
+
 
 
 Elemental Workshop II

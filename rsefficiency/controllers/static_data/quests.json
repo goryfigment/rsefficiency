@@ -10714,5 +10714,198 @@
         }
       }
     }
+  },
+  "elemental_workshop_i": {
+    "name": "Elemental Workshop I",
+    "directory": "elemental_workshop_i",
+    "req": [
+      {
+        "items": ["20 Mining (30 if mining the coal)", "20 Smithing", "20 Crafting"],
+        "name": "Level Requirements"
+      },
+      {
+        "items": ["A knife or any edged weapon (ex. Dagger)", "A pickaxe", "Thread", "A hammer", "4 Coal", "Leather (obtainable during the quest)", "A needle (obtainable during the quest)"],
+        "name": "Items"
+      },
+      {
+        "items": ["Earth elemental (level 35)"],
+        "name": "Enemies to defeat"
+      }
+    ],
+    "steps": {
+      "1": {
+        "step": "Search the bookcases to find a battered book.",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Search the bookcases to find a battered book."]
+          }
+        }
+      },
+      "2": {
+        "step": "Open the book, then use a knife on it to get a Battered key.",
+        "details": {
+          "1": {
+            "description": ["Open the book, then use a knife on it to get a Battered key. (Note: Do not drop the book)"]
+          }
+        }
+      },
+      "3": {
+        "step": "Open the odd looking wall.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Open the odd looking wall (with the key in inventory)."]
+          }
+        }
+      },
+      "4": {
+        "step": "Go down the stairs.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Go down the stairs."]
+          }
+        }
+      },
+      "5": {
+        "step": "Turn both water controls (North room).",
+        "subtitle": "Repairing the Workshop",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Turn the eastern water controls."]
+          },
+          "2": {
+            "location": ["Elemental Workshop"],
+            "description": ["Turn the western water controls."]
+          }
+        }
+      },
+      "6": {
+        "step": "Pull the lever by the water wheel.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Pull the lever by the water wheel."]
+          }
+        }
+      },
+      "7": {
+        "step": "Optional: To obtain Leather, search a crate north of the staircase.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Optional: To obtain Leather, search a crate north of the staircase."]
+          }
+        }
+      },
+      "8": {
+        "step": "Optional: To obtain a Needle, search the crates in the west room.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Optional: To obtain a Needle, search the crates in the west room."]
+          }
+        }
+      },
+      "9": {
+        "step": "Fix the bellows (East room).",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Fix the bellows"]
+          }
+        }
+      },
+      "10": {
+        "step": "Pull the lever by the bellows.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Pull the lever by the bellows."]
+          }
+        }
+      },
+      "11": {
+        "step": "Search the small boxes in the middle room to get a stone bowl.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Search the small boxes in the middle room to get a stone bowl."]
+          }
+        }
+      },
+      "12": {
+        "step": "Use a stone bowl on the lava (South room).",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Use a stone bowl on the lava"]
+          }
+        }
+      },
+      "13": {
+        "step": "Use the bowl of lava on the Furnace.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Use the bowl of lava on the Furnace."]
+          }
+        }
+      },
+      "14": {
+        "step": "Mine an elemental rock (West room).",
+        "subtitle": "Elemental shield",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Mine an elemental rock."]
+          }
+        }
+      },
+      "15": {
+        "step": "Defeat the Earth elemental and pick-up the elemental ore it drops.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Defeat the Earth elemental."]
+          },
+          "2": {
+            "location": ["Elemental Workshop"],
+            "description": ["Pick-up the elemental ore it drops."]
+          }
+        }
+      },
+      "16": {
+        "step": "Use the elemental ore and four coal on the furnace (South room).",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Use the elemental ore and four coal on the furnace"]
+          }
+        }
+      },
+      "17": {
+        "step": "Smith an elemental shield by using the elemental metal on the workbench (Must have slashed book in inventory).",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Smith an elemental shield by using the elemental metal on the workbench"]
+          }
+        }
+      },
+      "18": {
+        "step": "Quest complete!",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }

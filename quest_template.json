@@ -1,326 +1,191 @@
 {
-  "shadow_of_the_storm": {
-    "name": "Shadow of the Storm",
-    "directory": "shadow_of_the_storm",
+  "elemental_workshop_i": {
+    "name": "Elemental Workshop I",
+    "directory": "elemental_workshop_i",
     "req": [
       {
-        "items": ["The Golem", "Demon Slayer (Must have gone through the first conversation with Sir Prysin)"],
-        "name": "Quest Requirements"
-      },
-      {
-        "items": ["30 Crafting"],
+        "items": ["20 Mining (30 if mining the coal)", "20 Smithing", "20 Crafting"],
         "name": "Level Requirements"
       },
       {
-        "items": ["Silverlight (Father Badden will give you one for free)", "A vial", "Silver bar", "Pestle and mortar", "Desert shirt", "Desert robe", "Wizard hat (Any color)"],
-        "name": "Item Requirements"
+        "items": ["A knife or any edged weapon (ex. Dagger)", "A pickaxe", "Thread", "A hammer", "4 Coal", "Leather (obtainable during the quest)", "A needle (obtainable during the quest)"],
+        "name": "Items"
       },
       {
-        "items": ["Armour", "Food", "Waterskins", "Ring of Dueling (Dueling Arena)", "Necklace of passage (Eagles' Eerie)"],
-        "name": "Recommended"
-      },
-      {
-        "items": ["Agrith-Naar (level 100)"],
+        "items": ["Earth elemental (level 35)"],
         "name": "Enemies to defeat"
       }
     ],
     "steps": {
       "1": {
-        "step": "Talk to Father Reen. (Chat 1)",
+        "step": "Search the bookcases to find a battered book.",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": ["Al Kharid"],
-            "description": ["Talk to Father Reen."]
+            "location": ["Elemental Workshop"],
+            "description": ["Search the bookcases to find a battered book."]
           }
         }
       },
       "2": {
-        "step": "Talk to Father Badden near the ruin entrance. (Chat 1-3-1)",
+        "step": "Open the book, then use a knife on it to get a Battered key.",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Talk to Father Badden near the ruin entrance."]
+            "description": ["Open the book, then use a knife on it to get a Battered key. (Note: Do not drop the book)"]
           }
         }
       },
       "3": {
-        "step": "Pick and grind a black mushroom.",
+        "step": "Open the odd looking wall.",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Pick and grind a black mushroom. Must have a vial in inventory."]
-          },
-          "2": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Use the pestle and mortar on the black mushroom."]
+            "location": ["Elemental Workshop"],
+            "description": ["Open the odd looking wall (with the key in inventory)."]
           }
         }
       },
       "4": {
-        "step": "Dye Silverlight, Wizard hat, Desert shirt and Desert robe black.",
+        "step": "Go down the stairs.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Use the black mushroom ink on the Silverlight."]
-          },
-          "2": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Use the black mushroom ink on the Wizard hat if it is not black already."]
-          },
-          "3": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Use the black mushroom ink on the Desert shirt."]
-          },
-          "4": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Use the black mushroom ink on the Desert robe."]
+            "location": ["Elemental Workshop"],
+            "description": ["Go down the stairs."]
           }
         }
       },
       "5": {
-        "step": "Go down the stairs and pick-up a Strange implement.",
+        "step": "Turn both water controls (North room).",
+        "subtitle": "Repairing the Workshop",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Go down the stairs."]
+            "location": ["Elemental Workshop"],
+            "description": ["Turn the eastern water controls."]
           },
           "2": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Pick-up a Strange implement."]
+            "location": ["Elemental Workshop"],
+            "description": ["Turn the western water controls."]
           }
         }
       },
       "6": {
-        "step": "Talk to Evil Dave wearing the 3 black items and the black Silverlight. (Chat 2-1)",
-        "last": true,
+        "step": "Pull the lever by the water wheel.",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Talk to Evil Dave wearing the 3 black items and the black Silverlight."]
+            "location": ["Elemental Workshop"],
+            "description": ["Pull the lever by the water wheel."]
           }
         }
       },
       "7": {
-        "step": "Talk to Denath. (Chat 4)",
-        "subtitle": "Ritual",
+        "step": "Optional: To obtain Leather, search a crate north of the staircase.",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Talk to Denath."]
+            "location": ["Elemental Workshop"],
+            "description": ["Optional: To obtain Leather, search a crate north of the staircase."]
           }
         }
       },
       "8": {
-        "step": "Talk to Jennifer to get a demonic sigil mould. (Chat 2)",
+        "step": "Optional: To obtain a Needle, search the crates in the west room.",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Talk to Jennifer to get a demonic sigil mould."]
+            "location": ["Elemental Workshop"],
+            "description": ["Optional: To obtain a Needle, search the crates in the west room."]
           }
         }
       },
       "9": {
-        "step": "Talk to Matthew. (Chat 3)",
+        "step": "Fix the bellows (East room).",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Talk to Matthew."]
+            "location": ["Elemental Workshop"],
+            "description": ["Fix the bellows"]
           }
         }
       },
       "10": {
-        "step": "Go to any furnace and smelt a demonic sigil.",
+        "step": "Pull the lever by the bellows.",
         "details": {
           "1": {
-            "location": ["Al Kharid Furnace"],
-            "description": ["Go to any furnace and smelt a demonic sigil."]
-          },
-          "2": {
-            "location": ["Al Kharid Furnace"],
-            "description": ["Use silver bar on furnace and select 'demonic sigil'. This would be a good time to bank the black armour and get weapons, food, and bring the Silverlight."]
+            "location": ["Elemental Workshop"],
+            "description": ["Pull the lever by the bellows."]
           }
         }
       },
       "11": {
-        "step": "Talk to the clay golem. (Chat 3)",
+        "step": "Search the small boxes in the middle room to get a stone bowl.",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Talk to the clay golem."]
+            "location": ["Elemental Workshop"],
+            "description": ["Search the small boxes in the middle room to get a stone bowl."]
           }
         }
       },
       "12": {
-        "step": "Search the nearby kilns for a book.",
+        "step": "Use a stone bowl on the lava (South room).",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Search all the nearby kilns until you receive a book. (North-west Kiln)."]
-          },
-          "2": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Search all the nearby kilns until you receive a book. (West Kiln)."]
-          },
-          "3": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Search all the nearby kilns until you receive a book. (South-west Kiln)."]
-          },
-          "4": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Search all the nearby kilns until you receive a book. (South-east Kiln)."]
-          },
-          "5": {
-            "description": ["Chat dialog"]
+            "location": ["Elemental Workshop"],
+            "description": ["Use a stone bowl on the lava"]
           }
         }
       },
       "13": {
-        "step": "Talk to Matthew.",
+        "step": "Use the bowl of lava on the Furnace.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Talk to Matthew."]
+            "location": ["Elemental Workshop"],
+            "description": ["Use the bowl of lava on the Furnace."]
           }
         }
       },
       "14": {
-        "step": "Talk to Denath and write down the incantation he tells you. (Chat 4)",
+        "step": "Mine an elemental rock (West room).",
+        "subtitle": "Elemental shield",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Talk to Denath and write down the incantation he tells you."]
+            "location": ["Elemental Workshop"],
+            "description": ["Mine an elemental rock."]
           }
         }
       },
       "15": {
-        "step": "Complete the circle and click the sigil to chant the incantation.",
+        "step": "Defeat the Earth elemental and pick-up the elemental ore it drops.",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Complete the circle and click the sigil to chant the incantation. (Un-equip the Silverlight if nothing happens.)"]
+            "location": ["Elemental Workshop"],
+            "description": ["Defeat the Earth elemental."]
+          },
+          "2": {
+            "location": ["Elemental Workshop"],
+            "description": ["Pick-up the elemental ore it drops."]
           }
         }
       },
       "16": {
-        "step": "Pick-up the Demonic sigil from the floor (or you will have to make a new one at a furnace).",
+        "step": "Use the elemental ore and four coal on the furnace (South room).",
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Pick-up the Demonic sigil from the floor"]
+            "location": ["Elemental Workshop"],
+            "description": ["Use the elemental ore and four coal on the furnace"]
           }
         }
       },
       "17": {
-        "step": "Exit the portal and pick-up Tanya's sigil.",
+        "step": "Smith an elemental shield by using the elemental metal on the workbench (Must have slashed book in inventory).",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Exit the portal and pick-up Tanya's sigil."]
-          },
-          "2": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Pick-up Tanya's sigil."]
+            "location": ["Elemental Workshop"],
+            "description": ["Smith an elemental shield by using the elemental metal on the workbench"]
           }
         }
       },
       "18": {
-        "step": "Talk to Evil Dave. (Chat 2)",
-        "last": true,
-        "details": {
-          "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Talk to Evil Dave (you should have 4 sigils now)."]
-          }
-        }
-      },
-      "19": {
-        "step": "Talk to Father Badden.",
-        "subtitle": "Rallying up the troops",
-        "details": {
-          "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Talk to Father Badden."]
-          }
-        }
-      },
-      "20": {
-        "step": "Talk to Father Reen. (Chat 3)",
-        "details": {
-          "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Talk to Father Reen."]
-          }
-        }
-      },
-      "21": {
-        "step": "Talk to the golem. (Chat 3)",
-        "details": {
-          "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Talk to the golem."]
-          }
-        }
-      },
-      "22": {
-        "step": "Use the Strange implement on the golem.",
-        "details": {
-          "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Use the Strange implement on the golem."]
-          }
-        }
-      },
-      "23": {
-        "step": "Talk to the golem again.",
-        "last": true,
-        "details": {
-          "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Talk to the golem again."]
-          }
-        }
-      },
-      "24": {
-        "step": "Talk to Matthew, say the incantation backwards. (Chat 1)",
-        "subtitle": "The final fight",
-        "details": {
-          "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Talk to Matthew. (WARNING: If you are to die during the boss battle, all items not kept upon death will disappear.)"]
-          },
-          "2": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Complete the circle and chant the incantation backwards."]
-          }
-        }
-      },
-      "25": {
-        "step": "Defeat Agrith-Naar with the silverlight being the final blow.",
-        "last": true,
-        "details": {
-          "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Defeat Agrith-Naar with the silverlight being the final blow. (NOTE: Do not run away as the final blow is being dealt or the demon will heal.)"]
-          },
-          "2": {
-            "location": ["Ruins of Uzer"],
-            "description": ["You can flinch the demon by using the lanterns to evade the demon. To flinch you must only attack when the health bar can't be seen anymore and run back behind the lantern to avoid taking any damage."]
-          }
-        }
-      },
-      "26": {
-        "step": "Choose your reward: Attack, Strength, Defense, Hitpoints, Ranged, Magic.",
-        "subtitle": "Finishing up",
-        "details": {
-          "1": {
-            "location": ["Ruins of Uzer"],
-            "description": ["Choose your reward: Attack, Strength, Defense, Hitpoints, Ranged, Magic."]
-          }
-        }
-      },
-      "27": {
         "step": "Quest complete!",
+        "subtitle": "Finishing up",
         "details": {
           "1": {}
         }
