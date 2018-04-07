@@ -210,99 +210,73 @@ Items needed: Mahogany plank and Soft leather
     Quest complete!
 
 
-Elemental Workshop I
-Level Requirements: 20 Mining (30 if mining the coal), 20 Smithing, 20 Crafting
-Items: A knife or any edged weapon (ex. Dagger), A pickaxe, Thread, A hammer, 4 Coal, Leather (obtainable during the quest), A needle (obtainable during the quest)
-Enemies to defeat: Earth elemental (level 35)
-Getting Started
-    Search the bookcases to find a battered book.
-    Open the book, then use a knife on it to get a Battered key. (Note: Do not drop the book).
-    Open the odd looking wall (with the key in inventory).
-    Go down the stairs.
-Repairing the Workshop
-    Turn both water controls (North room).
-    Pull the lever by the water wheel.
-    Optional: To obtain Leather, search a crate north of the staircase.
-    Optional: To obtain a Needle, search the crates in the west room.
-    Fix the bellows (East room).
-    Pull the lever by the bellows.
-    Search the small boxes in the middle room to get a stone bowl.
-    Use a stone bowl on the lava (South room).
-    Use the bowl of lava on the Furnace.
-Elemental shield
-    Mine an elemental rock (West room).
-    Defeat the Earth elemental and pick-up the elemental ore it drops.
-    Use the elemental ore and four coal on the furnace (South room).
-    Smith an elemental shield by using the elemental metal on the workbench (Must have slashed book in inventory).
-Finishing up
-    Quest complete!
-
 
 
 Elemental Workshop II
-Starting out
-Go to the Exam Centre south of the Digsite. (Ring of dueling to Duel Arena, then walk there.)
-Search the most northeastern of the southeastern bookcases to find a beaten book.
-Read the book, then read the scroll.
-Keep the book.
+Quest Requirements: Elemental Workshop I
+Level Requirements: 20 Magic, 30 Smithing
+Items: Pickaxe, Hammer, 8 Coal, Battered key (from first quest)
+Recommended: Digsite Teleport, Dueling Arena (Digsite), Camelot Teleport
+Getting started
+    Search southeastern bookcases to find a beaten book in the Exam Centre.
+    Open the book, then read the scroll. (Keep the book)
 The second key
-Head back to the building with the Anvil in seers village and Enter the workshop using the battered key on the odd-looking wall (Like in Elemental Workshop Part 1).
-Go north to the water elemental room and search the machinery to get a key.
-Go west and get 2 elemental ores by killing earth elementals.
-Go south and smelt your ores into bars.
-Use your key on the hatch in the center room and go down the stairs.
-Making RepairsEdit
-The craneEdit
-Search the crate to the south, take both schematics.
-Go back upstairs and use one bar on the workbench to make an elemental claw.
-Return downstairs and use the lever next to the schematics crate to lower the crane (West lever).
-Use your claw on the old crane.
-The junction boxEdit
-Elemental Workshop II pipes
-Climb the stairs to the southwest to get on the catwalk.
-Open the junction box to the west.
-Click the pipe ends to arrange them as shown.
-Pipes and cogsEdit
-Search all crates on the catwalk level and ground floor of the lower workshop until you find a small, medium, and large cog, as well as a pipe.
-Use the pipe on the broken piping at the north end of the catwalk.
-Use the cogs on the pins at the east side of the ground floor.
-Small cog on upper left pin
-Medium cog on lower left pin
-Large cog on right pin.
-Operating the machineEdit
-The craneEdit
-Place an elemental bar on the jig cart.
-Use the lever by the schematics crate to raise the crane.
-Rotate the crane with the south-eastern lever.
-Pull the south-western lever twice to lower the crane into lava and back up.
-Pull the south-eastern lever to rotate the crane over the cart.
-Pull the south-western lever twice to lower the bar onto the cart and raise the crane.
-Pull the nearby lever, north, under the yellow sign to move the cart.
-The pressEdit
-Pull the lever west of the spiral stairs to flatten the bar once the cart has stopped.
-Pull the yellow sign lever again.
-The water tankEdit
-Pull the northernmost lever.
-Turn the corkscrew lever twice.
-Pull the lever again.
-Turn the western water valve to open.
-Turn the eastern water valve to open.
-Turn the western water valve to close.
-Turn the eastern water valve to close.
-Pull the lever.
-Turn the corkscrew lever twice.
-Pull the lever.
-Pull the yellow sign lever again.
-DryingEdit
-Pull the easternmost lever twice.
-Pull the yellow sign lever again.
-Finishing upEdit
-Collect your primed bar.
-Head down the stairs to the northwest.
-Go through the eastern door, use your primed bar with the extractor gun, then operate the Extractor hat. Your magic level will be drained by 20.
-Take your primed mind bar
-Go upstairs and smith a mind helmet.
-Quest complete!
+    Open the odd looking wall and climb down the stairs.
+    Search the machinery to get a key (North room).
+    Get 2 elemental ores by defeating earth elementals (West room).
+    Smelt your ores into bars (South room).
+    Open the hatch and go down the stairs.
+The crane
+    Search the south crate, take both schematics.
+    Go back upstairs and use one bar on the workbench to make an elemental claw.
+    Go downstairs and pull the lever next to the schematics.
+    Use your claw on the old crane.
+The junction box
+    Climb the stairs to the southwest to get on the catwalk.
+    Open the junction box to the west.
+    Click the pipe ends to arrange them as shown.
+Pipes and cogs
+    Search all crates on the ground floor and second level until you find a small, medium, and large cog, as well as a pipe.
+    Use the pipe on the broken piping (Cat walk).
+    Use the Small cog on upper left pin (Ground floor).
+    Medium cog on lower left pin (Ground floor).
+    Large cog on right pin (Ground floor).
+Operating the machine - The crane
+    Use the elemental bar on the jig cart.
+    Pull the left lever (by the schematics crate to raise the crane).
+    Pull the right lever (to rotate the crane).
+    Pull the left lever twice (to lower the crane into lava and back up).
+    Pull right lever (to rotate the crane over the cart).
+    Pull left lever twice (to lower the bar onto the cart and raise the crane).
+    Pull yellow sign lever (to move the cart).
+The press
+    Pull the lever to the west of the spiral stairs to flatten the bar once the cart has stopped.
+    Pull the yellow sign lever (to move the cart).
+The water tank
+    Pull the northern lever (to open the water tank).
+    Turn the corkscrew lever twice (to put the bar in the tank).
+    Pull the northern lever again (to close the water tank).
+    Turn the western water valve (to open).
+    Turn the eastern water valve (to open).
+    Turn the western water valve (to close).
+    Turn the eastern water valve (to close).
+    Pull the northern lever (to open the water tank).
+    Turn the corkscrew lever twice (to put the bar in the tank).
+    Pull the northern lever (to close the water tank).
+    Pull the yellow sign lever (to move the cart).
+Drying
+    Pull the eastern lever twice (to turn the fan on/off).
+    Pull the yellow sign lever (to move the cart).
+Mind helmet
+    Collect your primed bar.
+    Climb down the stairwell.
+    Go through the eastern door.
+    Use your primed bar with the extractor gun.
+    Operate the Extractor hat. (Your magic level will be drained by 20).
+    Take your primed mind bar.
+    Go upstairs and smith a mind helmet.
+Finishing up
+    Quest complete!
 
 
 Alfred Grimhand's Barcrawl

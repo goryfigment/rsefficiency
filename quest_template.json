@@ -1,189 +1,524 @@
 {
-  "elemental_workshop_i": {
-    "name": "Elemental Workshop I",
-    "directory": "elemental_workshop_i",
+  "elemental_workshop_ii": {
+    "name": "Elemental Workshop II",
+    "directory": "elemental_workshop_ii",
     "req": [
       {
-        "items": ["20 Mining (30 if mining the coal)", "20 Smithing", "20 Crafting"],
+        "items": ["Elemental Workshop I"],
+        "name": "Quest Requirements"
+      },
+      {
+        "items": ["20 Magic", "30 Smithing"],
         "name": "Level Requirements"
       },
       {
-        "items": ["A knife or any edged weapon (ex. Dagger)", "A pickaxe", "Thread", "A hammer", "4 Coal", "Leather (obtainable during the quest)", "A needle (obtainable during the quest)"],
+        "items": ["Pickaxe", "Hammer", "8 Coal", "Battered key (from first quest)"],
         "name": "Items"
       },
       {
-        "items": ["Earth elemental (level 35)"],
-        "name": "Enemies to defeat"
+        "items": ["Digsite Teleport", "Dueling Arena (Digsite)", "Camelot Teleport"],
+        "name": "Recommended"
       }
     ],
     "steps": {
       "1": {
-        "step": "Search the bookcases to find a battered book.",
+        "step": "Search southeastern bookcases to find a beaten book in the Exam Centre.",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Search the bookcases to find a battered book."]
+            "location": ["Exam Centre"],
+            "description": ["Search southeastern bookcases to find a beaten book in the Exam Centre."]
           }
         }
       },
       "2": {
-        "step": "Open the book, then use a knife on it to get a Battered key.",
+        "step": "Open the book, then read the scroll.",
+        "last": true,
         "details": {
           "1": {
-            "description": ["Open the book, then use a knife on it to get a Battered key. (Note: Do not drop the book)"]
+            "description": ["Open the book."]
+          },
+          "2": {
+            "description": ["Read the scroll. (Keep the book)"]
           }
         }
       },
       "3": {
-        "step": "Open the odd looking wall.",
+        "step": "Open the odd looking wall and climb down the stairs.",
+        "subtitle": "The second key",
         "details": {
           "1": {
             "location": ["Elemental Workshop"],
-            "description": ["Open the odd looking wall (with the key in inventory)."]
+            "description": ["Open the odd looking wall."]
+          },
+          "2": {
+            "location": ["Elemental Workshop"],
+            "description": ["Climb down the stairs."]
           }
         }
       },
       "4": {
-        "step": "Go down the stairs.",
-        "last": true,
+        "step": "Search the machinery to get a key.",
         "details": {
           "1": {
             "location": ["Elemental Workshop"],
-            "description": ["Go down the stairs."]
+            "description": ["Search the machinery to get a key (North room)."]
           }
         }
       },
       "5": {
-        "step": "Turn both water controls (North room).",
-        "subtitle": "Repairing the Workshop",
+        "step": "Get 2 elemental ores by defeating earth elementals.",
         "details": {
           "1": {
             "location": ["Elemental Workshop"],
-            "description": ["Turn the eastern water controls."]
+            "description": ["Attempt to mine an elemental rock."]
           },
           "2": {
             "location": ["Elemental Workshop"],
-            "description": ["Turn the western water controls."]
+            "description": ["Defeat two elementals to get 2 elemental ores."]
           }
         }
       },
       "6": {
-        "step": "Pull the lever by the water wheel.",
+        "step": "Smelt your ores into bars (South room).",
         "details": {
           "1": {
             "location": ["Elemental Workshop"],
-            "description": ["Pull the lever by the water wheel."]
+            "description": ["Smelt your ores into bars (South room)."]
           }
         }
       },
       "7": {
-        "step": "Optional: To obtain Leather, search a crate north of the staircase.",
+        "step": "Open the hatch and go down the stairs.",
+        "last": true,
         "details": {
           "1": {
             "location": ["Elemental Workshop"],
-            "description": ["Optional: To obtain Leather, search a crate north of the staircase."]
+            "description": ["Open the hatch and go down the stairs."]
           }
         }
       },
       "8": {
-        "step": "Optional: To obtain a Needle, search the crates in the west room.",
+        "step": "Search the south crate, take both schematics. (Chat: 1) (Chat: 2)",
+        "subtitle": "The crane",
         "details": {
           "1": {
             "location": ["Elemental Workshop"],
-            "description": ["Optional: To obtain a Needle, search the crates in the west room."]
+            "description": ["Search the south crate, take both schematics."]
           }
         }
       },
       "9": {
-        "step": "Fix the bellows (East room).",
+        "step": "Go back upstairs and use one bar on the workbench to make an elemental claw.",
         "details": {
           "1": {
             "location": ["Elemental Workshop"],
-            "description": ["Fix the bellows"]
+            "description": ["Go back upstairs."]
+          },
+          "2": {
+            "location": ["Elemental Workshop"],
+            "description": ["Use one bar on the workbench to make an elemental claw."]
           }
         }
       },
       "10": {
-        "step": "Pull the lever by the bellows.",
+        "step": "Go downstairs and pull the lever next to the schematics.",
         "details": {
           "1": {
             "location": ["Elemental Workshop"],
-            "description": ["Pull the lever by the bellows."]
+            "description": ["Go downstairs and pull the lever next to the schematics."]
           }
         }
       },
       "11": {
-        "step": "Search the small boxes in the middle room to get a stone bowl.",
+        "step": "Use your claw on the old crane.",
+        "last": true,
         "details": {
           "1": {
             "location": ["Elemental Workshop"],
-            "description": ["Search the small boxes in the middle room to get a stone bowl."]
+            "description": ["Use your claw on the old crane."]
           }
         }
       },
       "12": {
-        "step": "Use a stone bowl on the lava (South room).",
+        "step": "Climb the stairs to get on the catwalk.",
+        "subtitle": "The junction box",
         "details": {
           "1": {
             "location": ["Elemental Workshop"],
-            "description": ["Use a stone bowl on the lava"]
+            "description": ["Climb the stairs to the southwest to get on the catwalk."]
           }
         }
       },
       "13": {
-        "step": "Use the bowl of lava on the Furnace.",
-        "last": true,
+        "step": "Open the junction box to the west.",
         "details": {
           "1": {
             "location": ["Elemental Workshop"],
-            "description": ["Use the bowl of lava on the Furnace."]
+            "description": ["Open the junction box to the west."]
           }
         }
       },
       "14": {
-        "step": "Mine an elemental rock (West room).",
-        "subtitle": "Elemental shield",
+        "step": "Click the pipe ends to arrange them as shown.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Mine an elemental rock."]
+            "description": ["Click the pipe ends to arrange them as shown. Click the top left and bottom right to get the middle pipe. Click the two top right pipe ends to get the top right pipe. Click the two bottom left pipe ends to get the bottom left pipe."]
           }
         }
       },
       "15": {
-        "step": "Defeat the Earth elemental and pick-up the elemental ore it drops.",
+        "step": "Search all crates on the cat walk and ground floor until you find a small, medium, and large cog, as well as a pipe.",
+        "subtitle": "Pipes and cogs",
         "details": {
           "1": {
             "location": ["Elemental Workshop"],
-            "description": ["Defeat the Earth elemental."]
+            "description": ["Search all 7 crates on the cat walk."]
           },
           "2": {
             "location": ["Elemental Workshop"],
-            "description": ["Pick-up the elemental ore it drops."]
+            "description": ["Search all 16 crates on the ground floor."]
           }
         }
       },
       "16": {
-        "step": "Use the elemental ore and four coal on the furnace (South room).",
+        "step": "Use the pipe on the broken piping (Cat walk).",
         "details": {
           "1": {
             "location": ["Elemental Workshop"],
-            "description": ["Use the elemental ore and four coal on the furnace"]
+            "description": ["Use the pipe on the broken piping (Cat walk)."]
           }
         }
       },
       "17": {
-        "step": "Smith an elemental shield by using the elemental metal on the workbench (Must have slashed book in inventory).",
-        "last": true,
+        "step": "Use the small cog on upper left pin",
         "details": {
           "1": {
             "location": ["Elemental Workshop"],
-            "description": ["Smith an elemental shield by using the elemental metal on the workbench"]
+            "description": ["Use the small cog on upper left pin (Ground floor)."]
           }
         }
       },
       "18": {
+        "step": "Use the medium cog on lower left pin",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Use the Medium cog on lower left pin (Ground floor)."]
+          }
+        }
+      },
+      "19": {
+        "step": "Use the large cog on right pin",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Use the Large cog on right pin (Ground floor)."]
+          }
+        }
+      },
+      "20": {
+        "step": "Use the elemental bar on the jig cart.",
+        "subtitle": "Operating the machine - The crane",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Use the elemental bar on the jig cart."]
+          }
+        }
+      },
+      "21": {
+        "step": "Pull the left lever.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Pull the left lever by the schematics crate to raise the crane."]
+          }
+        }
+      },
+      "22": {
+        "step": "Pull the right lever.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Pull the right lever to rotate the crane."]
+          }
+        }
+      },
+      "23": {
+        "step": "Pull the left lever twice.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Pull the left lever to lower the crane into lava."]
+          },
+          "2": {
+            "location": ["Elemental Workshop"],
+            "description": ["Pull the left lever again to raise it back up."]
+          }
+        }
+      },
+      "24": {
+        "step": "Pull right lever.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Pull right lever to rotate the crane over the cart."]
+          }
+        }
+      },
+      "25": {
+        "step": "Pull left lever twice.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Pull left lever to lower the bar onto the cart"]
+          },
+          "2": {
+            "location": ["Elemental Workshop"],
+            "description": ["Pull left lever to raise the crane."]
+          }
+        }
+      },
+      "26": {
+        "step": "Pull yellow sign lever.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Pull yellow sign lever to move the cart."]
+          }
+        }
+      },
+      "27": {
+        "step": "Pull the west lever to flatten the bar.",
+        "subtitle": "The press",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Pull the west lever to flatten the bar."]
+          }
+        }
+      },
+      "28": {
+        "step": "Pull the yellow sign lever",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Pull the yellow sign lever (to move the cart)."]
+          }
+        }
+      },
+      "29": {
+        "step": "Pull the northern lever.",
+        "subtitle": "The water tank",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Pull the northern lever to open the water tank."]
+          }
+        }
+      },
+      "30": {
+        "step": "Turn the corkscrew lever twice.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Turn the corkscrew lever to extend the bars to the cart."]
+          },
+          "2": {
+            "location": ["Elemental Workshop"],
+            "description": ["Turn the corkscrew lever to get the bar in the tank."]
+          }
+        }
+      },
+      "31": {
+        "step": "Pull the northern lever again.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Pull the northern lever again to close the water tank."]
+          }
+        }
+      },
+      "32": {
+        "step": "Turn the western water valve.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Turn the western water valve to open."]
+          }
+        }
+      },
+      "33": {
+        "step": "Turn the eastern water valve.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Turn the eastern water valve to open."]
+          }
+        }
+      },
+      "34": {
+        "step": "Turn the western water valve.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Turn the western water valve to close."]
+          }
+        }
+      },
+      "35": {
+        "step": "Turn the eastern water valve.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Turn the eastern water valve to close."]
+          }
+        }
+      },
+      "36": {
+        "step": "Pull the northern lever.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Pull the northern lever to open the water tank."]
+          }
+        }
+      },
+      "37": {
+        "step": "Turn the corkscrew lever twice.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Turn the corkscrew lever to put the bar on the rail."]
+          },
+          "2": {
+            "location": ["Elemental Workshop"],
+            "description": ["Turn the corkscrew lever to retract the rails."]
+          }
+        }
+      },
+      "38": {
+        "step": "Pull the northern lever.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Pull the northern lever to close the water tank."]
+          }
+        }
+      },
+      "39": {
+        "step": "Pull the yellow sign lever.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Pull the yellow sign lever to move the cart."]
+          }
+        }
+      },
+      "40": {
+        "step": "Pull the eastern lever twice.",
+        "subtitle": "Drying",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Pull the eastern lever twice to turn the fan on."]
+          },
+          "2": {
+            "location": ["Elemental Workshop"],
+            "description": ["Pull the eastern lever twice to turn the fan off."]
+          }
+        }
+      },
+      "41": {
+        "step": "Pull the yellow sign lever.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Pull the yellow sign lever to move the cart."]
+          }
+        }
+      },
+      "42": {
+        "step": "Collect your primed bar.",
+        "subtitle": "Mind helmet",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Collect your primed bar."]
+          }
+        }
+      },
+      "43": {
+        "step": "Climb down the stairwell.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Climb down the stairwell."]
+          }
+        }
+      },
+      "44": {
+        "step": "Go through the eastern door.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Go through the eastern door."]
+          }
+        }
+      },
+      "45": {
+        "step": "Use your primed bar with the extractor gun.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Use your primed bar with the extractor gun."]
+          }
+        }
+      },
+      "46": {
+        "step": "Operate the Extractor hat.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Operate the Extractor hat. (Your magic level will be drained by 20)."]
+          }
+        }
+      },
+      "47": {
+        "step": "Take your primed mind bar.",
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Take your primed mind bar."]
+          }
+        }
+      },
+      "48": {
+        "step": "Go upstairs and smith a mind helmet.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Elemental Workshop"],
+            "description": ["Go upstairs."]
+          },
+          "2": {
+            "location": ["Elemental Workshop"],
+            "description": ["Go upstairs to the top floor."]
+          },
+          "3": {
+            "location": ["Elemental Workshop"],
+            "description": ["Smith a mind helmet."]
+          }
+        }
+      },
+      "49": {
         "step": "Quest complete!",
         "subtitle": "Finishing up",
         "details": {

@@ -23,6 +23,13 @@ function init() {
     } else {
         $questWrapper.append(quest(globals.quest));
     }
+
+    if (localStorage.getItem("expand") == 'true') {
+        $('#flexible-button').text('Minimize');
+        $(".collapsible").each(function() {
+            $(this).show();
+        });
+    }
 }
 
 function comparer(index) {
@@ -75,4 +82,23 @@ $(document).ready(function() {
     $(document).on('click', '.collapsible', function (e) {
         e.stopPropagation();
     });
+
+    $(document).on('click', '#flexible-button', function (e) {
+        var $this = $(this);
+
+        if($this.text() == 'Expand') {
+            $this.text('Minimize');
+            localStorage.setItem("expand", 'true');
+            $(".collapsible").each(function() {
+                $(this).show();
+            });
+        } else {
+            $this.text('Expand');
+            localStorage.setItem("expand", 'false');
+            $(".collapsible").each(function() {
+                $(this).hide();
+            });
+        }
+    });
+
 });
