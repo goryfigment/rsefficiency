@@ -14,6 +14,13 @@
     {{#each steps}}
         {{#if subtitle}}
             <h4 class="instruction-title">{{subtitle}}</h4>
+        {{/if}}
+
+        {{#if required_items}}
+            <div class="required-items">Required Items: {{required_items}}</div>
+        {{/if}}
+
+        {{#if subtitle}}
             <ul class="unordered-list">
         {{/if}}
 

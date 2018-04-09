@@ -1,526 +1,512 @@
 {
-  "elemental_workshop_ii": {
-    "name": "Elemental Workshop II",
-    "directory": "elemental_workshop_ii",
+  "ghost_ahoy": {
+    "name": "Ghost Ahoy",
+    "directory": "ghost_ahoy",
     "req": [
       {
-        "items": ["Elemental Workshop I"],
+        "items": ["The Restless Ghost", "Priest in Peril"],
         "name": "Quest Requirements"
       },
       {
-        "items": ["20 Magic", "30 Smithing"],
+        "items": ["25 Agility", "20 Cooking"],
         "name": "Level Requirements"
       },
       {
-        "items": ["Pickaxe", "Hammer", "8 Coal", "Battered key (from first quest)"],
+        "items": ["35 Ecto-tokens (7 bones, 7 buckets, and 7 pots)", "Bucket of slime", "Ghostspeak amulet", "~400 Coins", "Bucket of milk", "3 red, 3 blue, 3 yellow dye (Random for everyone)", "Spade", "Oak longbow", "Knife", "Needle", "Thread", "Nettle Tea (Leather gloves, Tinderbox, Logs, Bowl of water, Bucket of milk)"
+        ],
         "name": "Items"
       },
       {
-        "items": ["Digsite Teleport", "Dueling Arena (Digsite)", "Camelot Teleport"],
+        "items": ["Charged Amulet of Glory (Edgeville)", "Draman/Lunar Staff (Fairy Ring A-L-Q)", "Canifis Teleport", "Slayer Ring (Slayer tower)"],
         "name": "Recommended"
       }
     ],
     "steps": {
       "1": {
-        "step": "Search southeastern bookcases to find a beaten book in the Exam Centre.",
+        "step": "Equip leather gloves and pick nettles.",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": ["Exam Centre"],
-            "description": ["Search southeastern bookcases to find a beaten book in the Exam Centre."]
+            "location": ["Edgeville"],
+            "description": ["Equip leather gloves and pick nettles."]
           }
         }
       },
       "2": {
-        "step": "Open the book, then read the scroll.",
-        "last": true,
+        "step": "Use the nettles on the bowl of water.",
         "details": {
           "1": {
-            "description": ["Open the book."]
-          },
-          "2": {
-            "description": ["Read the scroll. (Keep the book)"]
+            "description": ["Use the nettles on the bowl of water."]
           }
         }
       },
       "3": {
-        "step": "Open the odd looking wall and climb down the stairs.",
-        "subtitle": "The second key",
+        "step": "Use the logs on the tinderbox.",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Open the odd looking wall."]
-          },
-          "2": {
-            "location": ["Elemental Workshop"],
-            "description": ["Climb down the stairs."]
+            "description": ["Use the logs on the tinderbox."]
           }
         }
       },
       "4": {
-        "step": "Search the machinery to get a key.",
+        "step": "Use the nettle-water on the fire.",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Search the machinery to get a key (North room)."]
+            "location": ["Edgeville"],
+            "description": ["Use the nettle-water on the fire."]
+          },
+          "2": {
+            "location": ["Edgeville"],
+            "description": ["If you fail cooking the nettle, pick as many nettles as you can."]
+          },
+          "3": {
+            "location": ["Edgeville"],
+            "description": ["Go to the house east of Edgeville and fill the bowl with water."]
+          },
+          "4": {
+            "description": ["Use the nettles on the bowl of water."]
+          },
+          "5": {
+            "location": ["Edgeville"],
+            "description": ["Use the nettle-water on the stove. Continue doing this until you successfully cook the nettle"]
           }
         }
       },
       "5": {
-        "step": "Get 2 elemental ores by defeating earth elementals.",
+        "step": "Use the bucket of milk on the nettle tea.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Attempt to mine an elemental rock."]
-          },
-          "2": {
-            "location": ["Elemental Workshop"],
-            "description": ["Defeat two elementals to get 2 elemental ores."]
+            "description": ["Use the bucket of milk on the nettle tea."]
           }
         }
       },
       "6": {
-        "step": "Smelt your ores into bars (South room).",
+        "step": "Go upstairs and use the bones on the loader.",
+        "subtitle": "Ecto-tokens",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Smelt your ores into bars (South room)."]
+            "location": ["Second floor of Ectofuntus"],
+            "description": ["Go upstairs."]
+          },
+          "2": {
+            "location": ["Ectofuntus"],
+            "description": ["Use the bones on the loader."]
           }
         }
       },
       "7": {
-        "step": "Open the hatch and go down the stairs.",
-        "last": true,
+        "step": "Climb down the trapdoor and use the buckets on the slime pool.",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Open the hatch and go down the stairs."]
+            "location": ["Ectofuntus"],
+            "description": ["Climb down the trapdoor and follow the path all the way down."]
+          },
+          "2": {
+            "location": ["Bottom floor of Ectofuntus"],
+            "description": ["Use the buckets on the slime pool."]
           }
         }
       },
       "8": {
-        "step": "Search the south crate, take both schematics. (Chat: 1) (Chat: 2)",
-        "subtitle": "The crane",
+        "step": "Worship the Ectofuntus.",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Search the south crate, take both schematics."]
+            "location": ["Ectofuntus"],
+            "description": ["Worship the Ectofuntus."]
           }
         }
       },
       "9": {
-        "step": "Go back upstairs and use one bar on the workbench to make an elemental claw.",
+        "step": "Talk to the Ghost disciple to redeem the ecto-tokens.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Go back upstairs."]
-          },
-          "2": {
-            "location": ["Elemental Workshop"],
-            "description": ["Use one bar on the workbench to make an elemental claw."]
+            "location": ["Ectofuntus"],
+            "description": ["Talk to the Ghost disciple to redeem the ecto-tokens."]
           }
         }
       },
       "10": {
-        "step": "Go downstairs and pull the lever next to the schematics.",
+        "step": "Pass the energy barrier (2 Ecto-tokens).",
+        "subtitle": "Getting Started",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Go downstairs and pull the lever next to the schematics."]
+            "location": ["Port Phasmatys"],
+            "description": ["Pass the energy barrier"]
           }
         }
       },
       "11": {
-        "step": "Use your claw on the old crane.",
-        "last": true,
+        "step": "Talk to Velorina. (Chat 1-1-1)",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Use your claw on the old crane."]
+            "location": ["Port Phasmatys"],
+            "description": ["Talk to Velorina."]
           }
         }
       },
       "12": {
-        "step": "Climb the stairs to get on the catwalk.",
-        "subtitle": "The junction box",
+        "step": "Equip ghostpeak amulet and talk to Necrovarus.",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Climb the stairs to the southwest to get on the catwalk."]
+            "location": ["Ectofuntus"],
+            "description": ["Equip ghostpeak amulet and talk to Necrovarus."]
           }
         }
       },
       "13": {
-        "step": "Open the junction box to the west.",
+        "step": "Talk to Velorina. (Chat 1)",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Open the junction box to the west."]
+            "location": ["Port Phasmatys"],
+            "description": ["Talk to Velorina."]
           }
         }
       },
       "14": {
-        "step": "Click the pipe ends to arrange them as shown.",
-        "last": true,
+        "step": "Talk to the Old crone. (Chat 1)",
+        "subtitle": "The Old Crone",
         "details": {
           "1": {
-            "description": ["Click the pipe ends to arrange them as shown. Click the top left and bottom right to get the middle pipe. Click the two top right pipe ends to get the top right pipe. Click the two bottom left pipe ends to get the bottom left pipe."]
+            "location": ["East of Slayer Tower"],
+            "description": ["Talk to the Old crone."]
           }
         }
       },
       "15": {
-        "step": "Search all crates on the cat walk and ground floor until you find a small, medium, and large cog, as well as a pipe.",
-        "subtitle": "Pipes and cogs",
+        "step": "Use the porcelain cup on the nettle tea.",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Search all 7 crates on the cat walk."]
-          },
-          "2": {
-            "location": ["Elemental Workshop"],
-            "description": ["Search all 16 crates on the ground floor."]
+            "description": ["Use the porcelain cup on the nettle tea."]
           }
         }
       },
       "16": {
-        "step": "Use the pipe on the broken piping (Cat walk).",
+        "step": "Talk to the Old crone. (Chat 1-1)",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Use the pipe on the broken piping (Cat walk)."]
+            "location": ["East of Slayer Tower"],
+            "description": ["Talk to the Old crone."]
           }
         }
       },
       "17": {
-        "step": "Use the small cog on upper left pin",
+        "step": "Repair the toy ship.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Use the small cog on upper left pin (Ground floor)."]
+            "description": ["Click on the ship to repair it with a silk and thread."]
           }
         }
       },
       "18": {
-        "step": "Use the medium cog on lower left pin",
+        "step": "Climb to the top of the ship.",
+        "subtitle": "Treasure map",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Use the Medium cog on lower left pin (Ground floor)."]
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Climb up the ladders from the ground floor."]
+          },
+          "2": {
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Climb up the ladders from the second floor."]
           }
         }
       },
       "19": {
-        "step": "Use the large cog on right pin",
-        "last": true,
+        "step": "When the wind speed drops low search the mast to find out what colours the components of the flag are.",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Use the Large cog on right pin (Ground floor)."]
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["When the wind speed drops low search the mast to find out what colours the components of the flag are. (Random for everyone)."]
+          },
+          "2": {
+            "description": ["As you search the mast, it will tell you what color the each part of the ship."]
+          },
+          "3": {
+            "description": ["Use the correct color dye on the correct part of the ship. Do this three times for all three parts of the ship. Mix the dyes to get the correct colors.", "Red + Yellow = Orange", "Red + Blue = Purple", "Blue + Yellow = Green"]
           }
         }
       },
       "20": {
-        "step": "Use the elemental bar on the jig cart.",
-        "subtitle": "Operating the machine - The crane",
+        "step": "Talk to the Old man. (Chat 3)",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Use the elemental bar on the jig cart."]
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Talk to the Old man."]
           }
         }
       },
       "21": {
-        "step": "Pull the left lever.",
+        "step": "Use the chest key on the chest for a map scrap.",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Pull the left lever by the schematics crate to raise the crane."]
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Use the chest key on the chest for a map scrap."]
           }
         }
       },
       "22": {
-        "step": "Pull the right lever.",
+        "step": "Cross the gangplank and jump along the path of the rocks.",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Pull the right lever to rotate the crane."]
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Cross the gangplank and jump along the path of the rocks."]
+          },
+          "2": {
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Jump-To the rocks."]
+          },
+          "3": {
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Jump-To the rocks."]
+          },
+          "4": {
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Jump-To the rocks."]
+          },
+          "5": {
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Jump-To the rocks."]
+          },
+          "6": {
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Jump-To the rocks."]
           }
         }
       },
       "23": {
-        "step": "Pull the left lever twice.",
+        "step": "Open and search the chest for a map scrap.",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Pull the left lever to lower the crane into lava."]
-          },
-          "2": {
-            "location": ["Elemental Workshop"],
-            "description": ["Pull the left lever again to raise it back up."]
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Open and search the chest for a map scrap."]
           }
         }
       },
       "24": {
-        "step": "Pull right lever.",
+        "step": "Attempt and search the chest (ground floor).",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Pull right lever to rotate the crane over the cart."]
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Attempt and search the chest"]
           }
         }
       },
       "25": {
-        "step": "Pull left lever twice.",
+        "step": "Defeat the scorpion (level 32).",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Pull left lever to lower the bar onto the cart"]
-          },
-          "2": {
-            "location": ["Elemental Workshop"],
-            "description": ["Pull left lever to raise the crane."]
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Defeat the scorpion"]
           }
         }
       },
       "26": {
-        "step": "Pull yellow sign lever.",
-        "last": true,
+        "step": "Search the chest again.",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Pull yellow sign lever to move the cart."]
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Search the chest again."]
           }
         }
       },
       "27": {
-        "step": "Pull the west lever to flatten the bar.",
-        "subtitle": "The press",
+        "step": "Combine the map pieces to get a treasure map.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Pull the west lever to flatten the bar."]
+            "description": ["Combine the map pieces to get a treasure map."]
           }
         }
       },
       "28": {
-        "step": "Pull the yellow sign lever",
-        "last": true,
+        "step": "Right-click and choose the 'Travel' option on the Ghost captain.",
+        "subtitle": "Treasure!",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Pull the yellow sign lever (to move the cart)."]
+            "location": ["Port Phasmatys"],
+            "description": ["Right-click and choose the 'Travel' option on the Ghost captain."]
           }
         }
       },
       "29": {
-        "step": "Pull the northern lever.",
-        "subtitle": "The water tank",
+        "step": "Dig at this exact spot (shown below).",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Pull the northern lever to open the water tank."]
+            "location": ["Port Phasmatys"],
+            "description": ["Dig at this exact spot"]
           }
         }
       },
       "30": {
-        "step": "Turn the corkscrew lever twice.",
+        "step": "Talk to Ak-Haranu. (Chat 1)",
+        "subtitle": "The Translation Manual",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Turn the corkscrew lever to extend the bars to the cart."]
-          },
-          "2": {
-            "location": ["Elemental Workshop"],
-            "description": ["Turn the corkscrew lever to get the bar in the tank."]
+            "location": ["Port Phasmatys"],
+            "description": ["Talk to Ak-Haranu."]
           }
         }
       },
       "31": {
-        "step": "Pull the northern lever again.",
+        "step": "Talk to Robin and beat him playing Runedraw four times. (Chat 1)",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Pull the northern lever again to close the water tank."]
+            "location": ["Port Phasmatys"],
+            "description": ["Talk to Robin and beat him playing Runedraw four times."]
+          },
+          "2": {
+            "description": ["Keep rolling on the left hand side until you win. Win four times and he will sign the oak longbow. (First win)."]
+          },
+          "3": {
+            "description": ["Second win"]
+          },
+          "4": {
+            "description": ["Third win"]
+          },
+          "5": {
+            "description": ["Fourth win"]
           }
         }
       },
       "32": {
-        "step": "Turn the western water valve.",
+        "step": "Talk to Ak-Haranu.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Turn the western water valve to open."]
+            "location": ["Port Phasmatys"],
+            "description": ["Talk to Ak-Haranu."]
           }
         }
       },
       "33": {
-        "step": "Turn the eastern water valve.",
+        "step": "Trade a Trader Crewmember for a bucket of slime.",
+        "subtitle": "The robes",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Turn the eastern water valve to open."]
+            "location": ["Port Phasmatys"],
+            "description": ["Trade a Trader Crewmember for a bucket of slime."]
           }
         }
       },
       "34": {
-        "step": "Turn the western water valve.",
+        "step": "Talk to the ghost innkeeper. (Chat 4-1)",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Turn the western water valve to close."]
+            "location": ["Port Phasmatys"],
+            "description": ["Talk to the ghost innkeeper."]
           }
         }
       },
       "35": {
-        "step": "Turn the eastern water valve.",
+        "step": "Use the bucket of slime on the bedsheet.",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Turn the eastern water valve to close."]
+            "description": ["Use the bucket of slime on the bedsheet."]
           }
         }
       },
       "36": {
-        "step": "Pull the northern lever.",
+        "step": "Talk to Gravingas. (Chat 1)",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Pull the northern lever to open the water tank."]
+            "location": ["Port Phasmatys"],
+            "description": ["Talk to Gravingas."]
           }
         }
       },
       "37": {
-        "step": "Turn the corkscrew lever twice.",
+        "step": "Equip the bedsheet and alternate asking two ghost villagers for 10 signatures.",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Turn the corkscrew lever to put the bar on the rail."]
+            "location": ["Port Phasmatys"],
+            "description": ["Equip the bedsheet and alternate asking two ghost villagers for 10 signatures. Ignore them if they ask for ecto-tokens."]
           },
           "2": {
-            "location": ["Elemental Workshop"],
-            "description": ["Turn the corkscrew lever to retract the rails."]
+            "location": ["Port Phasmatys"],
+            "description": ["Continue talking back and forth until you get all 10 signatures."]
           }
         }
       },
       "38": {
-        "step": "Pull the northern lever.",
+        "step": "After 10 signatures, talk to Gravingas.",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Pull the northern lever to close the water tank."]
+            "location": ["Port Phasmatys"],
+            "description": ["After 10 signatures, talk to Gravingas."]
           }
         }
       },
       "39": {
-        "step": "Pull the yellow sign lever.",
-        "last": true,
+        "step": "Talk to Necrovarus and pick-up the bone key he drops.",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Pull the yellow sign lever to move the cart."]
+            "location": ["Ectofuntus"],
+            "description": ["Talk to Necrovarus and pick-up the bone key he drops."]
+          },
+          "2": {
+            "location": ["Ectofuntus"],
+            "description": ["Pick-up the bone key he drops."]
           }
         }
       },
       "40": {
-        "step": "Pull the eastern lever twice.",
-        "subtitle": "Drying",
+        "step": "Use the bone key and open the door.",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Pull the eastern lever twice to turn the fan on."]
+            "location": ["Ectofuntus"],
+            "description": ["Climb up the staircase."]
           },
           "2": {
-            "location": ["Elemental Workshop"],
-            "description": ["Pull the eastern lever twice to turn the fan off."]
+            "location": ["Ectofuntus"],
+            "description": ["Use the bone key and open the door."]
           }
         }
       },
       "41": {
-        "step": "Pull the yellow sign lever.",
+        "step": "Open and search the coffin for mystical robes.",
         "last": true,
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Pull the yellow sign lever to move the cart."]
+            "location": ["Ectofuntus"],
+            "description": ["Open and search the coffin for mystical robes."]
           }
         }
       },
       "42": {
-        "step": "Collect your primed bar.",
-        "subtitle": "Mind helmet",
+        "step": "Talk to the Crone. (Chat: 1)",
+        "subtitle": "Finishing up",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Collect your primed bar."]
+            "location": ["East of Slayer Tower"],
+            "description": ["Talk to the Crone."]
           }
         }
       },
       "43": {
-        "step": "Climb down the stairwell.",
+        "step": "Talk to Necrovarus. (Chat: 1)",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Climb down the stairwell."]
+            "location": ["Port Phasmatys"],
+            "description": ["Talk to Necrovarus."]
           }
         }
       },
       "44": {
-        "step": "Go through the eastern door.",
+        "step": "Talk to Velorina. (Chat 1)",
         "details": {
           "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Go through the eastern door."]
+            "location": ["Port Phasmatys"],
+            "description": ["Talk to Velorina."]
           }
         }
       },
       "45": {
-        "step": "Use your primed bar with the extractor gun.",
-        "details": {
-          "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Use your primed bar with the extractor gun."]
-          }
-        }
-      },
-      "46": {
-        "step": "Operate the Extractor hat.",
-        "details": {
-          "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Operate the Extractor hat. (Your magic level will be drained by 20)."]
-          }
-        }
-      },
-      "47": {
-        "step": "Take your primed mind bar.",
-        "details": {
-          "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Take your primed mind bar."]
-          }
-        }
-      },
-      "48": {
-        "step": "Go upstairs and smith a mind helmet.",
-        "last": true,
-        "details": {
-          "1": {
-            "location": ["Elemental Workshop"],
-            "description": ["Go upstairs."]
-          },
-          "2": {
-            "location": ["Elemental Workshop"],
-            "description": ["Go upstairs to the top floor."]
-          },
-          "3": {
-            "location": ["Elemental Workshop"],
-            "description": ["Smith a mind helmet."]
-          }
-        }
-      },
-      "49": {
         "step": "Quest complete!",
-        "subtitle": "Finishing up",
         "details": {
           "1": {}
         }

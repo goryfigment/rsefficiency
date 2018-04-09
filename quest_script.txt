@@ -209,75 +209,335 @@ Items needed: Mahogany plank and Soft leather
     Talk to Larry.
     Quest complete!
 
-
-
-
-Elemental Workshop II
-Quest Requirements: Elemental Workshop I
-Level Requirements: 20 Magic, 30 Smithing
-Items: Pickaxe, Hammer, 8 Coal, Battered key (from first quest)
-Recommended: Digsite Teleport, Dueling Arena (Digsite), Camelot Teleport
+Animal Magnetism
+Quest Requirements: The Restless Ghost, Ernest the Chicken, Priest in Peril
+Level Requirements: Level 18 Slayer, Level 19 Crafting, Level 30 Ranged, Level 35 Woodcutting
+Items: Mithril axe, 5 Iron bars, Ghostspeak amulet, 20 Ecto-tokens or (4 bones, 4 buckets, and 4 pots), Hammer, Holy symbol (31 Prayer to make for Ironman), Polished buttons, Hard leather
+Recommended: Charged Amulet of Glory (Draynor Village), Draman/Lunar Staff (Fairy Ring A-L-Q), Canifis Teleport, House Teleport (Rimmington), Games Necklace (Burthorpe), Ectophial
 Getting started
-    Search southeastern bookcases to find a beaten book in the Exam Centre.
-    Open the book, then read the scroll. (Keep the book)
-The second key
-    Open the odd looking wall and climb down the stairs.
-    Search the machinery to get a key (North room).
-    Get 2 elemental ores by defeating earth elementals (West room).
-    Smelt your ores into bars (South room).
-    Open the hatch and go down the stairs.
-The crane
-    Search the south crate, take both schematics.
-    Go back upstairs and use one bar on the workbench to make an elemental claw.
-    Go downstairs and pull the lever next to the schematics.
-    Use your claw on the old crane.
-The junction box
-    Climb the stairs to the southwest to get on the catwalk.
-    Open the junction box to the west.
-    Click the pipe ends to arrange them as shown.
-Pipes and cogs
-    Search all crates on the ground floor and second level until you find a small, medium, and large cog, as well as a pipe.
-    Use the pipe on the broken piping (Cat walk).
-    Use the Small cog on upper left pin (Ground floor).
-    Medium cog on lower left pin (Ground floor).
-    Large cog on right pin (Ground floor).
-Operating the machine - The crane
-    Use the elemental bar on the jig cart.
-    Pull the left lever (by the schematics crate to raise the crane).
-    Pull the right lever (to rotate the crane).
-    Pull the left lever twice (to lower the crane into lava and back up).
-    Pull right lever (to rotate the crane over the cart).
-    Pull left lever twice (to lower the bar onto the cart and raise the crane).
-    Pull yellow sign lever (to move the cart).
-The press
-    Pull the lever to the west of the spiral stairs to flatten the bar once the cart has stopped.
-    Pull the yellow sign lever (to move the cart).
-The water tank
-    Pull the northern lever (to open the water tank).
-    Turn the corkscrew lever twice (to put the bar in the tank).
-    Pull the northern lever again (to close the water tank).
-    Turn the western water valve (to open).
-    Turn the eastern water valve (to open).
-    Turn the western water valve (to close).
-    Turn the eastern water valve (to close).
-    Pull the northern lever (to open the water tank).
-    Turn the corkscrew lever twice (to put the bar in the tank).
-    Pull the northern lever (to close the water tank).
-    Pull the yellow sign lever (to move the cart).
-Drying
-    Pull the eastern lever twice (to turn the fan on/off).
-    Pull the yellow sign lever (to move the cart).
-Mind helmet
-    Collect your primed bar.
-    Climb down the stairwell.
-    Go through the eastern door.
-    Use your primed bar with the extractor gun.
-    Operate the Extractor hat. (Your magic level will be drained by 20).
-    Take your primed mind bar.
-    Go upstairs and smith a mind helmet.
-Finishing up
+    Talk to Ava. (Chat 1)
+Ecto-tokens
+    Climb upstairs and use the bones on the loader.
+    Climb down the trapdoor and use the buckets on the slime pool. (58 Agility)
+    Worship the Ectofuntus.
+    Talk to the Ghost disciple to redeem the ecto-tokens.
+Undead chickens
+    Talk to Alice. (Chat 4)
+    Equip Ghostspeak amulet and talk to Alice's husband.
+    Talk to Alice. (Chat 4)
+    Talk to Alice's husband.
+    Talk to Alice. (Chat 4)
+    Talk to Alice's husband.
+    Talk to Alice. (Chat 4)
+    Talk to the crone twice for a crone-made amulet. (Chat 2)
+    Talk to Alice's husband to give him the Crone-made amulet. (Chat 1)
+    Talk to Alice's husband (cut-scene).
+    Talk to Alice's husband to buy two undead chickens for 20 ecto-tokens. (Chat 1-2)
+Magnet
+    Talk to Ava.
+    Talk to the Witch twice to get a Selected iron.
+    Go to the center of the Rimmington mine (YOU MUST FACE NORTH) and use the hammer on the selected iron.
+    Talk to Ava (to give her the bar magnet).
+Undead twigs
+    Talk to Ava.
+    Try to chop the Undead tree.
+    Talk to Ava.
+    Talk to Turael in Burthorpe. (Chat 4)
+    Talk to Turael again for a blessed axe. (Chat 4-1)
+    Chop the undead tree with the blessed axe.
+    Talk to Ava (to give her the undead twigs).
+Ava's Attractor
+    Talk to Ava (for research notes).
+    Translate the research notes (Solution below).
+    Talk to Ava (for the pattern).
+    Use the polished buttons on the pattern.
+Quest Complete
+    Talk to Ava.
     Quest complete!
 
+
+Ghost Ahoy
+Quest Requirements: The Restless Ghost, Priest in Peril
+Level Requirements: 25 Agility, 20 Cooking
+Items: 35 Ecto-tokens (7 bones, 7 buckets, and 7 pots), Bucket of slime, Ghostspeak amulet, ~400 Coins, Bucket of milk, 3 red; 3 blue; 3 yellow dye (Random for everyone), Spade, Oak longbow, Knife, Needle, Thread, Nettle Tea (Leather gloves, Tinderbox, Logs, Bowl of water, Bucket of milk)
+Recommended: Charged Amulet of Glory (Edgeville), Draman/Lunar Staff (Fairy Ring A-L-Q), Canifis Teleport, Slayer Ring (Slayer tower)
+Getting started
+Items required: 7 bones, 7 buckets, 7 pots, Leather gloves, Tinderbox, Logs, Bowl of water, Bucket of milk
+Nettle Tea
+    Equip leather gloves and pick nettles.
+    Use the nettles on the bowl of water.
+    Use the logs on the tinderbox.
+    Use the nettle-water on the fire.
+    Use the bucket of milk on the nettle tea.
+Ecto-Tokens
+    Climb upstairs and use the bones on the loader.
+    Climb down the trapdoor and use the buckets on the slime pool.
+    Worship the Ectofuntus.
+    Talk to the Ghost disciple to redeem the ecto-tokens.
+Getting Started
+Items required: Nettle tea, 35 Ecto-tokens, ghostspeak amulet, silk, a needle, thread, a knife, 3 blue dye, 3 yellow dye, 3 red dye, spade, and food/combat gear to defeat a Giant lobster (level 32), Oak longbow, ~400 Coins
+    Pass the energy barrier (2 Ecto-tokens).
+    Talk to Velorina. (Chat 1-1-1)
+    Equip ghostpeak amulet and talk to Necrovarus.
+    Talk to Velorina. (Chat 1)
+The Old Crone
+    Talk to the Old crone. (Chat 1)
+    Use the porcelain cup on the nettle tea.
+    Talk to the Old crone. (Chat 1-1)
+    Repair the toy ship.
+Treasure map
+    Climb to the top of the ship.
+    When the wind speed drops low search the mast to find out what colours the components of the flag are.
+    Talk to the Old man. (Chat 3)
+    Use the chest key on the chest for a map scrap.
+    Cross the gangplank and jump along the path of the rocks.
+    Open and search the chest for a map scrap.
+    Attempt and search the chest (Ground floor).
+    Defeat the scorpion (level 32).
+    Search the chest again.
+    Combine the map pieces to get a treasure map.
+Treasure!
+    Right-click and choose the 'Travel' option on the Ghost captain.
+    Dig at this exact spot (shown below).
+The Translation Manual
+    Talk to Ak-Haranu. (Chat 1)
+    Talk to Robin and beat him playing Runedraw four times. (Chat 1)
+    Talk to Ak-Haranu.
+The robes
+    Trade a Trader Crewmember for a bucket of slime.
+    Talk to the ghost innkeeper. (Chat 4-1)
+    Use the bucket of slime on the bedsheet.
+    Talk to Gravingas. (Chat 1)
+    Equip the bedsheet and alternate asking two ghost villagers for 10 signatures.
+    After 10 signatures, talk to Gravingas.
+    Talk to Necrovarus and pick-up the bone key he drops.
+    Use the bone key and open the door.
+    Open and search the coffin for mystical robes.
+Finishing up
+    Talk to the Crone. (Chat: 1)
+    Talk to Necrovarus. (Chat: 1)
+    Talk to Velorina. (Chat 1)
+    Quest complete!
+
+Creature of Fenkenstrain
+Quest Requirements: Priest in Peril, The Restless Ghost
+Level Requirements: 20 Crafting, 25 Thieving
+Item Requirements: Hammer, Amulet of Ghostspeak, Silver bar, 3 bronze wire (unnoted), Needle, 5 thread, Spade, ~100 coins
+Getting started
+    Read the signpost in Canifis.
+    Take a pickled brain off the table in the tavern in Canifis for 50gp.
+    Talk to Dr. Fenkenstrain. (Chat 1-4-4)
+    Go upstairs and search the west bookcase. (Chat 4)
+    Search the east bookcase and read both books. (Chat 3)
+    Use the marble amulet on the obsidian amulet to form the star amulet.
+    Talk to the Gardener Ghost with the Ghostspeak amulet equipped. (Chat 2)
+    Dig in front of a grave marker. (Be sure the Gardener is following you, or else this step will not work.)
+    Use the brain on the head.
+    Go to the experiment Cave
+    Use your star amulet on the easternmost memorial then push it.
+    Kill a level 51 Experiment for the cavern key.
+    Search the chest and climb the ladder.
+    Dig at the three graves to get the torso, arms and legs.
+    Talk to Dr. Fenkenstrain and give him the body parts. (Chat 1)
+    Talk to Dr. Fenkenstrain again to give him the needle and thread.
+    Talk to the Gardener Ghost for the shed key. (Chat 2)
+    Take 3 canes from the pile of canes next to the shed.
+    Search the cupboard inside the shed.
+    Use the broom on the canes to get a extended brush.
+    Go upstairs use the extended brush on the fireplace and for a conductor mould.
+    Go to a furnace smelt a silver bar into a lightning rod.
+    Go upstairs and then climb the southern ladder.
+    Repair the lightning conductor.
+    Talk to the doctor.
+    Go upstairs, then climb the northern ladder.
+    Talk to Fenkenstrain's Monster.
+    Go downstairs, then pickpocket the doctor for the Ring of Charos.
+    Quest complete!
+
+
+Soul's Bane
+Starting out 
+Talk to Launa. (Chat 1)
+Enter the rift with your rope.
+Room 1 - Rage 
+Use weapons from the rack to kill monsters.
+Anger sword - kills Angry unicorn.
+Anger spear - kills Angry bear.
+Anger mace - kills Angry giant rat.
+Anger battleaxe - kills Angry goblin.
+When your rage bar is full you抣l get a cutscene.
+Head east to the next cave.
+Room 2 - Fear 
+Look inside the dark holes, some will have a fear reaper.
+You cannot search the same hole repeatedly.
+Kill 5 or 6 reapers to get a cutscene.
+Enter the black hole to the west.
+Room 3 - Confusion 
+Defeat confusion beasts until you find the one that takes damage. The "fake" ones will vanish after 8 hits.
+Running to the opposite end of the room will disengage.
+If your XP drops are on, you will see that you're getting XP when hitting 0's. These are "fake", disengage.
+Repeat until one door remains to get the cutscene.
+Enter the confusing door.
+Tolna (monster)
+Is that really Tolna??
+
+Room 4 - Hopelessness  
+Kill all the hopeless creatures 3 times each.
+Cross the bridge and prepare to fight Tolna (3 level 46 monsters).
+Finishing up. 
+Kill the 3 heads.
+Use protect from missiles to take no damage. (Stay out of melee range)
+Talk to Tolna.
+Talk to him again on the surface.
+Quest complete!
+
+
+
+The Lost Tribe
+Talk to Sigmund. (Chat 1)
+Ask the duke, cook, Hans, Father Aereck, Donie, and Bob about what happened in the cellar. One will mention a goblin in the basement.
+Talk to Sigmund again, then the duke.
+Use your pickaxe on the rubble in the basement and climb through the hole.
+Light your light source and grab the brooch.
+Show the brooch to the duke. (Chat 3) or (Chat 4)
+Talk to Reldo, the palace librarian in Varrock. (Chat 1)
+Search the north-most bookshelf on the west wall for goblin symbol book.
+Read through the book.
+Go to Goblin Village and talk to the generals, and mediate for them until you learn goblin emotes. (Chat 1𠖦𠖧)
+Go back to Lumbridge, and talk to the duke. He will tell you to investigate the caves further. (Chat 3) or (Chat 4)
+Follow the map through the caves. Don't stray from it!
+At the end of the cave talk to Mistag, and do your Goblin Bow in front of him.
+Talk to Mistag then let him take you back to Lumbridge. (Chat 4)
+Talk to the duke, he won't believe you. (Chat 3) or (Chat 4)
+Pickpocket Sigmund and unlock his chest in the other room to find some HAM robes. Keep them for Death to the Dorgeshuun.
+Tell the duke that Sigmund is part of Humans Against Monsters. (Chat 3)
+Go to the HAM lair northwest of the castle.
+Pick the lock on the trapdoor and enter the lair.
+Search the crates in the first room to find the stolen silverware.
+Bring the silverware to the duke. He will fire Sigmund and give you a signed peace treaty. (Chat 3)
+Go into the basement again. Follow Kazgar to travel to Mistag. (Chat 2)
+Talk to Mistag and a cutscene will appear.
+Quest complete!
+
+
+Death to the Dorgeshuun
+Talk to Mistag at the Dorgeshuun mines to start the quest. (Chat 1�1)
+Bring two sets of H.A.M. robes to Zanik in Lumbridge cellar. (Chat 1�1)
+Zanik will follow you, if you lose her go back to the cellar. Talk to the townspeople with her following.
+Talk to the Duke, Hans, Bob, Father Aereck, Man, Lumbridge Guide, goblin (west of the general store), and the shopkeeper.
+Ask Zanik, "Have you seen enough of Lumbridge yet?" (Chat 2)
+Ask Zanik about the mark on her head while in Lumbridge. (Chat 1)
+Put on your set of HAM robes, and go to the HAM headquarters.
+Talk to a H.A.M. Member or guard, and go through all the questions.
+Talk to Johanhus southeast of the stage. (Chat 4�3)
+Wander around the south of the stage, Zanik will spot a trapdoor.
+Pick the trapdoor and go down. You'll need Zanik to kill the guards in this room to continue:
+Walk west past the first guard and talk to him, then Zanik will shoot him.
+Squeeze through the crack in the wall. Wait for the guard in the central corridor to walk by, then squeeze through the next crack in the wall. Run west behind the guard by the door and talk to him. then Zanik will shoot him.
+When the guard in the corridor starts walking east, say, 揘ow!� and Zanik will snipe him.
+Move to the eastern end of the central corridor, and talk to Zanik again. Tell her to wait. Then, run south to make the north-east guard follow you. Zanik will shoot him as he passes the central corridor.
+For the final guard, go to the end of either of the passages, and talk to Zanik again. Tell her to wait, then go to the other passage, and distract the guard. Zanik will shoot him.
+Listen at the door. A senior guard will appear and arrest you.
+Pick the lock to escape the cell, then leave the hideout to find Zanik, dead. Take her body.
+Go down to the Lumbridge cellar and take the south path to Juna in the Tears of Guthix cave.
+Use your pickaxe to open a hole in the wall.
+Talk to Juna and collect 20 Tears of Guthix to start the cutscene. Remember to have both hands free. (Chat 1)
+With your full HAM robes and gear for the fight, return to the castle cellar and talk to Zanik. (Chat 1)
+Go to the chicken farm near the water mill and go through the southern gate.
+With both hands free, search one of the southeastern crates and Zanik will hide in it. (Chat 1�1)
+Climb down the nearby ladder, and head to the western room. You will see Sigmund (level 50) and three Senior Guards (level 22).
+Kill the guards first, then Sigmund. He will use protection prayers. (You can safespot the guards using Zanik, and you can safespot Sigmund using the boxes.)
+Smash the nearby drilling machine, then head down the southern tunnel to the exit. A cutscene will appear.
+Quest complete!
+
+
+Another Slice of H.A.M.
+Starting out
+Speak to Ur-tag or Ambassador Alvijar in the north east part of Dorgesh-Kaan抯 middle level. (Chat 1�1)
+Excavation
+Head to the southwest corner of the city抯 middle level.
+Enter the doorway with the transportation symbol on the minimap.
+Walk south on the tracks and talk to Tegdak.
+Dig up artifacts from the ground with the trowel (There are six artifacts total).
+Use artifacts on the specimen table to clean them.
+Talk to Tegdak.
+To the village
+Talk to Zanik. (Chat 1)
+Talk to the Goblin Scribe west of Ur-tag where you started the quest.
+Go speak with Oldak in the northwestern corner of the city抯 lower level (There's stairs down in the house west of the scribe) to teleport to the Goblin Village.
+The H.A.M-bush
+Talk to General Wartface or Bentnoze. A cutscene will appear.
+Run south to the ladder, stay behind the houses on the west side to not get hit.
+Climb up and kill the H.A.M. Mage and H.A.M. Archer, you must use magic or ranged. Automatically will talk to the Goblin Generals. Finish the dialogue.
+Getting past the guards
+Go to the Lumbridge swamp cave entrance.
+Talk to one of the goblin sergeants.
+Read the following steps before doing them as this next section is time sensitive.
+Enter the caves then climb down the nearby ladder.
+As soon as you抮e down, talk the sergeants and tell one of them to wait. (Chat 2)
+Run to the room and enter.
+Wait for 2 guards to pass.
+Tell your sergeant to wait in the room. (Chat 1)
+Run up to the boxes to trigger a 3rd guard and run back to the room so he doesn抰 see you.
+After the 3rd guard passes, ask your sergeant to follow you again. (Chat 2)
+Walk (do not run) to the end of the tunnel and the final guard will attack your sergeant.
+Climb down the ladder to fight Sigmund.
+Wait for Sigmund to use a protection prayer first, then use the ancient mace抯 special attack to knock out his prayer for the remainder of the fight.
+Defeat Sigmund.
+Untie Zanik.
+Quest complete!
+
+
+The Giant Dwarf
+Starting out
+Items Required: None
+
+Speak to the Dwarven Boatman. (Chat 1�1)
+Finish the conversation with Commander Veldaban. (Chat 2)
+Talk to Blasidar the sculptor on the east side of Keldagrim, south of the kebab shop. (Chat 2)
+Clothes fit for a king
+Items Required: Weight below 20 kg, Logs, Coal, Tinderbox, 200gp (400 if you wish to obtain 2 sets of clothes)
+
+Talk to Vermundi, the silk trader in the eastern market. (Chat 2)
+Talk to the Librarian in the north-eastern corner of West Keldagrim. (Chat 2)
+Climb any bookcase to find 慡cholars Guide to Dwarven Costumes�.
+If you didn't bring coal, mine 1 ore in the northeast corner of East Keldagrim.
+Talk to Vermundi again. (Chat 2)
+Use your coal and logs on the spinning machine then light it with a tinderbox.
+Talk to Vermundi again and pay 200gp for exquisite clothes. (Chat 2�1)
+Boots fit for a king
+Items Required: Law and Air runes to cast Telekinetic Grab
+
+Talk to Saro at the anvil south-west of the bank in West Keldagrim. (Chat 2)
+Speak to Dromund in the house just north of the bank.
+Take the left boot when he isn抰 looking.
+Telegrab the right boot from outside his window.
+An axe fit for a king
+Items Required: 3 Sapphires, an iron bar, a redberry pie (If you haven't done Knight's Sword)
+
+Talk to Santiri at the weapon shop in north-western West Keldagrim. (Chat 2𠂺)
+Use your 3 sapphires on the axe and talk to him again. (Chat 2)
+Talk to Thurgo at Mudskipper Point, and give him an iron bar to repair the axe. (Chat 2𠂹) (2-3-1 if you have not completed Knight's Sword)
+Note: Thurgo will require a redberry pie if you haven't already given him one during Knight's Sword
+You will be given the option to immediately return to Keldagrim; do so. (Chat 1)�
+Halfway There
+Items Required: Exquisite Clothes, Exquisite Boots, Dwarven Battleaxe
+
+Once in Blasidar抯 house, talk to Riki the sculptor's model to give him the clothes, axe and boots.
+Talk to Blasidar.
+Joining the consortium 
+Items Required: Various ores, Various bars, Stamina/Energy Potions
+
+Go to the upper floor of the market and talk to the secretary of any company except the red axe/brown engine. (Chat 3). Buy the ores from Ordan in the Blast Furnace to save time.
+Offer to help them.
+Note: The secretaries require you to retrieve ores. Be sure to read the dialog to know what ores you need or fill your inventory with about 5 of each.
+After a few (3-8) tasks, the secretary will let you speak to the director.
+Note: Don't refuse tasks, if you don抰 like the task simply ask again. Refusing too many tasks will gradually reduce your favour with them, and you will have to do more tasks to make up for it.
+Complete some tasks for the director until he allows you to join the company (You should try telling him Blasidar sent you first, since sometimes you get accepted without getting bars else mention it when he asks you).
+Note: The directors require you to retrieve bars. Be sure to read the dialog to know what bars you need or fill your inventory with about 5 of each.
+Tell the director Blasidar sent you, offer your support. (Chat 3🯍)
+Go back and talk to Commander Veldaban west of the bank, he will ask if you want to attend the meeting. You may choose not to.
+Quest complete!
 
 Alfred Grimhand's Barcrawl
 Scorpion Catcher

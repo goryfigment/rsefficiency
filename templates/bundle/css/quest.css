@@ -199,3 +199,10 @@
 .chat-dialog {
     max-width: 417px;
 }
+
+.required-items {
+    color: #ffffff;
+    padding: 0px 17px 8px 17px;
+    font-style: italic;
+    font-size: 15px;
+}

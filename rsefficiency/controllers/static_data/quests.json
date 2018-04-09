@@ -11435,5 +11435,860 @@
         }
       }
     }
+  },
+  "animal_magnetism": {
+    "name": "Animal Magnetism",
+    "directory": "animal_magnetism",
+    "req": [
+      {
+        "items": ["The Restless Ghost", "Ernest the Chicken", "Priest in Peril"],
+        "name": "Quest Requirements"
+      },
+      {
+        "items": ["Level 18 Slayer", "Level 19 Crafting", "Level 30 Ranged", "Level 35 Woodcutting"],
+        "name": "Level Requirements"
+      },
+      {
+        "items": ["Mithril axe", "5 Iron bars", "Ghostspeak amulet", "20 Ecto-tokens or (4 bones, 4 buckets, and 4 pots)", "Hammer", "Holy symbol (31 Prayer to make for Ironman)", "Polished buttons", "Hard leather"],
+        "name": "Items"
+      },
+      {
+        "items": ["Charged Amulet of Glory (Draynor Village)", "Ectophial", "Draman/Lunar Staff (Fairy Ring A-L-Q)", "Canifis Teleport", "House Teleport (Rimmington)", "Games Necklace (Burthorpe)"],
+        "name": "Recommended"
+      }
+    ],
+    "steps": {
+      "1": {
+        "last": true,
+        "step": "Talk to Ava. (Chat 1)",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor"],
+            "description": ["Talk to Ava."]
+          }
+        }
+      },
+      "2": {
+        "step": "Go upstairs and use the bones on the loader.",
+        "subtitle": "Ecto-tokens",
+        "details": {
+          "1": {
+            "location": ["Second floor of Ectofuntus"],
+            "description": ["Go upstairs."]
+          },
+          "2": {
+            "location": ["Ectofuntus"],
+            "description": ["Use the bones on the loader."]
+          }
+        }
+      },
+      "3": {
+        "step": "Climb down the trapdoor and use the buckets on the slime pool.",
+        "details": {
+          "1": {
+            "location": ["Ectofuntus"],
+            "description": ["Climb down the trapdoor and follow the path all the way down."]
+          },
+          "2": {
+            "location": ["Bottom floor of Ectofuntus"],
+            "description": ["Use the buckets on the slime pool."]
+          }
+        }
+      },
+      "4": {
+        "step": "Worship the Ectofuntus.",
+        "details": {
+          "1": {
+            "location": ["Ectofuntus"],
+            "description": ["Worship the Ectofuntus."]
+          }
+        }
+      },
+      "5": {
+        "step": "Talk to the Ghost disciple to redeem the ecto-tokens.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Ectofuntus"],
+            "description": ["Talk to the Ghost disciple to redeem the ecto-tokens."]
+          }
+        }
+      },
+      "6": {
+        "step": "Talk to Alice. (Chat 4)",
+        "subtitle": "Undead chickens",
+        "details": {
+          "1": {
+            "location": ["Farm west of Ectofuntus"],
+            "description": ["Talk to Alice."]
+          }
+        }
+      },
+      "7": {
+        "step": "Equip Ghostspeak amulet and talk to Alice's husband.",
+        "details": {
+          "1": {
+            "location": ["Farm west of Ectofuntus"],
+            "description": ["Equip Ghostspeak amulet and talk to Alice's husband."]
+          }
+        }
+      },
+      "8": {
+        "step": "Talk to Alice. (Chat 4)",
+        "details": {
+          "1": {
+            "location": ["Farm west of Ectofuntus"],
+            "description": ["Talk to Alice."]
+          }
+        }
+      },
+      "9": {
+        "step": "Talk to Alice's husband.",
+        "details": {
+          "1": {
+            "location": ["Farm west of Ectofuntus"],
+            "description": ["Talk to Alice's husband."]
+          }
+        }
+      },
+      "10": {
+        "step": "Talk to Alice. (Chat 4)",
+        "details": {
+          "1": {
+            "location": ["Farm west of Ectofuntus"],
+            "description": ["Talk to Alice."]
+          }
+        }
+      },
+      "11": {
+        "step": "Talk to Alice's husband.",
+        "details": {
+          "1": {
+            "location": ["Farm west of Ectofuntus"],
+            "description": ["Talk to Alice's husband."]
+          }
+        }
+      },
+      "12": {
+        "step": "Talk to Alice. (Chat 4)",
+        "details": {
+          "1": {
+            "location": ["Farm west of Ectofuntus"],
+            "description": ["Talk to Alice."]
+          }
+        }
+      },
+      "13": {
+        "step": "Talk to the crone twice for a crone-made amulet. (Chat 2)",
+        "details": {
+          "1": {
+            "location": ["East of Slayer Tower"],
+            "description": ["Talk to the crone twice for a crone-made amulet."]
+          }
+        }
+      },
+      "14": {
+        "step": "Talk to Alice's husband to give him the Crone-made amulet. (Chat 1)",
+        "details": {
+          "1": {
+            "location": ["Farm west of Ectofuntus"],
+            "description": ["Talk to Alice's husband to give him the Crone-made amulet."]
+          }
+        }
+      },
+      "15": {
+        "step": "Talk to Alice's husband (cut-scene).",
+        "details": {
+          "1": {
+            "location": ["Farm west of Ectofuntus"],
+            "description": ["Talk to Alice's husband"]
+          }
+        }
+      },
+      "16": {
+        "step": "Talk to Alice's husband to buy two undead chickens for 20 ecto-tokens. (Chat 1-2)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Farm west of Ectofuntus"],
+            "description": ["Talk to Alice's husband to buy two undead chickens for 20 ecto-tokens."]
+          }
+        }
+      },
+      "17": {
+        "step": "Talk to Ava.",
+        "subtitle": "Magnet",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor"],
+            "description": ["Talk to Ava."]
+          }
+        }
+      },
+      "18": {
+        "step": "Talk to the Witch twice to get a Selected iron.",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor"],
+            "description": ["Talk to the Witch twice to get a Selected iron."]
+          }
+        }
+      },
+      "19": {
+        "step": "Go to the center of the Rimmington mine (YOU MUST FACE NORTH) and use the hammer on the selected iron.",
+        "details": {
+          "1": {
+            "location": ["Rimmington mine"],
+            "description": ["Face north before using the hammer on the selected hammer at the center of Rimmington mine."]
+          }
+        }
+      },
+      "20": {
+        "step": "Talk to Ava (to give her the bar magnet).",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Draynor Manor"],
+            "description": ["Talk to Ava to give her the bar magnet."]
+          }
+        }
+      },
+      "21": {
+        "step": "Talk to Ava again.",
+        "subtitle": "Undead twigs",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor"],
+            "description": ["Talk to Ava."]
+          }
+        }
+      },
+      "22": {
+        "step": "Try to chop the Undead tree.",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor"],
+            "description": ["Try to chop the Undead tree."]
+          }
+        }
+      },
+      "23": {
+        "step": "Talk to Ava.",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor"],
+            "description": ["Talk to Ava."]
+          }
+        }
+      },
+      "24": {
+        "step": "Talk to Turael in Burthorpe. (Chat 4)",
+        "details": {
+          "1": {
+            "location": ["Burthorpe"],
+            "description": ["Talk to Turael in Burthorpe."]
+          }
+        }
+      },
+      "25": {
+        "step": "Talk to Turael again for a blessed axe. (Chat 4-1)",
+        "details": {
+          "1": {
+            "location": ["Burthorpe"],
+            "description": ["Talk to Turael again for a blessed axe."]
+          }
+        }
+      },
+      "26": {
+        "step": "Chop the undead tree with the blessed axe.",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor"],
+            "description": ["Chop the undead tree with the blessed axe."]
+          }
+        }
+      },
+      "27": {
+        "step": "Talk to Ava (to give her the undead twigs).",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Draynor Manor"],
+            "description": ["Talk to Ava to give her the undead twigs."]
+          }
+        }
+      },
+      "28": {
+        "step": "Talk to Ava (for research notes).",
+        "subtitle": "Ava's Attractor",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor"],
+            "description": ["Talk to Ava for research notes."]
+          }
+        }
+      },
+      "29": {
+        "step": "Translate the research notes (Solution below).",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor"],
+            "description": ["Translate the research notes"]
+          }
+        }
+      },
+      "30": {
+        "step": "Talk to Ava (for the pattern).",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor"],
+            "description": ["Talk to Ava for the pattern."]
+          }
+        }
+      },
+      "31": {
+        "step": "Use the polished buttons on the pattern.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Draynor Manor"],
+            "description": ["Use the polished buttons on the pattern."]
+          }
+        }
+      },
+      "32": {
+        "step": "Talk to Ava.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Draynor Manor"],
+            "description": ["Talk to Ava."]
+          }
+        }
+      },
+      "33": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
+  },
+  "ghost_ahoy": {
+    "name": "Ghost Ahoy",
+    "directory": "ghost_ahoy",
+    "req": [
+      {
+        "items": ["The Restless Ghost", "Priest in Peril"],
+        "name": "Quest Requirements"
+      },
+      {
+        "items": ["25 Agility", "20 Cooking"],
+        "name": "Level Requirements"
+      },
+      {
+        "items": ["35 Ecto-tokens (7 bones, 7 buckets, and 7 pots)", "Bucket of slime", "Ghostspeak amulet", "~400 Coins", "Bucket of milk", "3 red, 3 blue, 3 yellow dye (Random for everyone)", "Spade", "Oak longbow", "Knife", "Needle", "Thread", "Nettle Tea (Leather gloves, Tinderbox, Logs, Bowl of water, Bucket of milk)"
+        ],
+        "name": "Items"
+      },
+      {
+        "items": ["Charged Amulet of Glory (Edgeville)", "Draman/Lunar Staff (Fairy Ring A-L-Q)", "Canifis Teleport", "Slayer Ring (Slayer tower)"],
+        "name": "Recommended"
+      }
+    ],
+    "steps": {
+      "1": {
+        "subtitle": "Nettle Tea",
+        "required_items": "7 bones, 7 buckets, 7 pots, Leather gloves, Tinderbox, Logs, Bowl of water, Bucket of milk",
+        "step": "Equip leather gloves and pick nettles.",
+        "details": {
+          "1": {
+            "location": ["Edgeville"],
+            "description": ["Equip leather gloves and pick nettles."]
+          }
+        }
+      },
+      "2": {
+        "step": "Use the nettles on the bowl of water.",
+        "details": {
+          "1": {
+            "description": ["Use the nettles on the bowl of water."]
+          }
+        }
+      },
+      "3": {
+        "step": "Use the logs on the tinderbox.",
+        "details": {
+          "1": {
+            "description": ["Use the logs on the tinderbox."]
+          }
+        }
+      },
+      "4": {
+        "step": "Use the nettle-water on the fire.",
+        "details": {
+          "1": {
+            "location": ["Edgeville"],
+            "description": ["Use the nettle-water on the fire."]
+          },
+          "2": {
+            "location": ["Edgeville"],
+            "description": ["If you fail cooking the nettle, pick as many nettles as you can."]
+          },
+          "3": {
+            "location": ["Edgeville"],
+            "description": ["Go to the house east of Edgeville and fill the bowl with water."]
+          },
+          "4": {
+            "description": ["Use the nettles on the bowl of water."]
+          },
+          "5": {
+            "location": ["Edgeville"],
+            "description": ["Use the nettle-water on the stove. Continue doing this until you successfully cook the nettle"]
+          }
+        }
+      },
+      "5": {
+        "step": "Use the bucket of milk on the nettle tea.",
+        "last": true,
+        "details": {
+          "1": {
+            "description": ["Use the bucket of milk on the nettle tea."]
+          }
+        }
+      },
+      "6": {
+        "step": "Go upstairs and use the bones on the loader.",
+        "subtitle": "Ecto-tokens",
+        "details": {
+          "1": {
+            "location": ["Second floor of Ectofuntus"],
+            "description": ["Go upstairs."]
+          },
+          "2": {
+            "location": ["Ectofuntus"],
+            "description": ["Use the bones on the loader."]
+          }
+        }
+      },
+      "7": {
+        "step": "Climb down the trapdoor and use the buckets on the slime pool.",
+        "details": {
+          "1": {
+            "location": ["Ectofuntus"],
+            "description": ["Climb down the trapdoor and follow the path all the way down."]
+          },
+          "2": {
+            "location": ["Bottom floor of Ectofuntus"],
+            "description": ["Use the buckets on the slime pool."]
+          }
+        }
+      },
+      "8": {
+        "step": "Worship the Ectofuntus.",
+        "details": {
+          "1": {
+            "location": ["Ectofuntus"],
+            "description": ["Worship the Ectofuntus."]
+          }
+        }
+      },
+      "9": {
+        "step": "Talk to the Ghost disciple to redeem the ecto-tokens.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Ectofuntus"],
+            "description": ["Talk to the Ghost disciple to redeem the ecto-tokens."]
+          }
+        }
+      },
+      "10": {
+        "subtitle": "Getting started",
+        "required_items": "Nettle tea, 35 Ecto-tokens, ghostspeak amulet, Silk, Needle, Thread, Knife, 3 blue dye, 3 yellow dye, 3 red dye, Spade, Oak longbow, ~400 Coins",
+        "step": "Pass the energy barrier (2 Ecto-tokens).",
+        "details": {
+          "1": {
+            "location": ["Port Phasmatys"],
+            "description": ["Pass the energy barrier"]
+          }
+        }
+      },
+      "11": {
+        "step": "Talk to Velorina. (Chat 1-1-1)",
+        "details": {
+          "1": {
+            "location": ["Port Phasmatys"],
+            "description": ["Talk to Velorina."]
+          }
+        }
+      },
+      "12": {
+        "step": "Equip ghostpeak amulet and talk to Necrovarus.",
+        "details": {
+          "1": {
+            "location": ["Ectofuntus"],
+            "description": ["Equip ghostpeak amulet and talk to Necrovarus."]
+          }
+        }
+      },
+      "13": {
+        "step": "Talk to Velorina. (Chat 1)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Port Phasmatys"],
+            "description": ["Talk to Velorina."]
+          }
+        }
+      },
+      "14": {
+        "step": "Talk to the Old crone. (Chat 1)",
+        "subtitle": "The Old Crone",
+        "details": {
+          "1": {
+            "location": ["East of Slayer Tower"],
+            "description": ["Talk to the Old crone."]
+          }
+        }
+      },
+      "15": {
+        "step": "Use the porcelain cup on the nettle tea.",
+        "details": {
+          "1": {
+            "description": ["Use the porcelain cup on the nettle tea."]
+          }
+        }
+      },
+      "16": {
+        "step": "Talk to the Old crone. (Chat 1-1)",
+        "details": {
+          "1": {
+            "location": ["East of Slayer Tower"],
+            "description": ["Talk to the Old crone."]
+          }
+        }
+      },
+      "17": {
+        "step": "Repair the toy ship.",
+        "last": true,
+        "details": {
+          "1": {
+            "description": ["Click on the ship to repair it with a silk and thread."]
+          }
+        }
+      },
+      "18": {
+        "step": "Climb to the top of the ship.",
+        "subtitle": "Treasure map",
+        "details": {
+          "1": {
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Climb up the ladders from the ground floor."]
+          },
+          "2": {
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Climb up the ladders from the second floor."]
+          }
+        }
+      },
+      "19": {
+        "step": "When the wind speed drops low search the mast to find out what colours the components of the flag are.",
+        "details": {
+          "1": {
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["When the wind speed drops low search the mast to find out what colours the components of the flag are. (Random for everyone)."]
+          },
+          "2": {
+            "description": ["As you search the mast, it will tell you what color the each part of the ship."]
+          },
+          "3": {
+            "description": ["Use the correct color dye on the correct part of the ship. Do this three times for all three parts of the ship. Mix the dyes to get the correct colors.", "Red + Yellow = Orange", "Red + Blue = Purple", "Blue + Yellow = Green"]
+          }
+        }
+      },
+      "20": {
+        "step": "Talk to the Old man. (Chat 3)",
+        "details": {
+          "1": {
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Talk to the Old man."]
+          }
+        }
+      },
+      "21": {
+        "step": "Use the chest key on the chest for a map scrap.",
+        "details": {
+          "1": {
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Use the chest key on the chest for a map scrap."]
+          }
+        }
+      },
+      "22": {
+        "step": "Cross the gangplank and jump along the path of the rocks.",
+        "details": {
+          "1": {
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Cross the gangplank and jump along the path of the rocks."]
+          },
+          "2": {
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Jump-To the rocks."]
+          },
+          "3": {
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Jump-To the rocks."]
+          },
+          "4": {
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Jump-To the rocks."]
+          },
+          "5": {
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Jump-To the rocks."]
+          },
+          "6": {
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Jump-To the rocks."]
+          }
+        }
+      },
+      "23": {
+        "step": "Open and search the chest for a map scrap.",
+        "details": {
+          "1": {
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Open and search the chest for a map scrap."]
+          }
+        }
+      },
+      "24": {
+        "step": "Attempt and search the chest (ground floor).",
+        "details": {
+          "1": {
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Attempt and search the chest"]
+          }
+        }
+      },
+      "25": {
+        "step": "Defeat the scorpion (level 32).",
+        "details": {
+          "1": {
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Defeat the scorpion"]
+          }
+        }
+      },
+      "26": {
+        "step": "Search the chest again.",
+        "details": {
+          "1": {
+            "location": ["North-west of the Ectofuntus"],
+            "description": ["Search the chest again."]
+          }
+        }
+      },
+      "27": {
+        "step": "Combine the map pieces to get a treasure map.",
+        "last": true,
+        "details": {
+          "1": {
+            "description": ["Combine the map pieces to get a treasure map."]
+          }
+        }
+      },
+      "28": {
+        "step": "Right-click and choose the 'Travel' option on the Ghost captain.",
+        "subtitle": "Treasure!",
+        "details": {
+          "1": {
+            "location": ["Port Phasmatys"],
+            "description": ["Right-click and choose the 'Travel' option on the Ghost captain."]
+          }
+        }
+      },
+      "29": {
+        "step": "Dig at this exact spot (shown below).",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Dragontooth Island"],
+            "description": ["Dig at this exact spot."]
+          }
+        }
+      },
+      "30": {
+        "step": "Talk to Ak-Haranu. (Chat 1)",
+        "subtitle": "The Translation Manual",
+        "details": {
+          "1": {
+            "location": ["Port Phasmatys"],
+            "description": ["Talk to Ak-Haranu."]
+          }
+        }
+      },
+      "31": {
+        "step": "Talk to Robin and beat him playing Runedraw four times. (Chat 1)",
+        "details": {
+          "1": {
+            "location": ["Port Phasmatys"],
+            "description": ["Talk to Robin and beat him playing Runedraw four times."]
+          },
+          "2": {
+            "description": ["Keep rolling on the left hand side until you win. Win four times and he will sign the oak longbow. (First win)."]
+          },
+          "3": {
+            "description": ["Second win"]
+          },
+          "4": {
+            "description": ["Third win"]
+          },
+          "5": {
+            "description": ["Fourth win"]
+          }
+        }
+      },
+      "32": {
+        "step": "Talk to Ak-Haranu.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Port Phasmatys"],
+            "description": ["Talk to Ak-Haranu."]
+          }
+        }
+      },
+      "33": {
+        "step": "Trade a Trader Crewmember for a bucket of slime.",
+        "subtitle": "The robes",
+        "details": {
+          "1": {
+            "location": ["Port Phasmatys"],
+            "description": ["Trade a Trader Crewmember for a bucket of slime."]
+          }
+        }
+      },
+      "34": {
+        "step": "Talk to the ghost innkeeper. (Chat 4-1)",
+        "details": {
+          "1": {
+            "location": ["Port Phasmatys"],
+            "description": ["Talk to the ghost innkeeper."]
+          }
+        }
+      },
+      "35": {
+        "step": "Use the bucket of slime on the bedsheet.",
+        "details": {
+          "1": {
+            "description": ["Use the bucket of slime on the bedsheet."]
+          }
+        }
+      },
+      "36": {
+        "step": "Talk to Gravingas. (Chat 1)",
+        "details": {
+          "1": {
+            "location": ["Port Phasmatys"],
+            "description": ["Talk to Gravingas."]
+          }
+        }
+      },
+      "37": {
+        "step": "Equip the bedsheet and alternate asking two ghost villagers for 10 signatures.",
+        "details": {
+          "1": {
+            "location": ["Port Phasmatys"],
+            "description": ["Equip the bedsheet and alternate asking two ghost villagers for 10 signatures. Ignore them if they ask for ecto-tokens."]
+          },
+          "2": {
+            "location": ["Port Phasmatys"],
+            "description": ["Continue talking back and forth until you get all 10 signatures."]
+          }
+        }
+      },
+      "38": {
+        "step": "After 10 signatures, talk to Gravingas.",
+        "details": {
+          "1": {
+            "location": ["Port Phasmatys"],
+            "description": ["After 10 signatures, talk to Gravingas."]
+          }
+        }
+      },
+      "39": {
+        "step": "Talk to Necrovarus and pick-up the bone key he drops.",
+        "details": {
+          "1": {
+            "location": ["Ectofuntus"],
+            "description": ["Talk to Necrovarus and pick-up the bone key he drops."]
+          },
+          "2": {
+            "location": ["Ectofuntus"],
+            "description": ["Pick-up the bone key he drops."]
+          }
+        }
+      },
+      "40": {
+        "step": "Use the bone key and open the door.",
+        "details": {
+          "1": {
+            "location": ["Ectofuntus"],
+            "description": ["Climb up the staircase."]
+          },
+          "2": {
+            "location": ["Ectofuntus"],
+            "description": ["Use the bone key and open the door."]
+          }
+        }
+      },
+      "41": {
+        "step": "Open and search the coffin for mystical robes.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Ectofuntus"],
+            "description": ["Open and search the coffin for mystical robes."]
+          }
+        }
+      },
+      "42": {
+        "step": "Talk to the Crone. (Chat: 1)",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["East of Slayer Tower"],
+            "description": ["Talk to the Crone."]
+          }
+        }
+      },
+      "43": {
+        "step": "Talk to Necrovarus. (Chat: 1)",
+        "details": {
+          "1": {
+            "location": ["Ectofuntus"],
+            "description": ["Talk to Necrovarus."]
+          }
+        }
+      },
+      "44": {
+        "step": "Talk to Velorina. (Chat 1)",
+        "details": {
+          "1": {
+            "location": ["Port Phasmatys"],
+            "description": ["Talk to Velorina."]
+          }
+        }
+      },
+      "45": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }
