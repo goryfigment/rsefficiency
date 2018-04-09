@@ -12291,9 +12291,9 @@
       }
     }
   },
-  "souls_bane": {
-    "name": "Soul's Bane",
-    "directory": "souls_bane",
+  "a_souls_bane": {
+    "name": "A Soul's Bane",
+    "directory": "a_souls_bane",
     "req": [
       {
         "items": ["Rope"],
