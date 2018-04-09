@@ -1,511 +1,172 @@
 {
-  "ghost_ahoy": {
-    "name": "Ghost Ahoy",
-    "directory": "ghost_ahoy",
+  "souls_bane": {
+    "name": "Soul's Bane",
+    "directory": "souls_bane",
     "req": [
       {
-        "items": ["The Restless Ghost", "Priest in Peril"],
-        "name": "Quest Requirements"
-      },
-      {
-        "items": ["25 Agility", "20 Cooking"],
-        "name": "Level Requirements"
-      },
-      {
-        "items": ["35 Ecto-tokens (7 bones, 7 buckets, and 7 pots)", "Bucket of slime", "Ghostspeak amulet", "~400 Coins", "Bucket of milk", "3 red, 3 blue, 3 yellow dye (Random for everyone)", "Spade", "Oak longbow", "Knife", "Needle", "Thread", "Nettle Tea (Leather gloves, Tinderbox, Logs, Bowl of water, Bucket of milk)"
-        ],
+        "items": ["Rope"],
         "name": "Items"
       },
       {
-        "items": ["Charged Amulet of Glory (Edgeville)", "Draman/Lunar Staff (Fairy Ring A-L-Q)", "Canifis Teleport", "Slayer Ring (Slayer tower)"],
+        "items": ["Dueling Ring (Duel Arena to Glider)", "Glider (Digsite)", "Food", "Antipoison", "Armour"],
         "name": "Recommended"
       }
     ],
     "steps": {
       "1": {
-        "step": "Equip leather gloves and pick nettles.",
+        "step": "Talk to Launa. (Chat 1)",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": ["Edgeville"],
-            "description": ["Equip leather gloves and pick nettles."]
+            "location": ["Tolna's rift"],
+            "description": ["Talk to Launa."]
           }
         }
       },
       "2": {
-        "step": "Use the nettles on the bowl of water.",
+        "step": "Use rope on the rift and enter it.",
+        "last": true,
         "details": {
           "1": {
-            "description": ["Use the nettles on the bowl of water."]
+            "location": ["Tolna's rift"],
+            "description": ["Use rope on the rift."]
+          },
+          "2": {
+            "location": ["Tolna's rift"],
+            "description": ["Enter the rift."]
           }
         }
       },
       "3": {
-        "step": "Use the logs on the tinderbox.",
+        "step": "Take a weapons from the weapon rack and defeat the correct monsters (shown below).",
+        "subtitle": "Room 1 - Rage",
         "details": {
           "1": {
-            "description": ["Use the logs on the tinderbox."]
+            "location": ["Tolna's rift"],
+            "description": ["Take a weapons from the weapon rack."]
+          },
+          "2": {
+            "location": ["Tolna's rift"],
+            "description": ["Anger sword - defeats Angry unicorn."]
+          },
+          "3": {
+            "location": ["Tolna's rift"],
+            "description": ["Anger spear - defeats Angry bear."]
+          },
+          "4": {
+            "location": ["Tolna's rift"],
+            "description": ["Anger mace - defeats Angry rat."]
+          },
+          "5": {
+            "location": ["Tolna's rift"],
+            "description": ["Anger battleaxe - defeats Angry goblin."]
           }
         }
       },
       "4": {
-        "step": "Use the nettle-water on the fire.",
+        "step": "When your rage bar is full exit the east cave (cut-scene)",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Edgeville"],
-            "description": ["Use the nettle-water on the fire."]
-          },
-          "2": {
-            "location": ["Edgeville"],
-            "description": ["If you fail cooking the nettle, pick as many nettles as you can."]
-          },
-          "3": {
-            "location": ["Edgeville"],
-            "description": ["Go to the house east of Edgeville and fill the bowl with water."]
-          },
-          "4": {
-            "description": ["Use the nettles on the bowl of water."]
-          },
-          "5": {
-            "location": ["Edgeville"],
-            "description": ["Use the nettle-water on the stove. Continue doing this until you successfully cook the nettle"]
+            "location": ["Tolna's rift"],
+            "description": ["When your rage bar is full exit the east cave"]
           }
         }
       },
       "5": {
-        "step": "Use the bucket of milk on the nettle tea.",
-        "last": true,
+        "step": "Search all the dark holes until you defeat 5-6 reapers.",
+        "subtitle": "Room 2 - Fear",
         "details": {
           "1": {
-            "description": ["Use the bucket of milk on the nettle tea."]
+            "location": ["Tolna's rift"],
+            "description": ["Search all the dark holes until you defeat 5-6 reapers."]
+          },
+          "2": {
+            "location": ["Tolna's rift"],
+            "description": ["Defeat 5-6 reapers."]
           }
         }
       },
       "6": {
-        "step": "Go upstairs and use the bones on the loader.",
-        "subtitle": "Ecto-tokens",
+        "step": "Enter the black hole to the west.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Second floor of Ectofuntus"],
-            "description": ["Go upstairs."]
-          },
-          "2": {
-            "location": ["Ectofuntus"],
-            "description": ["Use the bones on the loader."]
+            "location": ["Tolna's rift"],
+            "description": ["Enter the black hole to the west."
+            ]
           }
         }
       },
       "7": {
-        "step": "Climb down the trapdoor and use the buckets on the slime pool.",
+        "step": "Defeat confusion beasts until you find the one that takes damage. Repeat until one door is left.",
+        "subtitle": "Room 3 - Confusion",
         "details": {
           "1": {
-            "location": ["Ectofuntus"],
-            "description": ["Climb down the trapdoor and follow the path all the way down."]
-          },
-          "2": {
-            "location": ["Bottom floor of Ectofuntus"],
-            "description": ["Use the buckets on the slime pool."]
+            "location": ["Tolna's rift"],
+            "description": ["The 'fake' ones will vanish after 8 hits. Repeat until one door remains to get the cutscene."]
           }
         }
       },
       "8": {
-        "step": "Worship the Ectofuntus.",
+        "step": "Enter the confusing door.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Ectofuntus"],
-            "description": ["Worship the Ectofuntus."]
+            "location": ["Tolna's rift"],
+            "description": ["Enter the last remaining confusing door."]
           }
         }
       },
       "9": {
-        "step": "Talk to the Ghost disciple to redeem the ecto-tokens.",
-        "last": true,
+        "step": "Defeat all the hopeless creatures 3 times each.",
+        "subtitle": "Room 4 - Hopelessness",
         "details": {
           "1": {
-            "location": ["Ectofuntus"],
-            "description": ["Talk to the Ghost disciple to redeem the ecto-tokens."]
+            "location": ["Tolna's rift"],
+            "description": ["Defeat all the hopeless creatures 3 times each."]
           }
         }
       },
       "10": {
-        "step": "Pass the energy barrier (2 Ecto-tokens).",
-        "subtitle": "Getting Started",
+        "step": "Cross the bridge and exit the cave.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Port Phasmatys"],
-            "description": ["Pass the energy barrier"]
+            "location": ["Tolna's rift"],
+            "description": ["Cross the bridge and exit the cave."]
           }
         }
       },
       "11": {
-        "step": "Talk to Velorina. (Chat 1-1-1)",
+        "step": "Defeat the all 3 heads.",
+        "subtitle": "Finishing up.",
         "details": {
           "1": {
-            "location": ["Port Phasmatys"],
-            "description": ["Talk to Velorina."]
+            "location": ["Tolna's rift"],
+            "description": ["Use protect from missiles and stay out of melee range to take no damage."]
           }
         }
       },
       "12": {
-        "step": "Equip ghostpeak amulet and talk to Necrovarus.",
+        "step": "Talk to Tolna.",
         "details": {
           "1": {
-            "location": ["Ectofuntus"],
-            "description": ["Equip ghostpeak amulet and talk to Necrovarus."]
+            "location": ["Tolna's rift"],
+            "description": ["Talk to Tolna."]
           }
         }
       },
       "13": {
-        "step": "Talk to Velorina. (Chat 1)",
-        "last": true,
+        "step": "Talk to Tolna again on the surface.",
         "details": {
           "1": {
-            "location": ["Port Phasmatys"],
-            "description": ["Talk to Velorina."]
+            "location": ["North-west of Digsite"],
+            "description": ["Talk to Tolna again on the surface."]
           }
         }
       },
       "14": {
-        "step": "Talk to the Old crone. (Chat 1)",
-        "subtitle": "The Old Crone",
-        "details": {
-          "1": {
-            "location": ["East of Slayer Tower"],
-            "description": ["Talk to the Old crone."]
-          }
-        }
-      },
-      "15": {
-        "step": "Use the porcelain cup on the nettle tea.",
-        "details": {
-          "1": {
-            "description": ["Use the porcelain cup on the nettle tea."]
-          }
-        }
-      },
-      "16": {
-        "step": "Talk to the Old crone. (Chat 1-1)",
-        "details": {
-          "1": {
-            "location": ["East of Slayer Tower"],
-            "description": ["Talk to the Old crone."]
-          }
-        }
-      },
-      "17": {
-        "step": "Repair the toy ship.",
-        "last": true,
-        "details": {
-          "1": {
-            "description": ["Click on the ship to repair it with a silk and thread."]
-          }
-        }
-      },
-      "18": {
-        "step": "Climb to the top of the ship.",
-        "subtitle": "Treasure map",
-        "details": {
-          "1": {
-            "location": ["North-west of the Ectofuntus"],
-            "description": ["Climb up the ladders from the ground floor."]
-          },
-          "2": {
-            "location": ["North-west of the Ectofuntus"],
-            "description": ["Climb up the ladders from the second floor."]
-          }
-        }
-      },
-      "19": {
-        "step": "When the wind speed drops low search the mast to find out what colours the components of the flag are.",
-        "details": {
-          "1": {
-            "location": ["North-west of the Ectofuntus"],
-            "description": ["When the wind speed drops low search the mast to find out what colours the components of the flag are. (Random for everyone)."]
-          },
-          "2": {
-            "description": ["As you search the mast, it will tell you what color the each part of the ship."]
-          },
-          "3": {
-            "description": ["Use the correct color dye on the correct part of the ship. Do this three times for all three parts of the ship. Mix the dyes to get the correct colors.", "Red + Yellow = Orange", "Red + Blue = Purple", "Blue + Yellow = Green"]
-          }
-        }
-      },
-      "20": {
-        "step": "Talk to the Old man. (Chat 3)",
-        "details": {
-          "1": {
-            "location": ["North-west of the Ectofuntus"],
-            "description": ["Talk to the Old man."]
-          }
-        }
-      },
-      "21": {
-        "step": "Use the chest key on the chest for a map scrap.",
-        "details": {
-          "1": {
-            "location": ["North-west of the Ectofuntus"],
-            "description": ["Use the chest key on the chest for a map scrap."]
-          }
-        }
-      },
-      "22": {
-        "step": "Cross the gangplank and jump along the path of the rocks.",
-        "details": {
-          "1": {
-            "location": ["North-west of the Ectofuntus"],
-            "description": ["Cross the gangplank and jump along the path of the rocks."]
-          },
-          "2": {
-            "location": ["North-west of the Ectofuntus"],
-            "description": ["Jump-To the rocks."]
-          },
-          "3": {
-            "location": ["North-west of the Ectofuntus"],
-            "description": ["Jump-To the rocks."]
-          },
-          "4": {
-            "location": ["North-west of the Ectofuntus"],
-            "description": ["Jump-To the rocks."]
-          },
-          "5": {
-            "location": ["North-west of the Ectofuntus"],
-            "description": ["Jump-To the rocks."]
-          },
-          "6": {
-            "location": ["North-west of the Ectofuntus"],
-            "description": ["Jump-To the rocks."]
-          }
-        }
-      },
-      "23": {
-        "step": "Open and search the chest for a map scrap.",
-        "details": {
-          "1": {
-            "location": ["North-west of the Ectofuntus"],
-            "description": ["Open and search the chest for a map scrap."]
-          }
-        }
-      },
-      "24": {
-        "step": "Attempt and search the chest (ground floor).",
-        "details": {
-          "1": {
-            "location": ["North-west of the Ectofuntus"],
-            "description": ["Attempt and search the chest"]
-          }
-        }
-      },
-      "25": {
-        "step": "Defeat the scorpion (level 32).",
-        "details": {
-          "1": {
-            "location": ["North-west of the Ectofuntus"],
-            "description": ["Defeat the scorpion"]
-          }
-        }
-      },
-      "26": {
-        "step": "Search the chest again.",
-        "details": {
-          "1": {
-            "location": ["North-west of the Ectofuntus"],
-            "description": ["Search the chest again."]
-          }
-        }
-      },
-      "27": {
-        "step": "Combine the map pieces to get a treasure map.",
-        "last": true,
-        "details": {
-          "1": {
-            "description": ["Combine the map pieces to get a treasure map."]
-          }
-        }
-      },
-      "28": {
-        "step": "Right-click and choose the 'Travel' option on the Ghost captain.",
-        "subtitle": "Treasure!",
-        "details": {
-          "1": {
-            "location": ["Port Phasmatys"],
-            "description": ["Right-click and choose the 'Travel' option on the Ghost captain."]
-          }
-        }
-      },
-      "29": {
-        "step": "Dig at this exact spot (shown below).",
-        "last": true,
-        "details": {
-          "1": {
-            "location": ["Port Phasmatys"],
-            "description": ["Dig at this exact spot"]
-          }
-        }
-      },
-      "30": {
-        "step": "Talk to Ak-Haranu. (Chat 1)",
-        "subtitle": "The Translation Manual",
-        "details": {
-          "1": {
-            "location": ["Port Phasmatys"],
-            "description": ["Talk to Ak-Haranu."]
-          }
-        }
-      },
-      "31": {
-        "step": "Talk to Robin and beat him playing Runedraw four times. (Chat 1)",
-        "details": {
-          "1": {
-            "location": ["Port Phasmatys"],
-            "description": ["Talk to Robin and beat him playing Runedraw four times."]
-          },
-          "2": {
-            "description": ["Keep rolling on the left hand side until you win. Win four times and he will sign the oak longbow. (First win)."]
-          },
-          "3": {
-            "description": ["Second win"]
-          },
-          "4": {
-            "description": ["Third win"]
-          },
-          "5": {
-            "description": ["Fourth win"]
-          }
-        }
-      },
-      "32": {
-        "step": "Talk to Ak-Haranu.",
-        "last": true,
-        "details": {
-          "1": {
-            "location": ["Port Phasmatys"],
-            "description": ["Talk to Ak-Haranu."]
-          }
-        }
-      },
-      "33": {
-        "step": "Trade a Trader Crewmember for a bucket of slime.",
-        "subtitle": "The robes",
-        "details": {
-          "1": {
-            "location": ["Port Phasmatys"],
-            "description": ["Trade a Trader Crewmember for a bucket of slime."]
-          }
-        }
-      },
-      "34": {
-        "step": "Talk to the ghost innkeeper. (Chat 4-1)",
-        "details": {
-          "1": {
-            "location": ["Port Phasmatys"],
-            "description": ["Talk to the ghost innkeeper."]
-          }
-        }
-      },
-      "35": {
-        "step": "Use the bucket of slime on the bedsheet.",
-        "details": {
-          "1": {
-            "description": ["Use the bucket of slime on the bedsheet."]
-          }
-        }
-      },
-      "36": {
-        "step": "Talk to Gravingas. (Chat 1)",
-        "details": {
-          "1": {
-            "location": ["Port Phasmatys"],
-            "description": ["Talk to Gravingas."]
-          }
-        }
-      },
-      "37": {
-        "step": "Equip the bedsheet and alternate asking two ghost villagers for 10 signatures.",
-        "details": {
-          "1": {
-            "location": ["Port Phasmatys"],
-            "description": ["Equip the bedsheet and alternate asking two ghost villagers for 10 signatures. Ignore them if they ask for ecto-tokens."]
-          },
-          "2": {
-            "location": ["Port Phasmatys"],
-            "description": ["Continue talking back and forth until you get all 10 signatures."]
-          }
-        }
-      },
-      "38": {
-        "step": "After 10 signatures, talk to Gravingas.",
-        "details": {
-          "1": {
-            "location": ["Port Phasmatys"],
-            "description": ["After 10 signatures, talk to Gravingas."]
-          }
-        }
-      },
-      "39": {
-        "step": "Talk to Necrovarus and pick-up the bone key he drops.",
-        "details": {
-          "1": {
-            "location": ["Ectofuntus"],
-            "description": ["Talk to Necrovarus and pick-up the bone key he drops."]
-          },
-          "2": {
-            "location": ["Ectofuntus"],
-            "description": ["Pick-up the bone key he drops."]
-          }
-        }
-      },
-      "40": {
-        "step": "Use the bone key and open the door.",
-        "details": {
-          "1": {
-            "location": ["Ectofuntus"],
-            "description": ["Climb up the staircase."]
-          },
-          "2": {
-            "location": ["Ectofuntus"],
-            "description": ["Use the bone key and open the door."]
-          }
-        }
-      },
-      "41": {
-        "step": "Open and search the coffin for mystical robes.",
-        "last": true,
-        "details": {
-          "1": {
-            "location": ["Ectofuntus"],
-            "description": ["Open and search the coffin for mystical robes."]
-          }
-        }
-      },
-      "42": {
-        "step": "Talk to the Crone. (Chat: 1)",
-        "subtitle": "Finishing up",
-        "details": {
-          "1": {
-            "location": ["East of Slayer Tower"],
-            "description": ["Talk to the Crone."]
-          }
-        }
-      },
-      "43": {
-        "step": "Talk to Necrovarus. (Chat: 1)",
-        "details": {
-          "1": {
-            "location": ["Port Phasmatys"],
-            "description": ["Talk to Necrovarus."]
-          }
-        }
-      },
-      "44": {
-        "step": "Talk to Velorina. (Chat 1)",
-        "details": {
-          "1": {
-            "location": ["Port Phasmatys"],
-            "description": ["Talk to Velorina."]
-          }
-        }
-      },
-      "45": {
         "step": "Quest complete!",
         "details": {
           "1": {}

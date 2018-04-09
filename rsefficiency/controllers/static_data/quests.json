@@ -12290,5 +12290,180 @@
         }
       }
     }
+  },
+  "souls_bane": {
+    "name": "Soul's Bane",
+    "directory": "souls_bane",
+    "req": [
+      {
+        "items": ["Rope"],
+        "name": "Items"
+      },
+      {
+        "items": ["Dueling Ring (Duel Arena to Glider)", "Glider (Digsite)", "Food", "Antipoison", "Armour"],
+        "name": "Recommended"
+      }
+    ],
+    "steps": {
+      "1": {
+        "step": "Talk to Launa. (Chat 1)",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["Tolna's rift"],
+            "description": ["Talk to Launa."]
+          }
+        }
+      },
+      "2": {
+        "step": "Use rope on the rift and enter it.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Tolna's rift"],
+            "description": ["Use rope on the rift."]
+          },
+          "2": {
+            "location": ["Tolna's rift"],
+            "description": ["Enter the rift."]
+          }
+        }
+      },
+      "3": {
+        "step": "Take a weapons from the weapon rack and defeat the correct monsters (shown below).",
+        "subtitle": "Room 1 - Rage",
+        "details": {
+          "1": {
+            "location": ["Tolna's rift"],
+            "description": ["Take a weapons from the weapon rack."]
+          },
+          "2": {
+            "location": ["Tolna's rift"],
+            "description": ["Anger sword - defeats Angry unicorn."]
+          },
+          "3": {
+            "location": ["Tolna's rift"],
+            "description": ["Anger spear - defeats Angry bear."]
+          },
+          "4": {
+            "location": ["Tolna's rift"],
+            "description": ["Anger mace - defeats Angry rat."]
+          },
+          "5": {
+            "location": ["Tolna's rift"],
+            "description": ["Anger battleaxe - defeats Angry goblin."]
+          }
+        }
+      },
+      "4": {
+        "step": "When your rage bar is full exit the east cave (cut-scene)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Tolna's rift"],
+            "description": ["When your rage bar is full exit the east cave"]
+          }
+        }
+      },
+      "5": {
+        "step": "Search all the dark holes until you defeat 5-6 reapers.",
+        "subtitle": "Room 2 - Fear",
+        "details": {
+          "1": {
+            "location": ["Tolna's rift"],
+            "description": ["Search all the dark holes until you defeat 5-6 reapers."]
+          },
+          "2": {
+            "location": ["Tolna's rift"],
+            "description": ["Defeat 5-6 reapers."]
+          }
+        }
+      },
+      "6": {
+        "step": "Enter the black hole to the west.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Tolna's rift"],
+            "description": ["Enter the black hole to the west."
+            ]
+          }
+        }
+      },
+      "7": {
+        "step": "Defeat confusion beasts until you find the one that takes damage. Repeat until one door is left.",
+        "subtitle": "Room 3 - Confusion",
+        "details": {
+          "1": {
+            "location": ["Tolna's rift"],
+            "description": ["The 'fake' ones will vanish after 8 hits. Repeat until one door remains to get the cutscene."]
+          }
+        }
+      },
+      "8": {
+        "step": "Enter the confusing door.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Tolna's rift"],
+            "description": ["Enter the last remaining confusing door."]
+          }
+        }
+      },
+      "9": {
+        "step": "Defeat all the hopeless creatures 3 times each.",
+        "subtitle": "Room 4 - Hopelessness",
+        "details": {
+          "1": {
+            "location": ["Tolna's rift"],
+            "description": ["Defeat all the hopeless creatures 3 times each."]
+          }
+        }
+      },
+      "10": {
+        "step": "Cross the bridge and exit the cave.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Tolna's rift"],
+            "description": ["Cross the bridge and exit the cave."]
+          }
+        }
+      },
+      "11": {
+        "step": "Defeat the all 3 heads.",
+        "subtitle": "Finishing up.",
+        "details": {
+          "1": {
+            "location": ["Tolna's rift"],
+            "description": ["Use protect from missiles and stay out of melee range to take no damage."]
+          }
+        }
+      },
+      "12": {
+        "step": "Talk to Tolna.",
+        "details": {
+          "1": {
+            "location": ["Tolna's rift"],
+            "description": ["Talk to Tolna."]
+          }
+        }
+      },
+      "13": {
+        "step": "Talk to Tolna again on the surface.",
+        "details": {
+          "1": {
+            "location": ["North-west of Digsite"],
+            "description": ["Talk to Tolna again on the surface."]
+          }
+        }
+      },
+      "14": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }

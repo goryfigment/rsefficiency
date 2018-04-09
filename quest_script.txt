@@ -209,115 +209,7 @@ Items needed: Mahogany plank and Soft leather
     Talk to Larry.
     Quest complete!
 
-Animal Magnetism
-Quest Requirements: The Restless Ghost, Ernest the Chicken, Priest in Peril
-Level Requirements: Level 18 Slayer, Level 19 Crafting, Level 30 Ranged, Level 35 Woodcutting
-Items: Mithril axe, 5 Iron bars, Ghostspeak amulet, 20 Ecto-tokens or (4 bones, 4 buckets, and 4 pots), Hammer, Holy symbol (31 Prayer to make for Ironman), Polished buttons, Hard leather
-Recommended: Charged Amulet of Glory (Draynor Village), Draman/Lunar Staff (Fairy Ring A-L-Q), Canifis Teleport, House Teleport (Rimmington), Games Necklace (Burthorpe), Ectophial
-Getting started
-    Talk to Ava. (Chat 1)
-Ecto-tokens
-    Climb upstairs and use the bones on the loader.
-    Climb down the trapdoor and use the buckets on the slime pool. (58 Agility)
-    Worship the Ectofuntus.
-    Talk to the Ghost disciple to redeem the ecto-tokens.
-Undead chickens
-    Talk to Alice. (Chat 4)
-    Equip Ghostspeak amulet and talk to Alice's husband.
-    Talk to Alice. (Chat 4)
-    Talk to Alice's husband.
-    Talk to Alice. (Chat 4)
-    Talk to Alice's husband.
-    Talk to Alice. (Chat 4)
-    Talk to the crone twice for a crone-made amulet. (Chat 2)
-    Talk to Alice's husband to give him the Crone-made amulet. (Chat 1)
-    Talk to Alice's husband (cut-scene).
-    Talk to Alice's husband to buy two undead chickens for 20 ecto-tokens. (Chat 1-2)
-Magnet
-    Talk to Ava.
-    Talk to the Witch twice to get a Selected iron.
-    Go to the center of the Rimmington mine (YOU MUST FACE NORTH) and use the hammer on the selected iron.
-    Talk to Ava (to give her the bar magnet).
-Undead twigs
-    Talk to Ava.
-    Try to chop the Undead tree.
-    Talk to Ava.
-    Talk to Turael in Burthorpe. (Chat 4)
-    Talk to Turael again for a blessed axe. (Chat 4-1)
-    Chop the undead tree with the blessed axe.
-    Talk to Ava (to give her the undead twigs).
-Ava's Attractor
-    Talk to Ava (for research notes).
-    Translate the research notes (Solution below).
-    Talk to Ava (for the pattern).
-    Use the polished buttons on the pattern.
-Quest Complete
-    Talk to Ava.
-    Quest complete!
 
-
-Ghost Ahoy
-Quest Requirements: The Restless Ghost, Priest in Peril
-Level Requirements: 25 Agility, 20 Cooking
-Items: 35 Ecto-tokens (7 bones, 7 buckets, and 7 pots), Bucket of slime, Ghostspeak amulet, ~400 Coins, Bucket of milk, 3 red; 3 blue; 3 yellow dye (Random for everyone), Spade, Oak longbow, Knife, Needle, Thread, Nettle Tea (Leather gloves, Tinderbox, Logs, Bowl of water, Bucket of milk)
-Recommended: Charged Amulet of Glory (Edgeville), Draman/Lunar Staff (Fairy Ring A-L-Q), Canifis Teleport, Slayer Ring (Slayer tower)
-Getting started
-Items required: 7 bones, 7 buckets, 7 pots, Leather gloves, Tinderbox, Logs, Bowl of water, Bucket of milk
-Nettle Tea
-    Equip leather gloves and pick nettles.
-    Use the nettles on the bowl of water.
-    Use the logs on the tinderbox.
-    Use the nettle-water on the fire.
-    Use the bucket of milk on the nettle tea.
-Ecto-Tokens
-    Climb upstairs and use the bones on the loader.
-    Climb down the trapdoor and use the buckets on the slime pool.
-    Worship the Ectofuntus.
-    Talk to the Ghost disciple to redeem the ecto-tokens.
-Getting Started
-Items required: Nettle tea, 35 Ecto-tokens, ghostspeak amulet, silk, a needle, thread, a knife, 3 blue dye, 3 yellow dye, 3 red dye, spade, and food/combat gear to defeat a Giant lobster (level 32), Oak longbow, ~400 Coins
-    Pass the energy barrier (2 Ecto-tokens).
-    Talk to Velorina. (Chat 1-1-1)
-    Equip ghostpeak amulet and talk to Necrovarus.
-    Talk to Velorina. (Chat 1)
-The Old Crone
-    Talk to the Old crone. (Chat 1)
-    Use the porcelain cup on the nettle tea.
-    Talk to the Old crone. (Chat 1-1)
-    Repair the toy ship.
-Treasure map
-    Climb to the top of the ship.
-    When the wind speed drops low search the mast to find out what colours the components of the flag are.
-    Talk to the Old man. (Chat 3)
-    Use the chest key on the chest for a map scrap.
-    Cross the gangplank and jump along the path of the rocks.
-    Open and search the chest for a map scrap.
-    Attempt and search the chest (Ground floor).
-    Defeat the scorpion (level 32).
-    Search the chest again.
-    Combine the map pieces to get a treasure map.
-Treasure!
-    Right-click and choose the 'Travel' option on the Ghost captain.
-    Dig at this exact spot (shown below).
-The Translation Manual
-    Talk to Ak-Haranu. (Chat 1)
-    Talk to Robin and beat him playing Runedraw four times. (Chat 1)
-    Talk to Ak-Haranu.
-The robes
-    Trade a Trader Crewmember for a bucket of slime.
-    Talk to the ghost innkeeper. (Chat 4-1)
-    Use the bucket of slime on the bedsheet.
-    Talk to Gravingas. (Chat 1)
-    Equip the bedsheet and alternate asking two ghost villagers for 10 signatures.
-    After 10 signatures, talk to Gravingas.
-    Talk to Necrovarus and pick-up the bone key he drops.
-    Use the bone key and open the door.
-    Open and search the coffin for mystical robes.
-Finishing up
-    Talk to the Crone. (Chat: 1)
-    Talk to Necrovarus. (Chat: 1)
-    Talk to Velorina. (Chat 1)
-    Quest complete!
 
 Creature of Fenkenstrain
 Quest Requirements: Priest in Peril, The Restless Ghost
@@ -356,40 +248,36 @@ Getting started
 
 
 Soul's Bane
+Items: Rope
+Recommended: Dueling Ring (Duel Arena to Glider), Glider (Digsite), Food, Antipoison, Armour
 Starting out 
-Talk to Launa. (Chat 1)
-Enter the rift with your rope.
-Room 1 - Rage 
-Use weapons from the rack to kill monsters.
-Anger sword - kills Angry unicorn.
-Anger spear - kills Angry bear.
-Anger mace - kills Angry giant rat.
-Anger battleaxe - kills Angry goblin.
-When your rage bar is full you’ll get a cutscene.
-Head east to the next cave.
-Room 2 - Fear 
-Look inside the dark holes, some will have a fear reaper.
-You cannot search the same hole repeatedly.
-Kill 5 or 6 reapers to get a cutscene.
-Enter the black hole to the west.
+    Talk to Launa. (Chat 1)
+    Use rope on the rift and enter it.
+Room 1 - Rage
+    Take a weapons from the weapon rack and kill the correct monsters (shown below).
+    Use weapons from the rack to kill monsters.
+        Anger sword - kills Angry unicorn.
+        Anger spear - kills Angry bear.
+        Anger mace - kills Angry giant rat.
+        Anger battleaxe - kills Angry goblin.
+    When your rage bar is full exit the east cave (cut-scene)
+Room 2 - Fear
+    Search all the dark holes until you defeat 5-6 reapers.
+    Enter the black hole to the west.
 Room 3 - Confusion 
-Defeat confusion beasts until you find the one that takes damage. The "fake" ones will vanish after 8 hits.
-Running to the opposite end of the room will disengage.
-If your XP drops are on, you will see that you're getting XP when hitting 0's. These are "fake", disengage.
-Repeat until one door remains to get the cutscene.
-Enter the confusing door.
-Tolna (monster)
-Is that really Tolna??
-
-Room 4 - Hopelessness  
-Kill all the hopeless creatures 3 times each.
-Cross the bridge and prepare to fight Tolna (3 level 46 monsters).
-Finishing up. 
-Kill the 3 heads.
-Use protect from missiles to take no damage. (Stay out of melee range)
-Talk to Tolna.
-Talk to him again on the surface.
-Quest complete!
+    Defeat confusion beasts until you find the one that takes damage.
+        The "fake" ones will vanish after 8 hits.
+    Repeat until one door remains to get the cutscene.
+    Enter the confusing door.
+Room 4 - Hopelessness
+    Defeat all the hopeless creatures 3 times each.
+    Cross the bridge and exit the cave.
+Finishing up.
+    Defeat the all 3 heads.
+        Use protect from missiles to take no damage. (Stay out of melee range)
+    Talk to Tolna.
+    Talk to Tolna again on the surface.
+    Quest complete!
 
 
 
