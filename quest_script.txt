@@ -211,101 +211,32 @@ Items needed: Mahogany plank and Soft leather
 
 
 
-Creature of Fenkenstrain
-Quest Requirements: Priest in Peril, The Restless Ghost
-Level Requirements: 20 Crafting, 25 Thieving
-Item Requirements: Hammer, Amulet of Ghostspeak, Silver bar, 3 bronze wire (unnoted), Needle, 5 thread, Spade, ~100 coins
-Getting started
-    Read the signpost in Canifis.
-    Take a pickled brain off the table in the tavern in Canifis for 50gp.
-    Talk to Dr. Fenkenstrain. (Chat 1-4-4)
-    Go upstairs and search the west bookcase. (Chat 4)
-    Search the east bookcase and read both books. (Chat 3)
-    Use the marble amulet on the obsidian amulet to form the star amulet.
-    Talk to the Gardener Ghost with the Ghostspeak amulet equipped. (Chat 2)
-    Dig in front of a grave marker. (Be sure the Gardener is following you, or else this step will not work.)
-    Use the brain on the head.
-    Go to the experiment Cave
-    Use your star amulet on the easternmost memorial then push it.
-    Kill a level 51 Experiment for the cavern key.
-    Search the chest and climb the ladder.
-    Dig at the three graves to get the torso, arms and legs.
-    Talk to Dr. Fenkenstrain and give him the body parts. (Chat 1)
-    Talk to Dr. Fenkenstrain again to give him the needle and thread.
-    Talk to the Gardener Ghost for the shed key. (Chat 2)
-    Take 3 canes from the pile of canes next to the shed.
-    Search the cupboard inside the shed.
-    Use the broom on the canes to get a extended brush.
-    Go upstairs use the extended brush on the fireplace and for a conductor mould.
-    Go to a furnace smelt a silver bar into a lightning rod.
-    Go upstairs and then climb the southern ladder.
-    Repair the lightning conductor.
-    Talk to the doctor.
-    Go upstairs, then climb the northern ladder.
-    Talk to Fenkenstrain's Monster.
-    Go downstairs, then pickpocket the doctor for the Ring of Charos.
-    Quest complete!
-
-
-Soul's Bane
-Items: Rope
-Recommended: Dueling Ring (Duel Arena to Glider), Glider (Digsite), Food, Antipoison, Armour
-Starting out 
-    Talk to Launa. (Chat 1)
-    Use rope on the rift and enter it.
-Room 1 - Rage
-    Take a weapons from the weapon rack and kill the correct monsters (shown below).
-    Use weapons from the rack to kill monsters.
-        Anger sword - kills Angry unicorn.
-        Anger spear - kills Angry bear.
-        Anger mace - kills Angry giant rat.
-        Anger battleaxe - kills Angry goblin.
-    When your rage bar is full exit the east cave (cut-scene)
-Room 2 - Fear
-    Search all the dark holes until you defeat 5-6 reapers.
-    Enter the black hole to the west.
-Room 3 - Confusion 
-    Defeat confusion beasts until you find the one that takes damage.
-        The "fake" ones will vanish after 8 hits.
-    Repeat until one door remains to get the cutscene.
-    Enter the confusing door.
-Room 4 - Hopelessness
-    Defeat all the hopeless creatures 3 times each.
-    Cross the bridge and exit the cave.
-Finishing up.
-    Defeat the all 3 heads.
-        Use protect from missiles to take no damage. (Stay out of melee range)
-    Talk to Tolna.
-    Talk to Tolna again on the surface.
-    Quest complete!
-
-
-
 The Lost Tribe
-Talk to Sigmund. (Chat 1)
-Ask the duke, cook, Hans, Father Aereck, Donie, and Bob about what happened in the cellar. One will mention a goblin in the basement.
-Talk to Sigmund again, then the duke.
-Use your pickaxe on the rubble in the basement and climb through the hole.
-Light your light source and grab the brooch.
-Show the brooch to the duke. (Chat 3) or (Chat 4)
-Talk to Reldo, the palace librarian in Varrock. (Chat 1)
-Search the north-most bookshelf on the west wall for goblin symbol book.
-Read through the book.
-Go to Goblin Village and talk to the generals, and mediate for them until you learn goblin emotes. (Chat 1𠖦𠖧)
-Go back to Lumbridge, and talk to the duke. He will tell you to investigate the caves further. (Chat 3) or (Chat 4)
-Follow the map through the caves. Don't stray from it!
-At the end of the cave talk to Mistag, and do your Goblin Bow in front of him.
-Talk to Mistag then let him take you back to Lumbridge. (Chat 4)
-Talk to the duke, he won't believe you. (Chat 3) or (Chat 4)
-Pickpocket Sigmund and unlock his chest in the other room to find some HAM robes. Keep them for Death to the Dorgeshuun.
-Tell the duke that Sigmund is part of Humans Against Monsters. (Chat 3)
-Go to the HAM lair northwest of the castle.
-Pick the lock on the trapdoor and enter the lair.
-Search the crates in the first room to find the stolen silverware.
-Bring the silverware to the duke. He will fire Sigmund and give you a signed peace treaty. (Chat 3)
-Go into the basement again. Follow Kazgar to travel to Mistag. (Chat 2)
-Talk to Mistag and a cutscene will appear.
-Quest complete!
+Getting started
+    Talk to Sigmund. (Chat 1)
+    Ask the duke, cook, Hans, Father Aereck, Donie, and Bob about what happened in the cellar. One will mention a goblin in the basement.
+    Talk to Sigmund again, then the duke.
+    Use your pickaxe on the rubble in the basement and climb through the hole.
+    Light your light source and grab the brooch.
+    Show the brooch to the duke. (Chat 3) or (Chat 4)
+    Talk to Reldo, the palace librarian in Varrock. (Chat 1)
+    Search the north-most bookshelf on the west wall for goblin symbol book.
+    Read through the book.
+    Go to Goblin Village and talk to the generals, and mediate for them until you learn goblin emotes. (Chat 1𠖦𠖧)
+    Go back to Lumbridge, and talk to the duke. He will tell you to investigate the caves further. (Chat 3) or (Chat 4)
+    Follow the map through the caves. Don't stray from it!
+    At the end of the cave talk to Mistag, and do your Goblin Bow in front of him.
+    Talk to Mistag then let him take you back to Lumbridge. (Chat 4)
+    Talk to the duke, he won't believe you. (Chat 3) or (Chat 4)
+    Pickpocket Sigmund and unlock his chest in the other room to find some HAM robes. Keep them for Death to the Dorgeshuun.
+    Tell the duke that Sigmund is part of Humans Against Monsters. (Chat 3)
+    Go to the HAM lair northwest of the castle.
+    Pick the lock on the trapdoor and enter the lair.
+    Search the crates in the first room to find the stolen silverware.
+    Bring the silverware to the duke. He will fire Sigmund and give you a signed peace treaty. (Chat 3)
+    Go into the basement again. Follow Kazgar to travel to Mistag. (Chat 2)
+    Talk to Mistag and a cutscene will appear.
+    Quest complete!
 
 
 Death to the Dorgeshuun

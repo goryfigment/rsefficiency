@@ -12465,5 +12465,328 @@
         }
       }
     }
+  },
+  "creature_of_fenkenstrain": {
+    "name": "Creature of Fenkenstrain",
+    "directory": "creature_of_fenkenstrain",
+    "req": [
+      {
+        "items": ["Priest in Peril", "The Restless Ghost"],
+        "name": "Quest Requirements"
+      },
+      {
+        "items": ["20 Crafting", "25 Thieving"],
+        "name": "Level Requirements"
+      },
+      {
+        "items": ["Hammer", "Amulet of Ghostspeak", "Silver bar", "3 bronze wire (unnoted)", "Needle", "5 thread", "Spade", "~100 coins"],
+        "name": "Item Requirements"
+      },
+      {
+        "items": ["Canifis Teleport", "Slayer ring", "Ectophial", "2 Ecto-tokens (If haven't completed Ghost Ahoy)", "Food for low levels"],
+        "name": "Recommended"
+      }
+    ],
+    "steps": {
+      "1": {
+        "step": "Read the signpost in Canifis.",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["Canifis"],
+            "description": ["Read the signpost in Canifis."]
+          }
+        }
+      },
+      "2": {
+        "step": "Take a pickled brain off the table for 50gp. (Chat 1)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Canifis Bar"],
+            "description": ["Take a pickled brain off the table for 50gp."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to Dr. Fenkenstrain. (Chat 1-4-4)",
+        "subtitle": "Dr. Fenkenstrain",
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Talk to Dr. Fenkenstrain."]
+          }
+        }
+      },
+      "4": {
+        "step": "Go upstairs and search the west bookcase for 'The Joy of Gravedigging'. (Chat 4)",
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Go upstairs."]
+          },
+          "2": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Search the west bookcase."]
+          }
+        }
+      },
+      "5": {
+        "step": "Search the east bookcase for 'Handy Maggot Avoidance Techniques'. (Chat 3)",
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Search the east bookcase for 'Handy Maggot Avoidance Techniques'."]
+          }
+        }
+      },
+      "6": {
+        "step": "Use the marble amulet on the obsidian amulet to make a star amulet.",
+        "last": true,
+        "details": {
+          "1": {
+            "description": ["Use the marble amulet on the obsidian amulet to make a star amulet."]
+          }
+        }
+      },
+      "7": {
+        "step": "Talk to the Gardener Ghost with the Ghostspeak amulet equipped. (Chat 2)",
+        "subtitle": "The Gardener's Head",
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Talk to the Gardener Ghost with the Ghostspeak amulet equipped."]
+          }
+        }
+      },
+      "8": {
+        "step": "Dig in front of a grave marker. (Be sure the Gardener is following you.)",
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Dig in front of a grave marker. Make sure the Gardener is following you, or else this step will not work."]
+          }
+        }
+      },
+      "9": {
+        "step": "Use the brain on the head.",
+        "last": true,
+        "details": {
+          "1": {
+            "description": ["Use the brain on the head."]
+          }
+        }
+      },
+      "10": {
+        "step": "Use your star amulet on the eastern-most memorial then push it.",
+        "subtitle": "Experiment Cave (Torso, arms, legs)",
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Use your star amulet on the eastern-most memorial then push it."]
+          },
+          "2": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Push the memorial."]
+          }
+        }
+      },
+      "11": {
+        "step": "Defeat a level 51 Experiment for the cavern key.",
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Defeat a level 51 Experiment for the cavern key."]
+          }
+        }
+      },
+      "12": {
+        "step": "Search the chest and climb the ladder (North-western path).",
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Open the gate entrance."]
+          },
+          "2": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Search the chest."]
+          },
+          "3": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Search the chest and climb the ladder."]
+          }
+        }
+      },
+      "13": {
+        "step": "Dig at the three graves to get the torso, arms and legs.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Dig at the first grave for the torso."]
+          },
+          "2": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Dig at the second grave for arms."]
+          },
+          "3": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Dig at the third grave for legs."]
+          }
+        }
+      },
+      "14": {
+        "step": "Talk to Dr. Fenkenstrain (to give him the body parts). (Chat 1)",
+        "subtitle": "Lightning",
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Talk to Dr. Fenkenstrain o give him the body parts."]
+          }
+        }
+      },
+      "15": {
+        "step": "Talk to Dr. Fenkenstrain again (to give him the needle and thread).",
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Talk to Dr. Fenkenstrain again to give him the needle and thread."]
+          }
+        }
+      },
+      "16": {
+        "step": "Talk to the Gardener Ghost (for the shed key). (Chat 2)",
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Talk to the Gardener Ghost for the shed key."]
+          }
+        }
+      },
+      "17": {
+        "step": "Take 3 canes from the pile of canes next to the shed.",
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Take 3 canes from the pile of canes next to the shed."]
+          }
+        }
+      },
+      "18": {
+        "step": "Search the cupboard inside the shed.",
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Search the cupboard inside the shed."]
+          }
+        }
+      },
+      "19": {
+        "step": "Use all 3 canes on the broom to get a extended brush.",
+        "details": {
+          "1": {
+            "description": ["Use all 3 canes on the broom to get a extended brush."]
+          }
+        }
+      },
+      "20": {
+        "step": "Go upstairs and use the extended brush on the fireplace (for a conductor mould).",
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Go upstairs."]
+          },
+          "2": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Use the extended brush on the fireplace"]
+          }
+        }
+      },
+      "21": {
+        "step": "Go to a furnace smelt a silver bar into a lightning rod.",
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Go to a furnace smelt a silver bar into a lightning rod."]
+          },
+          "2": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Choose to make the lightning rod."]
+          }
+        }
+      },
+      "22": {
+        "step": "Go upstairs and then climb the southern ladder.",
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Go upstairs."]
+          },
+          "2": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Climb the southern ladder."]
+          }
+        }
+      },
+      "23": {
+        "step": "Repair the lightning conductor.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Repair the lightning conductor."]
+          }
+        }
+      },
+      "24": {
+        "step": "Talk to the Dr. Fenkenstrain.",
+        "subtitle": "It's Alive!",
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Talk to the Dr. Fenkenstrain."]
+          }
+        }
+      },
+      "25": {
+        "step": "Go upstairs, then climb the northern ladder.",
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Go upstairs."]
+          },
+          "2": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Climb the northern ladder."]
+          }
+        }
+      },
+      "26": {
+        "step": "Talk to Fenkenstrain's Monster.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Talk to Fenkenstrain's Monster."]
+          }
+        }
+      },
+      "27": {
+        "step": "Go downstairs, then pickpocket the Dr. Fenkenstrain for the Ring of Charos.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Go downstairs, then pickpocket the doctor for the Ring of Charos."]
+          }
+        }
+      },
+      "28": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }
