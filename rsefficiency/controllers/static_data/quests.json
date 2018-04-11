@@ -12788,5 +12788,279 @@
         }
       }
     }
+  },
+  "the_lost_tribe": {
+    "name": "The Lost Tribe",
+    "directory": "the_lost_tribe",
+    "req": [
+      {
+        "items": ["Started Goblin Diplomacy", "Rune Mysteries"],
+        "name": "Quest Requirements"
+      },
+      {
+        "items": ["13 Agility", "13 Thieving", "17 Mining"],
+        "name": "Level Requirements"
+      },
+      {
+        "items": ["Pickaxe", "Tinderbox", "A light source (Candle", "Candle Lantern", "Bullsye Lantern)"],
+        "name": "Items"
+      },
+      {
+        "items": ["Lumbridge Teleport", "Varrock Teleport", "Falador Teleport"],
+        "name": "Recommended"
+      }
+    ],
+    "steps": {
+      "1": {
+        "last": true,
+        "step": "Talk to Sigmund. (Chat 1)",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["Lumbridge Castle"],
+            "description": ["Talk to Sigmund."]
+          }
+        }
+      },
+      "2": {
+        "step": "Question the following people until they mention they saw a goblin: Duke Horacio, Cook, Hans, Donie, Father Aereck, and Bob",
+        "subtitle": "The Cellar",
+        "details": {
+          "1": {
+            "location": ["Lumbridge Castle"],
+            "description": ["Once they mention a goblin, continue to the next step. Talk to Duke Horacio. (Chat 3)"]
+          },
+          "2": {
+            "location": ["Lumbridge Castle"],
+            "description": ["Talk to the Cook. (Chat 5)"]
+          },
+          "3": {
+            "location": ["Lumbridge Castle"],
+            "description": ["Talk to Hans. (Chat 1) He walks around Lumbridge castle."]
+          },
+          "4": {
+            "location": ["Lumbridge"],
+            "description": ["Talk to Donie. (Chat 5)"]
+          },
+          "5": {
+            "location": ["Lumbridge Church"],
+            "description": ["Talk to Father Aereck. (Chat 3)"]
+          },
+          "6": {
+            "location": ["Lumbridge Axe Shop"],
+            "description": ["Talk to Bob. (Chat 4)"]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to Sigmund. (Chat 1)",
+        "details": {
+          "1": {
+            "location": ["Lumbridge Castle"],
+            "description": ["Talk to Sigmund."]
+          }
+        }
+      },
+      "4": {
+        "step": "Talk to Duke Horacio. (Chat 3)",
+        "details": {
+          "1": {
+            "location": ["Lumbridge Castle"],
+            "description": ["Talk to Duke Horacio."]
+          }
+        }
+      },
+      "5": {
+        "step": "Use your pickaxe on the rubble in the basement and climb through the hole.",
+        "details": {
+          "1": {
+            "location": ["Lumbridge Castle"],
+            "description": ["Use your pickaxe on the rubble in the basement and climb through the hole."]
+          },
+          "2": {
+            "location": ["Lumbridge Castle"],
+            "description": ["Climb through the hole."]
+          }
+        }
+      },
+      "6": {
+        "step": "Pick-up the brooch.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Lumbridge Castle"],
+            "description": ["Pick-up the brooch."]
+          }
+        }
+      },
+      "7": {
+        "step": "Talk to Duke Horacio. (Chat 3)",
+        "subtitle": "Investigation",
+        "details": {
+          "1": {
+            "location": ["Lumbridge Castle"],
+            "description": ["Talk to Duke Horacio."]
+          }
+        }
+      },
+      "8": {
+        "step": "Talk to Reldo, (the librarian in Varrock). (Chat 1)",
+        "details": {
+          "1": {
+            "location": ["Varrock Library"],
+            "description": ["Talk to Reldo, the librarian in Varrock."]
+          }
+        }
+      },
+      "9": {
+        "step": "Search the north-most bookshelf on the west wall and read the book.",
+        "details": {
+          "1": {
+            "location": ["Varrock Library"],
+            "description": ["Search the north-most bookshelf on the west wall and read the book."]
+          }
+        }
+      },
+      "10": {
+        "step": "Talk to the Generals at the Goblin Village. (Chat 1-3-2-3-3-1)",
+        "details": {
+          "1": {
+            "location": ["Goblin Village"],
+            "description": ["Talk to the Generals at the Goblin Village."]
+          }
+        }
+      },
+      "11": {
+        "step": "Talk to Duke Horacio. (Chat 3)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Lumbridge Castle"],
+            "description": ["Talk to Duke Horacio."]
+          }
+        }
+      },
+      "12": {
+        "step": "Follow the map through the caves. Don't stray from the red path!",
+        "subtitle": "Goblin Cave",
+        "details": {
+          "1": {
+            "description": ["Follow the map through the caves. Don't stray from the red path!"]
+          }
+        }
+      },
+      "13": {
+        "step": "Talk to Mistag, and do the Goblin Bow in front of him.",
+        "details": {
+          "1": {
+            "location": ["Dorgeshuun Mine"],
+            "description": ["Talk to Mistag."]
+          },
+          "2": {
+            "description": ["Do the Goblin Bow in front of him."]
+          }
+        }
+      },
+      "14": {
+        "step": "Talk to Mistag (to let him take you back to Lumbridge). (Chat 4)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Dorgeshuun Mine"],
+            "description": ["Talk to Mistag."]
+          }
+        }
+      },
+      "15": {
+        "step": "Talk to Duke Horacio. (Chat 3)",
+        "subtitle": "Missing silverware",
+        "details": {
+          "1": {
+            "location": ["Lumbridge Castle"],
+            "description": ["Talk to Duke Horacio."]
+          }
+        }
+      },
+      "16": {
+        "step": "Pickpocket Sigmund.",
+        "details": {
+          "1": {
+            "location": ["Lumbridge Castle"],
+            "description": ["Pickpocket Sigmund."]
+          }
+        }
+      },
+      "17": {
+        "step": "Unlock his chest in the other room to find some HAM robes.",
+        "details": {
+          "1": {
+            "location": ["Lumbridge Castle"],
+            "description": ["Unlock his chest in the other room to find some HAM robes."]
+          }
+        }
+      },
+      "18": {
+        "step": "Talk to Duke Horacio. (Chat 3)",
+        "details": {
+          "1": {
+            "location": ["Lumbridge Castle"],
+            "description": ["Talk to Duke Horacio."]
+          }
+        }
+      },
+      "19": {
+        "step": "Pick the lock on the trapdoor and enter the lair.",
+        "details": {
+          "1": {
+            "location": ["North-west of Lumbridge"],
+            "description": ["Pick the lock on the trapdoor and enter the lair."]
+          }
+        }
+      },
+      "20": {
+        "step": "Search the crates in the first room to find the stolen silverware.",
+        "details": {
+          "1": {
+            "location": ["H.A.M. Hideout"],
+            "description": ["Search the crates in the first room to find the stolen silverware."]
+          }
+        }
+      },
+      "21": {
+        "step": "Talk to Duke Horacio. (Chat 3)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Lumbridge Castle"],
+            "description": ["Talk to Duke Horacio."]
+          }
+        }
+      },
+      "22": {
+        "step": "Follow Kazgar to travel to Mistag. (Chat 2)",
+        "subtitle": "Peace treaty",
+        "details": {
+          "1": {
+            "location": ["Goblin Cave"],
+            "description": ["Follow Kazgar to travel to Mistag."]
+          }
+        }
+      },
+      "23": {
+        "step": "Talk to Mistag.",
+        "details": {
+          "1": {
+            "location": ["Dorgeshuun Mine"],
+            "description": ["Talk to Mistag for a cut-scene."]
+          }
+        }
+      },
+      "24": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }

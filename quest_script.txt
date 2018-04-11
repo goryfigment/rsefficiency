@@ -214,28 +214,39 @@ Items needed: Mahogany plank and Soft leather
 The Lost Tribe
 Getting started
     Talk to Sigmund. (Chat 1)
-    Ask the duke, cook, Hans, Father Aereck, Donie, and Bob about what happened in the cellar. One will mention a goblin in the basement.
-    Talk to Sigmund again, then the duke.
+The Cellar
+    Question the following people until they mention they saw a goblin: Duke Horacio, Cook, Hans, Donie, Father Aereck, and Bob
+        Talk to Duke Horacio. (Chat 3)
+        Talk to the Cook. (Chat 5)
+        Talk to Hans. (Chat 1)
+        Talk to Donie. (Chat 5)
+        Talk to Bob. (Chat 4)
+        Talk to Father Aereck.
+    Talk to Sigmund. (Chat 1)
+    Talk to Duke Horacio. (Chat 3)
     Use your pickaxe on the rubble in the basement and climb through the hole.
-    Light your light source and grab the brooch.
-    Show the brooch to the duke. (Chat 3) or (Chat 4)
-    Talk to Reldo, the palace librarian in Varrock. (Chat 1)
-    Search the north-most bookshelf on the west wall for goblin symbol book.
-    Read through the book.
-    Go to Goblin Village and talk to the generals, and mediate for them until you learn goblin emotes. (Chat 1𠖦𠖧)
-    Go back to Lumbridge, and talk to the duke. He will tell you to investigate the caves further. (Chat 3) or (Chat 4)
-    Follow the map through the caves. Don't stray from it!
-    At the end of the cave talk to Mistag, and do your Goblin Bow in front of him.
-    Talk to Mistag then let him take you back to Lumbridge. (Chat 4)
-    Talk to the duke, he won't believe you. (Chat 3) or (Chat 4)
-    Pickpocket Sigmund and unlock his chest in the other room to find some HAM robes. Keep them for Death to the Dorgeshuun.
-    Tell the duke that Sigmund is part of Humans Against Monsters. (Chat 3)
-    Go to the HAM lair northwest of the castle.
+    Pick-up the brooch.
+Investigation
+    Talk to Duke Horacio. (Chat 3)
+    Talk to Reldo, the librarian in Varrock. (Chat 1)
+    Search the north-most bookshelf on the west wall and read the book.
+    Talk to the Generals at the Goblin Village. (Chat 1-3-2-3-3-1)
+    Talk to Duke Horacio. (Chat 3)
+Goblin Cave
+    Follow the map through the caves. Don't stray from the red path!
+    Talk to Mistag, and do the Goblin Bow in front of him.
+    Talk to Mistag (to let him take you back to Lumbridge). (Chat 4)
+Missing silverware
+    Talk to Duke Horacio. (Chat 3)
+    Pickpocket Sigmund.
+    Unlock his chest in the other room to find some HAM robes. (Keep them for Death to the Dorgeshuun.)
+    Talk to Duke Horacio. (Chat 3)
     Pick the lock on the trapdoor and enter the lair.
     Search the crates in the first room to find the stolen silverware.
-    Bring the silverware to the duke. He will fire Sigmund and give you a signed peace treaty. (Chat 3)
-    Go into the basement again. Follow Kazgar to travel to Mistag. (Chat 2)
-    Talk to Mistag and a cutscene will appear.
+    Talk to Duke Horacio. (Chat 3)
+Peace treaty
+    Follow Kazgar to travel to Mistag. (Chat 2)
+    Talk to Mistag.
     Quest complete!
 
 
