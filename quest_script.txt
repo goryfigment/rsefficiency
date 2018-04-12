@@ -211,74 +211,56 @@ Items needed: Mahogany plank and Soft leather
 
 
 
-The Lost Tribe
-Getting started
-    Talk to Sigmund. (Chat 1)
-The Cellar
-    Question the following people until they mention they saw a goblin: Duke Horacio, Cook, Hans, Donie, Father Aereck, and Bob
-        Talk to Duke Horacio. (Chat 3)
-        Talk to the Cook. (Chat 5)
-        Talk to Hans. (Chat 1)
-        Talk to Donie. (Chat 5)
-        Talk to Bob. (Chat 4)
-        Talk to Father Aereck.
-    Talk to Sigmund. (Chat 1)
-    Talk to Duke Horacio. (Chat 3)
-    Use your pickaxe on the rubble in the basement and climb through the hole.
-    Pick-up the brooch.
-Investigation
-    Talk to Duke Horacio. (Chat 3)
-    Talk to Reldo, the librarian in Varrock. (Chat 1)
-    Search the north-most bookshelf on the west wall and read the book.
-    Talk to the Generals at the Goblin Village. (Chat 1-3-2-3-3-1)
-    Talk to Duke Horacio. (Chat 3)
-Goblin Cave
-    Follow the map through the caves. Don't stray from the red path!
-    Talk to Mistag, and do the Goblin Bow in front of him.
-    Talk to Mistag (to let him take you back to Lumbridge). (Chat 4)
-Missing silverware
-    Talk to Duke Horacio. (Chat 3)
-    Pickpocket Sigmund.
-    Unlock his chest in the other room to find some HAM robes. (Keep them for Death to the Dorgeshuun.)
-    Talk to Duke Horacio. (Chat 3)
-    Pick the lock on the trapdoor and enter the lair.
-    Search the crates in the first room to find the stolen silverware.
-    Talk to Duke Horacio. (Chat 3)
-Peace treaty
-    Follow Kazgar to travel to Mistag. (Chat 2)
-    Talk to Mistag.
-    Quest complete!
-
-
 Death to the Dorgeshuun
-Talk to Mistag at the Dorgeshuun mines to start the quest. (Chat 1•1)
-Bring two sets of H.A.M. robes to Zanik in Lumbridge cellar. (Chat 1•1)
-Zanik will follow you, if you lose her go back to the cellar. Talk to the townspeople with her following.
-Talk to the Duke, Hans, Bob, Father Aereck, Man, Lumbridge Guide, goblin (west of the general store), and the shopkeeper.
-Ask Zanik, "Have you seen enough of Lumbridge yet?" (Chat 2)
-Ask Zanik about the mark on her head while in Lumbridge. (Chat 1)
-Put on your set of HAM robes, and go to the HAM headquarters.
-Talk to a H.A.M. Member or guard, and go through all the questions.
-Talk to Johanhus southeast of the stage. (Chat 4•3)
-Wander around the south of the stage, Zanik will spot a trapdoor.
-Pick the trapdoor and go down. You'll need Zanik to kill the guards in this room to continue:
-Walk west past the first guard and talk to him, then Zanik will shoot him.
-Squeeze through the crack in the wall. Wait for the guard in the central corridor to walk by, then squeeze through the next crack in the wall. Run west behind the guard by the door and talk to him. then Zanik will shoot him.
-When the guard in the corridor starts walking east, say, “Now!” and Zanik will snipe him.
-Move to the eastern end of the central corridor, and talk to Zanik again. Tell her to wait. Then, run south to make the north-east guard follow you. Zanik will shoot him as he passes the central corridor.
-For the final guard, go to the end of either of the passages, and talk to Zanik again. Tell her to wait, then go to the other passage, and distract the guard. Zanik will shoot him.
-Listen at the door. A senior guard will appear and arrest you.
-Pick the lock to escape the cell, then leave the hideout to find Zanik, dead. Take her body.
-Go down to the Lumbridge cellar and take the south path to Juna in the Tears of Guthix cave.
-Use your pickaxe to open a hole in the wall.
-Talk to Juna and collect 20 Tears of Guthix to start the cutscene. Remember to have both hands free. (Chat 1)
-With your full HAM robes and gear for the fight, return to the castle cellar and talk to Zanik. (Chat 1)
-Go to the chicken farm near the water mill and go through the southern gate.
-With both hands free, search one of the southeastern crates and Zanik will hide in it. (Chat 1•1)
-Climb down the nearby ladder, and head to the western room. You will see Sigmund (level 50) and three Senior Guards (level 22).
-Kill the guards first, then Sigmund. He will use protection prayers. (You can safespot the guards using Zanik, and you can safespot Sigmund using the boxes.)
-Smash the nearby drilling machine, then head down the southern tunnel to the exit. A cutscene will appear.
-Quest complete!
+Quest Requirements: The Lost Tribe
+Level Requirements: 23 Agility, 23 Thieving
+Items: Rope, A pickaxe, A light source (Candle, Candle Lantern, Bullsye Lantern), 2 sets of H.A.M. robes (2 Ham hood, 2 Ham robe, 2 Ham shirt, 2 Ham logo, 2 Ham cloak, 2 Ham gloves, 2 Ham boots)
+Recommended: Lumbridge Teleport
+Getting started
+    Talk to Mistag. (Chat 1-1-4)
+Lumbridge Tour Guide
+    Talk to Zanik. (Chat 1-1)
+    Talk to the Cook.
+    Talk to Duke Horacio (Chat 1)
+    Take Zanik outside the castle (cut-scene).
+    Talk to Hans. (Chat 5)
+    Talk to Bob. (Chat 1)
+    Talk to Father Aereck. (Chat 4)
+    Talk to the Prayer tutor. (Chat 3)
+    Talk to any man or woman (Zanik must engage in the conversation).
+    Talk to the Lumbridge Guide. (Chat 2)
+    Talk to a shopkeeper in the general store (Chat 2)
+    Take Zanik close to a goblin.
+    Talk to Zanik (Chat 2-1)
+H.A.M Hideout
+    Equip the set HAM robes, and pick-lock and open the trapdoor.
+    Talk to a H.A.M. Member or guard. (Chat 1-2-3-4)
+    Talk to Johanhus. (Chat 4-3)
+    Wander around the south of the stage, Zanik will spot a trapdoor.
+    Pick-lock and open the trapdoor.
+Guards, Guards, Guards!!
+    Walk west pass the first guard.
+    Squeeze through the crack twice when the guard is walking east. Immediately talk to the east guard before the guard behind you walks back.
+    Say 'Now', when the guard starts walking east. (Chat 1)
+    Talk to Zanik, then run south until Zanik shoots the guard. (Chat 1)
+    Talk to Zanik, then run east to the other side of the passage then run at the guard. (Chat 2)
+    Listen at the door (cut-scene).
+Tears of Guthix
+    Pick-lock and leave the hideout.
+    Inspect Zanik.
+    Go to the Tears of Guthix cave (path below).
+    With both hands free, talk to Juna. (Chat 1)
+    Collect 20 Tears of Guthix.
+Sigmund
+    Talk to Zanik (Chat 1)
+    With both hands free, search the south-eastern crates. (Chat 1-1)
+    Go down the trapdoor.
+    Climb down the nearby ladder, and head to the western room. You will see Sigmund (level 50) and three Senior Guards (level 22).
+    Defeat the guards first.
+    Defeat Sigmund.
+Finishing up
+    Unblock the southern tunnel (cut-scene).
+    Quest complete!
 
 
 Another Slice of H.A.M.

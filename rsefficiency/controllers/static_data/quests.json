@@ -12802,7 +12802,7 @@
         "name": "Level Requirements"
       },
       {
-        "items": ["Pickaxe", "Tinderbox", "A light source (Candle", "Candle Lantern", "Bullsye Lantern)"],
+        "items": ["Pickaxe", "Tinderbox", "A light source (Candle, Candle Lantern, Bullsye Lantern)"],
         "name": "Items"
       },
       {
@@ -13056,6 +13056,470 @@
         }
       },
       "24": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
+  },
+  "death_to_the_dorgeshuun": {
+    "name": "Death to the Dorgeshuun",
+    "directory": "death_to_the_dorgeshuun",
+    "req": [
+      {
+        "items": ["The Lost Tribe"],
+        "name": "Quest Requirements"
+      },
+      {
+        "items": ["23 Agility", "23 Thieving"],
+        "name": "Level Requirements"
+      },
+      {
+        "items": ["A pickaxe", "Tinderbox", "A light source (Candle, Candle Lantern, Bullsye Lantern)", "2 sets of H.A.M. robes (2 Ham hood, 2 Ham robe, 2 Ham shirt, 2 Ham logo, 2 Ham cloak, 2 Ham gloves, 2 Ham boots)"],
+        "name": "Items"
+      },
+      {
+        "items": ["3 Guards (level 22)", "Sigmund (level 50)"],
+        "name": "Enemies to defeat"
+      },
+      {
+        "items": ["Lumbridge Teleport"],
+        "name": "Recommended"
+      }
+    ],
+    "steps": {
+      "1": {
+        "last": true,
+        "step": "Talk to Mistag. (Chat 1-1-4)",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["Goblin Cave"],
+            "description": ["Follow Kazgar to get to Mistag."]
+          },
+          "2": {
+            "location": ["Dorgeshuun Mine"],
+            "description": ["Talk to Mistag."]
+          }
+        }
+      },
+      "2": {
+        "step": "Talk to Zanik. (Chat 1-1)",
+        "subtitle": "Lumbridge Tour Guide",
+        "details": {
+          "1": {
+            "location": ["Lumbridge basement"],
+            "description": ["Talk to Zanik and he will start following you."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to the Cook.",
+        "details": {
+          "1": {
+            "location": ["Lumbridge"],
+            "description": ["Talk to the Cook with Zanik following you."]
+          }
+        }
+      },
+      "4": {
+        "step": "Talk to Duke Horacio (Chat 1)",
+        "details": {
+          "1": {
+            "location": ["Lumbridge"],
+            "description": ["Talk to Duke Horacio with Zanik following you."]
+          }
+        }
+      },
+      "5": {
+        "step": "Take Zanik outside the castle (cut-scene).",
+        "details": {
+          "1": {
+            "location": ["Lumbridge"],
+            "description": ["Walk outside Lumbridge castle with Zanik following you to get a cut-scene."]
+          }
+        }
+      },
+      "6": {
+        "step": "Talk to Hans. (Chat 5)",
+        "details": {
+          "1": {
+            "location": ["Lumbridge"],
+            "description": ["Talk to Hans, who walks around the castle, with Zanik following you."]
+          }
+        }
+      },
+      "7": {
+        "step": "Talk to Bob. (Chat 1)",
+        "details": {
+          "1": {
+            "location": ["Lumbridge Axe Shop"],
+            "description": ["Talk to Bob with Zanik following you."]
+          }
+        }
+      },
+      "8": {
+        "step": "Talk to Father Aereck. (Chat 4)",
+        "details": {
+          "1": {
+            "location": ["Lumbridge Church"],
+            "description": ["Talk to Father Aereck with Zanik following you."]
+          }
+        }
+      },
+      "9": {
+        "step": "Talk to the Prayer tutor. (Chat 3)",
+        "details": {
+          "1": {
+            "location": ["Lumbridge Church"],
+            "description": ["Talk to the Prayer tutor with Zanik following you."]
+          }
+        }
+      },
+      "10": {
+        "step": "Talk to any man or woman (Zanik must engage in the conversation).",
+        "details": {
+          "1": {
+            "location": ["Lumbridge"],
+            "description": ["Talk to any man or woman. Zanik must engage in the conversation he does not talk to different man or woman in Lumbridge."]
+          }
+        }
+      },
+      "11": {
+        "step": "Talk to the Lumbridge Guide. (Chat 2)",
+        "details": {
+          "1": {
+            "location": ["Lumbridge"],
+            "description": ["Talk to the Lumbridge Guide."]
+          }
+        }
+      },
+      "12": {
+        "step": "Talk to a shopkeeper in the general store. (Chat 2)",
+        "details": {
+          "1": {
+            "location": ["Lumbridge General Store"],
+            "description": ["Talk to a shopkeeper in the general store with Zanik following you."]
+          }
+        }
+      },
+      "13": {
+        "step": "Take Zanik close to a goblin.",
+        "details": {
+          "1": {
+            "location": ["North-west of Lumbridge"],
+            "description": ["Take Zanik close to a goblin and he will start a conversation."]
+          }
+        }
+      },
+      "14": {
+        "step": "Talk to Zanik (Chat 2-1)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Lumbridge"],
+            "description": ["Talk to Zanik to end the tour guide of Lumbridge."]
+          }
+        }
+      },
+      "15": {
+        "step": "Equip the set HAM robes, then pick-lock and open the trapdoor.",
+        "subtitle": "H.A.M Hideout",
+        "details": {
+          "1": {
+            "location": ["North-west Lumbridge"],
+            "description": ["Equip the set HAM robes, then pick-lock."]
+          },
+          "2": {
+            "location": ["North-west Lumbridge"],
+            "description": ["Open the trapdoor."]
+          }
+        }
+      },
+      "16": {
+        "step": "Talk to a H.A.M. Member or guard. (Chat 1-2-3-4)",
+        "details": {
+          "1": {
+            "location": ["H.A.M. Hideout"],
+            "description": ["Talk to a H.A.M. Member or guard."]
+          }
+        }
+      },
+      "17": {
+        "step": "Talk to Johanhus. (Chat 4-3)",
+        "details": {
+          "1": {
+            "location": ["H.A.M. Hideout"],
+            "description": ["Talk to Johanhus."]
+          }
+        }
+      },
+      "18": {
+        "step": "Wander around the south of the stage, Zanik will spot a trapdoor.",
+        "details": {
+          "1": {
+            "location": ["H.A.M. Hideout"],
+            "description": ["Wander around the south of the stage, Zanik will start a chat dialogue spotting a trapdoor."]
+          }
+        }
+      },
+      "19": {
+        "step": "Pick-lock and open the trapdoor.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["H.A.M. Hideout"],
+            "description": ["Pick-lock the trapdoor."]
+          },
+          "2": {
+            "location": ["H.A.M. Hideout"],
+            "description": ["Open the trapdoor."]
+          }
+        }
+      },
+      "20": {
+        "step": "Walk west pass the first guard.",
+        "subtitle": "Guards, Guards, Guards!!",
+        "details": {
+          "1": {
+            "location": ["H.A.M. Hideout"],
+            "description": ["Walk west pass the first guard and Zanik will defeat him."]
+          },
+          "2": {
+            "location": ["H.A.M. Hideout"],
+            "description": ["Zanik defeating the first guard."]
+          }
+        }
+      },
+      "21": {
+        "step": "Squeeze through the crack twice when the guard is walking east. Immediately talk to the west guard before the guard behind you walks back.",
+        "details": {
+          "1": {
+            "location": ["H.A.M. Hideout"],
+            "description": ["Squeeze through the first crack."]
+          },
+          "2": {
+            "location": ["H.A.M. Hideout"],
+            "description": ["Before squeezing through the second crack make sure the guard walking down the hall is walking east."]
+          },
+          "3": {
+            "location": ["H.A.M. Hideout"],
+            "description": ["Talk to the guard so Zanik can defeat him."]
+          },
+          "4": {
+            "location": ["H.A.M. Hideout"],
+            "description": ["Zanik defeating the second guard."]
+          },
+          "5": {
+            "location": ["H.A.M. Hideout"],
+            "description": ["If you get caught, pick-lock the prison door and walk back to the guards again."]
+          }
+        }
+      },
+      "22": {
+        "step": "Say 'Now', when the guard starts walking east. (Chat 1)",
+        "details": {
+          "1": {
+            "location": ["H.A.M. Hideout"],
+            "description": ["Say 'Now', when the guard starts walking east."]
+          },
+          "2": {
+            "location": ["H.A.M. Hideout"],
+            "description": ["Zanik defeating the third guard."]
+          }
+        }
+      },
+      "23": {
+        "step": "Talk to Zanik, then run south until Zanik shoots the guard. (Chat 1)",
+        "details": {
+          "1": {
+            "location": ["H.A.M. Hideout"],
+            "description": ["Talk to Zanik."]
+          },
+          "2": {
+            "location": ["H.A.M. Hideout"],
+            "description": ["Run south until Zanik shoots the guard."]
+          },
+          "3": {
+            "location": ["H.A.M. Hideout"],
+            "description": ["Zanik defeating the fourth guard."]
+          }
+        }
+      },
+      "24": {
+        "step": "Talk to Zanik, then run west to the other side of the passage then run at the guard. (Chat 2)",
+        "details": {
+          "1": {
+            "location": ["H.A.M. Hideout"],
+            "description": ["Talk to Zanik."]
+          },
+          "2": {
+            "location": ["H.A.M. Hideout"],
+            "description": ["Run at the guard from the west side."]
+          },
+          "3": {
+            "location": ["H.A.M. Hideout"],
+            "description": ["Zanik defeating the fifth guard."]
+          }
+        }
+      },
+      "25": {
+        "step": "Listen at the door (cut-scene).",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["H.A.M. Hideout"],
+            "description": ["Listen at the door (cut-scene)."]
+          }
+        }
+      },
+      "26": {
+        "step": "Pick-lock the prison door and leave the hideout.",
+        "subtitle": "Tears of Guthix",
+        "details": {
+          "1": {
+            "location": ["H.A.M. Hideout"],
+            "description": ["Pick-lock the prison door."]
+          },
+          "2": {
+            "location": ["H.A.M. Hideout"],
+            "description": ["Leave the hideout."]
+          }
+        }
+      },
+      "27": {
+        "step": "Inspect Zanik.",
+        "details": {
+          "1": {
+            "location": ["North-west of Lumbridge"],
+            "description": ["Inspect Zanik."]
+          }
+        }
+      },
+      "28": {
+        "step": "Go to the Tears of Guthix cave (path below).",
+        "details": {
+          "1": {
+            "location": ["Lumbridge"],
+            "description": ["Go down the trapdoor to the Lumbridge basement"]
+          },
+          "2": {
+            "location": ["Lumbridge basement"],
+            "description": ["Squeeze through the hole to the Goblin Cave."]
+          },
+          "3": {
+            "location": ["Goblin cave"],
+            "description": ["Use a pickaxe on the hole."]
+          },
+          "4": {
+            "location": ["Goblin cave"],
+            "description": ["Squeeze through the hole to the Lumbridge Dungeon."]
+          },
+          "5": {
+            "location": ["Lumbridge Dungeon"],
+            "description": ["Jump-across the stepping stone. (Warning: Failing this will douse your light source. Use a tinderbox on the candle to continue.)"]
+          },
+          "6": {
+            "location": ["Lumbridge Dungeon"],
+            "description": ["Enter the tunnel to the Tears of Guthix cave."]
+          },
+          "7": {
+            "location": ["Tears of Guthix cave"],
+            "description": ["Climb down the rocks."]
+          }
+        }
+      },
+      "29": {
+        "step": "With both hands free, talk to Juna. (Chat 1)",
+        "details": {
+          "1": {
+            "location": ["Tears of Guthix cave"],
+            "description": ["Un-equip your weapon and shield slot before talking to Juna."]
+          }
+        }
+      },
+      "30": {
+        "step": "Collect 20 Tears of Guthix.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Tears of Guthix cave"],
+            "description": ["Collect only the blue stream on the wall. Stop collecting that wall when it starts releasing a green stream."]
+          }
+        }
+      },
+      "31": {
+        "step": "Talk to Zanik. (Chat 1)",
+        "subtitle": "Sigmund",
+        "details": {
+          "1": {
+            "location": ["Lumbridge basement"],
+            "description": [" Bring armour and a weapon to fight sigmund then talk to Zanik."]
+          }
+        }
+      },
+      "32": {
+        "step": "With both hands free, search the south-eastern crates. (Chat 1-1)",
+        "details": {
+          "1": {
+            "location": ["North-east of Lumbridge"],
+            "description": ["With both hands free, search the south-eastern crates."]
+          }
+        }
+      },
+      "33": {
+        "step": "Go down the trapdoor.",
+        "details": {
+          "1": {
+            "location": ["North-east of Lumbridge"],
+            "description": ["Go down the trapdoor."]
+          }
+        }
+      },
+      "34": {
+        "step": "Defeat the guards first.",
+        "details": {
+          "1": {
+            "location": ["Sigmund's Hideout"],
+            "description": ["Defeat the guards first."]
+          }
+        }
+      },
+      "35": {
+        "step": "Defeat Sigmund.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Sigmund's Hideout"],
+            "description": ["Defeat Sigmund. He uses Protect from Range when he is the last one alive."]
+          },
+          "2": {
+            "location": ["Sigmund's Hideout"],
+            "description": ["Safespot when fighting Sigmund."]
+          }
+        }
+      },
+      "36": {
+        "subtitle": "Finishing up",
+        "step": "Smash the drilling machine.",
+        "details": {
+          "1": {
+            "location": ["Sigmund's Hideout"],
+            "description": ["Smash the drilling machine."]
+          }
+        }
+      },
+      "37": {
+        "step": "Unblock the southern tunnel (cut-scene).",
+        "details": {
+          "1": {
+            "location": ["Lumbridge"],
+            "description": ["Unblock the southern tunnel (cut-scene)."]
+          }
+        }
+      },
+      "38": {
         "step": "Quest complete!",
         "details": {
           "1": {}
