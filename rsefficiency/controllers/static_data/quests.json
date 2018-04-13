@@ -13526,5 +13526,294 @@
         }
       }
     }
+  },
+  "the_giant_dwarf": {
+    "name": "The Giant Dwarf",
+    "directory": "the_giant_dwarf",
+    "req": [
+      {
+        "items": ["12 Crafting", "14 Thieving", "16 Firemaking", "33 Magic"],
+        "name": "Level Requirements"
+      },
+      {
+        "items": ["~2500 Coins", "Logs", "Tinderbox", "Coal", "Iron bar", "Law and Air rune (for Telekinetic Grab)", "3 Cut sapphires", "Redberry pie (if you haven't completed The Knight's Sword)", "Various ores and bars (obtainable during the quest)"],
+        "name": "Items"
+      },
+      {
+        "items": ["Dramen/Lunar staff (Fairy ring D-K-S)", "Home Teleport (Rimmington)", "5000 Coins to buy ore/bars"],
+        "name": "Recommended"
+      }
+    ],
+    "steps": {
+      "1": {
+        "step": "Talk to the Dwarven Boatman. (Chat 1-1)",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["Keldagrim Entrance"],
+            "description": ["Enter the tunnel."]
+          },
+          "2": {
+            "location": ["Keldagrim Dungeon"],
+            "description": ["Go-through the cave entrance."]
+          },
+          "3": {
+            "location": ["Keldagrim Port"],
+            "description": ["Talk to the Dwarven Boatman."]
+          }
+        }
+      },
+      "2": {
+        "step": "Talk to Commander Veldaban. (Chat 2)",
+        "details": {
+          "1": {
+            "location": ["West Keldagrim"],
+            "description": ["Talk to Commander Veldaban."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to Blasidar the sculptor. (Chat 2)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["East Keldagrim"],
+            "description": ["Talk to Blasidar the sculptor."]
+          }
+        }
+      },
+      "4": {
+        "step": "Talk to Vermundi. (Chat 2)",
+        "subtitle": "Dwarven Clothes",
+        "details": {
+          "1": {
+            "location": ["East Keldagrim"],
+            "description": ["Talk to Vermundi."]
+          }
+        }
+      },
+      "5": {
+        "step": "Talk to the Librarian. (Chat 2)",
+        "details": {
+          "1": {
+            "location": ["West Keldagrim"],
+            "description": ["Talk to the Librarian."]
+          }
+        }
+      },
+      "6": {
+        "step": "Climb the bookcase for the 'Scholars Guide to Dwarven Costumes' (less than 20kg).",
+        "details": {
+          "1": {
+            "location": ["West Keldagrim"],
+            "description": ["Climb the bookcase for 'Scholars Guide to Dwarven Costumes'"]
+          }
+        }
+      },
+      "7": {
+        "step": "Talk to Vermundi. (Chat 2)",
+        "details": {
+          "1": {
+            "location": ["East Keldagrim"],
+            "description": ["Talk to Vermundi."]
+          }
+        }
+      },
+      "8": {
+        "step": "Use your coal and logs on the spinning machine then light it with a tinderbox.",
+        "details": {
+          "1": {
+            "location": ["East Keldagrim"],
+            "description": ["Use your coal and logs on the spinning machine."]
+          },
+          "2": {
+            "location": ["East Keldagrim"],
+            "description": ["Use the tinderbox on the spinning machine."]
+          }
+        }
+      },
+      "9": {
+        "step": "Talk to Vermundi. (Chat 2-1)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["East Keldagrim"],
+            "description": ["Talk to Vermundi to pay 200gp for exquisite clothes."]
+          }
+        }
+      },
+      "10": {
+        "step": "Talk to Saro. (Chat 2)",
+        "subtitle": "Dwarven Boots",
+        "details": {
+          "1": {
+            "location": ["West Keldagrim"],
+            "description": ["Talk to Saro."]
+          }
+        }
+      },
+      "11": {
+        "step": "Talk to Dromund.",
+        "details": {
+          "1": {
+            "location": ["West Keldagrim"],
+            "description": ["Talk to Dromund."]
+          }
+        }
+      },
+      "12": {
+        "step": "Take the left boot (when he isn't looking).",
+        "details": {
+          "1": {
+            "location": ["West Keldagrim"],
+            "description": ["Take the left boot"]
+          }
+        }
+      },
+      "13": {
+        "step": "Telegrab the right boot through the window.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["West Keldagrim"],
+            "description": ["Telegrab the right boot through the window."]
+          }
+        }
+      },
+      "14": {
+        "step": "Talk to Santiri. (Chat 2-2-2)",
+        "subtitle": "Dwarven axe",
+        "details": {
+          "1": {
+            "location": ["West Keldagrim"],
+            "description": ["Talk to Santiri."]
+          }
+        }
+      },
+      "15": {
+        "step": "Use 3 sapphires on the axe.",
+        "details": {
+          "1": {
+            "description": ["Use 3 sapphires on the axe."]
+          }
+        }
+      },
+      "16": {
+        "step": "Talk to Santiri. (Chat 2)",
+        "details": {
+          "1": {
+            "location": ["Keldagrim"],
+            "description": ["Talk to Santiri."]
+          }
+        }
+      },
+      "17": {
+        "step": "Talk to Thurgo to give him an iron bar to repair the axe. (Chat 2-2-1) (2-3-1 if you have not completed Knight's Sword)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Mudskipper Point", "Fairy Ring (A-I-Q)"],
+            "description": ["Talk to Thurgo to give him an iron bar to repair the axe. Bring a redberry pie if you have not completed the Knight's Sword."]
+          }
+        }
+      },
+      "18": {
+        "step": "Talk to Riki the sculptor.",
+        "subtitle": "Dwarven statue",
+        "details": {
+          "1": {
+            "location": ["East Keldagrim"],
+            "description": ["Talk to Riki the sculptor's model to give him the clothes, axe and boots."]
+          }
+        }
+      },
+      "19": {
+        "step": "Talk to Blasidar the sculptor (cut-scene).",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["East Keldagrim"],
+            "description": ["Talk to Blasidar the sculptor."]
+          }
+        }
+      },
+      "20": {
+        "step": "Talk to the secretary of a company. (Chat 3-1)",
+        "subtitle": "Joining the Dwarven Consortium.",
+        "details": {
+          "1": {
+            "location": ["Keldagrim"],
+            "description": ["Climb upstairs to get to the Consortium."]
+          },
+          "2": {
+            "location": ["Consortium", "(Green Gemstone)"],
+            "description": ["Talk to the secretary of any company. You will not be able to join the Red Axe company, the Brown Engine only allows male players, and The Yellow Fortune only allows female players to join."]
+          }
+        }
+      },
+      "21": {
+        "step": "Complete 3-8 ore tasks from the secretary (until he tells you to talk to the director).",
+        "details": {
+          "1": {
+            "location": ["East Keldagrim"],
+            "description": ["Buy the ores from Ordan in the Blast Furnace to save time. Climb the stairs."]
+          },
+          "2": {
+            "location": ["Blast Furnace"],
+            "description": ["Trade Ordan to buy: Coal, Copper, Tin, Iron, Mithril, Silver, Gold Ore."]
+          },
+          "3": {
+            "location": ["East Keldagrim"],
+            "description": ["Take the second to last cart from the South to travel to the Grand Exchange for Clay (South-west Varrock Mine)."]
+          }
+        }
+      },
+      "22": {
+        "step": "Once told to speak to the director, talk to the Director of the company. (Chat 4-1-3)",
+        "details": {
+          "1": {"description": "Chat dialog"},
+          "2": {
+            "location": ["Consortium", "(Green Gemstone)"],
+            "description": ["Once told to speak to the director, talk to the Director of the company."]
+          }
+        }
+      },
+      "23": {
+        "step": "Complete some bar tasks for the director (until he ask you to join the company).",
+        "details": {
+          "1": {
+            "location": ["Keldagrim"],
+            "description": ["Take the second to last cart from the South to travel to the Grand Exchange to buy bars."]
+          }
+        }
+      },
+      "24": {
+        "step": "Once told to join the company, talk to the Director of the company. (Chat 2-3-1-1)",
+        "last": true,
+        "details": {
+          "1": {"description": "Chat dialog"},
+          "2": {
+            "location": ["Keldagrim"],
+            "description": ["Once told to join the company, talk to the Director of the company."]
+          }
+        }
+      },
+      "25": {
+        "step": "Talk to Commander Veldaban. (Chat 1-2-2)",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Keldagrim"],
+            "description": ["Talk to Commander Veldaban."]
+          }
+        }
+      },
+      "26": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }

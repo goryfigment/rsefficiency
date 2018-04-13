@@ -1,461 +1,286 @@
 {
-  "death_to_the_dorgeshuun": {
-    "name": "Death to the Dorgeshuun",
-    "directory": "death_to_the_dorgeshuun",
+  "the_giant_dwarf": {
+    "name": "The Giant Dwarf",
+    "directory": "the_giant_dwarf",
     "req": [
       {
-        "items": ["The Lost Tribe"],
-        "name": "Quest Requirements"
-      },
-      {
-        "items": ["23 Agility", "23 Thieving"],
+        "items": ["12 Crafting", "14 Thieving", "16 Firemaking", "33 Magic"],
         "name": "Level Requirements"
       },
       {
-        "items": ["Rope", "A pickaxe", "A light source (Candle, Candle Lantern, Bullsye Lantern)", "2 sets of H.A.M. robes (2 Ham hood, 2 Ham robe, 2 Ham shirt, 2 Ham logo, 2 Ham cloak, 2 Ham gloves, 2 Ham boots)"],
+        "items": ["~2500 Coins", "Logs", "Tinderbox", "Coal", "Iron bar", "Law and Air rune (for Telekinetic Grab)", "3 Cut sapphires", "Redberry pie (if you haven't completed The Knight's Sword)", "Various ores and bars (obtainable during the quest)"],
         "name": "Items"
       },
       {
-        "items": ["3 Guards (level 22)", "Sigmund (level 50)"],
-        "name": "Enemies to defeat"
-      },
-      {
-        "items": ["Lumbridge Teleport"],
+        "items": ["Dramen/Lunar staff (Fairy ring D-K-S)", "Home Teleport (Rimmington)", "5000 Coins to buy ore/bars"],
         "name": "Recommended"
       }
     ],
     "steps": {
       "1": {
-        "last": true,
-        "step": "Talk to Mistag. (Chat 1-1-4)",
+        "step": "Talk to the Dwarven Boatman. (Chat 1-1)",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": ["Goblin Cave"],
-            "description": ["Follow Kazgar to get to Mistag."]
+            "location": ["Keldagrim Entrance"],
+            "description": ["Enter the tunnel."]
           },
           "2": {
-            "location": ["Dorgeshuun Mine"],
-            "description": ["Talk to Mistag."]
+            "location": ["Keldagrim Dungeon"],
+            "description": ["Go-through the cave entrance."]
+          },
+          "3": {
+            "location": ["Keldagrim Port"],
+            "description": ["Talk to the Dwarven Boatman."]
           }
         }
       },
       "2": {
-        "step": "Talk to Zanik. (Chat 1-1)",
-        "subtitle": "Lumbridge Tour Guide",
+        "step": "Talk to Commander Veldaban. (Chat 2)",
         "details": {
           "1": {
-            "location": ["Lumbridge basement"],
-            "description": ["Talk to Zanik and he will start following you."]
+            "location": ["West Keldagrim"],
+            "description": ["Talk to Commander Veldaban."]
           }
         }
       },
       "3": {
-        "step": "Talk to the Cook.",
+        "step": "Talk to Blasidar the sculptor. (Chat 2)",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Lumbridge"],
-            "description": ["Talk to the Cook with Zanik following you."]
+            "location": ["East Keldagrim"],
+            "description": ["Talk to Blasidar the sculptor."]
           }
         }
       },
       "4": {
-        "step": "Talk to Duke Horacio (Chat 1)",
+        "step": "Talk to Vermundi. (Chat 2)",
+        "subtitle": "Dwarven Clothes",
         "details": {
           "1": {
-            "location": ["Lumbridge"],
-            "description": ["Talk to Duke Horacio with Zanik following you."]
+            "location": ["East Keldagrim"],
+            "description": ["Talk to Vermundi."]
           }
         }
       },
       "5": {
-        "step": "Take Zanik outside the castle (cut-scene).",
+        "step": "Talk to the Librarian. (Chat 2)",
         "details": {
           "1": {
-            "location": ["Lumbridge"],
-            "description": ["Walk outside Lumbridge castle  with Zanik following you to get a cut-scene."]
+            "location": ["West Keldagrim"],
+            "description": ["Talk to the Librarian."]
           }
         }
       },
       "6": {
-        "step": "Talk to Hans. (Chat 5)",
+        "step": "Climb the bookcase for the 'Scholars Guide to Dwarven Costumes' (less than 20kg).",
         "details": {
           "1": {
-            "location": ["Lumbridge"],
-            "description": ["Talk to Hans, who walks around the castle, with Zanik following you."]
+            "location": ["West Keldagrim"],
+            "description": ["Climb the bookcase for 'Scholars Guide to Dwarven Costumes'"]
           }
         }
       },
       "7": {
-        "step": "Talk to Bob. (Chat 1)",
+        "step": "Talk to Vermundi. (Chat 2)",
         "details": {
           "1": {
-            "location": ["Lumbridge Axe Shop"],
-            "description": ["Talk to Bob with Zanik following you."]
+            "location": ["East Keldagrim"],
+            "description": ["Talk to Vermundi."]
           }
         }
       },
       "8": {
-        "step": "Talk to Father Aereck. (Chat 4)",
+        "step": "Use your coal and logs on the spinning machine then light it with a tinderbox.",
         "details": {
           "1": {
-            "location": ["Lumbridge Church"],
-            "description": ["Talk to Father Aereck  with Zanik following you."]
+            "location": ["East Keldagrim"],
+            "description": ["Use your coal and logs on the spinning machine."]
+          },
+          "2": {
+            "location": ["East Keldagrim"],
+            "description": ["Use the tinderbox on the spinning machine."]
           }
         }
       },
       "9": {
-        "step": "Talk to the Prayer tutor. (Chat 3)",
+        "step": "Talk to Vermundi. (Chat 2-1)",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Lumbridge Church"],
-            "description": ["Talk to the Prayer tutor with Zanik following you."]
+            "location": ["East Keldagrim"],
+            "description": ["Talk to Vermundi to pay 200gp for exquisite clothes."]
           }
         }
       },
       "10": {
-        "step": "Talk to any man or woman (Zanik must engage in the conversation).",
+        "step": "Talk to Saro. (Chat 2)",
+        "subtitle": "Dwarven Boots",
         "details": {
           "1": {
-            "location": ["Lumbridge"],
-            "description": ["Talk to any man or woman. Zanik must engage in the conversation he does not talk to different man or woman in Lumbridge."]
+            "location": ["West Keldagrim"],
+            "description": ["Talk to Saro."]
           }
         }
       },
       "11": {
-        "step": "Talk to the Lumbridge Guide. (Chat 2)",
+        "step": "Talk to Dromund.",
         "details": {
           "1": {
-            "location": ["Lumbridge"],
-            "description": ["Talk to the Lumbridge Guide."]
+            "location": ["West Keldagrim"],
+            "description": ["Talk to Dromund."]
           }
         }
       },
       "12": {
-        "step": "Talk to a shopkeeper in the general store. (Chat 2)",
+        "step": "Take the left boot (when he isn't looking).",
         "details": {
           "1": {
-            "location": ["Lumbridge General Store"],
-            "description": ["Talk to a shopkeeper in the general store with Zanik following you."]
+            "location": ["West Keldagrim"],
+            "description": ["Take the left boot"]
           }
         }
       },
       "13": {
-        "step": "Take Zanik close to a goblin.",
+        "step": "Telegrab the right boot through the window.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["North-west of Lumbridge"],
-            "description": ["Take Zanik close to a goblin and he will start a conversation."]
+            "location": ["West Keldagrim"],
+            "description": ["Telegrab the right boot through the window."]
           }
         }
       },
       "14": {
-        "step": "Talk to Zanik (Chat 2-1)",
-        "last": true,
+        "step": "Talk to Santiri. (Chat 2-2-2)",
+        "subtitle": "Dwarven axe",
         "details": {
           "1": {
-            "location": ["Lumbridge"],
-            "description": ["Talk to Zanik to end the tour guide of Lumbridge."]
+            "location": ["West Keldagrim"],
+            "description": ["Talk to Santiri."]
           }
         }
       },
       "15": {
-        "step": "Equip the set HAM robes, then pick-lock and open the trapdoor.",
-        "subtitle": "H.A.M Hideout",
+        "step": "Use 3 sapphires on the axe.",
         "details": {
           "1": {
-            "location": ["North-west Lumbridge"],
-            "description": ["Equip the set HAM robes, then pick-lock."]
-          },
-          "2": {
-            "location": ["North-west Lumbridge"],
-            "description": ["Open the trapdoor."]
+            "description": ["Use 3 sapphires on the axe."]
           }
         }
       },
       "16": {
-        "step": "Talk to a H.A.M. Member or guard. (Chat 1-2-3-4)",
+        "step": "Talk to Santiri. (Chat 2)",
         "details": {
           "1": {
-            "location": ["H.A.M. Hideout"],
-            "description": ["Talk to a H.A.M. Member or guard."]
+            "location": ["Keldagrim"],
+            "description": ["Talk to Santiri."]
           }
         }
       },
       "17": {
-        "step": "Talk to Johanhus. (Chat 4-3)",
+        "step": "Talk to Thurgo to give him an iron bar to repair the axe. (Chat 2-2-1) (2-3-1 if you have not completed Knight's Sword)",
+        "last": true,
         "details": {
           "1": {
-            "location": ["H.A.M. Hideout"],
-            "description": ["Talk to Johanhus."]
+            "location": ["Mudskipper Point", "Fairy Ring (A-I-Q)"],
+            "description": ["Talk to Thurgo to give him an iron bar to repair the axe. Bring a redberry pie if you have not completed the Knight's Sword."]
           }
         }
       },
       "18": {
-        "step": "Wander around the south of the stage, Zanik will spot a trapdoor.",
+        "step": "Talk to Riki the sculptor.",
+        "subtitle": "Dwarven statue",
         "details": {
           "1": {
-            "location": ["H.A.M. Hideout"],
-            "description": ["Wander around the south of the stage, Zanik will start a chat dialogue spotting a trapdoor."]
+            "location": ["East Keldagrim"],
+            "description": ["Talk to Riki the sculptor's model to give him the clothes, axe and boots."]
           }
         }
       },
       "19": {
-        "step": "Pick-lock and open the trapdoor.",
+        "step": "Talk to Blasidar the sculptor (cut-scene).",
         "last": true,
         "details": {
           "1": {
-            "location": ["H.A.M. Hideout"],
-            "description": ["Pick-lock the trapdoor."]
-          },
-          "2": {
-            "location": ["H.A.M. Hideout"],
-            "description": ["Open the trapdoor."]
+            "location": ["East Keldagrim"],
+            "description": ["Talk to Blasidar the sculptor."]
           }
         }
       },
       "20": {
-        "step": "Walk west pass the first guard.",
-        "subtitle": "Guards, Guards, Guards!!",
+        "step": "Talk to the secretary of a company. (Chat 3-1)",
+        "subtitle": "Joining the Dwarven Consortium.",
         "details": {
           "1": {
-            "location": ["H.A.M. Hideout"],
-            "description": ["Walk west pass the first guard and Zanik will defeat him."]
+            "location": ["Keldagrim"],
+            "description": ["Climb upstairs to get to the Consortium."]
           },
           "2": {
-            "location": ["H.A.M. Hideout"],
-            "description": ["Zanik defeating the first guard."]
+            "location": ["Consortium (Green Gemstone)"],
+            "description": ["Talk to the secretary of any company. You will not be able to join the Red Axe company, the Brown Engine only allows male players, and The Yellow Fortune only allows female players to join."]
           }
         }
       },
       "21": {
-        "step": "Squeeze through the crack twice when the guard is walking east. Immediately talk to the west guard before the guard behind you walks back.",
+        "step": "Complete 3-8 ore tasks from the secretary (until he tells you to talk to the director).",
         "details": {
           "1": {
-            "location": ["H.A.M. Hideout"],
-            "description": ["Squeeze through the first crack."]
+            "location": ["East Keldagrim"],
+            "description": ["Buy the ores from Ordan in the Blast Furnace to save time. Climb the stairs."]
           },
           "2": {
-            "location": ["H.A.M. Hideout"],
-            "description": ["Before squeezing through the second crack make sure the guard walking down the hall is walking east."]
+            "location": ["Blast Furnace"],
+            "description": ["Trade Ordan to buy: Coal, Copper, Tin, Iron, Mithril, Silver, Gold Ore."]
           },
           "3": {
-            "location": ["H.A.M. Hideout"],
-            "description": ["Talk to the guard so Zanik can defeat him."]
-          },
-          "4": {
-            "location": ["H.A.M. Hideout"],
-            "description": ["Zanik defeating the second guard."]
-          },
-          "5": {
-            "location": ["H.A.M. Hideout"],
-            "description": ["If you get caught, pick-lock the prison door and walk back to the guards again."]
+            "location": ["East Keldagrim"],
+            "description": ["Take the second to last cart from the South to travel to the Grand Exchange for Clay (South-west Varrock Mine)."]
           }
         }
       },
       "22": {
-        "step": "Say 'Now', when the guard starts walking east. (Chat 1)",
+        "step": "Once told to speak to the director, talk to the Director of the company. (Chat 4-1-3)",
         "details": {
-          "1": {
-            "location": ["H.A.M. Hideout"],
-            "description": ["Say 'Now', when the guard starts walking east."]
-          },
+          "1": {"description": "Chat dialog"},
           "2": {
-            "location": ["H.A.M. Hideout"],
-            "description": ["Zanik defeating the third guard."]
+            "location": ["Consortium (Green Gemstone)"],
+            "description": ["Once told to speak to the director, talk to the Director of the company."]
           }
         }
       },
       "23": {
-        "step": "Talk to Zanik, then run south until Zanik shoots the guard. (Chat 1)",
+        "step": "Complete some bar tasks for the director (until he ask you to join the company).",
         "details": {
           "1": {
-            "location": ["H.A.M. Hideout"],
-            "description": ["Talk to Zanik."]
-          },
-          "2": {
-            "location": ["H.A.M. Hideout"],
-            "description": ["Run south until Zanik shoots the guard."]
-          },
-          "3": {
-            "location": ["H.A.M. Hideout"],
-            "description": ["Zanik defeating the fourth guard."]
+            "location": ["Keldagrim"],
+            "description": ["Take the second to last cart from the South to travel to the Grand Exchange to buy bars."]
           }
         }
       },
       "24": {
-        "step": "Talk to Zanik, then run west to the other side of the passage then run at the guard. (Chat 2)",
+        "step": "Once told to join the company, talk to the Director of the company. (Chat 2-3-1-1)",
+        "last": true,
         "details": {
-          "1": {
-            "location": ["H.A.M. Hideout"],
-            "description": ["Talk to Zanik."]
-          },
+          "1": {"description": "Chat dialog"},
           "2": {
-            "location": ["H.A.M. Hideout"],
-            "description": ["Run at the guard from the west side."]
-          },
-          "3": {
-            "location": ["H.A.M. Hideout"],
-            "description": ["Zanik defeating the fifth guard."]
+            "location": ["Keldagrim"],
+            "description": ["Once told to join the company, talk to the Director of the company."]
           }
         }
       },
       "25": {
-        "step": "Listen at the door (cut-scene).",
-        "last": true,
+        "step": "Talk to Commander Veldaban. (Chat 1-2-2)",
+        "subtitle": "Finishing up",
         "details": {
           "1": {
-            "location": ["H.A.M. Hideout"],
-            "description": ["Listen at the door"]
+            "location": ["Keldagrim"],
+            "description": ["Talk to Commander Veldaban."]
           }
         }
       },
       "26": {
-        "step": "Pick-lock the prison door and leave the hideout.",
-        "subtitle": "Tears of Guthix",
-        "details": {
-          "1": {
-            "location": ["H.A.M. Hideout"],
-            "description": ["Pick-lock the prison door."]
-          },
-          "2": {
-            "location": ["H.A.M. Hideout"],
-            "description": ["Leave the hideout."]
-          }
-        }
-      },
-      "27": {
-        "step": "Inspect Zanik.",
-        "details": {
-          "1": {
-            "location": ["North-west of Lumbridge"],
-            "description": ["Inspect Zanik."]
-          }
-        }
-      },
-      "28": {
-        "step": "Go to the Tears of Guthix cave (path below).",
-        "details": {
-          "1": {
-            "location": ["Lumbridge"],
-            "description": ["Go down the trapdoor to the Lumbridge basement"]
-          },
-          "2": {
-            "location": ["Lumbridge basement"],
-            "description": ["Squeeze through the hole to the Goblin Cave."]
-          },
-          "3": {
-            "location": ["Goblin cave"],
-            "description": ["Use a pickaxe on the hole."]
-          },
-          "4": {
-            "location": ["Goblin cave"],
-            "description": ["Squeeze through the hole to the Lumbridge Dungeon."]
-          },
-          "5": {
-            "location": ["Lumbridge Dungeon"],
-            "description": ["Jump-across the stepping stone. (Warning: Failing this will douse your light source. Use a tinderbox on the candle to continue.)"]
-          },
-          "6": {
-            "location": ["Lumbridge Dungeon"],
-            "description": ["Enter the tunnel to the Tears of Guthix cave."]
-          },
-          "7": {
-            "location": ["Tears of Guthix cave"],
-            "description": ["Climb down the rocks."]
-          }
-        }
-      },
-      "29": {
-        "step": "With both hands free, talk to Juna. (Chat 1)",
-        "details": {
-          "1": {
-            "location": ["Tears of Guthix cave"],
-            "description": ["Un-equip your weapon and shield slot before talking to Juna."]
-          }
-        }
-      },
-      "30": {
-        "step": "Collect 20 Tears of Guthix.",
-        "last": true,
-        "details": {
-          "1": {
-            "location": ["Tears of Guthix cave"],
-            "description": ["Collect only the blue stream on the wall. Stop collecting that wall when it starts releasing a green stream."]
-          }
-        }
-      },
-      "31": {
-        "step": "Talk to Zanik. (Chat 1)",
-        "subtitle": "Sigmund",
-        "details": {
-          "1": {
-            "location": ["Lumbridge basement"],
-            "description": [" Bring armour and a weapon to fight sigmund then talk to Zanik.."]
-          }
-        }
-      },
-      "32": {
-        "step": "With both hands free, search the south-eastern crates. (Chat 1-1)",
-        "details": {
-          "1": {
-            "location": ["North-east of Lumbridge"],
-            "description": ["With both hands free, search the south-eastern crates."]
-          }
-        }
-      },
-      "33": {
-        "step": "Go down the trapdoor.",
-        "details": {
-          "1": {
-            "location": ["North-east of Lumbridge"],
-            "description": ["Go down the trapdoor."]
-          }
-        }
-      },
-      "34": {
-        "step": "Defeat the guards first.",
-        "details": {
-          "1": {
-            "location": ["Sigmund's Hideout"],
-            "description": ["Defeat the guards first."]
-          }
-        }
-      },
-      "35": {
-        "step": "Defeat Sigmund.",
-        "last": true,
-        "details": {
-          "1": {
-            "location": ["Sigmund's Hideout"],
-            "description": ["Defeat Sigmund. He uses Protect from Range when he is the last one alive."]
-          },
-          "2": {
-            "location": ["Sigmund's Hideout"],
-            "description": ["Safespot when fighting Sigmund."]
-          }
-        }
-      },
-      "36": {
-        "subtitle": "Finishing up",
-        "step": "Smash the drilling machine.",
-        "details": {
-          "1": {
-            "location": ["Sigmund's Hideout"],
-            "description": ["Smash the drilling machine."]
-          }
-        }
-      },
-      "37": {
-        "step": "Unblock the southern tunnel (cut-scene).",
-        "details": {
-          "1": {
-            "location": ["Lumbridge"],
-            "description": ["Unblock the southern tunnel"]
-          }
-        }
-      },
-      "38": {
         "step": "Quest complete!",
         "details": {
           "1": {}

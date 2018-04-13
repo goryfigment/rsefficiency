@@ -210,146 +210,86 @@ Items needed: Mahogany plank and Soft leather
     Quest complete!
 
 
-
-Death to the Dorgeshuun
-Quest Requirements: The Lost Tribe
-Level Requirements: 23 Agility, 23 Thieving
-Items: Rope, A pickaxe, A light source (Candle, Candle Lantern, Bullsye Lantern), 2 sets of H.A.M. robes (2 Ham hood, 2 Ham robe, 2 Ham shirt, 2 Ham logo, 2 Ham cloak, 2 Ham gloves, 2 Ham boots)
-Recommended: Lumbridge Teleport
-Getting started
-    Talk to Mistag. (Chat 1-1-4)
-Lumbridge Tour Guide
-    Talk to Zanik. (Chat 1-1)
-    Talk to the Cook.
-    Talk to Duke Horacio (Chat 1)
-    Take Zanik outside the castle (cut-scene).
-    Talk to Hans. (Chat 5)
-    Talk to Bob. (Chat 1)
-    Talk to Father Aereck. (Chat 4)
-    Talk to the Prayer tutor. (Chat 3)
-    Talk to any man or woman (Zanik must engage in the conversation).
-    Talk to the Lumbridge Guide. (Chat 2)
-    Talk to a shopkeeper in the general store (Chat 2)
-    Take Zanik close to a goblin.
-    Talk to Zanik (Chat 2-1)
-H.A.M Hideout
-    Equip the set HAM robes, and pick-lock and open the trapdoor.
-    Talk to a H.A.M. Member or guard. (Chat 1-2-3-4)
-    Talk to Johanhus. (Chat 4-3)
-    Wander around the south of the stage, Zanik will spot a trapdoor.
-    Pick-lock and open the trapdoor.
-Guards, Guards, Guards!!
-    Walk west pass the first guard.
-    Squeeze through the crack twice when the guard is walking east. Immediately talk to the east guard before the guard behind you walks back.
-    Say 'Now', when the guard starts walking east. (Chat 1)
-    Talk to Zanik, then run south until Zanik shoots the guard. (Chat 1)
-    Talk to Zanik, then run east to the other side of the passage then run at the guard. (Chat 2)
-    Listen at the door (cut-scene).
-Tears of Guthix
-    Pick-lock and leave the hideout.
-    Inspect Zanik.
-    Go to the Tears of Guthix cave (path below).
-    With both hands free, talk to Juna. (Chat 1)
-    Collect 20 Tears of Guthix.
-Sigmund
-    Talk to Zanik (Chat 1)
-    With both hands free, search the south-eastern crates. (Chat 1-1)
-    Go down the trapdoor.
-    Climb down the nearby ladder, and head to the western room. You will see Sigmund (level 50) and three Senior Guards (level 22).
-    Defeat the guards first.
-    Defeat Sigmund.
-Finishing up
-    Unblock the southern tunnel (cut-scene).
+Another Slice of H.A.M.
+    Starting out
+        Speak to Ur-tag or Ambassador Alvijar in the north east part of Dorgesh-Kaan’s middle level. (Chat 1•1)
+    Excavation
+        Head to the southwest corner of the city’s middle level.
+        Enter the doorway with the transportation symbol on the minimap.
+        Walk south on the tracks and talk to Tegdak.
+        Dig up artifacts from the ground with the trowel (There are six artifacts total).
+        Use artifacts on the specimen table to clean them.
+        Talk to Tegdak.
+        To the village
+        Talk to Zanik. (Chat 1)
+        Talk to the Goblin Scribe west of Ur-tag where you started the quest.
+        Go speak with Oldak in the northwestern corner of the city’s lower level (There's stairs down in the house west of the scribe) to teleport to the Goblin Village.
+    The H.A.M-bush
+        Talk to General Wartface or Bentnoze. A cutscene will appear.
+        Run south to the ladder, stay behind the houses on the west side to not get hit.
+        Climb up and kill the H.A.M. Mage and H.A.M. Archer, you must use magic or ranged. Automatically will talk to the Goblin Generals. Finish the dialogue.
+    Getting past the guards
+        Go to the Lumbridge swamp cave entrance.
+        Talk to one of the goblin sergeants.
+        Read the following steps before doing them as this next section is time sensitive.
+        Enter the caves then climb down the nearby ladder.
+        As soon as you’re down, talk the sergeants and tell one of them to wait. (Chat 2)
+        Run to the room and enter.
+        Wait for 2 guards to pass.
+        Tell your sergeant to wait in the room. (Chat 1)
+        Run up to the boxes to trigger a 3rd guard and run back to the room so he doesn’t see you.
+        After the 3rd guard passes, ask your sergeant to follow you again. (Chat 2)
+        Walk (do not run) to the end of the tunnel and the final guard will attack your sergeant.
+        Climb down the ladder to fight Sigmund.
+        Wait for Sigmund to use a protection prayer first, then use the ancient mace’s special attack to knock out his prayer for the remainder of the fight.
+        Defeat Sigmund.
+        Untie Zanik.
     Quest complete!
 
 
-Another Slice of H.A.M.
-Starting out
-Speak to Ur-tag or Ambassador Alvijar in the north east part of Dorgesh-Kaan’s middle level. (Chat 1•1)
-Excavation
-Head to the southwest corner of the city’s middle level.
-Enter the doorway with the transportation symbol on the minimap.
-Walk south on the tracks and talk to Tegdak.
-Dig up artifacts from the ground with the trowel (There are six artifacts total).
-Use artifacts on the specimen table to clean them.
-Talk to Tegdak.
-To the village
-Talk to Zanik. (Chat 1)
-Talk to the Goblin Scribe west of Ur-tag where you started the quest.
-Go speak with Oldak in the northwestern corner of the city’s lower level (There's stairs down in the house west of the scribe) to teleport to the Goblin Village.
-The H.A.M-bush
-Talk to General Wartface or Bentnoze. A cutscene will appear.
-Run south to the ladder, stay behind the houses on the west side to not get hit.
-Climb up and kill the H.A.M. Mage and H.A.M. Archer, you must use magic or ranged. Automatically will talk to the Goblin Generals. Finish the dialogue.
-Getting past the guards
-Go to the Lumbridge swamp cave entrance.
-Talk to one of the goblin sergeants.
-Read the following steps before doing them as this next section is time sensitive.
-Enter the caves then climb down the nearby ladder.
-As soon as you’re down, talk the sergeants and tell one of them to wait. (Chat 2)
-Run to the room and enter.
-Wait for 2 guards to pass.
-Tell your sergeant to wait in the room. (Chat 1)
-Run up to the boxes to trigger a 3rd guard and run back to the room so he doesn’t see you.
-After the 3rd guard passes, ask your sergeant to follow you again. (Chat 2)
-Walk (do not run) to the end of the tunnel and the final guard will attack your sergeant.
-Climb down the ladder to fight Sigmund.
-Wait for Sigmund to use a protection prayer first, then use the ancient mace’s special attack to knock out his prayer for the remainder of the fight.
-Defeat Sigmund.
-Untie Zanik.
-Quest complete!
-
-
 The Giant Dwarf
-Starting out
-Items Required: None
-
-Speak to the Dwarven Boatman. (Chat 1•1)
-Finish the conversation with Commander Veldaban. (Chat 2)
-Talk to Blasidar the sculptor on the east side of Keldagrim, south of the kebab shop. (Chat 2)
-Clothes fit for a king
-Items Required: Weight below 20 kg, Logs, Coal, Tinderbox, 200gp (400 if you wish to obtain 2 sets of clothes)
-
-Talk to Vermundi, the silk trader in the eastern market. (Chat 2)
-Talk to the Librarian in the north-eastern corner of West Keldagrim. (Chat 2)
-Climb any bookcase to find ‘Scholars Guide to Dwarven Costumes’.
-If you didn't bring coal, mine 1 ore in the northeast corner of East Keldagrim.
-Talk to Vermundi again. (Chat 2)
-Use your coal and logs on the spinning machine then light it with a tinderbox.
-Talk to Vermundi again and pay 200gp for exquisite clothes. (Chat 2•1)
-Boots fit for a king
-Items Required: Law and Air runes to cast Telekinetic Grab
-
-Talk to Saro at the anvil south-west of the bank in West Keldagrim. (Chat 2)
-Speak to Dromund in the house just north of the bank.
-Take the left boot when he isn’t looking.
-Telegrab the right boot from outside his window.
-An axe fit for a king
-Items Required: 3 Sapphires, an iron bar, a redberry pie (If you haven't done Knight's Sword)
-
-Talk to Santiri at the weapon shop in north-western West Keldagrim. (Chat 2•2•2)
-Use your 3 sapphires on the axe and talk to him again. (Chat 2)
-Talk to Thurgo at Mudskipper Point, and give him an iron bar to repair the axe. (Chat 2•2•1) (2-3-1 if you have not completed Knight's Sword)
-Note: Thurgo will require a redberry pie if you haven't already given him one during Knight's Sword
-You will be given the option to immediately return to Keldagrim; do so. (Chat 1)…
-Halfway There
-Items Required: Exquisite Clothes, Exquisite Boots, Dwarven Battleaxe
-
-Once in Blasidar’s house, talk to Riki the sculptor's model to give him the clothes, axe and boots.
-Talk to Blasidar.
-Joining the consortium 
-Items Required: Various ores, Various bars, Stamina/Energy Potions
-
-Go to the upper floor of the market and talk to the secretary of any company except the red axe/brown engine. (Chat 3). Buy the ores from Ordan in the Blast Furnace to save time.
-Offer to help them.
-Note: The secretaries require you to retrieve ores. Be sure to read the dialog to know what ores you need or fill your inventory with about 5 of each.
-After a few (3-8) tasks, the secretary will let you speak to the director.
-Note: Don't refuse tasks, if you don’t like the task simply ask again. Refusing too many tasks will gradually reduce your favour with them, and you will have to do more tasks to make up for it.
-Complete some tasks for the director until he allows you to join the company (You should try telling him Blasidar sent you first, since sometimes you get accepted without getting bars else mention it when he asks you).
-Note: The directors require you to retrieve bars. Be sure to read the dialog to know what bars you need or fill your inventory with about 5 of each.
-Tell the director Blasidar sent you, offer your support. (Chat 3•1•1)
-Go back and talk to Commander Veldaban west of the bank, he will ask if you want to attend the meeting. You may choose not to.
-Quest complete!
+Level Requirements: 12 Crafting, 14 Thieving, 16 Firemaking, 33 Magic
+Items: ~2500 Coins, Logs, Tinderbox, Coal, Iron bar, Law and Air rune (for Telekinetic Grab), 3 Cut sapphires, Redberry pie (if you haven't completed The Knight's Sword), Various ores and bars (obtainable during the quest)
+Recommended: Dramen/Lunar staff (Fairy ring D-K-S), Home Teleport (Rimmington)
+Getting started
+    Talk to the Dwarven Boatman. (Chat 1-1)
+    Talk to Commander Veldaban. (Chat 2)
+    Talk to Blasidar the sculptor. (Chat 2)
+Clothes
+    Talk to Vermundi. (Chat 2)
+    Talk to the Librarian. (Chat 2)
+    Climb the bookcase for ‘Scholars Guide to Dwarven Costumes’ (less than 20kg).
+    If you didn't bring coal, mine 1 ore in the northeast corner of East Keldagrim.
+    Talk to Vermundi again. (Chat 2)
+    Use your coal and logs on the spinning machine then light it with a tinderbox.
+    Talk to Vermundi (to pay 200gp for exquisite clothes). (Chat 2-1)
+Boots
+    Talk to Saro. (Chat 2)
+    Talk to Dromund.
+    Take the left boot (when he isn’t looking).
+    Telegrab the right boot (through his window).
+An axe
+    Talk to Santiri. (Chat 2-2-2)
+    Use 3 sapphires on the axe.
+    Talk to Santiri. (Chat 2)
+    Talk to Thurgo to give him an iron bar to repair the axe. (Chat 2-2-1) (2-3-1 if you have not completed Knight's Sword)
+        Note: Thurgo will require a redberry pie if you haven't already given him one during Knight's Sword
+Dwarven statue
+    Talk to Riki the sculptor's model (to give him the clothes, axe and boots).
+    Talk to Blasidar (cut-scene).
+Joining the Dwarven Consortium.
+    Talk to the secretary of any company (not the Red Axe/Brown Engine company). (Chat 3-1)
+    Complete 3-8 ore tasks from the secretary (until he tells you to talk to the director)
+        Buy the ores from Ordan in the Blast Furnace to save time.
+        Note: The secretaries require you to retrieve ores.
+        Note: Refusing too many tasks will reduce your favour with them, and you even more tasks to make up for it.
+    Once told to speak to the director, talk to the Director of the company. (Chat 4-1-3)
+    Complete some bar tasks for the director (until he ask you to join the company).
+        Note: The directors require you to retrieve bars. Be sure to read the dialog to know what bars you need.
+    Once told to join the company, talk to the Director of the company. (Chat 2-3-1-1)
+Finishing up
+    Talk to Commander Veldaban. (Chat 1-2-2)
+    Quest complete!
 
 Alfred Grimhand's Barcrawl
 Scorpion Catcher
