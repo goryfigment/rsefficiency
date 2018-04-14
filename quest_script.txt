@@ -209,5 +209,39 @@ Items needed: Mahogany plank and Soft leather
     Talk to Larry.
     Quest complete!
 
+Sea Slug
+Level Requirements: 30 Firemaking
+Items: Swamp paste
+The platform
+    Speak with Caroline. (Chat 1)
+    Talk to Holgart.
+    Talk to Holgart again to get to Fishing Platform. (Chat 1)
+    Talk to Bailey.
+    Pick-up the Broken glass.
+    Pick-up some Damp sticks.
+    Climb up the ladder.
+Upper platform
+    Talk to Kennith.
+    Climb down the ladder.
+Remote island
+    Talk to Holgart for a trip to a remote island.
+    Talk to Kent.
+    Talk to Holgart to get back to the Fishing Platform.
+Saving Kennith
+    Talk to Bailey for an Unlit torch.
+    Use the Broken glass on the Damp sticks to dry them.
+    Rub the Dry sticks together to light the torch.
+    Climb up the ladder.
+    Talk to Kennith.
+    Kick the badly repaired wall.
+    Talk to Kennith.
+    Rotate the crane.
+    Climb down the ladder.
+Finishing up
+    Talk to Holgart.
+    Talk to Caroline.
+    Quest Complete!
+    
+
 Alfred Grimhand's Barcrawl
 Scorpion Catcher

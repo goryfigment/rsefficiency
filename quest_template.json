@@ -1,273 +1,235 @@
 {
-  "another_slice_of_ham": {
-    "name": "Another Slice of H.A.M.",
-    "directory": "another_slice_of_ham",
+  "sea_slug": {
+    "name": "Sea Slug",
+    "directory": "sea_slug",
     "req": [
       {
-        "items": ["Death to the Dorgeshuun", "The Giant Dwarf", "The Dig Site"
-        ],
-        "name": "Quest Requirements"
-      },
-      {
-        "items": ["15 Attack", "25 Prayer"
-        ],
+        "items": ["30 Firemaking"],
         "name": "Level Requirements"
       },
       {
-        "items": ["A light source (Candle, Candle Lantern, Bullsye Lantern)", "Tinderbox"],
+        "items": ["Swamp paste"],
         "name": "Items"
-      },
-      {
-        "items": ["H.A.M. Archer (level 30)", "H.A.M. Mage (level 30)", "Sigmund (level 64)"],
-        "name": "Enemies to defeat"
-      },
-      {
-        "items": ["Range/Mage Weapon", "Food", "Lumbridge Teleport"],
-        "name": "Recommended"
       }
     ],
     "steps": {
       "1": {
         "last": true,
-        "step": "Talk to Ur-tag or Ambassador Alvijar. (Chat 1-1)",
+        "step": "Speak with Caroline. (Chat 1)",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": ["Lumbridge Basement"],
-            "description": ["Squeeze-throught the hole."]
-          },
-          "2": {
-            "location": ["Goblin Cave"],
-            "description": ["Right-click and choose 'Mines' on Kazgar to travel to the Dorgeshuun mines."]
-          },
-          "3": {
-            "location": ["Dorgeshuun Mines"],
-            "description": ["Open the door at the south-end of Dorgeshuun Mines."]
-          },
-          "4": {
-            "location": ["Dorgesh-Kaan"],
-            "description": ["Climb up the stairs."]
-          },
-          "5": {
-            "location": ["Dorgesh-Kaan"],
-            "description": ["Talk to Ur-tag or Ambassador Alvijar."]
+            "location": ["Witchaven"],
+            "description": ["Speak with Caroline."]
           }
         }
       },
       "2": {
-        "step": "Talk to Tegdak.",
-        "subtitle": "Excavation",
+        "step": "Talk to Holgart.",
+        "subtitle": "Fishing platform",
         "details": {
           "1": {
-            "location": ["Dorgesh-Kaan"],
-            "description": ["Go south-west down the path and enter the doorway."]
-          },
-          "2": {
-            "location": ["Dorgesh-Kaan"],
-            "description": ["Talk to Tegdak."]
+            "location": ["Witchaven"],
+            "description": ["Talk to Holgart."]
           }
         }
       },
       "3": {
-        "step": "Use trowel on all 6 artifacts.",
+        "step": "Talk to Holgart again. (Chat 1)",
         "details": {
           "1": {
-            "location": ["Dorgesh-Kaan"],
-            "description": ["Use trowel on the first artifact."]
-          },
-          "2": {
-            "location": ["Dorgesh-Kaan"],
-            "description": ["Use trowel on the second artifact."]
-          },
-          "3": {
-            "location": ["Dorgesh-Kaan"],
-            "description": ["Use trowel on the third artifact."]
-          },
-          "4": {
-            "location": ["Dorgesh-Kaan"],
-            "description": ["Use trowel on the fourth artifact."]
-          },
-          "5": {
-            "location": ["Dorgesh-Kaan"],
-            "description": ["Use trowel on the fifth artifact."]
-          },
-          "6": {
-            "location": ["Dorgesh-Kaan"],
-            "description": ["Use trowel on the sixth artifact."]
+            "location": ["Fishing Platform"],
+            "description": ["Talk to Holgart again to get to Fishing Platform."]
           }
         }
       },
       "4": {
-        "step": "Use all 6 artifacts on the specimen table to clean them.",
+        "step": "Talk to Bailey.",
         "details": {
           "1": {
-            "location": ["Dorgesh-Kaan"],
-            "description": ["Use all 6 artifacts on the specimen table to clean them."]
+            "location": ["Fishing Platform"],
+            "description": ["Talk to Bailey."]
           }
         }
       },
       "5": {
-        "step": "Talk to Tegdak.",
-        "last": true,
+        "step": "Pick-up the Broken glass.",
         "details": {
           "1": {
-            "location": ["Dorgesh-Kaan"],
-            "description": ["Talk to Tegdak."]
+            "location": ["Fishing Platform"],
+            "description": ["Pick-up the Broken glass."]
           }
         }
       },
       "6": {
-        "step": "Talk to Zanik. (Chat 1)",
-        "subtitle": "Goblin village teleport",
+        "step": "Pick-up some Damp sticks.",
         "details": {
           "1": {
-            "location": ["Dorgesh-Kaan"],
-            "description": ["Talk to Zanik."]
+            "location": ["Fishing Platform"],
+            "description": ["Pick-up some Damp sticks."]
           }
         }
       },
       "7": {
-        "step": "Talk to the Goblin Scribe.",
+        "step": "Climb up the ladder.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Dorgesh-Kaan"],
-            "description": ["Exit the area."]
-          },
-          "2": {
-            "location": ["Dorgesh-Kaan"],
-            "description": ["Talk to the Goblin Scribe."]
+            "location": ["Fishing Platform"],
+            "description": ["Climb up the ladder."]
           }
         }
       },
       "8": {
-        "step": "Talk Oldak.",
-        "last": true,
+        "step": "Talk to Kennith.",
+        "subtitle": "Upper platform",
         "details": {
           "1": {
-            "location": ["Dorgesh-Kaan"],
-            "description": ["Climb down the stairs."]
-          },
-          "2": {
-            "location": ["Dorgesh-Kaan"],
-            "description": ["Talk Oldak to get teleported to Goblin Village."]
+            "location": ["Fishing Platform"],
+            "description": ["Talk to Kennith."]
           }
         }
       },
       "9": {
-        "step": "Talk to General Wartface or Bentnoze.",
-        "subtitle": "The H.A.M-bush",
-        "details": {
-          "1": {
-            "location": ["Goblin Village"],
-            "description": ["Talk to General Wartface or Bentnoze."]
-          }
-        }
-      },
-      "10": {
-        "step": "Run behind the houses and climb up the ladder.",
-        "details": {
-          "1": {
-            "location": ["Goblin Village"],
-            "description": ["Run behind the houses and climb up the ladder."]
-          }
-        }
-      },
-      "11": {
-        "step": "Defeat the H.A.M. Mage and H.A.M. Archer. (Must use range or mage).",
-        "last": true,
-        "details": {
-          "1": {
-            "location": ["Goblin Village"],
-            "description": ["Defeat the H.A.M. Mage (level 30) and H.A.M. Archer (level 30). You must use range and mage to defeat them. Pick-up a crossbow and bolts if necessary."]
-          }
-        }
-      },
-      "12": {
-        "step": "Talk to one of the goblin sergeants.",
-        "subtitle": "Getting past the guards",
-        "details": {
-          "1": {
-            "location": ["Lumbridge Swamp"],
-            "description": ["Talk to one of the goblin sergeants."]
-          }
-        }
-      },
-      "13": {
-        "step": "Climb down the dark hole and climb down the ladder.",
-        "details": {
-          "1": {
-            "location": ["Lumbridge Swamp"],
-            "description": ["Climb down the dark hole."]
-          },
-          "2": {
-            "location": ["Lumbridge Dungeon"],
-            "description": ["Climb down the ladder."]
-          }
-        }
-      },
-      "14": {
-        "step": "Run to the room and enter then wait for the two guards to pass.",
-        "details": {
-          "1": {
-            "location": ["Lumbridge Dungeon"],
-            "description": ["Run to the room and enter then wait for the two guards to pass."]
-          },
-          "2": {
-            "location": ["Lumbridge Dungeon"],
-            "description": ["Wait for the two guards to pass then leave the room and run south."]
-          }
-        }
-      },
-      "15": {
-        "step": "Hide behind the boxes to dodge the last HAM Guard.",
-        "details": {
-          "1": {
-            "location": ["Dorgesh-Kaan"],
-            "description": ["Hide behind the boxes to dodge the last HAM Guard."]
-          }
-        }
-      },
-      "16": {
         "step": "Climb down the ladder.",
         "last": true,
         "details": {
           "1": {
-            "location": ["Dorgesh-Kaan"],
+            "location": ["Fishing Platform"],
             "description": ["Climb down the ladder."]
           }
         }
       },
-      "17": {
-        "step": "Equip and use the special attack of the Ancient Mace on Sigmund.",
-        "subtitle": "Battle of Sigmund",
+      "10": {
+        "step": "Talk to Holgart for a trip to a remote island.",
+        "subtitle": "Remote island",
         "details": {
           "1": {
-            "location": ["Dorgesh-Kaan"],
-            "description": ["Equip and use the special attack of the Ancient Mace on Sigmund."]
+            "location": ["Fishing Platform"],
+            "description": ["Talk to Holgart for a trip to a remote island."]
+          }
+        }
+      },
+      "11": {
+        "step": "Talk to Kent.",
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Talk to Kent."]
+          }
+        }
+      },
+      "12": {
+        "step": "Talk to Holgart to get back to the Fishing Platform.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Talk to Holgart to get back to the Fishing Platform."]
+          }
+        }
+      },
+      "13": {
+        "step": "Talk to Bailey.",
+        "subtitle": "Save Kennith",
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Talk to Bailey for an Unlit torch."]
+          }
+        }
+      },
+      "14": {
+        "step": "Use the Broken glass on the Damp sticks to dry them.",
+        "details": {
+          "1": {
+            "description": ["Use the Broken glass on the Damp sticks to dry them."]
+          }
+        }
+      },
+      "15": {
+        "step": "Rub the Dry sticks together to light the torch.",
+        "details": {
+          "1": {
+            "description": ["Rub the Dry sticks together to light the torch."]
+          }
+        }
+      },
+      "16": {
+        "step": "Climb up the ladder.",
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Climb up the ladder."]
+          }
+        }
+      },
+      "17": {
+        "step": "Talk to Kennith.",
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Talk to Kennith."]
           }
         }
       },
       "18": {
-        "step": "Defeat Sigmund.",
-        "last": true,
+        "step": "Kick the badly repaired wall.",
         "details": {
           "1": {
-            "location": ["Dorgesh-Kaan"],
-            "description": ["Defeat Sigmund."]
+            "location": ["Fishing Platform"],
+            "description": ["Kick the badly repaired wall."]
           }
         }
       },
       "19": {
-        "step": "Untie Zanik.",
-        "subtitle": "Finishing up",
+        "step": "Talk to Kennith.",
         "details": {
           "1": {
-            "location": ["Dorgesh-Kaan"],
-            "description": ["Untie Zanik."]
+            "location": ["Fishing Platform"],
+            "description": ["Talk to Kennith."]
           }
         }
       },
       "20": {
+        "step": "Rotate the crane.",
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Rotate the crane."]
+          }
+        }
+      },
+      "21": {
+        "step": "Climb down the ladder.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Climb down the ladder."]
+          }
+        }
+      },
+      "22": {
+        "step": "Talk to Holgart.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Talk to Holgart."]
+          }
+        }
+      },
+      "23": {
+        "step": "Talk to Caroline.",
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Talk to Caroline."]
+          }
+        }
+      },
+      "24": {
         "step": "Quest complete!",
         "details": {
           "1": {}

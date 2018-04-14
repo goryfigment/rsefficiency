@@ -14089,5 +14089,243 @@
         }
       }
     }
+  },
+  "sea_slug": {
+    "name": "Sea Slug",
+    "directory": "sea_slug",
+    "req": [
+      {
+        "items": ["30 Firemaking"],
+        "name": "Level Requirements"
+      },
+      {
+        "items": ["Swamp paste"],
+        "name": "Items"
+      }
+    ],
+    "steps": {
+      "1": {
+        "last": true,
+        "step": "Speak with Caroline. (Chat 1)",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["Witchaven"],
+            "description": ["Speak with Caroline."]
+          }
+        }
+      },
+      "2": {
+        "step": "Talk to Holgart.",
+        "subtitle": "Fishing platform",
+        "details": {
+          "1": {
+            "location": ["Witchaven"],
+            "description": ["Talk to Holgart."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to Holgart again. (Chat 1)",
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Talk to Holgart again to get to Fishing Platform."]
+          }
+        }
+      },
+      "4": {
+        "step": "Talk to Bailey.",
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Talk to Bailey."]
+          }
+        }
+      },
+      "5": {
+        "step": "Pick-up the Broken glass.",
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Pick-up the Broken glass."]
+          }
+        }
+      },
+      "6": {
+        "step": "Pick-up some Damp sticks.",
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Pick-up some Damp sticks."]
+          }
+        }
+      },
+      "7": {
+        "step": "Climb up the ladder.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Climb up the ladder."]
+          }
+        }
+      },
+      "8": {
+        "step": "Talk to Kennith.",
+        "subtitle": "Upper platform",
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Talk to Kennith."]
+          }
+        }
+      },
+      "9": {
+        "step": "Climb down the ladder.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Climb down the ladder."]
+          }
+        }
+      },
+      "10": {
+        "step": "Talk to Holgart for a trip to a remote island.",
+        "subtitle": "Remote island",
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Talk to Holgart for a trip to a remote island."]
+          }
+        }
+      },
+      "11": {
+        "step": "Talk to Kent.",
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Talk to Kent."]
+          }
+        }
+      },
+      "12": {
+        "step": "Talk to Holgart to get back to the Fishing Platform.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Talk to Holgart to get back to the Fishing Platform."]
+          }
+        }
+      },
+      "13": {
+        "step": "Talk to Bailey.",
+        "subtitle": "Save Kennith",
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Talk to Bailey for an Unlit torch."]
+          }
+        }
+      },
+      "14": {
+        "step": "Use the Broken glass on the Damp sticks to dry them.",
+        "details": {
+          "1": {
+            "description": ["Use the Broken glass on the Damp sticks to dry them."]
+          }
+        }
+      },
+      "15": {
+        "step": "Rub the Dry sticks together to light the torch.",
+        "details": {
+          "1": {
+            "description": ["Rub the Dry sticks together to light the torch."]
+          }
+        }
+      },
+      "16": {
+        "step": "Climb up the ladder.",
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Climb up the ladder."]
+          }
+        }
+      },
+      "17": {
+        "step": "Talk to Kennith.",
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Talk to Kennith."]
+          }
+        }
+      },
+      "18": {
+        "step": "Kick the badly repaired wall.",
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Kick the badly repaired wall."]
+          }
+        }
+      },
+      "19": {
+        "step": "Talk to Kennith.",
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Talk to Kennith."]
+          }
+        }
+      },
+      "20": {
+        "step": "Rotate the crane.",
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Rotate the crane."]
+          }
+        }
+      },
+      "21": {
+        "step": "Climb down the ladder.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Climb down the ladder."]
+          }
+        }
+      },
+      "22": {
+        "step": "Talk to Holgart.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Talk to Holgart."]
+          }
+        }
+      },
+      "23": {
+        "step": "Talk to Caroline.",
+        "details": {
+          "1": {
+            "location": ["Fishing Platform"],
+            "description": ["Talk to Caroline."]
+          }
+        }
+      },
+      "24": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }
