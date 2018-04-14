@@ -1,286 +1,273 @@
 {
-  "the_giant_dwarf": {
-    "name": "The Giant Dwarf",
-    "directory": "the_giant_dwarf",
+  "another_slice_of_ham": {
+    "name": "Another Slice of H.A.M.",
+    "directory": "another_slice_of_ham",
     "req": [
       {
-        "items": ["12 Crafting", "14 Thieving", "16 Firemaking", "33 Magic"],
+        "items": ["Death to the Dorgeshuun", "The Giant Dwarf", "The Dig Site"
+        ],
+        "name": "Quest Requirements"
+      },
+      {
+        "items": ["15 Attack", "25 Prayer"
+        ],
         "name": "Level Requirements"
       },
       {
-        "items": ["~2500 Coins", "Logs", "Tinderbox", "Coal", "Iron bar", "Law and Air rune (for Telekinetic Grab)", "3 Cut sapphires", "Redberry pie (if you haven't completed The Knight's Sword)", "Various ores and bars (obtainable during the quest)"],
+        "items": ["A light source (Candle, Candle Lantern, Bullsye Lantern)", "Tinderbox"],
         "name": "Items"
       },
       {
-        "items": ["Dramen/Lunar staff (Fairy ring D-K-S)", "Home Teleport (Rimmington)", "5000 Coins to buy ore/bars"],
+        "items": ["H.A.M. Archer (level 30)", "H.A.M. Mage (level 30)", "Sigmund (level 64)"],
+        "name": "Enemies to defeat"
+      },
+      {
+        "items": ["Range/Mage Weapon", "Food", "Lumbridge Teleport"],
         "name": "Recommended"
       }
     ],
     "steps": {
       "1": {
-        "step": "Talk to the Dwarven Boatman. (Chat 1-1)",
+        "last": true,
+        "step": "Talk to Ur-tag or Ambassador Alvijar. (Chat 1-1)",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": ["Keldagrim Entrance"],
-            "description": ["Enter the tunnel."]
+            "location": ["Lumbridge Basement"],
+            "description": ["Squeeze-throught the hole."]
           },
           "2": {
-            "location": ["Keldagrim Dungeon"],
-            "description": ["Go-through the cave entrance."]
+            "location": ["Goblin Cave"],
+            "description": ["Right-click and choose 'Mines' on Kazgar to travel to the Dorgeshuun mines."]
           },
           "3": {
-            "location": ["Keldagrim Port"],
-            "description": ["Talk to the Dwarven Boatman."]
+            "location": ["Dorgeshuun Mines"],
+            "description": ["Open the door at the south-end of Dorgeshuun Mines."]
+          },
+          "4": {
+            "location": ["Dorgesh-Kaan"],
+            "description": ["Climb up the stairs."]
+          },
+          "5": {
+            "location": ["Dorgesh-Kaan"],
+            "description": ["Talk to Ur-tag or Ambassador Alvijar."]
           }
         }
       },
       "2": {
-        "step": "Talk to Commander Veldaban. (Chat 2)",
+        "step": "Talk to Tegdak.",
+        "subtitle": "Excavation",
         "details": {
           "1": {
-            "location": ["West Keldagrim"],
-            "description": ["Talk to Commander Veldaban."]
+            "location": ["Dorgesh-Kaan"],
+            "description": ["Go south-west down the path and enter the doorway."]
+          },
+          "2": {
+            "location": ["Dorgesh-Kaan"],
+            "description": ["Talk to Tegdak."]
           }
         }
       },
       "3": {
-        "step": "Talk to Blasidar the sculptor. (Chat 2)",
-        "last": true,
+        "step": "Use trowel on all 6 artifacts.",
         "details": {
           "1": {
-            "location": ["East Keldagrim"],
-            "description": ["Talk to Blasidar the sculptor."]
+            "location": ["Dorgesh-Kaan"],
+            "description": ["Use trowel on the first artifact."]
+          },
+          "2": {
+            "location": ["Dorgesh-Kaan"],
+            "description": ["Use trowel on the second artifact."]
+          },
+          "3": {
+            "location": ["Dorgesh-Kaan"],
+            "description": ["Use trowel on the third artifact."]
+          },
+          "4": {
+            "location": ["Dorgesh-Kaan"],
+            "description": ["Use trowel on the fourth artifact."]
+          },
+          "5": {
+            "location": ["Dorgesh-Kaan"],
+            "description": ["Use trowel on the fifth artifact."]
+          },
+          "6": {
+            "location": ["Dorgesh-Kaan"],
+            "description": ["Use trowel on the sixth artifact."]
           }
         }
       },
       "4": {
-        "step": "Talk to Vermundi. (Chat 2)",
-        "subtitle": "Dwarven Clothes",
+        "step": "Use all 6 artifacts on the specimen table to clean them.",
         "details": {
           "1": {
-            "location": ["East Keldagrim"],
-            "description": ["Talk to Vermundi."]
+            "location": ["Dorgesh-Kaan"],
+            "description": ["Use all 6 artifacts on the specimen table to clean them."]
           }
         }
       },
       "5": {
-        "step": "Talk to the Librarian. (Chat 2)",
+        "step": "Talk to Tegdak.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["West Keldagrim"],
-            "description": ["Talk to the Librarian."]
+            "location": ["Dorgesh-Kaan"],
+            "description": ["Talk to Tegdak."]
           }
         }
       },
       "6": {
-        "step": "Climb the bookcase for the 'Scholars Guide to Dwarven Costumes' (less than 20kg).",
+        "step": "Talk to Zanik. (Chat 1)",
+        "subtitle": "Goblin village teleport",
         "details": {
           "1": {
-            "location": ["West Keldagrim"],
-            "description": ["Climb the bookcase for 'Scholars Guide to Dwarven Costumes'"]
+            "location": ["Dorgesh-Kaan"],
+            "description": ["Talk to Zanik."]
           }
         }
       },
       "7": {
-        "step": "Talk to Vermundi. (Chat 2)",
+        "step": "Talk to the Goblin Scribe.",
         "details": {
           "1": {
-            "location": ["East Keldagrim"],
-            "description": ["Talk to Vermundi."]
+            "location": ["Dorgesh-Kaan"],
+            "description": ["Exit the area."]
+          },
+          "2": {
+            "location": ["Dorgesh-Kaan"],
+            "description": ["Talk to the Goblin Scribe."]
           }
         }
       },
       "8": {
-        "step": "Use your coal and logs on the spinning machine then light it with a tinderbox.",
+        "step": "Talk Oldak.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["East Keldagrim"],
-            "description": ["Use your coal and logs on the spinning machine."]
+            "location": ["Dorgesh-Kaan"],
+            "description": ["Climb down the stairs."]
           },
           "2": {
-            "location": ["East Keldagrim"],
-            "description": ["Use the tinderbox on the spinning machine."]
+            "location": ["Dorgesh-Kaan"],
+            "description": ["Talk Oldak to get teleported to Goblin Village."]
           }
         }
       },
       "9": {
-        "step": "Talk to Vermundi. (Chat 2-1)",
-        "last": true,
+        "step": "Talk to General Wartface or Bentnoze.",
+        "subtitle": "The H.A.M-bush",
         "details": {
           "1": {
-            "location": ["East Keldagrim"],
-            "description": ["Talk to Vermundi to pay 200gp for exquisite clothes."]
+            "location": ["Goblin Village"],
+            "description": ["Talk to General Wartface or Bentnoze."]
           }
         }
       },
       "10": {
-        "step": "Talk to Saro. (Chat 2)",
-        "subtitle": "Dwarven Boots",
+        "step": "Run behind the houses and climb up the ladder.",
         "details": {
           "1": {
-            "location": ["West Keldagrim"],
-            "description": ["Talk to Saro."]
+            "location": ["Goblin Village"],
+            "description": ["Run behind the houses and climb up the ladder."]
           }
         }
       },
       "11": {
-        "step": "Talk to Dromund.",
+        "step": "Defeat the H.A.M. Mage and H.A.M. Archer. (Must use range or mage).",
+        "last": true,
         "details": {
           "1": {
-            "location": ["West Keldagrim"],
-            "description": ["Talk to Dromund."]
+            "location": ["Goblin Village"],
+            "description": ["Defeat the H.A.M. Mage (level 30) and H.A.M. Archer (level 30). You must use range and mage to defeat them. Pick-up a crossbow and bolts if necessary."]
           }
         }
       },
       "12": {
-        "step": "Take the left boot (when he isn't looking).",
+        "step": "Talk to one of the goblin sergeants.",
+        "subtitle": "Getting past the guards",
         "details": {
           "1": {
-            "location": ["West Keldagrim"],
-            "description": ["Take the left boot"]
+            "location": ["Lumbridge Swamp"],
+            "description": ["Talk to one of the goblin sergeants."]
           }
         }
       },
       "13": {
-        "step": "Telegrab the right boot through the window.",
-        "last": true,
+        "step": "Climb down the dark hole and climb down the ladder.",
         "details": {
           "1": {
-            "location": ["West Keldagrim"],
-            "description": ["Telegrab the right boot through the window."]
+            "location": ["Lumbridge Swamp"],
+            "description": ["Climb down the dark hole."]
+          },
+          "2": {
+            "location": ["Lumbridge Dungeon"],
+            "description": ["Climb down the ladder."]
           }
         }
       },
       "14": {
-        "step": "Talk to Santiri. (Chat 2-2-2)",
-        "subtitle": "Dwarven axe",
+        "step": "Run to the room and enter then wait for the two guards to pass.",
         "details": {
           "1": {
-            "location": ["West Keldagrim"],
-            "description": ["Talk to Santiri."]
+            "location": ["Lumbridge Dungeon"],
+            "description": ["Run to the room and enter then wait for the two guards to pass."]
+          },
+          "2": {
+            "location": ["Lumbridge Dungeon"],
+            "description": ["Wait for the two guards to pass then leave the room and run south."]
           }
         }
       },
       "15": {
-        "step": "Use 3 sapphires on the axe.",
+        "step": "Hide behind the boxes to dodge the last HAM Guard.",
         "details": {
           "1": {
-            "description": ["Use 3 sapphires on the axe."]
+            "location": ["Dorgesh-Kaan"],
+            "description": ["Hide behind the boxes to dodge the last HAM Guard."]
           }
         }
       },
       "16": {
-        "step": "Talk to Santiri. (Chat 2)",
+        "step": "Climb down the ladder.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Keldagrim"],
-            "description": ["Talk to Santiri."]
+            "location": ["Dorgesh-Kaan"],
+            "description": ["Climb down the ladder."]
           }
         }
       },
       "17": {
-        "step": "Talk to Thurgo to give him an iron bar to repair the axe. (Chat 2-2-1) (2-3-1 if you have not completed Knight's Sword)",
-        "last": true,
+        "step": "Equip and use the special attack of the Ancient Mace on Sigmund.",
+        "subtitle": "Battle of Sigmund",
         "details": {
           "1": {
-            "location": ["Mudskipper Point", "Fairy Ring (A-I-Q)"],
-            "description": ["Talk to Thurgo to give him an iron bar to repair the axe. Bring a redberry pie if you have not completed the Knight's Sword."]
+            "location": ["Dorgesh-Kaan"],
+            "description": ["Equip and use the special attack of the Ancient Mace on Sigmund."]
           }
         }
       },
       "18": {
-        "step": "Talk to Riki the sculptor.",
-        "subtitle": "Dwarven statue",
+        "step": "Defeat Sigmund.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["East Keldagrim"],
-            "description": ["Talk to Riki the sculptor's model to give him the clothes, axe and boots."]
+            "location": ["Dorgesh-Kaan"],
+            "description": ["Defeat Sigmund."]
           }
         }
       },
       "19": {
-        "step": "Talk to Blasidar the sculptor (cut-scene).",
-        "last": true,
+        "step": "Untie Zanik.",
+        "subtitle": "Finishing up",
         "details": {
           "1": {
-            "location": ["East Keldagrim"],
-            "description": ["Talk to Blasidar the sculptor."]
+            "location": ["Dorgesh-Kaan"],
+            "description": ["Untie Zanik."]
           }
         }
       },
       "20": {
-        "step": "Talk to the secretary of a company. (Chat 3-1)",
-        "subtitle": "Joining the Dwarven Consortium.",
-        "details": {
-          "1": {
-            "location": ["Keldagrim"],
-            "description": ["Climb upstairs to get to the Consortium."]
-          },
-          "2": {
-            "location": ["Consortium (Green Gemstone)"],
-            "description": ["Talk to the secretary of any company. You will not be able to join the Red Axe company, the Brown Engine only allows male players, and The Yellow Fortune only allows female players to join."]
-          }
-        }
-      },
-      "21": {
-        "step": "Complete 3-8 ore tasks from the secretary (until he tells you to talk to the director).",
-        "details": {
-          "1": {
-            "location": ["East Keldagrim"],
-            "description": ["Buy the ores from Ordan in the Blast Furnace to save time. Climb the stairs."]
-          },
-          "2": {
-            "location": ["Blast Furnace"],
-            "description": ["Trade Ordan to buy: Coal, Copper, Tin, Iron, Mithril, Silver, Gold Ore."]
-          },
-          "3": {
-            "location": ["East Keldagrim"],
-            "description": ["Take the second to last cart from the South to travel to the Grand Exchange for Clay (South-west Varrock Mine)."]
-          }
-        }
-      },
-      "22": {
-        "step": "Once told to speak to the director, talk to the Director of the company. (Chat 4-1-3)",
-        "details": {
-          "1": {"description": "Chat dialog"},
-          "2": {
-            "location": ["Consortium (Green Gemstone)"],
-            "description": ["Once told to speak to the director, talk to the Director of the company."]
-          }
-        }
-      },
-      "23": {
-        "step": "Complete some bar tasks for the director (until he ask you to join the company).",
-        "details": {
-          "1": {
-            "location": ["Keldagrim"],
-            "description": ["Take the second to last cart from the South to travel to the Grand Exchange to buy bars."]
-          }
-        }
-      },
-      "24": {
-        "step": "Once told to join the company, talk to the Director of the company. (Chat 2-3-1-1)",
-        "last": true,
-        "details": {
-          "1": {"description": "Chat dialog"},
-          "2": {
-            "location": ["Keldagrim"],
-            "description": ["Once told to join the company, talk to the Director of the company."]
-          }
-        }
-      },
-      "25": {
-        "step": "Talk to Commander Veldaban. (Chat 1-2-2)",
-        "subtitle": "Finishing up",
-        "details": {
-          "1": {
-            "location": ["Keldagrim"],
-            "description": ["Talk to Commander Veldaban."]
-          }
-        }
-      },
-      "26": {
         "step": "Quest complete!",
         "details": {
           "1": {}
