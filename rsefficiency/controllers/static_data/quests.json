@@ -14327,5 +14327,181 @@
         }
       }
     }
+  },
+  "troll_stronghold": {
+    "name": "Troll Stronghold",
+    "directory": "troll_stronghold",
+    "req": [
+      {
+        "items": ["Death Plateau"],
+        "name": "Quest Requirements"
+      },
+      {
+        "items": ["15 Agility"],
+        "name": "Level Requirements"
+      },
+      {
+        "items": ["Climbing boots (or 12 coins)"],
+        "name": "Items"
+      },
+      {
+        "items": ["Dad (level 101)", "Troll General (level 113)"],
+        "name": "Enemies to defeat"
+      },
+      {
+        "items": ["47 Agility", "30 Thieving", "43 Prayer", "Food", "Armour", "Range or Magic weapon", "Games Necklace"],
+        "name": "Recommended"
+      }
+    ],
+    "steps": {
+      "1": {
+        "last": true,
+        "step": "Talk to Denulth. (Chat 1-2-1)",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["Burthorpe"],
+            "description": ["Talk to Denulth."]
+          }
+        }
+      },
+      "2": {
+        "step": "Fight Dad (level 101).",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["West of Burthorpe"],
+            "description": ["Talk to Tenzing to buy climbing boots for 12gp. (Chat 1-1)"]
+          },
+          "2": {
+            "description": ["Follow the path to the arena. Equip the climbing boots to climb the rocks."]
+          },
+          "3": {
+            "location": ["North-east of Death Plateau"],
+            "description": ["Enter the arena."]
+          },
+          "4": {
+            "location": ["North-east of Death Plateau"],
+            "description": ["Fight Dad (level 101). You can allow him to live or defeat him when he pleads for his life."]
+          }
+        }
+      },
+      "3": {
+        "last": true,
+        "step": "Enter the stronghold.",
+        "subtitle": "Troll Stronghold",
+        "details": {
+          "1": {
+            "location": ["Trollheim"],
+            "description": ["Enter the cave."]
+          },
+          "2": {
+            "location": ["Trollheim"],
+            "description": ["Exit the cave."]
+          },
+          "3": {
+            "description": ["Follow the path to the stronghold."]
+          },
+          "4": {
+            "location": ["Trollheim"],
+            "description": ["Pass the level 68 thrower trolls that will range players who past the northern part of the mountain. Use protect from range to take no damage."]
+          },
+          "5": {
+            "location": ["North-west of Trollheim"],
+            "description": ["Finally, Enter the stronghold."]
+          }
+        }
+      },
+      "4": {
+        "step": "Defeat a Troll General (level 113) for a key.",
+        "subtitle": "Free the Prisoners",
+        "details": {
+          "1": {
+            "location": ["Troll Stronghold"],
+            "description": ["Defeat any Troll General (level 113) for a prison key. They can be safe-spotted like the picture below."]
+          },
+          "2": {
+            "location": ["Troll Stronghold"],
+            "description": ["Pick-up the prison key."]
+          }
+        }
+      },
+      "5": {
+        "step": "Get to the prison.",
+        "details": {
+          "1": {
+            "location": ["Troll Stronghold"],
+            "description": ["Climb down the north staircase."]
+          },
+          "2": {
+            "location": ["Troll Stronghold"],
+            "description": ["Enter the Prison door by the staircase."]
+          },
+          "3": {
+            "location": ["Troll Stronghold"],
+            "description": ["Climb down another set of staircases."]
+          }
+        }
+      },
+      "6": {
+        "step": "Pickpocket (30 Thieving) or defeat the sleeping Twig and Berry.",
+        "details": {
+          "1": {
+            "location": ["Troll Stronghold"],
+            "description": ["Attempt to pickpocket Twig."]
+          },
+          "2": {
+            "location": ["Troll Stronghold"],
+            "description": ["If failed, you can safe-spot Twig inside the northern cell."]
+          },
+          "3": {
+            "location": ["Troll Stronghold"],
+            "description": ["Pick-up cell key 2."]
+          },
+          "4": {
+            "location": ["Troll Stronghold"],
+            "description": ["Attempt to pickpocket Berry."]
+          },
+          "5": {
+            "location": ["Troll Stronghold"],
+            "description": ["If failed, you can safe-spot Berry inside the southern cell."]
+          },
+          "6": {
+            "location": ["Troll Stronghold"],
+            "description": ["Pick-up cell key 1."]
+          }
+        }
+      },
+      "7": {
+        "step": "Free both Eadgar and Godric.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Troll Stronghold"],
+            "description": ["Unlock the southern cell door to free Godric."]
+          },
+          "2": {
+            "location": ["Troll Stronghold"],
+            "description": ["Unlock the northern cell door to free Eadgar."]
+          }
+        }
+      },
+      "8": {
+        "step": "Talk to Dunstan.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Burthorpe"],
+            "description": ["Talk to Dunstan."]
+          }
+        }
+      },
+      "9": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }

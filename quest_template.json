@@ -1,235 +1,173 @@
 {
-  "sea_slug": {
-    "name": "Sea Slug",
-    "directory": "sea_slug",
+  "troll_stronghold": {
+    "name": "Troll Stronghold",
+    "directory": "troll_stronghold",
     "req": [
       {
-        "items": ["30 Firemaking"],
+        "items": ["Death Plateau"],
+        "name": "Quest Requirements"
+      },
+      {
+        "items": ["15 Agility"],
         "name": "Level Requirements"
       },
       {
-        "items": ["Swamp paste"],
+        "items": ["Climbing boots (or 12 coins)"],
         "name": "Items"
+      },
+      {
+        "items": ["Dad (level 101)", "Troll General (level 113)"],
+        "name": "Enemies to defeat"
+      },
+      {
+        "items": ["47 Agility", "30 Thieving", "43 Prayer", "Food", "Armour", "Range or Magic weapon", "Games Necklace"],
+        "name": "Recommended"
       }
     ],
     "steps": {
       "1": {
         "last": true,
-        "step": "Speak with Caroline. (Chat 1)",
+        "step": "Talk to Denulth. (Chat 1-2-1)",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": ["Witchaven"],
-            "description": ["Speak with Caroline."]
+            "location": ["Burthorpe"],
+            "description": ["Talk to Denulth."]
           }
         }
       },
       "2": {
-        "step": "Talk to Holgart.",
-        "subtitle": "Fishing platform",
+        "step": "Fight Dad (level 101).",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Witchaven"],
-            "description": ["Talk to Holgart."]
+            "location": ["West of Burthorpe"],
+            "description": ["Talk to Tenzing to buy climbing boots for 12gp. (Chat 1-1)"]
+          },
+          "2": {
+            "description": ["Follow the path to the arena. Equip the climbing boots to climb the rocks."]
+          },
+          "3": {
+            "location": ["North-east of Death Plateau"],
+            "description": ["Enter the arena."]
+          },
+          "4": {
+            "location": ["North-east of Death Plateau"],
+            "description": ["Fight Dad (level 101). You can allow him to live or defeat him when he pleads for his life."]
           }
         }
       },
       "3": {
-        "step": "Talk to Holgart again. (Chat 1)",
+        "last": true,
+        "step": "Enter the stronghold.",
+        "subtitle": "Troll Stronghold",
         "details": {
           "1": {
-            "location": ["Fishing Platform"],
-            "description": ["Talk to Holgart again to get to Fishing Platform."]
+            "location": ["Trollheim"],
+            "description": ["Enter the cave."]
+          },
+          "2": {
+            "location": ["Trollheim"],
+            "description": ["Exit the cave."]
+          },
+          "3": {
+            "description": ["Follow the path to the stronghold."]
+          },
+          "4": {
+            "location": ["Trollheim"],
+            "description": ["Pass the level 68 thrower trolls that will range players who past the northern part of the mountain. Use protect from range to take no damage."]
+          },
+          "5": {
+            "location": ["North-west of Trollheim"],
+            "description": ["Finally, Enter the stronghold."]
           }
         }
       },
       "4": {
-        "step": "Talk to Bailey.",
+        "step": "Defeat a Troll General (level 113) for a key.",
+        "subtitle": "Free the Prisoners",
         "details": {
           "1": {
-            "location": ["Fishing Platform"],
-            "description": ["Talk to Bailey."]
+            "location": ["Troll Stronghold"],
+            "description": ["Defeat any Troll General (level 113) for a prison key. They can be safe-spotted like the picture below."]
+          },
+          "2": {
+            "location": ["Troll Stronghold"],
+            "description": ["Pick-up the prison key."]
           }
         }
       },
       "5": {
-        "step": "Pick-up the Broken glass.",
+        "step": "Get to the prison.",
         "details": {
           "1": {
-            "location": ["Fishing Platform"],
-            "description": ["Pick-up the Broken glass."]
+            "location": ["Troll Stronghold"],
+            "description": ["Climb down the north staircase."]
+          },
+          "2": {
+            "location": ["Troll Stronghold"],
+            "description": ["Enter the Prison door by the staircase."]
+          },
+          "3": {
+            "location": ["Troll Stronghold"],
+            "description": ["Climb down another set of staircases."]
           }
         }
       },
       "6": {
-        "step": "Pick-up some Damp sticks.",
+        "step": "Pickpocket (30 Thieving) or defeat the sleeping Twig and Berry.",
         "details": {
           "1": {
-            "location": ["Fishing Platform"],
-            "description": ["Pick-up some Damp sticks."]
+            "location": ["Troll Stronghold"],
+            "description": ["Attempt to pickpocket Twig."]
+          },
+          "2": {
+            "location": ["Troll Stronghold"],
+            "description": ["If failed, you can safe-spot Twig inside the northern cell."]
+          },
+          "3": {
+            "location": ["Troll Stronghold"],
+            "description": ["Pick-up cell key 2."]
+          },
+          "4": {
+            "location": ["Troll Stronghold"],
+            "description": ["Attempt to pickpocket Berry."]
+          },
+          "5": {
+            "location": ["Troll Stronghold"],
+            "description": ["If failed, you can safe-spot Berry inside the southern cell."]
+          },
+          "6": {
+            "location": ["Troll Stronghold"],
+            "description": ["Pick-up cell key 1."]
           }
         }
       },
       "7": {
-        "step": "Climb up the ladder.",
+        "step": "Free both Eadgar and Godric.",
         "last": true,
         "details": {
           "1": {
-            "location": ["Fishing Platform"],
-            "description": ["Climb up the ladder."]
+            "location": ["Troll Stronghold"],
+            "description": ["Unlock the southern cell door to free Godric."]
+          },
+          "2": {
+            "location": ["Troll Stronghold"],
+            "description": ["Unlock the northern cell door to free Eadgar."]
           }
         }
       },
       "8": {
-        "step": "Talk to Kennith.",
-        "subtitle": "Upper platform",
+        "step": "Talk to Dunstan.",
+        "subtitle": "Finishing up",
         "details": {
           "1": {
-            "location": ["Fishing Platform"],
-            "description": ["Talk to Kennith."]
+            "location": ["Burthorpe"],
+            "description": ["Talk to Dunstan."]
           }
         }
       },
       "9": {
-        "step": "Climb down the ladder.",
-        "last": true,
-        "details": {
-          "1": {
-            "location": ["Fishing Platform"],
-            "description": ["Climb down the ladder."]
-          }
-        }
-      },
-      "10": {
-        "step": "Talk to Holgart for a trip to a remote island.",
-        "subtitle": "Remote island",
-        "details": {
-          "1": {
-            "location": ["Fishing Platform"],
-            "description": ["Talk to Holgart for a trip to a remote island."]
-          }
-        }
-      },
-      "11": {
-        "step": "Talk to Kent.",
-        "details": {
-          "1": {
-            "location": ["Fishing Platform"],
-            "description": ["Talk to Kent."]
-          }
-        }
-      },
-      "12": {
-        "step": "Talk to Holgart to get back to the Fishing Platform.",
-        "last": true,
-        "details": {
-          "1": {
-            "location": ["Fishing Platform"],
-            "description": ["Talk to Holgart to get back to the Fishing Platform."]
-          }
-        }
-      },
-      "13": {
-        "step": "Talk to Bailey.",
-        "subtitle": "Save Kennith",
-        "details": {
-          "1": {
-            "location": ["Fishing Platform"],
-            "description": ["Talk to Bailey for an Unlit torch."]
-          }
-        }
-      },
-      "14": {
-        "step": "Use the Broken glass on the Damp sticks to dry them.",
-        "details": {
-          "1": {
-            "description": ["Use the Broken glass on the Damp sticks to dry them."]
-          }
-        }
-      },
-      "15": {
-        "step": "Rub the Dry sticks together to light the torch.",
-        "details": {
-          "1": {
-            "description": ["Rub the Dry sticks together to light the torch."]
-          }
-        }
-      },
-      "16": {
-        "step": "Climb up the ladder.",
-        "details": {
-          "1": {
-            "location": ["Fishing Platform"],
-            "description": ["Climb up the ladder."]
-          }
-        }
-      },
-      "17": {
-        "step": "Talk to Kennith.",
-        "details": {
-          "1": {
-            "location": ["Fishing Platform"],
-            "description": ["Talk to Kennith."]
-          }
-        }
-      },
-      "18": {
-        "step": "Kick the badly repaired wall.",
-        "details": {
-          "1": {
-            "location": ["Fishing Platform"],
-            "description": ["Kick the badly repaired wall."]
-          }
-        }
-      },
-      "19": {
-        "step": "Talk to Kennith.",
-        "details": {
-          "1": {
-            "location": ["Fishing Platform"],
-            "description": ["Talk to Kennith."]
-          }
-        }
-      },
-      "20": {
-        "step": "Rotate the crane.",
-        "details": {
-          "1": {
-            "location": ["Fishing Platform"],
-            "description": ["Rotate the crane."]
-          }
-        }
-      },
-      "21": {
-        "step": "Climb down the ladder.",
-        "last": true,
-        "details": {
-          "1": {
-            "location": ["Fishing Platform"],
-            "description": ["Climb down the ladder."]
-          }
-        }
-      },
-      "22": {
-        "step": "Talk to Holgart.",
-        "subtitle": "Finishing up",
-        "details": {
-          "1": {
-            "location": ["Fishing Platform"],
-            "description": ["Talk to Holgart."]
-          }
-        }
-      },
-      "23": {
-        "step": "Talk to Caroline.",
-        "details": {
-          "1": {
-            "location": ["Fishing Platform"],
-            "description": ["Talk to Caroline."]
-          }
-        }
-      },
-      "24": {
         "step": "Quest complete!",
         "details": {
           "1": {}

@@ -209,39 +209,47 @@ Items needed: Mahogany plank and Soft leather
     Talk to Larry.
     Quest complete!
 
-Sea Slug
-Level Requirements: 30 Firemaking
-Items: Swamp paste
-The platform
-    Speak with Caroline. (Chat 1)
-    Talk to Holgart.
-    Talk to Holgart again to get to Fishing Platform. (Chat 1)
-    Talk to Bailey.
-    Pick-up the Broken glass.
-    Pick-up some Damp sticks.
-    Climb up the ladder.
-Upper platform
-    Talk to Kennith.
-    Climb down the ladder.
-Remote island
-    Talk to Holgart for a trip to a remote island.
-    Talk to Kent.
-    Talk to Holgart to get back to the Fishing Platform.
-Saving Kennith
-    Talk to Bailey for an Unlit torch.
-    Use the Broken glass on the Damp sticks to dry them.
-    Rub the Dry sticks together to light the torch.
-    Climb up the ladder.
-    Talk to Kennith.
-    Kick the badly repaired wall.
-    Talk to Kennith.
-    Rotate the crane.
-    Climb down the ladder.
+Tiffy/Amik
+    Speak with Sir Tiffy Cashien in Falador Park. (Chat 1🯍�1)
+    Go talk to Sir Amik Varze in the White Knights' Castle on the west side of the 2nd floor[?]. (Chat 3)
+    Report back to Sir Tiffy. (Chat 1)
+    Head back to Sir Amik and talk to him again. (Chat 3)
+    Report once more to Tiffy. (Chat 2): If you have the required materials to make the Commorb.
+    Use the "contact" option on the Commorb to talk to Savant and select "Savant" option. (Chat 2)
+    Use the "contact" option again and select "Current Assignment". (Chat 1)
+Mage of Zamorak
+    Speak to the Mage of Zamorak in the Wilderness just north of Edgeville. (You can skip this step if you've previously done the Abyss miniquest)
+    Head to the Altar of Chaos in southeast Varrock and talk to the Mage of Zamorak twice. (Chat 2�2)
+Daquarius
+    Head over to Taverley Dungeon.
+    Follow the dungeon north, then east and then south, up to the Black Knights' Base.
+    Talk to Lord Daquarius in the southwestern most room.
+    Kill a level 33 Black Knight and go through Daquarius's dialogue.
+Hunt for Solus
+    Head to Canifis and run around until Savant calls you.
+    Use the "scan" option of the Commorb near the bank in Canifis to unveil Solus.
+    Have a look at the item list in the table below to find Solus Dellagar's location.
+
+Troll Stronghold
+Quest Requirements: Death Plateau
+Level Requirements: 15 Agility
+Items: Climbing boots (or 12 coins)
+Enemies to defeat: Dad (level 101), Troll General (level 113)
+Recommended: 47 Agility, 30 Thieving, 43 Prayer, Food, Armour, Range or Magic weapon, Games Necklace
+Getting started
+    Talk to Denulth. (Chat 1-2-1)
+Dad?
+    Buy Climbing boots (Chat 1-1)
+    Fight Dad (level 101).
+Troll Stronghold
+    Enter the stronghold.
+Free the Prisoners
+    Defeat a  Troll General (level 113) for a key.
+    Pickpocket (30 Thieving) or defeat the sleeping Twig and Berry.
+    Free both Eadgar and Godric.
 Finishing up
-    Talk to Holgart.
-    Talk to Caroline.
-    Quest Complete!
-    
+    Talk to Dunstan.
+    Quest complete!
 
 Alfred Grimhand's Barcrawl
 Scorpion Catcher
