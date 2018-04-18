@@ -1,173 +1,182 @@
 {
-  "troll_stronghold": {
-    "name": "Troll Stronghold",
-    "directory": "troll_stronghold",
+  "troll_romance": {
+    "name": "Troll Romance",
+    "directory": "troll_romance",
     "req": [
       {
-        "items": ["Death Plateau"],
+        "items": ["Death Plateau", "Troll Stronghold"],
         "name": "Quest Requirements"
       },
       {
-        "items": ["15 Agility"],
+        "items": ["28 Agility"],
         "name": "Level Requirements"
       },
       {
-        "items": ["Climbing boots (or 12 coins)"],
+        "items": ["Iron bar", "Maple or Yew logs", "Rope", "Cake tin", "Swamp tar", "Climbing boots", "Bucket of wax (Insect repellant and bucket)"],
         "name": "Items"
       },
       {
-        "items": ["Dad (level 101)", "Troll General (level 113)"],
+        "items": ["Arrg (level 113)"],
         "name": "Enemies to defeat"
       },
       {
-        "items": ["47 Agility", "30 Thieving", "43 Prayer", "Food", "Armour", "Range or Magic weapon", "Games Necklace"],
+        "items": ["Trollheim teleport", "Games necklace", "Food", "Prayer potions"],
         "name": "Recommended"
       }
     ],
     "steps": {
       "1": {
-        "last": true,
-        "step": "Talk to Denulth. (Chat 1-2-1)",
+        "step": "Talk to Ug. (Chat 1-3)",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": ["Burthorpe"],
-            "description": ["Talk to Denulth."]
+            "location": ["Troll Stronghold"],
+            "description": ["Enter the Troll Stronghold."]
+          },
+          "2": {
+            "location": ["Troll Stronghold"],
+            "description": ["Climb downstairs."]
+          },
+          "3": {
+            "location": ["Troll Stronghold"],
+            "description": ["Talk to Ug."]
           }
         }
       },
       "2": {
-        "step": "Fight Dad (level 101).",
-        "last": true,
+        "step": "Talk to Aga. (Chat 2-1)",
         "details": {
           "1": {
-            "location": ["West of Burthorpe"],
-            "description": ["Talk to Tenzing to buy climbing boots for 12gp. (Chat 1-1)"]
-          },
-          "2": {
-            "description": ["Follow the path to the arena. Equip the climbing boots to climb the rocks."]
-          },
-          "3": {
-            "location": ["North-east of Death Plateau"],
-            "description": ["Enter the arena."]
-          },
-          "4": {
-            "location": ["North-east of Death Plateau"],
-            "description": ["Fight Dad (level 101). You can allow him to live or defeat him when he pleads for his life."]
+            "location": ["Troll Stronghold"],
+            "description": ["Talk to Aga."]
           }
         }
       },
       "3": {
+        "step": "Talk to Arrg. (Chat 2)",
         "last": true,
-        "step": "Enter the stronghold.",
-        "subtitle": "Troll Stronghold",
         "details": {
           "1": {
-            "location": ["Trollheim"],
-            "description": ["Enter the cave."]
-          },
-          "2": {
-            "location": ["Trollheim"],
-            "description": ["Exit the cave."]
-          },
-          "3": {
-            "description": ["Follow the path to the stronghold."]
-          },
-          "4": {
-            "location": ["Trollheim"],
-            "description": ["Pass the level 68 thrower trolls that will range players who past the northern part of the mountain. Use protect from range to take no damage."]
-          },
-          "5": {
-            "location": ["North-west of Trollheim"],
-            "description": ["Finally, Enter the stronghold."]
+            "location": ["Troll Stronghold"],
+            "description": ["Talk to Arrg."]
           }
         }
       },
       "4": {
-        "step": "Defeat a Troll General (level 113) for a key.",
-        "subtitle": "Free the Prisoners",
+        "step": "Talk to Tenzing. (Chat 4-2)",
+        "subtitle": "Sled",
         "details": {
           "1": {
-            "location": ["Troll Stronghold"],
-            "description": ["Defeat any Troll General (level 113) for a prison key. They can be safe-spotted like the picture below."]
-          },
-          "2": {
-            "location": ["Troll Stronghold"],
-            "description": ["Pick-up the prison key."]
+            "location": ["Burthorpe"],
+            "description": ["Talk to Tenzing."]
           }
         }
       },
       "5": {
-        "step": "Get to the prison.",
+        "step": "Talk to Dunstan twice for a sled. (Chat 1-2-1)",
         "details": {
           "1": {
-            "location": ["Troll Stronghold"],
-            "description": ["Climb down the north staircase."]
-          },
-          "2": {
-            "location": ["Troll Stronghold"],
-            "description": ["Enter the Prison door by the staircase."]
-          },
-          "3": {
-            "location": ["Troll Stronghold"],
-            "description": ["Climb down another set of staircases."]
+            "location": ["Burthorpe"],
+            "description": ["Talk to Dunstan twice for a sled."]
           }
         }
       },
       "6": {
-        "step": "Pickpocket (30 Thieving) or defeat the sleeping Twig and Berry.",
+        "step": "Use the swamp tar on the bucket of wax to get Wax.",
         "details": {
           "1": {
-            "location": ["Troll Stronghold"],
-            "description": ["Attempt to pickpocket Twig."]
-          },
-          "2": {
-            "location": ["Troll Stronghold"],
-            "description": ["If failed, you can safe-spot Twig inside the northern cell."]
-          },
-          "3": {
-            "location": ["Troll Stronghold"],
-            "description": ["Pick-up cell key 2."]
-          },
-          "4": {
-            "location": ["Troll Stronghold"],
-            "description": ["Attempt to pickpocket Berry."]
-          },
-          "5": {
-            "location": ["Troll Stronghold"],
-            "description": ["If failed, you can safe-spot Berry inside the southern cell."]
-          },
-          "6": {
-            "location": ["Troll Stronghold"],
-            "description": ["Pick-up cell key 1."]
+            "description": ["Use the swamp tar on the bucket of wax to get Wax."]
           }
         }
       },
       "7": {
-        "step": "Free both Eadgar and Godric.",
+        "step": "Use the Wax on your Sled.",
         "last": true,
         "details": {
           "1": {
-            "location": ["Troll Stronghold"],
-            "description": ["Unlock the southern cell door to free Godric."]
-          },
-          "2": {
-            "location": ["Troll Stronghold"],
-            "description": ["Unlock the northern cell door to free Eadgar."]
+            "description": ["Use the Wax on your Sled."]
           }
         }
       },
       "8": {
-        "step": "Talk to Dunstan.",
-        "subtitle": "Finishing up",
+        "step": "Head towards Trollweiss Mountain.",
+        "subtitle": "Sled-Boarding",
         "details": {
           "1": {
-            "location": ["Burthorpe"],
-            "description": ["Talk to Dunstan."]
+            "description": ["Follow the path to the cave entrance."]
+          },
+          "2": {
+            "location": ["Troll Stronghold"],
+            "description": ["Enter the cave entrance."]
+          },
+          "3": {
+            "location": ["Trollweiss Dungeon"],
+            "description": ["Exit the cave entrance to get to Trollweiss Mountain."]
           }
         }
       },
       "9": {
+        "step": "Equip the Sled and go down the slope.",
+        "details": {
+          "1": {
+            "location": ["Troll Stronghold"],
+            "description": ["Equip the Sled."]
+          },
+          "2": {
+            "location": ["Troll Stronghold"],
+            "description": ["Go down the slope south."]
+          }
+        }
+      },
+      "10": {
+        "step": "Pick rare flowers.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Troll Stronghold"],
+            "description": ["Pick rare flowers."]
+          }
+        }
+      },
+      "11": {
+        "step": "Talk to Ug.",
+        "subtitle": "Love Battle",
+        "details": {
+          "1": {
+            "location": ["Troll Stronghold"],
+            "description": ["Talk to Ug."]
+          }
+        }
+      },
+      "12": {
+        "step": "Talk to Arrg. (Chat 1) He will teleport you into the arena.",
+        "details": {
+          "1": {
+            "location": ["Troll Stronghold"],
+            "description": ["Talk to Arrg."]
+          }
+        }
+      },
+      "13": {
+        "step": "Defeat Arrg.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Troll Stronghold"],
+            "description": ["Be warn Arrg uses range and melee attacks with a 38 max hit. Lure him north and then west by the gate to safe-spot Arrg."]
+          }
+        }
+      },
+      "14": {
+        "step": "Talk to Ug.",
+        "details": {
+          "1": {
+            "location": ["Troll Stronghold"],
+            "description": ["Talk to Ug."]
+          }
+        }
+      },
+      "15": {
         "step": "Quest complete!",
         "details": {
           "1": {}

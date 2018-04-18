@@ -230,25 +230,32 @@ Hunt for Solus
     Use the "scan" option of the Commorb near the bank in Canifis to unveil Solus.
     Have a look at the item list in the table below to find Solus Dellagar's location.
 
-Troll Stronghold
-Quest Requirements: Death Plateau
-Level Requirements: 15 Agility
-Items: Climbing boots (or 12 coins)
-Enemies to defeat: Dad (level 101), Troll General (level 113)
-Recommended: 47 Agility, 30 Thieving, 43 Prayer, Food, Armour, Range or Magic weapon, Games Necklace
+Troll Romance
+Quest Requirements: Death Plateau, Troll Stronghold
+Level Requirements: 28 Agility
+Items: Iron bar, Maple or Yew logs, Rope, Cake tin, Swamp tar, Climbing boots, Bucket of wax (Insect repellant and bucket)
+Enemies to defeat: Arrg (level 113)
+Recommended: Trollheim teleport, Games necklace, Food, Prayer potions
 Getting started
-    Talk to Denulth. (Chat 1-2-1)
-Dad?
-    Buy Climbing boots (Chat 1-1)
-    Fight Dad (level 101).
-Troll Stronghold
-    Enter the stronghold.
-Free the Prisoners
-    Defeat a  Troll General (level 113) for a key.
-    Pickpocket (30 Thieving) or defeat the sleeping Twig and Berry.
-    Free both Eadgar and Godric.
+    Talk to Ug. (Chat 1-3)
+    Talk to Aga. (Chat 2-1)
+    Talk to Arrg. (Chat 2)
+Sled
+    Talk to Tenzing. (Chat 4-2)
+    Talk to Dunstan twice for a sled. (Chat 1-2-1)
+    Use the swamp tar on the bucket of wax to get Wax.
+    Use the Wax on your Sled.
+Sled-Boarding
+    Head towards Trollweiss Mountain.
+    Equip the Sled and go down the slope.
+    Pick rare flowers.
+Love Battle
+    Talk to Ug.
+    Talk to Arrg. (Chat 1) He will teleport you into the arena.
+    Defeat Arrg.
 Finishing up
-    Talk to Dunstan.
+    Note: You can use a safespot by running to the western entrance and then moving just north.
+    Talk to Ug.
     Quest complete!
 
 Alfred Grimhand's Barcrawl
