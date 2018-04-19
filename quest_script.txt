@@ -209,35 +209,64 @@ Items needed: Mahogany plank and Soft leather
     Talk to Larry.
     Quest complete!
 
-Wanted!
-Quest Requirements: 32 Quest points, Recruitment Drive, Rune Mysteries, The Lost Tribe, Priest in Peril
-Items: Law rune, Enchanted gem, Molten glass, 20 Rune/Pure essence (Un-noted), A light source (Candle, Candle Lantern, Bullsye Lantern)
-Recommended: Falador Teleport, Charged Glory, Slayer Ring, Ectophial, Dramen/Lunar Staff
-Tiffy/Amik
-    Talk to Sir Tiffy Cashien. (Chat 1-1-1-1)
-    Talk to Sir Amik Varze. (Chat 3)
-    Talk to Sir Tiffy Cashien. (Chat 1)
-    Talk to Sir Amik Varze. (Chat 3)
-    Talk to Sir Tiffy Cashien. (Chat 1-2-1)
-    Right-click the commorb and select 'contact'. (Chat 2)
-    Right-click the commorb and select 'contact' again. (Chat 1)
-Mage of Zamorak
-    Talk to the Mage of Zamorak in the Wilderness. (Skip if started the Abyss miniquest)
-    Talk to the Mage of Zamorak twice in Varrock. (Chat 2-2)
-Lord Daquarius
-    Talk to Lord Daquarius.
-    Defeat a level 33 Black Knight.
-    Talk to Lord Daquarius.
-Hunt for Solus
-    Run around Canifis until Savant calls you.
-    Scan with the Commorb by Canifis bank to unveil Solus.
-    Match the item below, to find the next location of Solus, then scan the area until you get 20 noted essence.
-Final Battle
-    Right-click Aubury and teleport to the Rune Essence Mine.
-    Defeat Solus.
+Horror from the Deep
+Quest Requirements: Alfred Grimhand's Barcrawl (minigame)
+Level Requirements: 35 Agility
+Items: Molten glass, Tinderbox, Hammer, 60 Steel nails, 2 Planks, 1 Swamp tar, Fire rune, Water rune, Earth rune, Air rune, Any 1 sword type (you're willing to lose), Any 1 arrow type (you're willing to lose)
+Enemies to defeat: Dagannoth (level 100), Dagannoth Mother (level 100)
+Recommended: Games necklace
+Getting started
+    To begin the quest use the fairy ring code alp to teleport to the lighthouse. Alternatively, one could teleport to the Barbarian Outpost using a games necklace or minigame teleport then hop over the rocks to the north to reach the lighthouse.
+    Talk to Larrissa. (Chat 1-1-1-3)
+    Run east to the second bridge, use a plank on it
+    Jump the bridge and use a second plank on it
+    Teleport to Barbarian Outpost using a games necklace or run back, talk to Gunnjorn in the Barbarian Outpost agility arena for a key.
+    Go to the roof of the lighthouse and use the swamp tar, tinderbox, and molten glass on the lighthouse mechanism.
+    Climb down to the basement, use 1 of each elemental rune, any sword, and any arrow on the strange wall.
+    Go through the right part of the door and talk to Jossik.
+    Kill the level 100 Dagannoth then the level 100 Dagannoth Mother.
+    White means use air spells.
+    Blue means use water spells.
+    Orange means use melee.
+    Brown means use earth spells.
+    Red means use fire spells.
+    Green means use ranged attacks.
+
+
+Making History
+Quest Requirements: The Restless Ghost, Priest in Peril
+Items: Spade, Sapphire amulet, Ghostspeak amulet, 2 Ecto-tokens (if Ghosts Ahoy is not completed)
+Recommended: Necklace of passage (The Outpost), Ardougne Teleport, Dueling Ring (Castle Wars), Ectophial, House Teleport (Relleka)
+Starting out
+    Talk to Jorral. (Chat 1-1-1-3)
+Erin the Silver merchant
+    Talk to the Silver merchant. (Chat 3)
+    Dig on white flowers, north of castle wars.
+    Use the enchanted key on the chest to get a journal.
+Droalak the Ghost
+    Talk to Droalak.
+    Talk to Melina to give her a strung sapphire amulet.
+    Talk to Droalak to receive a scroll.
+Dron the Warrior
+    Talk to Blanin.
+    Talk to Dron. (Chat 3-2) Answers: (Chat 2-1-2-1-2-2-1-3-3-1-1-1).
+        He wields an iron mace in battle. (Chat 2)
+        He eats rats for breakfast. (Chat 1)
+        He eats kittens for lunch. (Chat 2)
+        He eats bunnies for tea. (Chat 1)
+        His favourite drink is red spider blood. (Chat 2)
+        He is 36 years, 8 months (21 days) old. (Chat 2-1)
+        He studies the Fifth and Fourth ages. (Chat 3)
+        His house is on the northeast side of town. (Chat 3)
+        His brother's name is Blanin. (Chat 1)
+        His pet cat is named Fluffy. (Chat 1)
+        5 and 7 is 12 (Chat 1)
 Finishing up
-    Talk to Sir Amik Varze.
+    Talk to Jorral with the scroll and journal.
+    Talk to King Lathas. (Chat 1)
+    Talk to Jorral.
     Quest complete!
+
 
 Alfred Grimhand's Barcrawl
 Scorpion Catcher

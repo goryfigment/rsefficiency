@@ -193,7 +193,8 @@
 }
 
 .spot-img {
-    height: 250px;
+    max-width: 417px;
+    max-height: 600px;
 }
 
 .chat-dialog {

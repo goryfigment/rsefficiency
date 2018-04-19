@@ -1,272 +1,143 @@
 {
-  "wanted": {
-    "name": "Wanted!",
-    "directory": "wanted",
+  "making_history": {
+    "name": "Making History",
+    "directory": "making_history",
     "req": [
       {
-        "items": ["32 Quest points", "Recruitment Drive", "Rune Mysteries", "The Lost Tribe", "Priest in Peril"],
+        "items": ["The Restless Ghost", "Priest in Peril"],
         "name": "Quest Requirements"
       },
       {
-        "items": ["Law rune", "Enchanted gem", "Molten glass", "20 Rune/Pure essence (Un-noted)", "A light source (Candle, Candle Lantern, Bullsye Lantern)"],
+        "items": ["Spade", "Sapphire amulet", "Ghostspeak amulet", "2 Ecto-tokens (if Ghosts Ahoy is not completed)"],
         "name": "Items"
       },
       {
-        "items": ["Falador Teleport", "Charged Glory", "Slayer Ring", "Ectophial", "Dramen/Lunar Staff"],
+        "items": ["Necklace of passage (The Outpost)", "Ardougne Teleport", "Dueling Ring (Castle Wars)", "Ectophial", "House Teleport (Relleka)"],
         "name": "Recommended"
       }
     ],
     "steps": {
       "1": {
-        "step": "Talk to Sir Tiffy Cashien. (Chat 1-1-1-1)",
+        "last": true,
+        "step": "Talk to Jorral. (Chat 1-1-1-3)",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": ["Falador Park"],
-            "description": ["Talk to Sir Tiffy Cashien."]
+            "location": ["North of Underground Pass"],
+            "description": ["Talk to Jorral."]
           }
         }
       },
       "2": {
-        "step": "Talk to Sir Amik Varze. (Chat 3)",
+        "step": "Talk to the Silver merchant. (Chat 3)",
+        "subtitle": "Erin the Silver merchant",
         "details": {
           "1": {
-            "location": ["Falador Castle"],
-            "description": ["Talk to Sir Amik Varze."]
+            "location": ["East Ardougne"],
+            "description": ["Talk to the Silver merchant."]
           }
         }
       },
       "3": {
-        "step": "Talk to Sir Tiffy Cashien. (Chat 1)",
+        "step": "Dig on white flowers, north of castle wars.",
         "details": {
           "1": {
-            "location": ["Falador PArk"],
-            "description": ["Talk to Sir Tiffy Cashien."]
+            "location": ["North of Castle Wars"],
+            "description": ["Dig on white flowers, north of castle wars."]
           }
         }
       },
       "4": {
-        "step": "Talk to Sir Amik Varze. (Chat 3)",
+        "step": "Use the enchanted key on the chest to get a journal.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Falador Castle"],
-            "description": ["Talk to Sir Amik Varze."]
+            "description": ["Use the enchanted key on the chest to get a journal."]
           }
         }
       },
       "5": {
-        "step": "Talk to Sir Tiffy Cashien. (Chat 1-2-1)",
-        "last": true,
+        "step": "Talk to Droalak.",
+        "subtitle": "Droalak the Ghost",
         "details": {
           "1": {
-            "location": ["Falador Park"],
-            "description": ["Talk to Sir Tiffy Cashien."]
+            "location": ["Port Phasmatys"],
+            "description": ["Talk to Droalak."]
           }
         }
       },
       "6": {
-        "step": "Right-click the commorb and select 'contact'. (Chat 2)",
-        "subtitle": "Commorb",
+        "step": "Talk to Melina to give her a strung sapphire amulet.",
         "details": {
           "1": {
-            "description": ["Right-click the commorb and select 'contact'."]
+            "location": ["Port Phasmatys"],
+            "description": ["Talk to Melina to give her a strung sapphire amulet."]
           }
         }
       },
       "7": {
-        "step": "Right-click the commorb and select 'contact' again. (Chat 1)",
+        "step": "Talk to Droalak to receive a scroll.",
         "last": true,
         "details": {
           "1": {
-            "description": ["Right-click the commorb and select 'contact' again."]
+            "location": ["Port Phasmatys"],
+            "description": ["Talk to Droalak to receive a scroll."]
           }
         }
       },
       "8": {
-        "step": "Talk to the Mage of Zamorak in the Wilderness. (Skip if started the Abyss miniquest)",
-        "subtitle": "Mage of Zamorak",
+        "step": "Talk to Blanin.",
+        "subtitle": "Dron the Warrior",
         "details": {
           "1": {
-            "location": ["Wilderness, north of Edgeville"],
-            "description": ["Skip this step if the Abyss miniquest was started."]
+            "location": ["East Ardougne"],
+            "description": ["Talk to Blanin."]
           }
         }
       },
       "9": {
-        "step": "Talk to the Mage of Zamorak twice in Varrock. (Chat 2-2)",
+        "step": "Talk to Dron. (Chat 3-2) Answers: (Chat 2-1-2-1-2-2-1-3-3-1-1-1).",
         "last": true,
         "details": {
           "1": {
-            "location": ["South-east corner of Varrock"],
-            "description": ["Talk to the Mage of Zamorak twice in Varrock to give him 20 rune/pure essence."]
+            "location": ["East Ardougne"],
+            "description": ["Talk to Dron."]
           }
         }
       },
       "10": {
-        "step": "Talk to Lord Daquarius.",
-        "subtitle": "Lord Daquarius",
+        "step": "Talk to Jorral with the scroll and journal.",
+        "subtitle": "Finishing up",
         "details": {
           "1": {
-            "location": ["Taverly"],
-            "description": ["Climb down the stairs into Taverly Dungeon."]
-          },
-          "2": {
-            "description": ["Follow the path to Lord Daquarius. Follow the yellow path if you have 70 Agility."]
-          },
-          "3": {
-            "location": ["Taverly Dungeon"],
-            "description": ["Talk to Lord Daquarius."]
+            "location": ["East Ardougne"],
+            "description": ["Talk to Jorral with the scroll and journal."]
           }
         }
       },
       "11": {
-        "step": "Defeat a level 33 Black Knight.",
+        "step": "Talk to King Lathas. (Chat 1)",
         "details": {
           "1": {
-            "location": ["Taverly Dungeon"],
-            "description": ["Defeat a level 33 Black Knight."]
+            "location": ["East Ardougne"],
+            "description": ["Climb up the staircase."]
+          },
+          "2": {
+            "location": ["East Ardougne"],
+            "description": ["Talk to King Lathas."]
           }
         }
       },
       "12": {
-        "step": "Talk to Lord Daquarius.",
-        "last": true,
+        "step": "Talk to Jorral.",
         "details": {
           "1": {
-            "location": ["Taverly Dungeon"],
-            "description": ["Talk to Lord Daquarius."]
+            "location": ["East Ardougne"],
+            "description": ["Talk to Jorral."]
           }
         }
       },
       "13": {
-        "step": "Run around Canifis until Savant calls you.",
-        "subtitle": "Hunt for Solus",
-        "details": {
-          "1": {
-            "location": ["Canifis"],
-            "description": ["Run around Canifis until Savant calls you."]
-          },
-          "2": {"description": "Chat dialog"}
-        }
-      },
-      "14": {
-        "step": "Scan with the Commorb by Canifis bank to unveil Solus.",
-        "details": {
-          "1": {
-            "location": ["Canifis"],
-            "description": ["Scan with the Commorb by Canifis bank to unveil Solus."]
-          }
-        }
-      },
-      "15": {
-        "step": "Match the item below, to find the next location of Solus, then scan the area.",
-        "last": true,
-        "details": {
-          "1": {
-            "location": ["Musa Point banana plantation"],
-            "description": ["Item: Banana"]
-          },
-          "2": {
-            "location": ["Wizards' Tower Library", "(Fairy ring D-I-S)"],
-            "description": ["Item: Blue wizard hat"]
-          },
-          "3": {
-            "location": ["Dorgesh-Kaan mine"],
-            "description": ["Item: Bone spear"]
-          },
-          "4": {
-            "location": ["Ardougne Market"],
-            "description": ["Item: Bear fur"]
-          },
-          "5": {
-            "location": ["Inside the Champions' Guild"],
-            "description": ["Item: Blue cape"]
-          },
-          "6": {
-            "location": ["Castle Wars"],
-            "description": ["Item: Castle wars ticket"]
-          },
-          "7": {
-            "location": ["The Grand Tree"],
-            "description": ["Item: Cream hat"]
-          },
-          "8": {
-            "location": ["Canifis Slayer Tower", "(Fairy Ring C-K-S"],
-            "description": ["Item: Earmuffs"]
-          },
-          "9": {
-            "location": ["Brimhaven bar"],
-            "description": ["Item: Right eye patch"]
-          },
-          "10": {
-            "location": ["Al Kharid", "by Ali Morrisane's stall"],
-            "description": ["Item: Fake beard"]
-          },
-          "11": {
-            "location": ["Rellekka"],
-            "description": ["Item: Fremennik cloak"]
-          },
-          "12": {
-            "location": ["Ardougne Market"],
-            "description": ["Item: Fur"]
-          },
-          "13": {
-            "location": ["Lumbridge Swamp Caves", "by level 99 frogs."],
-            "description": ["Item: Giant frog legs"]
-          },
-          "14": {
-            "location": ["Goblin Village"],
-            "description": ["Item: Goblin mail"]
-          },
-          "15": {
-            "location": ["Yanille bar", "(Fairy Ring C-I-Q)"],
-            "description": ["Item: Greenman's ale"]
-          },
-          "16": {
-            "location": ["McGrubor's Wood", "(Fairy ring A-L-S)"],
-            "description": ["Item: Red vine worm"]
-          },
-          "17": {
-            "location": ["Draynor Village", "near Diango"],
-            "description": ["Item: Toy horsey"]
-          },
-          "18": {
-            "location": ["Shrine of Scorpius"],
-            "description": ["Item: Unholy symbol"]
-          }
-        }
-      },
-      "16": {
-        "step": "Right-click Aubury and teleport to the Rune Essence Mine.",
-        "subtitle": "Final Battle",
-        "details": {
-          "1": {
-            "location": ["Varrock Rune Shop"],
-            "description": ["Right-click Aubury and teleport to the Rune Essence Mine."]
-          }
-        }
-      },
-      "17": {
-        "step": "Defeat Solus.",
-        "last": true,
-        "details": {
-          "1": {
-            "location": ["Rune Essence Mine"],
-            "description": ["Defeat Solus."]
-          }
-        }
-      },
-      "18": {
-        "step": "Talk to Sir Amik Varze.",
-        "subtitle": "Finishing up",
-        "details": {
-          "1": {
-            "location": ["Falador Castle"],
-            "description": ["Talk to Sir Amik Varze."]
-          }
-        }
-      },
-      "19": {
         "step": "Quest complete!",
         "details": {
           "1": {}

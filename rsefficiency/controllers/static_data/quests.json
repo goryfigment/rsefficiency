@@ -14963,5 +14963,151 @@
         }
       }
     }
+  },
+  "making_history": {
+    "name": "Making History",
+    "directory": "making_history",
+    "req": [
+      {
+        "items": ["The Restless Ghost", "Priest in Peril"],
+        "name": "Quest Requirements"
+      },
+      {
+        "items": ["Spade", "Sapphire amulet", "Ghostspeak amulet", "2 Ecto-tokens (if Ghosts Ahoy is not completed)"],
+        "name": "Items"
+      },
+      {
+        "items": ["Necklace of passage (The Outpost)", "Ardougne Teleport", "Dueling Ring (Castle Wars)", "Ectophial", "House Teleport (Relleka)"],
+        "name": "Recommended"
+      }
+    ],
+    "steps": {
+      "1": {
+        "last": true,
+        "step": "Talk to Jorral. (Chat 1-1-1-3)",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["North of Underground Pass"],
+            "description": ["Talk to Jorral."]
+          }
+        }
+      },
+      "2": {
+        "step": "Talk to the Silver merchant. (Chat 3)",
+        "subtitle": "Erin the Silver merchant",
+        "details": {
+          "1": {
+            "location": ["East Ardougne"],
+            "description": ["Talk to the Silver merchant."]
+          }
+        }
+      },
+      "3": {
+        "step": "Dig on white flowers, north of castle wars.",
+        "details": {
+          "1": {
+            "location": ["North of Castle Wars"],
+            "description": ["Dig on white flowers, north of castle wars."]
+          }
+        }
+      },
+      "4": {
+        "step": "Use the enchanted key on the chest to get a journal.",
+        "last": true,
+        "details": {
+          "1": {
+            "description": ["Use the enchanted key on the chest to get a journal."]
+          }
+        }
+      },
+      "5": {
+        "step": "Talk to Droalak.",
+        "subtitle": "Droalak the Ghost",
+        "details": {
+          "1": {
+            "location": ["Port Phasmatys"],
+            "description": ["Talk to Droalak."]
+          }
+        }
+      },
+      "6": {
+        "step": "Talk to Melina to give her a strung sapphire amulet.",
+        "details": {
+          "1": {
+            "location": ["Port Phasmatys"],
+            "description": ["Talk to Melina to give her a strung sapphire amulet."]
+          }
+        }
+      },
+      "7": {
+        "step": "Talk to Droalak to receive a scroll.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Port Phasmatys"],
+            "description": ["Talk to Droalak to receive a scroll."]
+          }
+        }
+      },
+      "8": {
+        "step": "Talk to Blanin.",
+        "subtitle": "Dron the Warrior",
+        "details": {
+          "1": {
+            "location": ["East Ardougne"],
+            "description": ["Talk to Blanin."]
+          }
+        }
+      },
+      "9": {
+        "step": "Talk to Dron. (Chat 3-2) Answers: (Chat 2-1-2-1-2-2-1-3-3-1-1-1).",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["East Ardougne"],
+            "description": ["Talk to Dron."]
+          }
+        }
+      },
+      "10": {
+        "step": "Talk to Jorral with the scroll and journal.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["East Ardougne"],
+            "description": ["Talk to Jorral with the scroll and journal."]
+          }
+        }
+      },
+      "11": {
+        "step": "Talk to King Lathas. (Chat 1)",
+        "details": {
+          "1": {
+            "location": ["East Ardougne"],
+            "description": ["Climb up the staircase."]
+          },
+          "2": {
+            "location": ["East Ardougne"],
+            "description": ["Talk to King Lathas."]
+          }
+        }
+      },
+      "12": {
+        "step": "Talk to Jorral.",
+        "details": {
+          "1": {
+            "location": ["East Ardougne"],
+            "description": ["Talk to Jorral."]
+          }
+        }
+      },
+      "13": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }
