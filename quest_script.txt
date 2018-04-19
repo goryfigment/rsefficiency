@@ -209,53 +209,34 @@ Items needed: Mahogany plank and Soft leather
     Talk to Larry.
     Quest complete!
 
+Wanted!
+Quest Requirements: 32 Quest points, Recruitment Drive, Rune Mysteries, The Lost Tribe, Priest in Peril
+Items: Law rune, Enchanted gem, Molten glass, 20 Rune/Pure essence (Un-noted), A light source (Candle, Candle Lantern, Bullsye Lantern)
+Recommended: Falador Teleport, Charged Glory, Slayer Ring, Ectophial, Dramen/Lunar Staff
 Tiffy/Amik
-    Speak with Sir Tiffy Cashien in Falador Park. (Chat 1🯍�1)
-    Go talk to Sir Amik Varze in the White Knights' Castle on the west side of the 2nd floor[?]. (Chat 3)
-    Report back to Sir Tiffy. (Chat 1)
-    Head back to Sir Amik and talk to him again. (Chat 3)
-    Report once more to Tiffy. (Chat 2): If you have the required materials to make the Commorb.
-    Use the "contact" option on the Commorb to talk to Savant and select "Savant" option. (Chat 2)
-    Use the "contact" option again and select "Current Assignment". (Chat 1)
+    Talk to Sir Tiffy Cashien. (Chat 1-1-1-1)
+    Talk to Sir Amik Varze. (Chat 3)
+    Talk to Sir Tiffy Cashien. (Chat 1)
+    Talk to Sir Amik Varze. (Chat 3)
+    Talk to Sir Tiffy Cashien. (Chat 1-2-1)
+    Right-click the commorb and select 'contact'. (Chat 2)
+    Right-click the commorb and select 'contact' again. (Chat 1)
 Mage of Zamorak
-    Speak to the Mage of Zamorak in the Wilderness just north of Edgeville. (You can skip this step if you've previously done the Abyss miniquest)
-    Head to the Altar of Chaos in southeast Varrock and talk to the Mage of Zamorak twice. (Chat 2�2)
-Daquarius
-    Head over to Taverley Dungeon.
-    Follow the dungeon north, then east and then south, up to the Black Knights' Base.
-    Talk to Lord Daquarius in the southwestern most room.
-    Kill a level 33 Black Knight and go through Daquarius's dialogue.
+    Talk to the Mage of Zamorak in the Wilderness. (Skip if started the Abyss miniquest)
+    Talk to the Mage of Zamorak twice in Varrock. (Chat 2-2)
+Lord Daquarius
+    Talk to Lord Daquarius.
+    Defeat a level 33 Black Knight.
+    Talk to Lord Daquarius.
 Hunt for Solus
-    Head to Canifis and run around until Savant calls you.
-    Use the "scan" option of the Commorb near the bank in Canifis to unveil Solus.
-    Have a look at the item list in the table below to find Solus Dellagar's location.
-
-Troll Romance
-Quest Requirements: Death Plateau, Troll Stronghold
-Level Requirements: 28 Agility
-Items: Iron bar, Maple or Yew logs, Rope, Cake tin, Swamp tar, Climbing boots, Bucket of wax (Insect repellant and bucket)
-Enemies to defeat: Arrg (level 113)
-Recommended: Trollheim teleport, Games necklace, Food, Prayer potions
-Getting started
-    Talk to Ug. (Chat 1-3)
-    Talk to Aga. (Chat 2-1)
-    Talk to Arrg. (Chat 2)
-Sled
-    Talk to Tenzing. (Chat 4-2)
-    Talk to Dunstan twice for a sled. (Chat 1-2-1)
-    Use the swamp tar on the bucket of wax to get Wax.
-    Use the Wax on your Sled.
-Sled-Boarding
-    Head towards Trollweiss Mountain.
-    Equip the Sled and go down the slope.
-    Pick rare flowers.
-Love Battle
-    Talk to Ug.
-    Talk to Arrg. (Chat 1) He will teleport you into the arena.
-    Defeat Arrg.
+    Run around Canifis until Savant calls you.
+    Scan with the Commorb by Canifis bank to unveil Solus.
+    Match the item below, to find the next location of Solus, then scan the area until you get 20 noted essence.
+Final Battle
+    Right-click Aubury and teleport to the Rune Essence Mine.
+    Defeat Solus.
 Finishing up
-    Note: You can use a safespot by running to the western entrance and then moving just north.
-    Talk to Ug.
+    Talk to Sir Amik Varze.
     Quest complete!
 
 Alfred Grimhand's Barcrawl

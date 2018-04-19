@@ -36,7 +36,7 @@ def quest_index(request):
             finished_quest.append(f2p_quest)
 
     for member_quest in member_quests:
-        member_quest_name = member_quest['quest_name'].lower().replace("'", "").replace('- ', '').replace(' ', "_")
+        member_quest_name = member_quest['quest_name'].lower().replace("'", "").replace('- ', '').replace(' ', "_").replace('!', '')
         if member_quest_name in quests:
             finished_quest.append(member_quest)
 
