@@ -1,143 +1,305 @@
 {
-  "making_history": {
-    "name": "Making History",
-    "directory": "making_history",
+  "shilo_village": {
+    "name": "Shilo Village",
+    "directory": "shilo_village",
     "req": [
       {
-        "items": ["The Restless Ghost", "Priest in Peril"],
+        "items": ["Jungle Potion"],
         "name": "Quest Requirements"
       },
       {
-        "items": ["Spade", "Sapphire amulet", "Ghostspeak amulet", "2 Ecto-tokens (if Ghosts Ahoy is not completed)"],
+        "items": ["32 Agility", "20 Crafting"],
+        "name": "Level Requirements"
+      },
+      {
+        "items": ["Candle or Torch", "Tinderbox", "Rope", "Bronze wire", "Hammer", "Chisel", "3 Bones"],
         "name": "Items"
       },
       {
-        "items": ["Necklace of passage (The Outpost)", "Ardougne Teleport", "Dueling Ring (Castle Wars)", "Ectophial", "House Teleport (Relleka)"],
+        "items": [
+          "3 forms of Nazastarool (Level 91, 63, 93)"],
+        "name": "Enemies to defeat"
+      },
+      {
+        "items": ["Dueling Ring (Duel Arena)", "Gnome Glider", "Food", "Weapons to safe-spot"],
         "name": "Recommended"
       }
     ],
     "steps": {
       "1": {
-        "last": true,
-        "step": "Talk to Jorral. (Chat 1-1-1-3)",
+        "step": "Talk to Mosol Rei. (Chat 1-1-1-4-2)",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": ["North of Underground Pass"],
-            "description": ["Talk to Jorral."]
+            "location": ["Shilo Village"],
+            "description": ["Talk to Mosol Rei."]
           }
         }
       },
       "2": {
-        "step": "Talk to the Silver merchant. (Chat 3)",
-        "subtitle": "Erin the Silver merchant",
+        "step": "Use the wampum belt on Trufitus. (Chat 2-2-1-3-1)",
+        "last": true,
         "details": {
           "1": {
-            "location": ["East Ardougne"],
-            "description": ["Talk to the Silver merchant."]
+            "location": ["Tai Bwo Wannai"],
+            "description": ["Use the wampum belt on Trufitus."]
           }
         }
       },
       "3": {
-        "step": "Dig on white flowers, north of castle wars.",
+        "step": "Use your spade on the mound of earth.",
+        "subtitle": "Ah Za Rhoon",
         "details": {
           "1": {
-            "location": ["North of Castle Wars"],
-            "description": ["Dig on white flowers, north of castle wars."]
+            "location": ["South-west of Gnome glider crash"],
+            "description": ["Use your spade on the mound of earth."]
           }
         }
       },
       "4": {
-        "step": "Use the enchanted key on the chest to get a journal.",
-        "last": true,
+        "step": "Use a lit torch or candle on the fissure, then use your rope on the fissure. (Chat: 1)",
         "details": {
           "1": {
-            "description": ["Use the enchanted key on the chest to get a journal."]
+            "location": ["South-west of Gnome glider crash"],
+            "description": ["Use a lit torch or candle on the fissure."]
+          },
+          "2": {
+            "location": ["South-west of Gnome glider crash"],
+            "description": ["Use your rope on the fissure."]
           }
         }
       },
       "5": {
-        "step": "Talk to Droalak.",
-        "subtitle": "Droalak the Ghost",
+        "step": "Search the fissure to climb down. (Chat: 1)",
         "details": {
           "1": {
-            "location": ["Port Phasmatys"],
-            "description": ["Talk to Droalak."]
+            "location": ["South-west of Gnome glider crash"],
+            "description": ["Search the fissure to climb down."]
           }
         }
       },
       "6": {
-        "step": "Talk to Melina to give her a strung sapphire amulet.",
+        "step": "Use chisel on stone to get stone-plaque.",
         "details": {
           "1": {
-            "location": ["Port Phasmatys"],
-            "description": ["Talk to Melina to give her a strung sapphire amulet."]
+            "location": ["Ah Za Rhoon"],
+            "description": ["Use chisel on stone to get stone-plaque."]
           }
         }
       },
       "7": {
-        "step": "Talk to Droalak to receive a scroll.",
-        "last": true,
+        "step": "Search the cave-in. (Chat 1)",
         "details": {
           "1": {
-            "location": ["Port Phasmatys"],
-            "description": ["Talk to Droalak to receive a scroll."]
+            "location": ["Ah Za Rhoon"],
+            "description": ["Search the cave-in."]
           }
         }
       },
       "8": {
-        "step": "Talk to Blanin.",
-        "subtitle": "Dron the Warrior",
+        "step": "Search the loose rocks to find a tattered scroll. Read the scroll. (Chat: 1)",
         "details": {
           "1": {
-            "location": ["East Ardougne"],
-            "description": ["Talk to Blanin."]
+            "location": ["Ah Za Rhoon"],
+            "description": ["Search the loose rocks to find a tattered scroll. Read the scroll."]
           }
         }
       },
       "9": {
-        "step": "Talk to Dron. (Chat 3-2) Answers: (Chat 2-1-2-1-2-2-1-3-3-1-1-1).",
-        "last": true,
+        "step": "Search the sacks to find a crumpled scroll. Read the scroll.",
         "details": {
           "1": {
-            "location": ["East Ardougne"],
-            "description": ["Talk to Dron."]
+            "location": ["Ah Za Rhoon"],
+            "description": ["Search the sacks to find a crumpled scroll. Read the scroll."]
           }
         }
       },
       "10": {
-        "step": "Talk to Jorral with the scroll and journal.",
-        "subtitle": "Finishing up",
+        "step": "Search the ancient gallows to get the Zadimus corpse. (Chat 2)",
+        "last": true,
         "details": {
           "1": {
-            "location": ["East Ardougne"],
-            "description": ["Talk to Jorral with the scroll and journal."]
+            "location": ["Ah Za Rhoon"],
+            "description": ["Search the ancient gallows to get the Zadimus corpse."]
           }
         }
       },
       "11": {
-        "step": "Talk to King Lathas. (Chat 1)",
+        "step": "Bury the corpse by the Tribal statue in Tai-Bwo-Wannai.",
+        "subtitle": "Proper Burial",
         "details": {
           "1": {
-            "location": ["East Ardougne"],
-            "description": ["Climb up the staircase."]
+            "location": ["Ah Za Rhoon"],
+            "description": ["Teleport or go back to the entrance and use the chisel on the table to leave the cave."]
           },
           "2": {
-            "location": ["East Ardougne"],
-            "description": ["Talk to King Lathas."]
+            "location": ["Tai Bwo Wannai"],
+            "description": ["Bury the corpse by the Tribal statue in Tai-Bwo-Wannai."]
           }
         }
       },
       "12": {
-        "step": "Talk to Jorral.",
+        "step": "Use the bone shard on Trufitus. (Chat 1-1-1)",
+        "last": true,
         "details": {
           "1": {
-            "location": ["East Ardougne"],
-            "description": ["Talk to Jorral."]
+            "location": ["Tai Bwo Wannai"],
+            "description": ["Use the bone shard on Trufitus."]
           }
         }
       },
       "13": {
+        "step": "Search the well-stacked rocks on Cairn Isle. (Chat 1 )",
+        "subtitle": "Tomb of Bervirius",
+        "details": {
+          "1": {
+            "location": ["Cairn Isle"],
+            "description": ["Climb the rocks and cross the bridge to get to Cairn Isle."]
+          },
+          "2": {
+            "location": ["Cairn Isle"],
+            "description": ["Search the well-stacked rocks on Cairn Isle."]
+          }
+        }
+      },
+      "14": {
+        "step": "Search the dolmen.",
+        "details": {
+          "1": {
+            "location": ["Tomb of Bervirius"],
+            "description": ["Search the dolmen."]
+          }
+        }
+      },
+      "15": {
+        "step": "Use a chisel on the sword pommel.",
+        "details": {
+          "1": {
+            "description": ["Use a chisel on the sword pommel."]
+          }
+        }
+      },
+      "16": {
+        "step": "Use bronze wire on the bone beads.",
+        "details": {
+          "1": {
+            "description": ["Use bronze wire on the bone beads."]
+          }
+        }
+      },
+      "17": {
+        "step": "Search the unique bright green palm tree from the north side to find two doors.",
+        "subtitle": "Tomb of Rashiliyia",
+        "details": {
+          "1": {
+            "location": ["Tomb of Bervirius"],
+            "description": ["Teleport or climb up the rockslide to exit the cave."]
+          },
+          "2": {
+            "location": ["North of gnome glider crash"],
+            "description": ["Search the unique bright green palm tree from the north side to find two doors."]
+          }
+        }
+      },
+      "18": {
+        "step": "Attempt to open the door.",
+        "details": {
+          "1": {
+            "location": ["North of gnome glider crash"],
+            "description": ["Attempt to open the door."]
+          }
+        }
+      },
+      "19": {
+        "step": "Use your chisel on the bone shard to make a bone key.",
+        "details": {
+          "1": {
+            "description": ["Use your chisel on the bone shard to make a bone key."]
+          }
+        }
+      },
+      "20": {
+        "step": "Equip the Beads of the dead then use the key on the doors.",
+        "details": {
+          "1": {
+            "location": ["North of gnome glider crash"],
+            "description": ["Equip the Beads of the dead then use the key on the doors."]
+          }
+        }
+      },
+      "21": {
+        "step": "Use all 3 bones on the skeleton doors. (Note: DO NOT BURY THE BONES!.)",
+        "details": {
+          "1": {
+            "location": ["Tomb of Rashiliyia"],
+            "description": ["Open the Ancient metal gate."]
+          },
+          "2": {
+            "location": ["Tomb of Rashiliyia"],
+            "description": ["Climb down the rocks."]
+          },
+          "3": {
+            "location": ["Tomb of Rashiliyia"],
+            "description": ["Use all 3 bones on the skeleton doors."]
+          }
+        }
+      },
+      "22": {
+        "step": "Search the dolmen.",
+        "details": {
+          "1": {
+            "location": ["Tomb of Rashiliyia"],
+            "description": ["Search the dolmen."]
+          }
+        }
+      },
+      "23": {
+        "step": "Defeat 3 forms of Nazastarool.",
+        "details": {
+          "1": {
+            "location": ["Tomb of Rashiliyia"],
+            "description": ["Defeat Nazastarool (Level 91) zombie form."]
+          },
+          "2": {
+            "location": ["Tomb of Rashiliyia"],
+            "description": ["Defeat Nazastarool (Level 68) skeleton form."]
+          },
+          "3": {
+            "location": ["Tomb of Rashiliyia"],
+            "description": ["Defeat Nazastarool (Level 93) ghost form."]
+          }
+        }
+      },
+      "24": {
+        "step": "Take Rashiliyia corpse.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Tomb of Rashiliyia"],
+            "description": ["Take Rashiliyia corpse."]
+          }
+        }
+      },
+      "25": {
+        "step": "Go down the well-stacked rocks on Cairn Isle. (Chat 1)",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Cairn Isle"],
+            "description": ["Go down the well-stacked rocks on Cairn Isle."]
+          }
+        }
+      },
+      "26": {
+        "step": "Use the Rashiliyia corpse on the dolmen.",
+        "details": {
+          "1": {
+            "location": ["Tomb of Bervirius"],
+            "description": ["Use the Rashiliyia corpse on the dolmen."]
+          }
+        }
+      },
+      "27": {
         "step": "Quest complete!",
         "details": {
           "1": {}

@@ -27,27 +27,26 @@ def quest_index(request):
         data = {'success': False, 'error_id': 2, 'error_msg:': 'IO Error', 'directory': file_path}
         return HttpResponse(json.dumps(data), 'application/json')
 
-    finished_quest = []
+    f2p_quest_list = []
+    member_quest_list = []
 
     # Check quest
     for f2p_quest in f2p_quests:
         f2p_quest_name = f2p_quest['quest_name'].lower().replace("'", "").replace(' ', "_")
         if f2p_quest_name in quests:
-            finished_quest.append(f2p_quest)
+            f2p_quest_list.append(f2p_quest)
 
     for member_quest in member_quests:
         member_quest_name = member_quest['quest_name'].lower().replace("'", "").replace('- ', '').replace(' ', "_").replace('!', '')
         if member_quest_name in quests:
-            finished_quest.append(member_quest)
+            member_quest_list.append(member_quest)
 
-    print (len(f2p_quests) + len(member_quests))
-    print (len(f2p_quests) + len(member_quests)) - len(finished_quest)
+    print (len(f2p_quests) + len(member_quests)) - (len(f2p_quest_list) + len(member_quest_list))
 
     data = {
         'base_url': get_base_url(),
-        'f2p_quests': json.dumps(finished_quest),
-        #'member_quests': json.dumps(member_quests),
-        'member_quests': [{}],
+        'f2p_quests': json.dumps(f2p_quest_list),
+        'member_quests': json.dumps(member_quest_list),
         'quest': {}
     }
 

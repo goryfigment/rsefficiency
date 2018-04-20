@@ -1,4 +1,4 @@
-<h2 id="quest-title">Quests</h2>
+<h2 class="quest-header">F2P Quests</h2>
 <table class="index clue-table" summary="Quest Table">
     <thead>
         <tr>
@@ -8,25 +8,37 @@
             <th scope="col">Free/Members</th>
         </tr>
     </thead>
+    <tbody>
     {{#each f2p_quests}}
-        <tbody>
-            <tr>
-                <td><a href="{{concat '/quest/' url}}">{{quest_name}}</a></td>
-                <td data-value="{{#ifCond difficulty '==' 'Novice'}}1{{/ifCond}}{{#ifCond difficulty '==' 'Intermediate'}}2{{/ifCond}}{{#ifCond difficulty '==' 'Experienced'}}3{{/ifCond}}{{#ifCond difficulty '==' 'Master'}}4{{/ifCond}}{{#ifCond difficulty '==' 'Grandmaster'}}5{{/ifCond}}">{{difficulty}}</td>
-                <td>{{qp}}</td>
-                <td>{{members}}</td>
-            </tr>
-        </tbody>
+        <tr>
+            <td><a href="{{concat '/quest/' url}}">{{quest_name}}</a></td>
+            <td data-value="{{#ifCond difficulty '==' 'Novice'}}1{{/ifCond}}{{#ifCond difficulty '==' 'Intermediate'}}2{{/ifCond}}{{#ifCond difficulty '==' 'Experienced'}}3{{/ifCond}}{{#ifCond difficulty '==' 'Master'}}4{{/ifCond}}{{#ifCond difficulty '==' 'Grandmaster'}}5{{/ifCond}}">{{difficulty}}</td>
+            <td>{{qp}}</td>
+            <td>{{members}}</td>
+        </tr>
     {{/each}}
+    </tbody>
+</table>
 
-    {{#each member_quests}}
-        <tbody>
+<h2 class="quest-header">Member Quests</h2>
+
+<table class="index clue-table" summary="Quest Table">
+    <thead>
+        <tr>
+            <th scope="col">Quest</th>
+            <th class="sortable" scope="col">Difficulty</th>
+            <th class="sortable" scope="col">Quest Points</th>
+            <th scope="col">Free/Members</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{#each member_quests}}
             <tr>
                 <td><a href="{{concat '/quest/' url}}">{{quest_name}}</a></td>
                 <td data-value="{{#ifCond difficulty '==' 'Novice'}}1{{/ifCond}}{{#ifCond difficulty '==' 'Intermediate'}}2{{/ifCond}}{{#ifCond difficulty '==' 'Experienced'}}3{{/ifCond}}{{#ifCond difficulty '==' 'Master'}}4{{/ifCond}}{{#ifCond difficulty '==' 'Grandmaster'}}5{{/ifCond}}">{{difficulty}}</td>
                 <td>{{qp}}</td>
                 <td>{{members}}</td>
             </tr>
-        </tbody>
-    {{/each}}
+        {{/each}}
+    </tbody>
 </table>

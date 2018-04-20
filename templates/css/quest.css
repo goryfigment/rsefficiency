@@ -1,4 +1,4 @@
-#quest-title {
+.quest-header {
     margin: 40px 0;
     text-align: center;
     color: white;
@@ -103,6 +103,26 @@
     padding: 11px;
     background-color: #323c50;
     border: 1.5px gray solid;
+    position: relative;
+}
+
+.step:after {
+    content: "\25BE";
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    font-size: 20px;
+    color: #ecc245;
+    transform: rotate(180deg);
+}
+
+.step.expanded:after {
+    content: "\25B4";
+    position: absolute;
+    right: 5px;
+    top: 10px;
+    font-size: 20px;
+    color: #ecc245;
 }
 
 .collapsible {

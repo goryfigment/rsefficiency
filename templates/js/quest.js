@@ -18,8 +18,7 @@ function init() {
 
     if(!$.isEmptyObject(globals.f2p_quests) && !$.isEmptyObject(globals.member_quests)) {
         $questWrapper.empty();
-        //$questWrapper.append(questIndexTemplate({'f2p_quests': globals.f2p_quests, 'member_quests': globals.member_quests}));
-        $questWrapper.append(questIndexTemplate({'f2p_quests': globals.f2p_quests}));
+        $questWrapper.append(questIndexTemplate({'f2p_quests': globals.f2p_quests, 'member_quests': globals.member_quests}));
     } else {
         $questWrapper.append(quest(globals.quest));
     }
@@ -27,7 +26,9 @@ function init() {
     if (localStorage.getItem("expand") == 'true') {
         $('#flexible-button').text('Minimize');
         $(".collapsible").each(function() {
-            $(this).show();
+            var $collapisible = $(this);
+            $collapisible.show();
+            $collapisible.siblings('.step').addClass('expanded');
         });
     }
 }
@@ -73,6 +74,13 @@ $(document).ready(function() {
     $(document).on('click', '.toggle', function () {
         var $toggle = $(this);
         var $collapisible = $toggle.find('.collapsible');
+        var $step = $toggle.find('.step');
+
+        if ($step.hasClass('expanded')) {
+            $step.removeClass('expanded');
+        } else {
+            $step.addClass('expanded');
+        }
 
         $collapisible.slideToggle(250, function () {
             //execute this after slideToggle is done
@@ -90,13 +98,17 @@ $(document).ready(function() {
             $this.text('Minimize');
             localStorage.setItem("expand", 'true');
             $(".collapsible").each(function() {
-                $(this).show();
+                var $collapisible = $(this);
+                $collapisible.show();
+                $collapisible.siblings('.step').addClass('expanded');
             });
         } else {
             $this.text('Expand');
             localStorage.setItem("expand", 'false');
             $(".collapsible").each(function() {
-                $(this).hide();
+                var $collapisible = $(this);
+                $collapisible.hide();
+                $collapisible.siblings('.step').removeClass('expanded');
             });
         }
     });
