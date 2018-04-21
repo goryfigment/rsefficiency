@@ -1,305 +1,222 @@
 {
-  "shilo_village": {
-    "name": "Shilo Village",
-    "directory": "shilo_village",
+  "shades_of_mortton": {
+    "name": "Shades of Mort'ton",
+    "directory": "shades_of_mortton",
     "req": [
       {
-        "items": ["Jungle Potion"],
+        "items": ["Priest of Peril"],
         "name": "Quest Requirements"
       },
       {
-        "items": ["32 Agility", "20 Crafting"],
+        "items": ["20 Crafting", "15 Herblore", "5 Firemaking"],
         "name": "Level Requirements"
       },
       {
-        "items": ["Candle or Torch", "Tinderbox", "Rope", "Bronze wire", "Hammer", "Chisel", "3 Bones"],
+        "items": ["2 Tarromin potion (unf)", "Logs (Regular)", "2 Ashes", "Tinderbox", "~1000 Coins"],
         "name": "Items"
       },
       {
-        "items": [
-          "3 forms of Nazastarool (Level 91, 63, 93)"],
+        "items": ["5 Loar Shades (level 40)"
+        ],
         "name": "Enemies to defeat"
       },
       {
-        "items": ["Dueling Ring (Duel Arena)", "Gnome Glider", "Food", "Weapons to safe-spot"],
+        "items": ["Mort'ton teleport", "Food", "11 free inventory space", "Flamtaer hammer (or 13,000 coins to buy it at the general store) to build faster"],
         "name": "Recommended"
       }
     ],
     "steps": {
       "1": {
-        "step": "Talk to Mosol Rei. (Chat 1-1-1-4-2)",
+        "last": true,
+        "step": "Search the shelf for a diary and open the book.",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": ["Shilo Village"],
-            "description": ["Talk to Mosol Rei."]
+            "location": ["Mort'ton"],
+            "description": ["Search the shelf for a diary and open the book."]
           }
         }
       },
       "2": {
-        "step": "Use the wampum belt on Trufitus. (Chat 2-2-1-3-1)",
-        "last": true,
+        "step": "Use ashes on Tarromin potion (unf) to make Serum 207.",
+        "subtitle": "A Temporary Cure (Serum 207)",
         "details": {
           "1": {
-            "location": ["Tai Bwo Wannai"],
-            "description": ["Use the wampum belt on Trufitus."]
+            "description": ["Use ashes on Tarromin potion"]
           }
         }
       },
       "3": {
-        "step": "Use your spade on the mound of earth.",
-        "subtitle": "Ah Za Rhoon",
+        "step": "Use Serum 207 on Razmire (afflicted). (Chat 4-1)",
         "details": {
           "1": {
-            "location": ["South-west of Gnome glider crash"],
-            "description": ["Use your spade on the mound of earth."]
+            "location": ["Mort'ton"],
+            "description": ["Use Serum 207 on Razmire (afflicted)."]
           }
         }
       },
       "4": {
-        "step": "Use a lit torch or candle on the fissure, then use your rope on the fissure. (Chat: 1)",
+        "step": "Kill five loar shades and pick-up their remains.",
         "details": {
           "1": {
-            "location": ["South-west of Gnome glider crash"],
-            "description": ["Use a lit torch or candle on the fissure."]
+            "location": ["Mort'ton"],
+            "description": ["Kill five loar shades."]
           },
           "2": {
-            "location": ["South-west of Gnome glider crash"],
-            "description": ["Use your rope on the fissure."]
+            "location": ["Mort'ton"],
+            "description": ["Pick-up loar remains."]
           }
         }
       },
       "5": {
-        "step": "Search the fissure to climb down. (Chat: 1)",
+        "step": "Use Serum 207 on Razmire (afflicted). (Chat 4)",
         "details": {
           "1": {
-            "location": ["South-west of Gnome glider crash"],
-            "description": ["Search the fissure to climb down."]
+            "location": ["Mort'ton"],
+            "description": ["Use Serum 207 on Razmire(afflicted) if got infected again."]
           }
         }
       },
       "6": {
-        "step": "Use chisel on stone to get stone-plaque.",
+        "step": "Right-click and open his general store to buy Olive oil.",
         "details": {
           "1": {
-            "location": ["Ah Za Rhoon"],
-            "description": ["Use chisel on stone to get stone-plaque."]
+            "location": ["Mort'ton"],
+            "description": ["Right-click and open his general store to buy Olive oil."]
           }
         }
       },
       "7": {
-        "step": "Search the cave-in. (Chat 1)",
+        "step": "Right-click and open his builders store to buy 5 timber beams, 5 limestone bricks, 25 swamp paste.",
         "details": {
           "1": {
-            "location": ["Ah Za Rhoon"],
-            "description": ["Search the cave-in."]
+            "location": ["Mort'ton"],
+            "description": ["Right-click and open his builders store to buy 5 timber beams, 5 limestone bricks, 25 swamp paste."]
           }
         }
       },
       "8": {
-        "step": "Search the loose rocks to find a tattered scroll. Read the scroll. (Chat: 1)",
+        "step": "Use the Serum 207 on Ulsquire Shauncy.",
         "details": {
           "1": {
-            "location": ["Ah Za Rhoon"],
-            "description": ["Search the loose rocks to find a tattered scroll. Read the scroll."]
+            "location": ["Mort'ton"],
+            "description": ["Use the serum on Ulsquire Shauncy."]
           }
         }
       },
       "9": {
-        "step": "Search the sacks to find a crumpled scroll. Read the scroll.",
+        "step": "Talk to Ulsquire Shauncy again. (Chat 1-2-5)",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Ah Za Rhoon"],
-            "description": ["Search the sacks to find a crumpled scroll. Read the scroll."]
+            "location": ["Mort'ton"],
+            "description": ["Talk to Ulsquire Shauncy again."]
           }
         }
       },
       "10": {
-        "step": "Search the ancient gallows to get the Zadimus corpse. (Chat 2)",
-        "last": true,
+        "step": "Repair the temple until you reach 100% repair and at least 10 sanctity. (Use World 77 for the official mini-game world)",
+        "subtitle": "Repairing the temple",
         "details": {
           "1": {
-            "location": ["Ah Za Rhoon"],
-            "description": ["Search the ancient gallows to get the Zadimus corpse."]
+            "location": ["Mort'ton"],
+            "description": ["Go to world 77 and repair the temple until you reach 100% repair and at least 10 sanctity."]
           }
         }
       },
       "11": {
-        "step": "Bury the corpse by the Tribal statue in Tai-Bwo-Wannai.",
-        "subtitle": "Proper Burial",
+        "step": "Light the sacred altar in the centre of the temple.",
         "details": {
           "1": {
-            "location": ["Ah Za Rhoon"],
-            "description": ["Teleport or go back to the entrance and use the chisel on the table to leave the cave."]
-          },
-          "2": {
-            "location": ["Tai Bwo Wannai"],
-            "description": ["Bury the corpse by the Tribal statue in Tai-Bwo-Wannai."]
+            "location": ["Mort'ton"],
+            "description": ["Light the sacred altar in the centre of the temple. Or wait for another player to light the altar."]
           }
         }
       },
       "12": {
-        "step": "Use the bone shard on Trufitus. (Chat 1-1-1)",
-        "last": true,
+        "step": "Use your olive oil on the flame to make sacred oil.",
         "details": {
           "1": {
-            "location": ["Tai Bwo Wannai"],
-            "description": ["Use the bone shard on Trufitus."]
+            "location": ["Mort'ton"],
+            "description": ["Use your olive oil on the flame to make sacred oil."]
           }
         }
       },
       "13": {
-        "step": "Search the well-stacked rocks on Cairn Isle. (Chat 1 )",
-        "subtitle": "Tomb of Bervirius",
+        "step": "(Optional) Use Serum 207 on the flame to make Serum 208, which permanently cures NPCs.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Cairn Isle"],
-            "description": ["Climb the rocks and cross the bridge to get to Cairn Isle."]
+            "location": ["Mort'ton"],
+            "description": ["Use Serum 207 on the flame to make Serum 208, which permanently cures NPCs."]
           },
           "2": {
-            "location": ["Cairn Isle"],
-            "description": ["Search the well-stacked rocks on Cairn Isle."]
+            "location": ["Mort'ton"],
+            "description": ["Use Serum 208 on Razmire (afflicted) to permanently cure him."]
+          },
+          "3": {
+            "location": ["Mort'ton"],
+            "description": ["Use Serum 208 on Ulsquire (afflicted) to permanently cure him."]
           }
         }
       },
       "14": {
-        "step": "Search the dolmen.",
+        "step": "Use a sacred oil on a log.",
+        "subtitle": "Burning a shade",
         "details": {
           "1": {
-            "location": ["Tomb of Bervirius"],
-            "description": ["Search the dolmen."]
+            "description": ["Use a sacred oil on a log."]
           }
         }
       },
       "15": {
-        "step": "Use a chisel on the sword pommel.",
+        "step": "Use the pyre log on the funeral pyre.",
         "details": {
           "1": {
-            "description": ["Use a chisel on the sword pommel."]
+            "location": ["Mort'ton"],
+            "description": ["Use the pyre log on the funeral pyre."]
           }
         }
       },
       "16": {
-        "step": "Use bronze wire on the bone beads.",
+        "step": "Use the Loar remains on the funeral pyre.",
         "details": {
           "1": {
-            "description": ["Use bronze wire on the bone beads."]
+            "location": ["Mort'ton"],
+            "description": ["Use the Loar remains on the funeral pyre."]
           }
         }
       },
       "17": {
-        "step": "Search the unique bright green palm tree from the north side to find two doors.",
-        "subtitle": "Tomb of Rashiliyia",
+        "step": "Light the funeral pyre.",
         "details": {
           "1": {
-            "location": ["Tomb of Bervirius"],
-            "description": ["Teleport or climb up the rockslide to exit the cave."]
-          },
-          "2": {
-            "location": ["North of gnome glider crash"],
-            "description": ["Search the unique bright green palm tree from the north side to find two doors."]
+            "location": ["Mort'ton"],
+            "description": ["Light the funeral pyre with a tinderbox in inventory."]
           }
         }
       },
       "18": {
-        "step": "Attempt to open the door.",
+        "step": "Pick-up the reward.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["North of gnome glider crash"],
-            "description": ["Attempt to open the door."]
+            "location": ["Mort'ton"],
+            "description": ["Pick-up the reward."]
           }
         }
       },
       "19": {
-        "step": "Use your chisel on the bone shard to make a bone key.",
+        "step": "Talk to Ulsquire Shauncy.",
+        "subtitle": "Finishing up",
         "details": {
           "1": {
-            "description": ["Use your chisel on the bone shard to make a bone key."]
+            "location": ["Mort'ton"],
+            "description": ["Talk to Ulsquire Shauncy."]
           }
         }
       },
       "20": {
-        "step": "Equip the Beads of the dead then use the key on the doors.",
-        "details": {
-          "1": {
-            "location": ["North of gnome glider crash"],
-            "description": ["Equip the Beads of the dead then use the key on the doors."]
-          }
-        }
-      },
-      "21": {
-        "step": "Use all 3 bones on the skeleton doors. (Note: DO NOT BURY THE BONES!.)",
-        "details": {
-          "1": {
-            "location": ["Tomb of Rashiliyia"],
-            "description": ["Open the Ancient metal gate."]
-          },
-          "2": {
-            "location": ["Tomb of Rashiliyia"],
-            "description": ["Climb down the rocks."]
-          },
-          "3": {
-            "location": ["Tomb of Rashiliyia"],
-            "description": ["Use all 3 bones on the skeleton doors."]
-          }
-        }
-      },
-      "22": {
-        "step": "Search the dolmen.",
-        "details": {
-          "1": {
-            "location": ["Tomb of Rashiliyia"],
-            "description": ["Search the dolmen."]
-          }
-        }
-      },
-      "23": {
-        "step": "Defeat 3 forms of Nazastarool.",
-        "details": {
-          "1": {
-            "location": ["Tomb of Rashiliyia"],
-            "description": ["Defeat Nazastarool (Level 91) zombie form."]
-          },
-          "2": {
-            "location": ["Tomb of Rashiliyia"],
-            "description": ["Defeat Nazastarool (Level 68) skeleton form."]
-          },
-          "3": {
-            "location": ["Tomb of Rashiliyia"],
-            "description": ["Defeat Nazastarool (Level 93) ghost form."]
-          }
-        }
-      },
-      "24": {
-        "step": "Take Rashiliyia corpse.",
-        "last": true,
-        "details": {
-          "1": {
-            "location": ["Tomb of Rashiliyia"],
-            "description": ["Take Rashiliyia corpse."]
-          }
-        }
-      },
-      "25": {
-        "step": "Go down the well-stacked rocks on Cairn Isle. (Chat 1)",
-        "subtitle": "Finishing up",
-        "details": {
-          "1": {
-            "location": ["Cairn Isle"],
-            "description": ["Go down the well-stacked rocks on Cairn Isle."]
-          }
-        }
-      },
-      "26": {
-        "step": "Use the Rashiliyia corpse on the dolmen.",
-        "details": {
-          "1": {
-            "location": ["Tomb of Bervirius"],
-            "description": ["Use the Rashiliyia corpse on the dolmen."]
-          }
-        }
-      },
-      "27": {
         "step": "Quest complete!",
         "details": {
           "1": {}

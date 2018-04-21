@@ -15417,5 +15417,230 @@
         }
       }
     }
+  },
+  "shades_of_mortton": {
+    "name": "Shades of Mort'ton",
+    "directory": "shades_of_mortton",
+    "req": [
+      {
+        "items": ["Priest of Peril"],
+        "name": "Quest Requirements"
+      },
+      {
+        "items": ["20 Crafting", "15 Herblore", "5 Firemaking"],
+        "name": "Level Requirements"
+      },
+      {
+        "items": ["2 Tarromin potion (unf)", "Logs (Regular)", "2 Ashes", "Tinderbox", "~1000 Coins"],
+        "name": "Items"
+      },
+      {
+        "items": ["5 Loar Shades (level 40)"
+        ],
+        "name": "Enemies to defeat"
+      },
+      {
+        "items": ["Mort'ton teleport", "Food", "11 free inventory space", "Flamtaer hammer (or 13,000 coins to buy it at the general store) to build faster"],
+        "name": "Recommended"
+      }
+    ],
+    "steps": {
+      "1": {
+        "last": true,
+        "step": "Search the shelf for a diary and open the book.",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["Mort'ton"],
+            "description": ["Search the shelf for a diary and open the book."]
+          }
+        }
+      },
+      "2": {
+        "step": "Use ashes on Tarromin potion (unf) to make Serum 207.",
+        "subtitle": "A Temporary Cure (Serum 207)",
+        "details": {
+          "1": {
+            "description": ["Use ashes on Tarromin potion"]
+          }
+        }
+      },
+      "3": {
+        "step": "Use Serum 207 on Razmire (afflicted). (Chat 4-1)",
+        "details": {
+          "1": {
+            "location": ["Mort'ton"],
+            "description": ["Use Serum 207 on Razmire (afflicted)."]
+          }
+        }
+      },
+      "4": {
+        "step": "Kill five loar shades and pick-up their remains.",
+        "details": {
+          "1": {
+            "location": ["Mort'ton"],
+            "description": ["Kill five loar shades."]
+          },
+          "2": {
+            "location": ["Mort'ton"],
+            "description": ["Pick-up loar remains."]
+          }
+        }
+      },
+      "5": {
+        "step": "Use Serum 207 on Razmire (afflicted). (Chat 4)",
+        "details": {
+          "1": {
+            "location": ["Mort'ton"],
+            "description": ["Use Serum 207 on Razmire(afflicted) if got infected again."]
+          }
+        }
+      },
+      "6": {
+        "step": "Right-click and open his general store to buy Olive oil.",
+        "details": {
+          "1": {
+            "location": ["Mort'ton"],
+            "description": ["Right-click and open his general store to buy Olive oil."]
+          }
+        }
+      },
+      "7": {
+        "step": "Right-click and open his builders store to buy 5 timber beams, 5 limestone bricks, 25 swamp paste.",
+        "details": {
+          "1": {
+            "location": ["Mort'ton"],
+            "description": ["Right-click and open his builders store to buy 5 timber beams, 5 limestone bricks, 25 swamp paste."]
+          }
+        }
+      },
+      "8": {
+        "step": "Use the Serum 207 on Ulsquire Shauncy.",
+        "details": {
+          "1": {
+            "location": ["Mort'ton"],
+            "description": ["Use the serum on Ulsquire Shauncy."]
+          }
+        }
+      },
+      "9": {
+        "step": "Talk to Ulsquire Shauncy again. (Chat 1-2-5)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Mort'ton"],
+            "description": ["Talk to Ulsquire Shauncy again."]
+          }
+        }
+      },
+      "10": {
+        "step": "Repair the temple until you reach 100% repair and at least 10 sanctity. (Use World 77 for the official mini-game world)",
+        "subtitle": "Repairing the temple",
+        "details": {
+          "1": {
+            "location": ["Mort'ton"],
+            "description": ["Go to world 77 and repair the temple until you reach 100% repair and at least 10 sanctity."]
+          }
+        }
+      },
+      "11": {
+        "step": "Light the sacred altar in the centre of the temple.",
+        "details": {
+          "1": {
+            "location": ["Mort'ton"],
+            "description": ["Light the sacred altar in the centre of the temple. Or wait for another player to light the altar."]
+          }
+        }
+      },
+      "12": {
+        "step": "Use your olive oil on the flame to make sacred oil.",
+        "details": {
+          "1": {
+            "location": ["Mort'ton"],
+            "description": ["Use your olive oil on the flame to make sacred oil."]
+          }
+        }
+      },
+      "13": {
+        "step": "(Optional) Use Serum 207 on the flame to make Serum 208, which permanently cures NPCs.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Mort'ton"],
+            "description": ["Use Serum 207 on the flame to make Serum 208, which permanently cures NPCs."]
+          },
+          "2": {
+            "location": ["Mort'ton"],
+            "description": ["Use Serum 208 on Razmire (afflicted) to permanently cure him."]
+          },
+          "3": {
+            "location": ["Mort'ton"],
+            "description": ["Use Serum 208 on Ulsquire (afflicted) to permanently cure him."]
+          }
+        }
+      },
+      "14": {
+        "step": "Use a sacred oil on a log.",
+        "subtitle": "Burning a shade",
+        "details": {
+          "1": {
+            "description": ["Use a sacred oil on a log."]
+          }
+        }
+      },
+      "15": {
+        "step": "Use the pyre log on the funeral pyre.",
+        "details": {
+          "1": {
+            "location": ["Mort'ton"],
+            "description": ["Use the pyre log on the funeral pyre."]
+          }
+        }
+      },
+      "16": {
+        "step": "Use the Loar remains on the funeral pyre.",
+        "details": {
+          "1": {
+            "location": ["Mort'ton"],
+            "description": ["Use the Loar remains on the funeral pyre."]
+          }
+        }
+      },
+      "17": {
+        "step": "Light the funeral pyre.",
+        "details": {
+          "1": {
+            "location": ["Mort'ton"],
+            "description": ["Light the funeral pyre with a tinderbox in inventory."]
+          }
+        }
+      },
+      "18": {
+        "step": "Pick-up the reward.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Mort'ton"],
+            "description": ["Pick-up the reward."]
+          }
+        }
+      },
+      "19": {
+        "step": "Talk to Ulsquire Shauncy.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Mort'ton"],
+            "description": ["Talk to Ulsquire Shauncy."]
+          }
+        }
+      },
+      "20": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }
