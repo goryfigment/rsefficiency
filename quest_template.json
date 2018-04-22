@@ -50,7 +50,7 @@
         }
       },
       "4": {
-        "step": "Search the northern cupboard to the west.",
+        "step": "Search the northern cupboard.",
         "details": {
           "1": {
             "location": ["Nardah"],
