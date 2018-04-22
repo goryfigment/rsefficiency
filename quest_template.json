@@ -1,222 +1,241 @@
 {
-  "shades_of_mortton": {
-    "name": "Shades of Mort'ton",
-    "directory": "shades_of_mortton",
+  "spirits_of_the_elid": {
+    "name": "Spirits of the Elid",
+    "directory": "spirits_of_the_elid",
     "req": [
       {
-        "items": ["Priest of Peril"],
-        "name": "Quest Requirements"
-      },
-      {
-        "items": ["20 Crafting", "15 Herblore", "5 Firemaking"],
+        "items": ["33 Magic", "37 Ranged", "37 Mining", "37 Thieving"],
         "name": "Level Requirements"
       },
       {
-        "items": ["2 Tarromin potion (unf)", "Logs (Regular)", "2 Ashes", "Tinderbox", "~1000 Coins"],
+        "items": ["Shantay pass", "1 Air rune", "1 Law rune", "Needle", "2 Thread", "Knife", "Rope", "Any pickaxe", "Light source", "A stab weapon", "A slash weapon", "A crush weapon", "A light source (Candle, Candle Lantern, Bullsye Lantern)"],
         "name": "Items"
       },
       {
-        "items": ["5 Loar Shades (level 40)"
-        ],
+        "items": ["Black golem (level 75)", "Grey golem (level 75)", "White golem (level 75)"],
         "name": "Enemies to defeat"
       },
       {
-        "items": ["Mort'ton teleport", "Food", "11 free inventory space", "Flamtaer hammer (or 13,000 coins to buy it at the general store) to build faster"],
+        "items": ["Nardah teleports", "Necklace of passage (Eagle's Eyrie)", "Food", "Armor", "Waterskins"],
         "name": "Recommended"
       }
     ],
     "steps": {
       "1": {
-        "last": true,
-        "step": "Search the shelf for a diary and open the book.",
+        "step": "Talk to Awusah the Mayor. (Chat 1-2-1)",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": ["Mort'ton"],
-            "description": ["Search the shelf for a diary and open the book."]
+            "location": ["Nardah"],
+            "description": ["Talk to Awusah the Mayor."]
           }
         }
       },
       "2": {
-        "step": "Use ashes on Tarromin potion (unf) to make Serum 207.",
-        "subtitle": "A Temporary Cure (Serum 207)",
+        "step": "Talk to Ghaslor the Elder. (Chat 1-1)",
         "details": {
           "1": {
-            "description": ["Use ashes on Tarromin potion"]
+            "location": ["Nardah"],
+            "description": ["Talk to Ghaslor the Elder."]
           }
         }
       },
       "3": {
-        "step": "Use Serum 207 on Razmire (afflicted). (Chat 4-1)",
+        "step": "Tele-grab the ancestral key.",
         "details": {
           "1": {
-            "location": ["Mort'ton"],
-            "description": ["Use Serum 207 on Razmire (afflicted)."]
+            "location": ["Nardah"],
+            "description": ["Tele-grab the ancestral key."]
           }
         }
       },
       "4": {
-        "step": "Kill five loar shades and pick-up their remains.",
+        "step": "Search the northern cupboard to the west.",
         "details": {
           "1": {
-            "location": ["Mort'ton"],
-            "description": ["Kill five loar shades."]
-          },
-          "2": {
-            "location": ["Mort'ton"],
-            "description": ["Pick-up loar remains."]
+            "location": ["Nardah"],
+            "description": ["Search the northern cupboard to the west."]
           }
         }
       },
       "5": {
-        "step": "Use Serum 207 on Razmire (afflicted). (Chat 4)",
+        "step": "Use a needle and thread on the torn robes.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Mort'ton"],
-            "description": ["Use Serum 207 on Razmire(afflicted) if got infected again."]
+            "description": ["Use a needle and thread on both the bottom and top torn robes."]
           }
         }
       },
       "6": {
-        "step": "Right-click and open his general store to buy Olive oil.",
+        "step": "Use your rope on the root which overhangs the cave.",
+        "subtitle": "The Golems",
         "details": {
           "1": {
-            "location": ["Mort'ton"],
-            "description": ["Right-click and open his general store to buy Olive oil."]
+            "location": ["River Elid"],
+            "description": ["Use your rope on the root which overhangs the cave."]
           }
         }
       },
       "7": {
-        "step": "Right-click and open his builders store to buy 5 timber beams, 5 limestone bricks, 25 swamp paste.",
+        "step": "Equip the robes of elidinis and use the ancestral key on the door.",
         "details": {
           "1": {
-            "location": ["Mort'ton"],
-            "description": ["Right-click and open his builders store to buy 5 timber beams, 5 limestone bricks, 25 swamp paste."]
+            "location": ["Water Ravine Dungeon"],
+            "description": ["Equip the robes of elidinis and use the ancestral key on the door."]
           }
         }
       },
       "8": {
-        "step": "Use the Serum 207 on Ulsquire Shauncy.",
+        "step": "Enter the south room and defeat the white golem (weak to stab).",
         "details": {
           "1": {
-            "location": ["Mort'ton"],
-            "description": ["Use the serum on Ulsquire Shauncy."]
+            "location": ["Water Ravine Dungeon"],
+            "description": ["Attempt to enter the south room."]
+          },
+          "2": {
+            "location": ["Water Ravine Dungeon"],
+            "description": ["Defeat the white golem (weak to stab)."]
           }
         }
       },
       "9": {
-        "step": "Talk to Ulsquire Shauncy again. (Chat 1-2-5)",
-        "last": true,
+        "step": "Clear the water channel (south room).",
         "details": {
           "1": {
-            "location": ["Mort'ton"],
-            "description": ["Talk to Ulsquire Shauncy again."]
+            "location": ["Water Ravine Dungeon"],
+            "description": ["Enter the south room."]
+          },
+          "2": {
+            "location": ["Water Ravine Dungeon"],
+            "description": ["Clear the water channel."]
           }
         }
       },
       "10": {
-        "step": "Repair the temple until you reach 100% repair and at least 10 sanctity. (Use World 77 for the official mini-game world)",
-        "subtitle": "Repairing the temple",
+        "step": "Enter the east room and defeat the grey golem (weak to slash).",
         "details": {
           "1": {
-            "location": ["Mort'ton"],
-            "description": ["Go to world 77 and repair the temple until you reach 100% repair and at least 10 sanctity."]
+            "location": ["Water Ravine Dungeon"],
+            "description": ["Attempt to enter the east room."]
+          },
+          "2": {
+            "location": ["Water Ravine Dungeon"],
+            "description": ["Defeat the grey golem (weak to slash)."]
           }
         }
       },
       "11": {
-        "step": "Light the sacred altar in the centre of the temple.",
+        "step": "Clear the water channel via pickaxe (east room).",
         "details": {
           "1": {
-            "location": ["Mort'ton"],
-            "description": ["Light the sacred altar in the centre of the temple. Or wait for another player to light the altar."]
+            "location": ["Water Ravine Dungeon"],
+            "description": ["Enter the east room."]
+          },
+          "2": {
+            "location": ["Water Ravine Dungeon"],
+            "description": ["Clear the water channel via pickaxe."]
           }
         }
       },
       "12": {
-        "step": "Use your olive oil on the flame to make sacred oil.",
+        "step": "Enter the north-east room and defeat the black golem (weak to crush).",
         "details": {
           "1": {
-            "location": ["Mort'ton"],
-            "description": ["Use your olive oil on the flame to make sacred oil."]
+            "location": ["Water Ravine Dungeon"],
+            "description": ["Attempt to enter the north-east room."]
+          },
+          "2": {
+            "location": ["Water Ravine Dungeon"],
+            "description": ["Defeat the black golem (weak to crush)."]
           }
         }
       },
       "13": {
-        "step": "(Optional) Use Serum 207 on the flame to make Serum 208, which permanently cures NPCs.",
-        "last": true,
+        "step": "Shoot the target with a bow/crossbow (north-east room).",
         "details": {
           "1": {
-            "location": ["Mort'ton"],
-            "description": ["Use Serum 207 on the flame to make Serum 208, which permanently cures NPCs."]
+            "location": ["Water Ravine Dungeon"],
+            "description": ["Enter the north-east room."]
           },
           "2": {
-            "location": ["Mort'ton"],
-            "description": ["Use Serum 208 on Razmire (afflicted) to permanently cure him."]
-          },
-          "3": {
-            "location": ["Mort'ton"],
-            "description": ["Use Serum 208 on Ulsquire (afflicted) to permanently cure him."]
+            "location": ["Water Ravine Dungeon"],
+            "description": ["Shoot the target with a bow/crossbow."]
           }
         }
       },
       "14": {
-        "step": "Use a sacred oil on a log.",
-        "subtitle": "Burning a shade",
+        "step": "Enter the north door and talk to one of the spirits. (Chat 4-1)",
+        "last": true,
         "details": {
           "1": {
-            "description": ["Use a sacred oil on a log."]
+            "location": ["Water Ravine Dungeon"],
+            "description": ["Enter the north door."]
+          },
+          "2": {
+            "location": ["Water Ravine Dungeon"],
+            "description": ["Talk to one of the spirits."]
           }
         }
       },
       "15": {
-        "step": "Use the pyre log on the funeral pyre.",
+        "step": "Talk to Awusah the Mayor.",
+        "subtitle": "The Genie",
         "details": {
           "1": {
-            "location": ["Mort'ton"],
-            "description": ["Use the pyre log on the funeral pyre."]
+            "location": ["Nardah"],
+            "description": ["Talk to Awusah the Mayor."]
           }
         }
       },
       "16": {
-        "step": "Use the Loar remains on the funeral pyre.",
+        "step": "Pick-up the shoes.",
         "details": {
           "1": {
-            "location": ["Mort'ton"],
-            "description": ["Use the Loar remains on the funeral pyre."]
+            "location": ["Nardah"],
+            "description": ["Pick-up the shoes."]
           }
         }
       },
       "17": {
-        "step": "Light the funeral pyre.",
+        "step": "Use a knife on them outside of the house to obtain sole.",
         "details": {
           "1": {
-            "location": ["Mort'ton"],
-            "description": ["Light the funeral pyre with a tinderbox in inventory."]
+            "location": ["Nardah"],
+            "description": ["Use a knife on them outside of the house to obtain sole."]
           }
         }
       },
       "18": {
-        "step": "Pick-up the reward.",
-        "last": true,
+        "step": "Use a rope on the crevice.",
         "details": {
           "1": {
-            "location": ["Mort'ton"],
-            "description": ["Pick-up the reward."]
+            "location": ["West of Nardah"],
+            "description": ["Use a rope on the crevice."]
           }
         }
       },
       "19": {
-        "step": "Talk to Ulsquire Shauncy.",
-        "subtitle": "Finishing up",
+        "step": "Talk to the Genie twice. (Chat 1-1-3)",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Mort'ton"],
-            "description": ["Talk to Ulsquire Shauncy."]
+            "location": ["Nardah Cavern"],
+            "description": ["Talk to the Genie twice to get a statuette."]
           }
         }
       },
       "20": {
+        "step": "Use the statuette on the statuette plinth.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Nardah"],
+            "description": ["Use the statuette on the statuette plinth."]
+          }
+        }
+      },
+      "21": {
         "step": "Quest complete!",
         "details": {
           "1": {}

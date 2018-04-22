@@ -232,37 +232,37 @@ Getting started
     Red means use fire spells.
     Green means use ranged attacks.
 
-Shades of Mort'ton
-Quest Requirements: Priest of Peril
-Level Requirements: 20 Crafting, 15 Herblore, 5 Firemaking
-Items: 2 Tarromin potion (unf), Logs (Regular), 2 Ashes, Tinderbox, ~1000 Coins
-Enemies to defeat: 5 Loar Shades (level 40)
-Recommended: Mort'ton teleport, Flamtaer hammer (or 13,000 coins to buy it at the general store), Food, 11 free inventory space
+Spirits of the Elid
+Level Requirements: 33 Magic, 37 Ranged, 37 Mining, 37 Thieving
+Items: Shantay pass, 1 Air rune, 1 Law rune, Needle, 2 Thread, Knife, Rope, Any pickaxe, Light source, A stab weapon, A slash weapon, A crush weapon, A light source (Candle, Candle Lantern, Bullsye Lantern)
+Enemies to defeat: lack golem (level 75), Grey golem (level 75), White golem (level 75)
+Recommended: Nardah teleports, Necklace of passage (Eagle's Eyrie), Food, Armor, Waterskins
 Getting started
-    Search the shelf for a diary and open the book.
-        (Optional) Pick up the empty vials and search the smashed table for extra tarromin and one rogue's purse.
-A Temporary Cure (Serum 207)
-    Use ashes on Tarromin potion (unf) to make Serum 207.
-    Use Serum 207 on Razmire (afflicted). (Chat 4-1)
-    Kill five loar shades and pick-up their remains.
-    Use Serum 207 on Razmire (afflicted). (Chat 4)
-    Right-click and open his general store to buy Olive oil.
-    Right-click and open his builders store to buy 5 timber beams, 5 limestone bricks, 25 swamp paste.
-    Use the serum on Ulsquire Shauncy.
-    Talk to Ulsquire Shauncy again. (Chat 1-2-5)
-Repairing the temple
-    Repair the temple until you reach 100% repair and at least 10 sanctity. (Use World 77 for the official mini-game world)
-    Light the sacred altar in the centre of the temple.
-    Use your olive oil on the flame to make sacred oil.
-    (Optional) Use Serum 207 on the flame to make Serum 208, which permanently cures NPCs.
-Burning a shade
-    Use a sacred oil on a log.
-    Use the pyre log on the funeral pyre.
-    Use the Loar remains on the funeral pyre.
-    Light the funeral pyre.
-    Pick-up the reward.
+    Talk to Awusah the Mayor. (Chat 1-2-1)
+    Talk to Ghaslor the Elder. (Chat 1-1)
+    Head to the shrine north of the fountain and west of Ghaslor's house.
+    Tele-grab the ancestral key.
+    Search the northern cupboard to the west.
+    Use a needle and thread on the torn robes.
+The Golems
+    Use your rope on the root which overhangs the cave.
+    Equip the robes of elidinis and use the ancestral key on the door.
+        Note: If the door will not open, talk to Ghaslor the Elder and attempt to open it again afterward.
+    Enter the south room and defeat the white golem (weak to stab).
+    Clear the water channel (south room).
+    Enter the east room and defeat the grey golem (weak to slash).
+    Clear the water channel via pickaxe (east room).
+    Enter the north-east room and defeat the black golem (weak to crush).
+    Shoot the target with a bow/crossbow (north-east room).
+    Enter the north door and talk to one of the spirits. (Chat 4-1)
+The Genie
+    Talk to Awusah the Mayor.
+    Pick-up the shoes.
+    Use a knife on them outside of the house to obtain sole.
+    Use a rope on the crevice.
+    Talk to the Genie twice (Chat 1-1-3).
 Finishing up
-    Talk to Ulsquire Shauncy.
+    Use the statuette on the statuette plinth.
     Quest complete!
 
 Alfred Grimhand's Barcrawl
