@@ -1,241 +1,199 @@
 {
-  "spirits_of_the_elid": {
-    "name": "Spirits of the Elid",
-    "directory": "spirits_of_the_elid",
+  "a_tail_of_two_cats": {
+    "name": "A Tail of Two Cats",
+    "directory": "a_tail_of_two_cats",
     "req": [
       {
-        "items": ["33 Magic", "37 Ranged", "37 Mining", "37 Thieving"],
-        "name": "Level Requirements"
+        "items": ["Icthlarin's Little Helper"],
+        "name": "Quest Requirements"
       },
       {
-        "items": ["Shantay pass", "1 Air rune", "1 Law rune", "Needle", "2 Thread", "Knife", "Rope", "Any pickaxe", "Light source", "A stab weapon", "A slash weapon", "A crush weapon", "A light source (Candle, Candle Lantern, Bullsye Lantern)"],
+        "items": ["Cat/kitten", "Catspeak amulet", "5 death runes", "A chocolate cake", "Logs", "Tinderbox", "Bucket of milk", "Shears", "4 potato seeds", "Rake", "Seed dibber", "Vial of water", "Desert shirt", "Desert robe"],
         "name": "Items"
       },
       {
-        "items": ["Black golem (level 75)", "Grey golem (level 75)", "White golem (level 75)"],
-        "name": "Enemies to defeat"
-      },
-      {
-        "items": ["Nardah teleports", "Necklace of passage (Eagle's Eyrie)", "Food", "Armor", "Waterskins"],
+        "items": ["Games Necklace", "Varrock Teleport", "Pharaoh's sceptre (Jalsavrah)", "Any type fish (for kittens)", "~1000 gp (shantay pass, magic carpet)"],
         "name": "Recommended"
       }
     ],
     "steps": {
       "1": {
-        "step": "Talk to Awusah the Mayor. (Chat 1-2-1)",
+        "last": true,
+        "step": "Talk to Unferth with the catspeak amulet equipped. (Chat 1)",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": ["Nardah"],
-            "description": ["Talk to Awusah the Mayor."]
+            "location": ["Burthorpe"],
+            "description": ["Talk to Unferth with the catspeak amulet equipped."]
           }
         }
       },
       "2": {
-        "step": "Talk to Ghaslor the Elder. (Chat 1-1)",
+        "step": "Talk to Hild.",
+        "subtitle": "Where's Bob?",
         "details": {
           "1": {
-            "location": ["Nardah"],
-            "description": ["Talk to Ghaslor the Elder."]
+            "location": ["Burthorpe"],
+            "description": ["Talk to Hild."]
           }
         }
       },
       "3": {
-        "step": "Tele-grab the ancestral key.",
+        "step": "Go to the Varrock anvil and change worlds until you find Bob, then talk to him.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Nardah"],
-            "description": ["Tele-grab the ancestral key."]
+            "location": ["Varrock"],
+            "description": ["Bob can be found all over Runescape, but he is mostly found by the Varrock anvil. If he is not there just keep changing worlds until you find him there."]
           }
         }
       },
       "4": {
-        "step": "Search the northern cupboard.",
+        "step": "Talk to Gertrude. (Chat 1)",
+        "subtitle": "Cat Lineage",
         "details": {
           "1": {
-            "location": ["Nardah"],
-            "description": ["Search the northern cupboard to the west."]
+            "location": ["West of Varrock"],
+            "description": ["Talk to Gertrude."]
           }
         }
       },
       "5": {
-        "step": "Use a needle and thread on the torn robes.",
-        "last": true,
+        "step": "Talk to Reldo. (Chat 1)",
         "details": {
           "1": {
-            "description": ["Use a needle and thread on both the bottom and top torn robes."]
+            "location": ["Burthorpe"],
+            "description": ["Talk to Reldo."]
           }
         }
       },
       "6": {
-        "step": "Use your rope on the root which overhangs the cave.",
-        "subtitle": "The Golems",
+        "step": "Find and talk to Bob the cat.",
         "details": {
           "1": {
-            "location": ["River Elid"],
-            "description": ["Use your rope on the root which overhangs the cave."]
+            "location": ["Varrock"],
+            "description": ["Find and talk to Bob the cat."]
           }
         }
       },
       "7": {
-        "step": "Equip the robes of elidinis and use the ancestral key on the door.",
+        "step": "Talk to the Sphinx. (Chat 1-2)",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Water Ravine Dungeon"],
-            "description": ["Equip the robes of elidinis and use the ancestral key on the door."]
+            "location": ["Sophanem"],
+            "description": ["Talk to the Sphinx."]
           }
         }
       },
       "8": {
-        "step": "Enter the south room and defeat the white golem (weak to stab).",
+        "step": "Use the rake and plant potato seeds (25-35 mins to grow).",
+        "subtitle": "Chores",
         "details": {
           "1": {
-            "location": ["Water Ravine Dungeon"],
-            "description": ["Attempt to enter the south room."]
+            "location": ["Burthorpe"],
+            "description": ["Use the rake and plant potato seeds"]
           },
           "2": {
-            "location": ["Water Ravine Dungeon"],
-            "description": ["Defeat the white golem (weak to stab)."]
+            "location": ["Burthorpe"],
+            "description": ["Plant potato seeds. The patch will take 25-35 minutes to grow."]
           }
         }
       },
       "9": {
-        "step": "Clear the water channel (south room).",
+        "step": "Make the bed.",
         "details": {
           "1": {
-            "location": ["Water Ravine Dungeon"],
-            "description": ["Enter the south room."]
-          },
-          "2": {
-            "location": ["Water Ravine Dungeon"],
-            "description": ["Clear the water channel."]
+            "location": ["Burthorpe"],
+            "description": ["Make the bed."]
           }
         }
       },
       "10": {
-        "step": "Enter the east room and defeat the grey golem (weak to slash).",
+        "step": "Use the logs on fireplace, then light fireplace.",
         "details": {
           "1": {
-            "location": ["Water Ravine Dungeon"],
-            "description": ["Attempt to enter the east room."]
+            "location": ["Burthorpe"],
+            "description": ["Use the logs on the fireplace."]
           },
           "2": {
-            "location": ["Water Ravine Dungeon"],
-            "description": ["Defeat the grey golem (weak to slash)."]
+            "location": ["Burthorpe"],
+            "description": ["Use the tinderbox on the fireplace."]
           }
         }
       },
       "11": {
-        "step": "Clear the water channel via pickaxe (east room).",
+        "step": "Use the chocolate cake and bucket of milk on the table.",
         "details": {
           "1": {
-            "location": ["Water Ravine Dungeon"],
-            "description": ["Enter the east room."]
+            "location": ["Burthorpe"],
+            "description": ["Use the chocolate cake on the table."]
           },
           "2": {
-            "location": ["Water Ravine Dungeon"],
-            "description": ["Clear the water channel via pickaxe."]
+            "location": ["Burthorpe"],
+            "description": ["Use bucket of milk on the table."]
           }
         }
       },
       "12": {
-        "step": "Enter the north-east room and defeat the black golem (weak to crush).",
+        "step": "Use your shears on Unferth until he becomes bald.",
         "details": {
           "1": {
-            "location": ["Water Ravine Dungeon"],
-            "description": ["Attempt to enter the north-east room."]
-          },
-          "2": {
-            "location": ["Water Ravine Dungeon"],
-            "description": ["Defeat the black golem (weak to crush)."]
+            "location": ["Burthorpe"],
+            "description": ["Use your shears on Unferth until he becomes bald."]
           }
         }
       },
       "13": {
-        "step": "Shoot the target with a bow/crossbow (north-east room).",
+        "step": "Talk to Unferth once the potato has grown.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Water Ravine Dungeon"],
-            "description": ["Enter the north-east room."]
-          },
-          "2": {
-            "location": ["Water Ravine Dungeon"],
-            "description": ["Shoot the target with a bow/crossbow."]
+            "location": ["Burthorpe"],
+            "description": ["Talk to Unferth once the potato has grown."]
           }
         }
       },
       "14": {
-        "step": "Enter the north door and talk to one of the spirits. (Chat 4-1)",
-        "last": true,
+        "step": "Talk to the Apothecary. (Chat 3)",
+        "subtitle": "Hypochondria",
         "details": {
           "1": {
-            "location": ["Water Ravine Dungeon"],
-            "description": ["Enter the north door."]
-          },
-          "2": {
-            "location": ["Water Ravine Dungeon"],
-            "description": ["Talk to one of the spirits."]
+            "location": ["Varrock"],
+            "description": ["Talk to the Apothecary."]
           }
         }
       },
       "15": {
-        "step": "Talk to Awusah the Mayor.",
-        "subtitle": "The Genie",
+        "step": "Un-equip weapons/shields and equip the doctors hat/nurse hat and desert robes (top and bottom), then talk to Unferth.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Nardah"],
-            "description": ["Talk to Awusah the Mayor."]
+            "location": ["Burthorpe"],
+            "description": ["Un-equip weapons/shields and equip the doctors hat/nurse hat and top and bottom desert robes, then talk to Unferth"]
           }
         }
       },
       "16": {
-        "step": "Pick-up the shoes.",
+        "step": "Find and talk to Bob the cat.",
+        "subtitle": "Finishing up",
         "details": {
           "1": {
-            "location": ["Nardah"],
-            "description": ["Pick-up the shoes."]
+            "location": ["Varrock"],
+            "description": ["Find and talk to Bob the cat."]
           }
         }
       },
       "17": {
-        "step": "Use a knife on them outside of the house to obtain sole.",
+        "step": "Talk to Unferth.",
         "details": {
           "1": {
-            "location": ["Nardah"],
-            "description": ["Use a knife on them outside of the house to obtain sole."]
+            "location": ["Burthorpe"],
+            "description": ["Talk to Unferth."]
           }
         }
       },
       "18": {
-        "step": "Use a rope on the crevice.",
-        "details": {
-          "1": {
-            "location": ["West of Nardah"],
-            "description": ["Use a rope on the crevice."]
-          }
-        }
-      },
-      "19": {
-        "step": "Talk to the Genie twice. (Chat 1-1-3)",
-        "last": true,
-        "details": {
-          "1": {
-            "location": ["Nardah Cavern"],
-            "description": ["Talk to the Genie twice to get a statuette."]
-          }
-        }
-      },
-      "20": {
-        "step": "Use the statuette on the statuette plinth.",
-        "subtitle": "Finishing up",
-        "details": {
-          "1": {
-            "location": ["Nardah"],
-            "description": ["Use the statuette on the statuette plinth."]
-          }
-        }
-      },
-      "21": {
         "step": "Quest complete!",
         "details": {
           "1": {}

@@ -15886,5 +15886,207 @@
         }
       }
     }
+  },
+  "a_tail_of_two_cats": {
+    "name": "A Tail of Two Cats",
+    "directory": "a_tail_of_two_cats",
+    "req": [
+      {
+        "items": ["Icthlarin's Little Helper"],
+        "name": "Quest Requirements"
+      },
+      {
+        "items": ["Cat/kitten", "Catspeak amulet", "5 death runes", "A chocolate cake", "Logs", "Tinderbox", "Bucket of milk", "Shears", "4 potato seeds", "Rake", "Seed dibber", "Vial of water", "Desert shirt", "Desert robe"],
+        "name": "Items"
+      },
+      {
+        "items": ["Games Necklace", "Varrock Teleport", "Pharaoh's sceptre (Jalsavrah)", "Any type fish (for kittens)", "~1000 gp (shantay pass, magic carpet)"],
+        "name": "Recommended"
+      }
+    ],
+    "steps": {
+      "1": {
+        "last": true,
+        "step": "Talk to Unferth with the catspeak amulet equipped. (Chat 1)",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["Burthorpe"],
+            "description": ["Talk to Unferth with the catspeak amulet equipped."]
+          }
+        }
+      },
+      "2": {
+        "step": "Talk to Hild.",
+        "subtitle": "Where's Bob?",
+        "details": {
+          "1": {
+            "location": ["Burthorpe"],
+            "description": ["Talk to Hild."]
+          }
+        }
+      },
+      "3": {
+        "step": "Go to the Varrock anvil and change worlds until you find Bob, then talk to him.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Varrock"],
+            "description": ["Bob can be found all over Runescape, but he is mostly found by the Varrock anvil. If he is not there just keep changing worlds until you find him there."]
+          }
+        }
+      },
+      "4": {
+        "step": "Talk to Gertrude. (Chat 1)",
+        "subtitle": "Cat Lineage",
+        "details": {
+          "1": {
+            "location": ["West of Varrock"],
+            "description": ["Talk to Gertrude."]
+          }
+        }
+      },
+      "5": {
+        "step": "Talk to Reldo. (Chat 1)",
+        "details": {
+          "1": {
+            "location": ["Burthorpe"],
+            "description": ["Talk to Reldo."]
+          }
+        }
+      },
+      "6": {
+        "step": "Find and talk to Bob the cat.",
+        "details": {
+          "1": {
+            "location": ["Varrock"],
+            "description": ["Find and talk to Bob the cat."]
+          }
+        }
+      },
+      "7": {
+        "step": "Talk to the Sphinx. (Chat 1-2)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Talk to the Sphinx."]
+          }
+        }
+      },
+      "8": {
+        "step": "Use the rake and plant potato seeds (25-35 mins to grow).",
+        "subtitle": "Chores",
+        "details": {
+          "1": {
+            "location": ["Burthorpe"],
+            "description": ["Use the rake and plant potato seeds"]
+          },
+          "2": {
+            "location": ["Burthorpe"],
+            "description": ["Plant potato seeds. The patch will take 25-35 minutes to grow."]
+          }
+        }
+      },
+      "9": {
+        "step": "Make the bed.",
+        "details": {
+          "1": {
+            "location": ["Burthorpe"],
+            "description": ["Make the bed."]
+          }
+        }
+      },
+      "10": {
+        "step": "Use the logs on fireplace, then light fireplace.",
+        "details": {
+          "1": {
+            "location": ["Burthorpe"],
+            "description": ["Use the logs on the fireplace."]
+          },
+          "2": {
+            "location": ["Burthorpe"],
+            "description": ["Use the tinderbox on the fireplace."]
+          }
+        }
+      },
+      "11": {
+        "step": "Use the chocolate cake and bucket of milk on the table.",
+        "details": {
+          "1": {
+            "location": ["Burthorpe"],
+            "description": ["Use the chocolate cake on the table."]
+          },
+          "2": {
+            "location": ["Burthorpe"],
+            "description": ["Use bucket of milk on the table."]
+          }
+        }
+      },
+      "12": {
+        "step": "Use your shears on Unferth until he becomes bald.",
+        "details": {
+          "1": {
+            "location": ["Burthorpe"],
+            "description": ["Use your shears on Unferth until he becomes bald."]
+          }
+        }
+      },
+      "13": {
+        "step": "Talk to Unferth once the potato has grown.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Burthorpe"],
+            "description": ["Talk to Unferth once the potato has grown."]
+          }
+        }
+      },
+      "14": {
+        "step": "Talk to the Apothecary. (Chat 3)",
+        "subtitle": "Hypochondria",
+        "details": {
+          "1": {
+            "location": ["Varrock"],
+            "description": ["Talk to the Apothecary."]
+          }
+        }
+      },
+      "15": {
+        "step": "Un-equip weapons/shields and equip the doctors hat/nurse hat and desert robes (top and bottom), then talk to Unferth.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Burthorpe"],
+            "description": ["Un-equip weapons/shields and equip the doctors hat/nurse hat and top and bottom desert robes, then talk to Unferth"]
+          }
+        }
+      },
+      "16": {
+        "step": "Find and talk to Bob the cat.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Varrock"],
+            "description": ["Find and talk to Bob the cat."]
+          }
+        }
+      },
+      "17": {
+        "step": "Talk to Unferth.",
+        "details": {
+          "1": {
+            "location": ["Burthorpe"],
+            "description": ["Talk to Unferth."]
+          }
+        }
+      },
+      "18": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }

@@ -232,37 +232,34 @@ Getting started
     Red means use fire spells.
     Green means use ranged attacks.
 
-Spirits of the Elid
-Level Requirements: 33 Magic, 37 Ranged, 37 Mining, 37 Thieving
-Items: Shantay pass, 1 Air rune, 1 Law rune, Needle, 2 Thread, Knife, Rope, Any pickaxe, Light source, A stab weapon, A slash weapon, A crush weapon, A light source (Candle, Candle Lantern, Bullsye Lantern)
-Enemies to defeat: lack golem (level 75), Grey golem (level 75), White golem (level 75)
-Recommended: Nardah teleports, Necklace of passage (Eagle's Eyrie), Food, Armor, Waterskins
+A Tail of Two Cats
+Quest Requirements: Icthlarin's Little Helper
+Items: Cat/kitten, Catspeak amulet, 5 death runes, A chocolate cake, Logs, Tinderbox, Bucket of milk, Shears, 4 potato seeds, Rake, Seed dibber, Vial of water, Desert shirt, Desert robe
+Recommended: Games Necklace, Varrock Teleport, Pharaoh's sceptre (Jalsavrah), Any type fish (for kittens), ~1000 gp (shantay pass, magic carpet)
 Getting started
-    Talk to Awusah the Mayor. (Chat 1-2-1)
-    Talk to Ghaslor the Elder. (Chat 1-1)
-    Head to the shrine north of the fountain and west of Ghaslor's house.
-    Tele-grab the ancestral key.
-    Search the northern cupboard to the west.
-    Use a needle and thread on the torn robes.
-The Golems
-    Use your rope on the root which overhangs the cave.
-    Equip the robes of elidinis and use the ancestral key on the door.
-        Note: If the door will not open, talk to Ghaslor the Elder and attempt to open it again afterward.
-    Enter the south room and defeat the white golem (weak to stab).
-    Clear the water channel (south room).
-    Enter the east room and defeat the grey golem (weak to slash).
-    Clear the water channel via pickaxe (east room).
-    Enter the north-east room and defeat the black golem (weak to crush).
-    Shoot the target with a bow/crossbow (north-east room).
-    Enter the north door and talk to one of the spirits. (Chat 4-1)
-The Genie
-    Talk to Awusah the Mayor.
-    Pick-up the shoes.
-    Use a knife on them outside of the house to obtain sole.
-    Use a rope on the crevice.
-    Talk to the Genie twice (Chat 1-1-3).
+    Talk to Unferth with the catspeak amulet equipped. (Chat 1)
+Where's Bob?
+    Talk to Hild.
+    Go to the Varrock anvil and change worlds until you find Bob, then talk to him.
+Cat Lineage
+    Talk to Gertrude. (Chat 1)
+    Talk to Reldo. (Chat 1)
+    Find and talk to Bob the cat.
+    Talk to the Sphinx. (Chat 1-2)
+Chores
+    Use the rake and plant potato seeds (25-35 mins to grow).
+        in it and wait until they are grown. Your cat will notify you when they are done (The patch will take 25-35 minutes to grow).
+    Make the bed.
+    Use the logs on fireplace, then light fireplace.
+    Use the chocolate cake and bucket of milk on the table.
+    Use your shears on Unferth to cut his hair he becomes bald.
+    Talk to Unferth once the potato has grown.
+Hypochondria
+    Talk to the Apothecary. (Chat 3)
+    Un-equip weapon/shield and equip the doctors hat/nurse hat and desert robes (top and bottom) and talk to Unferth.
 Finishing up
-    Use the statuette on the statuette plinth.
+    Find and talk to Bob the cat.
+    Talk to Unferth.
     Quest complete!
 
 Alfred Grimhand's Barcrawl
