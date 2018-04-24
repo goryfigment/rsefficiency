@@ -16088,5 +16088,331 @@
         }
       }
     }
+  },
+  "grim_tales": {
+    "name": "Grim Tales",
+    "directory": "grim_tales",
+    "req": [
+      {
+        "items": ["Witch's House"],
+        "name": "Quest Requirements"
+      },
+      {
+        "items": ["45 Farming", "52 Herblore", "58 Thieving", "59 Agility", "71 Woodcutting"
+        ],
+        "name": "Level Requirements"
+      },
+      {
+        "items": ["2 Tarromin potion (unf)", "Seed dibber", "Watering can (at least 1 dose)", "Any axe"],
+        "name": "Items"
+      },
+      {
+        "items": ["Glod (level 138)"],
+        "name": "Enemies to defeat"
+      },
+      {
+        "items": ["House Teleport (Taverly)", "Games Necklace (Burthorpe)", "2 Mind Teleports", "Food", "Armour"],
+        "name": "Recommended"
+      }
+    ],
+    "steps": {
+      "1": {
+        "last": true,
+        "step": "Talk to Sylas. (Chat 5)",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["Taverly"],
+            "description": ["Talk to Sylas."]
+          }
+        }
+      },
+      "2": {
+        "step": "Talk to Grimgnash. (Chat 1-1-2-4-4-3-1)",
+        "subtitle": "The Griffin",
+        "details": {
+          "1": {
+            "location": ["White Wolf Mountain"],
+            "description": ["Talk to Grimgnash."]
+          }
+        }
+      },
+      "3": {
+        "step": "Take a feather next to his nest.",
+        "details": {
+          "1": {
+            "location": ["White Wolf Mountain"],
+            "description": ["Take a feather next to his nest."]
+          }
+        }
+      },
+      "4": {
+        "step": "Talk to Sylas. (Chat 3)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Taverly"],
+            "description": ["Talk to Sylas."]
+          }
+        }
+      },
+      "5": {
+        "step": "Climb over the crumbling wall.",
+        "subtitle": "Rupert let down your hair! or beard?",
+        "details": {
+          "1": {
+            "location": ["South of the Mind altar"],
+            "description": ["Climb over the crumbling wall."]
+          }
+        }
+      },
+      "6": {
+        "step": "Talk-into to the drain pipe twice. (Chat 2-2)",
+        "details": {
+          "1": {
+            "location": ["South of the Mind altar"],
+            "description": ["Talk-into to the drain pipe twice."]
+          }
+        }
+      },
+      "7": {
+        "step": "Climb up the beard and talk to Rupert the Beard.",
+        "details": {
+          "1": {
+            "location": ["South of the Mind altar"],
+            "description": ["Climb up the beard."]
+          },
+          "2": {
+            "location": ["South of the Mind altar"],
+            "description": ["Talk to Rupert the Beard."]
+          }
+        }
+      },
+      "8": {
+        "step": "Climb down and talk to Miazrqa behind the tower. (Chat 2-4-4-4)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["South of the Mind altar"],
+            "description": ["Climb down Rupert's beard."]
+          },
+          "2": {
+            "location": ["South of the Mind altar"],
+            "description": ["Talk to Miazrqa behind the tower."]
+          }
+        }
+      },
+      "9": {
+        "step": "Enter the basement of the Witch's House in Taverley.",
+        "subtitle": "Wonderland's shrinking potion?",
+        "details": {
+          "1": {
+            "location": ["Witch's House"],
+            "description": ["Enter the basement of the Witch's House in Taverley."]
+          }
+        }
+      },
+      "10": {
+        "step": "Play the notes: (UPPER) E-F-E-D-C, then (LOWER) A-E-G-A.",
+        "details": {
+          "1": {
+            "location": ["Witch's House Basement"],
+            "description": ["Play the piano."]
+          },
+          "2": {
+            "description": ["Play the notes (UPPER) E-F-E-D-C on the right side, then (LOWER) A-E-G-A on the left side."]
+          }
+        }
+      },
+      "11": {
+        "step": "Search the piano.",
+        "details": {
+          "1": {
+            "location": ["Witch's House Basement"],
+            "description": ["Search the piano."]
+          }
+        }
+      },
+      "12": {
+        "step": "Add the shrunk ogleroots to both unfinished potions.",
+        "details": {
+          "1": {
+            "description": ["Add the shrunk ogleroots to both unfinished potions."]
+          }
+        }
+      },
+      "13": {
+        "step": "Go to the ground floor and drink a shrinking potion by the mouse hole.",
+        "details": {
+          "1": {
+            "location": ["Witch's House"],
+            "description": ["Climb upstairs."]
+          },
+          "2": {
+            "location": ["Witch's House"],
+            "description": ["Drink a shrinking potion by the mouse hole."]
+          }
+        }
+      },
+      "14": {
+        "step": "Climb up the nails to the north-east.",
+        "details": {
+          "1": {
+            "location": ["Mouse Hole"],
+            "description": ["Climb up the nails to the north-east."]
+          }
+        }
+      },
+      "15": {
+        "step": "Climb up the nails to the south-west.",
+        "details": {
+          "1": {
+            "location": ["Mouse Hole"],
+            "description": ["Climb up the nails to the south-west."]
+          }
+        }
+      },
+      "16": {
+        "step": "Climb up the nails to the south.",
+        "details": {
+          "1": {
+            "location": ["Mouse Hole"],
+            "description": ["Climb up the nails to the south."]
+          }
+        }
+      },
+      "17": {
+        "step": "Climb down the nails to the north-east.",
+        "details": {
+          "1": {
+            "location": ["Mouse Hole"],
+            "description": ["Climb down the nails to the north-east."]
+          }
+        }
+      },
+      "18": {
+        "step": "Climb up the nails to the north-east.",
+        "details": {
+          "1": {
+            "location": ["Mouse Hole"],
+            "description": ["Climb up the nails to the north-east."]
+          }
+        }
+      },
+      "19": {
+        "step": "Take the pendant.",
+        "details": {
+          "1": {
+            "location": ["Mouse Hole"],
+            "description": ["Take the pendant."]
+          }
+        }
+      },
+      "20": {
+        "step": "Talk to Miazrqa.",
+        "details": {
+          "1": {
+            "location": ["South of the Mind altar"],
+            "description": ["Talk to Miazrqa."]
+          }
+        }
+      },
+      "21": {
+        "step": "Talk to Rupert the Beard for his helmet.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["South of the Mind altar"],
+            "description": ["Talk to Rupert the Beard for his helmet."]
+          }
+        }
+      },
+      "22": {
+        "step": "Talk to Sylas.",
+        "subtitle": "Glod and the Beanstalk",
+        "details": {
+          "1": {
+            "location": ["Taverly"],
+            "description": ["Talk to Sylas."]
+          }
+        }
+      },
+      "23": {
+        "step": "Use the beans on the mound, then use the watering can on the mound.",
+        "details": {
+          "1": {
+            "location": ["Taverly"],
+            "description": ["Use the beans on the mound."]
+          },
+          "2": {
+            "location": ["Taverly"],
+            "description": ["Use the watering can on the mound."]
+          }
+        }
+      },
+      "24": {
+        "step": "Climb up the beanstalk.",
+        "details": {
+          "1": {
+            "location": ["Taverly"],
+            "description": ["Climb up the beanstalk."]
+          }
+        }
+      },
+      "25": {
+        "step": "Defeat Glod and pick-up the golden goblin.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Magic Beanstalk"],
+            "description": ["Defeat Glod and pick-up the golden goblin."]
+          }
+        }
+      },
+      "26": {
+        "step": "Talk to Sylas.",
+        "subtitle": "Timber!",
+        "details": {
+          "1": {
+            "location": ["Taverly"],
+            "description": ["Climb down the beanstalk."]
+          },
+          "2": {
+            "location": ["Taverly"],
+            "description": ["Talk to Sylas."]
+          }
+        }
+      },
+      "27": {
+        "step": "Use a shrinking potion on the beanstalk, then chop it down.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Taverly"],
+            "description": ["Use a shrinking potion on the beanstalk, then chop it down."]
+          },
+          "2": {
+            "location": ["Taverly"],
+            "description": ["Chop the beanstalk down."]
+          }
+        }
+      },
+      "28": {
+        "step": "Talk to Sylas.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Taverly"],
+            "description": ["Talk to Sylas."]
+          }
+        }
+      },
+      "29": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }

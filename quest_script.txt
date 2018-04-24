@@ -232,34 +232,50 @@ Getting started
     Red means use fire spells.
     Green means use ranged attacks.
 
-A Tail of Two Cats
-Quest Requirements: Icthlarin's Little Helper
-Items: Cat/kitten, Catspeak amulet, 5 death runes, A chocolate cake, Logs, Tinderbox, Bucket of milk, Shears, 4 potato seeds, Rake, Seed dibber, Vial of water, Desert shirt, Desert robe
-Recommended: Games Necklace, Varrock Teleport, Pharaoh's sceptre (Jalsavrah), Any type fish (for kittens), ~1000 gp (shantay pass, magic carpet)
+
+Grim Tales
+Quest Requirements: Witch's House
+Level Requirements: 45 Farming, 52 Herblore, 58 Thieving, 59 Agility, 71 Woodcutting
+Items: 2 Tarromin potion (unf), Seed dibber, Watering can (at least 1 dose), Any axe
+Enemies to defeat: Glod (level 138)
+Recommended: House Teleport (Taverly), Games Necklace (Burthorpe), 2 Mind Teleports, Food, Armour
 Getting started
-    Talk to Unferth with the catspeak amulet equipped. (Chat 1)
-Where's Bob?
-    Talk to Hild.
-    Go to the Varrock anvil and change worlds until you find Bob, then talk to him.
-Cat Lineage
-    Talk to Gertrude. (Chat 1)
-    Talk to Reldo. (Chat 1)
-    Find and talk to Bob the cat.
-    Talk to the Sphinx. (Chat 1-2)
-Chores
-    Use the rake and plant potato seeds (25-35 mins to grow).
-        in it and wait until they are grown. Your cat will notify you when they are done (The patch will take 25-35 minutes to grow).
-    Make the bed.
-    Use the logs on fireplace, then light fireplace.
-    Use the chocolate cake and bucket of milk on the table.
-    Use your shears on Unferth to cut his hair he becomes bald.
-    Talk to Unferth once the potato has grown.
-Hypochondria
-    Talk to the Apothecary. (Chat 3)
-    Un-equip weapon/shield and equip the doctors hat/nurse hat and desert robes (top and bottom) and talk to Unferth.
+    Talk to Sylas. (Chat 5)
+The Griffin
+    Talk to Grimgnash. (Chat 1-1-2-4-4-3-1)
+    Take a feather next to his nest.
+    Talk to Sylas. (Chat 3)
+Rupert let down your hair! or beard?
+    Climb over the crumbling wall.
+    Talk-into to the drain pipe twice. (Chat 2-2)
+    Climb up the beard and talk to Rupert the Beard.
+    Climb down and talk to Miazrqa behind the tower. (Chat 2-4-4-4)
+Wonderland's shrinking potion?
+    Enter the basement of the Witch's House in Taverley.
+    Play the notes (UPPER) E-F-E-D-C on the right side, then (LOWER) A-E-G-A on the left side.
+    Search the piano.
+    Add the shrunk ogleroots to your unfinished potions.
+    Go to the ground floor and drink a shrinking potion by the mouse hole.
+        Note: If you need another shrunk ogleroot you must get one by killing Experiments No.2 in the witch's basement.
+        Note: Level 95 mice will attack you while in this area, hitting up to 9 damage. Protect from Melee prayer is advised if in low armor gear.
+    Climb up the nails to the north-east.
+    Climb up the nails to the south-west.
+    Climb up the nails to the south.
+    Climb down the nails to the north-east.
+    Climb up the nails to the north-east.
+    Take the pendant.
+    Talk to Miazrqa.
+    Talk to Rupert the Beard for his helmet.
+Glod and the Beanstalk
+    Talk to Sylas.
+    Use the beans on the mound, then use the watering can on the mound.
+    Climb up the beanstalk.
+    Defeat Glod and pick-up the golden goblin.
+Timber!
+    Talk to Sylas.
+    Use a shrinking potion on the beanstalk, then chop it down.
 Finishing up
-    Find and talk to Bob the cat.
-    Talk to Unferth.
+    Talk to Sylas.
     Quest complete!
 
 Alfred Grimhand's Barcrawl
