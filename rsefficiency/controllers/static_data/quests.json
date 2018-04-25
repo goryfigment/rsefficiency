@@ -16414,5 +16414,127 @@
         }
       }
     }
+  },
+  "fishing_contest": {
+    "name": "Fishing Contest",
+    "directory": "fishing_contest",
+    "req": [
+      {
+        "items": ["10 Fishing"],
+        "name": "Level Requirements"
+      },
+      {
+        "items": ["5 coins", "Fishing rod", "Spade", "Garlic (obtainable during quest)"],
+        "name": "Items"
+      },
+      {
+        "items": ["Camelot Teleport", "Combat bracelet (Ranging Guild)"],
+        "name": "Recommended"
+      }
+    ],
+    "steps": {
+      "1": {
+        "step": "Talk to Vestri. (Chat 1-2-3-1-1)",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["North of Catherby"],
+            "description": ["Talk to Vestri."]
+          }
+        }
+      },
+      "2": {
+        "step": "Pick-up garlic in Seers Village.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Seers Village"],
+            "description": ["Pick-up garlic in Seers Village."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to Grandpa Jack. (Chat 2-1)",
+        "subtitle": "Red Vine Worms",
+        "details": {
+          "1": {
+            "location": ["South of McGrubor's Wood"],
+            "description": ["Talk to Grandpa Jack."]
+          }
+        }
+      },
+      "4": {
+        "step": "Gather 3 red vine worms.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["McGrubor's Wood"],
+            "description": ["Squeeze-through the loose railing."]
+          },
+          "2": {
+            "location": ["McGrubor's Wood"],
+            "description": ["Click on the red vines to until you have 3 red vine worms."]
+          }
+        }
+      },
+      "5": {
+        "step": "Use the garlic in the pipes.",
+        "subtitle": "Fishing Contest",
+        "details": {
+          "1": {
+            "location": ["Hemenster"],
+            "description": ["Enter the gate."]
+          },
+          "2": {
+            "location": ["Hemenster"],
+            "description": ["Use the garlic in the pipes."]
+          }
+        }
+      },
+      "6": {
+        "step": "Talk to Bonzo. (Chat 1)",
+        "details": {
+          "1": {
+            "location": ["Hemenster"],
+            "description": ["Talk to Bonzo to pay him 5 coins to enter the contest."]
+          }
+        }
+      },
+      "7": {
+        "step": "Fish by the pipes.",
+        "details": {
+          "1": {
+            "location": ["Hemenster"],
+            "description": ["Fish by the pipes after the Sinister Stranger moves away from the pipes."]
+          }
+        }
+      },
+      "8": {
+        "step": "Wait and receive a trophy.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Hemenster"],
+            "description": ["After catching 3 fish, wait and receive a trophy."]
+          }
+        }
+      },
+      "9": {
+        "step": "Talk to Vestri.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["North of Catherby"],
+            "description": ["Talk to Vestri."]
+          }
+        }
+      },
+      "10": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }
