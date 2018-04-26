@@ -16536,5 +16536,243 @@
         }
       }
     }
+  },
+  "olafs_quest": {
+    "name": "Olaf's Quest",
+    "directory": "olafs_quest",
+    "req": [
+      {
+        "items": ["The Fremennik Trials"],
+        "name": "Quest Requirement"
+      },
+      {
+        "items": ["40 Firemaking", "50 Woodcutting"],
+        "name": "Level Requirement"
+      },
+      {
+        "items": ["Axe", "Tinderbox", "Spade"],
+        "name": "Items"
+      },
+      {
+        "items": ["Skeleton fremennik (level 60)", "Ulfric (level 100)"],
+        "name": "Enemies to defeat"
+      },
+      {
+        "items": ["57 Agility", "10 free inventory slots", "Armour", "Weapon", "Food", "Dramen/Lunar staff (D-K-S)"],
+        "name": "Recommended"
+      }
+    ],
+    "steps": {
+      "1": {
+        "last": true,
+        "step": "Talk to Olaf Hradson. (Chat 1)",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["North of Keldagrim Entrance", "Fairy Ring (D-K-S)"],
+            "description": ["Talk to Olaf Hradson."]
+          }
+        }
+      },
+      "2": {
+        "step": "Chop the Windswept tree.",
+        "subtitle": "Helping Olaf",
+        "details": {
+          "1": {
+            "location": ["Mountain above Keldagrim Entrance"],
+            "description": ["Chop the Windswept tree."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to Olaf Hradson with the logs.",
+        "details": {
+          "1": {
+            "location": ["North of Keldagrim Entrance"],
+            "description": ["Talk to Olaf Hradson with the logs."]
+          }
+        }
+      },
+      "4": {
+        "step": "Talk to Ingrid Hradson.",
+        "details": {
+          "1": {
+            "location": ["East of Relleka"],
+            "description": ["Take the shortcut along the eastern fence of Relleka (57 Agility)."]
+          },
+          "2": {
+            "location": ["Relleka"],
+            "description": ["Talk to Ingrid Hradson by the well."]
+          }
+        }
+      },
+      "5": {
+        "step": "Talk to Volf Olafson.",
+        "details": {
+          "1": {
+            "location": ["Relleka"],
+            "description": ["Talk to Volf Olafson."]
+          }
+        }
+      },
+      "6": {
+        "step": "Talk to Olaf Hradson.",
+        "details": {
+          "1": {
+            "location": ["East of Relleka"],
+            "description": ["Take the shortcut along the eastern fence of Relleka (57 Agility)."]
+          },
+          "2": {
+            "location": ["North of Keldagrim Entrance"],
+            "description": ["Talk to Olaf Hradson."]
+          }
+        }
+      },
+      "7": {
+        "step": "Use-Driftwood on the embers.",
+        "details": {
+          "1": {
+            "location": ["North of Keldagrim Entrance"],
+            "description": ["Click on the embers to create a fire.."]
+          }
+        }
+      },
+      "8": {
+        "step": "Talk to Olaf Hradson. (Chat 1)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["North of Keldagrim Entrance"],
+            "description": ["Talk to Olaf Hradson."]
+          }
+        }
+      },
+      "9": {
+        "step": "Dig next to Windswept tree.",
+        "subtitle": "Treasure trail",
+        "details": {
+          "1": {
+            "location": ["Mountain above Keldagrim Entrance"],
+            "description": ["Dig next to Windswept tree."]
+          }
+        }
+      },
+      "10": {
+        "step": "Search the picture wall, then solve the puzzle. (Solution below)",
+        "details": {
+          "1": {
+            "location": ["Brine Rat Cavern"],
+            "description": ["Search the picture wall, then solve the puzzle."]
+          },
+          "2": {
+            "description": ["Click the panels in this order:"],
+            "list": ["Right panel (Blue)", "Top Panel (Red)", "Left Panel (Yellow)", "Bottom Panel (Green)", "Very Bottom Panel (Black)"]
+          }
+        }
+      },
+      "11": {
+        "step": "Search the wall again to walk through.",
+        "details": {
+          "1": {
+            "location": ["Brine Rat Cavern"],
+            "description": ["Search the wall again to walk through."]
+          }
+        }
+      },
+      "12": {
+        "step": "Pick-up six ropes and two rotten barrels.",
+        "details": {
+          "1": {
+            "location": ["Brine Rat Cavern"],
+            "description": ["Pick-up six ropes."]
+          },
+          "2": {
+            "location": ["Brine Rat Cavern"],
+            "description": ["Pick-up two rotten barrels."]
+          }
+        }
+      },
+      "13": {
+        "step": "Kill a Skeleton fremennik and pick-up the key it drops.",
+        "details": {
+          "1": {
+            "location": ["Brine Rat Cavern"],
+            "description": ["Kill a Skeleton fremennik and pick-up the key it drops."]
+          }
+        }
+      },
+      "14": {
+        "step": "Use the barrels on the missing portions of the bridge.",
+        "details": {
+          "1": {
+            "location": ["Brine Rat Cavern"],
+            "description": ["Use the barrels first missing portions of the bridge."]
+          },
+          "2": {
+            "location": ["Brine Rat Cavern"],
+            "description": ["Use the barrels second missing portions of the bridge."]
+          }
+        }
+      },
+      "15": {
+        "step": "Open the gate, then solve the key puzzle. (Solutions below)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Brine Rat Cavern"],
+            "description": ["Attempt to open the gate."]
+          },
+          "2": {
+            "description": ["If you have a SQUARE KEY choose the SQUARE LOCK."]
+          },
+          "3": {
+            "description": ["If you have a CROSS KEY choose the CROSS LOCK."]
+          },
+          "4": {
+            "description": ["If you have a TRIANGLE KEY choose the TRIANGLE LOCK."]
+          },
+          "5": {
+            "description": ["If you have a CIRCLE KEY choose the CIRCLE LOCK."]
+          },
+          "6": {
+            "description": ["If you have a HEPTAGON KEY choose the HEPTAGON LOCK."]
+          }
+        }
+      },
+      "16": {
+        "step": "Attempt to open the chest.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Brine Rat Cavern"],
+            "description": ["Attempt to open the chest."]
+          }
+        }
+      },
+      "17": {
+        "step": "Defeat Ulfric (level 100).",
+        "details": {
+          "1": {
+            "location": ["Brine Rat Cavern"],
+            "description": ["Defeat Ulfric (level 100). Can be safe-spotted"]
+          }
+        }
+      },
+      "18": {
+        "step": "Open the chest again.",
+        "details": {
+          "1": {
+            "location": ["Brine Rat Cavern"],
+            "description": ["Open the chest again."]
+          }
+        }
+      },
+      "19": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }

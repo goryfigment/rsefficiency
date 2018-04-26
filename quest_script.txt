@@ -233,58 +233,70 @@ Getting started
     Green means use ranged attacks.
 
 
-Starting OutEdit
+Starting Out
     Talk to Sir Tiffy Cashien to get a Commorb v2. (Chat 1)
     Talk to Col. O'Niall on the NE dock in Witchaven. (Chat 1-3-4)
     Talk to Brother Maledict, Mayor Hobb (Chat 1), and Holgart.
     Talk to Col. O'Niall again.
-The ShrineEdit
+The Shrine
     Climb down the stairs just west of Witchaven.
     Push the false wall right beside the entrance (red on minimap).
     Follow the path to the imposing door, using the shortcut if able, try to open it (must have a free inventory space).
     Scan with the Commorb to acquire the door transcription.
     Pick up a dead sea slug.
     Talk to Jorral in the outpost (necklace of passage) NW of Ardougne. (Chat 2) if Making History has not been started
-The PagesEdit
-Talk to Col. O'Niall.
-Talk to Brother Maledict.
-Go to the mayor's house and search the desk.
-Talk to Ezekial Lovecraft in the fishing store.
-Talk to Col. O'Niall.
-Use swamp paste on one of the fragments.
-Talk to Jeb to go to the Fishing Platform.
-Talk to Bailey to the west, give him the dead slug.
-Use the sea slug glue on a fragment, then solve the puzzle.
-The Imposing DoorEdit
-Items required: chisel, 5+ rune or pure essence, the Commorb
+The Pages
+    Talk to Col. O'Niall.
+    Talk to Brother Maledict.
+    Go to the mayor's house and search the desk.
+    Talk to Ezekial Lovecraft in the fishing store.
+    Talk to Col. O'Niall.
+    Use swamp paste on one of the fragments.
+    Talk to Jeb to go to the Fishing Platform.
+    Talk to Bailey to the west, give him the dead slug.
+    Use the sea slug glue on a fragment, then solve the puzzle.
+The Imposing Door
+    Right click each shape-option on the pages to shape essence into air, water, fire, earth, and mind.
+    NOTE: It is possible and likely to fail and break the essence.
+    Use the chiseled stones on their respective Runecrafting altars.
+    NOTE: It is possible and likely to fail this as well.
+    Use the handmade runes on the imposing door in the cave underneath Witchaven.
+    Kill the level 62 Slug Prince, only melee can damage it.
+    Talk to Sir Tiffy Cashien.
+    Quest complete!
 
-Right click each shape-option on the pages to shape essence into air, water, fire, earth, and mind.
-NOTE: It is possible and likely to fail and break the essence.
-Use the chiseled stones on their respective Runecrafting altars.
-NOTE: It is possible and likely to fail this as well.
-Use the handmade runes on the imposing door in the cave underneath Witchaven.
-Kill the level 62 Slug Prince, only melee can damage it.
-Talk to Sir Tiffy Cashien.
-Quest complete!
-
-
-Fishing Contest
-Level Requirements: 10 Fishing
-Items: 5 coins, Fishing rod, Spade, Garlic (obtainable during quest)
-Recommended: Camelot Teleport, Combat bracelet (Ranging Guild)
+Olaf's Quest
+Quest Requirement: The Fremennik Trials
+Level Requirement: 40 Firemaking, 50 Woodcutting
+Items: Axe, Tinderbox, Spade
+Enemies to defeat: Skeleton fremennik (level 60), Ulfric (level 100)
+Recommended: 57 Agility, 10 free inventory slots, Armour, Weapon, Food, Dramen/Lunar staff (D-K-S)
 Getting started
-    Talk to Vestri. (Chat 1-2-3-1-1)
-    Pick-up garlic in Seers Village.
-Red Vine Worms
-    Talk to Grandpa Jack. (Chat 2-1)
-    Gather 3 red vine worms.
-Fishing Contest
-    Use the garlic in the pipes.
-    Talk to Bonzo 5 coins. (Chat 1)
-    Fish by the pipes after the Sinister Stranger moves away from the pipes.
-    Wait and receive a trophy.
+    Talk to Olaf Hradson. (Chat 1)
+        west of fairy ring dks
+Helping Olaf
+    Chop the Windswept tree.
+    Talk to Olaf Hradson with the logs.
+    Talk to Ingrid Hradson who is by the well.
+    Talk to Volf Olafson.
+    Talk to Olaf Hradson.
+    Use the Damp planks on the fire pit.
+    Talk to Olaf Hradson. (Chat 1)
+Treasure trail
+    Dig next to Windswept tree.
+    Go all the way east in the tunnel and then north.
+    Kill a Skeleton fremennik and pick-up the key it drops.
+    Search the picture wall to the far west.
+        Right, up, left, bottom, and then the very bottom
+    Search the wall again to walk through.
+    Pick-up two rotten barrels and six ropes in the next room.
+    Walk across the bridge and use the barrels on the missing portions.
+    Open the gate.
+        Pick the shape that matches the loop part of the shown key.
 Finishing up
-    Talk to Vestri.
+    Open the chest
+    Defeat Ulfric (level 100).
+    Open the chest again.
     Quest complete!
 
 Alfred Grimhand's Barcrawl
