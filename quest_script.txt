@@ -265,39 +265,47 @@ The Imposing Door
     Talk to Sir Tiffy Cashien.
     Quest complete!
 
-Olaf's Quest
-Quest Requirement: The Fremennik Trials
-Level Requirement: 40 Firemaking, 50 Woodcutting
-Items: Axe, Tinderbox, Spade
-Enemies to defeat: Skeleton fremennik (level 60), Ulfric (level 100)
-Recommended: 57 Agility, 10 free inventory slots, Armour, Weapon, Food, Dramen/Lunar staff (D-K-S)
+
+Tale of the Righteous
+Quest Requirements: Client of Kourend
+Level Requirements: 16 Strength, 10 Mining
+Other Requirements: 20% Shayzien House favour
+Items: Rope, Any pickaxe, Melee Weapon, Range Weapon, Runes to cast Magic Combat Spells
+Enemies to defeat: Corrupt Lizardman (level 46)
+Recommended: Xeric's talisman, Antipoison
 Getting started
-    Talk to Olaf Hradson. (Chat 1)
-        west of fairy ring dks
-Helping Olaf
-    Chop the Windswept tree.
-    Talk to Olaf Hradson with the logs.
-    Talk to Ingrid Hradson who is by the well.
-    Talk to Volf Olafson.
-    Talk to Olaf Hradson.
-    Use the Damp planks on the fire pit.
-    Talk to Olaf Hradson. (Chat 1)
-Treasure trail
-    Dig next to Windswept tree.
-    Go all the way east in the tunnel and then north.
-    Kill a Skeleton fremennik and pick-up the key it drops.
-    Search the picture wall to the far west.
-        Right, up, left, bottom, and then the very bottom
-    Search the wall again to walk through.
-    Pick-up two rotten barrels and six ropes in the next room.
-    Walk across the bridge and use the barrels on the missing portions.
-    Open the gate.
-        Pick the shape that matches the loop part of the shown key.
+    Talk to Phileas Rimor (Chat 2-1).
+    Talk to Archeio. (Chat 1)
+    Talk to Pagida. (Chat 2-1)
+        and agree to be teleported into the Tower of Magic prison (Chat 2-1)
+Tower of Magic Prison
+    Push the strange device all the way west.
+    From the NORTH side, attack the device using magic.
+    From the SOUTH side, attack using melee.
+    Push the strange device all the way east.
+    From the SOUTH side, attack using ranged.
+    Investigate the skeleton in the northern cell.
+An Expedition
+    Talk to Phileas Rimor.
+    Talk to Lord Shiro Shayzien.
+    Talk to Historian Duffy.
+Mysterious Cave
+    Use a rope on and climb down the crevice. (Chat 1)
+    Mine the rockfall.
+    Push the boulder.
+    Defeat the Corrupt Lizardman.
+    Pass the magic gate and inspect the unstable altar.
+    Talk to Historian Duffy.
+    Talk to Historian Duffy in the cave.
+    Talk to Gnosi.
 Finishing up
-    Open the chest
-    Defeat Ulfric (level 100).
-    Open the chest again.
+    Talk to Lord Shayzien.
+    Go inside Phileas tent to find out he's gone.
+    Talk to Lord Shayzien.
     Quest complete!
+
+
+
 
 Alfred Grimhand's Barcrawl
 Scorpion Catcher

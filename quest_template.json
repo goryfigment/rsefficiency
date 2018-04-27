@@ -1,234 +1,262 @@
 {
-  "olafs_quest": {
-    "name": "Olaf's Quest",
-    "directory": "olafs_quest",
+  "tale_of_the_righteous": {
+    "name": "Tale of the Righteous",
+    "directory": "tale_of_the_righteous",
     "req": [
       {
-        "items": ["The Fremennik Trials"],
-        "name": "Quest Requirement"
+        "items": ["Client of Kourend"],
+        "name": "Quest Requirements"
       },
       {
-        "items": ["40 Firemaking", "50 Woodcutting"],
-        "name": "Level Requirement"
+        "items": ["16 Strength", "10 Mining"],
+        "name": "Level Requirements"
       },
       {
-        "items": ["Axe", "Tinderbox", "Spade"],
+        "items": ["20% Shayzien House favour"],
+        "name": "Other Requirements"
+      },
+      {
+        "items": ["Rope", "Any pickaxe", "Melee Weapon", "Range Weapon", "Runes to cast Magic Combat Spells"],
         "name": "Items"
       },
       {
-        "items": ["Skeleton fremennik (level 60)", "Ulfric (level 100)"],
+        "items": ["Corrupt Lizardman (level 46)"],
         "name": "Enemies to defeat"
       },
       {
-        "items": ["57 Agility", "10 free inventory slots", "Armour", "Weapon", "Food", "Dramen/Lunar staff (D-K-S)"],
+        "items": ["Xeric's talisman", "Antipoison"],
         "name": "Recommended"
       }
     ],
     "steps": {
       "1": {
-        "last": true,
-        "step": "Talk to Olaf Hradson. (Chat 1)",
+        "step": "Talk to Phileas Rimor. (Chat 2-1).",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": ["North of Keldagrim Entrance", "Fairy Ring (D-K-S)"],
-            "description": ["Talk to Olaf Hradson."]
+            "location": ["Shayzien House"],
+            "description": ["Talk to Phileas Rimor."]
           }
         }
       },
       "2": {
-        "step": "Chop the Windswept tree.",
-        "subtitle": "Helping Olaf",
+        "step": "Talk to Archeio. (Chat 1)",
         "details": {
           "1": {
-            "location": ["Mountain above Keldagrim Entrance"],
-            "description": ["Chop the Windswept tree."]
+            "location": ["Shayzien House"],
+            "description": ["Talk to Archeio."]
           }
         }
       },
       "3": {
-        "step": "Talk to Olaf Hradson with the logs.",
+        "step": "Talk to Pagida. (Chat 2-1)",
+        "last": true,
         "details": {
           "1": {
-            "location": ["North of Keldagrim Entrance"],
-            "description": ["Talk to Olaf Hradson with the logs."]
+            "location": ["Library Historical Archive"],
+            "description": ["Talk to Pagida."]
           }
         }
       },
       "4": {
-        "step": "Talk to Ingrid Hradson.",
+        "step": "Push the strange device all the way west.",
+        "subtitle": "Tower of Magic Prison",
         "details": {
           "1": {
-            "location": ["East of Relleka"],
-            "description": ["Take the shortcut along the eastern fence of Relleka (57 Agility)."]
-          },
-          "2": {
-            "location": ["Relleka"],
-            "description": ["Talk to Ingrid Hradson by the well."]
+            "location": ["Tower of Magic prison"],
+            "description": ["Push the strange device all the way west."]
           }
         }
       },
       "5": {
-        "step": "Talk to Volf Olafson.",
+        "step": "From the NORTH side, attack the device using magic.",
         "details": {
           "1": {
-            "location": ["Relleka"],
-            "description": ["Talk to Volf Olafson."]
+            "location": ["Tower of Magic prison"],
+            "description": ["From the NORTH side, attack the device using magic."]
           }
         }
       },
       "6": {
-        "step": "Talk to Olaf Hradson.",
+        "step": "From the SOUTH side, attack using melee.",
         "details": {
           "1": {
-            "location": ["East of Relleka"],
-            "description": ["Take the shortcut along the eastern fence of Relleka (57 Agility)."]
-          },
-          "2": {
-            "location": ["North of Keldagrim Entrance"],
-            "description": ["Talk to Olaf Hradson."]
+            "location": ["Tower of Magic prison"],
+            "description": ["From the SOUTH side, attack using melee."]
           }
         }
       },
       "7": {
-        "step": "Use-Driftwood on the embers.",
+        "step": "Push the strange device all the way east.",
         "details": {
           "1": {
-            "location": ["North of Keldagrim Entrance"],
-            "description": ["Click on the embers to create a fire.."]
+            "location": ["Tower of Magic prison"],
+            "description": ["Push the strange device all the way east."]
           }
         }
       },
       "8": {
-        "step": "Talk to Olaf Hradson. (Chat 1)",
-        "last": true,
+        "step": "From the SOUTH side, attack using ranged.",
         "details": {
           "1": {
-            "location": ["North of Keldagrim Entrance"],
-            "description": ["Talk to Olaf Hradson."]
+            "location": ["Tower of Magic prison"],
+            "description": ["From the SOUTH side, attack using ranged."]
           }
         }
       },
       "9": {
-        "step": "Dig next to Windswept tree.",
-        "subtitle": "Treasure trail",
+        "step": "Investigate the skeleton in the northern cell.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Mountain above Keldagrim Entrance"],
-            "description": ["Dig next to Windswept tree."]
+            "location": ["Tower of Magic prison"],
+            "description": ["Investigate the skeleton in the northern cell."]
           }
         }
       },
       "10": {
-        "step": "Search the picture wall, then solve the puzzle. (Solution below)",
+        "step": "Talk to Phileas Rimor.",
+        "subtitle": "An Expedition",
         "details": {
           "1": {
-            "location": ["Brine Rat Cavern"],
-            "description": ["Search the picture wall, then solve the puzzle."]
-          },
-          "2": {
-            "description": ["Click the panels in this order:", "(Blue) Right panel", "(Red) Top Panel", "(Yellow) Left Panel", "(Green) Bottom Panel", "(Black) Very Bottom Panel."]
+            "location": ["Shayzien House"],
+            "description": ["Talk to Phileas Rimor."]
           }
         }
       },
       "11": {
-        "step": "Search the wall again to walk through.",
+        "step": "Talk to Lord Shiro Shayzien.",
         "details": {
           "1": {
-            "location": ["Brine Rat Cavern"],
-            "description": ["Search the wall again to walk through."]
+            "location": ["Shayzien House"],
+            "description": ["Climb upstairs."]
+          },
+          "2": {
+            "location": ["Shayzien House"],
+            "description": ["Talk to Lord Shiro Shayzien."]
           }
         }
       },
       "12": {
-        "step": "Pick-up six ropes and two rotten barrels.",
+        "step": "Talk to Historian Duffy.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Brine Rat Cavern"],
-            "description": ["Pick-up six ropes."]
+            "description": ["Follow the path or teleport if Xeric's Honour is unlocked in the Xeric's talismen."]
           },
           "2": {
-            "location": ["Brine Rat Cavern"],
-            "description": ["Pick-up two rotten barrels."]
+            "location": ["Mount Quidamortem"],
+            "description": ["Talk to Historian Duffy."]
           }
         }
       },
       "13": {
-        "step": "Kill a Skeleton fremennik and pick-up the key it drops.",
+        "step": "Use a rope on and climb down the crevice. (Chat 1)",
+        "subtitle": "Mysterious Cave",
         "details": {
           "1": {
-            "location": ["Brine Rat Cavern"],
-            "description": ["Kill a Skeleton fremennik and pick-up the key it drops."]
+            "location": ["Mount Quidamortem"],
+            "description": ["Use a rope on and climb down the crevice."]
           }
         }
       },
       "14": {
-        "step": "Use the barrels on the missing portions of the bridge.",
+        "step": "Mine the rockfall.",
         "details": {
           "1": {
-            "location": ["Brine Rat Cavern"],
-            "description": ["Use the barrels first missing portions of the bridge."]
-          },
-          "2": {
-            "location": ["Brine Rat Cavern"],
-            "description": ["Use the barrels second missing portions of the bridge."]
+            "location": ["Mount Quidamortem Cave"],
+            "description": ["Mine the rockfall."]
           }
         }
       },
       "15": {
-        "step": "Open the gate, then solve the key puzzle. (Solutions below)",
-        "last": true,
+        "step": "Push the boulder.",
         "details": {
           "1": {
-            "location": ["Brine Rat Cavern"],
-            "description": ["Attempt to open the gate."]
-          },
-          "2": {
-            "description": ["If you have a SQUARE KEY choose the SQUARE LOCK."]
-          },
-          "3": {
-            "description": ["If you have a CROSS KEY choose the CROSS LOCK."]
-          },
-          "4": {
-            "description": ["If you have a TRIANGLE KEY choose the TRIANGLE LOCK."]
-          },
-          "5": {
-            "description": ["If you have a CIRCLE KEY choose the CIRCLE LOCK."]
-          },
-          "6": {
-            "description": ["If you have a HEPTAGON KEY choose the HEPTAGON LOCK."]
+            "location": ["Mount Quidamortem Cave"],
+            "description": ["Push the boulder."]
           }
         }
       },
       "16": {
-        "step": "Attempt to open the chest.",
-        "subtitle": "Finishing up",
+        "step": "Defeat the Corrupt Lizardman.",
         "details": {
           "1": {
-            "location": ["Brine Rat Cavern"],
-            "description": ["Attempt to open the chest."]
+            "location": ["Mount Quidamortem Cave"],
+            "description": ["Defeat the Corrupt Lizardman."]
           }
         }
       },
       "17": {
-        "step": "Defeat Ulfric (level 100).",
+        "step": "Pass the magic gate and inspect the unstable altar.",
         "details": {
           "1": {
-            "location": ["Brine Rat Cavern"],
-            "description": ["Defeat Ulfric (level 100). Can be safe-spotted"]
+            "location": ["Mount Quidamortem Cave"],
+            "description": ["Pass the magic gate."]
+          },
+          "2": {
+            "location": ["Mount Quidamortem Cave"],
+            "description": ["Inspect the unstable altar."]
           }
         }
       },
       "18": {
-        "step": "Open the chest again.",
+        "step": "Talk to Historian Duffy.",
         "details": {
           "1": {
-            "location": ["Brine Rat Cavern"],
-            "description": ["Open the chest again."]
+            "location": ["Mount Quidamortem"],
+            "description": ["Talk to Historian Duffy."]
           }
         }
       },
       "19": {
+        "step": "Talk to Historian Duffy in the cave.",
+        "details": {
+          "1": {
+            "location": ["Mount Quidamortem Cave"],
+            "description": ["Talk to Historian Duffy in the cave."]
+          }
+        }
+      },
+      "20": {
+        "step": "Talk to Gnosi.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Mount Quidamortem Cave"],
+            "description": ["Talk to Gnosi."]
+          }
+        }
+      },
+      "21": {
+        "step": "Talk to Lord Shiro Shayzien.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Shayzien House"],
+            "description": ["Talk to Lord Shiro Shayzien."]
+          }
+        }
+      },
+      "22": {
+        "step": "Go inside Phileas tent to find out he's gone.",
+        "details": {
+          "1": {
+            "location": ["Shayzien House"],
+            "description": ["Go inside Phileas tent to find out he's gone."]
+          }
+        }
+      },
+      "23": {
+        "step": "Talk to Lord Shiro Shayzien.",
+        "details": {
+          "1": {
+            "location": ["Shayzien House"],
+            "description": ["Talk to Lord Shiro Shayzien."]
+          }
+        }
+      },
+      "24": {
         "step": "Quest complete!",
         "details": {
           "1": {}

@@ -16774,5 +16774,270 @@
         }
       }
     }
+  },
+  "tale_of_the_righteous": {
+    "name": "Tale of the Righteous",
+    "directory": "tale_of_the_righteous",
+    "req": [
+      {
+        "items": ["Client of Kourend"],
+        "name": "Quest Requirements"
+      },
+      {
+        "items": ["16 Strength", "10 Mining"],
+        "name": "Level Requirements"
+      },
+      {
+        "items": ["20% Shayzien House favour"],
+        "name": "Other Requirements"
+      },
+      {
+        "items": ["Rope", "Any pickaxe", "Melee Weapon", "Range Weapon", "Runes to cast Magic Combat Spells"],
+        "name": "Items"
+      },
+      {
+        "items": ["Corrupt Lizardman (level 46)"],
+        "name": "Enemies to defeat"
+      },
+      {
+        "items": ["Xeric's talisman", "Antipoison"],
+        "name": "Recommended"
+      }
+    ],
+    "steps": {
+      "1": {
+        "step": "Talk to Phileas Rimor. (Chat 2-1).",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["Shayzien House"],
+            "description": ["Talk to Phileas Rimor."]
+          }
+        }
+      },
+      "2": {
+        "step": "Talk to Archeio. (Chat 1)",
+        "details": {
+          "1": {
+            "location": ["Shayzien House"],
+            "description": ["Talk to Archeio."]
+          }
+        }
+      },
+      "3": {
+        "step": "Talk to Pagida. (Chat 2-1)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Library Historical Archive"],
+            "description": ["Talk to Pagida."]
+          }
+        }
+      },
+      "4": {
+        "step": "Push the strange device all the way west.",
+        "subtitle": "Tower of Magic Prison",
+        "details": {
+          "1": {
+            "location": ["Tower of Magic prison"],
+            "description": ["Push the strange device all the way west."]
+          }
+        }
+      },
+      "5": {
+        "step": "From the NORTH side, attack the device using magic.",
+        "details": {
+          "1": {
+            "location": ["Tower of Magic prison"],
+            "description": ["From the NORTH side, attack the device using magic."]
+          }
+        }
+      },
+      "6": {
+        "step": "From the SOUTH side, attack using melee.",
+        "details": {
+          "1": {
+            "location": ["Tower of Magic prison"],
+            "description": ["From the SOUTH side, attack using melee."]
+          }
+        }
+      },
+      "7": {
+        "step": "Push the strange device all the way east.",
+        "details": {
+          "1": {
+            "location": ["Tower of Magic prison"],
+            "description": ["Push the strange device all the way east."]
+          }
+        }
+      },
+      "8": {
+        "step": "From the SOUTH side, attack using ranged.",
+        "details": {
+          "1": {
+            "location": ["Tower of Magic prison"],
+            "description": ["From the SOUTH side, attack using ranged."]
+          }
+        }
+      },
+      "9": {
+        "step": "Investigate the skeleton in the northern cell.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Tower of Magic prison"],
+            "description": ["Investigate the skeleton in the northern cell."]
+          }
+        }
+      },
+      "10": {
+        "step": "Talk to Phileas Rimor.",
+        "subtitle": "An Expedition",
+        "details": {
+          "1": {
+            "location": ["Shayzien House"],
+            "description": ["Talk to Phileas Rimor."]
+          }
+        }
+      },
+      "11": {
+        "step": "Talk to Lord Shiro Shayzien.",
+        "details": {
+          "1": {
+            "location": ["Shayzien House"],
+            "description": ["Climb upstairs."]
+          },
+          "2": {
+            "location": ["Shayzien House"],
+            "description": ["Talk to Lord Shiro Shayzien."]
+          }
+        }
+      },
+      "12": {
+        "step": "Talk to Historian Duffy.",
+        "last": true,
+        "details": {
+          "1": {
+            "description": ["Follow the path or teleport if Xeric's Honour is unlocked in the Xeric's talismen."]
+          },
+          "2": {
+            "location": ["Mount Quidamortem"],
+            "description": ["Talk to Historian Duffy."]
+          }
+        }
+      },
+      "13": {
+        "step": "Use a rope on and climb down the crevice. (Chat 1)",
+        "subtitle": "Mysterious Cave",
+        "details": {
+          "1": {
+            "location": ["Mount Quidamortem"],
+            "description": ["Use a rope on and climb down the crevice."]
+          }
+        }
+      },
+      "14": {
+        "step": "Mine the rockfall.",
+        "details": {
+          "1": {
+            "location": ["Mount Quidamortem Cave"],
+            "description": ["Mine the rockfall."]
+          }
+        }
+      },
+      "15": {
+        "step": "Push the boulder.",
+        "details": {
+          "1": {
+            "location": ["Mount Quidamortem Cave"],
+            "description": ["Push the boulder."]
+          }
+        }
+      },
+      "16": {
+        "step": "Defeat the Corrupt Lizardman.",
+        "details": {
+          "1": {
+            "location": ["Mount Quidamortem Cave"],
+            "description": ["Defeat the Corrupt Lizardman."]
+          }
+        }
+      },
+      "17": {
+        "step": "Pass the magic gate and inspect the unstable altar.",
+        "details": {
+          "1": {
+            "location": ["Mount Quidamortem Cave"],
+            "description": ["Pass the magic gate."]
+          },
+          "2": {
+            "location": ["Mount Quidamortem Cave"],
+            "description": ["Inspect the unstable altar."]
+          }
+        }
+      },
+      "18": {
+        "step": "Talk to Historian Duffy.",
+        "details": {
+          "1": {
+            "location": ["Mount Quidamortem"],
+            "description": ["Talk to Historian Duffy."]
+          }
+        }
+      },
+      "19": {
+        "step": "Talk to Historian Duffy in the cave.",
+        "details": {
+          "1": {
+            "location": ["Mount Quidamortem Cave"],
+            "description": ["Talk to Historian Duffy in the cave."]
+          }
+        }
+      },
+      "20": {
+        "step": "Talk to Gnosi.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Mount Quidamortem Cave"],
+            "description": ["Talk to Gnosi."]
+          }
+        }
+      },
+      "21": {
+        "step": "Talk to Lord Shiro Shayzien.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Shayzien House"],
+            "description": ["Talk to Lord Shiro Shayzien."]
+          }
+        }
+      },
+      "22": {
+        "step": "Go inside Phileas tent to find out he's gone.",
+        "details": {
+          "1": {
+            "location": ["Shayzien House"],
+            "description": ["Go inside Phileas tent to find out he's gone."]
+          }
+        }
+      },
+      "23": {
+        "step": "Talk to Lord Shiro Shayzien.",
+        "details": {
+          "1": {
+            "location": ["Shayzien House"],
+            "description": ["Talk to Lord Shiro Shayzien."]
+          }
+        }
+      },
+      "24": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }
