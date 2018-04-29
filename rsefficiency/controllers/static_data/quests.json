@@ -13418,7 +13418,7 @@
           },
           "5": {
             "location": ["Lumbridge Dungeon"],
-            "description": ["Jump-across the stepping stone. (Warning: Failing this will douse your light source. Use a tinderbox on the candle to continue.)"]
+            "description": ["Jump-across the stepping stone.", "(Warning: Failing this will douse your light source. Use a tinderbox on the candle to continue.)"]
           },
           "6": {
             "location": ["Lumbridge Dungeon"],
@@ -17033,6 +17033,128 @@
         }
       },
       "24": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
+  },
+  "tears_of_guthix": {
+    "name": "Tears of Guthix",
+    "directory": "tears_of_guthix",
+    "req": [
+      {
+        "items": ["43 Quest points", "49 Firemaking", "20 Crafting", "20 Mining"],
+        "name": "Quest Requirements"
+      },
+      {
+        "items": ["Chisel", "Tinderbox", "Any pickaxe", "Sapphire (cut)", "Bullsye lantern (unlit)", "A light source (Candle, Candle Lantern, Bullsye Lantern)", "Rope (if have not yet entered the Lumbridge Swamp Caves)"],
+        "name": "Items"
+      },
+      {
+        "items": ["Spiny helmet/Slayer helmet"],
+        "name": "Recommended"
+      }
+    ],
+    "steps": {
+      "1": {
+        "last": true,
+        "step": "Talk to Juna. (Chat 1)",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["Lumbridge Swamp"],
+            "description": ["Climb down the dark hole."]
+          },
+          "2": {
+            "location": ["Lumbridge Dungeon"],
+            "description": ["Jump-across the stepping stone.", "(Warning: Failing this will douse your light source. Use a tinderbox on the candle to continue.)"]
+          },
+          "3": {
+            "location": ["Lumbridge Dungeon"],
+            "description": ["Enter the tunnel to the Tears of Guthix cave."]
+          },
+          "4": {
+            "location": ["Tears of Guthix cave"],
+            "description": ["Climb down the rocks."]
+          },
+          "5": {
+            "location": ["Tears of Guthix cave"],
+            "description": ["Talk to Juna."]
+          }
+        }
+      },
+      "2": {
+        "step": "Use a cut Sapphire on a (unlit) Bullseye lantern.",
+        "subtitle": "Sapphire lantern",
+        "details": {
+          "1": {
+            "description": ["Use a cut Sapphire on a (unlit) Bullseye lantern."]
+          }
+        }
+      },
+      "3": {
+        "step": "Use the tinderbox on the Sapphire lantern.",
+        "last": true,
+        "details": {
+          "1": {
+            "description": ["Use the tinderbox on the Sapphire lantern."]
+          }
+        }
+      },
+      "4": {
+        "step": "Climb back up the rock to the north.",
+        "subtitle": "The Bowl of Stone",
+        "details": {
+          "1": {
+            "location": ["Tears of Guthix cave"],
+            "description": ["Climb back up the rock to the north."]
+          }
+        }
+      },
+      "5": {
+        "step": "Use the lantern on a Light creature.",
+        "details": {
+          "1": {
+            "location": ["Tears of Guthix cave"],
+            "description": ["Use the lantern on a Light creature."]
+          }
+        }
+      },
+      "6": {
+        "step": "Mine a rock, then use a chisel on the magic stone",
+        "details": {
+          "1": {
+            "location": ["Tears of Guthix cave"],
+            "description": ["Mine a rock, then use a chisel on it"]
+          },
+          "2": {
+            "description": ["Use a chisel on on the magic stone."]
+          }
+        }
+      },
+      "7": {
+        "step": "Climb down the rocks to the east.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Tears of Guthix cave"],
+            "description": ["Climb down the rocks to the east."]
+          }
+        }
+      },
+      "8": {
+        "step": "Talk to Juna.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Tears of Guthix cave"],
+            "description": ["Talk to Juna."]
+          }
+        }
+      },
+      "9": {
         "step": "Quest complete!",
         "details": {
           "1": {}

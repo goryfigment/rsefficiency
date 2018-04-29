@@ -1,262 +1,119 @@
 {
-  "tale_of_the_righteous": {
-    "name": "Tale of the Righteous",
-    "directory": "tale_of_the_righteous",
+  "tears_of_guthix": {
+    "name": "Tears of Guthix",
+    "directory": "tears_of_guthix",
     "req": [
       {
-        "items": ["Client of Kourend"],
+        "items": ["43 Quest points", "49 Firemaking", "20 Crafting", "20 Mining"],
         "name": "Quest Requirements"
       },
       {
-        "items": ["16 Strength", "10 Mining"],
-        "name": "Level Requirements"
-      },
-      {
-        "items": ["20% Shayzien House favour"],
-        "name": "Other Requirements"
-      },
-      {
-        "items": ["Rope", "Any pickaxe", "Melee Weapon", "Range Weapon", "Runes to cast Magic Combat Spells"],
+        "items": ["Chisel", "Tinderbox", "Any pickaxe", "Sapphire (cut)", "Bullsye lantern (unlit)", "A light source (Candle, Candle Lantern, Bullsye Lantern)", "Rope (if have not yet entered the Lumbridge Swamp Caves)"],
         "name": "Items"
       },
       {
-        "items": ["Corrupt Lizardman (level 46)"],
-        "name": "Enemies to defeat"
-      },
-      {
-        "items": ["Xeric's talisman", "Antipoison"],
+        "items": ["Spiny helmet/Slayer helmet"],
         "name": "Recommended"
       }
     ],
     "steps": {
       "1": {
-        "step": "Talk to Phileas Rimor. (Chat 2-1).",
+        "last": true,
+        "step": "Talk to Juna. (Chat 1)",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": ["Shayzien House"],
-            "description": ["Talk to Phileas Rimor."]
+            "location": ["Lumbridge Swamp"],
+            "description": ["Climb down the dark hole."]
+          },
+          "2": {
+            "location": ["Lumbridge Dungeon"],
+            "description": ["Jump-across the stepping stone.", "(Warning: Failing this will douse your light source. Use a tinderbox on the candle to continue.)"]
+          },
+          "3": {
+            "location": ["Lumbridge Dungeon"],
+            "description": ["Enter the tunnel to the Tears of Guthix cave."]
+          },
+          "4": {
+            "location": ["Tears of Guthix cave"],
+            "description": ["Climb down the rocks."]
+          },
+          "5": {
+            "location": ["Tears of Guthix cave"],
+            "description": ["Talk to Juna."]
           }
         }
       },
       "2": {
-        "step": "Talk to Archeio. (Chat 1)",
+        "step": "Use a cut Sapphire on a (unlit) Bullseye lantern.",
+        "subtitle": "Sapphire lantern",
         "details": {
           "1": {
-            "location": ["Shayzien House"],
-            "description": ["Talk to Archeio."]
+            "description": ["Use a cut Sapphire on a (unlit) Bullseye lantern."]
           }
         }
       },
       "3": {
-        "step": "Talk to Pagida. (Chat 2-1)",
+        "step": "Use the tinderbox on the Sapphire lantern.",
         "last": true,
         "details": {
           "1": {
-            "location": ["Library Historical Archive"],
-            "description": ["Talk to Pagida."]
+            "description": ["Use the tinderbox on the Sapphire lantern."]
           }
         }
       },
       "4": {
-        "step": "Push the strange device all the way west.",
-        "subtitle": "Tower of Magic Prison",
+        "step": "Climb back up the rock to the north.",
+        "subtitle": "The Bowl of Stone",
         "details": {
           "1": {
-            "location": ["Tower of Magic prison"],
-            "description": ["Push the strange device all the way west."]
+            "location": ["Tears of Guthix cave"],
+            "description": ["Climb back up the rock to the north."]
           }
         }
       },
       "5": {
-        "step": "From the NORTH side, attack the device using magic.",
+        "step": "Use the lantern on a Light creature.",
         "details": {
           "1": {
-            "location": ["Tower of Magic prison"],
-            "description": ["From the NORTH side, attack the device using magic."]
+            "location": ["Tears of Guthix cave"],
+            "description": ["Use the lantern on a Light creature."]
           }
         }
       },
       "6": {
-        "step": "From the SOUTH side, attack using melee.",
+        "step": "Mine a rock, then use a chisel on the magic stone",
         "details": {
           "1": {
-            "location": ["Tower of Magic prison"],
-            "description": ["From the SOUTH side, attack using melee."]
+            "location": ["Tears of Guthix cave"],
+            "description": ["Mine a rock, then use a chisel on it"]
+          },
+          "2": {
+            "description": ["Use a chisel on on the magic stone."]
           }
         }
       },
       "7": {
-        "step": "Push the strange device all the way east.",
+        "step": "Climb down the rocks to the east.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Tower of Magic prison"],
-            "description": ["Push the strange device all the way east."]
+            "location": ["Tears of Guthix cave"],
+            "description": ["Climb down the rocks to the east."]
           }
         }
       },
       "8": {
-        "step": "From the SOUTH side, attack using ranged.",
+        "step": "Talk to Juna.",
+        "subtitle": "Finishing up",
         "details": {
           "1": {
-            "location": ["Tower of Magic prison"],
-            "description": ["From the SOUTH side, attack using ranged."]
+            "location": ["Tears of Guthix cave"],
+            "description": ["Talk to Juna."]
           }
         }
       },
       "9": {
-        "step": "Investigate the skeleton in the northern cell.",
-        "last": true,
-        "details": {
-          "1": {
-            "location": ["Tower of Magic prison"],
-            "description": ["Investigate the skeleton in the northern cell."]
-          }
-        }
-      },
-      "10": {
-        "step": "Talk to Phileas Rimor.",
-        "subtitle": "An Expedition",
-        "details": {
-          "1": {
-            "location": ["Shayzien House"],
-            "description": ["Talk to Phileas Rimor."]
-          }
-        }
-      },
-      "11": {
-        "step": "Talk to Lord Shiro Shayzien.",
-        "details": {
-          "1": {
-            "location": ["Shayzien House"],
-            "description": ["Climb upstairs."]
-          },
-          "2": {
-            "location": ["Shayzien House"],
-            "description": ["Talk to Lord Shiro Shayzien."]
-          }
-        }
-      },
-      "12": {
-        "step": "Talk to Historian Duffy.",
-        "last": true,
-        "details": {
-          "1": {
-            "description": ["Follow the path or teleport if Xeric's Honour is unlocked in the Xeric's talismen."]
-          },
-          "2": {
-            "location": ["Mount Quidamortem"],
-            "description": ["Talk to Historian Duffy."]
-          }
-        }
-      },
-      "13": {
-        "step": "Use a rope on and climb down the crevice. (Chat 1)",
-        "subtitle": "Mysterious Cave",
-        "details": {
-          "1": {
-            "location": ["Mount Quidamortem"],
-            "description": ["Use a rope on and climb down the crevice."]
-          }
-        }
-      },
-      "14": {
-        "step": "Mine the rockfall.",
-        "details": {
-          "1": {
-            "location": ["Mount Quidamortem Cave"],
-            "description": ["Mine the rockfall."]
-          }
-        }
-      },
-      "15": {
-        "step": "Push the boulder.",
-        "details": {
-          "1": {
-            "location": ["Mount Quidamortem Cave"],
-            "description": ["Push the boulder."]
-          }
-        }
-      },
-      "16": {
-        "step": "Defeat the Corrupt Lizardman.",
-        "details": {
-          "1": {
-            "location": ["Mount Quidamortem Cave"],
-            "description": ["Defeat the Corrupt Lizardman."]
-          }
-        }
-      },
-      "17": {
-        "step": "Pass the magic gate and inspect the unstable altar.",
-        "details": {
-          "1": {
-            "location": ["Mount Quidamortem Cave"],
-            "description": ["Pass the magic gate."]
-          },
-          "2": {
-            "location": ["Mount Quidamortem Cave"],
-            "description": ["Inspect the unstable altar."]
-          }
-        }
-      },
-      "18": {
-        "step": "Talk to Historian Duffy.",
-        "details": {
-          "1": {
-            "location": ["Mount Quidamortem"],
-            "description": ["Talk to Historian Duffy."]
-          }
-        }
-      },
-      "19": {
-        "step": "Talk to Historian Duffy in the cave.",
-        "details": {
-          "1": {
-            "location": ["Mount Quidamortem Cave"],
-            "description": ["Talk to Historian Duffy in the cave."]
-          }
-        }
-      },
-      "20": {
-        "step": "Talk to Gnosi.",
-        "last": true,
-        "details": {
-          "1": {
-            "location": ["Mount Quidamortem Cave"],
-            "description": ["Talk to Gnosi."]
-          }
-        }
-      },
-      "21": {
-        "step": "Talk to Lord Shiro Shayzien.",
-        "subtitle": "Finishing up",
-        "details": {
-          "1": {
-            "location": ["Shayzien House"],
-            "description": ["Talk to Lord Shiro Shayzien."]
-          }
-        }
-      },
-      "22": {
-        "step": "Go inside Phileas tent to find out he's gone.",
-        "details": {
-          "1": {
-            "location": ["Shayzien House"],
-            "description": ["Go inside Phileas tent to find out he's gone."]
-          }
-        }
-      },
-      "23": {
-        "step": "Talk to Lord Shiro Shayzien.",
-        "details": {
-          "1": {
-            "location": ["Shayzien House"],
-            "description": ["Talk to Lord Shiro Shayzien."]
-          }
-        }
-      },
-      "24": {
         "step": "Quest complete!",
         "details": {
           "1": {}
