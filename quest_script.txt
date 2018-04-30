@@ -266,22 +266,50 @@ The Imposing Door
     Quest complete!
 
 
-Tears of Guthix
-Quest Requirements: 43 Quest points, 49 Firemaking, 20 Crafting, 20 Mining
-Items: Chisel, Tinderbox, Any pickaxe, Sapphire (cut), Bullsye lantern (unlit), A light source (Candle, Candle Lantern, Bullsye Lantern), Rope (if have not yet entered the Lumbridge Swamp Caves)
-Recommended: Spiny helmet/Slayer helmet
+The Great Brain Robbery
+Quest Requirements: Creature of Fenkenstrain, Cabin Fever, Rum Deal, Pirate Pete subquest of Recipe for Disaster
+Level Requirements: 16 Crafting, 30 Construction, 50 Prayer
+Other Requirements: Crafting table (player-owned house)
+Items: Hammer, Holy Symbol, Ring of Charos (pick-pocket Dr. Fenkenstrain), Fishbowl helmet, 60 nails, 10 wooden cats or [18 Planks (regular) and 10 pieces of fur (bear or grey wolf fur)], Diving apparatus (talk to Murphy in Port Khazard twice)
+Enemies to defeat: Barrelchest (level 190), 4 Sorebones (level 57)
 Getting started
-    Talk to Juna in the Lumbridge Swamp Caves. (Chat 1)
-Sapphire lantern
-    Use a cut Sapphire on a (unlit) Bullseye lantern.
-    Use the tinderbox on the Sapphire lantern.
-The Bowl of Stone
-    Climb back up the rock to the north.
-    Use the lantern on a Light creature.
-    Mine a rock, then use a chisel on it
-    Climb down the rocks to the east.
+    Make 10 wooden cats on a clockmaker's bench in your house (10 planks and 10 furs). (Chat 1)
+Scouting
+    Talk to Brother Tranquility on Mos Le'Harmless. (Chat 1)
+    Pull-on the statue and climb down.
+    Equip the diving apparatus and fishbowl then descend.
+    Repair the stairs at the end of the tunnel and climb up two times.
+    Peer through the peephole.
+The prayer book
+    Talk to Brother Tranquility (Harmony Island).
+    Search the bookcase in the Edgeville Monastery, then open the book.
+    Equip a holy symbol and return to Harmony Island.
+    Right click the book "recite prayer".
+    Talk to Brother Tranquility. (Chat 1)
+Dr. Fenkenstrain
+    Talk to Dr. Fenkenstrain.
+    Equip the Ring of Charos and talk to Rufus in Canifis. (Chat 1)
+    Build a crate next to Dr. Fenkenstrain, add-bottom (4 planks and nails), and fill it with the wooden cats.
+    Blow the wolf whistle.
+    Use the shipping order on the crate.
+Making the transplants
+    Talk to Dr. Fenkenstrain (Harmony Island).
+        Return to Harmony island and enter the windmill basement.
+    Equip your diving equipment and go north to the shipwreck.
+    Search the locker for a fuse.
+    Climb the ladder and pick-up a tinderbox and a keg.
+    Use the keg and fuse on the monastery door. Light the fuse.
+    Enter and defeat 4 Sorebones for a Cranial clamp, Brain tongs, 3 Bell jars, and 30 Skull staples.
+    Talk to Dr. Fenkenstrain.
+    Talk to Brother Tranquility (Chat 2).
+Barrelchest
+    Confront Mi-Gor.
+    Defeat Barrelchest and pick-up the Barrelchest anchor.
+        Each attack will disable your prayer and remove a few prayer points.
+        Re-enabling prayer after each attack will prevent you from taking any damage.
+        Alternatively you can leave the monastery and re-enter; the boss will get stuck and can be safespotted from the entrance.
 Finishing up
-    Talk to Juna.
+    Talk to Brother Tranquility.
     Quest complete!
 
 

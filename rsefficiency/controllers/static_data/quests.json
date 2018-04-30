@@ -17161,5 +17161,369 @@
         }
       }
     }
+  },
+  "the_great_brain_robbery": {
+    "name": "The Great Brain Robbery",
+    "directory": "the_great_brain_robbery",
+    "req": [
+      {
+        "items": ["Creature of Fenkenstrain", "Cabin Fever", "Rum Deal", "Pirate Pete subquest of Recipe for Disaster"],
+        "name": "Quest Requirements"
+      },
+      {
+        "items": ["16 Crafting", "30 Construction", "50 Prayer"],
+        "name": "Level Requirements"
+      },
+      {
+        "items": ["Crafting table in a player-owned house (4 Oak Planks, Saw, Hammer, 10,000gp to buy workshop)"],
+        "name": "Other Requirements"
+      },
+      {
+        "items": ["Hammer", "Holy Symbol", "Ring of Charos (pick-pocket Dr. Fenkenstrain)", "Fishbowl helmet", "60 nails", "10 wooden cats or [18 Planks (regular) and 10 pieces of fur (bear or grey wolf fur)]", "Diving apparatus (talk to Murphy in Port Khazard twice)"],
+        "name": "Items"
+      },
+      {
+        "items": ["Barrelchest (level 190)", "4 Sorebones (level 57)"],
+        "name": "Enemies to defeat"
+      },
+      {
+        "items": ["House Teleport", "~8,000 coin for Charter Ships or ~10 Ecto-tokens", "Camelot Teleport or Ectophial", "Glory (Edgeville)", "Fenkenstrain's castle teleport"],
+        "name": "Recommended"
+      }
+    ],
+    "steps": {
+      "1": {
+        "step": "Make 10 wooden cats on a clockmaker's bench in your house (10 planks and 10 furs). (Chat 1)",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "description": ["Make 10 wooden cats on a clockmaker's bench in your house"]
+          }
+        }
+      },
+      "2": {
+        "step": "Talk to Brother Tranquility on Mos Le'Harmless. (Chat 1)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Catherby Port"],
+            "description": ["There are two routes to Mos Le'Harmless.", "Route 1: Use the charter and choose Mos Le'Harmless for 1,750gp (875gp with the ring of charos(a))."]
+          },
+          "2": {
+            "location": ["Port Phasmatys"],
+            "description": ["Route 2: Pay 2 Ecto-tokens (free if finished Ghost Ahoy) to pass the gate."]
+          },
+          "3": {
+            "location": ["Port Phasmatys"],
+            "description": ["Route 2: Pass the gangplank."]
+          },
+          "4": {
+            "location": ["Port Phasmatys"],
+            "description": ["Route 2: Right-click and choose travel on Bill Teach to get to Mos Le'Harmless."]
+          },
+          "5": {
+            "location": ["Mos Le'Harmless"],
+            "description": ["Talk to Brother Tranquility on Mos Le'Harmless."]
+          }
+        }
+      },
+      "3": {
+        "step": "Pull-on the statue and climb down.",
+        "subtitle": "Scouting",
+        "details": {
+          "1": {
+            "location": ["Harmony Island"],
+            "description": ["Pull-on the statue."]
+          },
+          "2": {
+            "location": ["Harmony Island"],
+            "description": ["Climb down the statue."]
+          }
+        }
+      },
+      "4": {
+        "step": "Equip the diving apparatus and fishbowl then descend.",
+        "details": {
+          "1": {
+            "location": ["Harmony Island"],
+            "description": ["Equip the diving apparatus and fishbowl then descend."]
+          }
+        }
+      },
+      "5": {
+        "step": "Repair the stairs at the end of the tunnel and climb up two times.",
+        "details": {
+          "1": {
+            "location": ["Harmony Island"],
+            "description": ["Repair the stairs at the end of the tunnel and climb up two times."]
+          },
+          "2": {
+            "location": ["Harmony Island"],
+            "description": ["Climb up the stairs."]
+          },
+          "3": {
+            "location": ["Harmony Island"],
+            "description": ["Climb up the ladders."]
+          }
+        }
+      },
+      "6": {
+        "step": "Peer through the peephole.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Harmony Island"],
+            "description": ["Peer through the peephole."]
+          }
+        }
+      },
+      "7": {
+        "step": "Talk to Brother Tranquility.",
+        "subtitle": "The prayer book",
+        "details": {
+          "1": {
+            "location": ["Harmony Island"],
+            "description": ["Talk to Brother Tranquility on Harmony Island."]
+          }
+        }
+      },
+      "8": {
+        "step": "Search the bookcase at the Edgeville Monastery, then open the book.",
+        "details": {
+          "1": {
+            "location": ["Edgeville Monastery"],
+            "description": ["Search the bookcase in the Edgeville Monastery, then open the book."]
+          }
+        }
+      },
+      "9": {
+        "step": "Equip a holy symbol and return to Harmony Island.",
+        "details": {
+          "1": {
+            "location": ["Mos Le'Harmless"],
+            "description": ["Equip a holy symbol, get back to Mos Le'Harmless, then right-click and choose 'Transport' on Brother Tranquility to return to Harmony Island."]
+          }
+        }
+      },
+      "10": {
+        "step": "Right click the book 'recite prayer'.",
+        "details": {
+          "1": {
+            "location": ["Harmony Island"],
+            "description": ["Right click the book 'recite prayer'."]
+          }
+        }
+      },
+      "11": {
+        "step": "Talk to Brother Tranquility. (Chat 1)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Harmony Island"],
+            "description": ["Talk to Brother Tranquility on Harmony Island"]
+          }
+        }
+      },
+      "12": {
+        "step": "Talk to Dr. Fenkenstrain.",
+        "subtitle": "Dr. Fenkenstrain",
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Climb-up the staircase."]
+          },
+          "2": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Climb-up the ladders."]
+          },
+          "3": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Talk to Dr. Fenkenstrain."]
+          }
+        }
+      },
+      "13": {
+        "step": "Equip the Ring of Charos and talk to Rufus in Canifis. (Chat 1)",
+        "details": {
+          "1": {
+            "location": ["Canifis"],
+            "description": ["Equip the Ring of Charos and talk to Rufus in Canifis."]
+          }
+        }
+      },
+      "14": {
+        "step": "Build a crate next to Dr. Fenkenstrain, add-bottom (4 planks and nails), and fill it with the wooden cats.",
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Build a crate next to Dr. Fenkenstrain."]
+          },
+          "2": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Add-bottom to the crate (4 planks and nails)."]
+          },
+          "3": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Fill the crate with the wooden cats."]
+          }
+        }
+      },
+      "15": {
+        "step": "Blow the wolf whistle.",
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Blow the wolf whistle."]
+          }
+        }
+      },
+      "16": {
+        "step": "Use the shipping order on the crate.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Fenkenstrain's Castle"],
+            "description": ["Use the shipping order on the crate."]
+          }
+        }
+      },
+      "17": {
+        "step": "Talk to Dr. Fenkenstrain (Harmony Island).",
+        "subtitle": "Making the transplants",
+        "details": {
+          "1": {
+            "location": ["Harmony Island"],
+            "description": ["Get back to Mos Le'Harmless then right-click and choose 'Transport' on Brother Tranquility to return to Harmony Island."]
+          },
+          "2": {
+            "location": ["Harmony Island"],
+            "description": ["Climb down the ladders."]
+          },
+          "3": {
+            "location": ["Harmony Island"],
+            "description": ["Talk to Dr. Fenkenstrain."]
+          }
+        }
+      },
+      "18": {
+        "step": "Equip your diving equipment and search the locker for a fuse.",
+        "details": {
+          "1": {
+            "location": ["Harmony Island"],
+            "description": ["Equip your diving equipment and exit the door then go north to the shipwreck."]
+          },
+          "2": {
+            "location": ["Harmony Island"],
+            "description": ["Go north to the shipwreck and search the locker for a fuse."]
+          }
+        }
+      },
+      "19": {
+        "step": "Climb the ladder and pick-up a tinderbox and a keg.",
+        "details": {
+          "1": {
+            "location": ["Harmony Island"],
+            "description": ["Climb the ladder and pick-up a tinderbox and a keg."]
+          },
+          "2": {
+            "location": ["Harmony Island"],
+            "description": ["Pick-up a tinderbox."]
+          },
+          "3": {
+            "location": ["Harmony Island"],
+            "description": ["Pick-up a keg."]
+          }
+        }
+      },
+      "20": {
+        "step": "Use the keg and fuse on the monastery door. Light the fuse.",
+        "details": {
+          "1": {
+            "location": ["Harmony Island"],
+            "description": ["Use the keg on the monastery door."]
+          },
+          "2": {
+            "location": ["Harmony Island"],
+            "description": ["Use fuse on the monastery door."]
+          },
+          "3": {
+            "location": ["Harmony Island"],
+            "description": ["Use the tinderbox on the fuse."]
+          }
+        }
+      },
+      "21": {
+        "step": "Enter and defeat 4 Sorebones for a Cranial clamp, Brain tongs, 3 Bell jars, and 30 Skull staples.",
+        "details": {
+          "1": {
+            "location": ["Harmony Island"],
+            "description": ["Enter the door."]
+          },
+          "2": {
+            "location": ["Harmony Island"],
+            "description": ["Defeat 4 Sorebones for a Cranial clamp, Brain tongs, 3 Bell jars, and 30 Skull staples."]
+          }
+        }
+      },
+      "22": {
+        "step": "Talk to Dr. Fenkenstrain.",
+        "details": {
+          "1": {
+            "location": ["Harmony Island"],
+            "description": ["Talk to Dr. Fenkenstrain."]
+          }
+        }
+      },
+      "23": {
+        "step": "Talk to Brother Tranquility (Chat 2).",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Harmony Island"],
+            "description": ["Talk to Brother Tranquility"]
+          }
+        }
+      },
+      "24": {
+        "step": "Confront Mi-Gor to start the fight against Barrelchest (level 190).",
+        "subtitle": "Barrelchest",
+        "details": {
+          "1": {
+            "location": ["Harmony Island"],
+            "description": ["Confront Mi-Gor to start the fight against Barrelchest (level 190)."]
+          }
+        }
+      },
+      "25": {
+        "step": "Defeat Barrelchest and pick-up the Barrelchest anchor.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Harmony Island"],
+            "description": ["You will not be able to use prayer. You can safe-spot Barrelchest behind a pew."]
+          },
+          "2": {
+            "location": ["Harmony Island"],
+            "description": ["Pick-up the Barrelchest anchor."]
+          }
+        }
+      },
+      "26": {
+        "step": "Talk to Brother Tranquility.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Harmony Island"],
+            "description": ["Talk to Brother Tranquility."]
+          }
+        }
+      },
+      "27": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }
