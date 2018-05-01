@@ -1,357 +1,337 @@
 {
-  "the_great_brain_robbery": {
-    "name": "The Great Brain Robbery",
-    "directory": "the_great_brain_robbery",
+  "the_slug_menace": {
+    "name": "The Slug Menace",
+    "directory": "the_slug_menace",
     "req": [
       {
-        "items": ["Creature of Fenkenstrain", "Cabin Fever", "Rum Deal", "Pirate Pete subquest of Recipe for Disaster"],
+        "items": ["Wanted!", "Sea Slug"],
         "name": "Quest Requirements"
       },
       {
-        "items": ["16 Crafting", "30 Construction", "50 Prayer"],
+        "items": ["30 Crafting", "30 Runescrafting", "30 Slayer", "30 Thieving"],
         "name": "Level Requirements"
       },
       {
-        "items": ["Crafting table in a player-owned house (4 Oak Planks, Saw, Hammer, 10,000gp to buy workshop)"],
-        "name": "Other Requirements"
-      },
-      {
-        "items": ["Hammer", "Holy Symbol", "Ring of Charos (pick-pocket Dr. Fenkenstrain)", "Fishbowl helmet", "60 nails", "10 wooden cats or [18 Planks (regular) and 10 pieces of fur (bear or grey wolf fur)]", "Diving apparatus (talk to Murphy in Port Khazard twice)"],
+        "items": ["Swamp paste", "Chisel", "Commorb (Talk to Sir Tiffy for another)", "5 Rune/Pure Essence (10-30 to be safe)", "(Air, Fire, Earth, Water OR Elemental Talismen and Mind Talisman/Tiara) OR Access to the Abyss"],
         "name": "Items"
       },
       {
-        "items": ["Barrelchest (level 190)", "4 Sorebones (level 57)"],
+        "items": ["Slug Prince (level 62)"],
         "name": "Enemies to defeat"
       },
       {
-        "items": ["~8,000 coin for Charter Ships or ~10 Ecto-tokens", "Camelot Teleport or Ectophial", "Glory (Edgeville)", "Fenkenstrain's castle teleport"],
+        "items": ["Falador Teleport", "Ardougne Teleport", "Lumbridge Teleport", "Varrock Teleport", "Ring of Dueling (Duel Arena)"],
         "name": "Recommended"
       }
     ],
     "steps": {
       "1": {
-        "step": "Make 10 wooden cats on a clockmaker's bench in your house (10 planks and 10 furs). (Chat 1)",
+        "step": "Talk to Sir Tiffy Cashien to get a Commorb v2. (Chat 1-4)",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "description": ["Make 10 wooden cats on a clockmaker's bench in your house"]
+            "location": ["Falador Park"],
+            "description": ["Talk to Sir Tiffy Cashien to get a Commorb."]
           }
         }
       },
       "2": {
-        "step": "Talk to Brother Tranquility on Mos Le'Harmless. (Chat 1)",
-        "last": true,
+        "step": "Talk to Col. O'Niall. (Chat 1-3-4)",
         "details": {
           "1": {
-            "location": ["Catherby Port"],
-            "description": ["There are two routes to Mos Le'Harmless.", "Route 1: Use the charter and choose Mos Le'Harmless for 1,750gp (875gp with the ring of charos(a))."]
-          },
-          "2": {
-            "location": ["Port Phasmatys"],
-            "description": ["Route 2: Pay 2 Ecto-tokens (free if finished Ghost Ahoy) to pass the gate."]
-          },
-          "3": {
-            "location": ["Port Phasmatys"],
-            "description": ["Route 2: Pass the gangplank."]
-          },
-          "4": {
-            "location": ["Port Phasmatys"],
-            "description": ["Route 2: Right-click and choose travel on Bill Teach to get to Mos Le'Harmless."]
-          },
-          "5": {
-            "location": ["Mos Le'Harmless"],
-            "description": ["Talk to Brother Tranquility on Mos Le'Harmless."]
+            "location": ["Witchaven"],
+            "description": ["Talk to Col. O'Niall on the dock in Witchaven."]
           }
         }
       },
       "3": {
-        "step": "Pull-on the statue and climb down.",
-        "subtitle": "Scouting",
+        "step": "Talk to Brother Maledict (Chat 4)",
         "details": {
           "1": {
-            "location": ["Harmony Island"],
-            "description": ["Pull-on the statue."]
-          },
-          "2": {
-            "location": ["Harmony Island"],
-            "description": ["Climb down the statue."]
+            "location": ["Witchaven"],
+            "description": ["Talk to Brother Maledict"]
           }
         }
       },
       "4": {
-        "step": "Equip the diving apparatus and fishbowl then descend.",
+        "step": "Talk to Mayor Hobb (Chat 1-4)",
         "details": {
           "1": {
-            "location": ["Harmony Island"],
-            "description": ["Equip the diving apparatus and fishbowl then descend."]
+            "location": ["Witchaven"],
+            "description": ["Talk to Mayor Hobb"]
           }
         }
       },
       "5": {
-        "step": "Repair the stairs at the end of the tunnel and climb up two times.",
+        "step": "Talk to Holgart.",
         "details": {
           "1": {
-            "location": ["Harmony Island"],
-            "description": ["Repair the stairs at the end of the tunnel and climb up two times."]
-          },
-          "2": {
-            "location": ["Harmony Island"],
-            "description": ["Climb up the stairs."]
-          },
-          "3": {
-            "location": ["Harmony Island"],
-            "description": ["Climb up the ladders."]
+            "location": ["Witchaven"],
+            "description": ["Talk to Holgart."]
           }
         }
       },
       "6": {
-        "step": "Peer through the peephole.",
+        "step": "Talk to Col. O'Niall (Chat 4).",
         "last": true,
         "details": {
           "1": {
-            "location": ["Harmony Island"],
-            "description": ["Peer through the peephole."]
+            "location": ["Witchaven"],
+            "description": ["Talk to Col. O'Niall"]
           }
         }
       },
       "7": {
-        "step": "Talk to Brother Tranquility.",
-        "subtitle": "The prayer book",
+        "step": "Climb down the old ruin entrance, west of Witchaven.",
+        "subtitle": "The Shrine",
         "details": {
           "1": {
-            "location": ["Harmony Island"],
-            "description": ["Talk to Brother Tranquility on Harmony Island."]
+            "location": ["West Witchaven"],
+            "description": ["Climb down the old ruin entrance, west of Witchaven."]
           }
         }
       },
       "8": {
-        "step": "Search the bookcase at the Edgeville Monastery, then open the book.",
+        "step": "Push the wall right by the entrance.",
         "details": {
           "1": {
-            "location": ["Edgeville Monastery"],
-            "description": ["Search the bookcase in the Edgeville Monastery, then open the book."]
+            "location": ["Witchaven Dungeon"],
+            "description": ["Push the false wall right by the entrance."]
           }
         }
       },
       "9": {
-        "step": "Equip a holy symbol and return to Harmony Island.",
+        "step": "Attempt to open the imposing doors.",
         "details": {
           "1": {
-            "location": ["Mos Le'Harmless"],
-            "description": ["Equip a holy symbol, get back to Mos Le'Harmless, then right-click and choose 'Transport' on Brother Tranquility to return to Harmony Island."]
+            "location": ["Witchaven Dungeon"],
+            "description": ["Attempt to open the imposing doors."]
           }
         }
       },
       "10": {
-        "step": "Right click the book 'recite prayer'.",
+        "step": "Scan with the Commorb to acquire the door transcription.",
         "details": {
           "1": {
-            "location": ["Harmony Island"],
-            "description": ["Right click the book 'recite prayer'."]
+            "location": ["Witchaven Dungeon"],
+            "description": ["Scan with the Commorb to acquire the door transcription."]
           }
         }
       },
       "11": {
-        "step": "Talk to Brother Tranquility. (Chat 1)",
-        "last": true,
+        "step": "Pick-up a dead sea slug.",
         "details": {
           "1": {
-            "location": ["Harmony Island"],
-            "description": ["Talk to Brother Tranquility on Harmony Island"]
+            "location": ["Witchaven Dungeon"],
+            "description": ["Pick-up a dead sea slug."]
           }
         }
       },
       "12": {
-        "step": "Talk to Dr. Fenkenstrain.",
-        "subtitle": "Dr. Fenkenstrain",
+        "step": "Talk to Jorral. (Chat 2 if Making History has not been started)",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Fenkenstrain's Castle"],
-            "description": ["Climb-up the staircase."]
-          },
-          "2": {
-            "location": ["Fenkenstrain's Castle"],
-            "description": ["Climb-up the ladders."]
-          },
-          "3": {
-            "location": ["Fenkenstrain's Castle"],
-            "description": ["Talk to Dr. Fenkenstrain."]
+            "location": ["North of Underground Pass"],
+            "description": ["Talk to Jorral."]
           }
         }
       },
       "13": {
-        "step": "Equip the Ring of Charos and talk to Rufus in Canifis. (Chat 1)",
+        "step": "Talk to Col. O'Niall.",
+        "subtitle": "The 3 Pages",
         "details": {
           "1": {
-            "location": ["Canifis"],
-            "description": ["Equip the Ring of Charos and talk to Rufus in Canifis."]
+            "location": ["Witchaven"],
+            "description": ["Talk to Col. O'Niall."]
           }
         }
       },
       "14": {
-        "step": "Build a crate next to Dr. Fenkenstrain, add-bottom (4 planks and nails), and fill it with the wooden cats.",
+        "step": "Talk to Brother Maledict.",
         "details": {
           "1": {
-            "location": ["Fenkenstrain's Castle"],
-            "description": ["Build a crate next to Dr. Fenkenstrain."]
-          },
-          "2": {
-            "location": ["Fenkenstrain's Castle"],
-            "description": ["Add-bottom to the crate (4 planks and nails)."]
-          },
-          "3": {
-            "location": ["Fenkenstrain's Castle"],
-            "description": ["Fill the crate with the wooden cats."]
+            "location": ["Witchaven"],
+            "description": ["Talk to Brother Maledict."]
           }
         }
       },
       "15": {
-        "step": "Blow the wolf whistle.",
+        "step": "Search the Mayor's desk.",
         "details": {
           "1": {
-            "location": ["Fenkenstrain's Castle"],
-            "description": ["Blow the wolf whistle."]
+            "location": ["Witchaven"],
+            "description": ["Search the Mayor's desk."]
           }
         }
       },
       "16": {
-        "step": "Use the shipping order on the crate.",
-        "last": true,
+        "step": "Talk to Ezekial Lovecraft (Chat 4).",
         "details": {
           "1": {
-            "location": ["Fenkenstrain's Castle"],
-            "description": ["Use the shipping order on the crate."]
+            "location": ["Witchaven"],
+            "description": ["Talk to Ezekial Lovecraft"]
           }
         }
       },
       "17": {
-        "step": "Talk to Dr. Fenkenstrain (Harmony Island).",
-        "subtitle": "Making the transplants",
+        "step": "Talk to Col. O'Niall.",
         "details": {
           "1": {
-            "location": ["Harmony Island"],
-            "description": ["Get back to Mos Le'Harmless then right-click and choose 'Transport' on Brother Tranquility to return to Harmony Island."]
-          },
-          "2": {
-            "location": ["Harmony Island"],
-            "description": ["Climb down the ladders."]
-          },
-          "3": {
-            "location": ["Harmony Island"],
-            "description": ["Talk to Dr. Fenkenstrain."]
+            "location": ["Witchaven"],
+            "description": ["Talk to Col. O'Niall."]
           }
         }
       },
       "18": {
-        "step": "Equip your diving equipment and search the locker for a fuse.",
+        "step": "Use swamp paste on one of the fragments.",
         "details": {
           "1": {
-            "location": ["Harmony Island"],
-            "description": ["Equip your diving equipment and exit the door then go north to the shipwreck."]
-          },
-          "2": {
-            "location": ["Harmony Island"],
-            "description": ["Go north to the shipwreck and search the locker for a fuse."]
+            "description": ["Use swamp paste on one of the fragments."]
           }
         }
       },
       "19": {
-        "step": "Climb the ladder and pick-up a tinderbox and a keg.",
+        "step": "Right-click and choose 'travel' on Jeb.",
         "details": {
           "1": {
-            "location": ["Harmony Island"],
-            "description": ["Climb the ladder and pick-up a tinderbox and a keg."]
-          },
-          "2": {
-            "location": ["Harmony Island"],
-            "description": ["Pick-up a tinderbox."]
-          },
-          "3": {
-            "location": ["Harmony Island"],
-            "description": ["Pick-up a keg."]
+            "location": ["Witchaven"],
+            "description": ["Right-click and choose 'travel' on Jeb."]
           }
         }
       },
       "20": {
-        "step": "Use the keg and fuse on the monastery door. Light the fuse.",
+        "step": "Talk to Bailey.",
         "details": {
           "1": {
-            "location": ["Harmony Island"],
-            "description": ["Use the keg on the monastery door."]
-          },
-          "2": {
-            "location": ["Harmony Island"],
-            "description": ["Use fuse on the monastery door."]
-          },
-          "3": {
-            "location": ["Harmony Island"],
-            "description": ["Use the tinderbox on the fuse."]
+            "location": ["Fishing Platform"],
+            "description": ["Talk to Bailey."]
           }
         }
       },
       "21": {
-        "step": "Enter and defeat 4 Sorebones for a Cranial clamp, Brain tongs, 3 Bell jars, and 30 Skull staples.",
+        "step": "Use the sea slug glue on a fragment, then solve the puzzle.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Harmony Island"],
-            "description": ["Enter the door."]
+            "description": ["Use the sea slug glue on a fragment."]
           },
           "2": {
-            "location": ["Harmony Island"],
-            "description": ["Defeat 4 Sorebones for a Cranial clamp, Brain tongs, 3 Bell jars, and 30 Skull staples."]
+            "description": ["Move, turn and flip over the pages displayed below to solve the puzzle."]
           }
         }
       },
       "22": {
-        "step": "Talk to Dr. Fenkenstrain.",
+        "step": "Right click each shape-option on the pages to shape essence into air, water, fire, earth, and mind.",
+        "subtitle": "Opening the Imposing Door",
         "details": {
           "1": {
-            "location": ["Harmony Island"],
-            "description": ["Talk to Dr. Fenkenstrain."]
+            "description": ["Right-click Page 1 and choose 'Shape-Earth' to get a blank earth rune."]
+          },
+          "2": {
+            "description": ["Right-click Page 1 and choose 'Shape-Air' to get a blank air rune."]
+          },
+          "3": {
+            "description": ["Right-click Page 2 and choose 'Shape-Fire' to get a blank fire rune."]
+          },
+          "4": {
+            "description": ["Right-click Page 2 and choose 'Shape-Water' to get a blank water rune."]
+          },
+          "5": {
+            "description": ["Right-click Page 3 and choose 'Shape-Mind' to get a blank mind rune."]
           }
         }
       },
       "23": {
-        "step": "Talk to Brother Tranquility (Chat 2).",
-        "last": true,
+        "step": "Use the blank runes on their respective Runecrafting altars.",
         "details": {
           "1": {
-            "location": ["Harmony Island"],
-            "description": ["Talk to Brother Tranquility"]
+            "location": ["South of Falador"],
+            "description": ["Enter the air altar."]
+          },
+          "2": {
+            "location": ["Air altar"],
+            "description": ["Use the blank air rune on the air altar."]
+          },
+          "3": {
+            "location": ["Between Ice Mountain and Goblin Village"],
+            "description": ["Enter the mind altar."]
+          },
+          "4": {
+            "location": ["Mind Altar"],
+            "description": ["Use the blank mind rune on the mind altar."]
+          },
+          "5": {
+            "location": ["Lumbridge Swamp"],
+            "description": ["Enter the water altar."]
+          },
+          "6": {
+            "location": ["Water altar"],
+            "description": ["Use the blank water rune on the water altar."]
+          },
+          "7": {
+            "location": ["North-east of Varrock"],
+            "description": ["Enter the earth altar."]
+          },
+          "8": {
+            "location": ["Earth altar"],
+            "description": ["Use the blank earth rune on the earth altar."]
+          },
+          "9": {
+            "location": ["North-east of Al Kharid"],
+            "description": ["Enter the fire altar."]
+          },
+          "10": {
+            "location": ["Fire altar"],
+            "description": ["Use the blank fire rune on the fire altar."]
+          },
+          "11": {
+            "description": ["Or enter the abyss and access the rune altars from here."]
           }
         }
       },
       "24": {
-        "step": "Confront Mi-Gor to start the fight against Barrelchest (level 190).",
-        "subtitle": "Barrelchest",
+        "step": "Use the hand-made runes on the imposing door.",
         "details": {
           "1": {
-            "location": ["Harmony Island"],
-            "description": ["Confront Mi-Gor to start the fight against Barrelchest (level 190)."]
+            "location": ["Witchaven Dungeon"],
+            "description": ["Use the air rune on the imposing door."]
+          },
+          "2": {
+            "location": ["Witchaven Dungeon"],
+            "description": ["Use the mind rune on the imposing door."]
+          },
+          "3": {
+            "location": ["Witchaven Dungeon"],
+            "description": ["Use the water rune on the imposing door."]
+          },
+          "4": {
+            "location": ["Witchaven Dungeon"],
+            "description": ["Use the earth rune on the imposing door."]
+          },
+          "5": {
+            "location": ["Witchaven Dungeon"],
+            "description": ["Use the fire rune on the imposing door."]
           }
         }
       },
       "25": {
-        "step": "Defeat Barrelchest and pick-up the Barrelchest anchor.",
+        "step": "Defeat the level 62 Slug Prince, only melee can damage it.",
         "last": true,
         "details": {
           "1": {
-            "location": ["Harmony Island"],
-            "description": ["You will not be able to use prayer. You can safe-spot Barrelchest behind a pew."]
-          },
-          "2": {
-            "location": ["Harmony Island"],
-            "description": ["Pick-up the Barrelchest anchor."]
+            "location": ["Witchaven Dungeon"],
+            "description": ["Defeat the level 62 Slug Prince, only melee can damage it."]
           }
         }
       },
       "26": {
-        "step": "Talk to Brother Tranquility.",
+        "step": "Talk to Sir Tiffy Cashien (Chat 1).",
         "subtitle": "Finishing up",
         "details": {
           "1": {
-            "location": ["Harmony Island"],
-            "description": ["Talk to Brother Tranquility."]
+            "location": ["Falador Park"],
+            "description": ["Talk to Sir Tiffy Cashien"]
           }
         }
       },

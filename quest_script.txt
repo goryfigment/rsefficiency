@@ -232,85 +232,49 @@ Getting started
     Red means use fire spells.
     Green means use ranged attacks.
 
-
-Starting Out
-    Talk to Sir Tiffy Cashien to get a Commorb v2. (Chat 1)
+The Slug Menace
+Quest Requirements: Wanted!, Sea Slug
+Level Requirements: 30 Crafting, 30 Runescrafting, 30 Slayer, 30 Thieving
+Items: Swamp paste, Chisel, Commorb (Talk to Sir Tiffy for another), 5 Rune/Pure Essence (10-30 to be safe), Air, Fire, Earth, Water, Mind Talisman/Tiara OR Access to the Abyss
+Enemies to defeat: Slug Prince (level 62)
+Recommended: Falador Teleport, Ardougne Teleport,
+Getting started
+    Talk to Sir Tiffy Cashien to get a Commorb v2. (Chat 1-4)
     Talk to Col. O'Niall on the NE dock in Witchaven. (Chat 1-3-4)
-    Talk to Brother Maledict, Mayor Hobb (Chat 1), and Holgart.
-    Talk to Col. O'Niall again.
+    Talk to Brother Maledict (Chat 4)
+    Talk to Mayor Hobb (Chat 1-4)
+    Talk to Holgart.
+    Talk to Col. O'Niall (Chat 4).
 The Shrine
-    Climb down the stairs just west of Witchaven.
-    Push the false wall right beside the entrance (red on minimap).
-    Follow the path to the imposing door, using the shortcut if able, try to open it (must have a free inventory space).
+    Climb down the stairs, west of Witchaven.
+    Push the false wall right by the entrance.
+    Attempt to open the imposing doors.
     Scan with the Commorb to acquire the door transcription.
-    Pick up a dead sea slug.
-    Talk to Jorral in the outpost (necklace of passage) NW of Ardougne. (Chat 2) if Making History has not been started
-The Pages
+    Pick-up a dead sea slug.
+    Talk to Jorral. (Chat 2 if Making History has not been started)
+The 3 Pages
     Talk to Col. O'Niall.
     Talk to Brother Maledict.
-    Go to the mayor's house and search the desk.
-    Talk to Ezekial Lovecraft in the fishing store.
+    Search the Mayor's desk.
+    Talk to Ezekial Lovecraft (Chat 4).
     Talk to Col. O'Niall.
     Use swamp paste on one of the fragments.
-    Talk to Jeb to go to the Fishing Platform.
-    Talk to Bailey to the west, give him the dead slug.
+    Right-click and choose 'travel' on Jeb.
+        to go to the Fishing Platform.
+    Talk to Bailey.
     Use the sea slug glue on a fragment, then solve the puzzle.
-The Imposing Door
+Opening the Imposing Door
     Right click each shape-option on the pages to shape essence into air, water, fire, earth, and mind.
-    NOTE: It is possible and likely to fail and break the essence.
-    Use the chiseled stones on their respective Runecrafting altars.
-    NOTE: It is possible and likely to fail this as well.
-    Use the handmade runes on the imposing door in the cave underneath Witchaven.
-    Kill the level 62 Slug Prince, only melee can damage it.
-    Talk to Sir Tiffy Cashien.
-    Quest complete!
-
-
-The Great Brain Robbery
-Quest Requirements: Creature of Fenkenstrain, Cabin Fever, Rum Deal, Pirate Pete subquest of Recipe for Disaster
-Level Requirements: 16 Crafting, 30 Construction, 50 Prayer
-Other Requirements: Crafting table (player-owned house)
-Items: Hammer, Holy Symbol, Ring of Charos (pick-pocket Dr. Fenkenstrain), Fishbowl helmet, 60 nails, 10 wooden cats or [18 Planks (regular) and 10 pieces of fur (bear or grey wolf fur)], Diving apparatus (talk to Murphy in Port Khazard twice)
-Enemies to defeat: Barrelchest (level 190), 4 Sorebones (level 57)
-Getting started
-    Make 10 wooden cats on a clockmaker's bench in your house (10 planks and 10 furs). (Chat 1)
-Scouting
-    Talk to Brother Tranquility on Mos Le'Harmless. (Chat 1)
-    Pull-on the statue and climb down.
-    Equip the diving apparatus and fishbowl then descend.
-    Repair the stairs at the end of the tunnel and climb up two times.
-    Peer through the peephole.
-The prayer book
-    Talk to Brother Tranquility (Harmony Island).
-    Search the bookcase in the Edgeville Monastery, then open the book.
-    Equip a holy symbol and return to Harmony Island.
-    Right click the book "recite prayer".
-    Talk to Brother Tranquility. (Chat 1)
-Dr. Fenkenstrain
-    Talk to Dr. Fenkenstrain.
-    Equip the Ring of Charos and talk to Rufus in Canifis. (Chat 1)
-    Build a crate next to Dr. Fenkenstrain, add-bottom (4 planks and nails), and fill it with the wooden cats.
-    Blow the wolf whistle.
-    Use the shipping order on the crate.
-Making the transplants
-    Talk to Dr. Fenkenstrain (Harmony Island).
-        Return to Harmony island and enter the windmill basement.
-    Equip your diving equipment and go north to the shipwreck.
-    Search the locker for a fuse.
-    Climb the ladder and pick-up a tinderbox and a keg.
-    Use the keg and fuse on the monastery door. Light the fuse.
-    Enter and defeat 4 Sorebones for a Cranial clamp, Brain tongs, 3 Bell jars, and 30 Skull staples.
-    Talk to Dr. Fenkenstrain.
-    Talk to Brother Tranquility (Chat 2).
-Barrelchest
-    Confront Mi-Gor.
-    Defeat Barrelchest and pick-up the Barrelchest anchor.
-        Each attack will disable your prayer and remove a few prayer points.
-        Re-enabling prayer after each attack will prevent you from taking any damage.
-        Alternatively you can leave the monastery and re-enter; the boss will get stuck and can be safespotted from the entrance.
+        NOTE: It is possible and likely to fail and break the essence.
+    Use the blank runes on their respective Runecrafting altars.
+        NOTE: It is possible and likely to fail this as well.
+    Use the handmade runes on the imposing door.
+    Defeat the level 62 Slug Prince, only melee can damage it.
 Finishing up
-    Talk to Brother Tranquility.
+    Talk to Sir Tiffy Cashien (Chat 1).
     Quest complete!
+
+
 
 
 Alfred Grimhand's Barcrawl
