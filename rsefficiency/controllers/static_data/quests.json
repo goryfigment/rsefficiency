@@ -17872,5 +17872,172 @@
         }
       }
     }
+  },
+  "contact": {
+    "name": "Contact!",
+    "directory": "contact",
+    "req": [
+      {
+        "items": ["Prince Ali Rescue", "Icthlarin's Little Helper", "Gertrude's Cat"],
+        "name": "Quest Requirements"
+      },
+      {
+        "items": ["Tinderbox", "A light source (Candle, Candle Lantern, Bullsye Lantern, Bruma torch)"],
+        "name": "Items"
+      },
+      {
+        "items": ["Giant scarab (level 191)"],
+        "name": "Enemies to defeat"
+      },
+      {
+        "items": ["Nardah Teleport", "Dueling Ring (Duel Arena)", "~1000 Coins (Carpet Rides)", "Bruma torch (Can't be extinguish by traps)", "Antipoison", "Food", "Combat gear", "Stab Weapon"],
+        "name": "Recommended"
+      }
+    ],
+    "steps": {
+      "1": {
+        "step": "Talk to the High Priest. (Chat 1-5)",
+        "subtitle": "Getting started",
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Talk to the High Priest in Sophanem."]
+          }
+        }
+      },
+      "2": {
+        "step": "Talk to Jex.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Talk to Jex."]
+          }
+        }
+      },
+      "3": {
+        "step": "Climb down the nearby ladder, then the trapdoor.",
+        "subtitle": "Sophanem dungeon",
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Climb down the nearby ladder"]
+          },
+          "2": {
+            "location": ["Sophanem"],
+            "description": ["Climb down the trapdoor."]
+          }
+        }
+      },
+      "4": {
+        "step": "Follow the path through the dungeon (shown below).",
+        "details": {
+          "1": {
+            "description": ["Floor trap: Avoid using agility (14-17 damage).", "Wall trap: Avoid using Thieving (14-17 damage).", "Crusher: Avoid using the mini-map to mover (8 damage)", "Sand pits: Avoid by walking around (Scarab swarm will appear).", "Scarab trap: Avoid standing directly on one (Beware: Drops player to the LOWER LEVEL!)"]
+          },
+          "2": {
+            "description": ["Scarab traps = Lower Level", "Immediately, light your candle to prevent continuous damage!", "(Beware: This is a multi-combat area where you can take massive amount of damage quickly. Either pray mage/range/melee and climb up one of the ladders to escape!)"]
+          },
+          "3": {
+            "location": ["Sophanem dungeon"],
+            "description": ["Climb down the ladders at the end of the red path."]
+          }
+        }
+      },
+      "5": {
+        "step": "Search Kaleef's body and read the parchment.",
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Search Kaleef's body."]
+          },
+          "2": {
+            "location": ["Sophanem"],
+            "description": ["Read the parchment."]
+          }
+        }
+      },
+      "6": {
+        "step": "Talk to Maisa. (Chat 2-4)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Talk to Maisa."]
+          }
+        }
+      },
+      "7": {
+        "step": "Talk to Osman. (Chat 2-3)",
+        "subtitle": "Osman",
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Talk to Osman."]
+          }
+        }
+      },
+      "8": {
+        "step": "Talk Osman outside the gates of Sophanem. (Chat 3)",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Talk Osman outside the gates of Sophanem."]
+          }
+        }
+      },
+      "9": {
+        "step": "Follow the path through the dungeon again (shown below).",
+        "subtitle": "Giant scarab (level 191)",
+        "details": {
+          "1": {
+            "description": ["Floor trap: Avoid using agility (14-17 damage).", "Wall trap: Avoid using Thieving (14-17 damage).", "Crusher: Avoid using the mini-map to mover (8 damage)", "Sand pits: Avoid by walking around (Scarab swarm will appear).", "Scarab trap: Avoid standing directly on one (Beware: Drops player to the LOWER LEVEL!)"]
+          },
+          "2": {
+            "description": ["Scarab traps = Lower Level", "Immediately, light your candle to prevent continuous damage!", "(Beware: This is a multi-combat area where you can take massive amount of damage quickly. Either pray mage/range/melee and climb up one of the ladders to escape!)"]
+          },
+          "3": {
+            "location": ["Sophanem dungeon"],
+            "description": ["Climb down the ladders at the end of the red path."]
+          }
+        }
+      },
+      "10": {
+        "step": "Defeat the Giant scarab (level 191).",
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["(BEWARE: If you die all items lost will vanish!)", "It summons level 68 Locust riders and Scarab mages to aid it in battle. Its max hit is 20 and very poisonous with the poison damage starting at 9."]
+          }
+        }
+      },
+      "11": {
+        "step": "Pick-up Keris.",
+        "last": true,
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Finish talking to Osman then pick-up Keris."]
+          }
+        }
+      },
+      "12": {
+        "step": "Talk to the High priest.",
+        "subtitle": "Finishing up",
+        "details": {
+          "1": {
+            "location": ["Sophanem"],
+            "description": ["Talk to the High priest."]
+          }
+        }
+      },
+      "13": {
+        "step": "Quest complete!",
+        "details": {
+          "1": {}
+        }
+      }
+    }
   }
 }

@@ -1,341 +1,164 @@
 {
-  "the_slug_menace": {
-    "name": "The Slug Menace",
-    "directory": "the_slug_menace",
+  "contact!": {
+    "name": "Contact!",
+    "directory": "contact!",
     "req": [
       {
-        "items": ["Wanted!", "Sea Slug"],
+        "items": ["Prince Ali Rescue", "Icthlarin's Little Helper", "Gertrude's Cat"],
         "name": "Quest Requirements"
       },
       {
-        "items": ["30 Crafting", "30 Runescrafting", "30 Slayer", "30 Thieving"],
-        "name": "Level Requirements"
-      },
-      {
-        "items": ["Swamp paste", "Chisel", "Commorb (Talk to Sir Tiffy for another)", "5 Rune/Pure Essence (10-30 to be safe)", "(Air, Fire, Earth, Water OR Elemental Talismen and Mind Talisman/Tiara) OR Access to the Abyss"],
+        "items": ["Tinderbox", "A light source (Candle, Candle Lantern, Bullsye Lantern, Bruma torch)"],
         "name": "Items"
       },
       {
-        "items": ["Slug Prince (level 62)"],
+        "items": ["Giant scarab (level 191)"],
         "name": "Enemies to defeat"
       },
       {
-        "items": ["Falador Teleport", "Ardougne Teleport", "Lumbridge Teleport", "Varrock Teleport", "Ring of Dueling (Duel Arena)"],
+        "items": ["Nardah Teleport", "Dueling Ring (Duel Arena)", "~1000 Coins (Carpet Rides)", "Bruma torch (Can't be extinguish by traps)", "Antipoison", "Food", "Combat gear", "Stab Weapon"],
         "name": "Recommended"
       }
     ],
     "steps": {
       "1": {
-        "step": "Talk to Sir Tiffy Cashien to get a Commorb v2. (Chat 1-4)",
+        "step": "Talk to the High Priest. (Chat 1-5)",
         "subtitle": "Getting started",
         "details": {
           "1": {
-            "location": ["Falador Park"],
-            "description": ["Talk to Sir Tiffy Cashien to get a Commorb."]
+            "location": ["Sophanem"],
+            "description": ["Talk to the High Priest in Sophanem."]
           }
         }
       },
       "2": {
-        "step": "Talk to Col. O'Niall. (Chat 1-3-4)",
+        "step": "Talk to Jex.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Witchaven"],
-            "description": ["Talk to Col. O'Niall on the dock in Witchaven."]
+            "location": ["Sophanem"],
+            "description": ["Talk to Jex."]
           }
         }
       },
       "3": {
-        "step": "Talk to Brother Maledict (Chat 4)",
+        "step": "Climb down the nearby ladder, then the trapdoor.",
+        "subtitle": "Sophanem dungeon",
         "details": {
           "1": {
-            "location": ["Witchaven"],
-            "description": ["Talk to Brother Maledict"]
+            "location": ["Sophanem"],
+            "description": ["Climb down the nearby ladder"]
+          },
+          "2": {
+            "location": ["Sophanem"],
+            "description": ["Climb down the trapdoor."]
           }
         }
       },
       "4": {
-        "step": "Talk to Mayor Hobb (Chat 1-4)",
+        "step": "Follow the path through the dungeon (shown below).",
         "details": {
           "1": {
-            "location": ["Witchaven"],
-            "description": ["Talk to Mayor Hobb"]
+            "description": ["Floor trap: Avoid using agility (14-17 damage).", "Wall trap: Avoid using Thieving (14-17 damage).", "Crusher: Avoid using the mini-map to mover (8 damage)", "Sand pits: Avoid by walking around (Scarab swarm will appear).", "Scarab trap: Avoid standing directly on one (Beware: Drops player to the LOWER LEVEL!)"]
+          },
+          "2": {
+            "description": ["Scarab traps = Lower Level", "Immediately, light your candle to prevent continuous damage!", "(Beware: This is a multi-combat area where you can take massive amount of damage quickly. Either pray mage/range/melee and climb up one of the ladders to escape!)"]
+          },
+          "3": {
+            "location": ["Sophanem dungeon"],
+            "description": ["Climb down the ladders at the end of the red path."]
           }
         }
       },
       "5": {
-        "step": "Talk to Holgart.",
+        "step": "Search Kaleef's body and read the parchment.",
         "details": {
           "1": {
-            "location": ["Witchaven"],
-            "description": ["Talk to Holgart."]
+            "location": ["Sophanem"],
+            "description": ["Search Kaleef's body."]
+          },
+          "2": {
+            "location": ["Sophanem"],
+            "description": ["Read the parchment."]
           }
         }
       },
       "6": {
-        "step": "Talk to Col. O'Niall (Chat 4).",
+        "step": "Talk to Maisa. (Chat 2-4)",
         "last": true,
         "details": {
           "1": {
-            "location": ["Witchaven"],
-            "description": ["Talk to Col. O'Niall"]
+            "location": ["Sophanem"],
+            "description": ["Talk to Maisa."]
           }
         }
       },
       "7": {
-        "step": "Climb down the old ruin entrance, west of Witchaven.",
-        "subtitle": "The Shrine",
+        "step": "Talk to Osman. (Chat 2-3)",
+        "subtitle": "Osman",
         "details": {
           "1": {
-            "location": ["West Witchaven"],
-            "description": ["Climb down the old ruin entrance, west of Witchaven."]
+            "location": ["Sophanem"],
+            "description": ["Talk to Osman."]
           }
         }
       },
       "8": {
-        "step": "Push the wall right by the entrance.",
+        "step": "Talk Osman outside the gates of Sophanem. (Chat 3)",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Witchaven Dungeon"],
-            "description": ["Push the false wall right by the entrance."]
+            "location": ["Sophanem"],
+            "description": ["Talk Osman outside the gates of Sophanem."]
           }
         }
       },
       "9": {
-        "step": "Attempt to open the imposing doors.",
+        "step": "Follow the path through the dungeon again (shown below).",
+        "subtitle": "Giant scarab (level 191)",
         "details": {
           "1": {
-            "location": ["Witchaven Dungeon"],
-            "description": ["Attempt to open the imposing doors."]
+            "description": ["Floor trap: Avoid using agility (14-17 damage).", "Wall trap: Avoid using Thieving (14-17 damage).", "Crusher: Avoid using the mini-map to mover (8 damage)", "Sand pits: Avoid by walking around (Scarab swarm will appear).", "Scarab trap: Avoid standing directly on one (Beware: Drops player to the LOWER LEVEL!)"]
+          },
+          "2": {
+            "description": ["Scarab traps = Lower Level", "Immediately, light your candle to prevent continuous damage!", "(Beware: This is a multi-combat area where you can take massive amount of damage quickly. Either pray mage/range/melee and climb up one of the ladders to escape!)"]
+          },
+          "3": {
+            "location": ["Sophanem dungeon"],
+            "description": ["Climb down the ladders at the end of the red path."]
           }
         }
       },
       "10": {
-        "step": "Scan with the Commorb to acquire the door transcription.",
+        "step": "Defeat the Giant scarab (level 191).",
         "details": {
           "1": {
-            "location": ["Witchaven Dungeon"],
-            "description": ["Scan with the Commorb to acquire the door transcription."]
+            "location": ["Sophanem"],
+            "description": ["(BEWARE: If you die all items lost will vanish!)", "It summons level 68 Locust riders and Scarab mages to aid it in battle. Its max hit is 20 and very poisonous with the poison damage starting at 9."]
           }
         }
       },
       "11": {
-        "step": "Pick-up a dead sea slug.",
+        "step": "Pick-up Keris.",
+        "last": true,
         "details": {
           "1": {
-            "location": ["Witchaven Dungeon"],
-            "description": ["Pick-up a dead sea slug."]
+            "location": ["Sophanem"],
+            "description": ["Finish talking to Osman then pick-up Keris."]
           }
         }
       },
       "12": {
-        "step": "Talk to Jorral. (Chat 2 if Making History has not been started)",
-        "last": true,
+        "step": "Talk to the High priest.",
+        "subtitle": "Finishing up",
         "details": {
           "1": {
-            "location": ["North of Underground Pass"],
-            "description": ["Talk to Jorral."]
+            "location": ["Sophanem"],
+            "description": ["Talk to the High priest."]
           }
         }
       },
       "13": {
-        "step": "Talk to Col. O'Niall.",
-        "subtitle": "The 3 Pages",
-        "details": {
-          "1": {
-            "location": ["Witchaven"],
-            "description": ["Talk to Col. O'Niall."]
-          }
-        }
-      },
-      "14": {
-        "step": "Talk to Brother Maledict.",
-        "details": {
-          "1": {
-            "location": ["Witchaven"],
-            "description": ["Talk to Brother Maledict."]
-          }
-        }
-      },
-      "15": {
-        "step": "Search the Mayor's desk.",
-        "details": {
-          "1": {
-            "location": ["Witchaven"],
-            "description": ["Search the Mayor's desk."]
-          }
-        }
-      },
-      "16": {
-        "step": "Talk to Ezekial Lovecraft (Chat 4).",
-        "details": {
-          "1": {
-            "location": ["Witchaven"],
-            "description": ["Talk to Ezekial Lovecraft"]
-          }
-        }
-      },
-      "17": {
-        "step": "Talk to Col. O'Niall.",
-        "details": {
-          "1": {
-            "location": ["Witchaven"],
-            "description": ["Talk to Col. O'Niall."]
-          }
-        }
-      },
-      "18": {
-        "step": "Use swamp paste on one of the fragments.",
-        "details": {
-          "1": {
-            "description": ["Use swamp paste on one of the fragments."]
-          }
-        }
-      },
-      "19": {
-        "step": "Right-click and choose 'travel' on Jeb.",
-        "details": {
-          "1": {
-            "location": ["Witchaven"],
-            "description": ["Right-click and choose 'travel' on Jeb."]
-          }
-        }
-      },
-      "20": {
-        "step": "Talk to Bailey.",
-        "details": {
-          "1": {
-            "location": ["Fishing Platform"],
-            "description": ["Talk to Bailey."]
-          }
-        }
-      },
-      "21": {
-        "step": "Use the sea slug glue on a fragment, then solve the puzzle.",
-        "last": true,
-        "details": {
-          "1": {
-            "description": ["Use the sea slug glue on a fragment."]
-          },
-          "2": {
-            "description": ["Move, turn and flip over the pages displayed below to solve the puzzle."]
-          }
-        }
-      },
-      "22": {
-        "step": "Right click each shape-option on the pages to shape essence into air, water, fire, earth, and mind.",
-        "subtitle": "Opening the Imposing Door",
-        "details": {
-          "1": {
-            "description": ["Right-click Page 1 and choose 'Shape-Earth' to get a blank earth rune."]
-          },
-          "2": {
-            "description": ["Right-click Page 1 and choose 'Shape-Air' to get a blank air rune."]
-          },
-          "3": {
-            "description": ["Right-click Page 2 and choose 'Shape-Fire' to get a blank fire rune."]
-          },
-          "4": {
-            "description": ["Right-click Page 2 and choose 'Shape-Water' to get a blank water rune."]
-          },
-          "5": {
-            "description": ["Right-click Page 3 and choose 'Shape-Mind' to get a blank mind rune."]
-          }
-        }
-      },
-      "23": {
-        "step": "Use the blank runes on their respective Runecrafting altars.",
-        "details": {
-          "1": {
-            "location": ["South of Falador"],
-            "description": ["Enter the air altar."]
-          },
-          "2": {
-            "location": ["Air altar"],
-            "description": ["Use the blank air rune on the air altar."]
-          },
-          "3": {
-            "location": ["Between Ice Mountain and Goblin Village"],
-            "description": ["Enter the mind altar."]
-          },
-          "4": {
-            "location": ["Mind Altar"],
-            "description": ["Use the blank mind rune on the mind altar."]
-          },
-          "5": {
-            "location": ["Lumbridge Swamp"],
-            "description": ["Enter the water altar."]
-          },
-          "6": {
-            "location": ["Water altar"],
-            "description": ["Use the blank water rune on the water altar."]
-          },
-          "7": {
-            "location": ["North-east of Varrock"],
-            "description": ["Enter the earth altar."]
-          },
-          "8": {
-            "location": ["Earth altar"],
-            "description": ["Use the blank earth rune on the earth altar."]
-          },
-          "9": {
-            "location": ["North-east of Al Kharid"],
-            "description": ["Enter the fire altar."]
-          },
-          "10": {
-            "location": ["Fire altar"],
-            "description": ["Use the blank fire rune on the fire altar."]
-          },
-          "11": {
-            "description": ["Or enter the abyss and access the rune altars from here."]
-          }
-        }
-      },
-      "24": {
-        "step": "Use the hand-made runes on the imposing door.",
-        "details": {
-          "1": {
-            "location": ["Witchaven Dungeon"],
-            "description": ["Use the air rune on the imposing door."]
-          },
-          "2": {
-            "location": ["Witchaven Dungeon"],
-            "description": ["Use the mind rune on the imposing door."]
-          },
-          "3": {
-            "location": ["Witchaven Dungeon"],
-            "description": ["Use the water rune on the imposing door."]
-          },
-          "4": {
-            "location": ["Witchaven Dungeon"],
-            "description": ["Use the earth rune on the imposing door."]
-          },
-          "5": {
-            "location": ["Witchaven Dungeon"],
-            "description": ["Use the fire rune on the imposing door."]
-          }
-        }
-      },
-      "25": {
-        "step": "Defeat the level 62 Slug Prince, only melee can damage it.",
-        "last": true,
-        "details": {
-          "1": {
-            "location": ["Witchaven Dungeon"],
-            "description": ["Defeat the level 62 Slug Prince, only melee can damage it."]
-          }
-        }
-      },
-      "26": {
-        "step": "Talk to Sir Tiffy Cashien (Chat 1).",
-        "subtitle": "Finishing up",
-        "details": {
-          "1": {
-            "location": ["Falador Park"],
-            "description": ["Talk to Sir Tiffy Cashien"]
-          }
-        }
-      },
-      "27": {
         "step": "Quest complete!",
         "details": {
           "1": {}
