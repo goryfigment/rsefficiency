@@ -234,37 +234,60 @@ Getting started
 
 
 
-Contact!
-Quest Requirements: Prince Ali Rescue, Icthlarin's Little Helper, Gertrude's Cat
-Items: Tinderbox, A light source (Candle, Candle Lantern, Bullsye Lantern)
-Enemies to defeat: Giant scarab (level 191)
-Recommended: Nardah Teleport, Dueling Ring (Duel Arena), ~1000 Coins (Carpet Rides), Bruma torch (Can't be extinguish by traps), Antipoison, Food, Combat gear, Stab Weapon
-Getting started
-    Talk to the High Priest in Sophanem. (Chat 1-5)
-    Talk to Jex.
-Sophanem dungeon
-    Climb down the nearby ladder, then the trapdoor.
-    Follow the path through the dungeon (shown below).
-        Protection from magic is recommended. It is also recommended to turn off auto-retaliate in the combat tab.
-    Search Kaleef's body and read the parchment.
-    Talk to Maisa. (Chat 2-4)
-        Answers: Draynor Village and Leela.
-Osman
-    Talk to Osman. (Chat 2-3)
-        Answer: It would drive a wedge between the Menaphite cities.
-    Talk Osman outside the gates of Sophanem. (Chat 3)
-        Answer: I know of a secret entrance to the north.
-Giant scarab (level 191)
-    Navigate the tunnels to the ladder again.
-    Defeat the Giant scarab (level 191).
-        Make sure you're well prepared; if you die during the fight, your stuff vanishes, and there is no way to reclaim it!
-    Pick-up Keris.
+Starting out
+    Talk to Commander Veldaban in Keldagrim, just west of the bank. (Chat 2🯍)
+    Talk to the drunken dwarf. (Chat 2)
+    Talk to the drunken dwarf again to give him a beer. (Chat 2)
+Getting the seeds
+    Talk rowdy dwarf and he will request a random item.
+    Talk to Khorvak in the pub under White Wolf Mountain(use the minecarts). Give him a dwarven stout to get the seed.
+    (Optional) Buy a ticket from the card conductor for 100 coins (50 if Ring of charos is used) to get back to Keldagrim
+    Talk to Gauss in the bar south of the bank (western side of Keldagrim). Give him cheers with another beer.
+Planting the crops
+    Go just west of the market in west Keldagrim and talk to Rind the gardener.
+    Plant the kelda seeds (there is a rake south of the patch).
+    They will grow in 5-20 minutes and cannot die, you will get a chat notification when ready.
+    Harvest the kelda hops.
+Brewing
+    Go upstairs in the East Keldagrim pub.
+    Buy ale yeast from Blandebir for 25 coins. (Empty pot spawn can be found near the vat) (Chat 4�1)
+    Add to the vat add in order:
+    2 buckets of water.
+    2 barley malts.
+    Kelda hops.
+    Ale yeast.
+    Wait 5-20 minutes for the notification again.
+    Turn the valve and use an empty beer glass on the barrel.
+    Return to the drunken dwarf's house and talk about the Red Axe. (Chat 2)
+Exploring the closed tunnel
+    Talk to the cart conductors in southeastern Keldagrim (southernmost cart conductor).
+    Only one of them will let you ask about the closed-off tunnel.
+    Talk to the director of the mining company you joined in The Giant Dwarf. (Chat 3)
+    Return to the minecarts and ride the southernmost cart (no ticket necessary).
+Room 1
+    Search the box.
+    Use the machinery.
+    Set up the path shown in the "Part 1" image.
+    Click OK and ride the cart to collect more stones.
+    Return on the cart then input the next path.
+    Collect the stones and return again.
+    Input the third path to move on to the next room.
+Room 2
+    Cross over and leave.
+Room 3
+    Complete the puzzle in the same manner as the first one.
+Room 4
+    Search the crates and bookshelves until you've read 3 documents relating to the Red Axe.
+Room 5
+    Complete the puzzle in the same manner as the previous ones.
+Room 6
+    Watch the cutscene.
 Finishing up
-    Talk to the High priest.
+    Talk to Commander Veldaban.
+    Buy a kebab from the kebab shop in East Keldagrim if you don't already have one (north of the pub).
+    Buy a beer in the East Keldagrim pub if you don't already have one.
+    While in the pub (in the east side of Keldagrim) drink your beer and eat your kebab.
     Quest complete!
-
-
-
 
 Alfred Grimhand's Barcrawl
 Scorpion Catcher

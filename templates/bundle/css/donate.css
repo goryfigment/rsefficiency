@@ -66,6 +66,10 @@
     color: #1bdb1b;
 }
 
+.warning {
+    color: red;
+}
+
 #donate-description {
     background-color: #1F2739;
     color: #FFFFFF;
